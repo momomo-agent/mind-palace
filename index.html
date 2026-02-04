@@ -174,6 +174,80 @@
       fill: #888;
       pointer-events: none;
     }
+    /* Mobile nav */
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #1a1a1a;
+      border-top: 1px solid #333;
+      z-index: 100;
+      padding: 8px 0;
+      padding-bottom: env(safe-area-inset-bottom, 8px);
+    }
+    .mobile-nav-inner {
+      display: flex;
+      justify-content: space-around;
+    }
+    .mobile-nav button {
+      background: none;
+      border: none;
+      color: #888;
+      font-size: 0.75rem;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+    .mobile-nav button.active {
+      color: #6366f1;
+    }
+    /* Mobile responsive */
+    @media (max-width: 768px) {
+      #app {
+        flex-direction: column;
+      }
+      #graph-container {
+        height: 45vh;
+        display: none;
+      }
+      #graph-container.active {
+        display: block;
+      }
+      #sidebar {
+        width: 100%;
+        height: 100vh;
+        border-left: none;
+        display: none;
+      }
+      #sidebar.active {
+        display: flex;
+      }
+      .mobile-nav {
+        display: block;
+      }
+      body {
+        padding-bottom: 60px;
+      }
+      .sidebar-header {
+        padding: 16px;
+      }
+      .sidebar-header h1 {
+        font-size: 1.2rem;
+      }
+      #search-box {
+        padding: 12px 16px;
+      }
+      #themes-panel {
+        padding: 12px 16px;
+      }
+      #detail-panel {
+        padding: 16px;
+      }
+      .detail-card {
+        padding: 14px;
+      }
+    }
 </style>
 </head>
 <body>
@@ -190,6 +264,12 @@
     <div id="themes-panel"></div>
     <div id="detail-panel"></div>
   </div>
+  <nav class="mobile-nav">
+    <div class="mobile-nav-inner">
+      <button id="nav-list" class="active">📋 列表</button>
+      <button id="nav-graph">🕸️ 图谱</button>
+    </div>
+  </nav>
 </div>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
@@ -205,6 +285,35 @@ function init() {
   renderThemes();
   renderGraph();
   renderList();
+  initMobileNav();
+}
+
+function initMobileNav() {
+  const navList = document.getElementById('nav-list');
+  const navGraph = document.getElementById('nav-graph');
+  const sidebar = document.getElementById('sidebar');
+  const graphContainer = document.getElementById('graph-container');
+  
+  if (!navList || !navGraph) return;
+  
+  // Default: show list on mobile
+  sidebar.classList.add('active');
+  
+  navList.addEventListener('click', () => {
+    sidebar.classList.add('active');
+    graphContainer.classList.remove('active');
+    navList.classList.add('active');
+    navGraph.classList.remove('active');
+  });
+  
+  navGraph.addEventListener('click', () => {
+    graphContainer.classList.add('active');
+    sidebar.classList.remove('active');
+    navGraph.classList.add('active');
+    navList.classList.remove('active');
+    // Re-render graph for correct sizing
+    setTimeout(renderGraph, 100);
+  });
 }
 
 function renderSearch() {
