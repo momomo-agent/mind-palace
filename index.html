@@ -22,11 +22,27 @@
     }
     #sidebar {
       width: 380px;
+      min-width: 300px;
+      max-width: 70vw;
       background: #1a1a1a;
       border-left: 1px solid #333;
       display: flex;
       flex-direction: column;
       overflow: hidden;
+      position: relative;
+    }
+    #resize-handle {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 6px;
+      cursor: ew-resize;
+      background: transparent;
+      z-index: 10;
+    }
+    #resize-handle:hover {
+      background: #6366f1;
     }
     .sidebar-header {
       padding: 20px;
@@ -88,6 +104,11 @@
       flex: 1;
       overflow-y: auto;
       padding: 20px;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
     }
     .detail-card {
       background: #252525;
@@ -277,6 +298,7 @@
     <svg id="graph"></svg>
   </div>
   <div id="sidebar">
+    <div id="resize-handle"></div>
     <div class="sidebar-header">
       <h1>🏛️ Mind Palace</h1>
       <p>kenefe 的思维宫殿</p>
@@ -307,6 +329,34 @@ function init() {
   renderGraph();
   renderList();
   initMobileNav();
+  initResize();
+}
+
+function initResize() {
+  const handle = document.getElementById('resize-handle');
+  const sidebar = document.getElementById('sidebar');
+  if (!handle || !sidebar) return;
+  
+  let isResizing = false;
+  
+  handle.addEventListener('mousedown', (e) => {
+    isResizing = true;
+    document.body.style.cursor = 'ew-resize';
+    e.preventDefault();
+  });
+  
+  document.addEventListener('mousemove', (e) => {
+    if (!isResizing) return;
+    const newWidth = window.innerWidth - e.clientX;
+    if (newWidth >= 300 && newWidth <= window.innerWidth * 0.7) {
+      sidebar.style.width = newWidth + 'px';
+    }
+  });
+  
+  document.addEventListener('mouseup', () => {
+    isResizing = false;
+    document.body.style.cursor = '';
+  });
 }
 
 function initMobileNav() {
@@ -387,11 +437,12 @@ function renderList(query = '') {
     );
   }
   
-  let html = '';
+  let html = '<div class="cards-grid">';
   items.forEach(item => {
     html += renderCard(item);
   });
-  panel.innerHTML = html || '<p style="color:#666">没有匹配的书签</p>';
+  html += '</div>';
+  panel.innerHTML = items.length ? html : '<p style="color:#666">没有匹配的书签</p>';
 }
 
 function renderCard(item) {
@@ -620,10 +671,11 @@ function showThemeDetail(theme, items) {
   let html = `<div class="cluster-header">
     <h2 style="color:${theme.color}">${theme.name}</h2>
     <p style="color:#888;margin-bottom:16px">${items.length} 条收藏</p>
-  </div>`;
+  </div><div class="cards-grid">`;
   items.forEach(item => {
     html += renderCard(item);
   });
+  html += '</div>';
   panel.innerHTML = html;
 }
 
