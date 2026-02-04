@@ -4,13 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mind Palace - kenefe's Knowledge Graph</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg-cream: #FAF8F5;
+      --bg-warm: #F5F2ED;
+      --text-primary: #2C2825;
+      --text-secondary: #6B635A;
+      --text-muted: #9C948A;
+      --border: #E5E0D8;
+      --accent-terracotta: #C4785A;
+      --accent-sage: #7A8B6E;
+      --accent-slate: #5A6B7A;
+      --accent-plum: #8B6E7A;
+      --accent-gold: #B8A060;
+    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #0f0f0f;
-      color: #e0e0e0;
-      overflow: hidden;
+      font-family: 'Source Serif 4', Georgia, serif;
+      background: var(--bg-cream);
+      color: var(--text-primary);
+      line-height: 1.6;
+      font-size: 15px;
     }
     #app {
       display: flex;
@@ -19,13 +36,14 @@
     #graph-container {
       flex: 1;
       position: relative;
+      background: var(--bg-warm);
+      border-right: 1px solid var(--border);
     }
     #sidebar {
-      width: 380px;
-      min-width: 300px;
+      width: 420px;
+      min-width: 320px;
       max-width: 70vw;
-      background: #1a1a1a;
-      border-left: 1px solid #333;
+      background: var(--bg-cream);
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -36,152 +54,178 @@
       left: 0;
       top: 0;
       bottom: 0;
-      width: 6px;
+      width: 5px;
       cursor: ew-resize;
       background: transparent;
       z-index: 10;
     }
     #resize-handle:hover {
-      background: #6366f1;
+      background: var(--accent-terracotta);
+      opacity: 0.5;
     }
     .sidebar-header {
-      padding: 20px;
-      border-bottom: 1px solid #333;
+      padding: 32px 28px 24px;
+      border-bottom: 1px solid var(--border);
     }
     .sidebar-header h1 {
-      font-size: 1.4rem;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
       margin-bottom: 4px;
     }
     .sidebar-header p {
       font-size: 0.85rem;
-      color: #888;
+      color: var(--text-muted);
+      font-style: italic;
     }
     #search-box {
-      padding: 16px 20px;
-      border-bottom: 1px solid #333;
+      padding: 20px 28px;
+      border-bottom: 1px solid var(--border);
     }
     #search-box input {
       width: 100%;
-      padding: 10px 14px;
-      background: #252525;
-      border: 1px solid #444;
-      border-radius: 8px;
-      color: #e0e0e0;
+      padding: 12px 16px;
+      background: var(--bg-warm);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text-primary);
+      font-family: inherit;
       font-size: 0.9rem;
     }
     #search-box input:focus {
       outline: none;
-      border-color: #6366f1;
+      border-color: var(--text-muted);
+    }
+    #search-box input::placeholder {
+      color: var(--text-muted);
     }
     #themes-panel {
-      padding: 16px 20px;
-      border-bottom: 1px solid #333;
+      padding: 20px 28px;
+      border-bottom: 1px solid var(--border);
     }
     #themes-panel h3 {
-      font-size: 0.8rem;
-      color: #888;
+      font-size: 0.7rem;
+      color: var(--text-muted);
       margin-bottom: 12px;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.1em;
+      font-weight: 400;
     }
     .theme-tag {
       display: inline-block;
-      padding: 6px 12px;
-      margin: 4px;
-      border-radius: 16px;
+      padding: 6px 14px;
+      margin: 3px;
+      border-radius: 20px;
       font-size: 0.8rem;
       cursor: pointer;
       transition: all 0.2s;
-      border: 1px solid transparent;
+      border: 1px solid var(--border);
+      background: transparent;
     }
     .theme-tag:hover {
-      filter: brightness(1.2);
+      border-color: var(--text-muted);
     }
     .theme-tag.active {
-      border-color: #fff;
+      background: var(--text-primary);
+      color: var(--bg-cream);
+      border-color: var(--text-primary);
     }
     #detail-panel {
       flex: 1;
       overflow-y: auto;
-      padding: 20px;
+      padding: 24px 28px;
     }
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 12px;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
     }
     .detail-card {
-      background: #252525;
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 12px;
+      background: var(--bg-cream);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px;
+      transition: border-color 0.2s;
+    }
+    .detail-card:hover {
+      border-color: var(--text-muted);
     }
     .detail-card h2 {
+      font-family: 'Playfair Display', Georgia, serif;
       font-size: 1rem;
+      font-weight: 500;
       margin-bottom: 8px;
       line-height: 1.4;
     }
     .detail-card h2 a {
-      color: #e0e0e0;
+      color: var(--text-primary);
       text-decoration: none;
     }
     .detail-card h2 a:hover {
-      color: #6366f1;
+      color: var(--accent-terracotta);
     }
     .detail-card .note {
       font-size: 0.85rem;
-      color: #aaa;
-      line-height: 1.6;
+      color: var(--text-secondary);
+      line-height: 1.7;
       margin-bottom: 12px;
     }
     .detail-card .meta {
       font-size: 0.75rem;
-      color: #666;
+      color: var(--text-muted);
     }
     .detail-card .tags {
-      margin-top: 8px;
+      margin-top: 10px;
     }
     .detail-card .tag {
       display: inline-block;
-      padding: 3px 8px;
-      background: #333;
-      border-radius: 4px;
+      padding: 2px 8px;
+      border: 1px solid var(--border);
+      border-radius: 3px;
       font-size: 0.7rem;
       margin-right: 4px;
-      color: #aaa;
+      color: var(--text-muted);
     }
     .highlights {
       margin-bottom: 12px;
     }
     .highlight-item {
       display: block;
-      padding: 8px 12px;
-      background: linear-gradient(135deg, #6366f122, #10b98122);
-      border-left: 3px solid #6366f1;
-      border-radius: 0 8px 8px 0;
+      padding: 10px 14px;
+      background: var(--bg-warm);
+      border-left: 2px solid var(--accent-terracotta);
       margin-bottom: 6px;
       font-size: 0.85rem;
-      color: #e0e0e0;
+      color: var(--text-secondary);
       line-height: 1.5;
+      font-style: italic;
     }
     .related-section {
-      margin-top: 16px;
-      padding-top: 16px;
-      border-top: 1px solid #333;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
     }
     .related-section h4 {
-      font-size: 0.75rem;
-      color: #888;
+      font-size: 0.7rem;
+      color: var(--text-muted);
       margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
     .related-item {
       font-size: 0.8rem;
-      padding: 6px 0;
-      color: #aaa;
+      padding: 4px 0;
+      color: var(--text-secondary);
       cursor: pointer;
     }
     .related-item:hover {
-      color: #6366f1;
+      color: var(--accent-terracotta);
+    }
+    .cluster-header h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.4rem;
+      margin-bottom: 4px;
     }
     #graph {
       width: 100%;
@@ -194,101 +238,67 @@
       transition: all 0.2s;
     }
     .node:hover circle {
-      filter: brightness(1.3);
+      filter: brightness(0.9);
     }
     .node.selected circle {
-      stroke: #fff;
-      stroke-width: 3px;
+      stroke: var(--text-primary);
+      stroke-width: 2px;
     }
     .link {
-      stroke: #333;
+      stroke: var(--border);
       stroke-opacity: 0.6;
     }
     .node-label {
-      font-size: 10px;
-      fill: #888;
+      font-family: 'Source Serif 4', serif;
+      font-size: 9px;
+      fill: var(--text-muted);
       pointer-events: none;
     }
-    .cluster-label {
-      font-size: 13px;
-      fill: #fff;
+    .theme-label {
+      font-size: 11px;
+      fill: var(--text-primary);
+      font-weight: 500;
     }
-    .cluster-node circle {
-      filter: drop-shadow(0 4px 12px rgba(0,0,0,0.4));
-    }
-    /* Mobile nav */
     .mobile-nav {
       display: none;
       position: fixed;
       bottom: 0;
       left: 0;
       right: 0;
-      background: #1a1a1a;
-      border-top: 1px solid #333;
+      background: var(--bg-cream);
+      border-top: 1px solid var(--border);
       z-index: 100;
-      padding: 8px 0;
-      padding-bottom: env(safe-area-inset-bottom, 8px);
+      padding: 10px 0;
+      padding-bottom: env(safe-area-inset-bottom, 10px);
     }
     .mobile-nav-inner {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
+      gap: 32px;
     }
     .mobile-nav button {
       background: none;
       border: none;
-      color: #888;
-      font-size: 0.75rem;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.85rem;
       padding: 8px 16px;
       cursor: pointer;
     }
     .mobile-nav button.active {
-      color: #6366f1;
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--text-primary);
     }
-    /* Mobile responsive */
     @media (max-width: 768px) {
-      #app {
-        flex-direction: column;
-      }
-      #graph-container {
-        height: 45vh;
-        display: none;
-      }
-      #graph-container.active {
-        display: block;
-      }
-      #sidebar {
-        width: 100%;
-        height: 100vh;
-        border-left: none;
-        display: none;
-      }
-      #sidebar.active {
-        display: flex;
-      }
-      .mobile-nav {
-        display: block;
-      }
-      body {
-        padding-bottom: 60px;
-      }
-      .sidebar-header {
-        padding: 16px;
-      }
-      .sidebar-header h1 {
-        font-size: 1.2rem;
-      }
-      #search-box {
-        padding: 12px 16px;
-      }
-      #themes-panel {
-        padding: 12px 16px;
-      }
-      #detail-panel {
-        padding: 16px;
-      }
-      .detail-card {
-        padding: 14px;
-      }
+      #app { flex-direction: column; }
+      #graph-container { height: 45vh; display: none; border-right: none; border-bottom: 1px solid var(--border); }
+      #graph-container.active { display: block; }
+      #sidebar { width: 100%; height: 100vh; display: none; }
+      #sidebar.active { display: flex; }
+      .mobile-nav { display: block; }
+      body { padding-bottom: 60px; }
+      .sidebar-header { padding: 20px; }
+      #search-box, #themes-panel, #detail-panel { padding: 16px 20px; }
     }
 </style>
 </head>
@@ -300,27 +310,25 @@
   <div id="sidebar">
     <div id="resize-handle"></div>
     <div class="sidebar-header">
-      <h1>🏛️ Mind Palace</h1>
-      <p>kenefe 的思维宫殿</p>
+      <h1>Mind Palace</h1>
+      <p>A curated collection of thoughts</p>
     </div>
     <div id="search-box"></div>
     <div id="themes-panel"></div>
     <div id="detail-panel"></div>
   </div>
-  <nav class="mobile-nav">
-    <div class="mobile-nav-inner">
-      <button id="nav-list" class="active">📋 列表</button>
-      <button id="nav-graph">🕸️ 图谱</button>
-    </div>
-  </nav>
 </div>
+<nav class="mobile-nav">
+  <div class="mobile-nav-inner">
+    <button id="nav-list" class="active">Index</button>
+    <button id="nav-graph">Graph</button>
+  </div>
+</nav>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
 const DATA = {"meta":{"syncedAt":"2026-02-04T09:43:12.017Z","count":50},"themes":[{"id":"moltbot-ecosystem","name":"Moltbot/Clawdbot 生态","keywords":["moltbot","clawdbot","steipete","peter steinberger"],"color":"#6366f1"},{"id":"ai-agent-tools","name":"AI Agent 工具链","keywords":["agent","skill","browser","cli","automation"],"color":"#10b981"},{"id":"ai-reflection","name":"AI 时代反思","keywords":["thinking","vibe coding","builder","thinker"],"color":"#f59e0b"},{"id":"ai-products","name":"AI 产品/应用","keywords":["app","product","variant"],"color":"#ec4899"}],"items":[{"_id":1576971307,"link":"https://x.com/FuSheng_0306/status/2018967988905636138","excerpt":"有一说一现在的App确实非常臃肿，页面里全是各种复杂的菜单、会员、广告。Openclaw创始人预测的未来里，用户只用做一件事：说出你的需求，Agent就能现场为你造出一个专属工具。\n这就是我说的：所有的产品都值得用大模型重做一遍。","note":"傅盛转发 Peter Steinberger 观点：你很快就不需要 App 了——未来用户只需说出需求，Agent 就能现场造出专属工具。「所有的产品都值得用大模型重做一遍」。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/amplify_video_thumb/2018967826032361473/img/_NPG_2MsNk83fYQ5.jpg:large","tags":["AI","Article"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://pbs.twimg.com/amplify_video_thumb/2018967826032361473/img/_NPG_2MsNk83fYQ5.jpg:large"}],"created":"2026-02-04T09:39:52.146Z","lastUpdate":"2026-02-04T09:40:00.362Z","domain":"x.com","title":"Openclaw开发者Peter Steinberger：你很快就不需要App了","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1576971307,"highlights":[],"collectionId":-1,"themes":["moltbot-ecosystem","ai-agent-tools","ai-products"],"highlights_text":["未来用户只需说出需求，Agent 就能现场造出专属工具","你很快就不需要 App 了——未来用户只需说出需求","所有的产品都值得用大模型重做一遍"]},{"_id":1576662684,"link":"https://x.com/dangreenheck/status/2018751547035795458","excerpt":"Powered by TSL and WebGPU. Real-time previews. Human readable code. Type inference. The list goes on.\n\nThe free plan will include a fully featured editor (except for custom code nodes) with export to TSL so you can","note":"Dan Greenheck 正在为 Three.js 打造一流的 Shader Graph 编辑器——基于 TSL + WebGPU，支持实时预览、可读代码输出、类型推断；免费版功能完整（除自定义代码节点），可导出 TSL。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/amplify_video_thumb/2018748947720806400/img/fVd8WC_JWEYLZ4Fm.jpg:large","tags":["Develop","Design"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://pbs.twimg.com/amplify_video_thumb/2018748947720806400/img/fVd8WC_JWEYLZ4Fm.jpg:large"}],"created":"2026-02-04T05:54:25.949Z","lastUpdate":"2026-02-04T05:54:33.357Z","domain":"x.com","title":"I'm building a first-class shader graph editor for Three.js.","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1576662684,"highlights":[],"collectionId":-1,"themes":[],"highlights_text":["基于 TSL + WebGPU，支持实时预览、可读代码输出、类型推断"]},{"_id":1576613469,"link":"https://www.jernesto.com/articles/thinking_hard","excerpt":"","note":"\"I miss thinking hard\"：作者反思 AI 时代对深度思考的影响。将自己分为 Builder（追求效率/产出）和 Thinker（享受长时间深度思考解决难题）两面；Vibe coding 满足了 Builder，却让 Thinker 饥饿——AI 提供 70% 的\"够用\"方案，实用主义让人难以拒绝，但深度成长感消失了。","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://rdl.ink/render/https%3A%2F%2Fwww.jernesto.com%2Farticles%2Fthinking_hard","tags":["AI","Article","Note"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[],"created":"2026-02-04T05:23:30.762Z","lastUpdate":"2026-02-04T05:23:41.845Z","domain":"jernesto.com","title":"I miss thinking hard.","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1576613469,"highlights":[],"collectionId":-1,"themes":["ai-reflection"],"highlights_text":["AI 提供 70% 的\"够用\"方案，实用主义让人难以拒绝，但深度成长感消失了","作者反思 AI 时代对深度思考的影响","I miss thinking hard"]},{"_id":1568546461,"link":"https://github.com/vercel-labs/agent-browser","excerpt":"Browser automation CLI for AI agents","note":"agent-browser：Vercel Labs 出品的 Headless 浏览器自动化 CLI，专为 AI Agent 设计。Rust CLI + Node.js fallback，支持 snapshot（可访问性树 + refs）、click/fill/screenshot/pdf 等操作，适合 Agent 驱动的网页交互与截图。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://opengraph.githubassets.com/e5f07febe83bbc078b625d6c066f1a661c371722afdf51a6b8f3bad0d9371ce5/vercel-labs/agent-browser","tags":["AI","Develop"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://opengraph.githubassets.com/e5f07febe83bbc078b625d6c066f1a661c371722afdf51a6b8f3bad0d9371ce5/vercel-labs/agent-browser"}],"created":"2026-01-30T16:23:44.993Z","lastUpdate":"2026-01-30T16:23:51.746Z","domain":"github.com","title":"vercel-labs/agent-browser: Browser automation CLI for AI agents","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1568546461,"highlights":[],"collectionId":-1,"themes":["ai-agent-tools"],"highlights_text":["Vercel Labs 出品的 Headless 浏览器自动化 CLI"]},{"_id":1568498887,"link":"https://skills.sh/intellectronica/agent-skills/beautiful-mermaid","excerpt":"Discover and install skills for AI agents.","note":"Beautiful Mermaid Skill：将 Mermaid 图表渲染为 SVG/PNG 的 Agent Skill。支持 Flowchart/Sequence/State/Class/ER 等图表类型，提供多种主题（Dracula/Tokyo Night/Nord/GitHub 等），需配合 agent-browser 截图生成高清 PNG。","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://skills.sh/intellectronica/agent-skills/beautiful-mermaid/opengraph-image?fe05e621ffb25e70","tags":["AI","Develop"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://skills.sh/intellectronica/agent-skills/beautiful-mermaid/opengraph-image?fe05e621ffb25e70"}],"created":"2026-01-30T16:08:38.624Z","lastUpdate":"2026-01-30T16:08:51.334Z","domain":"skills.sh","title":"beautiful-mermaid by intellectronica/agent-skills","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1568498887,"highlights":[],"collectionId":-1,"themes":["ai-agent-tools"],"highlights_text":["将 Mermaid 图表渲染为 SVG/PNG 的 Agent Skill"]},{"_id":1568497711,"link":"https://x.com/intellectronica/status/2016830813665648723","excerpt":"https://t.co/kl0tEjbyNN","note":"Eleanor Berger 分享的新 SKILL：使用 Beautiful Mermaid 库将 Mermaid 图表渲染为 SVG/PNG。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/profile_images/1998656086987980800/mTwCcf33_200x200.jpg","tags":["AI","Develop"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://pbs.twimg.com/profile_images/1998656086987980800/mTwCcf33_200x200.jpg"}],"created":"2026-01-30T16:07:06.316Z","lastUpdate":"2026-01-30T16:07:12.241Z","domain":"x.com","title":"New SKILL: Render beautiful Mermaid diagrams to SVG / PNG using the Beautiful Mermaid library","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1568497711,"highlights":[],"collectionId":-1,"themes":["ai-agent-tools"],"highlights_text":["使用 Beautiful Mermaid 库将 Mermaid 图表渲染为 SV"]},{"_id":1568169529,"link":"https://www.moltbook.com/post/0299ca48-b607-4c19-ab71-7cd3612e9b69","excerpt":"A social network built exclusively for AI agents. Where AI agents share, discuss, and upvote. Humans welcome to observe.","note":"Moltbook 的单个帖子页面（当前页面内容抓取受限/仅返回站点页脚）。若你能提供帖子的标题/正文要点，我再补更精确的 tag 和摘要。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://moltbook.com/opengraph-image?456d992ddc0a4ab5","tags":["AI","Internet","App"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://moltbook.com/opengraph-image?456d992ddc0a4ab5"},{"type":"image","link":"https://moltbook.com/twitter-image?456d992ddc0a4ab5"}],"created":"2026-01-30T10:26:20.498Z","lastUpdate":"2026-01-30T10:26:27.773Z","domain":"moltbook.com","title":"moltbook - the front page of the agent internet","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1568169529,"highlights":[],"collectionId":-1,"themes":["ai-agent-tools","ai-products"],"highlights_text":["Moltbook 的单个帖子页面（当前页面内容抓取受限/仅返回站点页脚）"]},{"_id":1568169449,"link":"https://www.moltbook.com/","excerpt":"A social network built exclusively for AI agents. Where AI agents share, discuss, and upvote. Humans welcome to observe.","note":"Moltbook：面向 AI Agents 的社交网络/信息流，智能体可在此分享、讨论、投票；人类可旁观。提供加入流程（moltbook.com/skill.md）。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://moltbook.com/opengraph-image?456d992ddc0a4ab5","tags":["AI","Internet","App"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://moltbook.com/opengraph-image?456d992ddc0a4ab5"},{"type":"image","link":"https://moltbook.com/twitter-image?456d992ddc0a4ab5"}],"created":"2026-01-30T10:26:04.178Z","lastUpdate":"2026-01-30T10:26:09.949Z","domain":"moltbook.com","title":"moltbook - the front page of the agent internet","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1568169449,"highlights":[],"collectionId":-1,"themes":["ai-agent-tools","ai-products"],"highlights_text":["面向 AI Agents 的社交网络/信息流"]},{"_id":1567660543,"link":"https://mp.weixin.qq.com/s/9ddNSmqZzWKO7XXz_y0_tg","excerpt":"简单背后的不简单，成功是必然！","note":"微信文章：深度解析：Moltbot 底层架构。正文抓取被限制，当前仅拿到标题/作者信息；你若需要更精细的 tag/摘要，贴下正文或要点给我。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://mmbiz.qpic.cn/mmbiz_jpg/90Kxd0FAJJdTNqmMbmZpibKkaZCzibl6iaTiaCBeKRLqE1l3xibUxBOhucgz6FBS1psdwxXQCvYbwlUltvsgtC2BxRg/0?wx_fmt=jpeg","tags":["AI","Article","Internet"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://mmbiz.qpic.cn/mmbiz_jpg/90Kxd0FAJJdTNqmMbmZpibKkaZCzibl6iaTiaCBeKRLqE1l3xibUxBOhucgz6FBS1psdwxXQCvYbwlUltvsgtC2BxRg/0?wx_fmt=jpeg"}],"created":"2026-01-30T02:26:41.786Z","lastUpdate":"2026-01-30T02:28:54.036Z","domain":"mp.weixin.qq.com","title":"深度解析：Moltbot 底层架构","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1567660543,"highlights":[],"collectionId":-1,"themes":["moltbot-ecosystem"],"highlights_text":["深度解析：Moltbot 底层架构"]},{"_id":1566697821,"link":"https://variant.ai/","excerpt":"","note":"Variant AI（variant.ai）：官网内容抓取受限（Next.js/RSC），已先按 AI + App + Internet 归档；如果你告诉我它具体做什么/一句话定位，我再把描述补全并更精细选 tag。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://rdl.ink/render/https%3A%2F%2Fvariant.ai%2F","tags":["AI","App","Internet"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[],"created":"2026-01-29T10:06:38.882Z","lastUpdate":"2026-01-29T10:11:39.645Z","domain":"variant.ai","title":"Variant","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566697821,"highlights":[],"collectionId":-1,"themes":["ai-products"],"highlights_text":["官网内容抓取受限（Next.js/RSC）"]},{"_id":1566667042,"link":"https://x.com/wquguru/status/2016685995090153800","excerpt":"","note":"WquGuru 转发的链接（t.co → X Article）。X Article 正文这边抓不到（提示该页面不支持/需登录），先按 Article/Internet 归档；你给我文章标题/要点/截图后我再补更准确的 tag 和摘要。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/media/G_y1Nn3bUAEHMgN.jpg:large","tags":["AI","Article","Internet"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://pbs.twimg.com/media/G_y1Nn3bUAEHMgN.jpg:large"}],"created":"2026-01-29T09:08:48.532Z","lastUpdate":"2026-01-29T09:14:54.294Z","domain":"x.com","title":"日均上百commit：Moltbot（Clawdbot）如何兼顾产品路线图和开发速度","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566667042,"highlights":[],"collectionId":-1,"themes":["moltbot-ecosystem"],"highlights_text":["WquGuru 转发的链接（t.co → X Article）"]},{"_id":1566664687,"link":"https://mp.weixin.qq.com/s/n6M3K1PngL0C0fdQ0ij7Aw","excerpt":"学不完，真的学不完。","note":"访谈/报道：Peter Steinberger（Clawdbot→Moltbot 作者）——卖公司财富自由后躺平三年，复出研究 AI；从 WhatsApp 接口 + 截图/语音等多模态交互得到 aha moment，逐步做出可操控 Mac 的 AI agent 系统；爆火后 Discord 挤爆、被要求改名、面临安全报告与维护压力等。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/ePTzepwoNWMTnrUVpbAKNkcLRFicC7CLyFBUxRUPmUeGM37JtS0DIszprd3l2Ff05D8qYeCfqA0vFzTPBeXHu6A/0?wx_fmt=jpeg","tags":["AI","Article","Internet"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/ePTzepwoNWMTnrUVpbAKNkcLRFicC7CLyFBUxRUPmUeGM37JtS0DIszprd3l2Ff05D8qYeCfqA0vFzTPBeXHu6A/0?wx_fmt=jpeg"}],"created":"2026-01-29T09:01:45.908Z","lastUpdate":"2026-01-29T09:03:14.913Z","domain":"mp.weixin.qq.com","title":"Clawdbot 之父最新访谈：身家过亿，躺平三年，一人手搓出开年最大 AI 爆款","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566664687,"highlights":[],"collectionId":-1,"themes":["moltbot-ecosystem","ai-agent-tools","ai-products"],"highlights_text":["卖公司财富自由后躺平三年，复出研究 AI","Peter Steinberger（Clawdbot→Moltbot 作者）——"]},{"_id":1566660416,"link":"https://x.com/shao__meng/status/2016766349629145128?s=46","excerpt":"Vercel 团队测试了两种让 AI Coding Agent 获取新知识的方法：\n· Skills：按需调用的工具包，包含提示词和文档，Agent","note":"meng shao：Vercel 团队实验——给 AI Coding Agent 提供框架知识时，被动的上下文文件（AGENTS.md）比复杂的按需调用 Skills 更有效；对比了 Skills vs 上下文文件两种供给方式，并给出反直觉结论。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/media/G_z-OolbUAAaezr.jpg:large","tags":["AI","Develop","Article"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://pbs.twimg.com/media/G_z-OolbUAAaezr.jpg:large"}],"created":"2026-01-29T08:54:13.590Z","lastUpdate":"2026-01-29T08:54:40.405Z","domain":"x.com","title":"Vercel 团队的反直觉实验结论：为 AI Coding Agent 提供框架知识时，简单被动的上下文文件「AGENTS. md」比复杂的、主动调用的「Skills」更有效","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566660416,"highlights":[],"collectionId":-1,"themes":["ai-agent-tools"],"highlights_text":["Vercel 团队实验——给 AI Coding Agent 提供框架知识时"]},{"_id":1566657322,"link":"https://x.com/akokoi1/status/2016420074203287825","excerpt":"","note":"WY 转发的链接（t.co → X Article）。原文内容 X 侧无法直接抓取；先按 Article/Internet 归档，后续你给我标题/要点我再补更精确的 tag/描述。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/media/G_vBYjJbAAEsZFG.jpg:large","tags":["AI","Article","Internet"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://pbs.twimg.com/media/G_vBYjJbAAEsZFG.jpg:large"}],"created":"2026-01-29T08:46:49.854Z","lastUpdate":"2026-01-29T09:14:52.908Z","domain":"x.com","title":"我开源了一个工具：10 分钟让 Clawdbot 接入飞书机器人","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566657322,"highlights":[],"collectionId":-1,"themes":["moltbot-ecosystem"],"highlights_text":["WY 转发的链接（t.co → X Article）"]},{"_id":1566657038,"link":"https://x.com/_kaichen/status/2016736112669307372","excerpt":"打造 CLI 武器库\n\n他批量开发各种命令行工具，每个工具做好一件事：\n- bird 读写 Twitter/X\n- gifgrep 搜索 GIF\n- gogcli 访问 Google","note":"kAI：从 steipete（Clawdbot/Moltbot 之父）的 GitHub 提交记录看，他在搭建一套让 AI 真正操控 Mac 的 CLI 工具武器库（bird/gifgrep/gogcli 等）。","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/profile_images/1930926021127393280/QmAGZqSL_200x200.jpg","tags":["Develop","AI","Internet","Note"],"removed":false,"collection":{"$ref":"collections","$id":-1,"oid":-1},"media":[{"type":"image","link":"https://pbs.twimg.com/profile_images/1930926021127393280/QmAGZqSL_200x200.jpg"}],"created":"2026-01-29T08:45:59.606Z","lastUpdate":"2026-01-29T08:51:46.211Z","domain":"x.com","title":"从 Clawdbot/Moltbot 之父 steipete 在 GitHub 上 2025 年中开始的代码提交记录可以看到，他的所有开发都在为同一个目标服务：让 AI 真正能操控计算机（Mac）","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566657038,"highlights":[],"collectionId":-1,"themes":["moltbot-ecosystem","ai-agent-tools"],"highlights_text":["从 steipete（Clawdbot/Moltbot 之父）的 GitHub"]},{"_id":1566616904,"link":"https://twin.so/","excerpt":"Build and deploy AI agents to automate your business tasks.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://rdl.ink/render/https%3A%2F%2Ftwin.so%2F","tags":["Design","Develop"],"removed":false,"media":[],"created":"2026-01-29T08:22:19.493Z","lastUpdate":"2026-01-29T08:26:51.787Z","domain":"twin.so","title":"Twin - The AI company builder","collection":{"$ref":"collections","$id":-1,"oid":-1},"creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566616904,"highlights":[],"collectionId":-1,"themes":["ai-reflection"],"highlights_text":[]},{"_id":1566275144,"link":"https://github.com/steipete/Peekaboo","title":"GitHub - steipete/Peekaboo: Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.","excerpt":"Peekaboo is a macOS CLI &amp; optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remot...","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://opengraph.githubassets.com/52f962e5df742ee6f703c8ff02c0a093c98491030b158ca6f5a0d6f9a365bb89/steipete/Peekaboo","media":[{"link":"https://opengraph.githubassets.com/52f962e5df742ee6f703c8ff02c0a093c98491030b158ca6f5a0d6f9a365bb89/steipete/Peekaboo","type":"image"},{"link":"https://github.com/steipete/Peekaboo/raw/main/assets/peekaboo.png","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2026-01-29T01:29:31.858Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2026-01-29T01:29:31.858Z","domain":"github.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1566275144,"collectionId":-1,"themes":["moltbot-ecosystem","ai-agent-tools","ai-products"],"highlights_text":[]},{"_id":1551209593,"link":"https://x.com/GitHub_Daily/status/2012839649946091616","title":"X 上的 GitHubDaily：“AI 生成 UI 的思路要变了，Vercel Labs 团队最近开源 json-render，正在推翻旧规则。 抛弃以往不稳定的代码生成，实现全新的生成流程：AI → JSON → UI，短短三天，就斩获 6000+ Star。 其核心逻辑，不再让 AI 自由发挥，而是强制它在“护栏”内运行，输出完全可预测的结构化数据。 https://t.co/wLfkM3XDPN” / X","excerpt":"抛弃以往不稳定的代码生成，实现全新的生成流程：AI → JSON → UI，短短三天，就斩获 6000+ Star。\n\n其核心逻辑，不再让 AI 自由发挥，而是强制它在“护栏”内运行，输出完全可预测的结构化数据。","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pbs.twimg.com/media/G-7CCZ-WUAA_S92?format=jpg&name=large","media":[{"link":"https://pbs.twimg.com/media/G-7CCZ-WUAA_S92?format=jpg&name=large","type":"image"},{"link":"https://pbs.twimg.com/media/G-0icDOWMAAoCvE?format=jpg&name=medium","type":"image"},{"link":"https://pbs.twimg.com/amplify_video_thumb/2012302737724293124/img/QlHAAg9B2HDgL6UB.jpg","type":"image"},{"link":"https://pbs.twimg.com/card_img/2011306493493329922/f9SMZrGE?format=jpg&name=medium","type":"image"}],"tags":["AI","OS","Design"],"important":false,"reminder":{"date":null},"removed":false,"created":"2026-01-19T02:23:34.853Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2026-01-19T02:23:44.688Z","domain":"x.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1551209593,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":1540468561,"link":"https://design.google/library/gemini-ai-visual-design","title":"Gemini AI Visual Design - Google Design","excerpt":"Explore how Google designers use gradients, motion, and foundational shapes to build trust and intuition within the evolving Gemini AI assistant experience.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://storage.googleapis.com/gd-prod/images/3356558e-bde2-4d2b-b1e5-2edeb962dc6b.0db06b6b53a87fb0.png","media":[{"link":"https://storage.googleapis.com/gd-prod/images/3356558e-bde2-4d2b-b1e5-2edeb962dc6b.0db06b6b53a87fb0.png","type":"image"},{"link":"https://design.google/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgd-prod%2Fimages%2Fb890aa2a-7eef-4b04-be84-f1fccb1b8382.799a99c1196c2fd4.webp&w=3840&q=75","type":"image"},{"link":"https://design.google/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgd-prod%2Fimages%2F73568e59-9979-4891-83b3-f7693e72d5f7.799a99c1196c2fd4.webp&w=3840&q=75","type":"image"},{"link":"https://design.google/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fgd-prod%2Fimages%2F9f97656e-7e92-470b-b9ca-b8049d673563.799a99c1196c2fd4.webp&w=3840&q=75","type":"image"}],"tags":["Design","AI","OS"],"important":false,"reminder":{"date":null},"removed":false,"created":"2026-01-13T07:58:02.746Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2026-01-13T07:58:13.224Z","domain":"design.google","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1540468561,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":1540454272,"link":"https://notes.andymatuschak.org/About_these_notes","title":"About these notes","excerpt":"","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://rdl.ink/render/https%3A%2F%2Fnotes.andymatuschak.org%2FAbout_these_notes","media":[],"tags":["Design"],"important":false,"reminder":{"date":null},"removed":false,"created":"2026-01-13T07:43:21.421Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2026-01-13T07:43:38.423Z","domain":"notes.andymatuschak.org","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1540454272,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1527042502,"link":"https://www.notion.com/blog/steam-steel-and-infinite-minds-ai","title":"Steam, Steel, and Infinite Minds","excerpt":"Every era is shaped by its miracle material. Steel forged the Gilded Age. Semiconductors switched on the Digital Age. Now AI has arrived as infinite minds. If history teaches us anything, those who master the material define the era.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://images.ctfassets.net/spoqsaf9291f/uts9aElqOyfc4aimLyfZk/091341e0a6a10be1a99eb42b5b280993/Steam__Steel__and_Infinite_Minds.png","media":[{"link":"https://images.ctfassets.net/spoqsaf9291f/uts9aElqOyfc4aimLyfZk/091341e0a6a10be1a99eb42b5b280993/Steam__Steel__and_Infinite_Minds.png","type":"image"},{"link":"https://www.notion.com/_next/image?url=%2Ffront-static%2Fmeta%2Fstartups_background.png&w=384&q=75","type":"image"},{"link":"https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F3FB59yYIDw05SoCRrtGoB%2Ffd7b0e1aa1abfca7fb9803e5214a21c5%2F1.jpeg&w=3840&q=75","type":"image"},{"link":"https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F6y5RarrZ7Ug6vh1MONNboK%2F2ecbcf6f7c7a087e912f11277a457dfa%2F2.jpeg&w=3840&q=75","type":"image"},{"link":"https://www.notion.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fspoqsaf9291f%2F6ku2cSeU22PJk1evKqJ0Q7%2F06ff1f3233a39fcbbcd0e31d396fdf21%2F3.jpeg&w=3840&q=75","type":"image"}],"tags":["Article"],"important":false,"reminder":{"date":null},"removed":false,"created":"2026-01-05T07:28:01.766Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2026-01-05T07:28:03.450Z","domain":"notion.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1527042502,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1524231105,"link":"https://astiopin.github.io/2019/01/06/sdf-on-gpu.html","title":"Sdf on gpu","excerpt":"","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://rdl.ink/render/https%3A%2F%2Fastiopin.github.io%2F2019%2F01%2F06%2Fsdf-on-gpu.html","media":[],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2026-01-04T02:19:08.862Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2026-01-04T02:19:08.862Z","domain":"astiopin.github.io","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1524231105,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1524200400,"link":"https://www.pbr-book.org/3ed-2018/contents","title":"Physically Based Rendering: From Theory to Implementation","excerpt":"","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://rdl.ink/render/https%3A%2F%2Fwww.pbr-book.org%2F3ed-2018%2Fcontents","media":[],"tags":["Render","Design","Develop"],"important":false,"reminder":{"date":null},"removed":false,"created":"2026-01-04T01:51:47.582Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2026-01-04T01:52:11.782Z","domain":"pbr-book.org","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1524200400,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1505944471,"link":"https://sharp-ml.vercel.app/","title":"Image to 3D — Transform Photos to 3D","excerpt":"Convert any image into an interactive 3D scene using Apple's ml-sharp technology. Upload, transform, and explore in seconds.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://sharp-ml.vercel.app/og-image.png","media":[{"link":"https://sharp-ml.vercel.app/og-image.png","type":"image"}],"tags":["Apple","App","Render"],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-12-23T01:49:02.600Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-12-23T01:49:13.460Z","domain":"sharp-ml.vercel.app","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1505944471,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":1422362448,"link":"https://developers.meta.com/horizon/downloads/package/renderdoc-meta-fork-for-mac-installer","title":"RenderDoc Meta Fork for Mac","excerpt":"Debug graphics during development for Meta Quest devices. See the way your app’s engine determined how a scene should be rendered for a single frame.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"","media":[],"tags":["Render","App","Android"],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-11-05T09:23:57.563Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-11-05T09:24:10.376Z","domain":"developers.meta.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1422362448,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":1341731095,"link":"http://localhost:3000/","title":"Weather Simulation","excerpt":"","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"","media":[],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-09-15T06:47:26.789Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-09-15T06:47:26.789Z","domain":"localhost:3000","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1341731095,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1216041460,"link":"https://github.com/miloyip/light2d","title":"miloyip/light2d: Light rendering in 2D","excerpt":"Light rendering in 2D. Contribute to miloyip/light2d development by creating an account on GitHub.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://opengraph.githubassets.com/5405939bca7d210610fa4127501860c64ffbaacbf41666979911e73022e54d58/miloyip/light2d","media":[{"link":"https://opengraph.githubassets.com/5405939bca7d210610fa4127501860c64ffbaacbf41666979911e73022e54d58/miloyip/light2d","type":"image"},{"link":"https://github.com/miloyip/light2d/raw/master/basic_a64.png","type":"image"},{"link":"https://github.com/miloyip/light2d/raw/master/basic_varyingn.png","type":"image"},{"link":"https://github.com/miloyip/light2d/raw/master/basic_b64.png","type":"image"},{"link":"https://github.com/miloyip/light2d/raw/master/basic_c64.png","type":"image"}],"tags":["Render","Develop","Design"],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-07-04T05:02:22.340Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-07-04T05:02:26.073Z","domain":"github.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1216041460,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1165919125,"link":"https://h3.dev/guide","title":"Getting Started - H3","excerpt":"Get started with H3.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://h3.dev/_og/guide.png?name=H3&title=Getting+Started&description=Get+started+with+H3.","media":[{"link":"https://h3.dev/_og/guide.png?name=H3&title=Getting+Started&description=Get+started+with+H3.","type":"image"}],"tags":["Develop"],"highlights":[],"important":false,"removed":false,"created":"2025-06-15T01:53:58.668Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"lastUpdate":"2025-06-15T01:54:06.449Z","domain":"h3.dev","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1165919125,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1162211616,"link":"https://zhuanlan.zhihu.com/p/1916563574836426243?utm_psn=1916950292110483467&utm_source=wechat_timeline&utm_medium=social&s_r=0","title":"HDR UI 的到来，不是炫技，而是设计感知逻辑的重构。","excerpt":"—— 一份关于 EDR 渲染机制、设计语言演化与亮度认知模型的系统化文献 第一章：EDR，不只是“更亮”那么简单 当人们第一次在 iOS 26 或 visionOS 中看到那些“比白色还亮”的桌面图标时，我会将它称之为 “HDR UI…","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://pic1.zhimg.com/v2-a00372de322002d02a84592562c6a3f8_1440w.jpg","media":[{"link":"https://pic1.zhimg.com/v2-a00372de322002d02a84592562c6a3f8_1440w.jpg","type":"image"},{"link":"https://pic2.zhimg.com/v2-2f5d78d9335d73e1715ced959a3f62a7_1440w.jpg","type":"image"},{"link":"https://pic3.zhimg.com/v2-3c1a0b92966f7651c6113535ca74fe02_1440w.jpg","type":"image"},{"link":"https://picx.zhimg.com/v2-83b20bbdb7f720622ad745722c03f00e_qhd.jpg?source=172ae18b","type":"image"},{"link":"https://picx.zhimg.com/v2-bbca76ce1efb410075990fefc0b4bb02_qhd.jpg?source=172ae18b","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-06-13T14:45:57.630Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-06-13T14:45:57.630Z","domain":"zhuanlan.zhihu.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1162211616,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1145819654,"link":"https://agathayu.substack.com/p/conversations-give-dimensions","title":"Conversations give dimensions","excerpt":"Having conversations with computer is a new way to amplify our thoughts.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fagathayu.substack.com%2Fapi%2Fv1%2Fpost_preview%2F158247502%2Ftwitter.jpg%3Fversion%3D4","media":[{"link":"https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fagathayu.substack.com%2Fapi%2Fv1%2Fpost_preview%2F158247502%2Ftwitter.jpg%3Fversion%3D4","type":"image"},{"link":"https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdca15fdd-9c05-44e3-b706-a2b5af6bc26a_2048x1152.png","type":"image"},{"link":"https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf66883e-15bd-46cf-bc94-e0c1151eeeb3_1456x816.png","type":"image"},{"link":"https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc3b833f5-4e08-48b9-8c40-8b01c97b6387_2912x1632.heic","type":"image"},{"link":"https://substackcdn.com/image/fetch/w_320,h_213,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F904f7c85-47ad-47a1-9f60-c2506523f526_2912x1632.png","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-06-08T04:39:50.399Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-06-08T04:39:50.400Z","domain":"agathayu.substack.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1145819654,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1145814619,"link":"https://jasonyuan.substack.com/p/god-is-a-parasite?r=5vnh3&utm_campaign=post&utm_medium=web&triedRedirect=true","title":"God is a Parasite","excerpt":"An unrated manifesto on interfacing with intelligence","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fjasonyuan.substack.com%2Fapi%2Fv1%2Fpost_preview%2F165036715%2Ftwitter.jpg%3Fversion%3D4","media":[{"link":"https://substackcdn.com/image/fetch/f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fjasonyuan.substack.com%2Fapi%2Fv1%2Fpost_preview%2F165036715%2Ftwitter.jpg%3Fversion%3D4","type":"image"},{"link":"https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc06b5b53-7f3b-47cb-90e2-f9dc09192362_1920x1080.heic","type":"image"}],"tags":["Article","OS","Design","AI"],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-06-08T04:25:03.778Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-06-08T04:40:23.305Z","domain":"jasonyuan.substack.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1145814619,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":1145717374,"link":"https://mp.weixin.qq.com/s/GIbZ_AzX5DcU45F2R54S_g","title":"我在考思考Android系统动个性能优化的大手术的可行性","excerpt":"","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/RHllNfWIsxmUaB6039nZVhIUH5NG8WgibegaEz3kNIjj5bgINuCsKIdFTfATibyKn9TlenbKtQj2U4huIGEfIlzg/0?wx_fmt=jpeg","media":[{"type":"image","link":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/RHllNfWIsxmUaB6039nZVhIUH5NG8WgibegaEz3kNIjj5bgINuCsKIdFTfATibyKn9TlenbKtQj2U4huIGEfIlzg/0?wx_fmt=jpeg"}],"tags":["Android","Develop","Article"],"important":false,"removed":false,"created":"2025-06-08T02:27:47.212Z","highlights":[],"lastUpdate":"2025-06-08T02:29:21.311Z","domain":"mp.weixin.qq.com","collection":{"$ref":"collections","$id":-1,"oid":-1},"creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1145717374,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1145717294,"link":"https://mp.weixin.qq.com/s/c-tVBbiPJ6jW2t_KAZCbBA","title":"snapDOM 上线即爆火，html2canvas 被彻底淘汰？","excerpt":"大家好，很高兴又见面了，我是\\x26quot;前端技术进阶\\x26quot;，由我带着大家一起关注前端前沿、深入前端底层技术，大家一起进步，也","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/SibfwoC5Anaic0aHzDgJlhhk7cMicylxLOHqvpWRKy4kKVOibzYQNFGP6rtplFflFZG7vRtxn73Y0dKJfNOd7YcUVQ/0?wx_fmt=jpeg","media":[{"type":"image","link":"https://mmbiz.qpic.cn/sz_mmbiz_jpg/SibfwoC5Anaic0aHzDgJlhhk7cMicylxLOHqvpWRKy4kKVOibzYQNFGP6rtplFflFZG7vRtxn73Y0dKJfNOd7YcUVQ/0?wx_fmt=jpeg"}],"tags":["Android","Develop","Article"],"important":false,"removed":false,"created":"2025-06-08T02:27:22.190Z","highlights":[],"lastUpdate":"2025-06-08T02:29:13.582Z","domain":"mp.weixin.qq.com","collection":{"$ref":"collections","$id":-1,"oid":-1},"creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1145717294,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1135575203,"link":"https://www.lux.camera/physicality-the-new-age-of-ui/","title":"Physicality: the new age of UI","excerpt":"There’s a lot of rumors of a big impending UI redesign from Apple. Let’s imagine what’s (or what could be) next for the design of iPhones, Macs and iPads.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://www.lux.camera/content/images/size/w1200/2025/06/spicy-shot.jpg","media":[{"link":"https://www.lux.camera/content/images/size/w1200/2025/06/spicy-shot.jpg","type":"image"},{"link":"https://www.lux.camera/content/images/size/w2000/2025/06/spicy-shot.jpg","type":"image"},{"link":"https://www.lux.camera/content/images/size/w1600/2025/05/6C7813786-screen-shot-2013-06-10-2-55-04-pm-2.png","type":"image"},{"link":"https://www.lux.camera/content/images/2025/05/dashboard-big.jpg","type":"image"},{"link":"https://www.lux.camera/content/images/2025/06/GqOEumybAAEslMm.jpeg","type":"image"}],"tags":["Design","OS"],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-06-04T04:47:16.568Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-06-04T04:47:41.925Z","domain":"lux.camera","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1135575203,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1128992474,"link":"https://uxdesign.cc/an-introduction-to-generative-uis-01dcf6bca808","title":"An introduction to Generative UIs","excerpt":"Using AI to make better and easier interfaces for your users","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://miro.medium.com/v2/resize:fit:1200/1*iqLmqrTK_KYKIDkHGCAJSA.png","media":[{"link":"https://miro.medium.com/v2/resize:fit:1200/1*iqLmqrTK_KYKIDkHGCAJSA.png","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:2000/format:webp/1*iqLmqrTK_KYKIDkHGCAJSA.png","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2v0P-BgWWazAx_FWeoP7zg.png","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:2000/format:webp/1*wBuftLJ4RqmQsaSrFyStvg.png","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*W-UGtkr-Bo8CKeu06y4lBQ.png","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-06-02T06:49:58.695Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-06-02T06:49:58.695Z","domain":"uxdesign.cc","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1128992474,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1128767891,"link":"https://medium.com/ai-disruption/the-frontend-is-dead-long-live-the-interface-how-genui-is-quietly-changing-the-webs-dna-19b76789d2a8","title":"The Frontend Is Dead, Long Live the Interface: How GenUI is Quietly Changing the Web’s DNA","excerpt":"Reimagining Human-Computer Interaction in the Age of AI 🧠","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://miro.medium.com/v2/resize:fit:720/1*6nF8PazQrH0non5CKPlMdw.jpeg","media":[{"link":"https://miro.medium.com/v2/resize:fit:720/1*6nF8PazQrH0non5CKPlMdw.jpeg","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*6nF8PazQrH0non5CKPlMdw.jpeg","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:1400/format:webp/1*7_Me18nku0DSvheKjBvCqw.png","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:1358/1*8xS8s4SBaFMhdvl5Cwfpbw.jpeg","type":"image"},{"link":"https://miro.medium.com/v2/resize:fit:1358/1*hoAHNSogYpJ6nZVrPVXmoA.png","type":"image"}],"tags":["AI","OS"],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-06-02T05:32:10.390Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-06-02T05:32:15.026Z","domain":"medium.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1128767891,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":1044296804,"link":"https://github.com/AlexStrNik/OpenLava","title":"AlexStrNik/OpenLava: OpenLava is an open-source implementation of the Lava media format, originally created by Airbnb","excerpt":"OpenLava is an open-source implementation of the Lava media format, originally created by Airbnb - AlexStrNik/OpenLava","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://opengraph.githubassets.com/368b5f0c2f0461087a9b28fa0a11dab87a412d2c7f22e7c6bff94870268f3c14/AlexStrNik/OpenLava","media":[{"link":"https://opengraph.githubassets.com/368b5f0c2f0461087a9b28fa0a11dab87a412d2c7f22e7c6bff94870268f3c14/AlexStrNik/OpenLava","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-05-19T10:10:08.180Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-05-19T10:10:08.180Z","domain":"github.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1044296804,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":1038283614,"link":"https://spectrum.ieee.org/story-behind-pixars-cgi-software","title":"The Story Behind Pixar’s RenderMan CGI Software","excerpt":"Used to create Toy Story, the tools revolutionized animation","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://spectrum.ieee.org/media-library/image.jpg?id=51803645&width=1200&height=600&coordinates=0%2C192%2C0%2C192","media":[{"link":"https://spectrum.ieee.org/media-library/image.jpg?id=51803645&width=1200&height=600&coordinates=0%2C192%2C0%2C192","type":"image"},{"link":"https://spectrum.ieee.org/media-library/a-red-haired-man-sits-at-a-computer-with-a-render-of-cowboy-woody-from-toy-story-on-the-screen.jpg?id=51803645&width=2400&height=1618","type":"image"},{"link":"https://spectrum.ieee.org/media-library/a-group-of-people-standing-next-to-a-plaque-on-a-table-with-a-screen-projected-behind-them-that-reads-renderman-ieee-milestone-a.jpg?id=51803709&width=1800&quality=85","type":"image"},{"link":"https://spectrum.ieee.org/media-library/a-black-and-white-photo-of-three-bearded-men-in-casual-clothes-sitting-in-front-of-old-computers.jpg?id=51803758&width=1800&quality=85","type":"image"},{"link":"https://spectrum.ieee.org/media-library/a-black-and-white-photo-of-a-bearded-man-sitting-in-front-of-an-old-computer.jpg?id=51803819&width=1800&quality=85","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2025-05-12T03:11:24.583Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2025-05-12T03:11:24.583Z","domain":"spectrum.ieee.org","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":1038283614,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":891032663,"link":"https://github.com/iawia002/lux","title":"GitHub - iawia002/lux: 👾 Fast and simple video download library and CLI tool written in Go","excerpt":"👾 Fast and simple video download library and CLI tool written in Go - iawia002/lux","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://opengraph.githubassets.com/d8cfb3a231e76475d0728850ace9b91551e9ceb08f2552165bc44f129e6a260e/iawia002/lux","media":[{"link":"https://opengraph.githubassets.com/6f0fecc9b8eefab5fda00247c5afe1cdacedf3a90d68e7c32673bed6b1255e50/iawia002/lux","type":"image"}],"tags":[],"highlights":[],"important":false,"removed":false,"created":"2024-11-02T22:18:49.420Z","collection":{"$ref":"collections","$id":10852934,"oid":10852934},"lastUpdate":"2024-11-02T22:19:00.204Z","domain":"github.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":891032663,"collectionId":10852934,"themes":["ai-agent-tools"],"highlights_text":[]},{"_id":856144577,"link":"https://theapplewiki.com/wiki/Mica_Player","title":"Mica Player","excerpt":"Mica is Apple's internal CAAR editor and assembler.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://theapplewiki.com/resources/applewiki/banner.png","media":[{"link":"https://theapplewiki.com/resources/applewiki/banner.png","type":"image"},{"link":"https://theapplewiki.com/images/applewiki/thumb/1/15/Mica_Screen.png/600px-Mica_Screen.png","type":"image"},{"link":"https://theapplewiki.com/images/applewiki/thumb/0/08/Mica_Screen_2.png/600px-Mica_Screen_2.png","type":"image"}],"tags":["Apple","Render","Develop"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-09-17T14:09:01.360Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-09-17T14:09:08.220Z","domain":"theapplewiki.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":856144577,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":853938556,"link":"https://xiaomi.f.mioffice.cn/docx/doxk4b8oMZOKApeFiijfzSQkFig","title":"⁣⁡‍‌‍‍‌⁢ ‌⁡‍ ‌⁢​⁣ ‬‍‬‬⁢‍⁢‬​⁢⁤⁡​​​ ⁢‍ ​‌‬⁡‌​⁢⁣⁡⁣ 基于列表滑动场景的帧率变化感知研究 - 飞书云文档","excerpt":"","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://internal-api-drive-stream.f.mioffice.cn/space/api/box/stream/download/preview/boxk4RydTZRaVreZcRSBNFujGBg/?preview_type=16","media":[{"link":"https://internal-api-drive-stream.f.mioffice.cn/space/api/box/stream/download/preview/boxk4RydTZRaVreZcRSBNFujGBg/?preview_type=16","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-09-14T10:50:02.902Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-09-14T10:50:02.902Z","domain":"xiaomi.f.mioffice.cn","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":853938556,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":849401155,"link":"https://tympanus.net/codrops/2024/06/12/shape-lens-blur-effect-with-sdfs-and-webgl/","title":"Shape Lens Blur Effect with SDFs and WebGL | Codrops","excerpt":"An introduction on harnessing the power of Signed Distance Fields (SDFs) to draw shapes in WebGL and create interactive effects, such as lens blur.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/06/sdfblur.png?x80028","media":[{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/06/sdfblur.png?x80028","type":"image"},{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/05/0.png?x80028","type":"image"},{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/05/Screenshot-2024-05-31-at-15.20.22-1536x1536.jpg?x80028","type":"image"},{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/05/step1-1536x1536.png?x80028","type":"image"},{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/05/step2-1536x1536.png?x80028","type":"image"}],"tags":["Design","Develop"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-09-06T13:13:41.609Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-09-06T13:13:44.738Z","domain":"tympanus.net","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":849401155,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":841781702,"link":"https://www.yumejournal.com/","title":"Yume - Never forget your dreams again","excerpt":"Your dreams hold the key to unlocking the mysteries of your subconscious mind. With Yume, you can ensure every dream is remembered.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://framerusercontent.com/images/QzrWcwQnWhWJMn30JjYyY68Lhcw.png","media":[{"link":"https://framerusercontent.com/images/QzrWcwQnWhWJMn30JjYyY68Lhcw.png","type":"image"},{"link":"https://framerusercontent.com/images/Ye06F72gpocT3Tb9vNEh82ejL64.png","type":"image"},{"link":"https://framerusercontent.com/images/O0QKe8PgoLS8ERrgJi7xdWUBlA.png","type":"image"},{"link":"https://framerusercontent.com/images/EMbvuvaT1ameI4qDY1rq75KMuw0.png","type":"image"},{"link":"https://framerusercontent.com/images/FVjFUhHXxT6JW74aAcxBCpD1lc.jpeg","type":"image"}],"tags":["App"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-08-26T08:58:44.780Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-08-26T08:58:49.547Z","domain":"yumejournal.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":841781702,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":835168896,"link":"https://www.rudrank.com/exploring-swiftui-animating-mesh-gradient-with-colors-in-ios-18/","title":"Exploring SwiftUI: Animating Mesh Gradient with Colors in iOS 18","excerpt":"Discover the power of SwiftUI's MeshGradient in iOS 18! Learn to create animated mesh gradients using a 3x3 color grid. This tutorial breaks down the process step-by-step, from setting up SIMD2Float points to animating color shifts.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://www.rudrank.com/content/images/size/w1200/2024/08/IMG_7138-1.JPG","media":[{"link":"https://www.rudrank.com/content/images/size/w1200/2024/08/IMG_7138-1.JPG","type":"image"},{"link":"https://www.rudrank.com/content/images/2024/08/IMG_7138.JPG","type":"image"},{"link":"https://www.rudrank.com/content/images/size/w1200/2024/07/Screenshot-2024-07-27-at-16.07.28.png","type":"image"}],"tags":["Design","Develop","Render"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-08-15T07:08:34.916Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-08-15T07:08:49.124Z","domain":"rudrank.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":835168896,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":826983319,"link":"https://blog.viditb.com/action-centered-design/","title":"The way we interact with apps is changing, so should the way they are designed.","excerpt":"The current state of apps and the advent of Apple Intelligence makes it important to have an action centered design approach to designing apps. The phone is only a part of a much larger ecosystem.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://blog.viditb.com/content/images/2024/08/Multple-Forms-of-Consumption@2x.png","media":[{"link":"https://blog.viditb.com/content/images/2024/08/Multple-Forms-of-Consumption@2x.png","type":"image"},{"link":"https://blog.viditb.com/content/images/size/w1600/2024/08/Multiple-Platforms-iPhone@2x.png","type":"image"},{"link":"https://blog.viditb.com/content/images/size/w1600/2024/08/Multiple-Platforms-iPad@2x.png","type":"image"},{"link":"https://blog.viditb.com/content/images/size/w1600/2024/08/Multiple-Platforms-iMac@2x.png","type":"image"},{"link":"https://blog.viditb.com/content/images/size/w1600/2024/08/Multiple-Platforms-Vision-Pro@2x.png","type":"image"}],"tags":["Design","Apple"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-08-02T02:40:00.019Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-08-02T02:40:05.410Z","domain":"blog.viditb.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":826983319,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":825492995,"link":"https://tools.rotato.app/compress","title":"Video file compressor","excerpt":"视频压缩工具","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://rdl.ink/render/https%3A%2F%2Ftools.rotato.app%2Fcompress","media":[],"tags":["Design","Develop","App"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-07-31T02:11:13.156Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-07-31T02:11:34.579Z","domain":"tools.rotato.app","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":825492995,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":825418227,"link":"https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models.pdf","title":"Apple intelligence foundation language models","excerpt":"","note":"","type":"document","user":{"$ref":"users","$id":457938},"cover":"","media":[],"tags":[],"highlights":[],"important":false,"removed":false,"created":"2024-07-31T00:47:25.274Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"lastUpdate":"2024-07-31T00:47:28.654Z","domain":"machinelearning.apple.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":825418227,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":824960520,"link":"https://github.com/CatMe0w/zouxian?tab=readme-ov-file","title":"GitHub - CatMe0w/zouxian: Permanent Apple Intelligence + Xcode Predictive Code Completion for Chinese-market Mac computers","excerpt":"Permanent Apple Intelligence + Xcode Predictive Code Completion for Chinese-market Mac computers - CatMe0w/zouxian","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://opengraph.githubassets.com/73744f278a0db047adaf58a9c7df5fc67b4b04df9b09147668109777272996cc/CatMe0w/zouxian","media":[{"link":"https://opengraph.githubassets.com/73744f278a0db047adaf58a9c7df5fc67b4b04df9b09147668109777272996cc/CatMe0w/zouxian","type":"image"}],"tags":["Develop","Apple"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-07-30T09:41:53.967Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-07-30T09:42:00.274Z","domain":"github.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":824960520,"collectionId":-1,"themes":["ai-products"],"highlights_text":[]},{"_id":814765361,"link":"https://tympanus.net/codrops/2024/07/09/creating-an-animated-displaced-sphere-with-a-custom-three-js-material/","title":"Creating an Animated Displaced Sphere with a Custom Three.js Material | Codrops","excerpt":"Learn how to create an animated, displaced sphere using custom shaders with Three.js and React Three Fiber.","note":"","type":"article","user":{"$ref":"users","$id":457938},"cover":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/07/sphere.jpg?x11129","media":[{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/07/sphere.jpg?x11129","type":"image"},{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/06/1-basic-setup-1536x993.png?x11129","type":"image"},{"link":"https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2023/10/codrops-tshirt_small_sidebar.jpg?x11129","type":"image"}],"tags":["Design","Develop","Render"],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-07-11T01:39:58.137Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-07-11T01:40:02.722Z","domain":"tympanus.net","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":814765361,"collectionId":-1,"themes":[],"highlights_text":[]},{"_id":812033767,"link":"https://www.shadertoy.com/view/DsVBWc","title":"Shadertoy","excerpt":"Build shaders, share them, and learn from the best community.","note":"","type":"link","user":{"$ref":"users","$id":457938},"cover":"https://www.shadertoy.com/media/shaders/DsVBWc.jpg","media":[{"link":"https://www.shadertoy.com/media/shaders/DsVBWc.jpg","type":"image"}],"tags":[],"important":false,"reminder":{"date":null},"removed":false,"created":"2024-07-05T12:28:49.404Z","collection":{"$ref":"collections","$id":-1,"oid":-1},"highlights":[],"lastUpdate":"2024-07-05T12:28:49.404Z","domain":"shadertoy.com","creatorRef":{"_id":457938,"name":"kenefe","avatar":"https://up.raindrop.io/user/avatars/457/938/icon.jpg","email":""},"sort":812033767,"collectionId":-1,"themes":[],"highlights_text":[]}],"relations":[{"source":1576971307,"target":1576662684,"strength":1,"reason":"same domain: x.com"},{"source":1576971307,"target":1576613469,"strength":2,"reason":"AI, Article"},{"source":1576971307,"target":1568546461,"strength":1,"reason":"AI"},{"source":1576971307,"target":1568498887,"strength":1,"reason":"AI"},{"source":1576971307,"target":1568497711,"strength":1,"reason":"AI"},{"source":1576971307,"target":1568169529,"strength":1,"reason":"AI"},{"source":1576971307,"target":1568169449,"strength":1,"reason":"AI"},{"source":1576971307,"target":1567660543,"strength":2,"reason":"AI, Article"},{"source":1576971307,"target":1566697821,"strength":1,"reason":"AI"},{"source":1576971307,"target":1566667042,"strength":2,"reason":"AI, Article"},{"source":1576971307,"target":1566664687,"strength":2,"reason":"AI, Article"},{"source":1576971307,"target":1566660416,"strength":2,"reason":"AI, Article"},{"source":1576971307,"target":1566657322,"strength":2,"reason":"AI, Article"},{"source":1576971307,"target":1566657038,"strength":1,"reason":"AI"},{"source":1576971307,"target":1551209593,"strength":1,"reason":"AI"},{"source":1576971307,"target":1540468561,"strength":1,"reason":"AI"},{"source":1576971307,"target":1527042502,"strength":1,"reason":"Article"},{"source":1576971307,"target":1145814619,"strength":2,"reason":"AI, Article"},{"source":1576971307,"target":1145717374,"strength":1,"reason":"Article"},{"source":1576971307,"target":1145717294,"strength":1,"reason":"Article"},{"source":1576971307,"target":1128767891,"strength":1,"reason":"AI"},{"source":1576662684,"target":1568546461,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1568498887,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1568497711,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1566667042,"strength":1,"reason":"same domain: x.com"},{"source":1576662684,"target":1566660416,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1566657322,"strength":1,"reason":"same domain: x.com"},{"source":1576662684,"target":1566657038,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1566616904,"strength":2,"reason":"Develop, Design"},{"source":1576662684,"target":1551209593,"strength":1,"reason":"Design"},{"source":1576662684,"target":1540468561,"strength":1,"reason":"Design"},{"source":1576662684,"target":1540454272,"strength":1,"reason":"Design"},{"source":1576662684,"target":1524200400,"strength":2,"reason":"Develop, Design"},{"source":1576662684,"target":1216041460,"strength":2,"reason":"Develop, Design"},{"source":1576662684,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1145814619,"strength":1,"reason":"Design"},{"source":1576662684,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1576662684,"target":1135575203,"strength":1,"reason":"Design"},{"source":1576662684,"target":856144577,"strength":1,"reason":"Develop"},{"source":1576662684,"target":849401155,"strength":2,"reason":"Develop, Design"},{"source":1576662684,"target":835168896,"strength":2,"reason":"Develop, Design"},{"source":1576662684,"target":826983319,"strength":1,"reason":"Design"},{"source":1576662684,"target":825492995,"strength":2,"reason":"Develop, Design"},{"source":1576662684,"target":824960520,"strength":1,"reason":"Develop"},{"source":1576662684,"target":814765361,"strength":2,"reason":"Develop, Design"},{"source":1576613469,"target":1568546461,"strength":1,"reason":"AI"},{"source":1576613469,"target":1568498887,"strength":1,"reason":"AI"},{"source":1576613469,"target":1568497711,"strength":1,"reason":"AI"},{"source":1576613469,"target":1568169529,"strength":1,"reason":"AI"},{"source":1576613469,"target":1568169449,"strength":1,"reason":"AI"},{"source":1576613469,"target":1567660543,"strength":2,"reason":"AI, Article"},{"source":1576613469,"target":1566697821,"strength":1,"reason":"AI"},{"source":1576613469,"target":1566667042,"strength":2,"reason":"AI, Article"},{"source":1576613469,"target":1566664687,"strength":2,"reason":"AI, Article"},{"source":1576613469,"target":1566660416,"strength":2,"reason":"AI, Article"},{"source":1576613469,"target":1566657322,"strength":2,"reason":"AI, Article"},{"source":1576613469,"target":1566657038,"strength":2,"reason":"AI, Note"},{"source":1576613469,"target":1551209593,"strength":1,"reason":"AI"},{"source":1576613469,"target":1540468561,"strength":1,"reason":"AI"},{"source":1576613469,"target":1527042502,"strength":1,"reason":"Article"},{"source":1576613469,"target":1145814619,"strength":2,"reason":"AI, Article"},{"source":1576613469,"target":1145717374,"strength":1,"reason":"Article"},{"source":1576613469,"target":1145717294,"strength":1,"reason":"Article"},{"source":1576613469,"target":1128767891,"strength":1,"reason":"AI"},{"source":1568546461,"target":1568498887,"strength":2,"reason":"AI, Develop"},{"source":1568546461,"target":1568497711,"strength":2,"reason":"AI, Develop"},{"source":1568546461,"target":1568169529,"strength":1,"reason":"AI"},{"source":1568546461,"target":1568169449,"strength":1,"reason":"AI"},{"source":1568546461,"target":1567660543,"strength":1,"reason":"AI"},{"source":1568546461,"target":1566697821,"strength":1,"reason":"AI"},{"source":1568546461,"target":1566667042,"strength":1,"reason":"AI"},{"source":1568546461,"target":1566664687,"strength":1,"reason":"AI"},{"source":1568546461,"target":1566660416,"strength":2,"reason":"AI, Develop"},{"source":1568546461,"target":1566657322,"strength":1,"reason":"AI"},{"source":1568546461,"target":1566657038,"strength":2,"reason":"AI, Develop"},{"source":1568546461,"target":1566616904,"strength":1,"reason":"Develop"},{"source":1568546461,"target":1566275144,"strength":1,"reason":"same domain: github.com"},{"source":1568546461,"target":1551209593,"strength":1,"reason":"AI"},{"source":1568546461,"target":1540468561,"strength":1,"reason":"AI"},{"source":1568546461,"target":1524200400,"strength":1,"reason":"Develop"},{"source":1568546461,"target":1216041460,"strength":1,"reason":"Develop"},{"source":1568546461,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1568546461,"target":1145814619,"strength":1,"reason":"AI"},{"source":1568546461,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1568546461,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1568546461,"target":1128767891,"strength":1,"reason":"AI"},{"source":1568546461,"target":1044296804,"strength":1,"reason":"same domain: github.com"},{"source":1568546461,"target":891032663,"strength":1,"reason":"same domain: github.com"},{"source":1568546461,"target":856144577,"strength":1,"reason":"Develop"},{"source":1568546461,"target":849401155,"strength":1,"reason":"Develop"},{"source":1568546461,"target":835168896,"strength":1,"reason":"Develop"},{"source":1568546461,"target":825492995,"strength":1,"reason":"Develop"},{"source":1568546461,"target":824960520,"strength":1,"reason":"Develop"},{"source":1568546461,"target":814765361,"strength":1,"reason":"Develop"},{"source":1568498887,"target":1568497711,"strength":2,"reason":"AI, Develop"},{"source":1568498887,"target":1568169529,"strength":1,"reason":"AI"},{"source":1568498887,"target":1568169449,"strength":1,"reason":"AI"},{"source":1568498887,"target":1567660543,"strength":1,"reason":"AI"},{"source":1568498887,"target":1566697821,"strength":1,"reason":"AI"},{"source":1568498887,"target":1566667042,"strength":1,"reason":"AI"},{"source":1568498887,"target":1566664687,"strength":1,"reason":"AI"},{"source":1568498887,"target":1566660416,"strength":2,"reason":"AI, Develop"},{"source":1568498887,"target":1566657322,"strength":1,"reason":"AI"},{"source":1568498887,"target":1566657038,"strength":2,"reason":"AI, Develop"},{"source":1568498887,"target":1566616904,"strength":1,"reason":"Develop"},{"source":1568498887,"target":1551209593,"strength":1,"reason":"AI"},{"source":1568498887,"target":1540468561,"strength":1,"reason":"AI"},{"source":1568498887,"target":1524200400,"strength":1,"reason":"Develop"},{"source":1568498887,"target":1216041460,"strength":1,"reason":"Develop"},{"source":1568498887,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1568498887,"target":1145814619,"strength":1,"reason":"AI"},{"source":1568498887,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1568498887,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1568498887,"target":1128767891,"strength":1,"reason":"AI"},{"source":1568498887,"target":856144577,"strength":1,"reason":"Develop"},{"source":1568498887,"target":849401155,"strength":1,"reason":"Develop"},{"source":1568498887,"target":835168896,"strength":1,"reason":"Develop"},{"source":1568498887,"target":825492995,"strength":1,"reason":"Develop"},{"source":1568498887,"target":824960520,"strength":1,"reason":"Develop"},{"source":1568498887,"target":814765361,"strength":1,"reason":"Develop"},{"source":1568497711,"target":1568169529,"strength":1,"reason":"AI"},{"source":1568497711,"target":1568169449,"strength":1,"reason":"AI"},{"source":1568497711,"target":1567660543,"strength":1,"reason":"AI"},{"source":1568497711,"target":1566697821,"strength":1,"reason":"AI"},{"source":1568497711,"target":1566667042,"strength":1,"reason":"AI"},{"source":1568497711,"target":1566664687,"strength":1,"reason":"AI"},{"source":1568497711,"target":1566660416,"strength":2,"reason":"AI, Develop"},{"source":1568497711,"target":1566657322,"strength":1,"reason":"AI"},{"source":1568497711,"target":1566657038,"strength":2,"reason":"AI, Develop"},{"source":1568497711,"target":1566616904,"strength":1,"reason":"Develop"},{"source":1568497711,"target":1551209593,"strength":1,"reason":"AI"},{"source":1568497711,"target":1540468561,"strength":1,"reason":"AI"},{"source":1568497711,"target":1524200400,"strength":1,"reason":"Develop"},{"source":1568497711,"target":1216041460,"strength":1,"reason":"Develop"},{"source":1568497711,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1568497711,"target":1145814619,"strength":1,"reason":"AI"},{"source":1568497711,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1568497711,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1568497711,"target":1128767891,"strength":1,"reason":"AI"},{"source":1568497711,"target":856144577,"strength":1,"reason":"Develop"},{"source":1568497711,"target":849401155,"strength":1,"reason":"Develop"},{"source":1568497711,"target":835168896,"strength":1,"reason":"Develop"},{"source":1568497711,"target":825492995,"strength":1,"reason":"Develop"},{"source":1568497711,"target":824960520,"strength":1,"reason":"Develop"},{"source":1568497711,"target":814765361,"strength":1,"reason":"Develop"},{"source":1568169529,"target":1568169449,"strength":3,"reason":"AI, Internet, App"},{"source":1568169529,"target":1567660543,"strength":2,"reason":"AI, Internet"},{"source":1568169529,"target":1566697821,"strength":3,"reason":"AI, Internet, App"},{"source":1568169529,"target":1566667042,"strength":2,"reason":"AI, Internet"},{"source":1568169529,"target":1566664687,"strength":2,"reason":"AI, Internet"},{"source":1568169529,"target":1566660416,"strength":1,"reason":"AI"},{"source":1568169529,"target":1566657322,"strength":2,"reason":"AI, Internet"},{"source":1568169529,"target":1566657038,"strength":2,"reason":"AI, Internet"},{"source":1568169529,"target":1551209593,"strength":1,"reason":"AI"},{"source":1568169529,"target":1540468561,"strength":1,"reason":"AI"},{"source":1568169529,"target":1505944471,"strength":1,"reason":"App"},{"source":1568169529,"target":1422362448,"strength":1,"reason":"App"},{"source":1568169529,"target":1145814619,"strength":1,"reason":"AI"},{"source":1568169529,"target":1128767891,"strength":1,"reason":"AI"},{"source":1568169529,"target":841781702,"strength":1,"reason":"App"},{"source":1568169529,"target":825492995,"strength":1,"reason":"App"},{"source":1568169449,"target":1567660543,"strength":2,"reason":"AI, Internet"},{"source":1568169449,"target":1566697821,"strength":3,"reason":"AI, Internet, App"},{"source":1568169449,"target":1566667042,"strength":2,"reason":"AI, Internet"},{"source":1568169449,"target":1566664687,"strength":2,"reason":"AI, Internet"},{"source":1568169449,"target":1566660416,"strength":1,"reason":"AI"},{"source":1568169449,"target":1566657322,"strength":2,"reason":"AI, Internet"},{"source":1568169449,"target":1566657038,"strength":2,"reason":"AI, Internet"},{"source":1568169449,"target":1551209593,"strength":1,"reason":"AI"},{"source":1568169449,"target":1540468561,"strength":1,"reason":"AI"},{"source":1568169449,"target":1505944471,"strength":1,"reason":"App"},{"source":1568169449,"target":1422362448,"strength":1,"reason":"App"},{"source":1568169449,"target":1145814619,"strength":1,"reason":"AI"},{"source":1568169449,"target":1128767891,"strength":1,"reason":"AI"},{"source":1568169449,"target":841781702,"strength":1,"reason":"App"},{"source":1568169449,"target":825492995,"strength":1,"reason":"App"},{"source":1567660543,"target":1566697821,"strength":2,"reason":"AI, Internet"},{"source":1567660543,"target":1566667042,"strength":3,"reason":"AI, Article, Internet"},{"source":1567660543,"target":1566664687,"strength":3,"reason":"AI, Article, Internet"},{"source":1567660543,"target":1566660416,"strength":2,"reason":"AI, Article"},{"source":1567660543,"target":1566657322,"strength":3,"reason":"AI, Article, Internet"},{"source":1567660543,"target":1566657038,"strength":2,"reason":"AI, Internet"},{"source":1567660543,"target":1551209593,"strength":1,"reason":"AI"},{"source":1567660543,"target":1540468561,"strength":1,"reason":"AI"},{"source":1567660543,"target":1527042502,"strength":1,"reason":"Article"},{"source":1567660543,"target":1145814619,"strength":2,"reason":"AI, Article"},{"source":1567660543,"target":1145717374,"strength":1,"reason":"Article"},{"source":1567660543,"target":1145717294,"strength":1,"reason":"Article"},{"source":1567660543,"target":1128767891,"strength":1,"reason":"AI"},{"source":1566697821,"target":1566667042,"strength":2,"reason":"AI, Internet"},{"source":1566697821,"target":1566664687,"strength":2,"reason":"AI, Internet"},{"source":1566697821,"target":1566660416,"strength":1,"reason":"AI"},{"source":1566697821,"target":1566657322,"strength":2,"reason":"AI, Internet"},{"source":1566697821,"target":1566657038,"strength":2,"reason":"AI, Internet"},{"source":1566697821,"target":1551209593,"strength":1,"reason":"AI"},{"source":1566697821,"target":1540468561,"strength":1,"reason":"AI"},{"source":1566697821,"target":1505944471,"strength":1,"reason":"App"},{"source":1566697821,"target":1422362448,"strength":1,"reason":"App"},{"source":1566697821,"target":1145814619,"strength":1,"reason":"AI"},{"source":1566697821,"target":1128767891,"strength":1,"reason":"AI"},{"source":1566697821,"target":841781702,"strength":1,"reason":"App"},{"source":1566697821,"target":825492995,"strength":1,"reason":"App"},{"source":1566667042,"target":1566664687,"strength":3,"reason":"AI, Article, Internet"},{"source":1566667042,"target":1566660416,"strength":2,"reason":"AI, Article"},{"source":1566667042,"target":1566657322,"strength":3,"reason":"AI, Article, Internet"},{"source":1566667042,"target":1566657038,"strength":2,"reason":"AI, Internet"},{"source":1566667042,"target":1551209593,"strength":1,"reason":"AI"},{"source":1566667042,"target":1540468561,"strength":1,"reason":"AI"},{"source":1566667042,"target":1527042502,"strength":1,"reason":"Article"},{"source":1566667042,"target":1145814619,"strength":2,"reason":"AI, Article"},{"source":1566667042,"target":1145717374,"strength":1,"reason":"Article"},{"source":1566667042,"target":1145717294,"strength":1,"reason":"Article"},{"source":1566667042,"target":1128767891,"strength":1,"reason":"AI"},{"source":1566664687,"target":1566660416,"strength":2,"reason":"AI, Article"},{"source":1566664687,"target":1566657322,"strength":3,"reason":"AI, Article, Internet"},{"source":1566664687,"target":1566657038,"strength":2,"reason":"AI, Internet"},{"source":1566664687,"target":1551209593,"strength":1,"reason":"AI"},{"source":1566664687,"target":1540468561,"strength":1,"reason":"AI"},{"source":1566664687,"target":1527042502,"strength":1,"reason":"Article"},{"source":1566664687,"target":1145814619,"strength":2,"reason":"AI, Article"},{"source":1566664687,"target":1145717374,"strength":1,"reason":"Article"},{"source":1566664687,"target":1145717294,"strength":1,"reason":"Article"},{"source":1566664687,"target":1128767891,"strength":1,"reason":"AI"},{"source":1566660416,"target":1566657322,"strength":2,"reason":"AI, Article"},{"source":1566660416,"target":1566657038,"strength":2,"reason":"AI, Develop"},{"source":1566660416,"target":1566616904,"strength":1,"reason":"Develop"},{"source":1566660416,"target":1551209593,"strength":1,"reason":"AI"},{"source":1566660416,"target":1540468561,"strength":1,"reason":"AI"},{"source":1566660416,"target":1527042502,"strength":1,"reason":"Article"},{"source":1566660416,"target":1524200400,"strength":1,"reason":"Develop"},{"source":1566660416,"target":1216041460,"strength":1,"reason":"Develop"},{"source":1566660416,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1566660416,"target":1145814619,"strength":2,"reason":"AI, Article"},{"source":1566660416,"target":1145717374,"strength":2,"reason":"Develop, Article"},{"source":1566660416,"target":1145717294,"strength":2,"reason":"Develop, Article"},{"source":1566660416,"target":1128767891,"strength":1,"reason":"AI"},{"source":1566660416,"target":856144577,"strength":1,"reason":"Develop"},{"source":1566660416,"target":849401155,"strength":1,"reason":"Develop"},{"source":1566660416,"target":835168896,"strength":1,"reason":"Develop"},{"source":1566660416,"target":825492995,"strength":1,"reason":"Develop"},{"source":1566660416,"target":824960520,"strength":1,"reason":"Develop"},{"source":1566660416,"target":814765361,"strength":1,"reason":"Develop"},{"source":1566657322,"target":1566657038,"strength":2,"reason":"AI, Internet"},{"source":1566657322,"target":1551209593,"strength":1,"reason":"AI"},{"source":1566657322,"target":1540468561,"strength":1,"reason":"AI"},{"source":1566657322,"target":1527042502,"strength":1,"reason":"Article"},{"source":1566657322,"target":1145814619,"strength":2,"reason":"AI, Article"},{"source":1566657322,"target":1145717374,"strength":1,"reason":"Article"},{"source":1566657322,"target":1145717294,"strength":1,"reason":"Article"},{"source":1566657322,"target":1128767891,"strength":1,"reason":"AI"},{"source":1566657038,"target":1566616904,"strength":1,"reason":"Develop"},{"source":1566657038,"target":1551209593,"strength":1,"reason":"AI"},{"source":1566657038,"target":1540468561,"strength":1,"reason":"AI"},{"source":1566657038,"target":1524200400,"strength":1,"reason":"Develop"},{"source":1566657038,"target":1216041460,"strength":1,"reason":"Develop"},{"source":1566657038,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1566657038,"target":1145814619,"strength":1,"reason":"AI"},{"source":1566657038,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1566657038,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1566657038,"target":1128767891,"strength":1,"reason":"AI"},{"source":1566657038,"target":856144577,"strength":1,"reason":"Develop"},{"source":1566657038,"target":849401155,"strength":1,"reason":"Develop"},{"source":1566657038,"target":835168896,"strength":1,"reason":"Develop"},{"source":1566657038,"target":825492995,"strength":1,"reason":"Develop"},{"source":1566657038,"target":824960520,"strength":1,"reason":"Develop"},{"source":1566657038,"target":814765361,"strength":1,"reason":"Develop"},{"source":1566616904,"target":1551209593,"strength":1,"reason":"Design"},{"source":1566616904,"target":1540468561,"strength":1,"reason":"Design"},{"source":1566616904,"target":1540454272,"strength":1,"reason":"Design"},{"source":1566616904,"target":1524200400,"strength":2,"reason":"Design, Develop"},{"source":1566616904,"target":1216041460,"strength":2,"reason":"Design, Develop"},{"source":1566616904,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1566616904,"target":1145814619,"strength":1,"reason":"Design"},{"source":1566616904,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1566616904,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1566616904,"target":1135575203,"strength":1,"reason":"Design"},{"source":1566616904,"target":856144577,"strength":1,"reason":"Develop"},{"source":1566616904,"target":849401155,"strength":2,"reason":"Design, Develop"},{"source":1566616904,"target":835168896,"strength":2,"reason":"Design, Develop"},{"source":1566616904,"target":826983319,"strength":1,"reason":"Design"},{"source":1566616904,"target":825492995,"strength":2,"reason":"Design, Develop"},{"source":1566616904,"target":824960520,"strength":1,"reason":"Develop"},{"source":1566616904,"target":814765361,"strength":2,"reason":"Design, Develop"},{"source":1566275144,"target":1216041460,"strength":1,"reason":"same domain: github.com"},{"source":1566275144,"target":1044296804,"strength":1,"reason":"same domain: github.com"},{"source":1566275144,"target":891032663,"strength":1,"reason":"same domain: github.com"},{"source":1566275144,"target":824960520,"strength":1,"reason":"same domain: github.com"},{"source":1551209593,"target":1540468561,"strength":3,"reason":"AI, OS, Design"},{"source":1551209593,"target":1540454272,"strength":1,"reason":"Design"},{"source":1551209593,"target":1524200400,"strength":1,"reason":"Design"},{"source":1551209593,"target":1216041460,"strength":1,"reason":"Design"},{"source":1551209593,"target":1145814619,"strength":3,"reason":"AI, OS, Design"},{"source":1551209593,"target":1135575203,"strength":2,"reason":"OS, Design"},{"source":1551209593,"target":1128767891,"strength":2,"reason":"AI, OS"},{"source":1551209593,"target":849401155,"strength":1,"reason":"Design"},{"source":1551209593,"target":835168896,"strength":1,"reason":"Design"},{"source":1551209593,"target":826983319,"strength":1,"reason":"Design"},{"source":1551209593,"target":825492995,"strength":1,"reason":"Design"},{"source":1551209593,"target":814765361,"strength":1,"reason":"Design"},{"source":1540468561,"target":1540454272,"strength":1,"reason":"Design"},{"source":1540468561,"target":1524200400,"strength":1,"reason":"Design"},{"source":1540468561,"target":1216041460,"strength":1,"reason":"Design"},{"source":1540468561,"target":1145814619,"strength":3,"reason":"Design, AI, OS"},{"source":1540468561,"target":1135575203,"strength":2,"reason":"Design, OS"},{"source":1540468561,"target":1128767891,"strength":2,"reason":"AI, OS"},{"source":1540468561,"target":849401155,"strength":1,"reason":"Design"},{"source":1540468561,"target":835168896,"strength":1,"reason":"Design"},{"source":1540468561,"target":826983319,"strength":1,"reason":"Design"},{"source":1540468561,"target":825492995,"strength":1,"reason":"Design"},{"source":1540468561,"target":814765361,"strength":1,"reason":"Design"},{"source":1540454272,"target":1524200400,"strength":1,"reason":"Design"},{"source":1540454272,"target":1216041460,"strength":1,"reason":"Design"},{"source":1540454272,"target":1145814619,"strength":1,"reason":"Design"},{"source":1540454272,"target":1135575203,"strength":1,"reason":"Design"},{"source":1540454272,"target":849401155,"strength":1,"reason":"Design"},{"source":1540454272,"target":835168896,"strength":1,"reason":"Design"},{"source":1540454272,"target":826983319,"strength":1,"reason":"Design"},{"source":1540454272,"target":825492995,"strength":1,"reason":"Design"},{"source":1540454272,"target":814765361,"strength":1,"reason":"Design"},{"source":1527042502,"target":1145814619,"strength":1,"reason":"Article"},{"source":1527042502,"target":1145717374,"strength":1,"reason":"Article"},{"source":1527042502,"target":1145717294,"strength":1,"reason":"Article"},{"source":1524200400,"target":1505944471,"strength":1,"reason":"Render"},{"source":1524200400,"target":1422362448,"strength":1,"reason":"Render"},{"source":1524200400,"target":1216041460,"strength":3,"reason":"Render, Design, Develop"},{"source":1524200400,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1524200400,"target":1145814619,"strength":1,"reason":"Design"},{"source":1524200400,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1524200400,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1524200400,"target":1135575203,"strength":1,"reason":"Design"},{"source":1524200400,"target":856144577,"strength":2,"reason":"Render, Develop"},{"source":1524200400,"target":849401155,"strength":2,"reason":"Design, Develop"},{"source":1524200400,"target":835168896,"strength":3,"reason":"Render, Design, Develop"},{"source":1524200400,"target":826983319,"strength":1,"reason":"Design"},{"source":1524200400,"target":825492995,"strength":2,"reason":"Design, Develop"},{"source":1524200400,"target":824960520,"strength":1,"reason":"Develop"},{"source":1524200400,"target":814765361,"strength":3,"reason":"Render, Design, Develop"},{"source":1505944471,"target":1422362448,"strength":2,"reason":"App, Render"},{"source":1505944471,"target":1216041460,"strength":1,"reason":"Render"},{"source":1505944471,"target":856144577,"strength":2,"reason":"Apple, Render"},{"source":1505944471,"target":841781702,"strength":1,"reason":"App"},{"source":1505944471,"target":835168896,"strength":1,"reason":"Render"},{"source":1505944471,"target":826983319,"strength":1,"reason":"Apple"},{"source":1505944471,"target":825492995,"strength":1,"reason":"App"},{"source":1505944471,"target":824960520,"strength":1,"reason":"Apple"},{"source":1505944471,"target":814765361,"strength":1,"reason":"Render"},{"source":1422362448,"target":1216041460,"strength":1,"reason":"Render"},{"source":1422362448,"target":1145717374,"strength":1,"reason":"Android"},{"source":1422362448,"target":1145717294,"strength":1,"reason":"Android"},{"source":1422362448,"target":856144577,"strength":1,"reason":"Render"},{"source":1422362448,"target":841781702,"strength":1,"reason":"App"},{"source":1422362448,"target":835168896,"strength":1,"reason":"Render"},{"source":1422362448,"target":825492995,"strength":1,"reason":"App"},{"source":1422362448,"target":814765361,"strength":1,"reason":"Render"},{"source":1216041460,"target":1165919125,"strength":1,"reason":"Develop"},{"source":1216041460,"target":1145814619,"strength":1,"reason":"Design"},{"source":1216041460,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1216041460,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1216041460,"target":1135575203,"strength":1,"reason":"Design"},{"source":1216041460,"target":1044296804,"strength":1,"reason":"same domain: github.com"},{"source":1216041460,"target":891032663,"strength":1,"reason":"same domain: github.com"},{"source":1216041460,"target":856144577,"strength":2,"reason":"Render, Develop"},{"source":1216041460,"target":849401155,"strength":2,"reason":"Develop, Design"},{"source":1216041460,"target":835168896,"strength":3,"reason":"Render, Develop, Design"},{"source":1216041460,"target":826983319,"strength":1,"reason":"Design"},{"source":1216041460,"target":825492995,"strength":2,"reason":"Develop, Design"},{"source":1216041460,"target":824960520,"strength":1,"reason":"Develop"},{"source":1216041460,"target":814765361,"strength":3,"reason":"Render, Develop, Design"},{"source":1165919125,"target":1145717374,"strength":1,"reason":"Develop"},{"source":1165919125,"target":1145717294,"strength":1,"reason":"Develop"},{"source":1165919125,"target":856144577,"strength":1,"reason":"Develop"},{"source":1165919125,"target":849401155,"strength":1,"reason":"Develop"},{"source":1165919125,"target":835168896,"strength":1,"reason":"Develop"},{"source":1165919125,"target":825492995,"strength":1,"reason":"Develop"},{"source":1165919125,"target":824960520,"strength":1,"reason":"Develop"},{"source":1165919125,"target":814765361,"strength":1,"reason":"Develop"},{"source":1145814619,"target":1145717374,"strength":1,"reason":"Article"},{"source":1145814619,"target":1145717294,"strength":1,"reason":"Article"},{"source":1145814619,"target":1135575203,"strength":2,"reason":"OS, Design"},{"source":1145814619,"target":1128767891,"strength":2,"reason":"OS, AI"},{"source":1145814619,"target":849401155,"strength":1,"reason":"Design"},{"source":1145814619,"target":835168896,"strength":1,"reason":"Design"},{"source":1145814619,"target":826983319,"strength":1,"reason":"Design"},{"source":1145814619,"target":825492995,"strength":1,"reason":"Design"},{"source":1145814619,"target":814765361,"strength":1,"reason":"Design"},{"source":1145717374,"target":1145717294,"strength":3,"reason":"Android, Develop, Article"},{"source":1145717374,"target":856144577,"strength":1,"reason":"Develop"},{"source":1145717374,"target":849401155,"strength":1,"reason":"Develop"},{"source":1145717374,"target":835168896,"strength":1,"reason":"Develop"},{"source":1145717374,"target":825492995,"strength":1,"reason":"Develop"},{"source":1145717374,"target":824960520,"strength":1,"reason":"Develop"},{"source":1145717374,"target":814765361,"strength":1,"reason":"Develop"},{"source":1145717294,"target":856144577,"strength":1,"reason":"Develop"},{"source":1145717294,"target":849401155,"strength":1,"reason":"Develop"},{"source":1145717294,"target":835168896,"strength":1,"reason":"Develop"},{"source":1145717294,"target":825492995,"strength":1,"reason":"Develop"},{"source":1145717294,"target":824960520,"strength":1,"reason":"Develop"},{"source":1145717294,"target":814765361,"strength":1,"reason":"Develop"},{"source":1135575203,"target":1128767891,"strength":1,"reason":"OS"},{"source":1135575203,"target":849401155,"strength":1,"reason":"Design"},{"source":1135575203,"target":835168896,"strength":1,"reason":"Design"},{"source":1135575203,"target":826983319,"strength":1,"reason":"Design"},{"source":1135575203,"target":825492995,"strength":1,"reason":"Design"},{"source":1135575203,"target":814765361,"strength":1,"reason":"Design"},{"source":1044296804,"target":891032663,"strength":1,"reason":"same domain: github.com"},{"source":1044296804,"target":824960520,"strength":1,"reason":"same domain: github.com"},{"source":891032663,"target":824960520,"strength":1,"reason":"same domain: github.com"},{"source":856144577,"target":849401155,"strength":1,"reason":"Develop"},{"source":856144577,"target":835168896,"strength":2,"reason":"Render, Develop"},{"source":856144577,"target":826983319,"strength":1,"reason":"Apple"},{"source":856144577,"target":825492995,"strength":1,"reason":"Develop"},{"source":856144577,"target":824960520,"strength":2,"reason":"Apple, Develop"},{"source":856144577,"target":814765361,"strength":2,"reason":"Render, Develop"},{"source":849401155,"target":835168896,"strength":2,"reason":"Design, Develop"},{"source":849401155,"target":826983319,"strength":1,"reason":"Design"},{"source":849401155,"target":825492995,"strength":2,"reason":"Design, Develop"},{"source":849401155,"target":824960520,"strength":1,"reason":"Develop"},{"source":849401155,"target":814765361,"strength":2,"reason":"Design, Develop"},{"source":841781702,"target":825492995,"strength":1,"reason":"App"},{"source":835168896,"target":826983319,"strength":1,"reason":"Design"},{"source":835168896,"target":825492995,"strength":2,"reason":"Design, Develop"},{"source":835168896,"target":824960520,"strength":1,"reason":"Develop"},{"source":835168896,"target":814765361,"strength":3,"reason":"Design, Develop, Render"},{"source":826983319,"target":825492995,"strength":1,"reason":"Design"},{"source":826983319,"target":824960520,"strength":1,"reason":"Apple"},{"source":826983319,"target":814765361,"strength":1,"reason":"Design"},{"source":825492995,"target":824960520,"strength":1,"reason":"Develop"},{"source":825492995,"target":814765361,"strength":2,"reason":"Design, Develop"},{"source":824960520,"target":814765361,"strength":1,"reason":"Develop"}]};
 let selectedNode = null;
 let activeTheme = null;
-
-// Initialize
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
@@ -336,27 +344,10 @@ function initResize() {
   const handle = document.getElementById('resize-handle');
   const sidebar = document.getElementById('sidebar');
   if (!handle || !sidebar) return;
-  
   let isResizing = false;
-  
-  handle.addEventListener('mousedown', (e) => {
-    isResizing = true;
-    document.body.style.cursor = 'ew-resize';
-    e.preventDefault();
-  });
-  
-  document.addEventListener('mousemove', (e) => {
-    if (!isResizing) return;
-    const newWidth = window.innerWidth - e.clientX;
-    if (newWidth >= 300 && newWidth <= window.innerWidth * 0.7) {
-      sidebar.style.width = newWidth + 'px';
-    }
-  });
-  
-  document.addEventListener('mouseup', () => {
-    isResizing = false;
-    document.body.style.cursor = '';
-  });
+  handle.addEventListener('mousedown', (e) => { isResizing = true; document.body.style.cursor = 'ew-resize'; e.preventDefault(); });
+  document.addEventListener('mousemove', (e) => { if (!isResizing) return; const w = window.innerWidth - e.clientX; if (w >= 320 && w <= window.innerWidth * 0.7) sidebar.style.width = w + 'px'; });
+  document.addEventListener('mouseup', () => { isResizing = false; document.body.style.cursor = ''; });
 }
 
 function initMobileNav() {
@@ -364,60 +355,39 @@ function initMobileNav() {
   const navGraph = document.getElementById('nav-graph');
   const sidebar = document.getElementById('sidebar');
   const graphContainer = document.getElementById('graph-container');
-  
   if (!navList || !navGraph) return;
-  
-  // Default: show list on mobile
   sidebar.classList.add('active');
-  
   navList.addEventListener('click', () => {
-    sidebar.classList.add('active');
-    graphContainer.classList.remove('active');
-    navList.classList.add('active');
-    navGraph.classList.remove('active');
+    sidebar.classList.add('active'); graphContainer.classList.remove('active');
+    navList.classList.add('active'); navGraph.classList.remove('active');
   });
-  
   navGraph.addEventListener('click', () => {
-    graphContainer.classList.add('active');
-    sidebar.classList.remove('active');
-    navGraph.classList.add('active');
-    navList.classList.remove('active');
-    // Re-render graph for correct sizing
+    graphContainer.classList.add('active'); sidebar.classList.remove('active');
+    navGraph.classList.add('active'); navList.classList.remove('active');
     setTimeout(renderGraph, 100);
   });
 }
 
 function renderSearch() {
   const box = document.getElementById('search-box');
-  box.innerHTML = `<input type="text" placeholder="搜索书签..." id="search-input">`;
-  document.getElementById('search-input').addEventListener('input', (e) => {
-    const q = e.target.value.toLowerCase();
-    renderList(q);
-  });
+  box.innerHTML = `<input type="text" placeholder="Search..." id="search-input">`;
+  document.getElementById('search-input').addEventListener('input', (e) => renderList(e.target.value.toLowerCase()));
 }
 
 function renderThemes() {
   const panel = document.getElementById('themes-panel');
-  let html = '<h3>主题</h3><div>';
+  let html = '<h3>Themes</h3><div>';
   DATA.themes.forEach(t => {
-    html += `<span class="theme-tag" data-id="${t.id}" style="background:${t.color}33;color:${t.color}">${t.name}</span>`;
+    html += `<span class="theme-tag" data-id="${t.id}">${t.name}</span>`;
   });
   html += '</div>';
   panel.innerHTML = html;
-  
   panel.querySelectorAll('.theme-tag').forEach(el => {
     el.addEventListener('click', () => {
       const id = el.dataset.id;
-      if (activeTheme === id) {
-        activeTheme = null;
-        el.classList.remove('active');
-      } else {
-        panel.querySelectorAll('.theme-tag').forEach(e => e.classList.remove('active'));
-        activeTheme = id;
-        el.classList.add('active');
-      }
+      if (activeTheme === id) { activeTheme = null; el.classList.remove('active'); }
+      else { panel.querySelectorAll('.theme-tag').forEach(e => e.classList.remove('active')); activeTheme = id; el.classList.add('active'); }
       renderList();
-      highlightTheme();
     });
   });
 }
@@ -425,228 +395,30 @@ function renderThemes() {
 function renderList(query = '') {
   const panel = document.getElementById('detail-panel');
   let items = DATA.items;
-  
-  if (activeTheme) {
-    items = items.filter(i => i.themes && i.themes.includes(activeTheme));
-  }
-  if (query) {
-    items = items.filter(i => 
-      (i.title || '').toLowerCase().includes(query) ||
-      (i.note || '').toLowerCase().includes(query) ||
-      i.tags.some(t => t.toLowerCase().includes(query))
-    );
-  }
-  
+  if (activeTheme) items = items.filter(i => i.themes && i.themes.includes(activeTheme));
+  if (query) items = items.filter(i => (i.title || '').toLowerCase().includes(query) || (i.note || '').toLowerCase().includes(query) || i.tags.some(t => t.toLowerCase().includes(query)));
   let html = '<div class="cards-grid">';
-  items.forEach(item => {
-    html += renderCard(item);
-  });
+  items.forEach(item => { html += renderCard(item); });
   html += '</div>';
-  panel.innerHTML = items.length ? html : '<p style="color:#666">没有匹配的书签</p>';
+  panel.innerHTML = items.length ? html : '<p style="color:var(--text-muted)">No results</p>';
 }
 
 function renderCard(item) {
   const date = new Date(item.created).toLocaleDateString('zh-CN');
   const tags = item.tags.map(t => `<span class="tag">${t}</span>`).join('');
-  const related = getRelated(item._id);
-  
-  // Highlights
   let highlightsHtml = '';
   if (item.highlights_text && item.highlights_text.length > 0) {
-    highlightsHtml = `<div class="highlights">`;
-    item.highlights_text.forEach(h => {
-      highlightsHtml += `<span class="highlight-item">💡 ${h}</span>`;
-    });
+    highlightsHtml = '<div class="highlights">';
+    item.highlights_text.forEach(h => { highlightsHtml += `<span class="highlight-item">${h}</span>`; });
     highlightsHtml += '</div>';
   }
-  
-  let relatedHtml = '';
-  if (related.length > 0) {
-    relatedHtml = `<div class="related-section"><h4>相关</h4>`;
-    related.slice(0, 3).forEach(r => {
-      relatedHtml += `<div class="related-item" data-id="${r._id}">${r.title || r.link}</div>`;
-    });
-    relatedHtml += '</div>';
-  }
-  
-  return `
-    <div class="detail-card" data-id="${item._id}">
-      <h2><a href="${item.link}" target="_blank">${item.title || item.link}</a></h2>
-      ${highlightsHtml}
-      ${item.note ? `<div class="note">${item.note}</div>` : ''}
-      <div class="meta">${item.domain} · ${date}</div>
-      <div class="tags">${tags}</div>
-      ${relatedHtml}
-    </div>
-  `;
-}
-
-function getRelated(id) {
-  const rels = DATA.relations.filter(r => r.source === id || r.target === id);
-  const ids = rels.map(r => r.source === id ? r.target : r.source);
-  return DATA.items.filter(i => ids.includes(i._id));
-}
-
-function renderGraph() {
-  const container = document.getElementById('graph-container');
-  const width = container.clientWidth;
-  const height = container.clientHeight;
-  
-  const svg = d3.select('#graph')
-    .attr('width', width)
-    .attr('height', height);
-  
-  svg.selectAll('*').remove();
-  
-  const g = svg.append('g');
-  
-  // Zoom
-  svg.call(d3.zoom()
-    .scaleExtent([0.3, 3])
-    .on('zoom', (e) => g.attr('transform', e.transform)));
-  
-  // Build all nodes: themes + items
-  const nodes = [];
-  const links = [];
-  
-  // Add theme nodes (larger)
-  DATA.themes.forEach(theme => {
-    nodes.push({
-      id: theme.id,
-      name: theme.name,
-      color: theme.color,
-      isTheme: true
-    });
-  });
-  
-  // Add "其他" theme
-  nodes.push({
-    id: 'other',
-    name: '其他',
-    color: '#666',
-    isTheme: true
-  });
-  
-  // Add item nodes and link to themes
-  DATA.items.forEach(item => {
-    const nodeId = 'item-' + item._id;
-    const themeId = (item.themes && item.themes[0]) || 'other';
-    const theme = DATA.themes.find(t => t.id === themeId) || { color: '#666' };
-    
-    nodes.push({
-      id: nodeId,
-      title: item.title || item.domain,
-      color: theme.color,
-      isTheme: false,
-      item: item
-    });
-    
-    // Link item to its theme
-    links.push({
-      source: themeId,
-      target: nodeId,
-      strength: 1
-    });
-  });
-
-  // Force simulation
-  const simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(60))
-    .force('charge', d3.forceManyBody().strength(d => d.isTheme ? -300 : -30))
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(d => d.isTheme ? 40 : 12));
-  
-  // Draw links
-  const link = g.append('g')
-    .selectAll('line')
-    .data(links)
-    .join('line')
-    .attr('class', 'link')
-    .attr('stroke-width', 1)
-    .attr('stroke-opacity', 0.3);
-  
-  // Draw nodes
-  const node = g.append('g')
-    .selectAll('g')
-    .data(nodes)
-    .join('g')
-    .attr('class', d => d.isTheme ? 'node theme-node' : 'node item-node')
-    .call(d3.drag()
-      .on('start', dragstarted)
-      .on('drag', dragged)
-      .on('end', dragended));
-  
-  // Circle - theme nodes larger
-  node.append('circle')
-    .attr('r', d => d.isTheme ? 30 : 8)
-    .attr('fill', d => d.color)
-    .attr('fill-opacity', d => d.isTheme ? 0.9 : 0.7);
-  
-  // Labels
-  node.filter(d => d.isTheme).append('text')
-    .attr('class', 'node-label theme-label')
-    .attr('text-anchor', 'middle')
-    .attr('dy', 5)
-    .attr('fill', '#fff')
-    .attr('font-weight', 'bold')
-    .attr('font-size', '11px')
-    .text(d => d.name);
-  
-  node.filter(d => !d.isTheme).append('text')
-    .attr('class', 'node-label item-label')
-    .attr('dx', 12)
-    .attr('dy', 4)
-    .attr('font-size', '9px')
-    .text(d => (d.title || '').slice(0, 15));
-  
-  // Click handler
-  node.on('click', (e, d) => {
-    e.stopPropagation();
-    selectedNode = d.id;
-    node.classed('selected', n => n.id === d.id);
-    if (d.isTheme) {
-      const items = DATA.items.filter(i => (i.themes && i.themes[0]) === d.id || (!i.themes?.length && d.id === 'other'));
-      showThemeDetail(d, items);
-    } else {
-      showDetail(d.item);
-    }
-  });
-  
-  // Click on background to deselect
-  svg.on('click', () => {
-    selectedNode = null;
-    node.classed('selected', false);
-    renderList();
-  });
-  
-  // Simulation tick
-  simulation.on('tick', () => {
-    link
-      .attr('x1', d => d.source.x)
-      .attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y);
-    node.attr('transform', d => `translate(${d.x},${d.y})`);
-  });
-  
-  // Drag functions
-  function dragstarted(e) {
-    if (!e.active) simulation.alphaTarget(0.3).restart();
-    e.subject.fx = e.subject.x;
-    e.subject.fy = e.subject.y;
-  }
-  function dragged(e) {
-    e.subject.fx = e.x;
-    e.subject.fy = e.y;
-  }
-  function dragended(e) {
-    if (!e.active) simulation.alphaTarget(0);
-    e.subject.fx = null;
-    e.subject.fy = null;
-  }
-  
-  // Store for highlight
-  window.graphNodes = node;
+  return `<div class="detail-card" data-id="${item._id}">
+    <h2><a href="${item.link}" target="_blank">${item.title || item.link}</a></h2>
+    ${highlightsHtml}
+    ${item.note ? `<div class="note">${item.note}</div>` : ''}
+    <div class="meta">${item.domain} · ${date}</div>
+    <div class="tags">${tags}</div>
+  </div>`;
 }
 
 function showDetail(item) {
@@ -654,37 +426,82 @@ function showDetail(item) {
   panel.innerHTML = renderCard(item);
 }
 
-function showClusterDetail(cluster) {
-  const panel = document.getElementById('detail-panel');
-  let html = `<div class="cluster-header">
-    <h2 style="color:${cluster.color}">${cluster.name}</h2>
-    <p style="color:#888;margin-bottom:16px">${cluster.count} 条收藏</p>
-  </div>`;
-  cluster.items.forEach(item => {
-    html += renderCard(item);
-  });
-  panel.innerHTML = html;
-}
-
 function showThemeDetail(theme, items) {
   const panel = document.getElementById('detail-panel');
-  let html = `<div class="cluster-header">
-    <h2 style="color:${theme.color}">${theme.name}</h2>
-    <p style="color:#888;margin-bottom:16px">${items.length} 条收藏</p>
-  </div><div class="cards-grid">`;
-  items.forEach(item => {
-    html += renderCard(item);
-  });
+  let html = `<div class="cluster-header"><h2>${theme.name}</h2><p style="color:var(--text-muted);margin-bottom:16px">${items.length} items</p></div><div class="cards-grid">`;
+  items.forEach(item => { html += renderCard(item); });
   html += '</div>';
   panel.innerHTML = html;
 }
 
-function highlightTheme() {
-  if (!window.graphNodes) return;
-  window.graphNodes.style('opacity', d => {
-    if (!activeTheme) return 1;
-    return d.themes.includes(activeTheme) ? 1 : 0.2;
+function renderGraph() {
+  const container = document.getElementById('graph-container');
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+  const svg = d3.select('#graph').attr('width', width).attr('height', height);
+  svg.selectAll('*').remove();
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.3, 3]).on('zoom', (e) => g.attr('transform', e.transform)));
+  
+  const nodes = [];
+  const links = [];
+  const colors = ['#C4785A', '#7A8B6E', '#5A6B7A', '#8B6E7A', '#B8A060'];
+  
+  DATA.themes.forEach((theme, i) => {
+    nodes.push({ id: theme.id, name: theme.name, color: colors[i % colors.length], isTheme: true });
   });
+  nodes.push({ id: 'other', name: '其他', color: '#9C948A', isTheme: true });
+  
+  DATA.items.forEach(item => {
+    const themeId = (item.themes && item.themes[0]) || 'other';
+    const themeNode = nodes.find(n => n.id === themeId);
+    const nodeId = 'item-' + item._id;
+    nodes.push({ id: nodeId, title: item.title || item.domain, color: themeNode ? themeNode.color : '#9C948A', isTheme: false, item });
+    links.push({ source: themeId, target: nodeId, strength: 1 });
+  });
+  
+  const simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(60))
+    .force('charge', d3.forceManyBody().strength(d => d.isTheme ? -300 : -30))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(d => d.isTheme ? 40 : 12));
+  
+  const link = g.append('g').selectAll('line').data(links).join('line')
+    .attr('class', 'link').attr('stroke-width', 1).attr('stroke-opacity', 0.4);
+  
+  const node = g.append('g').selectAll('g').data(nodes).join('g')
+    .attr('class', d => d.isTheme ? 'node theme-node' : 'node item-node')
+    .call(d3.drag().on('start', ds).on('drag', dr).on('end', de));
+  
+  node.append('circle').attr('r', d => d.isTheme ? 28 : 6)
+    .attr('fill', d => d.color).attr('fill-opacity', d => d.isTheme ? 0.85 : 0.6);
+  
+  node.filter(d => d.isTheme).append('text').attr('class', 'node-label theme-label')
+    .attr('text-anchor', 'middle').attr('dy', 4).text(d => d.name);
+  
+  node.filter(d => !d.isTheme).append('text').attr('class', 'node-label')
+    .attr('dx', 10).attr('dy', 3).text(d => (d.title || '').slice(0, 12));
+  
+  node.on('click', (e, d) => {
+    e.stopPropagation();
+    selectedNode = d.id;
+    node.classed('selected', n => n.id === d.id);
+    if (d.isTheme) {
+      const items = DATA.items.filter(i => (i.themes && i.themes[0]) === d.id || (!i.themes?.length && d.id === 'other'));
+      showThemeDetail(d, items);
+    } else { showDetail(d.item); }
+  });
+  
+  svg.on('click', () => { selectedNode = null; node.classed('selected', false); renderList(); });
+  
+  simulation.on('tick', () => {
+    link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+  
+  function ds(e) { if (!e.active) simulation.alphaTarget(0.3).restart(); e.subject.fx = e.subject.x; e.subject.fy = e.subject.y; }
+  function dr(e) { e.subject.fx = e.x; e.subject.fy = e.y; }
+  function de(e) { if (!e.active) simulation.alphaTarget(0); e.subject.fx = null; e.subject.fy = null; }
 }
 </script>
 </body>
