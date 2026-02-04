@@ -454,112 +454,111 @@ function renderGraph() {
     .scaleExtent([0.3, 3])
     .on('zoom', (e) => g.attr('transform', e.transform)));
   
-  // Build cluster nodes from themes
-  const clusterNodes = DATA.themes.map(theme => {
-    const items = DATA.items.filter(i => i.themes && i.themes.includes(theme.id));
-    return {
+  // Build all nodes: themes + items
+  const nodes = [];
+  const links = [];
+  
+  // Add theme nodes (larger)
+  DATA.themes.forEach(theme => {
+    nodes.push({
       id: theme.id,
       name: theme.name,
       color: theme.color,
-      count: items.length,
-      items: items,
-      isCluster: true
-    };
+      isTheme: true
+    });
   });
   
-  // Add "其他" cluster for uncategorized
-  const categorized = new Set();
-  DATA.themes.forEach(t => {
-    DATA.items.filter(i => i.themes && i.themes.includes(t.id))
-      .forEach(i => categorized.add(i._id));
+  // Add "其他" theme
+  nodes.push({
+    id: 'other',
+    name: '其他',
+    color: '#666',
+    isTheme: true
   });
-  const uncategorized = DATA.items.filter(i => !categorized.has(i._id));
-  if (uncategorized.length > 0) {
-    clusterNodes.push({
-      id: 'other',
-      name: '其他',
-      color: '#666',
-      count: uncategorized.length,
-      items: uncategorized,
-      isCluster: true
+  
+  // Add item nodes and link to themes
+  DATA.items.forEach(item => {
+    const nodeId = 'item-' + item._id;
+    const themeId = (item.themes && item.themes[0]) || 'other';
+    const theme = DATA.themes.find(t => t.id === themeId) || { color: '#666' };
+    
+    nodes.push({
+      id: nodeId,
+      title: item.title || item.domain,
+      color: theme.color,
+      isTheme: false,
+      item: item
     });
-  }
-
-  // Links between clusters
-  const clusterLinks = [];
-  for (let i = 0; i < clusterNodes.length; i++) {
-    for (let j = i + 1; j < clusterNodes.length; j++) {
-      const a = clusterNodes[i], b = clusterNodes[j];
-      let shared = 0;
-      a.items.forEach(ai => {
-        b.items.forEach(bi => {
-          const hasLink = DATA.relations.some(r => 
-            (r.source === ai._id && r.target === bi._id) ||
-            (r.source === bi._id && r.target === ai._id)
-          );
-          if (hasLink) shared++;
-        });
-      });
-      if (shared > 0) {
-        clusterLinks.push({ source: a.id, target: b.id, strength: Math.min(shared, 5) });
-      }
-    }
-  }
+    
+    // Link item to its theme
+    links.push({
+      source: themeId,
+      target: nodeId,
+      strength: 1
+    });
+  });
 
   // Force simulation
-  const simulation = d3.forceSimulation(clusterNodes)
-    .force('link', d3.forceLink(clusterLinks).id(d => d.id).distance(150))
-    .force('charge', d3.forceManyBody().strength(-500))
-    .force('center', d3.forceCenter(width / 2, height / 2));
+  const simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(60))
+    .force('charge', d3.forceManyBody().strength(d => d.isTheme ? -300 : -30))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(d => d.isTheme ? 40 : 12));
   
   // Draw links
   const link = g.append('g')
     .selectAll('line')
-    .data(clusterLinks)
+    .data(links)
     .join('line')
     .attr('class', 'link')
-    .attr('stroke-width', d => d.strength);
+    .attr('stroke-width', 1)
+    .attr('stroke-opacity', 0.3);
   
-  // Draw cluster nodes
+  // Draw nodes
   const node = g.append('g')
     .selectAll('g')
-    .data(clusterNodes)
+    .data(nodes)
     .join('g')
-    .attr('class', 'node cluster-node')
+    .attr('class', d => d.isTheme ? 'node theme-node' : 'node item-node')
     .call(d3.drag()
       .on('start', dragstarted)
       .on('drag', dragged)
       .on('end', dragended));
   
-  // Circle size based on item count
+  // Circle - theme nodes larger
   node.append('circle')
-    .attr('r', d => 20 + Math.sqrt(d.count) * 8)
+    .attr('r', d => d.isTheme ? 30 : 8)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', 0.8);
+    .attr('fill-opacity', d => d.isTheme ? 0.9 : 0.7);
   
-  // Cluster label
-  node.append('text')
-    .attr('class', 'node-label cluster-label')
+  // Labels
+  node.filter(d => d.isTheme).append('text')
+    .attr('class', 'node-label theme-label')
     .attr('text-anchor', 'middle')
     .attr('dy', 5)
     .attr('fill', '#fff')
     .attr('font-weight', 'bold')
+    .attr('font-size', '11px')
     .text(d => d.name);
   
-  // Count badge
-  node.append('text')
-    .attr('class', 'node-count')
-    .attr('text-anchor', 'middle')
-    .attr('dy', -25)
-    .attr('fill', '#aaa')
-    .attr('font-size', '12px')
-    .text(d => d.count + ' 条');
+  node.filter(d => !d.isTheme).append('text')
+    .attr('class', 'node-label item-label')
+    .attr('dx', 12)
+    .attr('dy', 4)
+    .attr('font-size', '9px')
+    .text(d => (d.title || '').slice(0, 15));
   
-  // Click handler - show cluster items
+  // Click handler
   node.on('click', (e, d) => {
     selectedNode = d.id;
     node.classed('selected', n => n.id === d.id);
-    showClusterDetail(d);
+    if (d.isTheme) {
+      // Show all items in this theme
+      const items = DATA.items.filter(i => (i.themes && i.themes[0]) === d.id || (!i.themes?.length && d.id === 'other'));
+      showThemeDetail(d, items);
+    } else {
+      showDetail(d.item);
+    }
   });
   
   // Simulation tick
@@ -604,6 +603,18 @@ function showClusterDetail(cluster) {
     <p style="color:#888;margin-bottom:16px">${cluster.count} 条收藏</p>
   </div>`;
   cluster.items.forEach(item => {
+    html += renderCard(item);
+  });
+  panel.innerHTML = html;
+}
+
+function showThemeDetail(theme, items) {
+  const panel = document.getElementById('detail-panel');
+  let html = `<div class="cluster-header">
+    <h2 style="color:${theme.color}">${theme.name}</h2>
+    <p style="color:#888;margin-bottom:16px">${items.length} 条收藏</p>
+  </div>`;
+  items.forEach(item => {
     html += renderCard(item);
   });
   panel.innerHTML = html;
