@@ -550,15 +550,22 @@ function renderGraph() {
   
   // Click handler
   node.on('click', (e, d) => {
+    e.stopPropagation();
     selectedNode = d.id;
     node.classed('selected', n => n.id === d.id);
     if (d.isTheme) {
-      // Show all items in this theme
       const items = DATA.items.filter(i => (i.themes && i.themes[0]) === d.id || (!i.themes?.length && d.id === 'other'));
       showThemeDetail(d, items);
     } else {
       showDetail(d.item);
     }
+  });
+  
+  // Click on background to deselect
+  svg.on('click', () => {
+    selectedNode = null;
+    node.classed('selected', false);
+    renderList();
   });
   
   // Simulation tick
