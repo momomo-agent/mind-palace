@@ -1,0 +1,15 @@
+{
+  "name": "mind-palace",
+  "version": "1.0.0",
+  "description": "kenefe's mind palace - visualize bookmarks as a knowledge graph",
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "build": "node scripts/build.js",
+    "dev": "npx serve dist",
+    "deploy": "npm run sync && npm run build && gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

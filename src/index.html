@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mind Palace - kenefe's Knowledge Graph</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #0f0f0f;
+      color: #e0e0e0;
+      overflow: hidden;
+    }
+    #app {
+      display: flex;
+      height: 100vh;
+    }
+    #graph-container {
+      flex: 1;
+      position: relative;
+    }
+    #sidebar {
+      width: 380px;
+      background: #1a1a1a;
+      border-left: 1px solid #333;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .sidebar-header {
+      padding: 20px;
+      border-bottom: 1px solid #333;
+    }
+    .sidebar-header h1 {
+      font-size: 1.4rem;
+      margin-bottom: 4px;
+    }
+    .sidebar-header p {
+      font-size: 0.85rem;
+      color: #888;
+    }
+    #search-box {
+      padding: 16px 20px;
+      border-bottom: 1px solid #333;
+    }
+    #search-box input {
+      width: 100%;
+      padding: 10px 14px;
+      background: #252525;
+      border: 1px solid #444;
+      border-radius: 8px;
+      color: #e0e0e0;
+      font-size: 0.9rem;
+    }
+    #search-box input:focus {
+      outline: none;
+      border-color: #6366f1;
+    }
+    #themes-panel {
+      padding: 16px 20px;
+      border-bottom: 1px solid #333;
+    }
+    #themes-panel h3 {
+      font-size: 0.8rem;
+      color: #888;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .theme-tag {
+      display: inline-block;
+      padding: 6px 12px;
+      margin: 4px;
+      border-radius: 16px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: 1px solid transparent;
+    }
+    .theme-tag:hover {
+      filter: brightness(1.2);
+    }
+    .theme-tag.active {
+      border-color: #fff;
+    }
+    #detail-panel {
+      flex: 1;
+      overflow-y: auto;
+      padding: 20px;
+    }
+    .detail-card {
+      background: #252525;
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .detail-card h2 {
+      font-size: 1rem;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .detail-card h2 a {
+      color: #e0e0e0;
+      text-decoration: none;
+    }
+    .detail-card h2 a:hover {
+      color: #6366f1;
+    }
+    .detail-card .note {
+      font-size: 0.85rem;
+      color: #aaa;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+    .detail-card .meta {
+      font-size: 0.75rem;
+      color: #666;
+    }
+    .detail-card .tags {
+      margin-top: 8px;
+    }
+    .detail-card .tag {
+      display: inline-block;
+      padding: 3px 8px;
+      background: #333;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      margin-right: 4px;
+      color: #aaa;
+    }
+    .related-section {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid #333;
+    }
+    .related-section h4 {
+      font-size: 0.75rem;
+      color: #888;
+      margin-bottom: 8px;
+    }
+    .related-item {
+      font-size: 0.8rem;
+      padding: 6px 0;
+      color: #aaa;
+      cursor: pointer;
+    }
+    .related-item:hover {
+      color: #6366f1;
+    }
+    #graph {
+      width: 100%;
+      height: 100%;
+    }
+    .node {
+      cursor: pointer;
+    }
+    .node circle {
+      transition: all 0.2s;
+    }
+    .node:hover circle {
+      filter: brightness(1.3);
+    }
+    .node.selected circle {
+      stroke: #fff;
+      stroke-width: 3px;
+    }
+    .link {
+      stroke: #333;
+      stroke-opacity: 0.6;
+    }
+    .node-label {
+      font-size: 10px;
+      fill: #888;
+      pointer-events: none;
+    }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="graph-container">
+    <svg id="graph"></svg>
+  </div>
+  <div id="sidebar">
+    <div class="sidebar-header">
+      <h1>🏛️ Mind Palace</h1>
+      <p>kenefe 的思维宫殿</p>
+    </div>
+    <div id="search-box"></div>
+    <div id="themes-panel"></div>
+    <div id="detail-panel"></div>
+  </div>
+</div>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+const DATA = __DATA__;
+let selectedNode = null;
+let activeTheme = null;
+
+// Initialize
+document.addEventListener('DOMContentLoaded', init);
+
+function init() {
+  renderSearch();
+  renderThemes();
+  renderGraph();
+  renderList();
+}
+
+function renderSearch() {
+  const box = document.getElementById('search-box');
+  box.innerHTML = `<input type="text" placeholder="搜索书签..." id="search-input">`;
+  document.getElementById('search-input').addEventListener('input', (e) => {
+    const q = e.target.value.toLowerCase();
+    renderList(q);
+  });
+}
+
+function renderThemes() {
+  const panel = document.getElementById('themes-panel');
+  let html = '<h3>主题</h3><div>';
+  DATA.themes.forEach(t => {
+    html += `<span class="theme-tag" data-id="${t.id}" style="background:${t.color}33;color:${t.color}">${t.name}</span>`;
+  });
+  html += '</div>';
+  panel.innerHTML = html;
+  
+  panel.querySelectorAll('.theme-tag').forEach(el => {
+    el.addEventListener('click', () => {
+      const id = el.dataset.id;
+      if (activeTheme === id) {
+        activeTheme = null;
+        el.classList.remove('active');
+      } else {
+        panel.querySelectorAll('.theme-tag').forEach(e => e.classList.remove('active'));
+        activeTheme = id;
+        el.classList.add('active');
+      }
+      renderList();
+      highlightTheme();
+    });
+  });
+}
+
+function renderList(query = '') {
+  const panel = document.getElementById('detail-panel');
+  let items = DATA.items;
+  
+  if (activeTheme) {
+    items = items.filter(i => i.themes && i.themes.includes(activeTheme));
+  }
+  if (query) {
+    items = items.filter(i => 
+      (i.title || '').toLowerCase().includes(query) ||
+      (i.note || '').toLowerCase().includes(query) ||
+      i.tags.some(t => t.toLowerCase().includes(query))
+    );
+  }
+  
+  let html = '';
+  items.forEach(item => {
+    html += renderCard(item);
+  });
+  panel.innerHTML = html || '<p style="color:#666">没有匹配的书签</p>';
+}
+
+function renderCard(item) {
+  const date = new Date(item.created).toLocaleDateString('zh-CN');
+  const tags = item.tags.map(t => `<span class="tag">${t}</span>`).join('');
+  const related = getRelated(item._id);
+  
+  let relatedHtml = '';
+  if (related.length > 0) {
+    relatedHtml = `<div class="related-section"><h4>相关</h4>`;
+    related.slice(0, 3).forEach(r => {
+      relatedHtml += `<div class="related-item" data-id="${r._id}">${r.title || r.link}</div>`;
+    });
+    relatedHtml += '</div>';
+  }
+  
+  return `
+    <div class="detail-card" data-id="${item._id}">
+      <h2><a href="${item.link}" target="_blank">${item.title || item.link}</a></h2>
+      ${item.note ? `<div class="note">${item.note}</div>` : ''}
+      <div class="meta">${item.domain} · ${date}</div>
+      <div class="tags">${tags}</div>
+      ${relatedHtml}
+    </div>
+  `;
+}
+
+function getRelated(id) {
+  const rels = DATA.relations.filter(r => r.source === id || r.target === id);
+  const ids = rels.map(r => r.source === id ? r.target : r.source);
+  return DATA.items.filter(i => ids.includes(i._id));
+}
+
+function renderGraph() {
+  const container = document.getElementById('graph-container');
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+  
+  const svg = d3.select('#graph')
+    .attr('width', width)
+    .attr('height', height);
+  
+  svg.selectAll('*').remove();
+  
+  const g = svg.append('g');
+  
+  // Zoom
+  svg.call(d3.zoom()
+    .scaleExtent([0.3, 3])
+    .on('zoom', (e) => g.attr('transform', e.transform)));
+  
+  // Prepare nodes and links
+  const nodes = DATA.items.map(item => ({
+    id: item._id,
+    title: item.title || item.domain,
+    themes: item.themes || [],
+    item
+  }));
+  
+  const links = DATA.relations.map(r => ({
+    source: r.source,
+    target: r.target,
+    strength: r.strength
+  }));
+  
+  // Get color for node
+  function getColor(node) {
+    if (node.themes.length > 0) {
+      const theme = DATA.themes.find(t => t.id === node.themes[0]);
+      return theme ? theme.color : '#666';
+    }
+    return '#666';
+  }
+  
+  // Force simulation
+  const simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(80))
+    .force('charge', d3.forceManyBody().strength(-200))
+    .force('center', d3.forceCenter(width / 2, height / 2));
+  
+  // Draw links
+  const link = g.append('g')
+    .selectAll('line')
+    .data(links)
+    .join('line')
+    .attr('class', 'link')
+    .attr('stroke-width', d => d.strength);
+  
+  // Draw nodes
+  const node = g.append('g')
+    .selectAll('g')
+    .data(nodes)
+    .join('g')
+    .attr('class', 'node')
+    .call(d3.drag()
+      .on('start', dragstarted)
+      .on('drag', dragged)
+      .on('end', dragended));
+  
+  node.append('circle')
+    .attr('r', 8)
+    .attr('fill', d => getColor(d));
+  
+  node.append('text')
+    .attr('class', 'node-label')
+    .attr('dx', 12)
+    .attr('dy', 4)
+    .text(d => d.title.slice(0, 20));
+  
+  // Click handler
+  node.on('click', (e, d) => {
+    selectedNode = d.id;
+    node.classed('selected', n => n.id === d.id);
+    showDetail(d.item);
+  });
+  
+  // Simulation tick
+  simulation.on('tick', () => {
+    link
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+  
+  // Drag functions
+  function dragstarted(e) {
+    if (!e.active) simulation.alphaTarget(0.3).restart();
+    e.subject.fx = e.subject.x;
+    e.subject.fy = e.subject.y;
+  }
+  function dragged(e) {
+    e.subject.fx = e.x;
+    e.subject.fy = e.y;
+  }
+  function dragended(e) {
+    if (!e.active) simulation.alphaTarget(0);
+    e.subject.fx = null;
+    e.subject.fy = null;
+  }
+  
+  // Store for highlight
+  window.graphNodes = node;
+}
+
+function showDetail(item) {
+  const panel = document.getElementById('detail-panel');
+  panel.innerHTML = renderCard(item);
+}
+
+function highlightTheme() {
+  if (!window.graphNodes) return;
+  window.graphNodes.style('opacity', d => {
+    if (!activeTheme) return 1;
+    return d.themes.includes(activeTheme) ? 1 : 0.2;
+  });
+}
+</script>
+</body>
+</html>
