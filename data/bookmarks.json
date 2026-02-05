@@ -1,6 +1,6 @@
 {
   "meta": {
-    "syncedAt": "2026-02-04T05:38:50.867Z",
+    "syncedAt": "2026-02-04T16:18:55.673Z",
     "count": 50
   },
   "themes": [
@@ -51,6 +51,192 @@
   ],
   "items": [
     {
+      "_id": 1577534060,
+      "link": "https://liruifengv.com/posts/openclaw-prompts/",
+      "excerpt": "",
+      "note": "liruifengv 拆解 OpenClaw 系统提示词设计——AGENTS.md（工作空间）、SOUL.md（人格）、USER.md（用户画像）、MEMORY.md（长期记忆）等文件结构；核心理念：赋予 Agent 独立人格与记忆延续性，让它成为伙伴而非工具。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "media": [],
+      "created": "2026-02-04T16:18:31.564Z",
+      "lastUpdate": "2026-02-04T16:18:45.604Z",
+      "domain": "liruifengv.com",
+      "title": "https://liruifengv.com/posts/openclaw-prompts/",
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1577534060,
+      "highlights": [],
+      "collectionId": -1,
+      "themes": [
+        "ai-agent-tools"
+      ],
+      "highlights_text": [
+        "赋予 Agent 独立人格与记忆延续性"
+      ]
+    },
+    {
+      "_id": 1577533656,
+      "link": "https://x.com/liruifengv/status/2019040175192727608",
+      "excerpt": "",
+      "note": "Ruifeng 解析 OpenClaw 提示词设计——让 Agent 拟人化特别强，赋予独立人格，不再是工具而是人类伙伴；推荐 Agent 开发者学习。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "media": [],
+      "created": "2026-02-04T16:17:43.224Z",
+      "lastUpdate": "2026-02-04T16:17:52.810Z",
+      "domain": "x.com",
+      "title": "https://x.com/liruifengv/status/2019040175192727608",
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1577533656,
+      "highlights": [],
+      "collectionId": -1,
+      "themes": [
+        "ai-agent-tools"
+      ],
+      "highlights_text": [
+        "让 Agent 拟人化特别强，赋予独立人格，不再是工具而是人类伙伴"
+      ]
+    },
+    {
+      "_id": 1576971307,
+      "link": "https://x.com/FuSheng_0306/status/2018967988905636138",
+      "excerpt": "有一说一现在的App确实非常臃肿，页面里全是各种复杂的菜单、会员、广告。Openclaw创始人预测的未来里，用户只用做一件事：说出你的需求，Agent就能现场为你造出一个专属工具。\n这就是我说的：所有的产品都值得用大模型重做一遍。",
+      "note": "傅盛转发 Peter Steinberger 观点：你很快就不需要 App 了——未来用户只需说出需求，Agent 就能现场造出专属工具。「所有的产品都值得用大模型重做一遍」。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://pbs.twimg.com/amplify_video_thumb/2018967826032361473/img/_NPG_2MsNk83fYQ5.jpg:large",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "removed": false,
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "media": [
+        {
+          "type": "image",
+          "link": "https://pbs.twimg.com/amplify_video_thumb/2018967826032361473/img/_NPG_2MsNk83fYQ5.jpg:large"
+        }
+      ],
+      "created": "2026-02-04T09:39:52.146Z",
+      "lastUpdate": "2026-02-04T09:40:00.362Z",
+      "domain": "x.com",
+      "title": "Openclaw开发者Peter Steinberger：你很快就不需要App了",
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1576971307,
+      "highlights": [],
+      "collectionId": -1,
+      "themes": [
+        "moltbot-ecosystem",
+        "ai-agent-tools",
+        "ai-products"
+      ],
+      "highlights_text": [
+        "未来用户只需说出需求，Agent 就能现场造出专属工具",
+        "你很快就不需要 App 了——未来用户只需说出需求",
+        "所有的产品都值得用大模型重做一遍"
+      ]
+    },
+    {
+      "_id": 1576662684,
+      "link": "https://x.com/dangreenheck/status/2018751547035795458",
+      "excerpt": "Powered by TSL and WebGPU. Real-time previews. Human readable code. Type inference. The list goes on.\n\nThe free plan will include a fully featured editor (except for custom code nodes) with export to TSL so you can",
+      "note": "Dan Greenheck 正在为 Three.js 打造一流的 Shader Graph 编辑器——基于 TSL + WebGPU，支持实时预览、可读代码输出、类型推断；免费版功能完整（除自定义代码节点），可导出 TSL。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://pbs.twimg.com/amplify_video_thumb/2018748947720806400/img/fVd8WC_JWEYLZ4Fm.jpg:large",
+      "tags": [
+        "Develop",
+        "Design"
+      ],
+      "removed": false,
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "media": [
+        {
+          "type": "image",
+          "link": "https://pbs.twimg.com/amplify_video_thumb/2018748947720806400/img/fVd8WC_JWEYLZ4Fm.jpg:large"
+        }
+      ],
+      "created": "2026-02-04T05:54:25.949Z",
+      "lastUpdate": "2026-02-04T05:54:33.357Z",
+      "domain": "x.com",
+      "title": "I'm building a first-class shader graph editor for Three.js.",
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1576662684,
+      "highlights": [],
+      "collectionId": -1,
+      "themes": [],
+      "highlights_text": [
+        "基于 TSL + WebGPU，支持实时预览、可读代码输出、类型推断"
+      ]
+    },
+    {
       "_id": 1576613469,
       "link": "https://www.jernesto.com/articles/thinking_hard",
       "excerpt": "",
@@ -88,6 +274,11 @@
       "collectionId": -1,
       "themes": [
         "ai-reflection"
+      ],
+      "highlights_text": [
+        "AI 提供 70% 的\"够用\"方案，实用主义让人难以拒绝，但深度成长感消失了",
+        "作者反思 AI 时代对深度思考的影响",
+        "I miss thinking hard"
       ]
     },
     {
@@ -132,6 +323,9 @@
       "collectionId": -1,
       "themes": [
         "ai-agent-tools"
+      ],
+      "highlights_text": [
+        "Vercel Labs 出品的 Headless 浏览器自动化 CLI"
       ]
     },
     {
@@ -176,6 +370,9 @@
       "collectionId": -1,
       "themes": [
         "ai-agent-tools"
+      ],
+      "highlights_text": [
+        "将 Mermaid 图表渲染为 SVG/PNG 的 Agent Skill"
       ]
     },
     {
@@ -220,6 +417,9 @@
       "collectionId": -1,
       "themes": [
         "ai-agent-tools"
+      ],
+      "highlights_text": [
+        "使用 Beautiful Mermaid 库将 Mermaid 图表渲染为 SV"
       ]
     },
     {
@@ -270,6 +470,9 @@
       "themes": [
         "ai-agent-tools",
         "ai-products"
+      ],
+      "highlights_text": [
+        "Moltbook 的单个帖子页面（当前页面内容抓取受限/仅返回站点页脚）"
       ]
     },
     {
@@ -320,6 +523,9 @@
       "themes": [
         "ai-agent-tools",
         "ai-products"
+      ],
+      "highlights_text": [
+        "面向 AI Agents 的社交网络/信息流"
       ]
     },
     {
@@ -365,6 +571,9 @@
       "collectionId": -1,
       "themes": [
         "moltbot-ecosystem"
+      ],
+      "highlights_text": [
+        "深度解析：Moltbot 底层架构"
       ]
     },
     {
@@ -405,6 +614,9 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
+      ],
+      "highlights_text": [
+        "官网内容抓取受限（Next.js/RSC）"
       ]
     },
     {
@@ -450,6 +662,9 @@
       "collectionId": -1,
       "themes": [
         "moltbot-ecosystem"
+      ],
+      "highlights_text": [
+        "WquGuru 转发的链接（t.co → X Article）"
       ]
     },
     {
@@ -497,6 +712,10 @@
         "moltbot-ecosystem",
         "ai-agent-tools",
         "ai-products"
+      ],
+      "highlights_text": [
+        "卖公司财富自由后躺平三年，复出研究 AI",
+        "Peter Steinberger（Clawdbot→Moltbot 作者）——"
       ]
     },
     {
@@ -542,6 +761,9 @@
       "collectionId": -1,
       "themes": [
         "ai-agent-tools"
+      ],
+      "highlights_text": [
+        "Vercel 团队实验——给 AI Coding Agent 提供框架知识时"
       ]
     },
     {
@@ -587,6 +809,9 @@
       "collectionId": -1,
       "themes": [
         "moltbot-ecosystem"
+      ],
+      "highlights_text": [
+        "WY 转发的链接（t.co → X Article）"
       ]
     },
     {
@@ -634,6 +859,9 @@
       "themes": [
         "moltbot-ecosystem",
         "ai-agent-tools"
+      ],
+      "highlights_text": [
+        "从 steipete（Clawdbot/Moltbot 之父）的 GitHub"
       ]
     },
     {
@@ -673,7 +901,8 @@
       "collectionId": -1,
       "themes": [
         "ai-reflection"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1566275144,
@@ -724,7 +953,8 @@
         "moltbot-ecosystem",
         "ai-agent-tools",
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1551209593,
@@ -785,7 +1015,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1540468561,
@@ -846,7 +1077,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1540454272,
@@ -886,7 +1118,8 @@
       },
       "sort": 1540454272,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1527042502,
@@ -947,7 +1180,8 @@
       },
       "sort": 1527042502,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1524231105,
@@ -985,7 +1219,8 @@
       },
       "sort": 1524231105,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1524200400,
@@ -1027,7 +1262,8 @@
       },
       "sort": 1524200400,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1505944471,
@@ -1076,7 +1312,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1422362448,
@@ -1120,7 +1357,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1341731095,
@@ -1158,7 +1396,8 @@
       },
       "sort": 1341731095,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1216041460,
@@ -1221,7 +1460,8 @@
       },
       "sort": 1216041460,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1165919125,
@@ -1263,7 +1503,8 @@
       },
       "sort": 1165919125,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1162211616,
@@ -1322,7 +1563,8 @@
       },
       "sort": 1162211616,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1145819654,
@@ -1381,7 +1623,8 @@
       },
       "sort": 1145819654,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1145814619,
@@ -1435,7 +1678,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1145717374,
@@ -1479,7 +1723,8 @@
       },
       "sort": 1145717374,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1145717294,
@@ -1523,7 +1768,8 @@
       },
       "sort": 1145717294,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1135575203,
@@ -1585,7 +1831,8 @@
       },
       "sort": 1135575203,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1128992474,
@@ -1644,7 +1891,8 @@
       },
       "sort": 1128992474,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1128767891,
@@ -1708,7 +1956,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 1044296804,
@@ -1751,7 +2000,8 @@
       },
       "sort": 1044296804,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 1038283614,
@@ -1810,7 +2060,8 @@
       },
       "sort": 1038283614,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 891032663,
@@ -1852,7 +2103,8 @@
       "collectionId": 10852934,
       "themes": [
         "ai-agent-tools"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 856144577,
@@ -1909,7 +2161,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 853938556,
@@ -1952,7 +2205,8 @@
       },
       "sort": 853938556,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 849401155,
@@ -2014,7 +2268,8 @@
       },
       "sort": 849401155,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 841781702,
@@ -2077,7 +2332,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 835168896,
@@ -2132,7 +2388,8 @@
       },
       "sort": 835168896,
       "collectionId": -1,
-      "themes": []
+      "themes": [],
+      "highlights_text": []
     },
     {
       "_id": 826983319,
@@ -2196,7 +2453,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 825492995,
@@ -2240,7 +2498,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 825418227,
@@ -2277,7 +2536,8 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
+      ],
+      "highlights_text": []
     },
     {
       "_id": 824960520,
@@ -2325,223 +2585,545 @@
       "collectionId": -1,
       "themes": [
         "ai-products"
-      ]
-    },
-    {
-      "_id": 814765361,
-      "link": "https://tympanus.net/codrops/2024/07/09/creating-an-animated-displaced-sphere-with-a-custom-three-js-material/",
-      "title": "Creating an Animated Displaced Sphere with a Custom Three.js Material | Codrops",
-      "excerpt": "Learn how to create an animated, displaced sphere using custom shaders with Three.js and React Three Fiber.",
-      "note": "",
-      "type": "article",
-      "user": {
-        "$ref": "users",
-        "$id": 457938
-      },
-      "cover": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/07/sphere.jpg?x11129",
-      "media": [
-        {
-          "link": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/07/sphere.jpg?x11129",
-          "type": "image"
-        },
-        {
-          "link": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2024/06/1-basic-setup-1536x993.png?x11129",
-          "type": "image"
-        },
-        {
-          "link": "https://codrops-1f606.kxcdn.com/codrops/wp-content/uploads/2023/10/codrops-tshirt_small_sidebar.jpg?x11129",
-          "type": "image"
-        }
       ],
-      "tags": [
-        "Design",
-        "Develop",
-        "Render"
-      ],
-      "important": false,
-      "reminder": {
-        "date": null
-      },
-      "removed": false,
-      "created": "2024-07-11T01:39:58.137Z",
-      "collection": {
-        "$ref": "collections",
-        "$id": -1,
-        "oid": -1
-      },
-      "highlights": [],
-      "lastUpdate": "2024-07-11T01:40:02.722Z",
-      "domain": "tympanus.net",
-      "creatorRef": {
-        "_id": 457938,
-        "name": "kenefe",
-        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
-        "email": ""
-      },
-      "sort": 814765361,
-      "collectionId": -1,
-      "themes": []
-    },
-    {
-      "_id": 812033767,
-      "link": "https://www.shadertoy.com/view/DsVBWc",
-      "title": "Shadertoy",
-      "excerpt": "Build shaders, share them, and learn from the best community.",
-      "note": "",
-      "type": "link",
-      "user": {
-        "$ref": "users",
-        "$id": 457938
-      },
-      "cover": "https://www.shadertoy.com/media/shaders/DsVBWc.jpg",
-      "media": [
-        {
-          "link": "https://www.shadertoy.com/media/shaders/DsVBWc.jpg",
-          "type": "image"
-        }
-      ],
-      "tags": [],
-      "important": false,
-      "reminder": {
-        "date": null
-      },
-      "removed": false,
-      "created": "2024-07-05T12:28:49.404Z",
-      "collection": {
-        "$ref": "collections",
-        "$id": -1,
-        "oid": -1
-      },
-      "highlights": [],
-      "lastUpdate": "2024-07-05T12:28:49.404Z",
-      "domain": "shadertoy.com",
-      "creatorRef": {
-        "_id": 457938,
-        "name": "kenefe",
-        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
-        "email": ""
-      },
-      "sort": 812033767,
-      "collectionId": -1,
-      "themes": []
-    },
-    {
-      "_id": 811495372,
-      "link": "https://github.com/diharaw/volumetric-clouds",
-      "title": "diharaw/volumetric-clouds",
-      "excerpt": "Contribute to diharaw/volumetric-clouds development by creating an account on GitHub.",
-      "note": "",
-      "type": "link",
-      "user": {
-        "$ref": "users",
-        "$id": 457938
-      },
-      "cover": "https://opengraph.githubassets.com/bb3ad3fb436bc4a5936089f56510d56d6259da720d3aae33b7ddcdd1b6412e3f/diharaw/volumetric-clouds",
-      "media": [
-        {
-          "link": "https://opengraph.githubassets.com/bb3ad3fb436bc4a5936089f56510d56d6259da720d3aae33b7ddcdd1b6412e3f/diharaw/volumetric-clouds",
-          "type": "image"
-        },
-        {
-          "link": "https://github.com/diharaw/volumetric-clouds/raw/main/data/screenshot_1.jpg",
-          "type": "image"
-        },
-        {
-          "link": "https://github.com/diharaw/volumetric-clouds/raw/main/data/screenshot_2.jpg",
-          "type": "image"
-        }
-      ],
-      "tags": [
-        "Design",
-        "Develop"
-      ],
-      "important": false,
-      "reminder": {
-        "date": null
-      },
-      "removed": false,
-      "created": "2024-07-04T09:00:16.862Z",
-      "collection": {
-        "$ref": "collections",
-        "$id": -1,
-        "oid": -1
-      },
-      "highlights": [],
-      "lastUpdate": "2024-07-04T09:00:21.411Z",
-      "domain": "github.com",
-      "creatorRef": {
-        "_id": 457938,
-        "name": "kenefe",
-        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
-        "email": ""
-      },
-      "sort": 811495372,
-      "collectionId": -1,
-      "themes": []
-    },
-    {
-      "_id": 808373589,
-      "link": "https://github.com/Morpheus636/bluebubbles-app",
-      "title": "Morpheus636/bluebubbles-app: A cross-platform app ecosystem, bringing iMessage to Android, PC (Windows, Linux, & even macOS), and Web!",
-      "excerpt": "A cross-platform app ecosystem, bringing iMessage to Android, PC (Windows, Linux, & even macOS), and Web! - Morpheus636/bluebubbles-app",
-      "note": "iMessage",
-      "type": "link",
-      "user": {
-        "$ref": "users",
-        "$id": 457938
-      },
-      "cover": "https://opengraph.githubassets.com/70930175ae31293d7aa621543a5c6e844ffdccedf3214b28050de9fc65df414b/Morpheus636/bluebubbles-app",
-      "media": [
-        {
-          "link": "https://opengraph.githubassets.com/70930175ae31293d7aa621543a5c6e844ffdccedf3214b28050de9fc65df414b/Morpheus636/bluebubbles-app",
-          "type": "image"
-        },
-        {
-          "link": "https://raw.githubusercontent.com/BlueBubblesApp/bluebubbles-app/master/screenshots/Samsung%20Galaxy%20S10%2B%20Prism%20Black%20-%20imessage_framed.png",
-          "type": "image"
-        },
-        {
-          "link": "https://raw.githubusercontent.com/BlueBubblesApp/bluebubbles-app/master/screenshots/Samsung%20Galaxy%20S10+%20Prism%20Black%20-%20messaging_framed.png",
-          "type": "image"
-        },
-        {
-          "link": "https://raw.githubusercontent.com/BlueBubblesApp/bluebubbles-app/master/screenshots/Samsung%20Galaxy%20S10+%20Prism%20Black%20-%20privateAPI_framed.png",
-          "type": "image"
-        }
-      ],
-      "tags": [
-        "Design",
-        "Develop",
-        "Render"
-      ],
-      "important": false,
-      "reminder": {
-        "date": null
-      },
-      "removed": false,
-      "created": "2024-06-28T16:25:41.634Z",
-      "collection": {
-        "$ref": "collections",
-        "$id": -1,
-        "oid": -1
-      },
-      "highlights": [],
-      "lastUpdate": "2024-06-28T16:26:00.034Z",
-      "domain": "github.com",
-      "creatorRef": {
-        "_id": 457938,
-        "name": "kenefe",
-        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
-        "email": ""
-      },
-      "sort": 808373589,
-      "collectionId": -1,
-      "themes": [
-        "ai-products"
-      ]
+      "highlights_text": []
     }
   ],
   "relations": [
+    {
+      "source": 1577534060,
+      "target": 1577533656,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1576971307,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1576613469,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1568546461,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1568498887,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1568497711,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1568169529,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1568169449,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1567660543,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1566697821,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1566667042,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1566664687,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1566660416,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1566657322,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1566657038,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1551209593,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1540468561,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577534060,
+      "target": 1527042502,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1145814619,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1145717374,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1145717294,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1577534060,
+      "target": 1128767891,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1576971307,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1576662684,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1577533656,
+      "target": 1576613469,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1568546461,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1568498887,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1568497711,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1568169529,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1568169449,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1567660543,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1566697821,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1566667042,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1566664687,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1566660416,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1566657322,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1566657038,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1551209593,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1540468561,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1577533656,
+      "target": 1527042502,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1145814619,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1145717374,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1145717294,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1577533656,
+      "target": 1128767891,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1576662684,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1576971307,
+      "target": 1576613469,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1568546461,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1568498887,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1568497711,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1568169529,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1568169449,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1567660543,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1566697821,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1566667042,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1566664687,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1566660416,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1566657322,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1566657038,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1551209593,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1540468561,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576971307,
+      "target": 1527042502,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1145814619,
+      "strength": 2,
+      "reason": "AI, Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1145717374,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1145717294,
+      "strength": 1,
+      "reason": "Article"
+    },
+    {
+      "source": 1576971307,
+      "target": 1128767891,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1576662684,
+      "target": 1568546461,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1568498887,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1568497711,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1566667042,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1576662684,
+      "target": 1566660416,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1566657322,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1576662684,
+      "target": 1566657038,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1566616904,
+      "strength": 2,
+      "reason": "Develop, Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 1551209593,
+      "strength": 1,
+      "reason": "Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 1540468561,
+      "strength": 1,
+      "reason": "Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 1540454272,
+      "strength": 1,
+      "reason": "Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 1524200400,
+      "strength": 2,
+      "reason": "Develop, Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 1216041460,
+      "strength": 2,
+      "reason": "Develop, Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 1165919125,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1145814619,
+      "strength": 1,
+      "reason": "Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 1145717374,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1145717294,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 1135575203,
+      "strength": 1,
+      "reason": "Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 856144577,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1576662684,
+      "target": 849401155,
+      "strength": 2,
+      "reason": "Develop, Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 835168896,
+      "strength": 2,
+      "reason": "Develop, Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 826983319,
+      "strength": 1,
+      "reason": "Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 825492995,
+      "strength": 2,
+      "reason": "Develop, Design"
+    },
+    {
+      "source": 1576662684,
+      "target": 824960520,
+      "strength": 1,
+      "reason": "Develop"
+    },
     {
       "source": 1576613469,
       "target": 1568546461,
@@ -2831,24 +3413,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1568546461,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1568546461,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1568546461,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1568498887,
       "target": 1568497711,
       "strength": 2,
@@ -2999,24 +3563,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1568498887,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1568498887,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1568498887,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1568497711,
       "target": 1568169529,
       "strength": 1,
@@ -3161,24 +3707,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1568497711,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1568497711,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1568497711,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1568169529,
       "target": 1568169449,
       "strength": 3,
@@ -3755,24 +4283,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1566660416,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1566660416,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1566660416,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1566657322,
       "target": 1566657038,
       "strength": 2,
@@ -3911,24 +4421,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1566657038,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1566657038,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1566657038,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1566616904,
       "target": 1551209593,
       "strength": 1,
@@ -4025,24 +4517,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1566616904,
-      "target": 814765361,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 1566616904,
-      "target": 811495372,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 1566616904,
-      "target": 808373589,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
       "source": 1566275144,
       "target": 1216041460,
       "strength": 1,
@@ -4063,18 +4537,6 @@
     {
       "source": 1566275144,
       "target": 824960520,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
-      "source": 1566275144,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
-      "source": 1566275144,
-      "target": 808373589,
       "strength": 1,
       "reason": "same domain: github.com"
     },
@@ -4145,24 +4607,6 @@
       "reason": "Design"
     },
     {
-      "source": 1551209593,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1551209593,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1551209593,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
       "source": 1540468561,
       "target": 1540454272,
       "strength": 1,
@@ -4223,24 +4667,6 @@
       "reason": "Design"
     },
     {
-      "source": 1540468561,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1540468561,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1540468561,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
       "source": 1540454272,
       "target": 1524200400,
       "strength": 1,
@@ -4285,24 +4711,6 @@
     {
       "source": 1540454272,
       "target": 825492995,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1540454272,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1540454272,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1540454272,
-      "target": 808373589,
       "strength": 1,
       "reason": "Design"
     },
@@ -4409,24 +4817,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1524200400,
-      "target": 814765361,
-      "strength": 3,
-      "reason": "Render, Design, Develop"
-    },
-    {
-      "source": 1524200400,
-      "target": 811495372,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 1524200400,
-      "target": 808373589,
-      "strength": 3,
-      "reason": "Render, Design, Develop"
-    },
-    {
       "source": 1505944471,
       "target": 1422362448,
       "strength": 2,
@@ -4475,18 +4865,6 @@
       "reason": "Apple"
     },
     {
-      "source": 1505944471,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Render"
-    },
-    {
-      "source": 1505944471,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Render"
-    },
-    {
       "source": 1422362448,
       "target": 1216041460,
       "strength": 1,
@@ -4527,18 +4905,6 @@
       "target": 825492995,
       "strength": 1,
       "reason": "App"
-    },
-    {
-      "source": 1422362448,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Render"
-    },
-    {
-      "source": 1422362448,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Render"
     },
     {
       "source": 1216041460,
@@ -4619,24 +4985,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1216041460,
-      "target": 814765361,
-      "strength": 3,
-      "reason": "Render, Develop, Design"
-    },
-    {
-      "source": 1216041460,
-      "target": 811495372,
-      "strength": 2,
-      "reason": "Develop, Design"
-    },
-    {
-      "source": 1216041460,
-      "target": 808373589,
-      "strength": 3,
-      "reason": "Render, Develop, Design"
-    },
-    {
       "source": 1165919125,
       "target": 1145717374,
       "strength": 1,
@@ -4675,24 +5023,6 @@
     {
       "source": 1165919125,
       "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1165919125,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1165919125,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1165919125,
-      "target": 808373589,
       "strength": 1,
       "reason": "Develop"
     },
@@ -4745,24 +5075,6 @@
       "reason": "Design"
     },
     {
-      "source": 1145814619,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1145814619,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1145814619,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
       "source": 1145717374,
       "target": 1145717294,
       "strength": 3,
@@ -4799,24 +5111,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1145717374,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1145717374,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1145717374,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1145717294,
       "target": 856144577,
       "strength": 1,
@@ -4843,24 +5137,6 @@
     {
       "source": 1145717294,
       "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1145717294,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1145717294,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1145717294,
-      "target": 808373589,
       "strength": 1,
       "reason": "Develop"
     },
@@ -4895,24 +5171,6 @@
       "reason": "Design"
     },
     {
-      "source": 1135575203,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1135575203,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 1135575203,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
       "source": 1044296804,
       "target": 891032663,
       "strength": 1,
@@ -4925,32 +5183,8 @@
       "reason": "same domain: github.com"
     },
     {
-      "source": 1044296804,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
-      "source": 1044296804,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
       "source": 891032663,
       "target": 824960520,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
-      "source": 891032663,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
-      "source": 891032663,
-      "target": 808373589,
       "strength": 1,
       "reason": "same domain: github.com"
     },
@@ -4985,24 +5219,6 @@
       "reason": "Apple, Develop"
     },
     {
-      "source": 856144577,
-      "target": 814765361,
-      "strength": 2,
-      "reason": "Render, Develop"
-    },
-    {
-      "source": 856144577,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 856144577,
-      "target": 808373589,
-      "strength": 2,
-      "reason": "Render, Develop"
-    },
-    {
       "source": 849401155,
       "target": 835168896,
       "strength": 2,
@@ -5025,24 +5241,6 @@
       "target": 824960520,
       "strength": 1,
       "reason": "Develop"
-    },
-    {
-      "source": 849401155,
-      "target": 814765361,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 849401155,
-      "target": 811495372,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 849401155,
-      "target": 808373589,
-      "strength": 2,
-      "reason": "Design, Develop"
     },
     {
       "source": 841781702,
@@ -5069,24 +5267,6 @@
       "reason": "Develop"
     },
     {
-      "source": 835168896,
-      "target": 814765361,
-      "strength": 3,
-      "reason": "Design, Develop, Render"
-    },
-    {
-      "source": 835168896,
-      "target": 811495372,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 835168896,
-      "target": 808373589,
-      "strength": 3,
-      "reason": "Design, Develop, Render"
-    },
-    {
       "source": 826983319,
       "target": 825492995,
       "strength": 1,
@@ -5099,82 +5279,10 @@
       "reason": "Apple"
     },
     {
-      "source": 826983319,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 826983319,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
-      "source": 826983319,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Design"
-    },
-    {
       "source": 825492995,
       "target": 824960520,
       "strength": 1,
       "reason": "Develop"
-    },
-    {
-      "source": 825492995,
-      "target": 814765361,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 825492995,
-      "target": 811495372,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 825492995,
-      "target": 808373589,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 824960520,
-      "target": 814765361,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 824960520,
-      "target": 811495372,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 824960520,
-      "target": 808373589,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 814765361,
-      "target": 811495372,
-      "strength": 2,
-      "reason": "Design, Develop"
-    },
-    {
-      "source": 814765361,
-      "target": 808373589,
-      "strength": 3,
-      "reason": "Design, Develop, Render"
-    },
-    {
-      "source": 811495372,
-      "target": 808373589,
-      "strength": 2,
-      "reason": "Design, Develop"
     }
   ]
 }

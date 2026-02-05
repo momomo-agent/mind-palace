@@ -11,7 +11,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(__dirname, '..', 'data');
 
 async function fetchBookmarks() {
-  const script = '/Users/kenefe/clawd/skills/raindrop/scripts/raindrop.sh';
+  const script = '/Users/kenefe/clawd/skills/raindrop/scripts/raindrop.sh'; // path unchanged, skill still in clawd
   const result = execSync(`${script} GET '/raindrops/0?perpage=100&sort=-created'`, {
     encoding: 'utf-8'
   });
@@ -65,6 +65,37 @@ function inferRelations(items) {
   return relations;
 }
 
+function extractHighlights(note) {
+  if (!note) return [];
+  const highlights = [];
+  
+  // 提取关键短语（用破折号、分号、句号分隔的要点）
+  const patterns = [
+    /——([^。；]+)/g,  // 中文破折号后的内容
+    /：([^。；，]{10,40})/g,  // 冒号后的短句
+    /「([^」]+)」/g,  // 引号内容
+    /"([^"]+)"/g,  // 英文引号
+  ];
+  
+  patterns.forEach(p => {
+    let m;
+    while ((m = p.exec(note)) !== null) {
+      const h = m[1].trim();
+      if (h.length > 5 && h.length < 50) {
+        highlights.push(h);
+      }
+    }
+  });
+  
+  // 如果没提取到，取前 50 字作为摘要
+  if (highlights.length === 0 && note.length > 10) {
+    const first = note.slice(0, 60).replace(/[。；].*$/, '');
+    if (first) highlights.push(first);
+  }
+  
+  return highlights.slice(0, 3);
+}
+
 function inferThemes(items) {
   // Identify major themes from your bookmarks
   const themes = [
@@ -107,6 +138,8 @@ function inferThemes(items) {
     if (item.themes.length === 0 && item.tags.includes('AI')) {
       item.themes.push('ai-products');
     }
+    // Extract highlights
+    item.highlights_text = extractHighlights(item.note);
   });
   
   return themes;

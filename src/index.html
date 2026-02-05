@@ -4,13 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mind Palace - kenefe's Knowledge Graph</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --bg-cream: #FAF8F5;
+      --bg-warm: #F5F2ED;
+      --text-primary: #2C2825;
+      --text-secondary: #6B635A;
+      --text-muted: #9C948A;
+      --border: #E5E0D8;
+      --accent-terracotta: #C4785A;
+      --accent-sage: #7A8B6E;
+      --accent-slate: #5A6B7A;
+      --accent-plum: #8B6E7A;
+      --accent-gold: #B8A060;
+    }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #0f0f0f;
-      color: #e0e0e0;
-      overflow: hidden;
+      font-family: 'Source Serif 4', Georgia, serif;
+      background: var(--bg-cream);
+      color: var(--text-primary);
+      line-height: 1.6;
+      font-size: 15px;
     }
     #app {
       display: flex;
@@ -19,134 +36,196 @@
     #graph-container {
       flex: 1;
       position: relative;
+      background: var(--bg-warm);
+      border-right: 1px solid var(--border);
     }
     #sidebar {
-      width: 380px;
-      background: #1a1a1a;
-      border-left: 1px solid #333;
+      width: 420px;
+      min-width: 320px;
+      max-width: 70vw;
+      background: var(--bg-cream);
       display: flex;
       flex-direction: column;
       overflow: hidden;
+      position: relative;
+    }
+    #resize-handle {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 5px;
+      cursor: ew-resize;
+      background: transparent;
+      z-index: 10;
+    }
+    #resize-handle:hover {
+      background: var(--accent-terracotta);
+      opacity: 0.5;
     }
     .sidebar-header {
-      padding: 20px;
-      border-bottom: 1px solid #333;
+      padding: 32px 28px 24px;
+      border-bottom: 1px solid var(--border);
     }
     .sidebar-header h1 {
-      font-size: 1.4rem;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
       margin-bottom: 4px;
     }
     .sidebar-header p {
       font-size: 0.85rem;
-      color: #888;
+      color: var(--text-muted);
+      font-style: italic;
     }
     #search-box {
-      padding: 16px 20px;
-      border-bottom: 1px solid #333;
+      padding: 20px 28px;
+      border-bottom: 1px solid var(--border);
     }
     #search-box input {
       width: 100%;
-      padding: 10px 14px;
-      background: #252525;
-      border: 1px solid #444;
-      border-radius: 8px;
-      color: #e0e0e0;
+      padding: 12px 16px;
+      background: var(--bg-warm);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--text-primary);
+      font-family: inherit;
       font-size: 0.9rem;
     }
     #search-box input:focus {
       outline: none;
-      border-color: #6366f1;
+      border-color: var(--text-muted);
+    }
+    #search-box input::placeholder {
+      color: var(--text-muted);
     }
     #themes-panel {
-      padding: 16px 20px;
-      border-bottom: 1px solid #333;
+      padding: 20px 28px;
+      border-bottom: 1px solid var(--border);
     }
     #themes-panel h3 {
-      font-size: 0.8rem;
-      color: #888;
+      font-size: 0.7rem;
+      color: var(--text-muted);
       margin-bottom: 12px;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.1em;
+      font-weight: 400;
     }
     .theme-tag {
       display: inline-block;
-      padding: 6px 12px;
-      margin: 4px;
-      border-radius: 16px;
+      padding: 6px 14px;
+      margin: 3px;
+      border-radius: 20px;
       font-size: 0.8rem;
       cursor: pointer;
       transition: all 0.2s;
-      border: 1px solid transparent;
+      border: 1px solid var(--border);
+      background: transparent;
     }
     .theme-tag:hover {
-      filter: brightness(1.2);
+      border-color: var(--text-muted);
     }
     .theme-tag.active {
-      border-color: #fff;
+      background: var(--text-primary);
+      color: var(--bg-cream);
+      border-color: var(--text-primary);
     }
     #detail-panel {
       flex: 1;
       overflow-y: auto;
-      padding: 20px;
+      padding: 24px 28px;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
     }
     .detail-card {
-      background: #252525;
-      border-radius: 12px;
-      padding: 16px;
-      margin-bottom: 12px;
+      background: var(--bg-cream);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 20px;
+      transition: border-color 0.2s;
+    }
+    .detail-card:hover {
+      border-color: var(--text-muted);
     }
     .detail-card h2 {
+      font-family: 'Playfair Display', Georgia, serif;
       font-size: 1rem;
+      font-weight: 500;
       margin-bottom: 8px;
       line-height: 1.4;
     }
     .detail-card h2 a {
-      color: #e0e0e0;
+      color: var(--text-primary);
       text-decoration: none;
     }
     .detail-card h2 a:hover {
-      color: #6366f1;
+      color: var(--accent-terracotta);
     }
     .detail-card .note {
       font-size: 0.85rem;
-      color: #aaa;
-      line-height: 1.6;
+      color: var(--text-secondary);
+      line-height: 1.7;
       margin-bottom: 12px;
     }
     .detail-card .meta {
       font-size: 0.75rem;
-      color: #666;
+      color: var(--text-muted);
     }
     .detail-card .tags {
-      margin-top: 8px;
+      margin-top: 10px;
     }
     .detail-card .tag {
       display: inline-block;
-      padding: 3px 8px;
-      background: #333;
-      border-radius: 4px;
+      padding: 2px 8px;
+      border: 1px solid var(--border);
+      border-radius: 3px;
       font-size: 0.7rem;
       margin-right: 4px;
-      color: #aaa;
+      color: var(--text-muted);
+    }
+    .highlights {
+      margin-bottom: 12px;
+    }
+    .highlight-item {
+      display: block;
+      padding: 10px 14px;
+      background: var(--bg-warm);
+      border-left: 2px solid var(--accent-terracotta);
+      margin-bottom: 6px;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+      font-style: italic;
     }
     .related-section {
-      margin-top: 16px;
-      padding-top: 16px;
-      border-top: 1px solid #333;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
     }
     .related-section h4 {
-      font-size: 0.75rem;
-      color: #888;
+      font-size: 0.7rem;
+      color: var(--text-muted);
       margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
     }
     .related-item {
       font-size: 0.8rem;
-      padding: 6px 0;
-      color: #aaa;
+      padding: 4px 0;
+      color: var(--text-secondary);
       cursor: pointer;
     }
     .related-item:hover {
-      color: #6366f1;
+      color: var(--accent-terracotta);
+    }
+    .cluster-header h2 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.4rem;
+      margin-bottom: 4px;
     }
     #graph {
       width: 100%;
@@ -159,20 +238,67 @@
       transition: all 0.2s;
     }
     .node:hover circle {
-      filter: brightness(1.3);
+      filter: brightness(0.9);
     }
     .node.selected circle {
-      stroke: #fff;
-      stroke-width: 3px;
+      stroke: var(--text-primary);
+      stroke-width: 2px;
     }
     .link {
-      stroke: #333;
+      stroke: var(--border);
       stroke-opacity: 0.6;
     }
     .node-label {
-      font-size: 10px;
-      fill: #888;
+      font-family: 'Source Serif 4', serif;
+      font-size: 9px;
+      fill: var(--text-muted);
       pointer-events: none;
+    }
+    .theme-label {
+      font-size: 11px;
+      fill: var(--text-primary);
+      font-weight: 500;
+    }
+    .mobile-nav {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: var(--bg-cream);
+      border-top: 1px solid var(--border);
+      z-index: 100;
+      padding: 10px 0;
+      padding-bottom: env(safe-area-inset-bottom, 10px);
+    }
+    .mobile-nav-inner {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+    }
+    .mobile-nav button {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-family: inherit;
+      font-size: 0.85rem;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+    .mobile-nav button.active {
+      color: var(--text-primary);
+      border-bottom: 1px solid var(--text-primary);
+    }
+    @media (max-width: 768px) {
+      #app { flex-direction: column; }
+      #graph-container { height: 45vh; display: none; border-right: none; border-bottom: 1px solid var(--border); }
+      #graph-container.active { display: block; }
+      #sidebar { width: 100%; height: 100vh; display: none; }
+      #sidebar.active { display: flex; }
+      .mobile-nav { display: block; }
+      body { padding-bottom: 60px; }
+      .sidebar-header { padding: 20px; }
+      #search-box, #themes-panel, #detail-panel { padding: 16px 20px; }
     }
 </style>
 </head>
@@ -182,22 +308,27 @@
     <svg id="graph"></svg>
   </div>
   <div id="sidebar">
+    <div id="resize-handle"></div>
     <div class="sidebar-header">
-      <h1>🏛️ Mind Palace</h1>
-      <p>kenefe 的思维宫殿</p>
+      <h1>Mind Palace</h1>
+      <p>A curated collection of thoughts</p>
     </div>
     <div id="search-box"></div>
     <div id="themes-panel"></div>
     <div id="detail-panel"></div>
   </div>
 </div>
+<nav class="mobile-nav">
+  <div class="mobile-nav-inner">
+    <button id="nav-list" class="active">Index</button>
+    <button id="nav-graph">Graph</button>
+  </div>
+</nav>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script>
 const DATA = __DATA__;
 let selectedNode = null;
 let activeTheme = null;
-
-// Initialize
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
@@ -205,39 +336,58 @@ function init() {
   renderThemes();
   renderGraph();
   renderList();
+  initMobileNav();
+  initResize();
+}
+
+function initResize() {
+  const handle = document.getElementById('resize-handle');
+  const sidebar = document.getElementById('sidebar');
+  if (!handle || !sidebar) return;
+  let isResizing = false;
+  handle.addEventListener('mousedown', (e) => { isResizing = true; document.body.style.cursor = 'ew-resize'; e.preventDefault(); });
+  document.addEventListener('mousemove', (e) => { if (!isResizing) return; const w = window.innerWidth - e.clientX; if (w >= 320 && w <= window.innerWidth * 0.7) sidebar.style.width = w + 'px'; });
+  document.addEventListener('mouseup', () => { isResizing = false; document.body.style.cursor = ''; });
+}
+
+function initMobileNav() {
+  const navList = document.getElementById('nav-list');
+  const navGraph = document.getElementById('nav-graph');
+  const sidebar = document.getElementById('sidebar');
+  const graphContainer = document.getElementById('graph-container');
+  if (!navList || !navGraph) return;
+  sidebar.classList.add('active');
+  navList.addEventListener('click', () => {
+    sidebar.classList.add('active'); graphContainer.classList.remove('active');
+    navList.classList.add('active'); navGraph.classList.remove('active');
+  });
+  navGraph.addEventListener('click', () => {
+    graphContainer.classList.add('active'); sidebar.classList.remove('active');
+    navGraph.classList.add('active'); navList.classList.remove('active');
+    setTimeout(renderGraph, 100);
+  });
 }
 
 function renderSearch() {
   const box = document.getElementById('search-box');
-  box.innerHTML = `<input type="text" placeholder="搜索书签..." id="search-input">`;
-  document.getElementById('search-input').addEventListener('input', (e) => {
-    const q = e.target.value.toLowerCase();
-    renderList(q);
-  });
+  box.innerHTML = `<input type="text" placeholder="Search..." id="search-input">`;
+  document.getElementById('search-input').addEventListener('input', (e) => renderList(e.target.value.toLowerCase()));
 }
 
 function renderThemes() {
   const panel = document.getElementById('themes-panel');
-  let html = '<h3>主题</h3><div>';
+  let html = '<h3>Themes</h3><div>';
   DATA.themes.forEach(t => {
-    html += `<span class="theme-tag" data-id="${t.id}" style="background:${t.color}33;color:${t.color}">${t.name}</span>`;
+    html += `<span class="theme-tag" data-id="${t.id}">${t.name}</span>`;
   });
   html += '</div>';
   panel.innerHTML = html;
-  
   panel.querySelectorAll('.theme-tag').forEach(el => {
     el.addEventListener('click', () => {
       const id = el.dataset.id;
-      if (activeTheme === id) {
-        activeTheme = null;
-        el.classList.remove('active');
-      } else {
-        panel.querySelectorAll('.theme-tag').forEach(e => e.classList.remove('active'));
-        activeTheme = id;
-        el.classList.add('active');
-      }
+      if (activeTheme === id) { activeTheme = null; el.classList.remove('active'); }
+      else { panel.querySelectorAll('.theme-tag').forEach(e => e.classList.remove('active')); activeTheme = id; el.classList.add('active'); }
       renderList();
-      highlightTheme();
     });
   });
 }
@@ -245,167 +395,30 @@ function renderThemes() {
 function renderList(query = '') {
   const panel = document.getElementById('detail-panel');
   let items = DATA.items;
-  
-  if (activeTheme) {
-    items = items.filter(i => i.themes && i.themes.includes(activeTheme));
-  }
-  if (query) {
-    items = items.filter(i => 
-      (i.title || '').toLowerCase().includes(query) ||
-      (i.note || '').toLowerCase().includes(query) ||
-      i.tags.some(t => t.toLowerCase().includes(query))
-    );
-  }
-  
-  let html = '';
-  items.forEach(item => {
-    html += renderCard(item);
-  });
-  panel.innerHTML = html || '<p style="color:#666">没有匹配的书签</p>';
+  if (activeTheme) items = items.filter(i => i.themes && i.themes.includes(activeTheme));
+  if (query) items = items.filter(i => (i.title || '').toLowerCase().includes(query) || (i.note || '').toLowerCase().includes(query) || i.tags.some(t => t.toLowerCase().includes(query)));
+  let html = '<div class="cards-grid">';
+  items.forEach(item => { html += renderCard(item); });
+  html += '</div>';
+  panel.innerHTML = items.length ? html : '<p style="color:var(--text-muted)">No results</p>';
 }
 
 function renderCard(item) {
   const date = new Date(item.created).toLocaleDateString('zh-CN');
   const tags = item.tags.map(t => `<span class="tag">${t}</span>`).join('');
-  const related = getRelated(item._id);
-  
-  let relatedHtml = '';
-  if (related.length > 0) {
-    relatedHtml = `<div class="related-section"><h4>相关</h4>`;
-    related.slice(0, 3).forEach(r => {
-      relatedHtml += `<div class="related-item" data-id="${r._id}">${r.title || r.link}</div>`;
-    });
-    relatedHtml += '</div>';
+  let highlightsHtml = '';
+  if (item.highlights_text && item.highlights_text.length > 0) {
+    highlightsHtml = '<div class="highlights">';
+    item.highlights_text.forEach(h => { highlightsHtml += `<span class="highlight-item">${h}</span>`; });
+    highlightsHtml += '</div>';
   }
-  
-  return `
-    <div class="detail-card" data-id="${item._id}">
-      <h2><a href="${item.link}" target="_blank">${item.title || item.link}</a></h2>
-      ${item.note ? `<div class="note">${item.note}</div>` : ''}
-      <div class="meta">${item.domain} · ${date}</div>
-      <div class="tags">${tags}</div>
-      ${relatedHtml}
-    </div>
-  `;
-}
-
-function getRelated(id) {
-  const rels = DATA.relations.filter(r => r.source === id || r.target === id);
-  const ids = rels.map(r => r.source === id ? r.target : r.source);
-  return DATA.items.filter(i => ids.includes(i._id));
-}
-
-function renderGraph() {
-  const container = document.getElementById('graph-container');
-  const width = container.clientWidth;
-  const height = container.clientHeight;
-  
-  const svg = d3.select('#graph')
-    .attr('width', width)
-    .attr('height', height);
-  
-  svg.selectAll('*').remove();
-  
-  const g = svg.append('g');
-  
-  // Zoom
-  svg.call(d3.zoom()
-    .scaleExtent([0.3, 3])
-    .on('zoom', (e) => g.attr('transform', e.transform)));
-  
-  // Prepare nodes and links
-  const nodes = DATA.items.map(item => ({
-    id: item._id,
-    title: item.title || item.domain,
-    themes: item.themes || [],
-    item
-  }));
-  
-  const links = DATA.relations.map(r => ({
-    source: r.source,
-    target: r.target,
-    strength: r.strength
-  }));
-  
-  // Get color for node
-  function getColor(node) {
-    if (node.themes.length > 0) {
-      const theme = DATA.themes.find(t => t.id === node.themes[0]);
-      return theme ? theme.color : '#666';
-    }
-    return '#666';
-  }
-  
-  // Force simulation
-  const simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(80))
-    .force('charge', d3.forceManyBody().strength(-200))
-    .force('center', d3.forceCenter(width / 2, height / 2));
-  
-  // Draw links
-  const link = g.append('g')
-    .selectAll('line')
-    .data(links)
-    .join('line')
-    .attr('class', 'link')
-    .attr('stroke-width', d => d.strength);
-  
-  // Draw nodes
-  const node = g.append('g')
-    .selectAll('g')
-    .data(nodes)
-    .join('g')
-    .attr('class', 'node')
-    .call(d3.drag()
-      .on('start', dragstarted)
-      .on('drag', dragged)
-      .on('end', dragended));
-  
-  node.append('circle')
-    .attr('r', 8)
-    .attr('fill', d => getColor(d));
-  
-  node.append('text')
-    .attr('class', 'node-label')
-    .attr('dx', 12)
-    .attr('dy', 4)
-    .text(d => d.title.slice(0, 20));
-  
-  // Click handler
-  node.on('click', (e, d) => {
-    selectedNode = d.id;
-    node.classed('selected', n => n.id === d.id);
-    showDetail(d.item);
-  });
-  
-  // Simulation tick
-  simulation.on('tick', () => {
-    link
-      .attr('x1', d => d.source.x)
-      .attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y);
-    node.attr('transform', d => `translate(${d.x},${d.y})`);
-  });
-  
-  // Drag functions
-  function dragstarted(e) {
-    if (!e.active) simulation.alphaTarget(0.3).restart();
-    e.subject.fx = e.subject.x;
-    e.subject.fy = e.subject.y;
-  }
-  function dragged(e) {
-    e.subject.fx = e.x;
-    e.subject.fy = e.y;
-  }
-  function dragended(e) {
-    if (!e.active) simulation.alphaTarget(0);
-    e.subject.fx = null;
-    e.subject.fy = null;
-  }
-  
-  // Store for highlight
-  window.graphNodes = node;
+  return `<div class="detail-card" data-id="${item._id}">
+    <h2><a href="${item.link}" target="_blank">${item.title || item.link}</a></h2>
+    ${highlightsHtml}
+    ${item.note ? `<div class="note">${item.note}</div>` : ''}
+    <div class="meta">${item.domain} · ${date}</div>
+    <div class="tags">${tags}</div>
+  </div>`;
 }
 
 function showDetail(item) {
@@ -413,12 +426,82 @@ function showDetail(item) {
   panel.innerHTML = renderCard(item);
 }
 
-function highlightTheme() {
-  if (!window.graphNodes) return;
-  window.graphNodes.style('opacity', d => {
-    if (!activeTheme) return 1;
-    return d.themes.includes(activeTheme) ? 1 : 0.2;
+function showThemeDetail(theme, items) {
+  const panel = document.getElementById('detail-panel');
+  let html = `<div class="cluster-header"><h2>${theme.name}</h2><p style="color:var(--text-muted);margin-bottom:16px">${items.length} items</p></div><div class="cards-grid">`;
+  items.forEach(item => { html += renderCard(item); });
+  html += '</div>';
+  panel.innerHTML = html;
+}
+
+function renderGraph() {
+  const container = document.getElementById('graph-container');
+  const width = container.clientWidth;
+  const height = container.clientHeight;
+  const svg = d3.select('#graph').attr('width', width).attr('height', height);
+  svg.selectAll('*').remove();
+  const g = svg.append('g');
+  svg.call(d3.zoom().scaleExtent([0.3, 3]).on('zoom', (e) => g.attr('transform', e.transform)));
+  
+  const nodes = [];
+  const links = [];
+  const colors = ['#C4785A', '#7A8B6E', '#5A6B7A', '#8B6E7A', '#B8A060'];
+  
+  DATA.themes.forEach((theme, i) => {
+    nodes.push({ id: theme.id, name: theme.name, color: colors[i % colors.length], isTheme: true });
   });
+  nodes.push({ id: 'other', name: '其他', color: '#9C948A', isTheme: true });
+  
+  DATA.items.forEach(item => {
+    const themeId = (item.themes && item.themes[0]) || 'other';
+    const themeNode = nodes.find(n => n.id === themeId);
+    const nodeId = 'item-' + item._id;
+    nodes.push({ id: nodeId, title: item.title || item.domain, color: themeNode ? themeNode.color : '#9C948A', isTheme: false, item });
+    links.push({ source: themeId, target: nodeId, strength: 1 });
+  });
+  
+  const simulation = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(60))
+    .force('charge', d3.forceManyBody().strength(d => d.isTheme ? -300 : -30))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(d => d.isTheme ? 40 : 12));
+  
+  const link = g.append('g').selectAll('line').data(links).join('line')
+    .attr('class', 'link').attr('stroke-width', 1).attr('stroke-opacity', 0.4);
+  
+  const node = g.append('g').selectAll('g').data(nodes).join('g')
+    .attr('class', d => d.isTheme ? 'node theme-node' : 'node item-node')
+    .call(d3.drag().on('start', ds).on('drag', dr).on('end', de));
+  
+  node.append('circle').attr('r', d => d.isTheme ? 28 : 6)
+    .attr('fill', d => d.color).attr('fill-opacity', d => d.isTheme ? 0.85 : 0.6);
+  
+  node.filter(d => d.isTheme).append('text').attr('class', 'node-label theme-label')
+    .attr('text-anchor', 'middle').attr('dy', 4).text(d => d.name);
+  
+  node.filter(d => !d.isTheme).append('text').attr('class', 'node-label')
+    .attr('dx', 10).attr('dy', 3).text(d => (d.title || '').slice(0, 12));
+  
+  node.on('click', (e, d) => {
+    e.stopPropagation();
+    selectedNode = d.id;
+    node.classed('selected', n => n.id === d.id);
+    if (d.isTheme) {
+      const items = DATA.items.filter(i => (i.themes && i.themes[0]) === d.id || (!i.themes?.length && d.id === 'other'));
+      showThemeDetail(d, items);
+    } else { showDetail(d.item); }
+  });
+  
+  svg.on('click', () => { selectedNode = null; node.classed('selected', false); renderList(); });
+  
+  simulation.on('tick', () => {
+    link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+    node.attr('transform', d => `translate(${d.x},${d.y})`);
+  });
+  
+  function ds(e) { if (!e.active) simulation.alphaTarget(0.3).restart(); e.subject.fx = e.subject.x; e.subject.fy = e.subject.y; }
+  function dr(e) { e.subject.fx = e.x; e.subject.fy = e.y; }
+  function de(e) { if (!e.active) simulation.alphaTarget(0); e.subject.fx = null; e.subject.fy = null; }
 }
 </script>
 </body>
