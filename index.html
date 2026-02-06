@@ -473,7 +473,7 @@ function renderGraph() {
   const colors = ['#C4785A', '#7A8B6E', '#5A6B7A', '#8B6E7A', '#B8A060'];
   
   DATA.themes.forEach((theme, i) => {
-    nodes.push({ id: theme.id, name: theme.name, color: colors[i % colors.length], isTheme: true });
+    nodes.push({ id: theme.id, name: theme.name, color: colors[i % colors.length], isTheme: true, count: theme.count || 0 });
   });
   
   DATA.items.forEach(item => {
@@ -494,7 +494,11 @@ function renderGraph() {
     .force('link', d3.forceLink(links).id(d => d.id).distance(60))
     .force('charge', d3.forceManyBody().strength(d => d.isTheme ? -300 : -30))
     .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(d => d.isTheme ? 40 : 12));
+    .force('collision', d3.forceCollide().radius(d => {
+      if (!d.isTheme) return 12;
+      const maxCount = Math.max(...nodes.filter(n => n.isTheme).map(n => n.count || 1));
+      return 20 + (d.count / maxCount) * 30 + 5;
+    }));
   
   const link = g.append('g').selectAll('line').data(links).join('line')
     .attr('class', 'link').attr('stroke-width', 1).attr('stroke-opacity', 0.4);
@@ -505,7 +509,13 @@ function renderGraph() {
   
   graphNodes = node; // 保存引用用于 hover 联动
   
-  node.append('circle').attr('r', d => d.isTheme ? 28 : 6)
+  node.append('circle').attr('r', d => {
+    if (!d.isTheme) return 6;
+    // 主题节点大小根据数量，范围 20-50
+    const minR = 20, maxR = 50;
+    const maxCount = Math.max(...nodes.filter(n => n.isTheme).map(n => n.count || 1));
+    return minR + (d.count / maxCount) * (maxR - minR);
+  })
     .attr('fill', d => d.color).attr('fill-opacity', d => d.isTheme ? 0.85 : 0.6);
   
   node.filter(d => d.isTheme).append('text').attr('class', 'node-label theme-label')
