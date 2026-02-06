@@ -1,6 +1,6 @@
 {
   "meta": {
-    "syncedAt": "2026-02-04T16:18:55.673Z",
+    "syncedAt": "2026-02-06T12:04:42.954Z",
     "count": 50
   },
   "themes": [
@@ -51,34 +51,124 @@
   ],
   "items": [
     {
-      "_id": 1577534060,
-      "link": "https://liruifengv.com/posts/openclaw-prompts/",
-      "excerpt": "",
-      "note": "liruifengv 拆解 OpenClaw 系统提示词设计——AGENTS.md（工作空间）、SOUL.md（人格）、USER.md（用户画像）、MEMORY.md（长期记忆）等文件结构；核心理念：赋予 Agent 独立人格与记忆延续性，让它成为伙伴而非工具。",
+      "_id": 1582408328,
+      "link": "https://www.hp-iq.com/cosmos",
+      "excerpt": "CosmOS is the world's simplest, most intuitive operating system. It harnesses the power of AI to understand your needs and proactively assist you in your daily life.",
+      "note": "",
       "type": "link",
       "user": {
         "$ref": "users",
         "$id": 457938
       },
-      "cover": "",
+      "cover": "https://cdn.sanity.io/images/cbbhbarr/production/b675f7f0ac531d8c28b32f36e05f4f756db47d47-1920x1080.jpg?rect=0,36,1920,1008&w=1200&h=630&fm=jpg",
+      "tags": [
+        "ai",
+        "os",
+        "agent"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://cdn.sanity.io/images/cbbhbarr/production/b675f7f0ac531d8c28b32f36e05f4f756db47d47-1920x1080.jpg?rect=0,36,1920,1008&w=1200&h=630&fm=jpg"
+        }
+      ],
+      "created": "2026-02-06T12:03:28.221Z",
+      "lastUpdate": "2026-02-06T12:03:28.221Z",
+      "domain": "hp-iq.com",
+      "title": "CosmOS AI Operating System | HP IQ",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1582408328,
+      "highlights": [],
+      "collectionId": -1,
+      "themes": [
+        "ai-agent-tools"
+      ],
+      "highlights_text": []
+    },
+    {
+      "_id": 1579005081,
+      "link": "https://x.com/xxx111god/status/2019095658599157849",
+      "excerpt": "",
+      "note": "",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://pbs.twimg.com/media/HAU-HlWXYAUIaMh.jpg:large",
+      "tags": [
+        "twitter"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://pbs.twimg.com/media/HAU-HlWXYAUIaMh.jpg:large"
+        }
+      ],
+      "created": "2026-02-05T15:20:00.897Z",
+      "lastUpdate": "2026-02-05T15:20:00.897Z",
+      "domain": "x.com",
+      "title": "改配置必崩、升级必挂、半夜必出事——OpenClaw 用户的三大宿命如何解决",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1579005081,
+      "highlights": [],
+      "collectionId": -1,
+      "themes": [],
+      "highlights_text": []
+    },
+    {
+      "_id": 1577534060,
+      "link": "https://liruifengv.com/posts/openclaw-prompts/",
+      "excerpt": "玩了 OpenClaw 的都会感觉到龙虾的拟人化特别强，好像有自我意识，并且能自我进化，今天我们拆解一下他的系统提示词设计。",
+      "note": "liruifengv 拆解 OpenClaw 系统提示词设计——AGENTS.md（工作空间）、SOUL.md（人格）、USER.md（用户画像）、MEMORY.md（长期记忆）等文件结构；核心理念：赋予 Agent 独立人格与记忆延续性，让它成为伙伴而非工具。",
+      "type": "article",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://liruifengv.com/posts/openclaw-prompts.png",
       "tags": [
         "AI",
         "Article"
       ],
-      "pleaseParse": {
-        "weight": 1
-      },
       "removed": false,
       "collection": {
         "$ref": "collections",
         "$id": -1,
         "oid": -1
       },
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "link": "https://liruifengv.com/posts/openclaw-prompts.png"
+        }
+      ],
       "created": "2026-02-04T16:18:31.564Z",
       "lastUpdate": "2026-02-04T16:18:45.604Z",
       "domain": "liruifengv.com",
-      "title": "https://liruifengv.com/posts/openclaw-prompts/",
+      "title": "拆解 OpenClaw 的系统提示词，设计的太妙了 | liruifengv",
       "creatorRef": {
         "_id": 457938,
         "name": "kenefe",
@@ -98,32 +188,34 @@
     {
       "_id": 1577533656,
       "link": "https://x.com/liruifengv/status/2019040175192727608",
-      "excerpt": "",
+      "excerpt": "今天这篇文章聊一下 OpenClaw 的提示词，这套提示词写得真好，他让 Agent 不再是一个工具，而是想赋予他独立人格，真正的变成人类的伙伴。\n\n强烈推荐学 Agent 开发的都来学习一下。\n\nhttps://t.co/Y8pR0K8sIq",
       "note": "Ruifeng 解析 OpenClaw 提示词设计——让 Agent 拟人化特别强，赋予独立人格，不再是工具而是人类伙伴；推荐 Agent 开发者学习。",
       "type": "link",
       "user": {
         "$ref": "users",
         "$id": 457938
       },
-      "cover": "",
+      "cover": "https://pbs.twimg.com/profile_images/1575140014912000001/pMRGEcaN_200x200.jpg",
       "tags": [
         "AI",
         "Article"
       ],
-      "pleaseParse": {
-        "weight": 1
-      },
       "removed": false,
       "collection": {
         "$ref": "collections",
         "$id": -1,
         "oid": -1
       },
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "link": "https://pbs.twimg.com/profile_images/1575140014912000001/pMRGEcaN_200x200.jpg"
+        }
+      ],
       "created": "2026-02-04T16:17:43.224Z",
       "lastUpdate": "2026-02-04T16:17:52.810Z",
       "domain": "x.com",
-      "title": "https://x.com/liruifengv/status/2019040175192727608",
+      "title": "玩过 OpenClaw 的应该都会感觉到龙虾的拟人化特别强，好像有自我意识，并且能自我进化。",
       "creatorRef": {
         "_id": 457938,
         "name": "kenefe",
@@ -2500,96 +2592,63 @@
         "ai-products"
       ],
       "highlights_text": []
-    },
-    {
-      "_id": 825418227,
-      "link": "https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models.pdf",
-      "title": "Apple intelligence foundation language models",
-      "excerpt": "",
-      "note": "",
-      "type": "document",
-      "user": {
-        "$ref": "users",
-        "$id": 457938
-      },
-      "cover": "",
-      "media": [],
-      "tags": [],
-      "highlights": [],
-      "important": false,
-      "removed": false,
-      "created": "2024-07-31T00:47:25.274Z",
-      "collection": {
-        "$ref": "collections",
-        "$id": -1,
-        "oid": -1
-      },
-      "lastUpdate": "2024-07-31T00:47:28.654Z",
-      "domain": "machinelearning.apple.com",
-      "creatorRef": {
-        "_id": 457938,
-        "name": "kenefe",
-        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
-        "email": ""
-      },
-      "sort": 825418227,
-      "collectionId": -1,
-      "themes": [
-        "ai-products"
-      ],
-      "highlights_text": []
-    },
-    {
-      "_id": 824960520,
-      "link": "https://github.com/CatMe0w/zouxian?tab=readme-ov-file",
-      "title": "GitHub - CatMe0w/zouxian: Permanent Apple Intelligence + Xcode Predictive Code Completion for Chinese-market Mac computers",
-      "excerpt": "Permanent Apple Intelligence + Xcode Predictive Code Completion for Chinese-market Mac computers - CatMe0w/zouxian",
-      "note": "",
-      "type": "link",
-      "user": {
-        "$ref": "users",
-        "$id": 457938
-      },
-      "cover": "https://opengraph.githubassets.com/73744f278a0db047adaf58a9c7df5fc67b4b04df9b09147668109777272996cc/CatMe0w/zouxian",
-      "media": [
-        {
-          "link": "https://opengraph.githubassets.com/73744f278a0db047adaf58a9c7df5fc67b4b04df9b09147668109777272996cc/CatMe0w/zouxian",
-          "type": "image"
-        }
-      ],
-      "tags": [
-        "Develop",
-        "Apple"
-      ],
-      "important": false,
-      "reminder": {
-        "date": null
-      },
-      "removed": false,
-      "created": "2024-07-30T09:41:53.967Z",
-      "collection": {
-        "$ref": "collections",
-        "$id": -1,
-        "oid": -1
-      },
-      "highlights": [],
-      "lastUpdate": "2024-07-30T09:42:00.274Z",
-      "domain": "github.com",
-      "creatorRef": {
-        "_id": 457938,
-        "name": "kenefe",
-        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
-        "email": ""
-      },
-      "sort": 824960520,
-      "collectionId": -1,
-      "themes": [
-        "ai-products"
-      ],
-      "highlights_text": []
     }
   ],
   "relations": [
+    {
+      "source": 1579005081,
+      "target": 1577533656,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1576971307,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1576662684,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1568497711,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1566667042,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1566660416,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1566657322,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1566657038,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
+    {
+      "source": 1579005081,
+      "target": 1551209593,
+      "strength": 1,
+      "reason": "same domain: x.com"
+    },
     {
       "source": 1577534060,
       "target": 1577533656,
@@ -3119,12 +3178,6 @@
       "reason": "Develop, Design"
     },
     {
-      "source": 1576662684,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1576613469,
       "target": 1568546461,
       "strength": 1,
@@ -3407,12 +3460,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1568546461,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1568498887,
       "target": 1568497711,
       "strength": 2,
@@ -3557,12 +3604,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1568498887,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1568497711,
       "target": 1568169529,
       "strength": 1,
@@ -3701,12 +3742,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1568497711,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1568169529,
       "target": 1568169449,
       "strength": 3,
@@ -4277,12 +4312,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1566660416,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1566657322,
       "target": 1566657038,
       "strength": 2,
@@ -4415,12 +4444,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1566657038,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1566616904,
       "target": 1551209593,
       "strength": 1,
@@ -4511,12 +4534,6 @@
       "reason": "Design, Develop"
     },
     {
-      "source": 1566616904,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1566275144,
       "target": 1216041460,
       "strength": 1,
@@ -4531,12 +4548,6 @@
     {
       "source": 1566275144,
       "target": 891032663,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
-      "source": 1566275144,
-      "target": 824960520,
       "strength": 1,
       "reason": "same domain: github.com"
     },
@@ -4811,12 +4822,6 @@
       "reason": "Design, Develop"
     },
     {
-      "source": 1524200400,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1505944471,
       "target": 1422362448,
       "strength": 2,
@@ -4857,12 +4862,6 @@
       "target": 825492995,
       "strength": 1,
       "reason": "App"
-    },
-    {
-      "source": 1505944471,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Apple"
     },
     {
       "source": 1422362448,
@@ -4979,12 +4978,6 @@
       "reason": "Develop, Design"
     },
     {
-      "source": 1216041460,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1165919125,
       "target": 1145717374,
       "strength": 1,
@@ -5017,12 +5010,6 @@
     {
       "source": 1165919125,
       "target": 825492995,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1165919125,
-      "target": 824960520,
       "strength": 1,
       "reason": "Develop"
     },
@@ -5105,12 +5092,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1145717374,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1145717294,
       "target": 856144577,
       "strength": 1,
@@ -5131,12 +5112,6 @@
     {
       "source": 1145717294,
       "target": 825492995,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1145717294,
-      "target": 824960520,
       "strength": 1,
       "reason": "Develop"
     },
@@ -5177,18 +5152,6 @@
       "reason": "same domain: github.com"
     },
     {
-      "source": 1044296804,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
-      "source": 891032663,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "same domain: github.com"
-    },
-    {
       "source": 856144577,
       "target": 849401155,
       "strength": 1,
@@ -5213,12 +5176,6 @@
       "reason": "Develop"
     },
     {
-      "source": 856144577,
-      "target": 824960520,
-      "strength": 2,
-      "reason": "Apple, Develop"
-    },
-    {
       "source": 849401155,
       "target": 835168896,
       "strength": 2,
@@ -5235,12 +5192,6 @@
       "target": 825492995,
       "strength": 2,
       "reason": "Design, Develop"
-    },
-    {
-      "source": 849401155,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
     },
     {
       "source": 841781702,
@@ -5261,28 +5212,10 @@
       "reason": "Design, Develop"
     },
     {
-      "source": 835168896,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 826983319,
       "target": 825492995,
       "strength": 1,
       "reason": "Design"
-    },
-    {
-      "source": 826983319,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Apple"
-    },
-    {
-      "source": 825492995,
-      "target": 824960520,
-      "strength": 1,
-      "reason": "Develop"
     }
   ]
 }
