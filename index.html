@@ -491,13 +491,13 @@ function renderGraph() {
   });
   
   const simulation = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(60))
-    .force('charge', d3.forceManyBody().strength(d => d.isTheme ? -300 : -30))
+    .force('link', d3.forceLink(links).id(d => d.id).distance(120))
+    .force('charge', d3.forceManyBody().strength(d => d.isTheme ? -500 : -50))
     .force('center', d3.forceCenter(width / 2, height / 2))
     .force('collision', d3.forceCollide().radius(d => {
-      if (!d.isTheme) return 12;
+      if (!d.isTheme) return 20;
       const maxCount = Math.max(...nodes.filter(n => n.isTheme).map(n => n.count || 1));
-      return 20 + (d.count / maxCount) * 30 + 5;
+      return 20 + (d.count / maxCount) * 30 + 15;
     }));
   
   const link = g.append('g').selectAll('line').data(links).join('line')
