@@ -1,6 +1,6 @@
 {
   "meta": {
-    "syncedAt": "2026-02-06T12:04:42.954Z",
+    "syncedAt": "2026-02-06T12:17:49.589Z",
     "count": 50
   },
   "themes": [
@@ -54,7 +54,7 @@
       "_id": 1582408328,
       "link": "https://www.hp-iq.com/cosmos",
       "excerpt": "CosmOS is the world's simplest, most intuitive operating system. It harnesses the power of AI to understand your needs and proactively assist you in your daily life.",
-      "note": "",
+      "note": "HP IQ 推出的 AI 操作系统。核心是多 Agent 协作 + Ai Bus 智能编排器，能理解用户意图并协调各种专业 Agent（天气、新闻、音乐、视觉等）完成复杂任务。支持多模态输入（语音、触控、手势、视觉），可跨设备无缝体验。",
       "type": "link",
       "user": {
         "$ref": "users",
@@ -64,7 +64,7 @@
       "tags": [
         "ai",
         "os",
-        "agent"
+        "App"
       ],
       "removed": false,
       "media": [
@@ -74,7 +74,7 @@
         }
       ],
       "created": "2026-02-06T12:03:28.221Z",
-      "lastUpdate": "2026-02-06T12:03:28.221Z",
+      "lastUpdate": "2026-02-06T12:17:41.899Z",
       "domain": "hp-iq.com",
       "title": "CosmOS AI Operating System | HP IQ",
       "collection": {
@@ -92,9 +92,13 @@
       "highlights": [],
       "collectionId": -1,
       "themes": [
-        "ai-agent-tools"
+        "ai-agent-tools",
+        "ai-products"
       ],
-      "highlights_text": []
+      "highlights_text": [
+        "多 Agent 协作 + Ai Bus 智能编排，真正的 AI 原生操作系统",
+        "支持语音、触控、手势、视觉多模态输入"
+      ]
     },
     {
       "_id": 1579005081,
@@ -2595,6 +2599,48 @@
     }
   ],
   "relations": [
+    {
+      "source": 1582408328,
+      "target": 1568169529,
+      "strength": 1,
+      "reason": "App"
+    },
+    {
+      "source": 1582408328,
+      "target": 1568169449,
+      "strength": 1,
+      "reason": "App"
+    },
+    {
+      "source": 1582408328,
+      "target": 1566697821,
+      "strength": 1,
+      "reason": "App"
+    },
+    {
+      "source": 1582408328,
+      "target": 1505944471,
+      "strength": 1,
+      "reason": "App"
+    },
+    {
+      "source": 1582408328,
+      "target": 1422362448,
+      "strength": 1,
+      "reason": "App"
+    },
+    {
+      "source": 1582408328,
+      "target": 841781702,
+      "strength": 1,
+      "reason": "App"
+    },
+    {
+      "source": 1582408328,
+      "target": 825492995,
+      "strength": 1,
+      "reason": "App"
+    },
     {
       "source": 1579005081,
       "target": 1577533656,
