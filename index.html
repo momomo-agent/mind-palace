@@ -529,7 +529,7 @@ function renderGraph() {
     selectedNode = d.id;
     node.classed('selected', n => n.id === d.id);
     if (d.isTheme) {
-      const items = DATA.items.filter(i => (i.themes && i.themes[0]) === d.id || (!i.themes?.length && d.id === 'other'));
+      const items = DATA.items.filter(i => i.themes && i.themes.includes(d.id));
       showThemeDetail(d, items);
     } else { showDetail(d.item); }
   });
