@@ -478,11 +478,17 @@ function renderGraph() {
   nodes.push({ id: 'other', name: '其他', color: '#9C948A', isTheme: true });
   
   DATA.items.forEach(item => {
-    const themeId = (item.themes && item.themes[0]) || 'other';
-    const themeNode = nodes.find(n => n.id === themeId);
+    const themes = (item.themes && item.themes.length > 0) ? item.themes : ['other'];
     const nodeId = 'item-' + item._id;
-    nodes.push({ id: nodeId, title: item.title || item.domain, color: themeNode ? themeNode.color : '#9C948A', isTheme: false, item });
-    links.push({ source: themeId, target: nodeId, strength: 1 });
+    // 用第一个 theme 的颜色
+    const firstTheme = nodes.find(n => n.id === themes[0]);
+    nodes.push({ id: nodeId, title: item.title || item.domain, color: firstTheme ? firstTheme.color : '#9C948A', isTheme: false, item });
+    // 连到所有匹配的 themes
+    themes.forEach(themeId => {
+      if (nodes.find(n => n.id === themeId)) {
+        links.push({ source: themeId, target: nodeId, strength: 1 });
+      }
+    });
   });
   
   const simulation = d3.forceSimulation(nodes)
