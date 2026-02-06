@@ -441,7 +441,11 @@ function showDetail(item) {
 function highlightNode(itemId) {
   if (!graphNodes) return;
   const nodeId = 'item-' + itemId;
-  graphNodes.classed('highlighted', d => d.id === nodeId);
+  const item = DATA.items.find(i => i._id === itemId);
+  const themeIds = item?.themes || [];
+  
+  // 高亮书签节点和对应的主题节点
+  graphNodes.classed('highlighted', d => d.id === nodeId || (d.isTheme && themeIds.includes(d.id)));
   graphNodes.classed('dimmed', d => d.id !== nodeId && !d.isTheme);
 }
 
