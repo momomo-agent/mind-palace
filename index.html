@@ -472,7 +472,7 @@ function renderGraph() {
   const links = [];
   const colors = ['#C4785A', '#7A8B6E', '#5A6B7A', '#8B6E7A', '#B8A060'];
   
-  DATA.themes.forEach((theme, i) => {
+  DATA.themes.filter(t => t.count >= 2).forEach((theme, i) => {
     nodes.push({ id: theme.id, name: theme.name, color: colors[i % colors.length], isTheme: true, count: theme.count || 0 });
   });
   
