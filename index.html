@@ -232,6 +232,26 @@
       color: var(--text-muted);
       font-size: 0.75rem;
     }
+    .breadcrumb {
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8rem;
+    }
+    .bc-link {
+      color: var(--accent-terracotta);
+      cursor: pointer;
+    }
+    .bc-link:hover {
+      text-decoration: underline;
+    }
+    .bc-sep {
+      color: var(--text-muted);
+      margin: 0 2px;
+    }
+    .bc-current {
+      color: var(--text-secondary);
+    }
     .cluster-header h2 {
       font-family: 'Playfair Display', Georgia, serif;
       font-size: 1.4rem;
@@ -439,11 +459,11 @@ function renderList(query = '') {
   panel.innerHTML = items.length ? html : '<p style="color:var(--text-muted)">No results</p>';
 }
 
-function renderCard(item) {
+function renderCard(item, compact = false) {
   const date = new Date(item.created).toLocaleDateString('zh-CN');
   const tags = item.tags.map(t => `<span class="tag">${t}</span>`).join('');
   let highlightsHtml = '';
-  if (item.highlights_text && item.highlights_text.length > 0) {
+  if (!compact && item.highlights_text && item.highlights_text.length > 0) {
     highlightsHtml = '<div class="highlights">';
     item.highlights_text.forEach(h => { highlightsHtml += `<span class="highlight-item">${h}</span>`; });
     highlightsHtml += '</div>';
@@ -452,9 +472,27 @@ function renderCard(item) {
   if (item.related && item.related.length > 0) {
     relatedHtml = '<div class="related-section"><h4>📎 相关阅读</h4>';
     item.related.forEach(r => {
-      relatedHtml += `<div class="related-item"><a href="${r.url}" target="_blank">${r.title}</a><span class="related-desc"> — ${r.desc}</span></div>`;
+      // 查找 Mind Palace 内是否有对应文章
+      const internal = DATA.items.find(i => i.link === r.url);
+      if (internal) {
+        relatedHtml += `<div class="related-item"><a href="javascript:void(0)" onclick="navigateTo(${internal._id})">${r.title}</a><span class="related-desc"> — ${r.desc}</span></div>`;
+      } else {
+        relatedHtml += `<div class="related-item"><a href="${r.url}" target="_blank">${r.title}</a><span class="related-desc"> — ${r.desc}</span></div>`;
+      }
     });
     relatedHtml += '</div>';
+  }
+  // 同星系文章
+  let galaxyHtml = '';
+  if (!compact) {
+    const itemGalaxies = (DATA.galaxies || []).filter(g => g.members.includes(item._id));
+    if (itemGalaxies.length > 0) {
+      galaxyHtml = '<div class="related-section"><h4>🌌 同星系</h4>';
+      itemGalaxies.forEach(gal => {
+        galaxyHtml += `<div class="galaxy-link" onclick="navigateToGalaxy('${gal.id}')" style="cursor:pointer;margin-bottom:4px"><span style="color:${gal.color};font-weight:600">● ${gal.name}</span> <span class="related-desc">(${gal.count})</span></div>`;
+      });
+      galaxyHtml += '</div>';
+    }
   }
   return `<div class="detail-card" data-id="${item._id}" onmouseenter="highlightNode(${item._id})" onmouseleave="unhighlightNode()">
     <h2><a href="${item.link}" target="_blank">${item.title || item.link}</a></h2>
@@ -463,12 +501,110 @@ function renderCard(item) {
     <div class="meta">${item.domain} · ${date}</div>
     <div class="tags">${tags}</div>
     ${relatedHtml}
+    ${galaxyHtml}
   </div>`;
 }
 
-function showDetail(item) {
+// Navigation stack for breadcrumb
+let navStack = [];
+
+function pushNav(label, fn) {
+  navStack.push({ label, fn });
+  renderBreadcrumb();
+}
+
+function renderBreadcrumb() {
   const panel = document.getElementById('detail-panel');
-  panel.innerHTML = renderCard(item);
+  if (navStack.length <= 1) return;
+  let bc = '<div class="breadcrumb">';
+  navStack.forEach((item, i) => {
+    if (i < navStack.length - 1) {
+      bc += `<span class="bc-link" onclick="navTo(${i})">${item.label}</span><span class="bc-sep"> › </span>`;
+    } else {
+      bc += `<span class="bc-current">${item.label}</span>`;
+    }
+  });
+  bc += '</div>';
+  panel.insertAdjacentHTML('afterbegin', bc);
+}
+
+function navTo(idx) {
+  navStack = navStack.slice(0, idx + 1);
+  navStack[idx].fn();
+}
+
+function navigateTo(itemId) {
+  const item = DATA.items.find(i => i._id === itemId);
+  if (!item) return;
+  pushNav(item.title ? item.title.slice(0, 20) : 'Article', () => showDetailDeep(item));
+  showDetailDeep(item);
+}
+
+function navigateToGalaxy(galaxyId) {
+  const gal = (DATA.galaxies || []).find(g => g.id === galaxyId);
+  if (!gal) return;
+  pushNav(gal.name, () => showGalaxyDeep(gal));
+  showGalaxyDeep(gal);
+}
+
+function showDetailDeep(item) {
+  const panel = document.getElementById('detail-panel');
+  let html = renderCard(item);
+  
+  // 找同星系的其他文章
+  const itemGalaxies = (DATA.galaxies || []).filter(g => g.members.includes(item._id));
+  const sameGalaxyItems = new Set();
+  itemGalaxies.forEach(g => g.members.forEach(id => { if (id !== item._id) sameGalaxyItems.add(id); }));
+  
+  if (sameGalaxyItems.size > 0) {
+    html += '<div style="margin-top:20px"><h3 style="font-family:Playfair Display,serif;font-size:1rem;margin-bottom:12px;color:var(--text-secondary)">同话题文章</h3><div class="cards-grid">';
+    [...sameGalaxyItems].slice(0, 6).forEach(id => {
+      const other = DATA.items.find(i => i._id === id);
+      if (other) html += renderCard(other, true);
+    });
+    html += '</div></div>';
+  }
+  
+  panel.innerHTML = html;
+  renderBreadcrumb();
+}
+
+function showGalaxyDeep(gal) {
+  const panel = document.getElementById('detail-panel');
+  const items = DATA.items.filter(i => gal.members.includes(i._id));
+  
+  // 找桥接到的其他星系
+  const bridgedGalaxies = (DATA.bridges || [])
+    .filter(b => b.source === gal.id || b.target === gal.id)
+    .map(b => {
+      const otherId = b.source === gal.id ? b.target : b.source;
+      const other = (DATA.galaxies || []).find(g => g.id === otherId);
+      return other ? { ...other, shared: b.strength } : null;
+    }).filter(Boolean);
+  
+  let html = `<div class="cluster-header">
+    <h2 style="color:${gal.color}">${gal.name}</h2>
+    <p style="color:var(--text-muted);margin-bottom:8px">${items.length} articles</p>`;
+  
+  if (bridgedGalaxies.length > 0) {
+    html += '<div style="margin-bottom:16px">';
+    bridgedGalaxies.forEach(bg => {
+      html += `<span class="galaxy-bridge-tag" onclick="navigateToGalaxy('${bg.id}')" style="cursor:pointer;display:inline-block;padding:4px 12px;margin:3px;border-radius:20px;font-size:0.8rem;border:1px solid ${bg.color};color:${bg.color}">↔ ${bg.name} (${bg.shared})</span>`;
+    });
+    html += '</div>';
+  }
+  
+  html += '</div><div class="cards-grid">';
+  items.forEach(item => { html += renderCard(item, true); });
+  html += '</div>';
+  panel.innerHTML = html;
+  renderBreadcrumb();
+}
+
+function showDetail(item) {
+  navStack = [{ label: 'All', fn: () => { navStack = []; renderList(); } }];
+  pushNav(item.title ? item.title.slice(0, 20) : 'Article', () => showDetailDeep(item));
+  showDetailDeep(item);
 }
 
 function highlightNode(itemId) {
@@ -489,11 +625,9 @@ function unhighlightNode() {
 }
 
 function showThemeDetail(theme, items) {
-  const panel = document.getElementById('detail-panel');
-  let html = `<div class="cluster-header"><h2>${theme.name}</h2><p style="color:var(--text-muted);margin-bottom:16px">${items.length} items</p></div><div class="cards-grid">`;
-  items.forEach(item => { html += renderCard(item); });
-  html += '</div>';
-  panel.innerHTML = html;
+  navStack = [{ label: 'All', fn: () => { navStack = []; renderList(); } }];
+  pushNav(theme.name, () => showGalaxyDeep(theme));
+  showGalaxyDeep(theme);
 }
 
 function renderGraph() {
