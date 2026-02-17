@@ -663,8 +663,12 @@ function renderGraph() {
   filter.append('feMerge').selectAll('feMergeNode').data(['blur', 'SourceGraphic']).join('feMergeNode').attr('in', d => d);
   
   const g = svg.append('g');
-  const zoom = d3.zoom().scaleExtent([0.2, 4]).on('zoom', (e) => g.attr('transform', e.transform));
-  svg.call(zoom);
+  const zoom = d3.zoom()
+    .scaleExtent([0.2, 4])
+    .filter(e => !e.ctrlKey && !e.button)
+    .on('zoom', (e) => g.attr('transform', e.transform));
+  svg.call(zoom)
+    .on('dblclick.zoom', null);
   
   const galaxies = DATA.galaxies || [];
   const bridges = DATA.bridges || [];
@@ -900,9 +904,12 @@ function renderGraph() {
     node.attr('transform', d => `translate(${d.x},${d.y})`);
   });
   
+  // Breathing: keep simulation gently alive
+  simulation.alphaDecay(0.02).alphaMin(0.005).alphaTarget(0.008).restart();
+
   function ds(e) { if (!e.active) simulation.alphaTarget(0.3).restart(); e.subject.fx = e.subject.x; e.subject.fy = e.subject.y; }
   function dr(e) { e.subject.fx = e.x; e.subject.fy = e.y; }
-  function de(e) { if (!e.active) simulation.alphaTarget(0); e.subject.fx = null; e.subject.fy = null; }
+  function de(e) { if (!e.active) simulation.alphaTarget(0.008); e.subject.fx = null; e.subject.fy = null; }
 }
 
 </script>
