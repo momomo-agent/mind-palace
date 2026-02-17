@@ -10,12 +10,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-cream: #0a0a0f;
-      --bg-warm: #0d0d14;
-      --text-primary: #e0ddd8;
-      --text-secondary: #8a8580;
-      --text-muted: #5a5550;
-      --border: #1a1a24;
+      --bg-cream: #FAF8F5;
+      --bg-warm: #F5F2ED;
+      --text-primary: #2C2825;
+      --text-secondary: #6B635A;
+      --text-muted: #9C948A;
+      --border: #E5E0D8;
       --accent-terracotta: #C4785A;
       --accent-sage: #7A8B6E;
       --accent-slate: #5A6B7A;
@@ -494,9 +494,9 @@ function renderCard(item, compact = false) {
       // 查找 Mind Palace 内是否有对应文章
       const internal = DATA.items.find(i => i.link === r.url);
       if (internal) {
-        relatedHtml += `<div class="related-item"><a href="javascript:void(0)" onclick="navigateTo(${internal._id})">${r.title}</a><span class="related-desc"> — ${r.desc}</span></div>`;
+        relatedHtml += `<div class="related-item"><a href="javascript:void(0)" onclick="navigateTo(${internal._id})">${r.title}</a><span class="related-desc"> - ${r.desc}</span></div>`;
       } else {
-        relatedHtml += `<div class="related-item"><a href="${r.url}" target="_blank">${r.title}</a><span class="related-desc"> — ${r.desc}</span></div>`;
+        relatedHtml += `<div class="related-item"><a href="${r.url}" target="_blank">${r.title}</a><span class="related-desc"> - ${r.desc}</span></div>`;
       }
     });
     relatedHtml += '</div>';
@@ -569,12 +569,12 @@ function navigateToGalaxy(galaxyId) {
 function showDetailDeep(item) {
   const panel = document.getElementById('detail-panel');
   let html = renderCard(item);
-  
+
   // 找同星系的其他文章
   const itemGalaxies = (DATA.galaxies || []).filter(g => g.members.includes(item._id));
   const sameGalaxyItems = new Set();
   itemGalaxies.forEach(g => g.members.forEach(id => { if (id !== item._id) sameGalaxyItems.add(id); }));
-  
+
   if (sameGalaxyItems.size > 0) {
     html += '<div style="margin-top:20px"><h3 style="font-family:Playfair Display,serif;font-size:1rem;margin-bottom:12px;color:var(--text-secondary)">同话题文章</h3><div class="cards-grid">';
     [...sameGalaxyItems].slice(0, 6).forEach(id => {
@@ -583,7 +583,7 @@ function showDetailDeep(item) {
     });
     html += '</div></div>';
   }
-  
+
   panel.innerHTML = html;
   renderBreadcrumb();
 }
@@ -591,7 +591,7 @@ function showDetailDeep(item) {
 function showGalaxyDeep(gal) {
   const panel = document.getElementById('detail-panel');
   const items = DATA.items.filter(i => gal.members.includes(i._id));
-  
+
   // 找桥接到的其他星系
   const bridgedGalaxies = (DATA.bridges || [])
     .filter(b => b.source === gal.id || b.target === gal.id)
@@ -600,11 +600,11 @@ function showGalaxyDeep(gal) {
       const other = (DATA.galaxies || []).find(g => g.id === otherId);
       return other ? { ...other, shared: b.strength } : null;
     }).filter(Boolean);
-  
+
   let html = `<div class="cluster-header">
     <h2 style="color:${gal.color}">${gal.name}</h2>
     <p style="color:var(--text-muted);margin-bottom:8px">${items.length} articles</p>`;
-  
+
   if (bridgedGalaxies.length > 0) {
     html += '<div style="margin-bottom:16px">';
     bridgedGalaxies.forEach(bg => {
@@ -612,7 +612,7 @@ function showGalaxyDeep(gal) {
     });
     html += '</div>';
   }
-  
+
   html += '</div><div class="cards-grid">';
   items.forEach(item => { html += renderCard(item, true); });
   html += '</div>';
@@ -631,7 +631,7 @@ function highlightNode(itemId) {
   const nodeId = 'item-' + itemId;
   const item = DATA.items.find(i => i._id === itemId);
   const themeIds = item?.themes || [];
-  
+
   // 高亮书签节点和对应的主题节点
   graphNodes.classed('highlighted', d => d.id === nodeId || (d.isTheme && themeIds.includes(d.id)));
   graphNodes.classed('dimmed', d => d.id !== nodeId && !d.isTheme);
@@ -655,7 +655,7 @@ function renderGraph() {
   const height = container.clientHeight;
   const svg = d3.select('#graph').attr('width', width).attr('height', height);
   svg.selectAll('*').remove();
-  
+
   // Defs for glow effect
   const defs = svg.append('defs');
   const filter = defs.append('filter').attr('id', 'glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
@@ -670,23 +670,23 @@ function renderGraph() {
   const pulseGrad = defs.append('radialGradient').attr('id', 'pulse-grad');
   pulseGrad.append('stop').attr('offset', '0%').attr('stop-color', '#fff').attr('stop-opacity', 0.9);
   pulseGrad.append('stop').attr('offset', '100%').attr('stop-color', '#fff').attr('stop-opacity', 0);
-  
+
   const g = svg.append('g');
   const zoom = d3.zoom()
     .scaleExtent([0.2, 4])
     .on('zoom', (e) => g.attr('transform', e.transform));
   svg.call(zoom);
-  
+
   const galaxies = DATA.galaxies || [];
   const bridges = DATA.bridges || [];
   const nodes = [];
   const links = [];
-  
+
   // Galaxy center nodes
   galaxies.forEach(gal => {
     nodes.push({ id: gal.id, name: gal.name, color: gal.color, isGalaxy: true, count: gal.count, members: gal.members });
   });
-  
+
   // Item nodes
   const itemGalaxyMap = {};
   galaxies.forEach(gal => {
@@ -695,7 +695,7 @@ function renderGraph() {
       itemGalaxyMap[mid].push(gal.id);
     });
   });
-  
+
   DATA.items.forEach(item => {
     const nodeId = 'item-' + item._id;
     const galIds = itemGalaxyMap[item._id] || [];
@@ -710,12 +710,12 @@ function renderGraph() {
       links.push({ source: gid, target: nodeId, strength: 0.3 });
     });
   });
-  
+
   // Bridge links between galaxies
   bridges.forEach(b => {
     links.push({ source: b.source, target: b.target, strength: b.strength * 0.5, isBridge: true });
   });
-  
+
   // Related links between items
   DATA.items.forEach(item => {
     if (item.related) {
@@ -728,7 +728,7 @@ function renderGraph() {
     }
   });
 
-  // Relation links (tag co-occurrence) — weak attraction
+  // Relation links (tag co-occurrence) - weak attraction
   const relSet = new Set();
   (DATA.relations || []).forEach(r => {
     const key = r.source < r.target ? r.source + '-' + r.target : r.target + '-' + r.source;
@@ -748,89 +748,77 @@ function renderGraph() {
     .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -200 : -8))
     .force('center', d3.forceCenter(width / 2, height / 2).strength(0.3))
     .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 35 : d.isBridge ? 8 : 5));
-  
-  // Galaxy halos (background circles)
+
+  // Galaxy halos - subtle background cloud, not a big ball
   const halo = g.append('g').selectAll('circle').data(nodes.filter(d => d.isGalaxy)).join('circle')
-    .attr('r', d => 30 + d.count * 8)
+    .attr('r', d => 20 + d.count * 5)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', 0.03)
-    .attr('stroke', d => d.color)
-    .attr('stroke-opacity', 0.06)
-    .attr('stroke-width', 0.5)
-    .attr('filter', 'url(#glow)');
-  
+    .attr('fill-opacity', 0.04)
+    .attr('stroke', 'none');
+
   // Links
   const link = g.append('g').selectAll('line').data(links).join('line')
-    .attr('stroke', d => d.isRelated ? '#C4785A' : d.isBridge ? '#B8A060' : d.isWeak ? '#ffffff' : '#ffffff')
-    .attr('stroke-width', d => d.isRelated ? 1 : d.isBridge ? 1.2 : d.isWeak ? 0.2 : 0.5)
-    .attr('stroke-opacity', d => d.isRelated ? 0.25 : d.isBridge ? 0.2 : d.isWeak ? 0.04 : 0.1)
+    .attr('stroke', d => d.isRelated ? '#C4785A' : d.isBridge ? '#B8A060' : d.isWeak ? '#9C948A' : '#9C948A')
+    .attr('stroke-width', d => d.isRelated ? 1 : d.isBridge ? 1 : d.isWeak ? 0.2 : 0.4)
+    .attr('stroke-opacity', d => d.isRelated ? 0.3 : d.isBridge ? 0.25 : d.isWeak ? 0.06 : 0.12)
     .attr('stroke-dasharray', d => d.isRelated ? '4,3' : d.isBridge ? '6,4' : 'none');
-  
+
   // Nodes
   const node = g.append('g').selectAll('g').data(nodes).join('g')
     .attr('class', d => d.isGalaxy ? 'node galaxy-node' : d.isBridge ? 'node bridge-node' : 'node item-node')
     .call(d3.drag().on('start', ds).on('drag', dr).on('end', de));
-  
-  graphNodes = node;
-  
-  // Galaxy center circles — neuron hubs
-  node.filter(d => d.isGalaxy).append('circle')
-    .attr('r', d => 12 + d.count * 1.5)
-    .attr('fill', d => d.color)
-    .attr('fill-opacity', 0.8)
-    .attr('filter', 'url(#glow-strong)');
 
-  // Galaxy outer ring
+  graphNodes = node;
+
+  // Galaxy center - small dot, not big ball
   node.filter(d => d.isGalaxy).append('circle')
-    .attr('r', d => 16 + d.count * 1.5)
-    .attr('fill', 'none')
-    .attr('stroke', d => d.color)
-    .attr('stroke-width', 0.5)
-    .attr('stroke-opacity', 0.4);
-  
-  // Galaxy labels
+    .attr('r', 3)
+    .attr('fill', d => d.color)
+    .attr('fill-opacity', 0.6);
+
+  // Galaxy labels - just text, no count number
   node.filter(d => d.isGalaxy).append('text')
     .attr('class', 'node-label theme-label')
     .attr('text-anchor', 'middle')
-    .attr('dy', d => -(18 + d.count * 1.5))
+    .attr('dy', -10)
     .text(d => d.name)
-    .style('font-size', '11px')
+    .style('font-size', '10px')
     .style('fill', d => d.color)
     .style('font-weight', '500')
-    .style('opacity', 0.8);
-  
+    .style('opacity', 0.6);
+
   // Galaxy count
   node.filter(d => d.isGalaxy).append('text')
     .attr('text-anchor', 'middle')
     .attr('dy', 4)
     .text(d => d.count)
     .style('font-size', '10px')
-    .style('fill', '#0a0a0f')
+    .style('fill', 'var(--text-muted)')
     .style('font-family', "'Source Serif 4', serif")
     .style('pointer-events', 'none');
-  
-  // Item circles — neurons with glow
+
+  // Item circles — neurons with subtle glow
   node.filter(d => !d.isGalaxy).append('circle')
-    .attr('r', d => d.isBridge ? 6 : 4)
+    .attr('r', d => d.isBridge ? 5 : 3.5)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', d => d.isBridge ? 0.9 : 0.7)
+    .attr('fill-opacity', d => d.isBridge ? 0.8 : 0.6)
     .attr('filter', 'url(#glow)');
 
-  // Item outer glow ring
+  // Neuron outer ring
   node.filter(d => !d.isGalaxy).append('circle')
-    .attr('r', d => d.isBridge ? 10 : 7)
+    .attr('r', d => d.isBridge ? 9 : 6)
     .attr('fill', 'none')
     .attr('stroke', d => d.color)
     .attr('stroke-width', 0.3)
-    .attr('stroke-opacity', 0.3);
-  
+    .attr('stroke-opacity', 0.2);
+
   // Item labels (only show on hover via CSS, or for bridge nodes)
   node.filter(d => !d.isGalaxy).append('text')
     .attr('class', 'node-label')
     .attr('dx', 10).attr('dy', 3)
     .text(d => (d.title || '').slice(0, 16))
     .style('opacity', d => d.isBridge ? 0.8 : 0);
-  
+
   // Hover: show label + synaptic pulse
   const pulseLayer = g.append('g').attr('class', 'pulse-layer');
 
@@ -867,14 +855,14 @@ function renderGraph() {
     .on('mouseleave', function(e, d) {
       if (!d.isBridge) d3.select(this).select('text').style('opacity', 0);
       link.transition().duration(400)
-        .attr('stroke-opacity', l => l.isRelated ? 0.25 : l.isBridge ? 0.2 : l.isWeak ? 0.04 : 0.1);
+        .attr('stroke-opacity', l => l.isRelated ? 0.3 : l.isBridge ? 0.25 : l.isWeak ? 0.06 : 0.12);
       pulseLayer.selectAll('circle').remove();
     });
-  
-  // Click handlers — in-place zoom + fade, no page switch
+
+  // Click handlers - in-place zoom + fade, no page switch
   let focusMode = null; // null | 'galaxy' | 'item'
   let focusTarget = null;
-  
+
   function resetFocus() {
     focusMode = null;
     focusTarget = null;
@@ -887,7 +875,7 @@ function renderGraph() {
     svg.transition().duration(800).ease(d3.easeCubicOut).call(zoom.transform, d3.zoomIdentity);
     renderList();
   }
-  
+
   function focusGalaxy(galNode) {
     focusMode = 'galaxy';
     focusTarget = galNode;
@@ -916,7 +904,7 @@ function renderGraph() {
     const gal = (DATA.galaxies || []).find(g => g.id === galNode.id);
     if (gal) showThemeDetail(gal, DATA.items.filter(i => gal.members.includes(i._id)));
   }
-  
+
   function focusItem(itemNode) {
     focusMode = 'item';
     focusTarget = itemNode;
@@ -953,7 +941,7 @@ function renderGraph() {
     svg.transition().duration(800).ease(d3.easeCubicOut).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
     showDetail(itemNode.item);
   }
-  
+
   node.on('click', (e, d) => {
     e.stopPropagation();
     if (d.isGalaxy) {
@@ -964,19 +952,19 @@ function renderGraph() {
       else focusItem(d);
     }
   });
-  
+
   svg.on('click', () => { if (focusMode) resetFocus(); else renderList(); });
-  
+
   simulation.on('tick', () => {
     halo.attr('cx', d => d.x).attr('cy', d => d.y);
     link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
     node.attr('transform', d => `translate(${d.x},${d.y})`);
   });
-  
+
   // Breathing: keep simulation gently alive
   simulation.alphaDecay(0.02).alphaMin(0.005).alphaTarget(0.008).restart();
 
-  // Ambient synaptic pulses — random signals firing in background
+  // Ambient synaptic pulses - random signals firing in background
   const ambientLayer = g.append('g').attr('class', 'ambient-pulses');
   function fireAmbientPulse() {
     const visibleLinks = links.filter(l => !l.isWeak && l.source.x != null);
