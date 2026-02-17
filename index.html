@@ -665,10 +665,8 @@ function renderGraph() {
   const g = svg.append('g');
   const zoom = d3.zoom()
     .scaleExtent([0.2, 4])
-    .filter(e => !e.ctrlKey && !e.button)
     .on('zoom', (e) => g.attr('transform', e.transform));
-  svg.call(zoom)
-    .on('dblclick.zoom', null);
+  svg.call(zoom);
   
   const galaxies = DATA.galaxies || [];
   const bridges = DATA.bridges || [];
@@ -723,13 +721,13 @@ function renderGraph() {
   
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(d => {
-      if (d.isBridge) return 250;
-      if (d.isRelated) return 80;
-      return d.strength < 1 ? 150 : 90;
-    }).strength(d => d.isBridge ? 0.05 : d.isRelated ? 0.1 : 0.3))
-    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -800 : -30))
-    .force('center', d3.forceCenter(width / 2, height / 2))
-    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 60 : d.isBridge ? 12 : 8));
+      if (d.isBridge) return 120;
+      if (d.isRelated) return 50;
+      return d.strength < 1 ? 80 : 50;
+    }).strength(d => d.isBridge ? 0.1 : d.isRelated ? 0.3 : 0.5))
+    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -300 : -15))
+    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.15))
+    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 40 : d.isBridge ? 10 : 6));
   
   // Galaxy halos (background circles)
   const halo = g.append('g').selectAll('circle').data(nodes.filter(d => d.isGalaxy)).join('circle')
