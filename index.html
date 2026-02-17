@@ -728,36 +728,37 @@ function renderGraph() {
     }
   });
 
-  // Relation links (tag co-occurrence) - weak attraction
+  // Relation links (tag co-occurrence) - visual only, no force
   const relSet = new Set();
+  const weakLinks = [];
   (DATA.relations || []).forEach(r => {
     const key = r.source < r.target ? r.source + '-' + r.target : r.target + '-' + r.source;
     if (!relSet.has(key)) {
       relSet.add(key);
-      links.push({ source: 'item-' + r.source, target: 'item-' + r.target, strength: Math.min(r.strength, 3) * 0.1, isWeak: true });
+      weakLinks.push({ source: 'item-' + r.source, target: 'item-' + r.target, strength: Math.min(r.strength, 3) * 0.1, isWeak: true });
     }
   });
+  const allLinks = [...links, ...weakLinks];
 
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(d => {
-      if (d.isBridge) return 100;
-      if (d.isRelated) return 60;
-      if (d.isWeak) return 80;
-      return d.strength < 1 ? 70 : 45;
-    }).strength(d => d.isBridge ? 0.1 : d.isRelated ? 0.3 : d.isWeak ? 0.02 : 0.4))
-    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -150 : -20))
-    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.05))
-    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 30 : d.isBridge ? 12 : 8));
+      if (d.isBridge) return 120;
+      if (d.isRelated) return 70;
+      return d.strength < 1 ? 90 : 55;
+    }).strength(d => d.isBridge ? 0.08 : d.isRelated ? 0.2 : 0.3))
+    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -250 : -40))
+    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.03))
+    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 20 : 14));
 
-  // Galaxy halos - subtle background cloud, not a big ball
+  // Galaxy halos — subtle background cloud, not a big ball
   const halo = g.append('g').selectAll('circle').data(nodes.filter(d => d.isGalaxy)).join('circle')
-    .attr('r', d => 20 + d.count * 5)
+    .attr('r', d => 15 + d.count * 3)
     .attr('fill', d => d.color)
     .attr('fill-opacity', 0.04)
     .attr('stroke', 'none');
 
-  // Links
-  const link = g.append('g').selectAll('line').data(links).join('line')
+  // Links - render all (including weak for visual)
+  const link = g.append('g').selectAll('line').data(allLinks).join('line')
     .attr('stroke', d => d.isRelated ? '#C4785A' : d.isBridge ? '#B8A060' : d.isWeak ? '#9C948A' : '#9C948A')
     .attr('stroke-width', d => d.isRelated ? 1 : d.isBridge ? 1 : d.isWeak ? 0.2 : 0.4)
     .attr('stroke-opacity', d => d.isRelated ? 0.3 : d.isBridge ? 0.25 : d.isWeak ? 0.06 : 0.12)
@@ -797,7 +798,7 @@ function renderGraph() {
     .style('font-family', "'Source Serif 4', serif")
     .style('pointer-events', 'none');
 
-  // Item circles — neurons with subtle glow
+  // Item circles - neurons with subtle glow
   node.filter(d => !d.isGalaxy).append('circle')
     .attr('r', d => d.isBridge ? 7 : 5)
     .attr('fill', d => d.color)
@@ -954,6 +955,11 @@ function renderGraph() {
   });
 
   svg.on('click', () => { if (focusMode) resetFocus(); else renderList(); });
+
+  // Node lookup for weak links (not in simulation)
+  const nodeMap = {};
+  nodes.forEach(n => nodeMap[n.id] = n);
+  weakLinks.forEach(l => { l.source = nodeMap[l.source] || l.source; l.target = nodeMap[l.target] || l.target; });
 
   simulation.on('tick', () => {
     halo.attr('cx', d => d.x).attr('cy', d => d.y);
