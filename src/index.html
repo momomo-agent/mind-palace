@@ -687,32 +687,16 @@ function renderGraph() {
     nodes.push({ id: gal.id, name: gal.name, color: gal.color, isGalaxy: true, count: gal.count, members: gal.members });
   });
 
-  // Item nodes — only show top items per galaxy to avoid overcrowding
-  const MAX_ITEMS_PER_GALAXY = 5;
+  // Item nodes — show ALL items
   const itemGalaxyMap = {};
-  const galaxyItemCount = {};
   galaxies.forEach(gal => {
-    galaxyItemCount[gal.id] = 0;
     gal.members.forEach(mid => {
       if (!itemGalaxyMap[mid]) itemGalaxyMap[mid] = [];
       itemGalaxyMap[mid].push(gal.id);
     });
   });
 
-  // Sort items by recency, pick top N per galaxy
-  const sortedItems = [...DATA.items].sort((a, b) => new Date(b.created) - new Date(a.created));
-  const shownItemIds = new Set();
-  sortedItems.forEach(item => {
-    const galIds = itemGalaxyMap[item._id] || [];
-    const primaryGal = galIds[0];
-    if (primaryGal && (galaxyItemCount[primaryGal] || 0) < MAX_ITEMS_PER_GALAXY) {
-      shownItemIds.add(item._id);
-      galaxyItemCount[primaryGal] = (galaxyItemCount[primaryGal] || 0) + 1;
-    }
-  });
-
   DATA.items.forEach(item => {
-    if (!shownItemIds.has(item._id)) return;
     const nodeId = 'item-' + item._id;
     const galIds = itemGalaxyMap[item._id] || [];
     const gal = galaxies.find(g => g.id === galIds[0]);
@@ -762,9 +746,9 @@ function renderGraph() {
       if (d.isRelated) return 70;
       return d.strength < 1 ? 90 : 55;
     }).strength(d => d.isBridge ? 0.08 : d.isRelated ? 0.2 : 0.3))
-    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -600 : -120))
+    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -800 : -30).theta(0.9))
     .force('center', d3.forceCenter(width / 2, height / 2).strength(0.02))
-    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 30 : 20));
+    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 35 : 4));
 
   // Galaxy halos — subtle background cloud, not a big ball
   const halo = g.append('g').selectAll('circle').data(nodes.filter(d => d.isGalaxy)).join('circle')
@@ -816,7 +800,7 @@ function renderGraph() {
 
   // Item circles - neurons with subtle glow
   node.filter(d => !d.isGalaxy).append('circle')
-    .attr('r', d => d.isBridge ? 7 : 5)
+    .attr('r', d => d.isBridge ? 5 : 3)
     .attr('fill', d => d.color)
     .attr('fill-opacity', d => d.isBridge ? 0.8 : 0.6)
     .attr('filter', 'url(#glow)');
