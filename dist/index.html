@@ -657,20 +657,8 @@ function renderGraph() {
   const svg = d3.select('#graph').attr('width', width).attr('height', height);
   svg.selectAll('*').remove();
 
-  // Defs for glow effect
+  // Defs
   const defs = svg.append('defs');
-  const filter = defs.append('filter').attr('id', 'glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
-  filter.append('feGaussianBlur').attr('stdDeviation', '4').attr('result', 'blur');
-  filter.append('feComposite').attr('in', 'blur').attr('in2', 'SourceGraphic').attr('operator', 'over');
-
-  const glowStrong = defs.append('filter').attr('id', 'glow-strong').attr('x', '-80%').attr('y', '-80%').attr('width', '260%').attr('height', '260%');
-  glowStrong.append('feGaussianBlur').attr('stdDeviation', '8').attr('result', 'blur');
-  glowStrong.append('feComposite').attr('in', 'blur').attr('in2', 'SourceGraphic').attr('operator', 'over');
-
-  // Pulse animation marker for synaptic signals
-  const pulseGrad = defs.append('radialGradient').attr('id', 'pulse-grad');
-  pulseGrad.append('stop').attr('offset', '0%').attr('stop-color', '#fff').attr('stop-opacity', 0.9);
-  pulseGrad.append('stop').attr('offset', '100%').attr('stop-color', '#fff').attr('stop-opacity', 0);
 
   const g = svg.append('g');
   const zoom = d3.zoom()
@@ -751,13 +739,6 @@ function renderGraph() {
     .force('center', d3.forceCenter(width / 2, height / 2).strength(0.08))
     .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 45 : 8));
 
-  // Galaxy halos — subtle background cloud, not a big ball
-  const halo = g.append('g').selectAll('circle').data(nodes.filter(d => d.isGalaxy)).join('circle')
-    .attr('r', d => 20 + d.count * 4)
-    .attr('fill', d => d.color)
-    .attr('fill-opacity', 0.04)
-    .attr('stroke', 'none');
-
   // Links - render all (including weak for visual)
   const link = g.append('g').selectAll('line').data(allLinks).join('line')
     .attr('stroke', d => d.isRelated ? '#C4785A' : d.isBridge ? '#B8A060' : d.isWeak ? '#9C948A' : '#9C948A')
@@ -803,25 +784,13 @@ function renderGraph() {
   node.filter(d => !d.isGalaxy).append('circle')
     .attr('r', d => d.isBridge ? 9 : 6)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', d => d.isBridge ? 0.95 : 0.85)
-    .attr('filter', 'url(#glow)');
+    .attr('fill-opacity', d => d.isBridge ? 0.95 : 0.85);
 
-  // Neuron outer ring
-  node.filter(d => !d.isGalaxy).append('circle')
-    .attr('r', d => d.isBridge ? 12 : 9)
-    .attr('fill', 'none')
-    .attr('stroke', d => d.color)
-    .attr('stroke-width', 0.4)
-    .attr('stroke-opacity', 0.2);
+  // Item labels: use SVG title for hover tooltip instead of text elements
+  node.filter(d => !d.isGalaxy).append('title')
+    .text(d => d.title || '');
 
-  // Item labels (only show on hover via CSS, or for bridge nodes)
-  node.filter(d => !d.isGalaxy).append('text')
-    .attr('class', 'node-label')
-    .attr('dx', 10).attr('dy', 3)
-    .text(d => (d.title || '').slice(0, 16))
-    .style('opacity', d => d.isBridge ? 0.8 : 0);
-
-  // Hover: show label + synaptic pulse
+  // Hover: highlight connections
   const pulseLayer = g.append('g').attr('class', 'pulse-layer');
 
   node.filter(d => !d.isGalaxy)
@@ -846,7 +815,7 @@ function renderGraph() {
         const tgt = typeof l.target === 'object' ? l.target : nodes.find(n => n.id === l.target);
         if (!src || !tgt) return;
         const fromMe = (typeof l.source === 'object' ? l.source.id : l.source) === d.id;
-        const p = pulseLayer.append('circle').attr('r', 2).attr('fill', d.color).attr('fill-opacity', 0.9).attr('filter', 'url(#glow)');
+        const p = pulseLayer.append('circle').attr('r', 2).attr('fill', d.color).attr('fill-opacity', 0.9);
         p.attr('cx', fromMe ? src.x : tgt.x).attr('cy', fromMe ? src.y : tgt.y)
           .transition().duration(600).delay(i * 40)
           .attr('cx', fromMe ? tgt.x : src.x).attr('cy', fromMe ? tgt.y : src.y)
@@ -870,10 +839,8 @@ function renderGraph() {
     focusTarget = null;
     const t = d3.transition().duration(600).ease(d3.easeCubicOut);
     node.transition(t).style('opacity', 1);
-    node.filter(d => !d.isGalaxy).select('text').transition(t).style('opacity', d => d.isBridge ? 0.8 : 0);
-    node.filter(d => !d.isGalaxy).select('circle').transition(t).attr('r', d => d.isBridge ? 7 : 5);
+    node.filter(d => !d.isGalaxy).select('circle').transition(t).attr('r', d => d.isBridge ? 9 : 6);
     link.transition(t).attr('stroke-opacity', d => d.isRelated ? 0.4 : d.isBridge ? 0.3 : 0.25);
-    halo.transition(t).style('opacity', 1);
     svg.transition().duration(800).ease(d3.easeCubicOut).call(zoom.transform, d3.zoomIdentity);
     renderList();
   }
@@ -889,7 +856,6 @@ function renderGraph() {
       if (d.isGalaxy) return 0.12;
       return 0.06;
     });
-    node.filter(d => !d.isGalaxy).select('text').transition(t).style('opacity', d => memberIds.has(d.id) ? 1 : 0);
     node.filter(d => !d.isGalaxy).select('circle').transition(t).attr('r', d => memberIds.has(d.id) ? 9 : 3);
     link.transition(t).attr('stroke-opacity', d => {
       const sId = typeof d.source === 'object' ? d.source.id : d.source;
@@ -898,7 +864,6 @@ function renderGraph() {
       if (memberIds.has(sId) && memberIds.has(tId)) return 0.5;
       return 0.02;
     });
-    halo.transition(t).style('opacity', d => d.id === galNode.id ? 1 : 0.08);
     const scale = 2;
     const tx = width / 2 - galNode.x * scale;
     const ty = height / 2 - galNode.y * scale;
@@ -928,7 +893,6 @@ function renderGraph() {
       if (gal) gal.members.forEach(m => connectedIds.add('item-' + m));
     });
     node.transition(t).style('opacity', d => connectedIds.has(d.id) ? 1 : 0.05);
-    node.filter(d => !d.isGalaxy).select('text').transition(t).style('opacity', d => connectedIds.has(d.id) ? 1 : 0);
     node.filter(d => !d.isGalaxy).select('circle').transition(t).attr('r', d => d.id === itemNode.id ? 12 : connectedIds.has(d.id) ? 8 : 3);
     link.transition(t).attr('stroke-opacity', d => {
       const sId = typeof d.source === 'object' ? d.source.id : d.source;
@@ -936,7 +900,6 @@ function renderGraph() {
       if (connectedIds.has(sId) && connectedIds.has(tId)) return 0.6;
       return 0.01;
     });
-    halo.transition(t).style('opacity', d => galIds.includes(d.id) ? 0.5 : 0.04);
     const scale = 2.5;
     const tx = width / 2 - itemNode.x * scale;
     const ty = height / 2 - itemNode.y * scale;
@@ -967,7 +930,6 @@ function renderGraph() {
   svg.on('mousedown.fitlock touchstart.fitlock', () => { userInteracted = true; });
 
   simulation.on('tick', () => {
-    halo.attr('cx', d => d.x).attr('cy', d => d.y);
     link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
     node.attr('transform', d => `translate(${d.x},${d.y})`);
 
@@ -987,30 +949,12 @@ function renderGraph() {
     }
   });
 
-  // Breathing: keep simulation gently alive
-  simulation.alphaDecay(0.02).alphaMin(0.005).alphaTarget(0.008).restart();
-
-  // Ambient synaptic pulses - random signals firing in background
-  const ambientLayer = g.append('g').attr('class', 'ambient-pulses');
-  function fireAmbientPulse() {
-    const visibleLinks = links.filter(l => !l.isWeak && l.source.x != null);
-    if (visibleLinks.length === 0) return;
-    const l = visibleLinks[Math.floor(Math.random() * visibleLinks.length)];
-    const src = l.source, tgt = l.target;
-    if (!src.x || !tgt.x) return;
-    const color = src.color || tgt.color || '#ffffff';
-    ambientLayer.append('circle').attr('r', 1.5).attr('fill', color).attr('fill-opacity', 0.5)
-      .attr('cx', src.x).attr('cy', src.y)
-      .transition().duration(800 + Math.random() * 400)
-      .attr('cx', tgt.x).attr('cy', tgt.y)
-      .attr('fill-opacity', 0)
-      .remove();
-  }
-  setInterval(fireAmbientPulse, 300);
+  // Let simulation settle then stop
+  simulation.alphaDecay(0.05).alphaMin(0.01).restart();
 
   function ds(e) { if (!e.active) simulation.alphaTarget(0.3).restart(); e.subject.fx = e.subject.x; e.subject.fy = e.subject.y; }
   function dr(e) { e.subject.fx = e.x; e.subject.fy = e.y; }
-  function de(e) { if (!e.active) simulation.alphaTarget(0.008); e.subject.fx = null; e.subject.fy = null; }
+  function de(e) { if (!e.active) simulation.alphaTarget(0); e.subject.fx = null; e.subject.fy = null; }
 }
 
 </script>
