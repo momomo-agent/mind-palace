@@ -746,8 +746,8 @@ function renderGraph() {
       if (d.isRelated) return 70;
       return d.strength < 1 ? 90 : 55;
     }).strength(d => d.isBridge ? 0.08 : d.isRelated ? 0.2 : 0.3))
-    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -800 : -30).theta(0.9))
-    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.02))
+    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -400 : -15).theta(0.9))
+    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.08))
     .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 45 : 8));
 
   // Galaxy halos — subtle background cloud, not a big ball
