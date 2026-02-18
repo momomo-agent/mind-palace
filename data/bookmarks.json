@@ -1,6 +1,6 @@
 {
   "meta": {
-    "syncedAt": "2026-02-18T02:06:12.684Z",
+    "syncedAt": "2026-02-18T02:59:49.583Z",
     "count": 50
   },
   "themes": [
@@ -10,6 +10,7 @@
       "color": "#6366f1",
       "count": 46,
       "items": [
+        1606626596,
         1606585159,
         1606255407,
         1606210003,
@@ -54,8 +55,7 @@
         1602168063,
         1602166751,
         1602161930,
-        1601333349,
-        1601333120
+        1601333349
       ]
     },
     {
@@ -64,6 +64,7 @@
       "color": "#10b981",
       "count": 30,
       "items": [
+        1606626596,
         1606585159,
         1606255407,
         1606210003,
@@ -92,15 +93,14 @@
         1602194112,
         1602193726,
         1602189035,
-        1601333349,
-        1601333120
+        1601333349
       ]
     },
     {
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 20,
+      "count": 19,
       "items": [
         1606585159,
         1606176959,
@@ -120,16 +120,16 @@
         1602169238,
         1602169233,
         1602161930,
-        1601333349,
-        1601333120
+        1601333349
       ]
     },
     {
       "id": "design",
       "name": "设计",
       "color": "#ec4899",
-      "count": 15,
+      "count": 16,
       "items": [
+        1606626596,
         1606210003,
         1606140316,
         1606138797,
@@ -224,7 +224,7 @@
     },
     {
       "id": "galaxy-3",
-      "name": "agent + openclaw",
+      "name": "agent + anthropic",
       "color": "#8B6E7A",
       "members": [
         1603379572,
@@ -233,10 +233,9 @@
         1602193726,
         1602482663,
         1602194112,
-        1601333349,
-        1601333120
+        1601333349
       ],
-      "count": 8
+      "count": 7
     },
     {
       "id": "galaxy-4",
@@ -268,6 +267,7 @@
       "name": "AI · Develop",
       "color": "#9C7A5A",
       "members": [
+        1606626596,
         1606585159,
         1606255407,
         1605763058,
@@ -283,7 +283,7 @@
         1603499730,
         1602482648
       ],
-      "count": 14
+      "count": 15
     },
     {
       "id": "galaxy-explore",
@@ -304,6 +304,54 @@
   "bridges": [],
   "items": [
     {
+      "_id": 1606626596,
+      "link": "https://x.com/Wattenberger/status/2023882519763185838",
+      "excerpt": "",
+      "note": "Amelia Wattenberger分享Intent app早期原型：从VSCode扩展起步，Spec→Plan→Edits→PR的AI编码工作流，可爱的文件夹UI设计",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Design",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-02-18T02:59:43.217Z",
+      "lastUpdate": "2026-02-18T02:59:43.217Z",
+      "domain": "x.com",
+      "title": "https://x.com/Wattenberger/status/2023882519763185838",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1606626596,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "从VSCode扩展起步"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "design"
+      ]
+    },
+    {
       "_id": 1606585159,
       "link": "https://x.com/eyad_khrais/status/2010076957938188661",
       "excerpt": "",
@@ -313,21 +361,23 @@
         "$ref": "users",
         "$id": 457938
       },
-      "cover": "",
+      "cover": "https://pbs.twimg.com/media/G-U5_YwWMAA7Ulv.jpg:large",
       "tags": [
         "AI",
         "Article",
         "Develop"
       ],
-      "pleaseParse": {
-        "weight": 1
-      },
       "removed": false,
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "link": "https://pbs.twimg.com/media/G-U5_YwWMAA7Ulv.jpg:large"
+        }
+      ],
       "created": "2026-02-18T02:05:50.332Z",
       "lastUpdate": "2026-02-18T02:05:50.332Z",
       "domain": "x.com",
-      "title": "https://x.com/eyad_khrais/status/2010076957938188661",
+      "title": "The complete claude code tutorial",
       "collection": {
         "$ref": "collections",
         "$id": -1,
@@ -3003,66 +3053,297 @@
         "article",
         "develop"
       ]
-    },
-    {
-      "_id": 1601333120,
-      "link": "https://frostming.com/posts/2026/create-a-claw/",
-      "excerpt": "Frost Ming's personal blog",
-      "note": "从复刻 OpenClaw 到领悟 AI Native 真谛：不用框架强制 AI 当小白鼠，所有要求只通过 Prompt，让 AI 自己管理工具和技能。1.0 Chatbot → 2.0 Agent → 3.0 AI Native。",
-      "type": "article",
-      "user": {
-        "$ref": "users",
-        "$id": 457938
-      },
-      "cover": "https://frostming.com/og/2026/create-a-claw.png",
-      "tags": [
-        "AI",
-        "Article",
-        "Develop"
-      ],
-      "removed": false,
-      "media": [
-        {
-          "type": "image",
-          "link": "https://frostming.com/og/2026/create-a-claw.png"
-        }
-      ],
-      "created": "2026-02-13T11:25:46.128Z",
-      "lastUpdate": "2026-02-13T11:25:46.128Z",
-      "domain": "frostming.com",
-      "title": "创造一只龙虾，需要些什么? | Frost's Blog",
-      "collection": {
-        "$ref": "collections",
-        "$id": -1,
-        "oid": -1
-      },
-      "creatorRef": {
-        "_id": 457938,
-        "name": "kenefe",
-        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
-        "email": ""
-      },
-      "sort": 1601333120,
-      "highlights": [],
-      "collectionId": -1,
-      "related": [
-        {
-          "title": "Effective harnesses for long-running agents — Anthropic",
-          "desc": "Anthropic 官方的长时间 Agent 工程实践",
-          "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
-        }
-      ],
-      "highlights_text": [
-        "不用框架强制 AI 当小白鼠"
-      ],
-      "themes": [
-        "ai",
-        "article",
-        "develop"
-      ]
     }
   ],
   "relations": [
+    {
+      "source": 1606626596,
+      "target": 1606585159,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606255407,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606210003,
+      "strength": 3,
+      "reason": "AI, Design, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606176959,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606175707,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606140316,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606138797,
+      "strength": 3,
+      "reason": "AI, Design, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606122625,
+      "strength": 2,
+      "reason": "Design, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606121257,
+      "strength": 2,
+      "reason": "Design, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1606009743,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605999508,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605999505,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605999503,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605999434,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605999431,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605999428,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605997044,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605763058,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605763048,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605763012,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1605531290,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1604591980,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1604586797,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1604569378,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1604550631,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1604247046,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1604159911,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1603952703,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1603544979,
+      "strength": 1,
+      "reason": "Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1603544763,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1603499730,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1603379572,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602768009,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602482663,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602482652,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602482648,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602482617,
+      "strength": 1,
+      "reason": "AI"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602194112,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602193726,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602189035,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602169245,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602169238,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602169233,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602169230,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602168063,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602166751,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1602161930,
+      "strength": 2,
+      "reason": "AI, Design"
+    },
+    {
+      "source": 1606626596,
+      "target": 1601333349,
+      "strength": 2,
+      "reason": "AI, Develop"
+    },
     {
       "source": 1606585159,
       "target": 1606255407,
@@ -3346,12 +3627,6 @@
       "reason": "AI, Article, Develop"
     },
     {
-      "source": 1606585159,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Article, Develop"
-    },
-    {
       "source": 1606255407,
       "target": 1606210003,
       "strength": 2,
@@ -3628,12 +3903,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1606255407,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1606210003,
       "target": 1606176959,
       "strength": 1,
@@ -3904,12 +4173,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1606210003,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1606176959,
       "target": 1606175707,
       "strength": 2,
@@ -4156,12 +4419,6 @@
       "reason": "AI, Article"
     },
     {
-      "source": 1606176959,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Article"
-    },
-    {
       "source": 1606175707,
       "target": 1606140316,
       "strength": 1,
@@ -4402,12 +4659,6 @@
       "reason": "AI, Article"
     },
     {
-      "source": 1606175707,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Article"
-    },
-    {
       "source": 1606140316,
       "target": 1606138797,
       "strength": 2,
@@ -4660,12 +4911,6 @@
       "reason": "AI"
     },
     {
-      "source": 1606140316,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1606138797,
       "target": 1606122625,
       "strength": 2,
@@ -4912,12 +5157,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1606138797,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1606122625,
       "target": 1606121257,
       "strength": 2,
@@ -5134,12 +5373,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1606122625,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1606121257,
       "target": 1605999505,
       "strength": 1,
@@ -5334,12 +5567,6 @@
     {
       "source": 1606121257,
       "target": 1601333349,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
-      "source": 1606121257,
-      "target": 1601333120,
       "strength": 1,
       "reason": "Develop"
     },
@@ -5566,12 +5793,6 @@
       "reason": "AI"
     },
     {
-      "source": 1606009743,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1605999508,
       "target": 1605999505,
       "strength": 1,
@@ -5788,12 +6009,6 @@
       "reason": "AI, Article"
     },
     {
-      "source": 1605999508,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Article"
-    },
-    {
       "source": 1605999505,
       "target": 1605999503,
       "strength": 3,
@@ -6010,12 +6225,6 @@
       "reason": "AI"
     },
     {
-      "source": 1605999505,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1605999503,
       "target": 1605999434,
       "strength": 2,
@@ -6226,12 +6435,6 @@
       "reason": "AI"
     },
     {
-      "source": 1605999503,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1605999434,
       "target": 1605999431,
       "strength": 3,
@@ -6442,12 +6645,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1605999434,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1605999431,
       "target": 1605999428,
       "strength": 1,
@@ -6652,12 +6849,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1605999431,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1605999428,
       "target": 1605997044,
       "strength": 1,
@@ -6844,12 +7035,6 @@
       "reason": "AI, Article"
     },
     {
-      "source": 1605999428,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Article"
-    },
-    {
       "source": 1605997044,
       "target": 1605763058,
       "strength": 2,
@@ -7032,12 +7217,6 @@
     {
       "source": 1605997044,
       "target": 1601333349,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
-      "source": 1605997044,
-      "target": 1601333120,
       "strength": 1,
       "reason": "AI"
     },
@@ -7228,12 +7407,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1605763058,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1605763048,
       "target": 1605763012,
       "strength": 2,
@@ -7414,12 +7587,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1605763048,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1605763012,
       "target": 1605531290,
       "strength": 2,
@@ -7588,12 +7755,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1605763012,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1605531290,
       "target": 1604591980,
       "strength": 2,
@@ -7756,12 +7917,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1605531290,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1604591980,
       "target": 1604586797,
       "strength": 2,
@@ -7918,12 +8073,6 @@
       "reason": "AI, Article, Develop"
     },
     {
-      "source": 1604591980,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Article, Develop"
-    },
-    {
       "source": 1604586797,
       "target": 1604569378,
       "strength": 2,
@@ -8074,12 +8223,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1604586797,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1604569378,
       "target": 1604550631,
       "strength": 2,
@@ -8224,12 +8367,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1604569378,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1604550631,
       "target": 1604247046,
       "strength": 2,
@@ -8368,12 +8505,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1604550631,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1604247046,
       "target": 1604159911,
       "strength": 3,
@@ -8506,12 +8637,6 @@
       "reason": "AI, Article, Develop"
     },
     {
-      "source": 1604247046,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Article, Develop"
-    },
-    {
       "source": 1604159911,
       "target": 1603952703,
       "strength": 3,
@@ -8638,12 +8763,6 @@
       "reason": "AI, Article, Develop"
     },
     {
-      "source": 1604159911,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Article, Develop"
-    },
-    {
       "source": 1603952703,
       "target": 1603544979,
       "strength": 1,
@@ -8764,12 +8883,6 @@
       "reason": "AI, Develop, Article"
     },
     {
-      "source": 1603952703,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Develop, Article"
-    },
-    {
       "source": 1603544979,
       "target": 1603544763,
       "strength": 1,
@@ -8830,12 +8943,6 @@
       "reason": "Develop"
     },
     {
-      "source": 1603544979,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "Develop"
-    },
-    {
       "source": 1603544763,
       "target": 1603499730,
       "strength": 1,
@@ -8944,12 +9051,6 @@
       "reason": "AI"
     },
     {
-      "source": 1603544763,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1603499730,
       "target": 1603379572,
       "strength": 3,
@@ -9052,12 +9153,6 @@
       "reason": "AI, Article, Develop"
     },
     {
-      "source": 1603499730,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Article, Develop"
-    },
-    {
       "source": 1603379572,
       "target": 1602768009,
       "strength": 3,
@@ -9154,12 +9249,6 @@
       "reason": "AI, Develop, Article"
     },
     {
-      "source": 1603379572,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Develop, Article"
-    },
-    {
       "source": 1602768009,
       "target": 1602482663,
       "strength": 2,
@@ -9250,12 +9339,6 @@
       "reason": "AI, Develop, Article"
     },
     {
-      "source": 1602768009,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Develop, Article"
-    },
-    {
       "source": 1602482663,
       "target": 1602482652,
       "strength": 1,
@@ -9340,12 +9423,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1602482663,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1602482652,
       "target": 1602482648,
       "strength": 1,
@@ -9424,12 +9501,6 @@
       "reason": "AI"
     },
     {
-      "source": 1602482652,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1602482648,
       "target": 1602482617,
       "strength": 1,
@@ -9502,12 +9573,6 @@
       "reason": "AI, Develop"
     },
     {
-      "source": 1602482648,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Develop"
-    },
-    {
       "source": 1602482617,
       "target": 1602194112,
       "strength": 1,
@@ -9574,12 +9639,6 @@
       "reason": "AI"
     },
     {
-      "source": 1602482617,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1602194112,
       "target": 1602193726,
       "strength": 3,
@@ -9640,12 +9699,6 @@
       "reason": "AI, Develop, Article"
     },
     {
-      "source": 1602194112,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Develop, Article"
-    },
-    {
       "source": 1602193726,
       "target": 1602189035,
       "strength": 3,
@@ -9700,12 +9753,6 @@
       "reason": "AI, Develop, Article"
     },
     {
-      "source": 1602193726,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Develop, Article"
-    },
-    {
       "source": 1602189035,
       "target": 1602169245,
       "strength": 1,
@@ -9754,12 +9801,6 @@
       "reason": "AI, Develop, Article"
     },
     {
-      "source": 1602189035,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Develop, Article"
-    },
-    {
       "source": 1602169245,
       "target": 1602169238,
       "strength": 2,
@@ -9802,12 +9843,6 @@
       "reason": "AI"
     },
     {
-      "source": 1602169245,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1602169238,
       "target": 1602169233,
       "strength": 3,
@@ -9844,12 +9879,6 @@
       "reason": "AI, Article"
     },
     {
-      "source": 1602169238,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Article"
-    },
-    {
       "source": 1602169233,
       "target": 1602169230,
       "strength": 2,
@@ -9880,12 +9909,6 @@
       "reason": "AI, Article"
     },
     {
-      "source": 1602169233,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Article"
-    },
-    {
       "source": 1602169230,
       "target": 1602168063,
       "strength": 2,
@@ -9910,12 +9933,6 @@
       "reason": "AI"
     },
     {
-      "source": 1602169230,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1602168063,
       "target": 1602166751,
       "strength": 2,
@@ -9934,12 +9951,6 @@
       "reason": "AI"
     },
     {
-      "source": 1602168063,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1602166751,
       "target": 1602161930,
       "strength": 2,
@@ -9952,28 +9963,10 @@
       "reason": "AI"
     },
     {
-      "source": 1602166751,
-      "target": 1601333120,
-      "strength": 1,
-      "reason": "AI"
-    },
-    {
       "source": 1602161930,
       "target": 1601333349,
       "strength": 2,
       "reason": "AI, Article"
-    },
-    {
-      "source": 1602161930,
-      "target": 1601333120,
-      "strength": 2,
-      "reason": "AI, Article"
-    },
-    {
-      "source": 1601333349,
-      "target": 1601333120,
-      "strength": 3,
-      "reason": "AI, Article, Develop"
     }
   ]
 }
