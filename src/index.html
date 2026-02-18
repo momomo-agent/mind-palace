@@ -748,11 +748,11 @@ function renderGraph() {
     }).strength(d => d.isBridge ? 0.08 : d.isRelated ? 0.2 : 0.3))
     .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -800 : -30).theta(0.9))
     .force('center', d3.forceCenter(width / 2, height / 2).strength(0.02))
-    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 35 : 4));
+    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 45 : 8));
 
   // Galaxy halos — subtle background cloud, not a big ball
   const halo = g.append('g').selectAll('circle').data(nodes.filter(d => d.isGalaxy)).join('circle')
-    .attr('r', d => 15 + d.count * 3)
+    .attr('r', d => 20 + d.count * 4)
     .attr('fill', d => d.color)
     .attr('fill-opacity', 0.04)
     .attr('stroke', 'none');
@@ -800,9 +800,9 @@ function renderGraph() {
 
   // Item circles - neurons with subtle glow
   node.filter(d => !d.isGalaxy).append('circle')
-    .attr('r', d => d.isBridge ? 5 : 3)
+    .attr('r', d => d.isBridge ? 9 : 6)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', d => d.isBridge ? 0.8 : 0.6)
+    .attr('fill-opacity', d => d.isBridge ? 0.95 : 0.85)
     .attr('filter', 'url(#glow)');
 
   // Neuron outer ring
