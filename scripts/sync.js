@@ -31,49 +31,44 @@ async function fetchBookmarks() {
 }
 
 function inferRelations(items) {
-  const relations = [];
-  const clusters = {};
-  
-  // Group by domain/topic
-  items.forEach(item => {
-    const domain = item.domain;
-    if (!clusters[domain]) clusters[domain] = [];
-    clusters[domain].push(item._id);
+  // Inverted index: tag -> item indices
+  const tagIndex = {};
+  items.forEach((item, idx) => {
+    (item.tags || []).forEach(tag => {
+      if (!tagIndex[tag]) tagIndex[tag] = [];
+      tagIndex[tag].push(idx);
+    });
   });
 
-  // Infer relations based on tags, domain, time proximity
-  for (let i = 0; i < items.length; i++) {
-    for (let j = i + 1; j < items.length; j++) {
-      const a = items[i], b = items[j];
-      const sharedTags = a.tags.filter(t => b.tags.includes(t));
-      
-      if (sharedTags.length > 0) {
-        relations.push({
-          source: a._id,
-          target: b._id,
-          strength: sharedTags.length,
-          reason: sharedTags.join(', ')
-        });
-      }
-      
-      // Same domain = related
-      if (a.domain === b.domain && a._id !== b._id) {
-        const exists = relations.find(r => 
-          (r.source === a._id && r.target === b._id) ||
-          (r.source === b._id && r.target === a._id)
-        );
-        if (!exists) {
-          relations.push({
-            source: a._id,
-            target: b._id,
-            strength: 1,
-            reason: `same domain: ${a.domain}`
-          });
-        }
+  // Build relations via shared tags (avoids O(n²) full scan)
+  const pairMap = new Map(); // "i:j" -> { strength, reasons }
+  for (const [tag, indices] of Object.entries(tagIndex)) {
+    // Skip huge groups to avoid explosion
+    if (indices.length > 200) continue;
+    for (let x = 0; x < indices.length; x++) {
+      for (let y = x + 1; y < indices.length; y++) {
+        const i = indices[x], j = indices[y];
+        const key = `${i}:${j}`;
+        if (!pairMap.has(key)) pairMap.set(key, { i, j, strength: 0, reasons: [] });
+        const p = pairMap.get(key);
+        p.strength++;
+        if (p.reasons.length < 3) p.reasons.push(tag);
       }
     }
   }
-  
+
+  // Only keep relations with strength >= 2 (shared 2+ tags), cap at 5000 total
+  const relations = Array.from(pairMap.values())
+    .filter(p => p.strength >= 2)
+    .sort((a, b) => b.strength - a.strength)
+    .slice(0, 5000)
+    .map(p => ({
+      source: items[p.i]._id,
+      target: items[p.j]._id,
+      strength: p.strength,
+      reason: p.reasons.join(', ')
+    }));
+
   return relations;
 }
 
