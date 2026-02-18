@@ -20,6 +20,7 @@ function build() {
   const output = html.replace('__DATA__', JSON.stringify(data));
   
   writeFileSync(join(distDir, 'index.html'), output);
+  copyFileSync(join(__dirname, '..', 'src', 'favicon.svg'), join(distDir, 'favicon.svg'));
   console.log('Built dist/index.html');
 }
 

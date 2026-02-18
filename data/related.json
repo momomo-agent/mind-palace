@@ -1,0 +1,315 @@
+{
+  "https://ruperts.world/blog/ai-computer/": [
+    {
+      "title": "Mercury OS",
+      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
+      "url": "https://www.mercuryos.com/"
+    },
+    {
+      "title": "Generative UI and Outcome-Oriented Design — NN/g",
+      "desc": "生成式 UI 的权威定义：未来界面将实时动态生成，设计师角色从画界面转向定义约束",
+      "url": "https://www.nngroup.com/articles/generative-ui/"
+    },
+    {
+      "title": "Introducing Mercury OS — UX Collective",
+      "desc": "意图驱动 OS 的设计原则：流动性、专注、人性化",
+      "url": "https://uxdesign.cc/introducing-mercury-os-f4de45a04289"
+    },
+    {
+      "title": "Desktop Neo",
+      "desc": "从第一性原理重新设计桌面系统，探索多点触控+语音控制",
+      "url": "https://desktopneo.com/"
+    }
+  ],
+  "https://telepath.computer/": [
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 设计师详解 AI 原生电脑的设计理念：生成式界面、语音多模态、深度个性化",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    },
+    {
+      "title": "Mercury OS",
+      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
+      "url": "https://www.mercuryos.com/"
+    }
+  ],
+  "https://www.youtube.com/watch?v=jEm5SkLMap0": [
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 设计师详解演示背后的设计理念",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    }
+  ],
+  "https://www.nngroup.com/articles/generative-ui/": [
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 对 AI 原生电脑的实践：生成式界面、语音多模态、深度个性化",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    },
+    {
+      "title": "Mercury OS",
+      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
+      "url": "https://www.mercuryos.com/"
+    },
+    {
+      "title": "Desktop Neo",
+      "desc": "从第一性原理重新设计桌面系统，探索多点触控+语音控制",
+      "url": "https://desktopneo.com/"
+    }
+  ],
+  "https://www.mercuryos.com/": [
+    {
+      "title": "Generative UI and Outcome-Oriented Design — NN/g",
+      "desc": "生成式 UI 的权威定义：未来界面将实时动态生成",
+      "url": "https://www.nngroup.com/articles/generative-ui/"
+    },
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 对 AI 原生电脑的实践",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    },
+    {
+      "title": "Desktop Neo",
+      "desc": "从第一性原理重新设计桌面系统",
+      "url": "https://desktopneo.com/"
+    }
+  ],
+  "https://desktopneo.com/": [
+    {
+      "title": "Mercury OS",
+      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
+      "url": "https://www.mercuryos.com/"
+    },
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 对 AI 原生电脑的实践",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    }
+  ],
+  "https://uxdesign.cc/introducing-mercury-os-f4de45a04289": [
+    {
+      "title": "Mercury OS 官网",
+      "desc": "Mercury OS 概念设计的官方展示",
+      "url": "https://www.mercuryos.com/"
+    },
+    {
+      "title": "Generative UI and Outcome-Oriented Design — NN/g",
+      "desc": "生成式 UI 的权威定义",
+      "url": "https://www.nngroup.com/articles/generative-ui/"
+    }
+  ],
+  "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents": [
+    {
+      "title": "擴展長時間自主程式開發的規模 — Cursor",
+      "desc": "Cursor 的多 Agent 并行开发实践：规划者+执行者架构，数百 Agent 写百万行代码",
+      "url": "https://cursor.com/cn/blog/scaling-agents"
+    },
+    {
+      "title": "Context Engineering: Session Memory — OpenAI",
+      "desc": "OpenAI 的 session 记忆管理方案：上下文平衡策略",
+      "url": "https://developers.openai.com/cookbook/examples/agents_sdk/session_memory"
+    },
+    {
+      "title": "Architecting Context-Aware Multi-Agent Framework — Google",
+      "desc": "Google 的生产级多 Agent 框架设计",
+      "url": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/"
+    },
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品的实战：百万行代码、Agent 自审自改",
+      "url": "https://openai.com/index/harness-engineering/"
+    }
+  ],
+  "https://cursor.com/zh-Hant/blog/scaling-agents": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Anthropic 的长时间 Agent 工程实践：初始化 Agent + 编码 Agent 增量推进",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "title": "Architecting Context-Aware Multi-Agent Framework — Google",
+      "desc": "Google 的生产级多 Agent 框架设计",
+      "url": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/"
+    },
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品的实战",
+      "url": "https://openai.com/index/harness-engineering/"
+    }
+  ],
+  "https://cursor.com/cn/blog/scaling-agents": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Anthropic 的长时间 Agent 工程实践：初始化 Agent + 编码 Agent 增量推进",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "title": "Architecting Context-Aware Multi-Agent Framework — Google",
+      "desc": "Google 的生产级多 Agent 框架设计",
+      "url": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/"
+    },
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品的实战",
+      "url": "https://openai.com/index/harness-engineering/"
+    }
+  ],
+  "https://blog.cloudflare.com/markdown-for-agents/": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Agent 如何高效处理长时间任务的工程实践",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
+  ],
+  "https://frostming.com/posts/2026/create-a-claw/": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Anthropic 官方的长时间 Agent 工程实践",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
+  ],
+  "https://openai.com/index/harness-engineering/": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Anthropic 的长时间 Agent 工程实践：初始化 Agent + 编码 Agent 增量推进",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "title": "擴展長時間自主程式開發的規模 — Cursor",
+      "desc": "Cursor 的多 Agent 并行开发实践：规划者+执行者架构",
+      "url": "https://cursor.com/zh-Hant/blog/scaling-agents"
+    },
+    {
+      "title": "Anthropic Barry Zhang — 如何构建有效 Agent",
+      "desc": "Agent 系统演进、场景选择、保持简单、像 Agent 一样思考",
+      "url": "https://x.com/indigox/status/1909468804930842696"
+    }
+  ],
+  "https://x.com/wangray/status/2022833678595035519": [
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品：AGENTS.md 当目录不当百科，仓库知识是唯一真相源",
+      "url": "https://openai.com/index/harness-engineering/"
+    },
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "长时间 Agent 工程实践：progress 文件 + JSON feature list + 增量推进",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
+  ],
+  "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/": [
+    {
+      "title": "Grida — 开源设计工具平台",
+      "desc": "refig 的母项目，包含 Figma .fig 解析器 fig-kiwi 和 WASM+Skia 渲染引擎",
+      "url": "https://github.com/gridaco/grida"
+    },
+    {
+      "title": "TalkToFigma MCP",
+      "desc": "Cursor↔Figma MCP 集成，AI 直接读写 Figma 设计稿",
+      "url": "https://github.com/grab/cursor-talk-to-figma-mcp"
+    }
+  ],
+  "https://x.com/zoink/status/2023760388530307167": [
+    {
+      "title": "claude-talk-to-figma-mcp",
+      "desc": "Claude Desktop/Claude Code/Cursor 读写 Figma 的 MCP，390星",
+      "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp"
+    },
+    {
+      "title": "Figma MCP Bridge",
+      "desc": "70+ 工具，支持 Cursor + Claude Code 改 Figma",
+      "url": "https://github.com/GetSymmetry/figma-mcp-bridge"
+    },
+    {
+      "title": "Figma 官方博客详解",
+      "desc": "Claude Code to Figma 工作流技术细节：浏览器截取 UI 转可编辑图层",
+      "url": "https://www.figma.com/blog/introducing-claude-code-to-figma/"
+    }
+  ],
+  "https://simonwillison.net/2026/Feb/15/cognitive-debt/": [
+    {
+      "title": "OpenAI 使命声明演变",
+      "desc": "Simon Willison 追踪 OpenAI 2016-2024 年使命声明：从开放共享逐步删到只剩一句话",
+      "url": "https://simonwillison.net/2026/Feb/13/openai-mission-statement/"
+    },
+    {
+      "title": "Claude Code to Figma Design",
+      "desc": "Dylan Field 说要 zoom out 看大局避免 tunnel vision，和认知债务是一回事的两面",
+      "url": "https://x.com/zoink/status/2023760388530307167"
+    }
+  ],
+  "https://simonwillison.net/2026/Feb/13/openai-mission-statement/": [
+    {
+      "title": "Cognitive Debt 认知债务",
+      "desc": "AI 生成代码越快，开发者心智模型越碎片化，技术债在代码里，认知债在人脑里",
+      "url": "https://simonwillison.net/2026/Feb/15/cognitive-debt/"
+    }
+  ],
+  "https://github.com/gridaco/grida": [
+    {
+      "title": "refig — 逆向工程 Figma .fig 二进制",
+      "desc": "Grida 的子模块，离线无头渲染 .fig 为 PNG/SVG/PDF",
+      "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/"
+    }
+  ],
+  "https://github.com/arinspunk/claude-talk-to-figma-mcp": [
+    {
+      "title": "Claude Code to Figma Design",
+      "desc": "Dylan Field 官宣 Figma MCP 工作流：浏览器渲染态自动转 Figma 图层",
+      "url": "https://x.com/zoink/status/2023760388530307167"
+    },
+    {
+      "title": "Figma MCP Bridge",
+      "desc": "70+ 工具，支持 Cursor + Claude Code 改 Figma",
+      "url": "https://github.com/GetSymmetry/figma-mcp-bridge"
+    }
+  ],
+  "https://github.com/mem0ai/mem0": [
+    {
+      "title": "Engram",
+      "desc": "受人脑海马体启发的 AI 记忆系统",
+      "url": "https://github.com/shetty4l/engram"
+    },
+    {
+      "title": "Awesome Agent Memory",
+      "desc": "Agent 记忆系统论文和项目合集",
+      "url": "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory"
+    }
+  ],
+  "https://github.com/shetty4l/engram": [
+    {
+      "title": "Mem0",
+      "desc": "AI 应用的记忆层，支持个性化 AI 体验",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "title": "Awesome Agent Memory",
+      "desc": "Agent 记忆系统论文和项目合集",
+      "url": "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory"
+    }
+  ],
+  "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory": [
+    {
+      "title": "Mem0",
+      "desc": "AI 应用的记忆层，支持个性化 AI 体验",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "title": "Engram",
+      "desc": "受人脑海马体启发的 AI 记忆系统",
+      "url": "https://github.com/shetty4l/engram"
+    }
+  ],
+  "https://www.figma.com/blog/introducing-claude-code-to-figma/": [
+    {
+      "title": "Dylan Field 推文",
+      "desc": "Figma CEO 发文宣布 Claude Code ↔ Figma MCP，强调画布探索避免 tunnel vision",
+      "url": "https://x.com/zoink/status/2023760388530307167"
+    },
+    {
+      "title": "claude-talk-to-figma-mcp",
+      "desc": "社区版 Claude/Cursor 读写 Figma 的 MCP，390星",
+      "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp"
+    }
+  ]
+}

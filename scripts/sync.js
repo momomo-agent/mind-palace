@@ -3,7 +3,7 @@
  * Sync bookmarks from Raindrop.io
  */
 import { execSync } from 'child_process';
-import { writeFileSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
@@ -96,53 +96,220 @@ function extractHighlights(note) {
   return highlights.slice(0, 3);
 }
 
+// Tag 中文名映射
+const TAG_NAMES = {
+  'Design': '设计', 'Develop': '开发', 'Article': '文章',
+  'App': '应用', 'Render': '渲染', 'AI': 'AI', 'ai': 'AI',
+  'OS': '操作系统', 'os': '操作系统',
+  'Tutorial': '教程', 'Internet': '互联网',
+  'Apple': 'Apple', 'Note': '笔记', 'Indie': '独立开发',
+  'Android': 'Android', 'twitter': 'Twitter', 'agent': 'Agent'
+};
+
+const COLORS = [
+  '#6366f1', '#10b981', '#f59e0b', '#ec4899', '#8b5cf6',
+  '#14b8a6', '#f97316', '#ef4444', '#3b82f6', '#84cc16'
+];
+
+function normalizeTag(t) {
+  const lower = t.toLowerCase();
+  if (lower === 'ai') return 'AI';
+  if (lower === 'os') return 'OS';
+  return t;
+}
+
 function inferThemes(items) {
-  // Identify major themes from your bookmarks
-  const themes = [
-    {
-      id: 'moltbot-ecosystem',
-      name: 'Moltbot/Clawdbot 生态',
-      keywords: ['moltbot', 'clawdbot', 'steipete', 'peter steinberger'],
-      color: '#6366f1'
-    },
-    {
-      id: 'ai-agent-tools',
-      name: 'AI Agent 工具链',
-      keywords: ['agent', 'skill', 'browser', 'cli', 'automation'],
-      color: '#10b981'
-    },
-    {
-      id: 'ai-reflection',
-      name: 'AI 时代反思',
-      keywords: ['thinking', 'vibe coding', 'builder', 'thinker'],
-      color: '#f59e0b'
-    },
-    {
-      id: 'ai-products',
-      name: 'AI 产品/应用',
-      keywords: ['app', 'product', 'variant'],
-      color: '#ec4899'
-    }
-  ];
+  // 基于 tags 动态聚类
+  const tagMap = {};
   
-  // Assign items to themes
-  items.forEach(item => {
-    const text = `${item.title} ${item.note} ${item.tags.join(' ')}`.toLowerCase();
-    item.themes = [];
-    themes.forEach(theme => {
-      if (theme.keywords.some(kw => text.includes(kw))) {
-        item.themes.push(theme.id);
+  items.forEach((item, idx) => {
+    let tags = (item.tags || []).map(normalizeTag);
+    if (tags.length === 0) tags = ['其他'];
+    
+    tags.forEach(tag => {
+      const parts = tag.split('/');
+      const root = normalizeTag(parts[0]);
+      const sub = parts.length > 1 ? parts.slice(1).join('/') : null;
+      
+      if (!tagMap[root]) {
+        tagMap[root] = { indices: new Set(), children: {} };
+      }
+      tagMap[root].indices.add(idx);
+      
+      if (sub) {
+        if (!tagMap[root].children[sub]) {
+          tagMap[root].children[sub] = new Set();
+        }
+        tagMap[root].children[sub].add(idx);
       }
     });
-    // Default to AI if has AI tag but no specific theme
-    if (item.themes.length === 0 && item.tags.includes('AI')) {
-      item.themes.push('ai-products');
-    }
-    // Extract highlights
+    
+    // 提取看点
     item.highlights_text = extractHighlights(item.note);
+    // 设置 themes
+    item.themes = tags.map(t => normalizeTag(t.split('/')[0]).toLowerCase());
   });
   
+  // 构建主题树，按数量排序
+  const themes = [];
+  let colorIdx = 0;
+  
+  const sorted = Object.entries(tagMap)
+    .sort((a, b) => b[1].indices.size - a[1].indices.size);
+  
+  for (const [tag, data] of sorted) {
+    const theme = {
+      id: tag.toLowerCase().replace(/\s+/g, '-'),
+      name: TAG_NAMES[tag] || tag,
+      color: COLORS[colorIdx++ % COLORS.length],
+      count: data.indices.size,
+      items: [...data.indices].map(i => items[i]._id)
+    };
+    
+    // 添加子分类
+    const childEntries = Object.entries(data.children);
+    if (childEntries.length > 0) {
+      theme.children = childEntries
+        .sort((a, b) => b[1].size - a[1].size)
+        .map(([subTag, subIndices], i) => ({
+          id: `${theme.id}-${subTag.toLowerCase()}`,
+          name: TAG_NAMES[subTag] || subTag,
+          color: COLORS[(colorIdx + i) % COLORS.length],
+          count: subIndices.size,
+          items: [...subIndices].map(j => items[j]._id)
+        }));
+    }
+    
+    themes.push(theme);
+  }
+  
   return themes;
+}
+
+// 话题星系聚类：基于关键词语义相似度
+function inferGalaxies(items) {
+  const COLORS = ['#C4785A', '#7A8B6E', '#5A6B7A', '#8B6E7A', '#B8A060', '#6B8B8B', '#9C7A5A', '#7A6B8B', '#8B7A6E', '#5A7A6B', '#8B8B5A', '#5A8B7A'];
+  const galaxies = [];
+  const assigned = new Set();
+  let gIdx = 0;
+
+  // 1. Related clusters: group items connected via related.json
+  const relAdj = new Map();
+  items.forEach((a, i) => {
+    if (!a.related) return;
+    a.related.forEach(r => {
+      const j = items.findIndex(b => b.link === r.url);
+      if (j >= 0 && j !== i) {
+        if (!relAdj.has(i)) relAdj.set(i, new Set());
+        if (!relAdj.has(j)) relAdj.set(j, new Set());
+        relAdj.get(i).add(j);
+        relAdj.get(j).add(i);
+      }
+    });
+  });
+
+  // BFS to find connected components from related links
+  const visited = new Set();
+  for (let start = 0; start < items.length; start++) {
+    if (visited.has(start) || !relAdj.has(start)) continue;
+    const queue = [start];
+    const component = [];
+    visited.add(start);
+    while (queue.length) {
+      const cur = queue.shift();
+      component.push(cur);
+      if (relAdj.has(cur)) {
+        for (const nb of relAdj.get(cur)) {
+          if (!visited.has(nb)) { visited.add(nb); queue.push(nb); }
+        }
+      }
+    }
+    if (component.length >= 2) {
+      const name = autoName(component, items);
+      component.forEach(i => assigned.add(i));
+      galaxies.push({
+        id: `galaxy-${gIdx}`, name, color: COLORS[gIdx % COLORS.length],
+        members: component.map(i => items[i]._id), count: component.length
+      });
+      gIdx++;
+    }
+  }
+
+  // 2. Domain clusters for unassigned (same domain, ≥2 items)
+  const domGroups = {};
+  items.forEach((item, i) => {
+    if (assigned.has(i) || !item.domain || item.domain === 'github.com' || item.domain === 'x.com') return;
+    (domGroups[item.domain] = domGroups[item.domain] || []).push(i);
+  });
+  Object.entries(domGroups).forEach(([dom, members]) => {
+    if (members.length < 2) return;
+    const name = autoName(members, items);
+    members.forEach(i => assigned.add(i));
+    galaxies.push({
+      id: `galaxy-${gIdx}`, name, color: COLORS[gIdx % COLORS.length],
+      members: members.map(i => items[i]._id), count: members.length
+    });
+    gIdx++;
+  });
+
+  // 3. Tag-pair clusters for remaining unassigned
+  const tagPairs = {};
+  items.forEach((item, i) => {
+    if (assigned.has(i)) return;
+    const tags = item.tags.sort();
+    for (let a = 0; a < tags.length; a++) {
+      for (let b = a + 1; b < tags.length; b++) {
+        const key = tags[a] + '+' + tags[b];
+        (tagPairs[key] = tagPairs[key] || []).push(i);
+      }
+    }
+  });
+  // Greedily assign to largest tag-pair group
+  Object.entries(tagPairs)
+    .sort((a, b) => b[1].length - a[1].length)
+    .forEach(([pair, members]) => {
+      const unassignedMembers = members.filter(i => !assigned.has(i));
+      if (unassignedMembers.length < 2) return;
+      const name = pair.replace('+', ' · ');
+      unassignedMembers.forEach(i => assigned.add(i));
+      galaxies.push({
+        id: `galaxy-${gIdx}`, name, color: COLORS[gIdx % COLORS.length],
+        members: unassignedMembers.map(i => items[i]._id), count: unassignedMembers.length
+      });
+      gIdx++;
+    });
+
+  // 4. Remaining → 散星
+  const unassigned = items.map((_, i) => i).filter(i => !assigned.has(i));
+  if (unassigned.length > 0) {
+    galaxies.push({
+      id: 'galaxy-explore', name: '散星', color: '#9C948A',
+      members: unassigned.map(i => items[i]._id), count: unassigned.length
+    });
+  }
+
+  // Bridges
+  const bridges = [];
+  for (let i = 0; i < galaxies.length; i++) {
+    for (let j = i + 1; j < galaxies.length; j++) {
+      const shared = galaxies[i].members.filter(id => galaxies[j].members.includes(id));
+      if (shared.length > 0) bridges.push({ source: galaxies[i].id, target: galaxies[j].id, strength: shared.length, shared });
+    }
+  }
+
+  return { galaxies, bridges };
+}
+
+function autoName(indices, items) {
+  const words = {};
+  const STOP = new Set(['the','a','an','and','or','for','to','of','in','on','is','with','from','by','that','this','it','as','at','be','are','was','has','have','how','what','your','you','i','my','we','our','can','will','about','into','using','via','more','new','just','all','not','but','its','than','been','one','use','get','like','also','most','when','they','their','do','if','no','so','up','out','now','here','even','only','over','after','then','some','other','any','each','every','both','few','many','much','very','too','own','same','such','back','way','well','still','first','last','long','great','little','right','old','big','high','different','small','large','next','early','young','important','public','bad','real','best','better','sure','free','full','open','source','code','ai','tool','design','develop','article','model','context','protocol','mcp','allows','claude','desktop','other','tools','github','copilot','cursor','etc','interact','directly']);
+  indices.forEach(i => {
+    const text = ((items[i].title || '') + ' ' + (items[i].note || '')).toLowerCase();
+    text.split(/[\s,.:;!?()[\]{}|/\\<>"'`~@#$%^&*+=]+/).forEach(w => {
+      if (w.length > 2 && !STOP.has(w) && !/^\d+$/.test(w)) words[w] = (words[w] || 0) + 1;
+    });
+  });
+  return Object.entries(words).sort((a, b) => b[1] - a[1]).slice(0, 2).map(e => e[0]).join(' + ') || '未命名';
 }
 
 async function main() {
@@ -157,8 +324,24 @@ async function main() {
   const items = data.items;
   console.log(`Fetched ${items.length} bookmarks`);
   
+  // Merge related recommendations
+  const relatedPath = join(dataDir, 'related.json');
+  if (existsSync(relatedPath)) {
+    const relatedMap = JSON.parse(readFileSync(relatedPath, 'utf-8'));
+    items.forEach(item => {
+      if (relatedMap[item.link]) {
+        item.related = relatedMap[item.link];
+      }
+    });
+    console.log('Merged related recommendations');
+  }
+
   console.log('Inferring themes...');
   const themes = inferThemes(items);
+  
+  console.log('Inferring galaxies...');
+  const { galaxies, bridges } = inferGalaxies(items);
+  console.log(`Found ${galaxies.length} galaxies, ${bridges.length} bridges`);
   
   console.log('Inferring relations...');
   const relations = inferRelations(items);
@@ -170,6 +353,8 @@ async function main() {
       count: items.length
     },
     themes,
+    galaxies,
+    bridges,
     items,
     relations
   };

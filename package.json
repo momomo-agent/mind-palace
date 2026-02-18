@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "natural": "^8.1.0",
+    "nodejieba": "^3.5.2"
   }
 }

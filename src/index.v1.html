@@ -494,9 +494,9 @@ function renderCard(item, compact = false) {
       // 查找 Mind Palace 内是否有对应文章
       const internal = DATA.items.find(i => i.link === r.url);
       if (internal) {
-        relatedHtml += `<div class="related-item"><a href="javascript:void(0)" onclick="navigateTo(${internal._id})">${r.title}</a><span class="related-desc"> - ${r.desc}</span></div>`;
+        relatedHtml += `<div class="related-item"><a href="javascript:void(0)" onclick="navigateTo(${internal._id})">${r.title}</a><span class="related-desc"> — ${r.desc}</span></div>`;
       } else {
-        relatedHtml += `<div class="related-item"><a href="${r.url}" target="_blank">${r.title}</a><span class="related-desc"> - ${r.desc}</span></div>`;
+        relatedHtml += `<div class="related-item"><a href="${r.url}" target="_blank">${r.title}</a><span class="related-desc"> — ${r.desc}</span></div>`;
       }
     });
     relatedHtml += '</div>';
@@ -569,12 +569,12 @@ function navigateToGalaxy(galaxyId) {
 function showDetailDeep(item) {
   const panel = document.getElementById('detail-panel');
   let html = renderCard(item);
-
+  
   // 找同星系的其他文章
   const itemGalaxies = (DATA.galaxies || []).filter(g => g.members.includes(item._id));
   const sameGalaxyItems = new Set();
   itemGalaxies.forEach(g => g.members.forEach(id => { if (id !== item._id) sameGalaxyItems.add(id); }));
-
+  
   if (sameGalaxyItems.size > 0) {
     html += '<div style="margin-top:20px"><h3 style="font-family:Playfair Display,serif;font-size:1rem;margin-bottom:12px;color:var(--text-secondary)">同话题文章</h3><div class="cards-grid">';
     [...sameGalaxyItems].slice(0, 6).forEach(id => {
@@ -583,7 +583,7 @@ function showDetailDeep(item) {
     });
     html += '</div></div>';
   }
-
+  
   panel.innerHTML = html;
   renderBreadcrumb();
 }
@@ -591,7 +591,7 @@ function showDetailDeep(item) {
 function showGalaxyDeep(gal) {
   const panel = document.getElementById('detail-panel');
   const items = DATA.items.filter(i => gal.members.includes(i._id));
-
+  
   // 找桥接到的其他星系
   const bridgedGalaxies = (DATA.bridges || [])
     .filter(b => b.source === gal.id || b.target === gal.id)
@@ -600,11 +600,11 @@ function showGalaxyDeep(gal) {
       const other = (DATA.galaxies || []).find(g => g.id === otherId);
       return other ? { ...other, shared: b.strength } : null;
     }).filter(Boolean);
-
+  
   let html = `<div class="cluster-header">
     <h2 style="color:${gal.color}">${gal.name}</h2>
     <p style="color:var(--text-muted);margin-bottom:8px">${items.length} articles</p>`;
-
+  
   if (bridgedGalaxies.length > 0) {
     html += '<div style="margin-bottom:16px">';
     bridgedGalaxies.forEach(bg => {
@@ -612,7 +612,7 @@ function showGalaxyDeep(gal) {
     });
     html += '</div>';
   }
-
+  
   html += '</div><div class="cards-grid">';
   items.forEach(item => { html += renderCard(item, true); });
   html += '</div>';
@@ -631,7 +631,7 @@ function highlightNode(itemId) {
   const nodeId = 'item-' + itemId;
   const item = DATA.items.find(i => i._id === itemId);
   const themeIds = item?.themes || [];
-
+  
   // 高亮书签节点和对应的主题节点
   graphNodes.classed('highlighted', d => d.id === nodeId || (d.isTheme && themeIds.includes(d.id)));
   graphNodes.classed('dimmed', d => d.id !== nodeId && !d.isTheme);
@@ -655,38 +655,29 @@ function renderGraph() {
   const height = container.clientHeight;
   const svg = d3.select('#graph').attr('width', width).attr('height', height);
   svg.selectAll('*').remove();
-
+  
   // Defs for glow effect
   const defs = svg.append('defs');
-  const filter = defs.append('filter').attr('id', 'glow').attr('x', '-50%').attr('y', '-50%').attr('width', '200%').attr('height', '200%');
-  filter.append('feGaussianBlur').attr('stdDeviation', '4').attr('result', 'blur');
-  filter.append('feComposite').attr('in', 'blur').attr('in2', 'SourceGraphic').attr('operator', 'over');
-
-  const glowStrong = defs.append('filter').attr('id', 'glow-strong').attr('x', '-80%').attr('y', '-80%').attr('width', '260%').attr('height', '260%');
-  glowStrong.append('feGaussianBlur').attr('stdDeviation', '8').attr('result', 'blur');
-  glowStrong.append('feComposite').attr('in', 'blur').attr('in2', 'SourceGraphic').attr('operator', 'over');
-
-  // Pulse animation marker for synaptic signals
-  const pulseGrad = defs.append('radialGradient').attr('id', 'pulse-grad');
-  pulseGrad.append('stop').attr('offset', '0%').attr('stop-color', '#fff').attr('stop-opacity', 0.9);
-  pulseGrad.append('stop').attr('offset', '100%').attr('stop-color', '#fff').attr('stop-opacity', 0);
-
+  const filter = defs.append('filter').attr('id', 'glow');
+  filter.append('feGaussianBlur').attr('stdDeviation', '3').attr('result', 'blur');
+  filter.append('feMerge').selectAll('feMergeNode').data(['blur', 'SourceGraphic']).join('feMergeNode').attr('in', d => d);
+  
   const g = svg.append('g');
   const zoom = d3.zoom()
     .scaleExtent([0.2, 4])
     .on('zoom', (e) => g.attr('transform', e.transform));
   svg.call(zoom);
-
+  
   const galaxies = DATA.galaxies || [];
   const bridges = DATA.bridges || [];
   const nodes = [];
   const links = [];
-
+  
   // Galaxy center nodes
   galaxies.forEach(gal => {
     nodes.push({ id: gal.id, name: gal.name, color: gal.color, isGalaxy: true, count: gal.count, members: gal.members });
   });
-
+  
   // Item nodes
   const itemGalaxyMap = {};
   galaxies.forEach(gal => {
@@ -695,7 +686,7 @@ function renderGraph() {
       itemGalaxyMap[mid].push(gal.id);
     });
   });
-
+  
   DATA.items.forEach(item => {
     const nodeId = 'item-' + item._id;
     const galIds = itemGalaxyMap[item._id] || [];
@@ -710,12 +701,12 @@ function renderGraph() {
       links.push({ source: gid, target: nodeId, strength: 0.3 });
     });
   });
-
+  
   // Bridge links between galaxies
   bridges.forEach(b => {
     links.push({ source: b.source, target: b.target, strength: b.strength * 0.5, isBridge: true });
   });
-
+  
   // Related links between items
   DATA.items.forEach(item => {
     if (item.related) {
@@ -728,142 +719,102 @@ function renderGraph() {
     }
   });
 
-  // Relation links (tag co-occurrence) - visual only, no force
+  // Relation links (tag co-occurrence) — weak attraction
   const relSet = new Set();
-  const weakLinks = [];
   (DATA.relations || []).forEach(r => {
     const key = r.source < r.target ? r.source + '-' + r.target : r.target + '-' + r.source;
     if (!relSet.has(key)) {
       relSet.add(key);
-      weakLinks.push({ source: 'item-' + r.source, target: 'item-' + r.target, strength: Math.min(r.strength, 3) * 0.1, isWeak: true });
+      links.push({ source: 'item-' + r.source, target: 'item-' + r.target, strength: Math.min(r.strength, 3) * 0.1, isWeak: true });
     }
   });
-  const allLinks = [...links, ...weakLinks];
 
   const simulation = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(d => {
-      if (d.isBridge) return 120;
-      if (d.isRelated) return 70;
-      return d.strength < 1 ? 90 : 55;
-    }).strength(d => d.isBridge ? 0.08 : d.isRelated ? 0.2 : 0.3))
-    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -600 : -120))
-    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.02))
-    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 30 : 20));
-
-  // Galaxy halos — subtle background cloud, not a big ball
+      if (d.isBridge) return 80;
+      if (d.isRelated) return 40;
+      if (d.isWeak) return 60;
+      return d.strength < 1 ? 50 : 35;
+    }).strength(d => d.isBridge ? 0.15 : d.isRelated ? 0.4 : d.isWeak ? 0.05 : 0.6))
+    .force('charge', d3.forceManyBody().strength(d => d.isGalaxy ? -200 : -8))
+    .force('center', d3.forceCenter(width / 2, height / 2).strength(0.3))
+    .force('collision', d3.forceCollide().radius(d => d.isGalaxy ? 35 : d.isBridge ? 8 : 5));
+  
+  // Galaxy halos (background circles)
   const halo = g.append('g').selectAll('circle').data(nodes.filter(d => d.isGalaxy)).join('circle')
-    .attr('r', d => 15 + d.count * 3)
+    .attr('r', d => 30 + d.count * 12)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', 0.04)
-    .attr('stroke', 'none');
-
-  // Links - render all (including weak for visual)
-  const link = g.append('g').selectAll('line').data(allLinks).join('line')
-    .attr('stroke', d => d.isRelated ? '#C4785A' : d.isBridge ? '#B8A060' : d.isWeak ? '#9C948A' : '#9C948A')
-    .attr('stroke-width', d => d.isRelated ? 1 : d.isBridge ? 1 : d.isWeak ? 0.2 : 0.4)
-    .attr('stroke-opacity', d => d.isRelated ? 0.3 : d.isBridge ? 0.25 : d.isWeak ? 0.06 : 0.12)
+    .attr('fill-opacity', 0.06)
+    .attr('stroke', d => d.color)
+    .attr('stroke-opacity', 0.12)
+    .attr('stroke-width', 1);
+  
+  // Links
+  const link = g.append('g').selectAll('line').data(links).join('line')
+    .attr('stroke', d => d.isRelated ? '#C4785A' : d.isBridge ? '#B8A060' : d.isWeak ? 'var(--border)' : 'var(--border)')
+    .attr('stroke-width', d => d.isRelated ? 1.2 : d.isBridge ? 1.5 : d.isWeak ? 0.3 : 0.8)
+    .attr('stroke-opacity', d => d.isRelated ? 0.4 : d.isBridge ? 0.3 : d.isWeak ? 0.08 : 0.25)
     .attr('stroke-dasharray', d => d.isRelated ? '4,3' : d.isBridge ? '6,4' : 'none');
-
+  
   // Nodes
   const node = g.append('g').selectAll('g').data(nodes).join('g')
     .attr('class', d => d.isGalaxy ? 'node galaxy-node' : d.isBridge ? 'node bridge-node' : 'node item-node')
     .call(d3.drag().on('start', ds).on('drag', dr).on('end', de));
-
+  
   graphNodes = node;
-
-  // Galaxy center - small dot, not big ball
+  
+  // Galaxy center circles
   node.filter(d => d.isGalaxy).append('circle')
-    .attr('r', 3)
+    .attr('r', d => 18 + d.count * 2)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', 0.6);
-
-  // Galaxy labels - just text, no count number
+    .attr('fill-opacity', 0.7)
+    .attr('filter', 'url(#glow)');
+  
+  // Galaxy labels
   node.filter(d => d.isGalaxy).append('text')
     .attr('class', 'node-label theme-label')
     .attr('text-anchor', 'middle')
-    .attr('dy', -10)
+    .attr('dy', d => -(22 + d.count * 2))
     .text(d => d.name)
-    .style('font-size', '10px')
+    .style('font-size', '12px')
     .style('fill', d => d.color)
-    .style('font-weight', '500')
-    .style('opacity', 0.6);
-
+    .style('font-weight', '600');
+  
   // Galaxy count
   node.filter(d => d.isGalaxy).append('text')
     .attr('text-anchor', 'middle')
     .attr('dy', 4)
     .text(d => d.count)
-    .style('font-size', '10px')
-    .style('fill', 'var(--text-muted)')
+    .style('font-size', '11px')
+    .style('fill', 'var(--bg-cream)')
     .style('font-family', "'Source Serif 4', serif")
     .style('pointer-events', 'none');
-
-  // Item circles - neurons with subtle glow
+  
+  // Item circles
   node.filter(d => !d.isGalaxy).append('circle')
     .attr('r', d => d.isBridge ? 7 : 5)
     .attr('fill', d => d.color)
-    .attr('fill-opacity', d => d.isBridge ? 0.8 : 0.6)
-    .attr('filter', 'url(#glow)');
-
-  // Neuron outer ring
-  node.filter(d => !d.isGalaxy).append('circle')
-    .attr('r', d => d.isBridge ? 12 : 9)
-    .attr('fill', 'none')
-    .attr('stroke', d => d.color)
-    .attr('stroke-width', 0.4)
-    .attr('stroke-opacity', 0.2);
-
+    .attr('fill-opacity', d => d.isBridge ? 0.85 : 0.55)
+    .attr('stroke', d => d.isBridge ? d.color : 'none')
+    .attr('stroke-width', d => d.isBridge ? 1.5 : 0)
+    .attr('stroke-opacity', 0.4);
+  
   // Item labels (only show on hover via CSS, or for bridge nodes)
   node.filter(d => !d.isGalaxy).append('text')
     .attr('class', 'node-label')
     .attr('dx', 10).attr('dy', 3)
     .text(d => (d.title || '').slice(0, 16))
     .style('opacity', d => d.isBridge ? 0.8 : 0);
-
-  // Hover: show label + synaptic pulse
-  const pulseLayer = g.append('g').attr('class', 'pulse-layer');
-
+  
+  // Hover: show label
   node.filter(d => !d.isGalaxy)
-    .on('mouseenter', function(e, d) {
-      d3.select(this).select('text').style('opacity', 1);
-      // Brighten connected links
-      link.transition().duration(300)
-        .attr('stroke-opacity', l => {
-          const sId = typeof l.source === 'object' ? l.source.id : l.source;
-          const tId = typeof l.target === 'object' ? l.target.id : l.target;
-          if (sId === d.id || tId === d.id) return l.isRelated ? 0.6 : 0.3;
-          return l.isRelated ? 0.08 : l.isBridge ? 0.05 : l.isWeak ? 0.01 : 0.03;
-        });
-      // Fire pulses along connected links
-      const connected = links.filter(l => {
-        const sId = typeof l.source === 'object' ? l.source.id : l.source;
-        const tId = typeof l.target === 'object' ? l.target.id : l.target;
-        return (sId === d.id || tId === d.id) && !l.isWeak;
-      });
-      connected.forEach((l, i) => {
-        const src = typeof l.source === 'object' ? l.source : nodes.find(n => n.id === l.source);
-        const tgt = typeof l.target === 'object' ? l.target : nodes.find(n => n.id === l.target);
-        if (!src || !tgt) return;
-        const fromMe = (typeof l.source === 'object' ? l.source.id : l.source) === d.id;
-        const p = pulseLayer.append('circle').attr('r', 2).attr('fill', d.color).attr('fill-opacity', 0.9).attr('filter', 'url(#glow)');
-        p.attr('cx', fromMe ? src.x : tgt.x).attr('cy', fromMe ? src.y : tgt.y)
-          .transition().duration(600).delay(i * 40)
-          .attr('cx', fromMe ? tgt.x : src.x).attr('cy', fromMe ? tgt.y : src.y)
-          .attr('fill-opacity', 0)
-          .remove();
-      });
-    })
-    .on('mouseleave', function(e, d) {
-      if (!d.isBridge) d3.select(this).select('text').style('opacity', 0);
-      link.transition().duration(400)
-        .attr('stroke-opacity', l => l.isRelated ? 0.3 : l.isBridge ? 0.25 : l.isWeak ? 0.06 : 0.12);
-      pulseLayer.selectAll('circle').remove();
-    });
-
-  // Click handlers - in-place zoom + fade, no page switch
+    .on('mouseenter', function() { d3.select(this).select('text').style('opacity', 1); })
+    .on('mouseleave', function(e, d) { if (!d.isBridge) d3.select(this).select('text').style('opacity', 0); });
+  
+  // Click handlers — in-place zoom + fade, no page switch
   let focusMode = null; // null | 'galaxy' | 'item'
   let focusTarget = null;
-
+  
   function resetFocus() {
     focusMode = null;
     focusTarget = null;
@@ -876,7 +827,7 @@ function renderGraph() {
     svg.transition().duration(800).ease(d3.easeCubicOut).call(zoom.transform, d3.zoomIdentity);
     renderList();
   }
-
+  
   function focusGalaxy(galNode) {
     focusMode = 'galaxy';
     focusTarget = galNode;
@@ -905,7 +856,7 @@ function renderGraph() {
     const gal = (DATA.galaxies || []).find(g => g.id === galNode.id);
     if (gal) showThemeDetail(gal, DATA.items.filter(i => gal.members.includes(i._id)));
   }
-
+  
   function focusItem(itemNode) {
     focusMode = 'item';
     focusTarget = itemNode;
@@ -942,7 +893,7 @@ function renderGraph() {
     svg.transition().duration(800).ease(d3.easeCubicOut).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
     showDetail(itemNode.item);
   }
-
+  
   node.on('click', (e, d) => {
     e.stopPropagation();
     if (d.isGalaxy) {
@@ -953,52 +904,17 @@ function renderGraph() {
       else focusItem(d);
     }
   });
-
+  
   svg.on('click', () => { if (focusMode) resetFocus(); else renderList(); });
-
-  // Node lookup for weak links (not in simulation)
-  const nodeMap = {};
-  nodes.forEach(n => nodeMap[n.id] = n);
-  weakLinks.forEach(l => { l.source = nodeMap[l.source] || l.source; l.target = nodeMap[l.target] || l.target; });
-
+  
   simulation.on('tick', () => {
     halo.attr('cx', d => d.x).attr('cy', d => d.y);
     link.attr('x1', d => d.source.x).attr('y1', d => d.source.y).attr('x2', d => d.target.x).attr('y2', d => d.target.y);
     node.attr('transform', d => `translate(${d.x},${d.y})`);
   });
-
+  
   // Breathing: keep simulation gently alive
   simulation.alphaDecay(0.02).alphaMin(0.005).alphaTarget(0.008).restart();
-
-  // Auto-fit after layout stabilizes
-  setTimeout(() => {
-    const xs = nodes.map(n => n.x), ys = nodes.map(n => n.y);
-    const x0 = Math.min(...xs) - 40, x1 = Math.max(...xs) + 40;
-    const y0 = Math.min(...ys) - 40, y1 = Math.max(...ys) + 40;
-    const bw = x1 - x0, bh = y1 - y0;
-    const scale = Math.min(width / bw, height / bh, 1.5) * 0.9;
-    const tx = width / 2 - (x0 + bw / 2) * scale;
-    const ty = height / 2 - (y0 + bh / 2) * scale;
-    svg.transition().duration(800).call(zoom.transform, d3.zoomIdentity.translate(tx, ty).scale(scale));
-  }, 2000);
-
-  // Ambient synaptic pulses - random signals firing in background
-  const ambientLayer = g.append('g').attr('class', 'ambient-pulses');
-  function fireAmbientPulse() {
-    const visibleLinks = links.filter(l => !l.isWeak && l.source.x != null);
-    if (visibleLinks.length === 0) return;
-    const l = visibleLinks[Math.floor(Math.random() * visibleLinks.length)];
-    const src = l.source, tgt = l.target;
-    if (!src.x || !tgt.x) return;
-    const color = src.color || tgt.color || '#ffffff';
-    ambientLayer.append('circle').attr('r', 1.5).attr('fill', color).attr('fill-opacity', 0.5)
-      .attr('cx', src.x).attr('cy', src.y)
-      .transition().duration(800 + Math.random() * 400)
-      .attr('cx', tgt.x).attr('cy', tgt.y)
-      .attr('fill-opacity', 0)
-      .remove();
-  }
-  setInterval(fireAmbientPulse, 300);
 
   function ds(e) { if (!e.active) simulation.alphaTarget(0.3).restart(); e.subject.fx = e.subject.x; e.subject.fy = e.subject.y; }
   function dr(e) { e.subject.fx = e.x; e.subject.fy = e.y; }
