@@ -11,11 +11,23 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(__dirname, '..', 'data');
 
 async function fetchBookmarks() {
-  const script = '/Users/kenefe/clawd/skills/raindrop/scripts/raindrop.sh'; // path unchanged, skill still in clawd
-  const result = execSync(`${script} GET '/raindrops/0?perpage=100&sort=-created'`, {
-    encoding: 'utf-8'
-  });
-  return JSON.parse(result);
+  const script = '/Users/kenefe/clawd/skills/raindrop/scripts/raindrop.sh';
+  const perpage = 50;
+  let page = 0;
+  let all = [];
+  while (true) {
+    const result = execSync(`${script} GET '/raindrops/0?perpage=${perpage}&page=${page}&sort=-created'`, {
+      encoding: 'utf-8',
+      env: { ...process.env, RAINDROP_TOKEN: process.env.RAINDROP_TOKEN || execSync(`grep -o '"RAINDROP_TOKEN"[[:space:]]*:[[:space:]]*"[^"]*"' "$HOME/.openclaw/openclaw.json" | head -1 | sed 's/.*"RAINDROP_TOKEN"[[:space:]]*:[[:space:]]*"//;s/"$//'`, { encoding: 'utf-8' }).trim() }
+    });
+    const data = JSON.parse(result);
+    const items = data.items || [];
+    all.push(...items);
+    console.log(`Fetched page ${page}: ${items.length} items (total: ${all.length})`);
+    if (items.length < perpage) break;
+    page++;
+  }
+  return { items: all, count: all.length };
 }
 
 function inferRelations(items) {
@@ -316,7 +328,7 @@ async function main() {
   console.log('Fetching bookmarks from Raindrop...');
   const data = await fetchBookmarks();
   
-  if (!data.result || !data.items) {
+  if (!data.items || data.items.length === 0) {
     console.error('Failed to fetch bookmarks');
     process.exit(1);
   }
