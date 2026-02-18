@@ -295,12 +295,17 @@ function inferGalaxies(items) {
     });
   }
 
-  // Bridges
+  // Bridges: shared members + shared tag components in galaxy name
   const bridges = [];
   for (let i = 0; i < galaxies.length; i++) {
     for (let j = i + 1; j < galaxies.length; j++) {
       const shared = galaxies[i].members.filter(id => galaxies[j].members.includes(id));
-      if (shared.length > 0) bridges.push({ source: galaxies[i].id, target: galaxies[j].id, strength: shared.length, shared });
+      // Also check shared tag components (e.g. "AI+Develop" and "AI+Design" share "AI")
+      const tagsI = galaxies[i].name.split('+').map(s => s.trim());
+      const tagsJ = galaxies[j].name.split('+').map(s => s.trim());
+      const sharedTags = tagsI.filter(t => tagsJ.includes(t));
+      const strength = shared.length + sharedTags.length * 3;
+      if (strength > 0) bridges.push({ source: galaxies[i].id, target: galaxies[j].id, strength, shared });
     }
   }
 

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "syncedAt": "2026-02-18T06:06:24.103Z",
+    "syncedAt": "2026-02-18T07:03:57.223Z",
     "count": 1243
   },
   "themes": [
@@ -5268,7 +5268,128 @@
       "count": 206
     }
   ],
-  "bridges": [],
+  "bridges": [
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-1",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-36",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-95",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-36",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-95",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-3",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-5",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-5",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-20",
+      "target": "galaxy-25",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-20",
+      "target": "galaxy-26",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-24",
+      "target": "galaxy-43",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-25",
+      "target": "galaxy-26",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-36",
+      "target": "galaxy-95",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-39",
+      "target": "galaxy-61",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-44",
+      "target": "galaxy-60",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-52",
+      "target": "galaxy-64",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-52",
+      "target": "galaxy-80",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-59",
+      "target": "galaxy-97",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-64",
+      "target": "galaxy-80",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-85",
+      "target": "galaxy-98",
+      "strength": 3,
+      "shared": []
+    }
+  ],
   "items": [
     {
       "_id": 1606626596,
