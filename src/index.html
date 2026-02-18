@@ -687,16 +687,32 @@ function renderGraph() {
     nodes.push({ id: gal.id, name: gal.name, color: gal.color, isGalaxy: true, count: gal.count, members: gal.members });
   });
 
-  // Item nodes
+  // Item nodes — only show top items per galaxy to avoid overcrowding
+  const MAX_ITEMS_PER_GALAXY = 5;
   const itemGalaxyMap = {};
+  const galaxyItemCount = {};
   galaxies.forEach(gal => {
+    galaxyItemCount[gal.id] = 0;
     gal.members.forEach(mid => {
       if (!itemGalaxyMap[mid]) itemGalaxyMap[mid] = [];
       itemGalaxyMap[mid].push(gal.id);
     });
   });
 
+  // Sort items by recency, pick top N per galaxy
+  const sortedItems = [...DATA.items].sort((a, b) => new Date(b.created) - new Date(a.created));
+  const shownItemIds = new Set();
+  sortedItems.forEach(item => {
+    const galIds = itemGalaxyMap[item._id] || [];
+    const primaryGal = galIds[0];
+    if (primaryGal && (galaxyItemCount[primaryGal] || 0) < MAX_ITEMS_PER_GALAXY) {
+      shownItemIds.add(item._id);
+      galaxyItemCount[primaryGal] = (galaxyItemCount[primaryGal] || 0) + 1;
+    }
+  });
+
   DATA.items.forEach(item => {
+    if (!shownItemIds.has(item._id)) return;
     const nodeId = 'item-' + item._id;
     const galIds = itemGalaxyMap[item._id] || [];
     const gal = galaxies.find(g => g.id === galIds[0]);
