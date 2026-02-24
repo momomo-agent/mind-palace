@@ -311,5 +311,205 @@
       "desc": "社区版 Claude/Cursor 读写 Figma 的 MCP，390星",
       "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp"
     }
+  ],
+  "https://www.youtube.com/watch?v=PQU9o_5rHC4": [
+    {
+      "title": "Understanding How Claude Code Works",
+      "desc": "深度拆解Claude Code工作原理：tool call循环、本地命令执行、上下文管理",
+      "url": "https://virtuslab.com/blog/ai/how-claude-code-works/"
+    },
+    {
+      "title": "Claude Code: A Highly Agentic Coding Assistant",
+      "desc": "DeepLearning.AI课程：架构原理、工具使用、跨session记忆",
+      "url": "https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/"
+    }
+  ],
+  "https://x.com/dotey/status/2024164616595542458": [
+    {
+      "title": "Claude Code: Anthropic's Agent in Your Terminal",
+      "desc": "Latent Space深度访谈Boris Cherny：产品哲学、do the simple thing first",
+      "url": "https://www.latent.space/p/claude-code"
+    },
+    {
+      "title": "How Claude Code Is Reshaping Software",
+      "desc": "WIRED专访：Claude Code如何重塑软件开发和Anthropic商业模式",
+      "url": "https://www.wired.com/story/claude-code-success-anthropic-business-model/"
+    }
+  ],
+  "http://www.incompleteideas.net/IncIdeas/BitterLesson.html": [
+    {
+      "title": "Learning the Bitter Lesson in 2026",
+      "desc": "Econlib 对 Bitter Lesson 的 2026 年回顾：计算扩展持续碾压专家知识",
+      "url": "https://www.econlib.org/econlog/learning-the-bitter-lesson-in-2026"
+    },
+    {
+      "title": "Does the Bitter Lesson Have Limits?",
+      "desc": "反思 Bitter Lesson 的边界：通用计算扩展是否有极限",
+      "url": "https://www.dbreunig.com/2025/08/01/does-the-bitter-lesson-have-limits.html"
+    }
+  ],
+  "https://arxiv.org/abs/2602.08234": [
+    {
+      "title": "SkillRL GitHub",
+      "desc": "官方代码仓库，含完整实现和实验复现",
+      "url": "https://github.com/aiming-lab/SkillRL"
+    },
+    {
+      "title": "SkillRL Paper (HTML)",
+      "desc": "arXiv HTML版论文，含完整图表和公式",
+      "url": "https://arxiv.org/html/2602.08234v1"
+    }
+  ],
+  "https://arxiv.org/abs/2602.02474": [
+    {
+      "title": "MemSkill GitHub",
+      "desc": "官方代码仓库，含完整实现",
+      "url": "https://github.com/ViktorAxelsen/MemSkill"
+    },
+    {
+      "title": "MemSkill Project Page",
+      "desc": "项目主页，含可视化示例和演示",
+      "url": "https://viktoraxelsen.github.io/MemSkill/"
+    }
+  ],
+  "https://x.com/FuSheng_0306/status/2025538565783077050": [
+    {
+      "title": "原始访谈：Inside Claude Code With Its Creator Boris Cherny",
+      "desc": "YC Lightcone播客完整视频，近1小时",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Business Insider报道",
+      "desc": "Boris Cherny称软件工程师头衔将消失",
+      "url": "https://www.businessinsider.com/anthropic-claude-code-founder-ai-impacts-software-engineer-role-2026-2"
+    }
+  ],
+  "https://x.com/bcherny/status/2007179832300581177": [
+    {
+      "title": "Boris Cherny: Claude Code Tips (Thread 2)",
+      "desc": "团队使用技巧12条，git worktrees并行、plan mode、自建skills",
+      "url": "https://x.com/bcherny/status/2017742741636321619"
+    },
+    {
+      "title": "Vibe Coding Learn 整理",
+      "desc": "Boris的13条Claude Code使用经验详细解读",
+      "url": "https://vibecodinglearn.com/boris-cherny-claude-code-setup"
+    }
+  ],
+  "https://x.com/firstofkind_/status/2024642226924720193": [
+    {
+      "title": "Spotify: Ryo Lu - The Way",
+      "desc": "完整播客音频",
+      "url": "https://open.spotify.com/episode/7u9jt9T4GPErcWtSu28shW"
+    },
+    {
+      "title": "Apple Podcasts: First of Kind",
+      "desc": "播客主页，含全部剧集",
+      "url": "https://podcasts.apple.com/au/podcast/first-of-kind/id1818890725"
+    }
+  ],
+  "https://x.com/mike_chong_zh/status/2024996489739616331": [
+    {
+      "title": "Harvard Gazette: Exorcising the Curse of Knowledge",
+      "desc": "Steven Pinker 在哈佛的演讲，讲如何克服知识的诅咒",
+      "url": "https://news.harvard.edu/gazette/story/2012/11/exorcising-the-curse-of-knowledge/"
+    },
+    {
+      "title": "宝玉原推",
+      "desc": "引发讨论的宝玉评论",
+      "url": "https://x.com/dotey/status/2024555811788169696"
+    }
+  ],
+  "aaron-abentheuer-agent-ui-patterns": [
+    {
+      "title": "Apple Live Activities Documentation",
+      "url": "https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities",
+      "reason": "Live Activities 官方文档，Aaron 项目的核心技术基础"
+    },
+    {
+      "title": "OpenClaw - AI Agent Framework",
+      "url": "https://github.com/openclaw/openclaw",
+      "reason": "Aaron 的 UI patterns 库兼容 OpenClaw，这是 OpenClaw 的源码仓库"
+    },
+    {
+      "title": "Thomas Ricouard - Ice Cubes (开源 Mastodon 客户端)",
+      "url": "https://github.com/Dimillian/IceCubesApp",
+      "reason": "Thomas Ricouard 转发了 Aaron 的项目，他的 Ice Cubes 是 SwiftUI 最佳实践参考"
+    },
+    {
+      "title": "Anthropic Building Effective Agents",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "reason": "Agent 架构设计指南，Aaron 的 UI patterns 是 Agent 前端层的补充"
+    }
+  ],
+  "https://x.com/xiaoerzhan/status/2025771438410694686": [
+    {
+      "url": "https://composio.dev/blog/openclaw-alternatives",
+      "title": "Top 5 Secure OpenClaw Alternatives - Composio",
+      "why": "详细对比 NanoClaw/ZeroClaw/TrustClaw 等替代品的安全特性"
+    },
+    {
+      "url": "https://www.kdnuggets.com/5-lightweight-and-secure-openclaw-alternatives-to-try-right-now",
+      "title": "5 Lightweight and Secure OpenClaw Alternatives - KDnuggets",
+      "why": "从轻量和安全角度评测 OpenClaw 替代品"
+    },
+    {
+      "url": "https://x.com/BrianRoemmele/status/2025648193502085215",
+      "title": "Brian Roemmele: 和 Karpathy 得出相同结论",
+      "why": "Zero-Human Company 也推荐 NanoClaw/PicoClaw/ZeroClaw"
+    }
+  ],
+  "https://x.com/hongming731/status/2026142210488770811": [
+    {
+      "url": "https://www.chatprd.ai/how-i-ai/how-notion-designs-with-ai-brian-lovins-prototype-playground-and-claude-code-workflows",
+      "title": "How Notion Designs with AI: Brian Lovin Prototype Playground",
+      "why": "原文详细版：Brian Lovin 的完整工作流和 Claude Code 配置"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=s4HGbIhUgVo",
+      "title": "How Notion design team uses Claude Code to prototype (YouTube)",
+      "why": "视频版：Brian Lovin 演示原型试验场的完整流程"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-notions",
+      "title": "Lenny Newsletter: Notion design team uses Claude Code",
+      "why": "Lenny 的总结版，包含关键要点提炼"
+    }
+  ],
+  "https://www.youtube.com/watch?v=s4HGbIhUgVo": [
+    {
+      "url": "https://x.com/hongming731/status/2026142210488770811",
+      "title": "ginobefun 对 Brian Lovin 原型试验场的深度解读",
+      "why": "中文解读版，提炼了AI自检闭环和指令封装两个核心思路"
+    },
+    {
+      "url": "https://www.chatprd.ai/how-i-ai/how-notion-designs-with-ai-brian-lovins-prototype-playground-and-claude-code-workflows",
+      "title": "ChatPRD: Brian Lovin Prototype Playground详解",
+      "why": "完整文字版工作流和Claude Code配置"
+    }
+  ],
+  "https://www.bestblogs.dev/video/90f2a41": [
+    {
+      "url": "https://www.youtube.com/watch?v=s4HGbIhUgVo",
+      "title": "原视频：How Notion design team uses Claude Code",
+      "why": "BestBlogs总结的原始视频来源"
+    },
+    {
+      "url": "https://x.com/hongming731/status/2026142210488770811",
+      "title": "ginobefun 的中文深度解读",
+      "why": "对同一视频的独立思考和BestBlogs 2.0启发"
+    }
+  ],
+  "https://x.com/elvissun/status/2025920521871716562": [
+    {
+      "url": "https://www.reddit.com/r/codereview/comments/1r5fpjy/claude_code_agent_teams_the_openclaw_way_to/",
+      "title": "Reddit: Claude Code Agent Teams the OpenClaw Way",
+      "why": "社区讨论OpenClaw多agent协作模式"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-1K_ZWDKpU0",
+      "title": "Cole Medin: Multiple AI Agents Coding Together in Real Time",
+      "why": "Claude Code Agent Teams视频演示，多agent并行编码"
+    }
   ]
 }
