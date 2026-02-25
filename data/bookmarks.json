@@ -74323,6 +74323,17 @@
       ],
       "note": "即时生成预览URL的CLI工具，AI agent构建完直接sher link，不需要部署平台。npm i -g shersh",
       "date": "2026-02-25"
+    },
+    {
+      "id": "bm-1284",
+      "title": "rvivek: Anthropic工程师写spec让Claude编排agent完成整个插件开发",
+      "url": "https://x.com/rvivek/status/2026385957596111044",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "note": "写spec→Claude拆Asana工单→派agent独立开发→git-blame找人问→周一完成。Spec能力是1000x developer的分水岭",
+      "date": "2026-02-25"
     }
   ],
   "relations": [

@@ -525,5 +525,19 @@
       "title": "Surge — 静态站点一键发布",
       "url": "https://surge.sh"
     }
+  ],
+  "https://x.com/rvivek/status/2026385957596111044": [
+    {
+      "title": "Elvis: OpenClaw + Codex/Claude Code Agent Swarm",
+      "url": "https://x.com/elvissun/status/2025920521871716562"
+    },
+    {
+      "title": "Boris Cherny: How We Built Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Stripe Minions: 每周1300+ PR全由AI写",
+      "url": "https://www.developing.dev/p/how-stripe-built-an-ai-coding-agent"
+    }
   ]
 }
