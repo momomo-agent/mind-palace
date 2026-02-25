@@ -511,5 +511,19 @@
       "title": "Cole Medin: Multiple AI Agents Coding Together in Real Time",
       "why": "Claude Code Agent Teams视频演示，多agent并行编码"
     }
+  ],
+  "https://sher.sh/": [
+    {
+      "title": "Dokploy — 开源 Vercel/Netlify 替代",
+      "url": "https://github.com/Dokploy/dokploy"
+    },
+    {
+      "title": "Railway — 零配置部署平台",
+      "url": "https://railway.app"
+    },
+    {
+      "title": "Surge — 静态站点一键发布",
+      "url": "https://surge.sh"
+    }
   ]
 }

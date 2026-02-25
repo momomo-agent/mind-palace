@@ -1,7 +1,7 @@
 {
   "meta": {
     "syncedAt": "2026-02-24T11:29:59.236Z",
-    "count": 1281
+    "count": 1282
   },
   "themes": [
     {
@@ -74302,6 +74302,27 @@
         "develop",
         "article"
       ]
+    },
+    {
+      "url": "https://sher.sh/",
+      "title": "sher — 秒级预览链接，不需要 Vercel/GitHub",
+      "tags": [
+        "Tool",
+        "Develop"
+      ],
+      "summary": "即时生成预览URL的CLI工具，npm i -g shersh，AI agent构建完直接sher link生成预览",
+      "date": "2026-02-25"
+    },
+    {
+      "id": "bm-1283",
+      "title": "sher — 秒级预览链接，不需要 Vercel/GitHub",
+      "url": "https://sher.sh/",
+      "tags": [
+        "Tool",
+        "Develop"
+      ],
+      "note": "即时生成预览URL的CLI工具，AI agent构建完直接sher link，不需要部署平台。npm i -g shersh",
+      "date": "2026-02-25"
     }
   ],
   "relations": [
