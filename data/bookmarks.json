@@ -74345,6 +74345,28 @@
       ],
       "note": "OpenAI官方播客。Peter从PSPDFKit到OpenClaw的完整旅程：burnout后用AI重新点燃builder热情，一个人造出WSJ报道的开源项目。核心观点：vibe coding是贬义词、AI编程是需要学习的技能、PR是prompt request、代码价值在变",
       "date": "2026-02-26"
+    },
+    {
+      "id": "bm-1286",
+      "title": "Kevin Ma 转述：AK谈Agentic Engineering与拆解能力",
+      "url": "https://x.com/kevinma_dev_zh/status/2026742960038265164",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "note": "编程范式从编辑器敲代码变为并行管理多个agent；最大杠杆是主控orchestrator；人类核心竞争力迁移到方向/判断/taste/监督与任务拆解直觉。",
+      "date": "2026-02-26"
+    },
+    {
+      "id": "bm-1287",
+      "title": "Karpathy：过去2个月AI让编程范式突变（Agentic Engineering）",
+      "url": "https://x.com/karpathy/status/2026731645169185220",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "note": "举例：给agent一段英文任务，30分钟内登录机器/配ssh/vLLM/Qwen3-VL/服务端/网页UI/systemd/测试/写报告全做完；未来是编排并审查多个并行agent，关键在spec与拆解。",
+      "date": "2026-02-26"
     }
   ],
   "relations": [

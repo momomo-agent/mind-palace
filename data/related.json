@@ -553,5 +553,29 @@
       "title": "OpenClaw 5 Product Management Lessons",
       "url": "https://www.linkedin.com/posts/openai_openclaw-creator-peter-steinberger-shares-activity-7432119526600859648-99Nw"
     }
+  ],
+  "https://x.com/karpathy/status/2026731645169185220": [
+    {
+      "title": "rvivek: Anthropic spec→Asana→agent swarm（含视频转录）",
+      "url": "https://x.com/rvivek/status/2026385957596111044"
+    },
+    {
+      "title": "Boris Cherny: How We Built Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Builders Unscripted Ep.1: Peter Steinberger (OpenClaw)",
+      "url": "https://youtu.be/9jgcT0Fqt7U"
+    }
+  ],
+  "https://x.com/kevinma_dev_zh/status/2026742960038265164": [
+    {
+      "title": "Karpathy原推",
+      "url": "https://x.com/karpathy/status/2026731645169185220"
+    },
+    {
+      "title": "Elvis: OpenClaw + Codex/Claude Code Agent Swarm",
+      "url": "https://x.com/elvissun/status/2025920521871716562"
+    }
   ]
 }
