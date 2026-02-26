@@ -74334,6 +74334,17 @@
       ],
       "note": "写spec→Claude拆Asana工单→派agent独立开发→git-blame找人问→周一完成。Spec能力是1000x developer的分水岭",
       "date": "2026-02-25"
+    },
+    {
+      "id": "bm-1285",
+      "title": "Builders Unscripted Ep.1: Peter Steinberger — OpenClaw 创始人访谈 (OpenAI)",
+      "url": "https://youtu.be/9jgcT0Fqt7U",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "note": "OpenAI官方播客。Peter从PSPDFKit到OpenClaw的完整旅程：burnout后用AI重新点燃builder热情，一个人造出WSJ报道的开源项目。核心观点：vibe coding是贬义词、AI编程是需要学习的技能、PR是prompt request、代码价值在变",
+      "date": "2026-02-26"
     }
   ],
   "relations": [

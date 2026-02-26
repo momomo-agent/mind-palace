@@ -539,5 +539,19 @@
       "title": "Stripe Minions: 每周1300+ PR全由AI写",
       "url": "https://www.developing.dev/p/how-stripe-built-an-ai-coding-agent"
     }
+  ],
+  "https://youtu.be/9jgcT0Fqt7U": [
+    {
+      "title": "Peter Steinberger 做客 Lex Fridman 播客",
+      "url": "https://www.youtube.com/watch?v=example-lex"
+    },
+    {
+      "title": "Boris Cherny: How We Built Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "OpenClaw 5 Product Management Lessons",
+      "url": "https://www.linkedin.com/posts/openai_openclaw-creator-peter-steinberger-shares-activity-7432119526600859648-99Nw"
+    }
   ]
 }
