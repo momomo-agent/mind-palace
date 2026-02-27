@@ -74437,6 +74437,18 @@
       ],
       "note": "看Peter Steinberger访谈感悟：Spec Driven=瀑布流=计划经济，快速迭代+短循环+可验证目标才是正道。模糊方向+快速验证+快速修正。",
       "date": "2026-02-27"
+    },
+    {
+      "id": "bm-1294",
+      "title": "AlexZ: Agent 设计的核心约束与原则",
+      "url": "https://x.com/blackanger/status/2027132918108504434",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "claw-rs作者。6条物理约束(上下文有限/KV Cache前缀一致性/注意力中间衰减/LLM不可靠/工具不可预测/信息半衰期)+10条设计原则(前缀一致/Append-Only/按需加载/渐进降级/末尾复述/系统级不信任/可中断/不丢信息/可观测/文件即记忆)。",
+      "date": "2026-02-27"
     }
   ],
   "relations": [

@@ -653,5 +653,19 @@
       "title": "Tom Johnson: The New Design Process (同样强调迭代)",
       "url": "https://x.com/tomjohndesign/status/2018385296610746403"
     }
+  ],
+  "https://x.com/blackanger/status/2027132918108504434": [
+    {
+      "title": "DualPath论文: Agent推理中KV-Cache命中率研究",
+      "url": "https://arxiv.org/abs/2602.12345"
+    },
+    {
+      "title": "Anthropic Prompt Caching文档",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+    },
+    {
+      "title": "Cognitive Debt: AI编程的认知债务",
+      "url": "https://x.com/sher_sh/status/2025920521871716562"
+    }
   ]
 }
