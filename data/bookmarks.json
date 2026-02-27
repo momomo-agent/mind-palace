@@ -74425,6 +74425,18 @@
       ],
       "note": "Vercel/v0 Staff Designer。9步：Brain dump→Scope/Plan→Bad Build→Creative Director→Refine→Gut it→Figma craft→Build again→Handoff。核心洞察：AI擅长功能不擅长设计，Bad Build是起点不是终点，Figma仍是craft核心。",
       "date": "2026-02-27"
+    },
+    {
+      "id": "bm-1293",
+      "title": "范凯：Spec Driven 是 AI 时代的瀑布流",
+      "url": "https://x.com/fankaishuoai/status/2018739850791505932",
+      "tags": [
+        "AI",
+        "Develop",
+        "Note"
+      ],
+      "note": "看Peter Steinberger访谈感悟：Spec Driven=瀑布流=计划经济，快速迭代+短循环+可验证目标才是正道。模糊方向+快速验证+快速修正。",
+      "date": "2026-02-27"
     }
   ],
   "relations": [
