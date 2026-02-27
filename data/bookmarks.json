@@ -74390,6 +74390,18 @@
       ],
       "note": "Anthropic CEO深度访谈解读。Scaling laws化学反应比喻、权力集中不安、LTBT信托制衡、安全承诺具体行动(延迟发布Claude1/支持SB53)、AI意识辞职按钮、写代码率先被替代、创业者别做套壳。",
       "date": "2026-02-27"
+    },
+    {
+      "id": "bm-1290",
+      "title": "Claude Code 官方文档",
+      "url": "https://code.claude.com/docs",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "note": "Claude Code五端可用(Terminal/VS Code/Desktop/Web/JetBrains)，支持MCP连接外部工具，CLAUDE.md自定义指令，hooks扩展，GitHub Actions CI集成。",
+      "date": "2026-02-27"
     }
   ],
   "relations": [

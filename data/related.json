@@ -605,5 +605,19 @@
       "title": "Dario Amodei: The Adolescence of Technology (2026)",
       "url": "https://darioamodei.com/the-adolescence-of-technology"
     }
+  ],
+  "https://code.claude.com/docs": [
+    {
+      "title": "Claude Code llms.txt (完整文档索引)",
+      "url": "https://code.claude.com/docs/llms.txt"
+    },
+    {
+      "title": "Boris Cherny: How I use Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Karpathy: Agentic Engineering",
+      "url": "https://x.com/karpathy/status/2026731645169185220"
+    }
   ]
 }
