@@ -74367,6 +74367,18 @@
       ],
       "note": "举例：给agent一段英文任务，30分钟内登录机器/配ssh/vLLM/Qwen3-VL/服务端/网页UI/systemd/测试/写报告全做完；未来是编排并审查多个并行agent，关键在spec与拆解。",
       "date": "2026-02-26"
+    },
+    {
+      "id": "bm-1288",
+      "title": "MotionEyes — Agent-first SwiftUI 动画可观测系统 (Edward Sanchez)",
+      "url": "https://x.com/edwardsanchez/status/2027213479099425002",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "note": "Swift包+agent skill组合。用CADisplayLink追踪动画值/几何/滚动变化，让agent能从日志读取真实运动数据验证动画行为，而非从代码猜测。前Apple Xcode团队9年。",
+      "date": "2026-02-27"
     }
   ],
   "relations": [
