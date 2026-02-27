@@ -74402,6 +74402,17 @@
       ],
       "note": "Claude Code五端可用(Terminal/VS Code/Desktop/Web/JetBrains)，支持MCP连接外部工具，CLAUDE.md自定义指令，hooks扩展，GitHub Actions CI集成。",
       "date": "2026-02-27"
+    },
+    {
+      "id": "bm-1291",
+      "title": "AI Design Field Guide — AI Designer 的活文档",
+      "url": "https://www.aidesignfieldguide.com/",
+      "tags": [
+        "AI",
+        "Design"
+      ],
+      "note": "面向新型AI Designer的field guide，关注evals/prompts/tool calls层面的设计，思考mental models/agents/intelligence。Coming Soon状态，月更。",
+      "date": "2026-02-27"
     }
   ],
   "relations": [

@@ -619,5 +619,15 @@
       "title": "Karpathy: Agentic Engineering",
       "url": "https://x.com/karpathy/status/2026731645169185220"
     }
+  ],
+  "https://www.aidesignfieldguide.com/": [
+    {
+      "title": "Brian Lovin: Prototype Playground (Notion AI设计)",
+      "url": "https://www.youtube.com/watch?v=example-lovin"
+    },
+    {
+      "title": "Aaron Abentheuer: 开源 agent UI patterns for mobile",
+      "url": "https://x.com/aaronab/status/2025920521871716562"
+    }
   ]
 }
