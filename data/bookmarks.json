@@ -74413,6 +74413,18 @@
       ],
       "note": "面向新型AI Designer的field guide，关注evals/prompts/tool calls层面的设计，思考mental models/agents/intelligence。Coming Soon状态，月更。",
       "date": "2026-02-27"
+    },
+    {
+      "id": "bm-1292",
+      "title": "Tom Johnson: The New Design Process (AI时代设计师9步工作流)",
+      "url": "https://x.com/tomjohndesign/status/2018385296610746403",
+      "tags": [
+        "AI",
+        "Design",
+        "Article"
+      ],
+      "note": "Vercel/v0 Staff Designer。9步：Brain dump→Scope/Plan→Bad Build→Creative Director→Refine→Gut it→Figma craft→Build again→Handoff。核心洞察：AI擅长功能不擅长设计，Bad Build是起点不是终点，Figma仍是craft核心。",
+      "date": "2026-02-27"
     }
   ],
   "relations": [

@@ -629,5 +629,19 @@
       "title": "Aaron Abentheuer: 开源 agent UI patterns for mobile",
       "url": "https://x.com/aaronab/status/2025920521871716562"
     }
+  ],
+  "https://x.com/tomjohndesign/status/2018385296610746403": [
+    {
+      "title": "AI Design Field Guide",
+      "url": "https://www.aidesignfieldguide.com/"
+    },
+    {
+      "title": "Brian Lovin: Prototype Playground (Notion AI设计)",
+      "url": "https://www.youtube.com/watch?v=example-lovin"
+    },
+    {
+      "title": "Conductor Build (Tom提到的AI原型工具)",
+      "url": "https://conductor.build"
+    }
   ]
 }
