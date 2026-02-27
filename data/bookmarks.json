@@ -74379,6 +74379,17 @@
       ],
       "note": "Swift包+agent skill组合。用CADisplayLink追踪动画值/几何/滚动变化，让agent能从日志读取真实运动数据验证动画行为，而非从代码猜测。前Apple Xcode团队9年。",
       "date": "2026-02-27"
+    },
+    {
+      "id": "bm-1289",
+      "title": "宝玉解读 Dario Amodei 访谈：海啸已在地平线上",
+      "url": "https://x.com/dotey/status/2027265200781402351",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "note": "Anthropic CEO深度访谈解读。Scaling laws化学反应比喻、权力集中不安、LTBT信托制衡、安全承诺具体行动(延迟发布Claude1/支持SB53)、AI意识辞职按钮、写代码率先被替代、创业者别做套壳。",
+      "date": "2026-02-27"
     }
   ],
   "relations": [
