@@ -834,5 +834,22 @@
       "title": "Thariq: Seeing like an Agent",
       "url": "https://x.com/trq212/status/2027463795355095314"
     }
+  ],
+  "https://x.com/wquguru/status/2027716143625187748": [
+    {
+      "title": "Pragmatic Engineer: The creator of Clawd - I ship code I dont read",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code",
+      "desc": "Peter Steinberger深度访谈，原子化提交+信任校准方法论"
+    },
+    {
+      "title": "14 Agentic Coding Lessons from Peter Steinberger",
+      "url": "https://www.linkedin.com/posts/avipil_14-agentic-coding-lessons-from-the-founder-activity-7429509974323712001-Mpbu",
+      "desc": "从Peter的git历史提炼的14条agent编码经验"
+    },
+    {
+      "title": "Victor Dibia: Use Coding Agents to Build Your Product",
+      "url": "https://newsletter.victordibia.com/p/use-coding-agents-claude-code-to",
+      "desc": "用coding agent构建产品的工程纪律"
+    }
   ]
 }

@@ -74591,6 +74591,18 @@
       ],
       "note": "8 agents(4 Claude+4 Codex)做GPU实验：tmux网格、git branch+worktree隔离、简单文件通信。结论：很美但不work，agent缺乏严谨实验设计/基线/消融/算力控制；擅长实现，不擅长生成好想法。提出“编程一个组织”：org code=prompts+skills+tools+流程(standup等)。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1307",
+      "title": "WquGuru: 1人+1Agent，27天交付商用Agent系统",
+      "url": "https://x.com/wquguru/status/2027716143625187748",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "验证Peter方法论：原子化提交1038次、CLAUDE.md作为Agent操作手册、Agent ROI分界线(确定性任务极高/商业判断无用)、feat从79%跌到30%说明问题变难了。判断力是瓶颈不是速度。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [
