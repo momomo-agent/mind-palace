@@ -74461,6 +74461,30 @@
       ],
       "note": "K-Dense AI出品，148+ skills覆盖生物信息学/药物发现/临床研究/材料科学/天文物理/金融数据等16领域，250+科学数据库接入。支持Agent Skills开放标准(Cursor/Claude Code/Codex)。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1296",
+      "title": "Thariq: Lessons from Building Claude Code — Seeing like an Agent",
+      "url": "https://x.com/trq212/status/2027463795355095314",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "Claude Code开发者。AskUserQuestion工具三次迭代、TodoWrite→Task Tool演进、RAG→Grep→Progressive Disclosure上下文构建范式转移。3131赞6951收藏。",
+      "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1297",
+      "title": "shao__meng: 学会像 Agent 一样看 — Claude Code 工具设计实践",
+      "url": "https://x.com/shao__meng/status/2027564092173725790",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "对Thariq文章的中文五层深度解读：工具设计框架、AskUserQuestion迭代、工具随模型进化、RAG到自主搜索、渐进式披露。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [

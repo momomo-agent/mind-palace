@@ -681,5 +681,25 @@
       "title": "K-Dense AI 官网",
       "url": "https://k-dense.ai"
     }
+  ],
+  "https://x.com/trq212/status/2027463795355095314": [
+    {
+      "title": "Claude Code 官方文档",
+      "url": "https://code.claude.com/docs"
+    },
+    {
+      "title": "AlexZ: Agent 设计的核心约束与原则",
+      "url": "https://x.com/blackanger/status/2027132918108504434"
+    },
+    {
+      "title": "Boris Cherny: How I use Claude Code",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    }
+  ],
+  "https://x.com/shao__meng/status/2027564092173725790": [
+    {
+      "title": "Thariq 原文: Seeing like an Agent",
+      "url": "https://x.com/trq212/status/2027463795355095314"
+    }
   ]
 }
