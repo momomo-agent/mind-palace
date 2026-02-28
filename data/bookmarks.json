@@ -74449,6 +74449,18 @@
       ],
       "note": "claw-rs作者。6条物理约束(上下文有限/KV Cache前缀一致性/注意力中间衰减/LLM不可靠/工具不可预测/信息半衰期)+10条设计原则(前缀一致/Append-Only/按需加载/渐进降级/末尾复述/系统级不信任/可中断/不丢信息/可观测/文件即记忆)。",
       "date": "2026-02-27"
+    },
+    {
+      "id": "bm-1295",
+      "title": "Claude Scientific Skills — 148+ 科学研究 Agent Skills",
+      "url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+      "tags": [
+        "AI",
+        "Tool",
+        "Develop"
+      ],
+      "note": "K-Dense AI出品，148+ skills覆盖生物信息学/药物发现/临床研究/材料科学/天文物理/金融数据等16领域，250+科学数据库接入。支持Agent Skills开放标准(Cursor/Claude Code/Codex)。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [

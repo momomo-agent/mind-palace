@@ -667,5 +667,19 @@
       "title": "Cognitive Debt: AI编程的认知债务",
       "url": "https://x.com/sher_sh/status/2025920521871716562"
     }
+  ],
+  "https://github.com/K-Dense-AI/claude-scientific-skills": [
+    {
+      "title": "Agent Skills 开放标准",
+      "url": "https://agentskills.io/"
+    },
+    {
+      "title": "Claude Code 官方文档",
+      "url": "https://code.claude.com/docs"
+    },
+    {
+      "title": "K-Dense AI 官网",
+      "url": "https://k-dense.ai"
+    }
   ]
 }
