@@ -5671,7 +5671,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Elvis用OpenClaw编排多个Claude Code/Codex agent并行开发，一个人=一个团队的完整设置方案。"
     },
     {
       "_id": 1615183231,
@@ -5726,7 +5727,8 @@
         "ai",
         "develop",
         "design"
-      ]
+      ],
+      "summary": "BestBlogs对Brian Lovin视频的中文总结版，Notion设计团队用Claude Code做原型的完整工作流。"
     },
     {
       "_id": 1615178690,
@@ -5779,7 +5781,8 @@
       "themes": [
         "ai",
         "design"
-      ]
+      ],
+      "summary": "Brian Lovin演示Notion设计团队如何用Claude Code快速原型：AI自检闭环+指令封装，设计师直接写代码。"
     },
     {
       "_id": 1615178687,
@@ -5820,7 +5823,8 @@
       "themes": [
         "ai",
         "design"
-      ]
+      ],
+      "summary": "ChatPRD完整文字版：Brian Lovin的Prototype Playground工作流和Claude Code配置细节。"
     },
     {
       "_id": 1615178682,
@@ -5880,7 +5884,8 @@
         "ai",
         "develop",
         "design"
-      ]
+      ],
+      "summary": "ginobefun深度解读：AI自检闭环（生成→截图→对比→修正）和指令封装两个核心思路，启发BestBlogs 2.0。"
     },
     {
       "_id": 1615125554,
@@ -5921,7 +5926,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "五个轻量OpenClaw替代品对比：Goose/Aider/Continue/Cline/Open Interpreter，各有侧重。"
     },
     {
       "_id": 1615125546,
@@ -5962,7 +5968,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "Composio视角的OpenClaw替代品评测，侧重安全性和企业适用性。"
     },
     {
       "_id": 1615125539,
@@ -6020,7 +6027,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "Karpathy周末评测claw生态后的中文整理版，OpenClaw替代品推荐和对比。"
     },
     {
       "_id": 1613990835,
@@ -6081,7 +6089,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "知识的诅咒让技术老鸟错过机会——用感受思考而非功能思考，小白反而更敢试。"
     },
     {
       "_id": 1613612516,
@@ -6133,7 +6142,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S2E2：Cursor设计负责人/Notion创始设计师Ryo Lu聊post-AI时代设计的未来。"
     },
     {
       "_id": 1613612500,
@@ -6176,7 +6186,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S1E1：Airbnb联合创始人Joe Gebbia谈Designer-in-Chief的角色。"
     },
     {
       "_id": 1613612267,
@@ -6219,7 +6230,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind播客Spotify订阅入口，方便定期检查新剧集。"
     },
     {
       "_id": 1613612265,
@@ -6267,7 +6279,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "Soleio主持的设计+科技先驱访谈系列，嘉宾含Airbnb联创、Susan Kare、Cursor设计负责人。"
     },
     {
       "_id": 1613601229,
@@ -6327,7 +6340,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S2E2推文：Ryo Lu x Soleio聊Cursor设计与工程融合、post-AI设计未来。"
     },
     {
       "_id": 1613597030,
@@ -6375,7 +6389,8 @@
       "themes": [
         "design",
         "tool"
-      ]
+      ],
+      "summary": "前IDEO设计师做开源移动端agent UI模式库，从Live Activities可观测性开始，兼容OpenClaw。"
     },
     {
       "_id": 1613269243,
@@ -6423,7 +6438,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Boris Cherny 12条使用技巧：git worktrees并行、plan mode先行、CLAUDE.md持续迭代、自建skills。"
     },
     {
       "_id": 1613269240,
@@ -6483,7 +6499,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Boris Cherny工作流：5个并行session、Opus 4.5、Plan mode、CLAUDE.md团队共享、slash commands。"
     },
     {
       "_id": 1612151536,
@@ -6543,7 +6560,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "傅盛解读Boris Cherny YC访谈：软件工程师头衔将消失，编程从专业壁垒变基础能力，代码保质期只有几个月。"
     },
     {
       "_id": 1612041443,
@@ -6591,7 +6609,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "AI时代从技术债转向认知债——生成式AI让代码更容易写但更难理解，团队认知负担才是真正瓶颈。"
     },
     {
       "_id": 1612041437,
@@ -6639,7 +6658,8 @@
       "themes": [
         "design",
         "tool"
-      ]
+      ],
+      "summary": "AE的AI助手插件，自然语言写表达式/脚本/rig，自动化动效设计。"
     },
     {
       "_id": 1612041434,
@@ -6687,7 +6707,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Stripe内部one-shot coding agent，每周合并千+PR，人类只review不写代码。工程文化转变。"
     },
     {
       "_id": 1612041428,
@@ -6735,7 +6756,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Stripe内部one-shot coding agent，每周合并千+PR，人类只review不写代码。工程文化转变。"
     },
     {
       "_id": 1612041423,
@@ -6783,7 +6805,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "AI agent P2P通信，无服务器无配置，Hyperswarm DHT加密直连，CLI-first设计。"
     },
     {
       "_id": 1612041418,
@@ -6831,7 +6854,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Karpathy：vibe code心率实验dashboard，App Store长尾模式过时，定制软件时代需要AI-native CLI。"
     },
     {
       "_id": 1612041415,
@@ -6892,7 +6916,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "知识的诅咒让技术老鸟错过机会——用感受思考而非功能思考，小白反而更敢试。"
     },
     {
       "_id": 1612041407,
@@ -6940,7 +6965,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Vercel实测：AGENTS.md压缩8KB文档索引达100%通过率，skills最高79%。Agent不会主动调用skill是核心问题。"
     },
     {
       "_id": 1608174542,
@@ -7919,7 +7945,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "AI时代从技术债转向认知债——生成式AI让代码更容易写但更难理解，团队认知负担才是真正瓶颈。"
     },
     {
       "_id": 1606140316,
@@ -9237,7 +9264,8 @@
       "themes": [
         "ai",
         "internet"
-      ]
+      ],
+      "summary": "AE的AI助手插件，自然语言写表达式/脚本/rig，自动化动效设计。"
     },
     {
       "_id": 1603499730,
@@ -74322,7 +74350,8 @@
         "Develop"
       ],
       "note": "即时生成预览URL的CLI工具，AI agent构建完直接sher link，不需要部署平台。npm i -g shersh",
-      "date": "2026-02-25"
+      "date": "2026-02-25",
+      "summary": "秒级预览链接CLI工具，AI agent构建完直接sher link生成预览URL，不需要部署平台。"
     },
     {
       "id": "bm-1284",
@@ -74333,7 +74362,8 @@
         "Develop"
       ],
       "note": "写spec→Claude拆Asana工单→派agent独立开发→git-blame找人问→周一完成。Spec能力是1000x developer的分水岭",
-      "date": "2026-02-25"
+      "date": "2026-02-25",
+      "summary": "Anthropic工程师写spec→Claude拆Asana工单→派agent独立开发→周一完成。Spec能力是1000x developer分水岭。"
     },
     {
       "id": "bm-1285",
@@ -74344,7 +74374,8 @@
         "Article"
       ],
       "note": "OpenAI官方播客。Peter从PSPDFKit到OpenClaw的完整旅程：burnout后用AI重新点燃builder热情，一个人造出WSJ报道的开源项目。核心观点：vibe coding是贬义词、AI编程是需要学习的技能、PR是prompt request、代码价值在变",
-      "date": "2026-02-26"
+      "date": "2026-02-26",
+      "summary": "OpenAI官方播客：Peter从PSPDFKit到OpenClaw的旅程，burnout后用AI重燃builder热情。Vibe coding是贬义词。"
     },
     {
       "id": "bm-1286",
@@ -74355,7 +74386,8 @@
         "Develop"
       ],
       "note": "编程范式从编辑器敲代码变为并行管理多个agent；最大杠杆是主控orchestrator；人类核心竞争力迁移到方向/判断/taste/监督与任务拆解直觉。",
-      "date": "2026-02-26"
+      "date": "2026-02-26",
+      "summary": "编程范式从编辑器敲代码变为并行管理多个agent，最大杠杆是主控orchestrator，人类核心竞争力迁移到判断/taste/拆解。"
     },
     {
       "id": "bm-1287",
@@ -74366,7 +74398,8 @@
         "Develop"
       ],
       "note": "举例：给agent一段英文任务，30分钟内登录机器/配ssh/vLLM/Qwen3-VL/服务端/网页UI/systemd/测试/写报告全做完；未来是编排并审查多个并行agent，关键在spec与拆解。",
-      "date": "2026-02-26"
+      "date": "2026-02-26",
+      "summary": "给agent一段英文任务，30分钟全栈部署完成。未来是编排并审查多个并行agent，关键在spec与拆解能力。"
     },
     {
       "id": "bm-1288",
@@ -74378,7 +74411,8 @@
         "Tool"
       ],
       "note": "Swift包+agent skill组合。用CADisplayLink追踪动画值/几何/滚动变化，让agent能从日志读取真实运动数据验证动画行为，而非从代码猜测。前Apple Xcode团队9年。",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "summary": "Agent-first SwiftUI动画可观测系统：CADisplayLink追踪动画值，让agent从日志验证动画行为。前Apple Xcode团队9年。"
     },
     {
       "id": "bm-1289",
@@ -74389,7 +74423,8 @@
         "Article"
       ],
       "note": "Anthropic CEO深度访谈解读。Scaling laws化学反应比喻、权力集中不安、LTBT信托制衡、安全承诺具体行动(延迟发布Claude1/支持SB53)、AI意识辞职按钮、写代码率先被替代、创业者别做套壳。",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "summary": "Scaling laws是化学反应、海啸已在地平线上、写代码率先被替代、创业别做套壳要建行业壁垒、判断力和品味最稀缺。"
     },
     {
       "id": "bm-1290",
@@ -74401,7 +74436,8 @@
         "Tool"
       ],
       "note": "Claude Code五端可用(Terminal/VS Code/Desktop/Web/JetBrains)，支持MCP连接外部工具，CLAUDE.md自定义指令，hooks扩展，GitHub Actions CI集成。",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "summary": "Claude Code五端可用，MCP连接外部工具，CLAUDE.md自定义指令，hooks扩展，GitHub Actions CI集成。"
     },
     {
       "id": "bm-1291",
@@ -74412,7 +74448,8 @@
         "Design"
       ],
       "note": "面向新型AI Designer的field guide，关注evals/prompts/tool calls层面的设计，思考mental models/agents/intelligence。Coming Soon状态，月更。",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "summary": "面向AI Designer的活文档，关注evals/prompts/tool calls层面的设计，新型设计师需要理解models/agents/intelligence。"
     },
     {
       "id": "bm-1292",
@@ -74424,7 +74461,8 @@
         "Article"
       ],
       "note": "Vercel/v0 Staff Designer。9步：Brain dump→Scope/Plan→Bad Build→Creative Director→Refine→Gut it→Figma craft→Build again→Handoff。核心洞察：AI擅长功能不擅长设计，Bad Build是起点不是终点，Figma仍是craft核心。",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "summary": "Vercel/v0设计师9步工作流：Brain dump→Bad Build→Creative Director→Figma craft→Handoff。AI擅长功能不擅长设计。"
     },
     {
       "id": "bm-1293",
@@ -74436,7 +74474,8 @@
         "Note"
       ],
       "note": "看Peter Steinberger访谈感悟：Spec Driven=瀑布流=计划经济，快速迭代+短循环+可验证目标才是正道。模糊方向+快速验证+快速修正。",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "summary": "Spec Driven=瀑布流=计划经济。快速迭代+短循环+可验证目标才是正道，模糊方向+快速验证+快速修正。"
     },
     {
       "id": "bm-1294",
@@ -74448,7 +74487,8 @@
         "Article"
       ],
       "note": "claw-rs作者。6条物理约束(上下文有限/KV Cache前缀一致性/注意力中间衰减/LLM不可靠/工具不可预测/信息半衰期)+10条设计原则(前缀一致/Append-Only/按需加载/渐进降级/末尾复述/系统级不信任/可中断/不丢信息/可观测/文件即记忆)。",
-      "date": "2026-02-27"
+      "date": "2026-02-27",
+      "summary": "6条物理约束+10条设计原则，从OpenClaw/Manus/DualPath提炼。Append-Only、按需加载、渐进降级、文件即记忆。"
     },
     {
       "id": "bm-1295",
@@ -74460,7 +74500,8 @@
         "Develop"
       ],
       "note": "K-Dense AI出品，148+ skills覆盖生物信息学/药物发现/临床研究/材料科学/天文物理/金融数据等16领域，250+科学数据库接入。支持Agent Skills开放标准(Cursor/Claude Code/Codex)。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "K-Dense AI出品148+ Agent Skills，覆盖16个科学领域250+数据库，支持Agent Skills开放标准。"
     },
     {
       "id": "bm-1296",
@@ -74472,7 +74513,8 @@
         "Article"
       ],
       "note": "Claude Code开发者。AskUserQuestion工具三次迭代、TodoWrite→Task Tool演进、RAG→Grep→Progressive Disclosure上下文构建范式转移。3131赞6951收藏。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "Claude Code开发者：AskUserQuestion三次迭代、TodoWrite→Task Tool演进、RAG→Grep→Progressive Disclosure范式转移。"
     },
     {
       "id": "bm-1297",
@@ -74484,7 +74526,8 @@
         "Article"
       ],
       "note": "对Thariq文章的中文五层深度解读：工具设计框架、AskUserQuestion迭代、工具随模型进化、RAG到自主搜索、渐进式披露。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "对Thariq文章的中文五层深度解读：工具设计框架、工具随模型进化、RAG到自主搜索、渐进式披露。"
     },
     {
       "id": "bm-1298",
@@ -74522,7 +74565,8 @@
         "Tool"
       ],
       "note": "LLM-native语言，LLVM编译到原生代码，显式SSA语法消除歧义。编译155ms，运行=Rust速度，内存1.6MB。零隐藏语义，一种做法=更少LLM决策点=更少错误。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "显式SSA语法消除隐藏语义，LLVM编译到原生代码，155ms编译速度=Rust。为AI设计专属语言而非让AI适应人类语言。"
     },
     {
       "id": "bm-1301",
