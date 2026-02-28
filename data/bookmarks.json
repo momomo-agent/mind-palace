@@ -74532,6 +74532,18 @@
       ],
       "note": "前Meta AI负责人/现Airbnb CTO。代码编写正在被商品化，三个转变：工程师-产品思考者崛起、系统思维胜过代码流利度、品味作为技术技能。判断力是手艺，代码只是媒介。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1302",
+      "title": "Misbah Syed: Build Your Own Claw Empire (OpenClaw架构拆解)",
+      "url": "https://x.com/MisbahSy/status/2025570052108665231",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "从LLM+tool call原子出发，逐步讲通 messaging layer/channel+bus、agent loop(迭代上限安全)、memory(markdown: SOUL/MEMORY/USER/HISTORY)、skills(SKILL.md)；对比NanoClaw/Nanobot/OpenClaw等实现取舍。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [

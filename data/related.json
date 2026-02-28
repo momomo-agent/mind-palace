@@ -745,5 +745,19 @@
       "title": "Karpathy: Agentic Engineering",
       "url": "https://x.com/karpathy/status/2026731645169185220"
     }
+  ],
+  "https://x.com/MisbahSy/status/2025570052108665231": [
+    {
+      "title": "OpenFang (Agent OS, Rust)",
+      "url": "https://github.com/RightNow-AI/openfang"
+    },
+    {
+      "title": "Thariq: Seeing like an Agent",
+      "url": "https://x.com/trq212/status/2027463795355095314"
+    },
+    {
+      "title": "AlexZ: Agent设计核心约束与原则",
+      "url": "https://x.com/blackanger/status/2027132918108504434"
+    }
   ]
 }
