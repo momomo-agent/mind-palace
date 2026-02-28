@@ -711,5 +711,15 @@
       "title": "Palantir DevCon 4: Provenance-based Security Demo",
       "url": "https://youtu.be/vEU_UgsQZAA?si=WoehMuTsnXKKSgyH&t=291"
     }
+  ],
+  "https://github.com/RightNow-AI/openfang": [
+    {
+      "title": "AlexZ claw-rs (同为Rust Agent框架)",
+      "url": "https://x.com/blackanger/status/2027132918108504434"
+    },
+    {
+      "title": "OpenFang 官方文档",
+      "url": "https://openfang.sh/docs"
+    }
   ]
 }

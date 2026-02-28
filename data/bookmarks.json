@@ -74497,6 +74497,18 @@
       ],
       "note": "生产环境Agent安全五维度：模型访问安全、编排隔离(Rubix K8s)、记忆策略粒度控制(working/episodic/semantic/procedural四类)、工具治理(provenance-based security)、实时可观测性。Ontology系统统一治理。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1299",
+      "title": "OpenFang: 开源 Agent OS (Rust, 137K LOC)",
+      "url": "https://github.com/RightNow-AI/openfang",
+      "tags": [
+        "AI",
+        "Tool",
+        "Develop"
+      ],
+      "note": "RightNow AI出品。Rust编写，14 crates，1767+测试，单32MB二进制。自主Agent OS——Hands(预构建自主能力包)、定时任务、知识图谱、Dashboard。v0.1.0首发。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [
