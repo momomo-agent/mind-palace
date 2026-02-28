@@ -779,5 +779,19 @@
       "title": "ADPList Vibe-Code Designers Community",
       "url": "https://adplist.org/vibe-code-designers"
     }
+  ],
+  "https://background-agents.com/": [
+    {
+      "title": "Stripe Minions Part 1+2",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents"
+    },
+    {
+      "title": "Ramp: Why We Built Our Background Agent",
+      "url": "https://builders.ramp.com/post/why-we-built-our-background-agent"
+    },
+    {
+      "title": "Ona: The Last Year of Localhost",
+      "url": "https://ona.com/stories/the-last-year-of-localhost"
+    }
   ]
 }

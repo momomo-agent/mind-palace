@@ -74567,6 +74567,18 @@
       ],
       "note": "Figma MCP让Claude直接读取设计稿，零翻译损失。四阶段：分析设计→提取design tokens→生成组件→构建完整页面。三种工作流：Design System→Full Site / Speedrun单页 / Component First。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1305",
+      "title": "Ona: The Self-Driving Codebase (Background Agents)",
+      "url": "https://background-agents.com/",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "从coding agent到background agent演进。五个基础设施原语：开发环境(sandbox)/治理(runtime enforcement)/上下文连接(firewall内)/触发器(scheduled/event-driven/fleet/swarm)/Fleet协调。引用Stripe Minions和Ramp。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [
