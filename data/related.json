@@ -704,22 +704,31 @@
   ],
   "https://x.com/PalantirTech/status/2014360213692854657": [
     {
-      "title": "AlexZ: Agent设计的核心约束与原则",
-      "url": "https://x.com/blackanger/status/2027132918108504434"
+      "title": "Agno: We bet on agentic runtimes early (Palantir对比)",
+      "url": "https://www.agno.com/blog/we-bet-on-agentic-runtimes-early-palantirs-latest-blog-proves-why",
+      "desc": "Agno对比Palantir AIP：vendor-managed vs self-operated的架构差异"
     },
     {
-      "title": "Palantir DevCon 4: Provenance-based Security Demo",
-      "url": "https://youtu.be/vEU_UgsQZAA?si=WoehMuTsnXKKSgyH&t=291"
+      "title": "Palantir Blog 原文",
+      "url": "https://blog.palantir.com/securing-agents-in-production-agentic-runtime-1-5191a0715240",
+      "desc": "Palantir官方博客版本"
+    },
+    {
+      "title": "AlexZ: Agent设计核心约束与原则",
+      "url": "https://x.com/blackanger/status/2027132918108504434",
+      "desc": "从OpenClaw/Manus/DualPath提炼的agent设计原则"
     }
   ],
   "https://github.com/RightNow-AI/openfang": [
     {
-      "title": "AlexZ claw-rs (同为Rust Agent框架)",
-      "url": "https://x.com/blackanger/status/2027132918108504434"
+      "title": "OpenFang 官方文档",
+      "url": "https://openfang.sh/",
+      "desc": "完整文档+7个Hands介绍"
     },
     {
-      "title": "OpenFang 官方文档",
-      "url": "https://openfang.sh/docs"
+      "title": "Reddit: OpenFang v0.1.4 讨论",
+      "url": "https://www.reddit.com/r/AIDeveloperNews/comments/1rgq37a/check_out_openfang_v014_openfang_is_an_opensource/",
+      "desc": "社区对Rust Agent OS的讨论"
     }
   ],
   "https://magpie-lang.com/": [
@@ -735,63 +744,81 @@
   "https://x.com/szslg/status/2027198886981587407": [
     {
       "title": "原文 Medium",
-      "url": "https://medium.com/@ahmad.al.dahle/the-future-of-software-engineering-isnt-what-you-think-96abb293d70a"
+      "url": "https://medium.com/@ahmad.al.dahle/the-future-of-software-engineering-isnt-what-you-think-96abb293d70a",
+      "desc": "Ahmad Al-Dahle原文"
     },
     {
-      "title": "Dario Amodei: 写代码率先被替代，判断力和品味最稀缺",
-      "url": "https://x.com/dotey/status/2027265200781402351"
+      "title": "Dave Farley: AI不会替代工程师，但会暴露不会思考的人",
+      "url": "https://www.linkedin.com/posts/dave-farley-a67927_ai-is-not-going-to-replace-software-engineers-activity-7334163475520262144-Kmbs",
+      "desc": "写代码容易，写对的代码才是工程"
     },
     {
-      "title": "Karpathy: Agentic Engineering",
-      "url": "https://x.com/karpathy/status/2026731645169185220"
+      "title": "Dario Amodei访谈解读(宝玉)",
+      "url": "https://x.com/dotey/status/2027265200781402351",
+      "desc": "判断力和品味最稀缺"
     }
   ],
   "https://x.com/MisbahSy/status/2025570052108665231": [
     {
-      "title": "OpenFang (Agent OS, Rust)",
-      "url": "https://github.com/RightNow-AI/openfang"
+      "title": "Misbah: 六个claw完整对比",
+      "url": "https://x.com/MisbahSy/status/2025572381721579684",
+      "desc": "NanoClaw/Nanobot/OpenClaw等六个实现的详细对比"
     },
     {
-      "title": "Thariq: Seeing like an Agent",
-      "url": "https://x.com/trq212/status/2027463795355095314"
+      "title": "Clawsome: 多OpenClaw实例编排",
+      "url": "https://www.linkedin.com/posts/misbahsyed_building-an-ai-agent-company-with-an-army-activity-7427047339879505920-3jkI",
+      "desc": "macOS app管理多个OpenClaw agent"
     },
     {
-      "title": "AlexZ: Agent设计核心约束与原则",
-      "url": "https://x.com/blackanger/status/2027132918108504434"
+      "title": "Dead Neurons: Four Things OpenClaw Got Right",
+      "url": "https://deadneurons.substack.com/p/four-things-openclaw-got-right",
+      "desc": "OpenClaw架构设计的四个正确决策"
     }
   ],
   "https://www.xiaohongshu.com/discovery/item/69a25913000000001a0357c2": [
     {
-      "title": "Karpathy weekend review of Claw ecosystem",
-      "url": "https://x.com/karpathy/status/2026731645169185220"
+      "title": "Reddit: Karpathy says app stores are dying",
+      "url": "https://www.reddit.com/r/Verdent/comments/1rcn5kl/karpathy_says_app_stores_are_dying_ai_agents_will/",
+      "desc": "社区讨论Karpathy的App Store过时论"
     },
     {
-      "title": "Misbah Syed: Build Your Own Claw Empire",
-      "url": "https://x.com/MisbahSy/status/2025570052108665231"
+      "title": "Karpathy weekend review of Claw ecosystem",
+      "url": "https://x.com/karpathy/status/2026731645169185220",
+      "desc": "Karpathy对claw生态的周末评测"
     }
   ],
   "https://x.com/felixleezd/status/2023803631812874242": [
     {
-      "title": "Tom Johnson(Vercel/v0) 新设计流程: Bad Build→Creative Director→Figma",
-      "url": "https://x.com/tomjohndesign"
+      "title": "Felix Lee Substack完整版",
+      "url": "https://adplist.substack.com/p/how-to-build-with-figma-mcp-the-designers",
+      "desc": "Figma MCP + Claude Code完整教程"
     },
     {
-      "title": "ADPList Vibe-Code Designers Community",
-      "url": "https://adplist.org/vibe-code-designers"
+      "title": "Builder.io: Claude Code + Figma MCP Server",
+      "url": "https://www.builder.io/blog/claude-code-figma-mcp-server",
+      "desc": "Figma MCP技术实现细节"
+    },
+    {
+      "title": "Claude Code to Figma双向工作流",
+      "url": "https://johnrodrigues.substack.com/p/claude-code-to-figma-update",
+      "desc": "Figma作为canvas层的迭代工作流"
     }
   ],
   "https://background-agents.com/": [
     {
-      "title": "Stripe Minions Part 1+2",
-      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents"
+      "title": "Stripe Minions: one-shot end-to-end coding agents",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+      "desc": "Stripe的agent平台实践"
     },
     {
       "title": "Ramp: Why We Built Our Background Agent",
-      "url": "https://builders.ramp.com/post/why-we-built-our-background-agent"
+      "url": "https://builders.ramp.com/post/why-we-built-our-background-agent",
+      "desc": "Ramp的background agent实践"
     },
     {
       "title": "Ona: The Last Year of Localhost",
-      "url": "https://ona.com/stories/the-last-year-of-localhost"
+      "url": "https://ona.com/stories/the-last-year-of-localhost",
+      "desc": "为什么localhost时代即将结束"
     }
   ],
   "https://x.com/karpathy/status/2027521323275325622": [
