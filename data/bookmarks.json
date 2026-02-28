@@ -74485,6 +74485,18 @@
       ],
       "note": "对Thariq文章的中文五层深度解读：工具设计框架、AskUserQuestion迭代、工具随模型进化、RAG到自主搜索、渐进式披露。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1298",
+      "title": "Palantir: Securing Agents in Production (Agentic Runtime #1)",
+      "url": "https://x.com/PalantirTech/status/2014360213692854657",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "生产环境Agent安全五维度：模型访问安全、编排隔离(Rubix K8s)、记忆策略粒度控制(working/episodic/semantic/procedural四类)、工具治理(provenance-based security)、实时可观测性。Ontology系统统一治理。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [
