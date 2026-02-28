@@ -721,5 +721,15 @@
       "title": "OpenFang 官方文档",
       "url": "https://openfang.sh/docs"
     }
+  ],
+  "https://magpie-lang.com/": [
+    {
+      "title": "Magpie GitHub",
+      "url": "https://github.com/magpie-lang/magpie"
+    },
+    {
+      "title": "Thariq: Seeing like an Agent (工具设计与模型能力匹配)",
+      "url": "https://x.com/trq212/status/2027463795355095314"
+    }
   ]
 }
