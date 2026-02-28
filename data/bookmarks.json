@@ -74544,6 +74544,17 @@
       ],
       "note": "从LLM+tool call原子出发，逐步讲通 messaging layer/channel+bus、agent loop(迭代上限安全)、memory(markdown: SOUL/MEMORY/USER/HISTORY)、skills(SKILL.md)；对比NanoClaw/Nanobot/OpenClaw等实现取舍。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1303",
+      "title": "Karpathy: 1小时做出App Store里没有的东西（小红书解读）",
+      "url": "https://www.xiaohongshu.com/discovery/item/69a25913000000001a0357c2",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "note": "Karpathy用Claude反向工程跑步机API做定制仪表板。App Store过时论，传感器+执行器+LLM胶水=定制临时应用。Claws是新一层(编排/调度/上下文/工具/持久化)，技能替代配置文件。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [
