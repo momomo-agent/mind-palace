@@ -74555,6 +74555,18 @@
       ],
       "note": "Karpathy用Claude反向工程跑步机API做定制仪表板。App Store过时论，传感器+执行器+LLM胶水=定制临时应用。Claws是新一层(编排/调度/上下文/工具/持久化)，技能替代配置文件。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1304",
+      "title": "Felix Lee: Figma to Claude Code 设计师工作流",
+      "url": "https://x.com/felixleezd/status/2023803631812874242",
+      "tags": [
+        "AI",
+        "Design",
+        "Develop"
+      ],
+      "note": "Figma MCP让Claude直接读取设计稿，零翻译损失。四阶段：分析设计→提取design tokens→生成组件→构建完整页面。三种工作流：Design System→Full Site / Speedrun单页 / Component First。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [
