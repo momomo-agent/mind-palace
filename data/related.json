@@ -793,5 +793,19 @@
       "title": "Ona: The Last Year of Localhost",
       "url": "https://ona.com/stories/the-last-year-of-localhost"
     }
+  ],
+  "https://x.com/karpathy/status/2027521323275325622": [
+    {
+      "title": "Background Agents: self-driving codebase",
+      "url": "https://background-agents.com/"
+    },
+    {
+      "title": "Misbah: Build Your Own Claw Empire",
+      "url": "https://x.com/MisbahSy/status/2025570052108665231"
+    },
+    {
+      "title": "Thariq: Seeing like an Agent",
+      "url": "https://x.com/trq212/status/2027463795355095314"
+    }
   ]
 }

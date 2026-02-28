@@ -74579,6 +74579,18 @@
       ],
       "note": "从coding agent到background agent演进。五个基础设施原语：开发环境(sandbox)/治理(runtime enforcement)/上下文连接(firewall内)/触发器(scheduled/event-driven/fleet/swarm)/Fleet协调。引用Stripe Minions和Ramp。",
       "date": "2026-02-28"
+    },
+    {
+      "id": "bm-1306",
+      "title": "Karpathy: programming a research org (8 agents in nanochat)",
+      "url": "https://x.com/karpathy/status/2027521323275325622",
+      "tags": [
+        "AI",
+        "Develop",
+        "Note"
+      ],
+      "note": "8 agents(4 Claude+4 Codex)做GPU实验：tmux网格、git branch+worktree隔离、简单文件通信。结论：很美但不work，agent缺乏严谨实验设计/基线/消融/算力控制；擅长实现，不擅长生成好想法。提出“编程一个组织”：org code=prompts+skills+tools+流程(standup等)。",
+      "date": "2026-02-28"
     }
   ],
   "relations": [
