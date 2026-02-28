@@ -74496,7 +74496,8 @@
         "Article"
       ],
       "note": "生产环境Agent安全五维度：模型访问安全、编排隔离(Rubix K8s)、记忆策略粒度控制(working/episodic/semantic/procedural四类)、工具治理(provenance-based security)、实时可观测性。Ontology系统统一治理。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "生产环境Agent安全五维度：模型访问/编排隔离/记忆治理/工具溯源/实时可观测。Rubix K8s节点最长活48h，四类记忆统一Ontology治理。"
     },
     {
       "id": "bm-1299",
@@ -74508,7 +74509,8 @@
         "Develop"
       ],
       "note": "RightNow AI出品。Rust编写，14 crates，1767+测试，单32MB二进制。自主Agent OS——Hands(预构建自主能力包)、定时任务、知识图谱、Dashboard。v0.1.0首发。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "Rust开源Agent OS，137K LOC单二进制。核心创新Hands——预构建自主能力包，定时自动跑，不需要你打字提问。"
     },
     {
       "id": "bm-1300",
@@ -74531,7 +74533,8 @@
         "Article"
       ],
       "note": "前Meta AI负责人/现Airbnb CTO。代码编写正在被商品化，三个转变：工程师-产品思考者崛起、系统思维胜过代码流利度、品味作为技术技能。判断力是手艺，代码只是媒介。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "前Meta AI/现Airbnb CTO：代码编写被商品化，判断力、系统思维、品味才稀缺。代码是媒介，判断力是手艺。"
     },
     {
       "id": "bm-1302",
@@ -74543,7 +74546,8 @@
         "Article"
       ],
       "note": "从LLM+tool call原子出发，逐步讲通 messaging layer/channel+bus、agent loop(迭代上限安全)、memory(markdown: SOUL/MEMORY/USER/HISTORY)、skills(SKILL.md)；对比NanoClaw/Nanobot/OpenClaw等实现取舍。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "从LLM+tool call原子逐步搭完整agent：消息总线→agent loop→memory(markdown)→skills。横向对比六个claw实现。"
     },
     {
       "id": "bm-1303",
@@ -74554,7 +74558,8 @@
         "Article"
       ],
       "note": "Karpathy用Claude反向工程跑步机API做定制仪表板。App Store过时论，传感器+执行器+LLM胶水=定制临时应用。Claws是新一层(编排/调度/上下文/工具/持久化)，技能替代配置文件。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "Karpathy用Claude反向工程跑步机API做定制仪表板。App Store概念过时，传感器+LLM胶水=用完即焚的定制应用。"
     },
     {
       "id": "bm-1304",
@@ -74566,7 +74571,8 @@
         "Develop"
       ],
       "note": "Figma MCP让Claude直接读取设计稿，零翻译损失。四阶段：分析设计→提取design tokens→生成组件→构建完整页面。三种工作流：Design System→Full Site / Speedrun单页 / Component First。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "Figma MCP让Claude直接读设计稿，零翻译损失。四阶段：分析设计→提取tokens→生成组件→构建页面。"
     },
     {
       "id": "bm-1305",
@@ -74578,7 +74584,8 @@
         "Article"
       ],
       "note": "从coding agent到background agent演进。五个基础设施原语：开发环境(sandbox)/治理(runtime enforcement)/上下文连接(firewall内)/触发器(scheduled/event-driven/fleet/swarm)/Fleet协调。引用Stripe Minions和Ramp。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "从coding agent到background agent演进。五个基础设施原语：sandbox/治理/连接/触发器/Fleet协调。个人速度≠组织速度。"
     },
     {
       "id": "bm-1306",
@@ -74590,7 +74597,8 @@
         "Note"
       ],
       "note": "8 agents(4 Claude+4 Codex)做GPU实验：tmux网格、git branch+worktree隔离、简单文件通信。结论：很美但不work，agent缺乏严谨实验设计/基线/消融/算力控制；擅长实现，不擅长生成好想法。提出“编程一个组织”：org code=prompts+skills+tools+流程(standup等)。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "8个agent做GPU实验：很美但不work。Agent擅长实现已描述想法，不擅长生成好想法。提出'编程一个组织'概念。"
     },
     {
       "id": "bm-1307",
@@ -74602,7 +74610,8 @@
         "Article"
       ],
       "note": "验证Peter方法论：原子化提交1038次、CLAUDE.md作为Agent操作手册、Agent ROI分界线(确定性任务极高/商业判断无用)、feat从79%跌到30%说明问题变难了。判断力是瓶颈不是速度。",
-      "date": "2026-02-28"
+      "date": "2026-02-28",
+      "summary": "验证Peter方法论：27天1038次commit交付商用系统。feat从79%跌到30%说明问题变难，Agent改变速度不改变能力边界。"
     }
   ],
   "relations": [
