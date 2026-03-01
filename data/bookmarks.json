@@ -74682,6 +74682,18 @@
       "note": "5个月零手写代码构建产品。100万行代码1500PR，3工程师日均3.5PR。AGENTS.md作为目录、渐进式披露、agent-to-agent review、Ralph Wiggum Loop、让UI/logs/metrics对agent可读。",
       "summary": "5个月零手写代码构建产品实验：100万行代码1500PR，3工程师日均3.5PR。核心方法：AGENTS.md作为目录不是百科全书、渐进式披露、agent-to-agent review、让UI/logs/metrics对Codex可读。",
       "date": "2026-03-01"
+    },
+    {
+      "id": "bm-1310",
+      "title": "Lakr233: vphone-cli 支持 headless 模式",
+      "url": "https://x.com/Lakr233/status/2027794932224889018",
+      "tags": [
+        "Tool",
+        "Develop"
+      ],
+      "note": "vphone-cli更新，现在可以不用VNC直接使用虚拟iOS设备。headless模式，适合CI/自动化测试。",
+      "summary": "vphone-cli更新支持headless模式，不用VNC直接使用虚拟iOS设备，适合CI和自动化测试。",
+      "date": "2026-03-01"
     }
   ],
   "relations": [

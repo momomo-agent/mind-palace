@@ -868,5 +868,17 @@
       "url": "https://fortune.com/2026/01/23/cursor-built-web-browser-with-swarm-ai-agents-powered-openai/",
       "desc": "Cursor用OpenAI驱动的agent swarm构建浏览器，无人干预运行一周"
     }
+  ],
+  "https://x.com/Lakr233/status/2027794932224889018": [
+    {
+      "title": "vphone-cli GitHub仓库",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "desc": "Lakr233的虚拟iOS设备CLI工具，支持headless模式"
+    },
+    {
+      "title": "libimobiledevice",
+      "url": "https://libimobiledevice.org/",
+      "desc": "iOS设备通信库，vphone-cli的底层依赖"
+    }
   ]
 }
