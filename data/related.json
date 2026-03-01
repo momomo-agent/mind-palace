@@ -170,19 +170,19 @@
   ],
   "https://openai.com/index/harness-engineering/": [
     {
-      "title": "Effective harnesses for long-running agents — Anthropic",
-      "desc": "Anthropic 的长时间 Agent 工程实践：初始化 Agent + 编码 Agent 增量推进",
-      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+      "title": "Anthropic: Harness Engineering实践",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "desc": "Anthropic对agent工程实践的研究视角"
     },
     {
-      "title": "擴展長時間自主程式開發的規模 — Cursor",
-      "desc": "Cursor 的多 Agent 并行开发实践：规划者+执行者架构",
-      "url": "https://cursor.com/zh-Hant/blog/scaling-agents"
+      "title": "Cursor Third Era: Cloud Agents",
+      "url": "https://cursor.com/blog/third-era",
+      "desc": "Cursor CEO同期发布的第三纪元文章，云端agent自主开发"
     },
     {
-      "title": "Anthropic Barry Zhang — 如何构建有效 Agent",
-      "desc": "Agent 系统演进、场景选择、保持简单、像 Agent 一样思考",
-      "url": "https://x.com/indigox/status/1909468804930842696"
+      "title": "Stripe Minions: One-shot Coding Agents",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+      "desc": "Stripe内部agent实践，每周合并千+PR"
     }
   ],
   "https://x.com/wangray/status/2022833678595035519": [

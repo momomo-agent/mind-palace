@@ -74669,6 +74669,19 @@
       "note": "Cursor CEO宣告第三纪元：Tab补全→同步Agent→云端自主Agent。35%内部PR由云端agent完成，开发者从写代码变为定义问题+审查产出。",
       "summary": "三个纪元：Tab补全→同步Agent→云端自主Agent。Cursor内部35%PR已由云端agent自主完成。开发者角色变为定义问题、拆解任务、审查产出。3990赞8154收藏。",
       "date": "2026-03-01"
+    },
+    {
+      "id": "bm-1309",
+      "title": "OpenAI: Harness Engineering — 零手写代码构建产品",
+      "url": "https://openai.com/index/harness-engineering/",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "5个月零手写代码构建产品。100万行代码1500PR，3工程师日均3.5PR。AGENTS.md作为目录、渐进式披露、agent-to-agent review、Ralph Wiggum Loop、让UI/logs/metrics对agent可读。",
+      "summary": "5个月零手写代码构建产品实验：100万行代码1500PR，3工程师日均3.5PR。核心方法：AGENTS.md作为目录不是百科全书、渐进式披露、agent-to-agent review、让UI/logs/metrics对Codex可读。",
+      "date": "2026-03-01"
     }
   ],
   "relations": [
