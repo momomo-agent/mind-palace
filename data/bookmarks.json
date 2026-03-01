@@ -74656,6 +74656,19 @@
       "note": "验证Peter方法论：原子化提交1038次、CLAUDE.md作为Agent操作手册、Agent ROI分界线(确定性任务极高/商业判断无用)、feat从79%跌到30%说明问题变难了。判断力是瓶颈不是速度。",
       "date": "2026-02-28",
       "summary": "验证Peter方法论：27天1038次commit交付商用系统。feat从79%跌到30%说明问题变难，Agent改变速度不改变能力边界。"
+    },
+    {
+      "id": "bm-1308",
+      "title": "Michael Truell: The Third Era of AI Software Development",
+      "url": "https://x.com/mntruell/status/2026736314272591924",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "note": "Cursor CEO宣告第三纪元：Tab补全→同步Agent→云端自主Agent。35%内部PR由云端agent完成，开发者从写代码变为定义问题+审查产出。",
+      "summary": "三个纪元：Tab补全→同步Agent→云端自主Agent。Cursor内部35%PR已由云端agent自主完成。开发者角色变为定义问题、拆解任务、审查产出。3990赞8154收藏。",
+      "date": "2026-03-01"
     }
   ],
   "relations": [

@@ -851,5 +851,22 @@
       "url": "https://newsletter.victordibia.com/p/use-coding-agents-claude-code-to",
       "desc": "用coding agent构建产品的工程纪律"
     }
+  ],
+  "https://x.com/mntruell/status/2026736314272591924": [
+    {
+      "title": "Cursor Blog: The Third Era (官方博客版)",
+      "url": "https://cursor.com/blog/third-era",
+      "desc": "Cursor官方博客完整版本"
+    },
+    {
+      "title": "a16z: Michael Truell - How Cursor Builds at the Speed of AI",
+      "url": "https://www.youtube.com/watch?v=deMrq2uzRKA",
+      "desc": "a16z访谈Cursor CEO，深入讨论agent开发模式"
+    },
+    {
+      "title": "Fortune: Cursor用AI agent群建了一个浏览器跑了一周",
+      "url": "https://fortune.com/2026/01/23/cursor-built-web-browser-with-swarm-ai-agents-powered-openai/",
+      "desc": "Cursor用OpenAI驱动的agent swarm构建浏览器，无人干预运行一周"
+    }
   ]
 }
