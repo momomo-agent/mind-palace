@@ -880,5 +880,17 @@
       "url": "https://libimobiledevice.org/",
       "desc": "iOS设备通信库，vphone-cli的底层依赖"
     }
+  ],
+  "https://www.reddit.com/r/web_design/comments/1rhfuwk/the_frankenstein_popup_problem_how_mismatched_ui/": [
+    {
+      "title": "UXPin: Color Consistency in Design Systems",
+      "url": "https://www.uxpin.com/studio/blog/color-consistency-design-systems/",
+      "desc": "设计系统中的颜色一致性最佳实践，color tokens管理"
+    },
+    {
+      "title": "Figr: 7 Design System Best Practices",
+      "url": "https://figr.design/blog/7-design-system-best-practices-for-consistent-ui-development",
+      "desc": "一致性UI开发的7个设计系统最佳实践"
+    }
   ]
 }

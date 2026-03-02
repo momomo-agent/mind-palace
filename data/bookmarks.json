@@ -74694,6 +74694,18 @@
       "note": "vphone-cli更新，现在可以不用VNC直接使用虚拟iOS设备。headless模式，适合CI/自动化测试。",
       "summary": "vphone-cli更新支持headless模式，不用VNC直接使用虚拟iOS设备，适合CI和自动化测试。",
       "date": "2026-03-01"
+    },
+    {
+      "id": "bm-1311",
+      "title": "The Frankenstein Popup Problem — 弹窗视觉不一致如何赶走用户",
+      "url": "https://www.reddit.com/r/web_design/comments/1rhfuwk/the_frankenstein_popup_problem_how_mismatched_ui/",
+      "tags": [
+        "Design",
+        "Article"
+      ],
+      "note": "弹窗视觉不一致=被当成广告/垃圾邮件。解法：theme sync继承网站视觉DNA，提取主色+字体层级+对比度安全网。",
+      "summary": "弹窗视觉不一致会被用户当广告直接关掉。解法：theme sync自动继承网站视觉DNA（主色/字体/对比度），不同品牌风格要不同处理策略。",
+      "date": "2026-03-02"
     }
   ],
   "relations": [
