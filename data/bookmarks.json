@@ -74339,7 +74339,13 @@
         "Develop"
       ],
       "summary": "即时生成预览URL的CLI工具，npm i -g shersh，AI agent构建完直接sher link生成预览",
-      "date": "2026-02-25"
+      "date": "2026-02-25",
+      "created": "2026-02-25T00:00:00.000Z",
+      "themes": [
+        "tool",
+        "develop"
+      ],
+      "link": "https://sher.sh/"
     },
     {
       "id": "bm-1283",
@@ -74351,7 +74357,14 @@
       ],
       "note": "即时生成预览URL的CLI工具，AI agent构建完直接sher link，不需要部署平台。npm i -g shersh",
       "date": "2026-02-25",
-      "summary": "秒级预览链接CLI工具，AI agent构建完直接sher link生成预览URL，不需要部署平台。"
+      "summary": "秒级预览链接CLI工具，AI agent构建完直接sher link生成预览URL，不需要部署平台。",
+      "_id": 1772426637411,
+      "created": "2026-02-25T00:00:00.000Z",
+      "themes": [
+        "tool",
+        "develop"
+      ],
+      "link": "https://sher.sh/"
     },
     {
       "id": "bm-1284",
@@ -74363,7 +74376,14 @@
       ],
       "note": "写spec→Claude拆Asana工单→派agent独立开发→git-blame找人问→周一完成。Spec能力是1000x developer的分水岭",
       "date": "2026-02-25",
-      "summary": "Anthropic工程师写spec→Claude拆Asana工单→派agent独立开发→周一完成。Spec能力是1000x developer分水岭。"
+      "summary": "Anthropic工程师写spec→Claude拆Asana工单→派agent独立开发→周一完成。Spec能力是1000x developer分水岭。",
+      "_id": 1772426637412,
+      "created": "2026-02-25T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "link": "https://x.com/rvivek/status/2026385957596111044"
     },
     {
       "id": "bm-1285",
@@ -74375,7 +74395,14 @@
       ],
       "note": "OpenAI官方播客。Peter从PSPDFKit到OpenClaw的完整旅程：burnout后用AI重新点燃builder热情，一个人造出WSJ报道的开源项目。核心观点：vibe coding是贬义词、AI编程是需要学习的技能、PR是prompt request、代码价值在变",
       "date": "2026-02-26",
-      "summary": "OpenAI官方播客：Peter从PSPDFKit到OpenClaw的旅程，burnout后用AI重燃builder热情。Vibe coding是贬义词。"
+      "summary": "OpenAI官方播客：Peter从PSPDFKit到OpenClaw的旅程，burnout后用AI重燃builder热情。Vibe coding是贬义词。",
+      "_id": 1772426637413,
+      "created": "2026-02-26T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "link": "https://youtu.be/9jgcT0Fqt7U"
     },
     {
       "id": "bm-1286",
@@ -74387,7 +74414,14 @@
       ],
       "note": "编程范式从编辑器敲代码变为并行管理多个agent；最大杠杆是主控orchestrator；人类核心竞争力迁移到方向/判断/taste/监督与任务拆解直觉。",
       "date": "2026-02-26",
-      "summary": "编程范式从编辑器敲代码变为并行管理多个agent，最大杠杆是主控orchestrator，人类核心竞争力迁移到判断/taste/拆解。"
+      "summary": "编程范式从编辑器敲代码变为并行管理多个agent，最大杠杆是主控orchestrator，人类核心竞争力迁移到判断/taste/拆解。",
+      "_id": 1772426637414,
+      "created": "2026-02-26T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "link": "https://x.com/kevinma_dev_zh/status/2026742960038265164"
     },
     {
       "id": "bm-1287",
@@ -74399,7 +74433,14 @@
       ],
       "note": "举例：给agent一段英文任务，30分钟内登录机器/配ssh/vLLM/Qwen3-VL/服务端/网页UI/systemd/测试/写报告全做完；未来是编排并审查多个并行agent，关键在spec与拆解。",
       "date": "2026-02-26",
-      "summary": "给agent一段英文任务，30分钟全栈部署完成。未来是编排并审查多个并行agent，关键在spec与拆解能力。"
+      "summary": "给agent一段英文任务，30分钟全栈部署完成。未来是编排并审查多个并行agent，关键在spec与拆解能力。",
+      "_id": 1772426637415,
+      "created": "2026-02-26T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "link": "https://x.com/karpathy/status/2026731645169185220"
     },
     {
       "id": "bm-1288",
@@ -74412,7 +74453,15 @@
       ],
       "note": "Swift包+agent skill组合。用CADisplayLink追踪动画值/几何/滚动变化，让agent能从日志读取真实运动数据验证动画行为，而非从代码猜测。前Apple Xcode团队9年。",
       "date": "2026-02-27",
-      "summary": "Agent-first SwiftUI动画可观测系统：CADisplayLink追踪动画值，让agent从日志验证动画行为。前Apple Xcode团队9年。"
+      "summary": "Agent-first SwiftUI动画可观测系统：CADisplayLink追踪动画值，让agent从日志验证动画行为。前Apple Xcode团队9年。",
+      "_id": 1772426637416,
+      "created": "2026-02-27T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ],
+      "link": "https://x.com/edwardsanchez/status/2027213479099425002"
     },
     {
       "id": "bm-1289",
@@ -74424,7 +74473,14 @@
       ],
       "note": "Anthropic CEO深度访谈解读。Scaling laws化学反应比喻、权力集中不安、LTBT信托制衡、安全承诺具体行动(延迟发布Claude1/支持SB53)、AI意识辞职按钮、写代码率先被替代、创业者别做套壳。",
       "date": "2026-02-27",
-      "summary": "Scaling laws是化学反应、海啸已在地平线上、写代码率先被替代、创业别做套壳要建行业壁垒、判断力和品味最稀缺。"
+      "summary": "Scaling laws是化学反应、海啸已在地平线上、写代码率先被替代、创业别做套壳要建行业壁垒、判断力和品味最稀缺。",
+      "_id": 1772426637417,
+      "created": "2026-02-27T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "link": "https://x.com/dotey/status/2027265200781402351"
     },
     {
       "id": "bm-1290",
@@ -74437,7 +74493,15 @@
       ],
       "note": "Claude Code五端可用(Terminal/VS Code/Desktop/Web/JetBrains)，支持MCP连接外部工具，CLAUDE.md自定义指令，hooks扩展，GitHub Actions CI集成。",
       "date": "2026-02-27",
-      "summary": "Claude Code五端可用，MCP连接外部工具，CLAUDE.md自定义指令，hooks扩展，GitHub Actions CI集成。"
+      "summary": "Claude Code五端可用，MCP连接外部工具，CLAUDE.md自定义指令，hooks扩展，GitHub Actions CI集成。",
+      "_id": 1772426637418,
+      "created": "2026-02-27T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ],
+      "link": "https://code.claude.com/docs"
     },
     {
       "id": "bm-1291",
@@ -74449,7 +74513,14 @@
       ],
       "note": "面向新型AI Designer的field guide，关注evals/prompts/tool calls层面的设计，思考mental models/agents/intelligence。Coming Soon状态，月更。",
       "date": "2026-02-27",
-      "summary": "面向AI Designer的活文档，关注evals/prompts/tool calls层面的设计，新型设计师需要理解models/agents/intelligence。"
+      "summary": "面向AI Designer的活文档，关注evals/prompts/tool calls层面的设计，新型设计师需要理解models/agents/intelligence。",
+      "_id": 1772426637419,
+      "created": "2026-02-27T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "design"
+      ],
+      "link": "https://www.aidesignfieldguide.com/"
     },
     {
       "id": "bm-1292",
@@ -74462,7 +74533,15 @@
       ],
       "note": "Vercel/v0 Staff Designer。9步：Brain dump→Scope/Plan→Bad Build→Creative Director→Refine→Gut it→Figma craft→Build again→Handoff。核心洞察：AI擅长功能不擅长设计，Bad Build是起点不是终点，Figma仍是craft核心。",
       "date": "2026-02-27",
-      "summary": "Vercel/v0设计师9步工作流：Brain dump→Bad Build→Creative Director→Figma craft→Handoff。AI擅长功能不擅长设计。"
+      "summary": "Vercel/v0设计师9步工作流：Brain dump→Bad Build→Creative Director→Figma craft→Handoff。AI擅长功能不擅长设计。",
+      "_id": 1772426637420,
+      "created": "2026-02-27T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "design",
+        "article"
+      ],
+      "link": "https://x.com/tomjohndesign/status/2018385296610746403"
     },
     {
       "id": "bm-1293",
@@ -74475,7 +74554,15 @@
       ],
       "note": "看Peter Steinberger访谈感悟：Spec Driven=瀑布流=计划经济，快速迭代+短循环+可验证目标才是正道。模糊方向+快速验证+快速修正。",
       "date": "2026-02-27",
-      "summary": "Spec Driven=瀑布流=计划经济。快速迭代+短循环+可验证目标才是正道，模糊方向+快速验证+快速修正。"
+      "summary": "Spec Driven=瀑布流=计划经济。快速迭代+短循环+可验证目标才是正道，模糊方向+快速验证+快速修正。",
+      "_id": 1772426637421,
+      "created": "2026-02-27T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "note"
+      ],
+      "link": "https://x.com/fankaishuoai/status/2018739850791505932"
     },
     {
       "id": "bm-1294",
@@ -74488,7 +74575,15 @@
       ],
       "note": "claw-rs作者。6条物理约束(上下文有限/KV Cache前缀一致性/注意力中间衰减/LLM不可靠/工具不可预测/信息半衰期)+10条设计原则(前缀一致/Append-Only/按需加载/渐进降级/末尾复述/系统级不信任/可中断/不丢信息/可观测/文件即记忆)。",
       "date": "2026-02-27",
-      "summary": "6条物理约束+10条设计原则，从OpenClaw/Manus/DualPath提炼。Append-Only、按需加载、渐进降级、文件即记忆。"
+      "summary": "6条物理约束+10条设计原则，从OpenClaw/Manus/DualPath提炼。Append-Only、按需加载、渐进降级、文件即记忆。",
+      "_id": 1772426637422,
+      "created": "2026-02-27T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://x.com/blackanger/status/2027132918108504434"
     },
     {
       "id": "bm-1295",
@@ -74501,7 +74596,15 @@
       ],
       "note": "K-Dense AI出品，148+ skills覆盖生物信息学/药物发现/临床研究/材料科学/天文物理/金融数据等16领域，250+科学数据库接入。支持Agent Skills开放标准(Cursor/Claude Code/Codex)。",
       "date": "2026-02-28",
-      "summary": "K-Dense AI出品148+ Agent Skills，覆盖16个科学领域250+数据库，支持Agent Skills开放标准。"
+      "summary": "K-Dense AI出品148+ Agent Skills，覆盖16个科学领域250+数据库，支持Agent Skills开放标准。",
+      "_id": 1772426637423,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "tool",
+        "develop"
+      ],
+      "link": "https://github.com/K-Dense-AI/claude-scientific-skills"
     },
     {
       "id": "bm-1296",
@@ -74514,7 +74617,15 @@
       ],
       "note": "Claude Code开发者。AskUserQuestion工具三次迭代、TodoWrite→Task Tool演进、RAG→Grep→Progressive Disclosure上下文构建范式转移。3131赞6951收藏。",
       "date": "2026-02-28",
-      "summary": "Claude Code开发者：AskUserQuestion三次迭代、TodoWrite→Task Tool演进、RAG→Grep→Progressive Disclosure范式转移。"
+      "summary": "Claude Code开发者：AskUserQuestion三次迭代、TodoWrite→Task Tool演进、RAG→Grep→Progressive Disclosure范式转移。",
+      "_id": 1772426637424,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://x.com/trq212/status/2027463795355095314"
     },
     {
       "id": "bm-1297",
@@ -74527,7 +74638,15 @@
       ],
       "note": "对Thariq文章的中文五层深度解读：工具设计框架、AskUserQuestion迭代、工具随模型进化、RAG到自主搜索、渐进式披露。",
       "date": "2026-02-28",
-      "summary": "对Thariq文章的中文五层深度解读：工具设计框架、工具随模型进化、RAG到自主搜索、渐进式披露。"
+      "summary": "对Thariq文章的中文五层深度解读：工具设计框架、工具随模型进化、RAG到自主搜索、渐进式披露。",
+      "_id": 1772426637425,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://x.com/shao__meng/status/2027564092173725790"
     },
     {
       "id": "bm-1298",
@@ -74540,7 +74659,15 @@
       ],
       "note": "生产环境Agent安全五维度：模型访问安全、编排隔离(Rubix K8s)、记忆策略粒度控制(working/episodic/semantic/procedural四类)、工具治理(provenance-based security)、实时可观测性。Ontology系统统一治理。",
       "date": "2026-02-28",
-      "summary": "生产环境Agent安全五维度：模型访问/编排隔离/记忆治理/工具溯源/实时可观测。Rubix K8s节点最长活48h，四类记忆统一Ontology治理。"
+      "summary": "生产环境Agent安全五维度：模型访问/编排隔离/记忆治理/工具溯源/实时可观测。Rubix K8s节点最长活48h，四类记忆统一Ontology治理。",
+      "_id": 1772426637426,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://x.com/PalantirTech/status/2014360213692854657"
     },
     {
       "id": "bm-1299",
@@ -74553,7 +74680,15 @@
       ],
       "note": "RightNow AI出品。Rust编写，14 crates，1767+测试，单32MB二进制。自主Agent OS——Hands(预构建自主能力包)、定时任务、知识图谱、Dashboard。v0.1.0首发。",
       "date": "2026-02-28",
-      "summary": "Rust开源Agent OS，137K LOC单二进制。核心创新Hands——预构建自主能力包，定时自动跑，不需要你打字提问。"
+      "summary": "Rust开源Agent OS，137K LOC单二进制。核心创新Hands——预构建自主能力包，定时自动跑，不需要你打字提问。",
+      "_id": 1772426637427,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "tool",
+        "develop"
+      ],
+      "link": "https://github.com/RightNow-AI/openfang"
     },
     {
       "id": "bm-1300",
@@ -74566,7 +74701,15 @@
       ],
       "note": "LLM-native语言，LLVM编译到原生代码，显式SSA语法消除歧义。编译155ms，运行=Rust速度，内存1.6MB。零隐藏语义，一种做法=更少LLM决策点=更少错误。",
       "date": "2026-02-28",
-      "summary": "显式SSA语法消除隐藏语义，LLVM编译到原生代码，155ms编译速度=Rust。为AI设计专属语言而非让AI适应人类语言。"
+      "summary": "显式SSA语法消除隐藏语义，LLVM编译到原生代码，155ms编译速度=Rust。为AI设计专属语言而非让AI适应人类语言。",
+      "_id": 1772426637428,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ],
+      "link": "https://magpie-lang.com/"
     },
     {
       "id": "bm-1301",
@@ -74578,7 +74721,14 @@
       ],
       "note": "前Meta AI负责人/现Airbnb CTO。代码编写正在被商品化，三个转变：工程师-产品思考者崛起、系统思维胜过代码流利度、品味作为技术技能。判断力是手艺，代码只是媒介。",
       "date": "2026-02-28",
-      "summary": "前Meta AI/现Airbnb CTO：代码编写被商品化，判断力、系统思维、品味才稀缺。代码是媒介，判断力是手艺。"
+      "summary": "前Meta AI/现Airbnb CTO：代码编写被商品化，判断力、系统思维、品味才稀缺。代码是媒介，判断力是手艺。",
+      "_id": 1772426637429,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "link": "https://x.com/szslg/status/2027198886981587407"
     },
     {
       "id": "bm-1302",
@@ -74591,7 +74741,15 @@
       ],
       "note": "从LLM+tool call原子出发，逐步讲通 messaging layer/channel+bus、agent loop(迭代上限安全)、memory(markdown: SOUL/MEMORY/USER/HISTORY)、skills(SKILL.md)；对比NanoClaw/Nanobot/OpenClaw等实现取舍。",
       "date": "2026-02-28",
-      "summary": "从LLM+tool call原子逐步搭完整agent：消息总线→agent loop→memory(markdown)→skills。横向对比六个claw实现。"
+      "summary": "从LLM+tool call原子逐步搭完整agent：消息总线→agent loop→memory(markdown)→skills。横向对比六个claw实现。",
+      "_id": 1772426637430,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://x.com/MisbahSy/status/2025570052108665231"
     },
     {
       "id": "bm-1303",
@@ -74603,7 +74761,14 @@
       ],
       "note": "Karpathy用Claude反向工程跑步机API做定制仪表板。App Store过时论，传感器+执行器+LLM胶水=定制临时应用。Claws是新一层(编排/调度/上下文/工具/持久化)，技能替代配置文件。",
       "date": "2026-02-28",
-      "summary": "Karpathy用Claude反向工程跑步机API做定制仪表板。App Store概念过时，传感器+LLM胶水=用完即焚的定制应用。"
+      "summary": "Karpathy用Claude反向工程跑步机API做定制仪表板。App Store概念过时，传感器+LLM胶水=用完即焚的定制应用。",
+      "_id": 1772426637431,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "link": "https://www.xiaohongshu.com/discovery/item/69a25913000000001a0357c2"
     },
     {
       "id": "bm-1304",
@@ -74616,7 +74781,15 @@
       ],
       "note": "Figma MCP让Claude直接读取设计稿，零翻译损失。四阶段：分析设计→提取design tokens→生成组件→构建完整页面。三种工作流：Design System→Full Site / Speedrun单页 / Component First。",
       "date": "2026-02-28",
-      "summary": "Figma MCP让Claude直接读设计稿，零翻译损失。四阶段：分析设计→提取tokens→生成组件→构建页面。"
+      "summary": "Figma MCP让Claude直接读设计稿，零翻译损失。四阶段：分析设计→提取tokens→生成组件→构建页面。",
+      "_id": 1772426637432,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "design",
+        "develop"
+      ],
+      "link": "https://x.com/felixleezd/status/2023803631812874242"
     },
     {
       "id": "bm-1305",
@@ -74629,7 +74802,15 @@
       ],
       "note": "从coding agent到background agent演进。五个基础设施原语：开发环境(sandbox)/治理(runtime enforcement)/上下文连接(firewall内)/触发器(scheduled/event-driven/fleet/swarm)/Fleet协调。引用Stripe Minions和Ramp。",
       "date": "2026-02-28",
-      "summary": "从coding agent到background agent演进。五个基础设施原语：sandbox/治理/连接/触发器/Fleet协调。个人速度≠组织速度。"
+      "summary": "从coding agent到background agent演进。五个基础设施原语：sandbox/治理/连接/触发器/Fleet协调。个人速度≠组织速度。",
+      "_id": 1772426637433,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://background-agents.com/"
     },
     {
       "id": "bm-1306",
@@ -74642,7 +74823,15 @@
       ],
       "note": "8 agents(4 Claude+4 Codex)做GPU实验：tmux网格、git branch+worktree隔离、简单文件通信。结论：很美但不work，agent缺乏严谨实验设计/基线/消融/算力控制；擅长实现，不擅长生成好想法。提出“编程一个组织”：org code=prompts+skills+tools+流程(standup等)。",
       "date": "2026-02-28",
-      "summary": "8个agent做GPU实验：很美但不work。Agent擅长实现已描述想法，不擅长生成好想法。提出'编程一个组织'概念。"
+      "summary": "8个agent做GPU实验：很美但不work。Agent擅长实现已描述想法，不擅长生成好想法。提出'编程一个组织'概念。",
+      "_id": 1772426637434,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "note"
+      ],
+      "link": "https://x.com/karpathy/status/2027521323275325622"
     },
     {
       "id": "bm-1307",
@@ -74655,7 +74844,15 @@
       ],
       "note": "验证Peter方法论：原子化提交1038次、CLAUDE.md作为Agent操作手册、Agent ROI分界线(确定性任务极高/商业判断无用)、feat从79%跌到30%说明问题变难了。判断力是瓶颈不是速度。",
       "date": "2026-02-28",
-      "summary": "验证Peter方法论：27天1038次commit交付商用系统。feat从79%跌到30%说明问题变难，Agent改变速度不改变能力边界。"
+      "summary": "验证Peter方法论：27天1038次commit交付商用系统。feat从79%跌到30%说明问题变难，Agent改变速度不改变能力边界。",
+      "_id": 1772426637435,
+      "created": "2026-02-28T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://x.com/wquguru/status/2027716143625187748"
     },
     {
       "id": "bm-1308",
@@ -74668,7 +74865,15 @@
       ],
       "note": "Cursor CEO宣告第三纪元：Tab补全→同步Agent→云端自主Agent。35%内部PR由云端agent完成，开发者从写代码变为定义问题+审查产出。",
       "summary": "三个纪元：Tab补全→同步Agent→云端自主Agent。Cursor内部35%PR已由云端agent自主完成。开发者角色变为定义问题、拆解任务、审查产出。3990赞8154收藏。",
-      "date": "2026-03-01"
+      "date": "2026-03-01",
+      "_id": 1772426637436,
+      "created": "2026-03-01T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://x.com/mntruell/status/2026736314272591924"
     },
     {
       "id": "bm-1309",
@@ -74681,7 +74886,15 @@
       ],
       "note": "5个月零手写代码构建产品。100万行代码1500PR，3工程师日均3.5PR。AGENTS.md作为目录、渐进式披露、agent-to-agent review、Ralph Wiggum Loop、让UI/logs/metrics对agent可读。",
       "summary": "5个月零手写代码构建产品实验：100万行代码1500PR，3工程师日均3.5PR。核心方法：AGENTS.md作为目录不是百科全书、渐进式披露、agent-to-agent review、让UI/logs/metrics对Codex可读。",
-      "date": "2026-03-01"
+      "date": "2026-03-01",
+      "_id": 1772426637437,
+      "created": "2026-03-01T00:00:00.000Z",
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "link": "https://openai.com/index/harness-engineering/"
     },
     {
       "id": "bm-1310",
@@ -74693,7 +74906,14 @@
       ],
       "note": "vphone-cli更新，现在可以不用VNC直接使用虚拟iOS设备。headless模式，适合CI/自动化测试。",
       "summary": "vphone-cli更新支持headless模式，不用VNC直接使用虚拟iOS设备，适合CI和自动化测试。",
-      "date": "2026-03-01"
+      "date": "2026-03-01",
+      "_id": 1772426637438,
+      "created": "2026-03-01T00:00:00.000Z",
+      "themes": [
+        "tool",
+        "develop"
+      ],
+      "link": "https://x.com/Lakr233/status/2027794932224889018"
     },
     {
       "id": "bm-1311",
@@ -74705,7 +74925,14 @@
       ],
       "note": "弹窗视觉不一致=被当成广告/垃圾邮件。解法：theme sync继承网站视觉DNA，提取主色+字体层级+对比度安全网。",
       "summary": "弹窗视觉不一致会被用户当广告直接关掉。解法：theme sync自动继承网站视觉DNA（主色/字体/对比度），不同品牌风格要不同处理策略。",
-      "date": "2026-03-02"
+      "date": "2026-03-02",
+      "_id": 1772426637439,
+      "created": "2026-03-02T00:00:00.000Z",
+      "themes": [
+        "design",
+        "article"
+      ],
+      "link": "https://www.reddit.com/r/web_design/comments/1rhfuwk/the_frankenstein_popup_problem_how_mismatched_ui/"
     },
     {
       "id": "bm-1312",
@@ -74717,7 +74944,14 @@
       ],
       "note": "Andy Matuschak 2006年周末hack项目，20年后仍在几乎每台Mac上运行。appcast RSS分发更新。",
       "summary": "Sparkle macOS自动更新框架20周年。Andy Matuschak 2006年一个周末hack出来的项目，20年后仍在几乎每台Mac上运行——很多严肃项目都始于周末hack。",
-      "date": "2026-03-02"
+      "date": "2026-03-02",
+      "_id": 1772426637440,
+      "created": "2026-03-02T00:00:00.000Z",
+      "themes": [
+        "develop",
+        "note"
+      ],
+      "link": "https://github.com/sparkle-project/Sparkle/discussions/2837"
     }
   ],
   "relations": [
