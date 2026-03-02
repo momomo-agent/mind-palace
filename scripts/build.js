@@ -15,6 +15,11 @@ function build() {
   
   const data = JSON.parse(readFileSync(join(dataDir, 'bookmarks.json'), 'utf-8'));
   
+  // Sort items by created date descending (newest first)
+  if (data.items) {
+    data.items.sort((a, b) => new Date(b.created || 0) - new Date(a.created || 0));
+  }
+  
   // Embed data into HTML
   const html = readFileSync(join(__dirname, '..', 'src', 'index.html'), 'utf-8');
   const output = html.replace('__DATA__', JSON.stringify(data));
