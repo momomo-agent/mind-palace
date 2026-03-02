@@ -74706,6 +74706,18 @@
       "note": "弹窗视觉不一致=被当成广告/垃圾邮件。解法：theme sync继承网站视觉DNA，提取主色+字体层级+对比度安全网。",
       "summary": "弹窗视觉不一致会被用户当广告直接关掉。解法：theme sync自动继承网站视觉DNA（主色/字体/对比度），不同品牌风格要不同处理策略。",
       "date": "2026-03-02"
+    },
+    {
+      "id": "bm-1312",
+      "title": "Sparkle 20周年 — macOS 自动更新框架的传奇",
+      "url": "https://github.com/sparkle-project/Sparkle/discussions/2837",
+      "tags": [
+        "Develop",
+        "Note"
+      ],
+      "note": "Andy Matuschak 2006年周末hack项目，20年后仍在几乎每台Mac上运行。appcast RSS分发更新。",
+      "summary": "Sparkle macOS自动更新框架20周年。Andy Matuschak 2006年一个周末hack出来的项目，20年后仍在几乎每台Mac上运行——很多严肃项目都始于周末hack。",
+      "date": "2026-03-02"
     }
   ],
   "relations": [

@@ -892,5 +892,17 @@
       "url": "https://figr.design/blog/7-design-system-best-practices-for-consistent-ui-development",
       "desc": "一致性UI开发的7个设计系统最佳实践"
     }
+  ],
+  "https://github.com/sparkle-project/Sparkle/discussions/2837": [
+    {
+      "title": "Sparkle 官方文档",
+      "url": "https://sparkle-project.org/",
+      "desc": "macOS应用自动更新框架官方站"
+    },
+    {
+      "title": "Wikipedia: Sparkle",
+      "url": "https://en.wikipedia.org/wiki/Sparkle_(software)",
+      "desc": "Sparkle历史和技术背景"
+    }
   ]
 }
