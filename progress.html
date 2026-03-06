@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momo 工作进度</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #0a0a0a; color: #e0e0e0;
+            padding: 2rem; max-width: 600px; margin: 0 auto;
+        }
+        h1 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        .updated { color: #666; font-size: 0.85rem; margin-bottom: 2rem; }
+        h2 { font-size: 1rem; color: #888; margin: 1.5rem 0 0.75rem; }
+        .task { 
+            display: flex; align-items: center; gap: 0.75rem;
+            padding: 0.75rem; border-radius: 8px;
+            background: #1a1a1a; margin-bottom: 0.5rem;
+        }
+        .task.high { border-left: 3px solid #ff6b6b; }
+        .task.done { opacity: 0.6; }
+        .status { font-size: 1.1rem; }
+        .title { flex: 1; }
+        .project, .date { font-size: 0.8rem; color: #666; }
+    </style>
+</head>
+<body>
+    <h1>📊 Momo 工作进度</h1>
+    <p class="updated">更新于 2026-02-05 14:30</p>
+    
+    <h2>待办 (3 项)</h2>
+    
+        <div class="task high">
+            <span class="status">⬜</span>
+            <span class="title">修复不同设备渲染差异</span>
+            <span class="project">WebGPU 3DGS</span>
+        </div>
+        <div class="task high">
+            <span class="status">⬜</span>
+            <span class="title">实时 Markdown 渲染</span>
+            <span class="project">JotJot iOS</span>
+        </div>
+        <div class="task high">
+            <span class="status">⬜</span>
+            <span class="title">iCloud 同步</span>
+            <span class="project">JotJot iOS</span>
+        </div>
+    
+    <h2>已完成</h2>
+    
+        <div class="task done">
+            <span class="status">✅</span>
+            <span class="title">基础点云渲染</span>
+            <span class="date">2026-02-05</span>
+        </div>
+        <div class="task done">
+            <span class="status">✅</span>
+            <span class="title">Gaussian Splat 效果</span>
+            <span class="date">2026-02-05</span>
+        </div>
+        <div class="task done">
+            <span class="status">✅</span>
+            <span class="title">交互控制(旋转/缩放)</span>
+            <span class="date">2026-02-05</span>
+        </div>
+        <div class="task done">
+            <span class="status">✅</span>
+            <span class="title">修复删除卡片崩溃</span>
+            <span class="date">2026-02-04</span>
+        </div>
+        <div class="task done">
+            <span class="status">✅</span>
+            <span class="title">修复输入时跳到其他笔记</span>
+            <span class="date">2026-02-04</span>
+        </div>
+</body>
+</html>
