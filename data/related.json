@@ -1197,5 +1197,17 @@
       "desc": "终端AI编码agent架构：MainAgent入口+工具执行层+UI层分离",
       "url": "https://arxiv.org/html/2603.05344v1"
     }
+  ],
+  "https://x.com/om_patel5/status/2030479131222192457": [
+    {
+      "title": "Claude Code LSP深度解析",
+      "desc": "从模式匹配到语义理解的范式转变",
+      "url": "https://medium.com/algomart/how-claude-codes-new-lsp-support-changes-the-way-you-debug-navigate-and-understand-code-d9649eb6dd33"
+    },
+    {
+      "title": "Reddit: Enable LSP in Claude Code",
+      "desc": "社区讨论导航速度30-60s降到50ms的实测",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rh5pcm/enable_lsp_in_claude_code_code_navigation_goes/"
+    }
   ]
 }
