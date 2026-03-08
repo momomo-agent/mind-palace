@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-08T16:46:33.594Z",
-    "count": 1412
+    "syncedAt": "2026-03-08T16:51:18.802Z",
+    "count": 1414
   },
   "themes": [
     {
@@ -1678,8 +1678,10 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 364,
+      "count": 366,
       "items": [
+        1635258300,
+        1635258299,
         1635242928,
         1635242927,
         1635242926,
@@ -3744,12 +3746,14 @@
       "name": "https + test",
       "color": "#5A7A6B",
       "members": [
+        1635258300,
+        1635258299,
         1635242928,
         1635242927,
         1635242926,
         1635242914
       ],
-      "count": 4
+      "count": 6
     },
     {
       "id": "galaxy-34",
@@ -6604,6 +6608,90 @@
     }
   ],
   "items": [
+    {
+      "_id": 1635258300,
+      "link": "https://test.com/e2e-1",
+      "excerpt": "",
+      "note": "端到端测试1",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-08T16:51:15.557Z",
+      "lastUpdate": "2026-03-08T16:51:15.557Z",
+      "domain": "test.com",
+      "title": "https://test.com/e2e-1",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1635258300,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [],
+      "themes": [
+        "ai"
+      ]
+    },
+    {
+      "_id": 1635258299,
+      "link": "https://test.com/e2e-2",
+      "excerpt": "",
+      "note": "端到端测试2",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-08T16:51:15.473Z",
+      "lastUpdate": "2026-03-08T16:51:15.473Z",
+      "domain": "test.com",
+      "title": "https://test.com/e2e-2",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1635258299,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [],
+      "themes": [
+        "ai"
+      ]
+    },
     {
       "_id": 1635242928,
       "link": "https://test.com/3",
