@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /**
- * Sync bookmarks from Raindrop.io
+ * Sync bookmarks from Raindrop.io — 增量模式
+ * 默认只拉最新的，与本地合并。用 --full 强制全量。
  */
 import { execSync } from 'child_process';
 import { writeFileSync, readFileSync, existsSync } from 'fs';
@@ -9,29 +10,91 @@ import { dirname, join } from 'path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const dataDir = join(__dirname, '..', 'data');
+const fullMode = process.argv.includes('--full');
+
+function getToken() {
+  if (process.env.RAINDROP_TOKEN) return process.env.RAINDROP_TOKEN;
+  try {
+    return execSync(`python3 -c "import json; print(json.load(open('$HOME/.openclaw/openclaw.json')).get('skills',{}).get('entries',{}).get('raindrop',{}).get('apiKey',''))"`, { encoding: 'utf-8' }).trim();
+  } catch { return ''; }
+}
+
+function fetchPage(script, token, page, perpage = 50) {
+  const result = execSync(`${script} GET '/raindrops/0?perpage=${perpage}&page=${page}&sort=-created'`, {
+    encoding: 'utf-8',
+    env: { ...process.env, RAINDROP_TOKEN: token }
+  });
+  return JSON.parse(result);
+}
 
 async function fetchBookmarks() {
   const script = '/Users/kenefe/clawd/skills/raindrop/scripts/raindrop.sh';
+  const token = getToken();
   const perpage = 50;
-  let page = 0;
-  let all = [];
-  while (true) {
-    const result = execSync(`${script} GET '/raindrops/0?perpage=${perpage}&page=${page}&sort=-created'`, {
-      encoding: 'utf-8',
-      env: { ...process.env, RAINDROP_TOKEN: process.env.RAINDROP_TOKEN || execSync(`grep -o '"RAINDROP_TOKEN"[[:space:]]*:[[:space:]]*"[^"]*"' "$HOME/.openclaw/openclaw.json" | head -1 | sed 's/.*"RAINDROP_TOKEN"[[:space:]]*:[[:space:]]*"//;s/"$//'`, { encoding: 'utf-8' }).trim() }
-    });
-    const data = JSON.parse(result);
+  const bookmarksPath = join(dataDir, 'bookmarks.json');
+
+  // 增量模式：读取本地已有数据
+  let existingItems = [];
+  let existingIds = new Set();
+  if (!fullMode && existsSync(bookmarksPath)) {
+    try {
+      const local = JSON.parse(readFileSync(bookmarksPath, 'utf-8'));
+      existingItems = local.items || [];
+      existingIds = new Set(existingItems.map(i => i._id));
+      console.log(`本地已有 ${existingItems.length} 条`);
+    } catch (e) {
+      console.log('本地数据损坏，改用全量模式');
+    }
+  }
+
+  if (fullMode || existingItems.length === 0) {
+    // 全量模式
+    console.log('全量拉取...');
+    let page = 0, all = [];
+    while (true) {
+      const data = fetchPage(script, token, page, perpage);
+      const items = data.items || [];
+      all.push(...items);
+      console.log(`Fetched page ${page}: ${items.length} items (total: ${all.length})`);
+      if (items.length < perpage) break;
+      page++;
+    }
+    return { items: all, count: all.length };
+  }
+
+  // 增量模式：只拉到遇到已有的为止
+  console.log('增量拉取...');
+  let page = 0, newItems = [];
+  let done = false;
+  while (!done) {
+    const data = fetchPage(script, token, page, perpage);
     const items = data.items || [];
-    all.push(...items);
-    console.log(`Fetched page ${page}: ${items.length} items (total: ${all.length})`);
+    if (items.length === 0) break;
+
+    for (const item of items) {
+      if (existingIds.has(item._id)) {
+        done = true;
+        break;
+      }
+      newItems.push(item);
+    }
+    console.log(`Fetched page ${page}: ${items.length} items (${newItems.length} new)`);
     if (items.length < perpage) break;
     page++;
   }
-  return { items: all, count: all.length };
+
+  if (newItems.length === 0) {
+    console.log('没有新收藏');
+    return { items: existingItems, count: existingItems.length, incremental: true };
+  }
+
+  // 合并：新的在前，旧的在后（按创建时间降序）
+  const merged = [...newItems, ...existingItems];
+  console.log(`新增 ${newItems.length} 条，合并后 ${merged.length} 条`);
+  return { items: merged, count: merged.length, incremental: true };
 }
 
 function inferRelations(items) {
-  // Inverted index: tag -> item indices
   const tagIndex = {};
   items.forEach((item, idx) => {
     (item.tags || []).forEach(tag => {
@@ -40,10 +103,8 @@ function inferRelations(items) {
     });
   });
 
-  // Build relations via shared tags (avoids O(n²) full scan)
-  const pairMap = new Map(); // "i:j" -> { strength, reasons }
+  const pairMap = new Map();
   for (const [tag, indices] of Object.entries(tagIndex)) {
-    // Skip huge groups to avoid explosion
     if (indices.length > 200) continue;
     for (let x = 0; x < indices.length; x++) {
       for (let y = x + 1; y < indices.length; y++) {
@@ -57,8 +118,7 @@ function inferRelations(items) {
     }
   }
 
-  // Only keep relations with strength >= 2 (shared 2+ tags), cap at 5000 total
-  const relations = Array.from(pairMap.values())
+  return Array.from(pairMap.values())
     .filter(p => p.strength >= 2)
     .sort((a, b) => b.strength - a.strength)
     .slice(0, 5000)
@@ -68,42 +128,31 @@ function inferRelations(items) {
       strength: p.strength,
       reason: p.reasons.join(', ')
     }));
-
-  return relations;
 }
 
 function extractHighlights(note) {
   if (!note) return [];
   const highlights = [];
-  
-  // 提取关键短语（用破折号、分号、句号分隔的要点）
   const patterns = [
-    /——([^。；]+)/g,  // 中文破折号后的内容
-    /：([^。；，]{10,40})/g,  // 冒号后的短句
-    /「([^」]+)」/g,  // 引号内容
-    /"([^"]+)"/g,  // 英文引号
+    /——([^。；]+)/g,
+    /：([^。；，]{10,40})/g,
+    /「([^」]+)」/g,
+    /"([^"]+)"/g,
   ];
-  
   patterns.forEach(p => {
     let m;
     while ((m = p.exec(note)) !== null) {
       const h = m[1].trim();
-      if (h.length > 5 && h.length < 50) {
-        highlights.push(h);
-      }
+      if (h.length > 5 && h.length < 50) highlights.push(h);
     }
   });
-  
-  // 如果没提取到，取前 50 字作为摘要
   if (highlights.length === 0 && note.length > 10) {
     const first = note.slice(0, 60).replace(/[。；].*$/, '');
     if (first) highlights.push(first);
   }
-  
   return highlights.slice(0, 3);
 }
 
-// Tag 中文名映射
 const TAG_NAMES = {
   'Design': '设计', 'Develop': '开发', 'Article': '文章',
   'App': '应用', 'Render': '渲染', 'AI': 'AI', 'ai': 'AI',
@@ -126,44 +175,28 @@ function normalizeTag(t) {
 }
 
 function inferThemes(items) {
-  // 基于 tags 动态聚类
   const tagMap = {};
-  
   items.forEach((item, idx) => {
     let tags = (item.tags || []).map(normalizeTag);
     if (tags.length === 0) tags = ['其他'];
-    
     tags.forEach(tag => {
       const parts = tag.split('/');
       const root = normalizeTag(parts[0]);
       const sub = parts.length > 1 ? parts.slice(1).join('/') : null;
-      
-      if (!tagMap[root]) {
-        tagMap[root] = { indices: new Set(), children: {} };
-      }
+      if (!tagMap[root]) tagMap[root] = { indices: new Set(), children: {} };
       tagMap[root].indices.add(idx);
-      
       if (sub) {
-        if (!tagMap[root].children[sub]) {
-          tagMap[root].children[sub] = new Set();
-        }
+        if (!tagMap[root].children[sub]) tagMap[root].children[sub] = new Set();
         tagMap[root].children[sub].add(idx);
       }
     });
-    
-    // 提取看点
     item.highlights_text = extractHighlights(item.note);
-    // 设置 themes
     item.themes = tags.map(t => normalizeTag(t.split('/')[0]).toLowerCase());
   });
-  
-  // 构建主题树，按数量排序
+
   const themes = [];
   let colorIdx = 0;
-  
-  const sorted = Object.entries(tagMap)
-    .sort((a, b) => b[1].indices.size - a[1].indices.size);
-  
+  const sorted = Object.entries(tagMap).sort((a, b) => b[1].indices.size - a[1].indices.size);
   for (const [tag, data] of sorted) {
     const theme = {
       id: tag.toLowerCase().replace(/\s+/g, '-'),
@@ -172,8 +205,6 @@ function inferThemes(items) {
       count: data.indices.size,
       items: [...data.indices].map(i => items[i]._id)
     };
-    
-    // 添加子分类
     const childEntries = Object.entries(data.children);
     if (childEntries.length > 0) {
       theme.children = childEntries
@@ -186,21 +217,17 @@ function inferThemes(items) {
           items: [...subIndices].map(j => items[j]._id)
         }));
     }
-    
     themes.push(theme);
   }
-  
   return themes;
 }
 
-// 话题星系聚类：基于关键词语义相似度
 function inferGalaxies(items) {
   const COLORS = ['#C4785A', '#7A8B6E', '#5A6B7A', '#8B6E7A', '#B8A060', '#6B8B8B', '#9C7A5A', '#7A6B8B', '#8B7A6E', '#5A7A6B', '#8B8B5A', '#5A8B7A'];
   const galaxies = [];
   const assigned = new Set();
   let gIdx = 0;
 
-  // 1. Related clusters: group items connected via related.json
   const relAdj = new Map();
   items.forEach((a, i) => {
     if (!a.related) return;
@@ -215,7 +242,6 @@ function inferGalaxies(items) {
     });
   });
 
-  // BFS to find connected components from related links
   const visited = new Set();
   for (let start = 0; start < items.length; start++) {
     if (visited.has(start) || !relAdj.has(start)) continue;
@@ -242,7 +268,6 @@ function inferGalaxies(items) {
     }
   }
 
-  // 2. Domain clusters for unassigned (same domain, ≥2 items)
   const domGroups = {};
   items.forEach((item, i) => {
     if (assigned.has(i) || !item.domain || item.domain === 'github.com' || item.domain === 'x.com') return;
@@ -259,7 +284,6 @@ function inferGalaxies(items) {
     gIdx++;
   });
 
-  // 3. Tag-pair clusters for remaining unassigned
   const tagPairs = {};
   items.forEach((item, i) => {
     if (assigned.has(i)) return;
@@ -271,7 +295,6 @@ function inferGalaxies(items) {
       }
     }
   });
-  // Greedily assign to largest tag-pair group
   Object.entries(tagPairs)
     .sort((a, b) => b[1].length - a[1].length)
     .forEach(([pair, members]) => {
@@ -286,7 +309,6 @@ function inferGalaxies(items) {
       gIdx++;
     });
 
-  // 4. Remaining → 散星
   const unassigned = items.map((_, i) => i).filter(i => !assigned.has(i));
   if (unassigned.length > 0) {
     galaxies.push({
@@ -295,12 +317,10 @@ function inferGalaxies(items) {
     });
   }
 
-  // Bridges: shared members + shared tag components in galaxy name
   const bridges = [];
   for (let i = 0; i < galaxies.length; i++) {
     for (let j = i + 1; j < galaxies.length; j++) {
       const shared = galaxies[i].members.filter(id => galaxies[j].members.includes(id));
-      // Also check shared tag components (e.g. "AI+Develop" and "AI+Design" share "AI")
       const tagsI = galaxies[i].name.split('+').map(s => s.trim());
       const tagsJ = galaxies[j].name.split('+').map(s => s.trim());
       const sharedTags = tagsI.filter(t => tagsJ.includes(t));
@@ -325,17 +345,16 @@ function autoName(indices, items) {
 }
 
 async function main() {
-  console.log('Fetching bookmarks from Raindrop...');
+  console.log('Syncing bookmarks from Raindrop...');
   const data = await fetchBookmarks();
-  
+
   if (!data.items || data.items.length === 0) {
     console.error('Failed to fetch bookmarks');
     process.exit(1);
   }
-  
+
   const items = data.items;
-  console.log(`Fetched ${items.length} bookmarks`);
-  
+
   // Merge related recommendations
   const relatedPath = join(dataDir, 'related.json');
   if (existsSync(relatedPath)) {
@@ -350,27 +369,20 @@ async function main() {
 
   console.log('Inferring themes...');
   const themes = inferThemes(items);
-  
+
   console.log('Inferring galaxies...');
   const { galaxies, bridges } = inferGalaxies(items);
   console.log(`Found ${galaxies.length} galaxies, ${bridges.length} bridges`);
-  
+
   console.log('Inferring relations...');
   const relations = inferRelations(items);
   console.log(`Found ${relations.length} relations`);
-  
+
   const output = {
-    meta: {
-      syncedAt: new Date().toISOString(),
-      count: items.length
-    },
-    themes,
-    galaxies,
-    bridges,
-    items,
-    relations
+    meta: { syncedAt: new Date().toISOString(), count: items.length },
+    themes, galaxies, bridges, items, relations
   };
-  
+
   writeFileSync(join(dataDir, 'bookmarks.json'), JSON.stringify(output, null, 2));
   console.log('Saved to data/bookmarks.json');
 }
