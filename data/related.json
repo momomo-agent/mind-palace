@@ -1209,5 +1209,22 @@
       "desc": "社区讨论导航速度30-60s降到50ms的实测",
       "url": "https://www.reddit.com/r/ClaudeCode/comments/1rh5pcm/enable_lsp_in_claude_code_code_navigation_goes/"
     }
+  ],
+  "https://x.com/shao__meng/status/2030615698108756099": [
+    {
+      "title": "Lossless Claw 源码",
+      "desc": "OpenClaw插件：DAG context引擎+压缩引擎+深度感知摘要",
+      "url": "https://github.com/Martian-Engineering/lossless-claw"
+    },
+    {
+      "title": "OpenClaw讨论：可插拔上下文系统",
+      "desc": "LCM架构讨论和社区改进建议",
+      "url": "https://github.com/openclaw/openclaw/discussions/22251"
+    },
+    {
+      "title": "HN讨论LCM论文",
+      "desc": "全局命名空间、子agent结果检查等社区观点",
+      "url": "https://news.ycombinator.com/item?id=47038411"
+    }
   ]
 }
