@@ -1226,5 +1226,17 @@
       "desc": "全局命名空间、子agent结果检查等社区观点",
       "url": "https://news.ycombinator.com/item?id=47038411"
     }
+  ],
+  "https://github.com/openai/openai-cua-sample-app": [
+    {
+      "title": "OpenAI Operator 产品介绍",
+      "desc": "CUA模型：GPT-4o视觉+强化学习操作GUI",
+      "url": "https://openai.com/index/introducing-operator/"
+    },
+    {
+      "title": "GPT-5.4 原生 Computer Use",
+      "desc": "VentureBeat深度：代码模式+原生操作模式双轨",
+      "url": "https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for"
+    }
   ]
 }
