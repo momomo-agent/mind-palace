@@ -1269,5 +1269,17 @@
       "desc": "描述",
       "url": "https://test.com/verify-rel-1"
     }
+  ],
+  "https://test.com/final-test": [
+    {
+      "title": "相关1",
+      "desc": "描述1",
+      "url": "https://test.com/final-rel-1"
+    },
+    {
+      "title": "相关2",
+      "desc": "描述2",
+      "url": "https://test.com/final-rel-2"
+    }
   ]
 }
