@@ -1288,5 +1288,12 @@
       "desc": "端到端验证相关",
       "url": "https://test.com/e2e-rel-1"
     }
+  ],
+  "https://test.com/summary-test": [
+    {
+      "title": "相关",
+      "desc": "desc",
+      "url": "https://test.com/summary-rel"
+    }
   ]
 }

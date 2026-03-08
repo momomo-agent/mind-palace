@@ -383,6 +383,33 @@ async function main() {
     themes, galaxies, bridges, items, relations
   };
 
+  // 合并 pending summaries（LLM 写的精炼看点）
+  const pendingPath = join(dataDir, 'pending-summaries.json');
+  if (existsSync(pendingPath)) {
+    try {
+      const pending = JSON.parse(readFileSync(pendingPath, 'utf-8'));
+      let merged = 0;
+      for (const item of output.items) {
+        if (pending[item.link]) {
+          item.summary = pending[item.link];
+          delete pending[item.link];
+          merged++;
+        }
+      }
+      // 写回剩余的（还没 sync 到的条目）
+      if (Object.keys(pending).length > 0) {
+        writeFileSync(pendingPath, JSON.stringify(pending, null, 2));
+      } else {
+        // 全部合并完，删除 pending 文件
+        const { unlinkSync } = require('fs');
+        unlinkSync(pendingPath);
+      }
+      if (merged > 0) console.log(`Merged ${merged} pending summaries`);
+    } catch (e) {
+      console.error(`Warning: pending summaries merge failed: ${e.message}`);
+    }
+  }
+
   writeFileSync(join(dataDir, 'bookmarks.json'), JSON.stringify(output, null, 2));
   console.log('Saved to data/bookmarks.json');
 }

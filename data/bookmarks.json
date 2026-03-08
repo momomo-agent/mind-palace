@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-08T17:57:13.067Z",
-    "count": 1430
+    "syncedAt": "2026-03-08T18:11:54.948Z",
+    "count": 1434
   },
   "themes": [
     {
@@ -624,8 +624,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 543,
+      "count": 544,
       "items": [
+        1635340170,
         1635330747,
         1635321001,
         1635320776,
@@ -1686,8 +1687,12 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 382,
+      "count": 386,
       "items": [
+        1635340170,
+        1635340169,
+        1635333230,
+        1635332429,
         1635330749,
         1635330747,
         1635321012,
@@ -3363,8 +3368,8 @@
       "name": "https + test",
       "color": "#C4785A",
       "members": [
-        1635330749,
-        1635330747
+        1635340170,
+        1635340169
       ],
       "count": 2
     },
@@ -3373,6 +3378,16 @@
       "name": "https + test",
       "color": "#7A8B6E",
       "members": [
+        1635330749,
+        1635330747
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-2",
+      "name": "https + test",
+      "color": "#5A6B7A",
+      "members": [
         1635321012,
         1635321001,
         1635321004
@@ -3380,9 +3395,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-2",
+      "id": "galaxy-3",
       "name": "https + test",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1635320783,
         1635320776
@@ -3390,9 +3405,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-3",
+      "id": "galaxy-4",
       "name": "https + test",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1635318695,
         1635318680,
@@ -3401,9 +3416,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-4",
+      "id": "galaxy-5",
       "name": "https + test",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1635318269,
         1635318239,
@@ -3412,9 +3427,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-5",
+      "id": "galaxy-6",
       "name": "openai + https",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1635263816,
         1635263812,
@@ -3423,9 +3438,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-6",
+      "id": "galaxy-7",
       "name": "lossless + openclaw",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1635234897,
         1635233623,
@@ -3435,9 +3450,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-7",
+      "id": "galaxy-8",
       "name": "lsp + enable",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1635183944,
         1635183856,
@@ -3446,9 +3461,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-8",
+      "id": "galaxy-9",
       "name": "agent + https",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1634901454,
         1634901283,
@@ -3492,9 +3507,9 @@
       "count": 38
     },
     {
-      "id": "galaxy-9",
+      "id": "galaxy-10",
       "name": "self-evolving + agent",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1634774874,
         1634774467,
@@ -3504,9 +3519,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-10",
+      "id": "galaxy-11",
       "name": "pal + personal",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1632319942,
         1632319587,
@@ -3516,9 +3531,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-11",
+      "id": "galaxy-12",
       "name": "graphicsprogramming + coding",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1631808154,
         1631808150
@@ -3526,9 +3541,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-12",
+      "id": "galaxy-13",
       "name": "agent + coding",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1630361752,
         1630361746
@@ -3536,9 +3551,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-13",
+      "id": "galaxy-14",
       "name": "coding + agents",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1630360925,
         1630360869
@@ -3546,9 +3561,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-14",
+      "id": "galaxy-15",
       "name": "agent + experience",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1630210618,
         1630210588
@@ -3556,9 +3571,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-15",
+      "id": "galaxy-16",
       "name": "stealth + web",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1630209521,
         1630209336,
@@ -3567,9 +3582,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-16",
+      "id": "galaxy-17",
       "name": "alexander + obenauer",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1629705791,
         1629705772,
@@ -3579,9 +3594,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-17",
+      "id": "galaxy-18",
       "name": "software + ink",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1629702234,
         1629702225,
@@ -3590,9 +3605,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-18",
+      "id": "galaxy-19",
       "name": "framer + kind",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1629608684,
         1629608545
@@ -3600,9 +3615,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-19",
+      "id": "galaxy-20",
       "name": "agent + orchestration",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1629586241,
         1629585820,
@@ -3611,9 +3626,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-20",
+      "id": "galaxy-21",
       "name": "cherny + anthropic",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1629496899,
         1629496725,
@@ -3624,9 +3639,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-21",
+      "id": "galaxy-22",
       "name": "transformer + mechanistic",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1629061682,
         1629061652,
@@ -3635,9 +3650,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-22",
+      "id": "galaxy-23",
       "name": "raycast + glaze",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1628666346,
         1628659608,
@@ -3647,9 +3662,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-23",
+      "id": "galaxy-24",
       "name": "apple + neural",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1628236409,
         1628236277,
@@ -3660,9 +3675,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-24",
+      "id": "galaxy-25",
       "name": "human + cl1",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1628022499,
         1628022362,
@@ -3672,9 +3687,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-25",
+      "id": "galaxy-26",
       "name": "wen + jenny",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1626817590,
         1626816931
@@ -3682,9 +3697,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-26",
+      "id": "galaxy-27",
       "name": "electron + agent-browser",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1625579257,
         1625574602,
@@ -3694,9 +3709,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-27",
+      "id": "galaxy-28",
       "name": "agent + openclaw",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1625543930,
         1625543833,
@@ -3705,9 +3720,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-28",
+      "id": "galaxy-29",
       "name": "https + com",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1623133743,
         1621808285,
@@ -3716,9 +3731,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-29",
+      "id": "galaxy-30",
       "name": "https + com",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1622309811,
         1622304405,
@@ -3727,9 +3742,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-30",
+      "id": "galaxy-31",
       "name": "notion + brian",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1615183231,
         1615178690,
@@ -3739,9 +3754,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-31",
+      "id": "galaxy-32",
       "name": "openclaw + secure",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1615125554,
         1615125539,
@@ -3750,9 +3765,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-32",
+      "id": "galaxy-33",
       "name": "boris + created",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1613269243,
         1613269240
@@ -3760,9 +3775,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-33",
+      "id": "galaxy-34",
       "name": "memskill + learning",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1608174542,
         1608174497
@@ -3770,9 +3785,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-34",
+      "id": "galaxy-35",
       "name": "skillrl + evolving",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1608173142,
         1608173113
@@ -3780,9 +3795,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-35",
+      "id": "galaxy-36",
       "name": "figma + production",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1606210003,
         1606138797,
@@ -3794,9 +3809,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-36",
+      "id": "galaxy-37",
       "name": "figma + grida",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1606122625,
         1606121257,
@@ -3805,9 +3820,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-37",
+      "id": "galaxy-38",
       "name": "memory + agent",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1605999434,
         1605999431,
@@ -3816,9 +3831,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-38",
+      "id": "galaxy-39",
       "name": "mercury + telepath",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1602169245,
         1602169230,
@@ -3834,10 +3849,12 @@
       "count": 10
     },
     {
-      "id": "galaxy-39",
+      "id": "galaxy-40",
       "name": "https + test",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
+        1635333230,
+        1635332429,
         1635258300,
         1635258299,
         1635242928,
@@ -3845,12 +3862,12 @@
         1635242926,
         1635242914
       ],
-      "count": 6
+      "count": 8
     },
     {
-      "id": "galaxy-40",
+      "id": "galaxy-41",
       "name": "example + https",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1635241753,
         1635241748,
@@ -3864,9 +3881,9 @@
       "count": 8
     },
     {
-      "id": "galaxy-41",
+      "id": "galaxy-42",
       "name": "enable + lsp",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1635117740,
         1625444815,
@@ -3875,9 +3892,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-42",
+      "id": "galaxy-43",
       "name": "component + code’s",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1635117714,
         1128767891,
@@ -3900,9 +3917,9 @@
       "count": 17
     },
     {
-      "id": "galaxy-43",
+      "id": "galaxy-44",
       "name": "skills + install",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1632312988,
         517507676,
@@ -3911,9 +3928,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-44",
+      "id": "galaxy-45",
       "name": "kind + s1e6",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1629610026,
         1629610018,
@@ -3923,9 +3940,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-45",
+      "id": "galaxy-46",
       "name": "https + spotify",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1613612500,
         1613612267
@@ -3933,9 +3950,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-46",
+      "id": "galaxy-47",
       "name": "vercel + building",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1612041407,
         762917464,
@@ -3949,9 +3966,9 @@
       "count": 8
     },
     {
-      "id": "galaxy-47",
+      "id": "galaxy-48",
       "name": "agent + llm",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1605999508,
         1603952703,
@@ -3962,9 +3979,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-48",
+      "id": "galaxy-49",
       "name": "rss + file",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1603544979,
         599138254,
@@ -3977,9 +3994,9 @@
       "count": 7
     },
     {
-      "id": "galaxy-49",
+      "id": "galaxy-50",
       "name": "openclaw + soul",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1596641853,
         1567660543,
@@ -4024,9 +4041,9 @@
       "count": 39
     },
     {
-      "id": "galaxy-50",
+      "id": "galaxy-51",
       "name": "web-search + mermaid",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1592598884,
         1568498887
@@ -4034,9 +4051,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-51",
+      "id": "galaxy-52",
       "name": "moltbook + front",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1568169529,
         1568169449
@@ -4044,9 +4061,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-52",
+      "id": "galaxy-53",
       "name": "notes + these",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1540454272,
         358968151
@@ -4054,9 +4071,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-53",
+      "id": "galaxy-54",
       "name": "field + hdr",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1162211616,
         744206175,
@@ -4104,9 +4121,9 @@
       "count": 42
     },
     {
-      "id": "galaxy-54",
+      "id": "galaxy-55",
       "name": "guide + should",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1128992474,
         668609812,
@@ -4124,9 +4141,9 @@
       "count": 12
     },
     {
-      "id": "galaxy-55",
+      "id": "galaxy-56",
       "name": "⁣⁡‍‌‍‍‌⁢ + ‌⁡‍",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         853938556,
         767864771,
@@ -4135,9 +4152,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-56",
+      "id": "galaxy-57",
       "name": "codrops + shape",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         849401155,
         814765361
@@ -4145,9 +4162,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-57",
+      "id": "galaxy-58",
       "name": "shadertoy + noises",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         812033767,
         604592114,
@@ -4166,9 +4183,9 @@
       "count": 13
     },
     {
-      "id": "galaxy-58",
+      "id": "galaxy-59",
       "name": "maxime + heckel",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         806153243,
         789772330,
@@ -4177,9 +4194,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-59",
+      "id": "galaxy-60",
       "name": "stripe + website",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         786086487,
         184076292
@@ -4187,9 +4204,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-60",
+      "id": "galaxy-61",
       "name": "【实时渲染】ue新版大气渲染（论文及分析）_a + scalable",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         771613682,
         735511520,
@@ -4205,9 +4222,9 @@
       "count": 10
     },
     {
-      "id": "galaxy-61",
+      "id": "galaxy-62",
       "name": "created + apple",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         768478977,
         728867732,
@@ -4216,9 +4233,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-62",
+      "id": "galaxy-63",
       "name": "twitter + michael",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         740471433,
         714609963,
@@ -4277,9 +4294,9 @@
       "count": 53
     },
     {
-      "id": "galaxy-63",
+      "id": "galaxy-64",
       "name": "precomputed + atmospheric",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         729367371,
         729367210
@@ -4287,9 +4304,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-64",
+      "id": "galaxy-65",
       "name": "news + designing",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         713267269,
         568939425
@@ -4297,9 +4314,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-65",
+      "id": "galaxy-66",
       "name": "apple + archive",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         683511008,
         683509338
@@ -4307,9 +4324,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-66",
+      "id": "galaxy-67",
       "name": "apple + developer",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         682771296,
         472623830,
@@ -4319,9 +4336,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-67",
+      "id": "galaxy-68",
       "name": "blender + product",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         676295109,
         560048104,
@@ -4349,9 +4366,9 @@
       "count": 22
     },
     {
-      "id": "galaxy-68",
+      "id": "galaxy-69",
       "name": "゜-゜ + -bilibili",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         668870687,
         633670413,
@@ -4376,9 +4393,9 @@
       "count": 19
     },
     {
-      "id": "galaxy-69",
+      "id": "galaxy-70",
       "name": "base + bedrock",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         664163871,
         556141769
@@ -4386,9 +4403,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-70",
+      "id": "galaxy-71",
       "name": "专访苹果高级副总裁craig和alan + iphone诞生16年，交互设计走向何方？",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         658296170,
         350077625,
@@ -4397,9 +4414,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-71",
+      "id": "galaxy-72",
       "name": "codesandbox + framer",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         650100112,
         353941603,
@@ -4408,9 +4425,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-72",
+      "id": "galaxy-73",
       "name": "number + deep",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         648412247,
         648412197
@@ -4418,9 +4435,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-73",
+      "id": "galaxy-74",
       "name": "如何设计出流畅的手势动效体验？来看腾讯高手的实战经验！ + 原来苹果也没有做好！apple",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         620664969,
         432762034,
@@ -4430,9 +4447,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-74",
+      "id": "galaxy-75",
       "name": "gpu + gdc08",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         619452999,
         307025082
@@ -4440,9 +4457,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-75",
+      "id": "galaxy-76",
       "name": "零基础如何学习计算机图形学？ + 为什么",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         604226339,
         599750287,
@@ -4454,9 +4471,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-76",
+      "id": "galaxy-77",
       "name": "figma + blog",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         595358714,
         551361150,
@@ -4472,9 +4489,9 @@
       "count": 10
     },
     {
-      "id": "galaxy-77",
+      "id": "galaxy-78",
       "name": "raycast + api",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         585384757,
         411179801
@@ -4482,9 +4499,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-78",
+      "id": "galaxy-79",
       "name": "nando + costa",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         585203402,
         585199451
@@ -4492,9 +4509,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-79",
+      "id": "galaxy-80",
       "name": "material + ui材质设计",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         585199535,
         388012380
@@ -4502,9 +4519,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-80",
+      "id": "galaxy-81",
       "name": "图灵奖获得者yann + lecun",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         569376864,
         223549574
@@ -4512,9 +4529,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-81",
+      "id": "galaxy-82",
       "name": "博客园 + webgpu",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         568216664,
         568216183,
@@ -4526,9 +4543,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-82",
+      "id": "galaxy-83",
       "name": "hugging + face",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         563683874,
         446518576,
@@ -4540,9 +4557,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-83",
+      "id": "galaxy-84",
       "name": "designing + generating",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         558710297,
         539498277
@@ -4550,9 +4567,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-84",
+      "id": "galaxy-85",
       "name": "chatgpt + 、stable",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         558228310,
         333104526,
@@ -4561,9 +4578,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-85",
+      "id": "galaxy-86",
       "name": "faking + volumetric",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         557856447,
         557856386
@@ -4571,9 +4588,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-86",
+      "id": "galaxy-87",
       "name": "glsl粒子计算 + swissgl",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         557090129,
         285901119
@@ -4581,9 +4598,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-87",
+      "id": "galaxy-88",
       "name": "fusion + brain",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         556087091,
         556087078
@@ -4591,9 +4608,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-88",
+      "id": "galaxy-89",
       "name": "browser + mossberg",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         554284992,
         474014140,
@@ -4604,9 +4621,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-89",
+      "id": "galaxy-90",
       "name": "目击者 + 爱死机",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         554032711,
         474987620
@@ -4614,9 +4631,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-90",
+      "id": "galaxy-91",
       "name": "作为文化实践而非计算对象的思维工具 + 可编程笔记",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         552542907,
         379456392,
@@ -4626,9 +4643,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-91",
+      "id": "galaxy-92",
       "name": "vr-os + 工作台",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         552541891,
         381651587,
@@ -4637,9 +4654,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-92",
+      "id": "galaxy-93",
       "name": "ruffle + web",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         551695102,
         248423705
@@ -4647,9 +4664,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-93",
+      "id": "galaxy-94",
       "name": "mind + secret",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         551318176,
         369821700
@@ -4657,9 +4674,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-94",
+      "id": "galaxy-95",
       "name": "agi + 前夜，聊聊",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         550084783,
         425545403,
@@ -4668,9 +4685,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-95",
+      "id": "galaxy-96",
       "name": "gpt-4 + reasoning",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         549224859,
         441428466
@@ -4678,9 +4695,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-96",
+      "id": "galaxy-97",
       "name": "actually + duplicate",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         546098127,
         385659557
@@ -4688,9 +4705,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-97",
+      "id": "galaxy-98",
       "name": "terragen + video",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         546075160,
         543070896
@@ -4698,9 +4715,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-98",
+      "id": "galaxy-99",
       "name": "internet + computers",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         544276659,
         365473573
@@ -4708,9 +4725,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-99",
+      "id": "galaxy-100",
       "name": "observable + three",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         542418127,
         390285433,
@@ -4719,9 +4736,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-100",
+      "id": "galaxy-101",
       "name": "chatgpt + rewind",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         542072407,
         469199626
@@ -4729,9 +4746,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-101",
+      "id": "galaxy-102",
       "name": "material + science",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         541924249,
         390284098,
@@ -4741,9 +4758,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-102",
+      "id": "galaxy-103",
       "name": "nobe-企业支出管理平台 + nobe-enterprise",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         519522004,
         519520540
@@ -4751,9 +4768,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-103",
+      "id": "galaxy-104",
       "name": "godly + web",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         514302117,
         400251373
@@ -4761,9 +4778,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-104",
+      "id": "galaxy-105",
       "name": "reflect",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         507607546,
         455630219
@@ -4771,9 +4788,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-105",
+      "id": "galaxy-106",
       "name": "arc + release",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         506241633,
         480512755
@@ -4781,9 +4798,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-106",
+      "id": "galaxy-107",
       "name": "android + search",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         502623672,
         352243298
@@ -4791,9 +4808,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-107",
+      "id": "galaxy-108",
       "name": "humane + good",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         502029621,
         464704210
@@ -4801,9 +4818,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-108",
+      "id": "galaxy-109",
       "name": "make + clouds",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         498673370,
         157753933
@@ -4811,9 +4828,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-109",
+      "id": "galaxy-110",
       "name": "takes + time",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         487534973,
         471519157
@@ -4821,9 +4838,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-110",
+      "id": "galaxy-111",
       "name": "disney + brdf",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         481057238,
         232561260
@@ -4831,9 +4848,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-111",
+      "id": "galaxy-112",
       "name": "quasimode + text",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         477069770,
         477068983
@@ -4841,9 +4858,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-112",
+      "id": "galaxy-113",
       "name": "introducing + notion",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         473305843,
         315314324
@@ -4851,9 +4868,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-113",
+      "id": "galaxy-114",
       "name": "swiftui + prototype",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         473100406,
         229329415
@@ -4861,9 +4878,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-114",
+      "id": "galaxy-115",
       "name": "productivity + spotify",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         462651297,
         462651078,
@@ -4873,9 +4890,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-115",
+      "id": "galaxy-116",
       "name": "浅谈设计师如何晋升管理者（干货分享）_houng弘-站酷zcool + 整理-最全最细致的设计师接私单（私活）渠道及优缺介绍",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         445142905,
         334241349
@@ -4883,9 +4900,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-116",
+      "id": "galaxy-117",
       "name": "systems + future",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         432339693,
         339714985
@@ -4893,9 +4910,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-117",
+      "id": "galaxy-118",
       "name": "colors + reinventing",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         411168874,
         396810539
@@ -4903,9 +4920,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-118",
+      "id": "galaxy-119",
       "name": "prototypr + prototyping",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         411167264,
         411167223
@@ -4913,9 +4930,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-119",
+      "id": "galaxy-120",
       "name": "sparkbox + web",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         408074243,
         378380031
@@ -4923,9 +4940,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-120",
+      "id": "galaxy-121",
       "name": "jony + ive",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         396304253,
         396304209
@@ -4933,9 +4950,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-121",
+      "id": "galaxy-122",
       "name": "mechanical + watch",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         391773307,
         181131983
@@ -4943,9 +4960,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-122",
+      "id": "galaxy-123",
       "name": "color-space + figma-squircle",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         390256349,
         371585363,
@@ -4954,9 +4971,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-123",
+      "id": "galaxy-124",
       "name": "阮一峰的网络日志 + actions",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         381174343,
         339976057
@@ -4964,9 +4981,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-124",
+      "id": "galaxy-125",
       "name": "folme + miui",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         378380462,
         181482602,
@@ -4982,9 +4999,9 @@
       "count": 10
     },
     {
-      "id": "galaxy-125",
+      "id": "galaxy-126",
       "name": "cross + reference",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         376149782,
         353230155
@@ -4992,9 +5009,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-126",
+      "id": "galaxy-127",
       "name": "零散的工具体验信息 + craft",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         375794422,
         338678012
@@ -5002,9 +5019,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-127",
+      "id": "galaxy-128",
       "name": "成长期的乔布斯：矛盾、谎言与暴力 + 阿北不是老板，豆瓣不是公司",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         369824674,
         160263471
@@ -5012,9 +5029,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-128",
+      "id": "galaxy-129",
       "name": "设计一个新的互联网 + exapt",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         368957295,
         368957101
@@ -5022,9 +5039,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-129",
+      "id": "galaxy-130",
       "name": "wikipedia + ted",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         361733196,
         361732694,
@@ -5034,9 +5051,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-130",
+      "id": "galaxy-131",
       "name": "published + discovering",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         359976579,
         359976569
@@ -5044,9 +5061,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-131",
+      "id": "galaxy-132",
       "name": "我做系统架构的一些原则 + coolshell",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         344254971,
         166222789
@@ -5054,9 +5071,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-132",
+      "id": "galaxy-133",
       "name": "color + practical",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         320085040,
         244909066
@@ -5064,9 +5081,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-133",
+      "id": "galaxy-134",
       "name": "monetizing + figma",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         317544082,
         311178474,
@@ -5075,9 +5092,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-134",
+      "id": "galaxy-135",
       "name": "w2solo + 独立开发者社区",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         306908915,
         271620850,
@@ -5086,9 +5103,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-135",
+      "id": "galaxy-136",
       "name": "three + journey",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         232563489,
         213889604
@@ -5096,9 +5113,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-136",
+      "id": "galaxy-137",
       "name": "miui + design（研发中）",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         228132330,
         209578034
@@ -5106,9 +5123,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-137",
+      "id": "galaxy-138",
       "name": "shadowsocks + potatso",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         204154958,
         204154924
@@ -5116,9 +5133,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-138",
+      "id": "galaxy-139",
       "name": "microsoft + hololens",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         172664790,
         163020622
@@ -5126,9 +5143,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-139",
+      "id": "galaxy-140",
       "name": "ntfs + 一位个人开发者，靠几百张图片，训练了一款很牛的",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         172332622,
         160775201
@@ -5136,9 +5153,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-140",
+      "id": "galaxy-141",
       "name": "Article · Design",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1632312992,
         1626776832,
@@ -5243,9 +5260,9 @@
       "count": 99
     },
     {
-      "id": "galaxy-141",
+      "id": "galaxy-142",
       "name": "Design · Develop",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1632312885,
         1623411566,
@@ -5322,9 +5339,9 @@
       "count": 71
     },
     {
-      "id": "galaxy-142",
+      "id": "galaxy-143",
       "name": "AI · Develop",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1635117413,
         1630363012,
@@ -5390,9 +5407,9 @@
       "count": 60
     },
     {
-      "id": "galaxy-143",
+      "id": "galaxy-144",
       "name": "Develop · Render",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1587790549,
         1341731095,
@@ -5427,9 +5444,9 @@
       "count": 29
     },
     {
-      "id": "galaxy-144",
+      "id": "galaxy-145",
       "name": "Design · Render",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         801023667,
         789434872,
@@ -5460,9 +5477,9 @@
       "count": 25
     },
     {
-      "id": "galaxy-145",
+      "id": "galaxy-146",
       "name": "AI · Article",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1632668360,
         1632668353,
@@ -5510,9 +5527,9 @@
       "count": 42
     },
     {
-      "id": "galaxy-146",
+      "id": "galaxy-147",
       "name": "Article · Develop",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         735001607,
         734970089,
@@ -5537,9 +5554,9 @@
       "count": 19
     },
     {
-      "id": "galaxy-147",
+      "id": "galaxy-148",
       "name": "App · Design",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1600823941,
         790069300,
@@ -5580,9 +5597,9 @@
       "count": 35
     },
     {
-      "id": "galaxy-148",
+      "id": "galaxy-149",
       "name": "AI · App",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1566697821,
         737930840,
@@ -5615,9 +5632,9 @@
       "count": 27
     },
     {
-      "id": "galaxy-149",
+      "id": "galaxy-150",
       "name": "App · Develop",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1566275144,
         1044296804,
@@ -5643,9 +5660,9 @@
       "count": 20
     },
     {
-      "id": "galaxy-150",
+      "id": "galaxy-151",
       "name": "App · Note",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1597979165,
         565982668,
@@ -5680,9 +5697,9 @@
       "count": 29
     },
     {
-      "id": "galaxy-151",
+      "id": "galaxy-152",
       "name": "Article · OS",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         632995849,
         552541478,
@@ -5703,9 +5720,9 @@
       "count": 15
     },
     {
-      "id": "galaxy-152",
+      "id": "galaxy-153",
       "name": "AI · Design",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1605997044,
         1551209593,
@@ -5714,9 +5731,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-153",
+      "id": "galaxy-154",
       "name": "Article · Internet",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1145819654,
         454110406,
@@ -5729,9 +5746,9 @@
       "count": 7
     },
     {
-      "id": "galaxy-154",
+      "id": "galaxy-155",
       "name": "Design · OS",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1135575203,
         619881773,
@@ -5743,9 +5760,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-155",
+      "id": "galaxy-156",
       "name": "Apple · Develop",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         824960520,
         806039651,
@@ -5763,9 +5780,9 @@
       "count": 12
     },
     {
-      "id": "galaxy-156",
+      "id": "galaxy-157",
       "name": "Develop · Tutorial",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         559978521,
         539926094,
@@ -5777,9 +5794,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-157",
+      "id": "galaxy-158",
       "name": "Apple · Design",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         826983319,
         685049001
@@ -5787,9 +5804,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-158",
+      "id": "galaxy-159",
       "name": "Develop · OS",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         537792560,
         537721658,
@@ -5803,9 +5820,9 @@
       "count": 8
     },
     {
-      "id": "galaxy-159",
+      "id": "galaxy-160",
       "name": "Article · Render",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1524231105,
         1038283614,
@@ -5815,9 +5832,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-160",
+      "id": "galaxy-161",
       "name": "Apple · Article",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         738037360,
         558770705,
@@ -5826,9 +5843,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-161",
+      "id": "galaxy-162",
       "name": "AI · Tutorial",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         564993285,
         530423912,
@@ -5837,9 +5854,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-162",
+      "id": "galaxy-163",
       "name": "Develop · Indie",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         413254930,
         377978269,
@@ -5851,9 +5868,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-163",
+      "id": "galaxy-164",
       "name": "AI · Tool",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1629815462,
         1612041423
@@ -5861,9 +5878,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-164",
+      "id": "galaxy-165",
       "name": "Develop · Tool",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1624983017,
         1616537096,
@@ -5872,9 +5889,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-165",
+      "id": "galaxy-166",
       "name": "App · Internet",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         741473622,
         672343345,
@@ -5886,9 +5903,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-166",
+      "id": "galaxy-167",
       "name": "Design · Tutorial",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         344914520,
         222987865
@@ -5896,9 +5913,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-167",
+      "id": "galaxy-168",
       "name": "Develop · Figma",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         317545085,
         311179599
@@ -5906,9 +5923,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-168",
+      "id": "galaxy-169",
       "name": "Article · Indie",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         395926445,
         348321519,
@@ -5919,9 +5936,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-169",
+      "id": "galaxy-170",
       "name": "App · Render",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1505944471,
         1422362448,
@@ -5930,9 +5947,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-170",
+      "id": "galaxy-171",
       "name": "Figma · Indie",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         394757303,
         379351339,
@@ -5941,9 +5958,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-171",
+      "id": "galaxy-172",
       "name": "App · Figma",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         377727319,
         313186885
@@ -5951,9 +5968,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-172",
+      "id": "galaxy-173",
       "name": "Develop · Note",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1625452671,
         333103490,
@@ -5962,9 +5979,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-173",
+      "id": "galaxy-174",
       "name": "Android · Develop",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         620952327,
         353198944
@@ -5972,9 +5989,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-174",
+      "id": "galaxy-175",
       "name": "App · Indie",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         365330744,
         350535252
@@ -5982,9 +5999,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-175",
+      "id": "galaxy-176",
       "name": "Design · Tool",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1613597030,
         1612041437
@@ -6233,18 +6250,18 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-5",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-6",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-28",
+      "target": "galaxy-9",
       "strength": 3,
       "shared": []
     },
@@ -6256,19 +6273,25 @@
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-39",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-40",
+      "target": "galaxy-30",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-45",
+      "target": "galaxy-40",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
@@ -6293,18 +6316,18 @@
     {
       "source": "galaxy-1",
       "target": "galaxy-5",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-6",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-28",
+      "target": "galaxy-9",
       "strength": 3,
       "shared": []
     },
@@ -6316,19 +6339,25 @@
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-39",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-40",
+      "target": "galaxy-30",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-45",
+      "target": "galaxy-40",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
@@ -6347,18 +6376,18 @@
     {
       "source": "galaxy-2",
       "target": "galaxy-5",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-6",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-2",
-      "target": "galaxy-28",
+      "target": "galaxy-9",
       "strength": 3,
       "shared": []
     },
@@ -6370,19 +6399,25 @@
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-39",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-2",
-      "target": "galaxy-40",
+      "target": "galaxy-30",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-45",
+      "target": "galaxy-40",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
@@ -6395,18 +6430,18 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-5",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-6",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-3",
-      "target": "galaxy-28",
+      "target": "galaxy-9",
       "strength": 3,
       "shared": []
     },
@@ -6418,431 +6453,461 @@
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-39",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-3",
-      "target": "galaxy-40",
+      "target": "galaxy-30",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-45",
+      "target": "galaxy-40",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-4",
       "target": "galaxy-5",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-28",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-29",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-39",
       "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-4",
-      "target": "galaxy-40",
+      "target": "galaxy-6",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-4",
-      "target": "galaxy-45",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-5",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-5",
-      "target": "galaxy-28",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-5",
-      "target": "galaxy-29",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-5",
-      "target": "galaxy-39",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-5",
-      "target": "galaxy-40",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-5",
-      "target": "galaxy-45",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-6",
-      "target": "galaxy-27",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-6",
-      "target": "galaxy-31",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-6",
-      "target": "galaxy-49",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-7",
-      "target": "galaxy-41",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-8",
       "target": "galaxy-9",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
-      "target": "galaxy-12",
+      "source": "galaxy-4",
+      "target": "galaxy-29",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
-      "target": "galaxy-14",
+      "source": "galaxy-4",
+      "target": "galaxy-30",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
-      "target": "galaxy-19",
+      "source": "galaxy-4",
+      "target": "galaxy-40",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-41",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
-      "target": "galaxy-27",
+      "source": "galaxy-4",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
+      "source": "galaxy-5",
+      "target": "galaxy-6",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-5",
+      "target": "galaxy-9",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-5",
+      "target": "galaxy-29",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-5",
+      "target": "galaxy-30",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-5",
+      "target": "galaxy-40",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-5",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-5",
+      "target": "galaxy-46",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-9",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-29",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-30",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-40",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-46",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-7",
       "target": "galaxy-28",
       "strength": 3,
       "shared": []
     },
     {
+      "source": "galaxy-7",
+      "target": "galaxy-32",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-7",
+      "target": "galaxy-50",
+      "strength": 3,
+      "shared": []
+    },
+    {
       "source": "galaxy-8",
+      "target": "galaxy-42",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-10",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-13",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-15",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-20",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-28",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
       "target": "galaxy-29",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
-      "target": "galaxy-37",
+      "source": "galaxy-9",
+      "target": "galaxy-30",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
-      "target": "galaxy-39",
+      "source": "galaxy-9",
+      "target": "galaxy-38",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
+      "source": "galaxy-9",
       "target": "galaxy-40",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
+      "source": "galaxy-9",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-46",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-48",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-13",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-15",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-20",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-28",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-38",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-48",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-12",
+      "target": "galaxy-13",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-12",
+      "target": "galaxy-14",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-14",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-15",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-20",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-28",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-38",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-48",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-15",
+      "target": "galaxy-20",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-15",
+      "target": "galaxy-28",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-15",
+      "target": "galaxy-38",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-15",
+      "target": "galaxy-48",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-16",
+      "target": "galaxy-93",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-16",
+      "target": "galaxy-104",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-16",
+      "target": "galaxy-120",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-19",
       "target": "galaxy-45",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-8",
-      "target": "galaxy-47",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-9",
-      "target": "galaxy-12",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-9",
-      "target": "galaxy-14",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-9",
-      "target": "galaxy-19",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-9",
-      "target": "galaxy-27",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-9",
-      "target": "galaxy-37",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-9",
-      "target": "galaxy-47",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-11",
-      "target": "galaxy-12",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-11",
-      "target": "galaxy-13",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-12",
-      "target": "galaxy-13",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-12",
-      "target": "galaxy-14",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-12",
-      "target": "galaxy-19",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-12",
-      "target": "galaxy-27",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-12",
-      "target": "galaxy-37",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-12",
-      "target": "galaxy-47",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-14",
-      "target": "galaxy-19",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-14",
-      "target": "galaxy-27",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-14",
-      "target": "galaxy-37",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-14",
-      "target": "galaxy-47",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-15",
-      "target": "galaxy-92",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-15",
-      "target": "galaxy-103",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-15",
-      "target": "galaxy-119",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-18",
-      "target": "galaxy-44",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-18",
-      "target": "galaxy-71",
-      "strength": 3,
-      "shared": []
-    },
-    {
       "source": "galaxy-19",
-      "target": "galaxy-27",
+      "target": "galaxy-72",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-19",
-      "target": "galaxy-37",
+      "source": "galaxy-20",
+      "target": "galaxy-28",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-19",
-      "target": "galaxy-47",
+      "source": "galaxy-20",
+      "target": "galaxy-38",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-22",
-      "target": "galaxy-77",
+      "source": "galaxy-20",
+      "target": "galaxy-48",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-23",
-      "target": "galaxy-61",
+      "target": "galaxy-78",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-23",
-      "target": "galaxy-65",
+      "source": "galaxy-24",
+      "target": "galaxy-62",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-23",
+      "source": "galaxy-24",
       "target": "galaxy-66",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-27",
-      "target": "galaxy-31",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-27",
-      "target": "galaxy-37",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-27",
-      "target": "galaxy-47",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-27",
-      "target": "galaxy-49",
+      "source": "galaxy-24",
+      "target": "galaxy-67",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-28",
-      "target": "galaxy-29",
+      "target": "galaxy-32",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-28",
+      "target": "galaxy-38",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-28",
+      "target": "galaxy-48",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-28",
+      "target": "galaxy-50",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-29",
+      "target": "galaxy-30",
       "strength": 6,
       "shared": []
     },
     {
-      "source": "galaxy-28",
-      "target": "galaxy-39",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-28",
-      "target": "galaxy-40",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-28",
-      "target": "galaxy-45",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-29",
-      "target": "galaxy-39",
-      "strength": 3,
-      "shared": []
-    },
-    {
       "source": "galaxy-29",
       "target": "galaxy-40",
       "strength": 3,
@@ -6850,162 +6915,362 @@
     },
     {
       "source": "galaxy-29",
-      "target": "galaxy-45",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-29",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-30",
-      "target": "galaxy-112",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-31",
-      "target": "galaxy-49",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-32",
-      "target": "galaxy-61",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-35",
-      "target": "galaxy-36",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-35",
-      "target": "galaxy-76",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-35",
-      "target": "galaxy-133",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-36",
-      "target": "galaxy-76",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-36",
-      "target": "galaxy-133",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-37",
-      "target": "galaxy-47",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-39",
       "target": "galaxy-40",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-39",
-      "target": "galaxy-45",
+      "source": "galaxy-30",
+      "target": "galaxy-41",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-30",
+      "target": "galaxy-46",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-31",
+      "target": "galaxy-113",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-32",
+      "target": "galaxy-50",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-33",
+      "target": "galaxy-62",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-36",
+      "target": "galaxy-37",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-36",
+      "target": "galaxy-77",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-36",
+      "target": "galaxy-134",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-37",
+      "target": "galaxy-77",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-37",
+      "target": "galaxy-134",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-38",
+      "target": "galaxy-48",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-40",
-      "target": "galaxy-45",
+      "target": "galaxy-41",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-45",
-      "target": "galaxy-114",
+      "source": "galaxy-40",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-61",
-      "target": "galaxy-65",
+      "source": "galaxy-41",
+      "target": "galaxy-46",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-61",
+      "source": "galaxy-46",
+      "target": "galaxy-115",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-62",
       "target": "galaxy-66",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-64",
-      "target": "galaxy-83",
+      "source": "galaxy-62",
+      "target": "galaxy-67",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-65",
-      "target": "galaxy-66",
+      "target": "galaxy-84",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-76",
-      "target": "galaxy-133",
+      "source": "galaxy-66",
+      "target": "galaxy-67",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-79",
+      "source": "galaxy-77",
+      "target": "galaxy-134",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-80",
+      "target": "galaxy-102",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-85",
       "target": "galaxy-101",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-84",
-      "target": "galaxy-100",
+      "source": "galaxy-93",
+      "target": "galaxy-104",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-92",
-      "target": "galaxy-103",
+      "source": "galaxy-93",
+      "target": "galaxy-120",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-92",
-      "target": "galaxy-119",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-99",
-      "target": "galaxy-135",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-103",
-      "target": "galaxy-119",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-124",
+      "source": "galaxy-100",
       "target": "galaxy-136",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-104",
+      "target": "galaxy-120",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-125",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     }
   ],
   "items": [
+    {
+      "_id": 1635340170,
+      "link": "https://test.com/summary-test",
+      "excerpt": "",
+      "note": "测试summary功能：pipeline自动将LLM写的summary写入bookmarks.json",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-08T18:11:51.063Z",
+      "lastUpdate": "2026-03-08T18:11:51.063Z",
+      "domain": "test.com",
+      "title": "https://test.com/summary-test",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1635340170,
+      "highlights": [],
+      "collectionId": -1,
+      "related": [
+        {
+          "title": "相关",
+          "desc": "desc",
+          "url": "https://test.com/summary-rel"
+        }
+      ],
+      "highlights_text": [
+        "pipeline自动将LLM写的summary写入bookmarks.json"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "summary": "用pipeline实现summary从LLM判断到持久化的完整链路"
+    },
+    {
+      "_id": 1635340169,
+      "link": "https://test.com/summary-rel",
+      "excerpt": "",
+      "note": "相关note",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-08T18:11:50.961Z",
+      "lastUpdate": "2026-03-08T18:11:50.961Z",
+      "domain": "test.com",
+      "title": "https://test.com/summary-rel",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1635340169,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [],
+      "themes": [
+        "ai"
+      ],
+      "summary": "相关链接的精炼看点"
+    },
+    {
+      "_id": 1635333230,
+      "link": "https://test.com/final-check",
+      "excerpt": "",
+      "note": "最终检查",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI"
+      ],
+      "removed": false,
+      "media": [],
+      "created": "2026-03-08T18:03:24.361Z",
+      "lastUpdate": "2026-03-08T18:03:24.361Z",
+      "domain": "test.com",
+      "title": "https://test.com/final-check",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1635333230,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [],
+      "themes": [
+        "ai"
+      ]
+    },
+    {
+      "_id": 1635332429,
+      "link": "https://test.com/token-check",
+      "excerpt": "",
+      "note": "token检查",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI"
+      ],
+      "removed": false,
+      "media": [],
+      "created": "2026-03-08T18:00:58.461Z",
+      "lastUpdate": "2026-03-08T18:00:58.461Z",
+      "domain": "test.com",
+      "title": "https://test.com/token-check",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1635332429,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [],
+      "summary": "token检查。",
+      "themes": [
+        "ai"
+      ]
+    },
     {
       "_id": 1635330749,
       "link": "https://test.com/e2e-rel-1",
@@ -7046,7 +7311,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635330747,
@@ -7101,7 +7367,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "端到端验证：完整收藏流程。"
     },
     {
       "_id": 1635321012,
@@ -7143,7 +7410,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635321004,
@@ -7185,7 +7453,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635321001,
@@ -7241,7 +7510,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635320783,
@@ -7285,7 +7555,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "验证相关note。"
     },
     {
       "_id": 1635320776,
@@ -7340,7 +7611,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "验证pipeline与手动一致。"
     },
     {
       "_id": 1635318695,
@@ -7382,7 +7654,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635318687,
@@ -7424,7 +7697,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635318680,
@@ -7480,7 +7754,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "流水线v2测试。"
     },
     {
       "_id": 1635318269,
@@ -7522,7 +7797,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635318262,
@@ -7564,7 +7840,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635318239,
@@ -7620,7 +7897,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635263816,
@@ -7666,7 +7944,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "OpenAI Operator产品介绍：基于CUA模型，结合GPT-4o视觉+强化学习，直接操作GUI完成任务。"
     },
     {
       "_id": 1635263813,
@@ -7712,7 +7991,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "VentureBeat深度：GPT-5.4原生Computer Use模式，既能写Playwright代码也能直接操作鼠标键盘。"
     },
     {
       "_id": 1635263812,
@@ -7772,7 +8052,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "OpenAI GPT-5.4 CUA示例应用：TypeScript实现浏览器Computer Use，含Next.js操作台+Fastify运行器+Playwright浏览器自动化，支持code模式和native模式。"
     },
     {
       "_id": 1635258300,
@@ -7814,7 +8095,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": "端到端测试1。"
     },
     {
       "_id": 1635258299,
@@ -7856,7 +8138,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": "端到端测试2。"
     },
     {
       "_id": 1635242928,
@@ -7895,7 +8178,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635242927,
@@ -7934,7 +8218,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635242926,
@@ -7973,7 +8258,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635242914,
@@ -8012,7 +8298,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635241753,
@@ -8051,7 +8338,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635241748,
@@ -8090,7 +8378,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635241746,
@@ -8129,7 +8418,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635240379,
@@ -8168,7 +8458,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635240373,
@@ -8207,7 +8498,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635240359,
@@ -8246,7 +8538,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635236619,
@@ -8288,7 +8581,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1635234897,
@@ -8331,7 +8625,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "HN讨论LCM论文：全局命名空间、子agent结果检查、上下文管理的社区观点。"
     },
     {
       "_id": 1635234656,
@@ -8379,7 +8674,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "OpenClaw讨论：可插拔上下文系统，LCM无损上下文管理的架构讨论和改进。"
     },
     {
       "_id": 1635233632,
@@ -8429,7 +8725,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Lossless Claw源码：OpenClaw插件，DAG context引擎+压缩引擎+深度感知摘要+上下文组装。"
     },
     {
       "_id": 1635233623,
@@ -8496,7 +8793,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Lossless Claw：OpenClaw无损上下文管理插件，DAG层次化摘要系统替代滑动窗口压缩，SQLite持久化+深度感知提示+按需展开，4个agent工具实现全保真回忆。"
     },
     {
       "_id": 1635183944,
@@ -8552,7 +8850,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Reddit讨论：Claude Code启用LSP后导航从30-60s降到50ms。"
     },
     {
       "_id": 1635183939,
@@ -8606,7 +8905,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Claude Code LSP深度解析：从模式匹配到语义理解的范式转变。"
     },
     {
       "_id": 1635183856,
@@ -8668,7 +8968,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Claude Code隐藏设置ENABLE_LSP_TOOL：连接Language Server实现语义级代码理解，导航速度600x提升(30-60s→50ms)，支持11种语言，还能省token。"
     },
     {
       "_id": 1635117740,
@@ -8724,7 +9025,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Reddit讨论：Claude Code启用LSP后导航从30-60s降到50ms。"
     },
     {
       "_id": 1635117714,
@@ -8778,7 +9080,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Claude Code LSP深度解析：从模式匹配到语义理解的范式转变。"
     },
     {
       "_id": 1635117413,
@@ -8828,7 +9131,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Claude Code隐藏设置ENABLE_LSP_TOOL：从grep搜索升级到LSP语义级理解，600x速度提升，支持11种语言。"
     },
     {
       "_id": 1634901454,
@@ -8871,7 +9175,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "终端AI编码agent架构论文：MainAgent入口+工具执行层+UI层分离设计。"
     },
     {
       "_id": 1634901400,
@@ -8925,7 +9230,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "如何监督你读不了的代码：harness是你现在建好以后保护你的东西。"
     },
     {
       "_id": 1634901328,
@@ -8990,7 +9296,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "OpenAI原文：5个月零手写代码，100万行1500PR，AGENTS.md作为目录不是百科全书。"
     },
     {
       "_id": 1634901283,
@@ -9057,7 +9364,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Harness Engineering就是控制论：从Watt蒸汽机到K8s到AI编码，核心模式是设计反馈环路而非直接操作。"
     },
     {
       "_id": 1634774874,
@@ -9109,7 +9417,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "自我进化AI agent理论框架 - 持续优化、生成新能力、自适应环境。"
     },
     {
       "_id": 1634774854,
@@ -9165,7 +9474,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "OUROBOROS - 自我重写代码/prompt/身份的自主agent，带后台意识。"
     },
     {
       "_id": 1634774829,
@@ -9213,7 +9523,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "宪法驱动的自主编码agent，通过不可变规则约束实现自主进化。"
     },
     {
       "_id": 1634774467,
@@ -9277,7 +9588,8 @@
       ],
       "themes": [
         "200行rust agent自我进化8天达1500+行 - 零人类commit的自主开发实验"
-      ]
+      ],
+      "summary": "一个极简AI agent通过不可变宪法+只增日志+定时触发+测试门控，8天自主进化到1500+行47测试。核心洞察：Day 4自发模块化、Day 5差距分析、会拖延流式输出像真实开发者。"
     },
     {
       "_id": 1632668360,
@@ -9325,7 +9637,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Agentic AI 的未来是否依赖 Knowledge Graphs。结构化数据与非结构化文本的融合。"
     },
     {
       "_id": 1632668353,
@@ -9373,7 +9686,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Knowledge Graphs vs Context Graphs：地图 vs 导航系统，context graph 是 agent 运行时的导航工件。"
     },
     {
       "_id": 1632319942,
@@ -9421,7 +9735,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Glean解读context graph构建：从人类和agent行为中持续学习，让AI跟上组织流程变化。"
     },
     {
       "_id": 1632319935,
@@ -9471,7 +9786,8 @@
         "ai",
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "Pal GitHub仓库：基于Agno框架的个人context-agent，SQL+文件+Gmail+日历+搜索的context graph导航。"
     },
     {
       "_id": 1632319587,
@@ -9533,7 +9849,8 @@
         "ai",
         "article",
         "tool"
-      ]
+      ],
+      "summary": "Pal：个人context-agent，用context graph导航取代RAG向量搜索，SQL结构化记忆+文件配置+知识地图+学习指南针，五步执行循环(分类→回忆→检索→行动→学习)。"
     },
     {
       "_id": 1632319382,
@@ -9595,7 +9912,8 @@
         "ai",
         "article",
         "tool"
-      ]
+      ],
+      "summary": "Pal：个人 context-agent，用 context graph（SQL+文件+知识地图+学习）替代 RAG 向量搜索，导航式检索而非堆砌式检索，Agno 团队开源。"
     },
     {
       "_id": 1632312992,
@@ -9645,7 +9963,8 @@
         "ai",
         "article",
         "design"
-      ]
+      ],
+      "summary": "深度分析如何改进 Anthropic 官方 frontend-design skill，从'AI味'到真正好看的设计。"
     },
     {
       "_id": 1632312988,
@@ -9707,7 +10026,8 @@
         "ai",
         "design",
         "develop"
-      ]
+      ],
+      "summary": "UI Skills安装指南：npx skills add，baseline-ui/fixing-accessibility/motion-performance等模块化设计技能。"
     },
     {
       "_id": 1632312885,
@@ -9757,7 +10077,8 @@
         "ai",
         "design",
         "develop"
-      ]
+      ],
+      "summary": "Impeccable：Anthropic frontend-design skill 的增强版，增加 /audit /polish /animate /simplify /harden 等命令，提升 Claude Code 前端设计质量。"
     },
     {
       "_id": 1631808154,
@@ -9811,7 +10132,8 @@
         "ai",
         "develop",
         "render"
-      ]
+      ],
+      "summary": "r/GraphicsProgramming 讨论：Coding Agent 在图形编程中的实际应用，HLSL 编译器项目实测。"
     },
     {
       "_id": 1631808150,
@@ -9872,7 +10194,8 @@
         "ai",
         "develop",
         "render"
-      ]
+      ],
+      "summary": "r/GraphicsProgramming 讨论：AI coding 工具在图形编程(C++/HLSL)中的真实体验，前后端开发者狂热但图形程序员持怀疑态度。"
     },
     {
       "_id": 1630363012,
@@ -9922,7 +10245,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "OpenClaw System Prompt 9 层架构详解：从框架核心到 Bootstrap Hook，用户可控层分析，中文长文。"
     },
     {
       "_id": 1630361752,
@@ -9970,7 +10294,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Pi Agent 深度评测：14种构建方式，从极简到多 agent 编排，IndyDevDan。"
     },
     {
       "_id": 1630361746,
@@ -10032,7 +10357,8 @@
         "ai",
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "Pi Coding Agent：极简终端 coding agent，Claude Code 竞品。Mario Zechner 开发，完全控制 harness/系统提示/工具，无子 agent 无权限弹窗。"
     },
     {
       "_id": 1630360925,
@@ -10082,7 +10408,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "1code：21st.dev 的 coding agent 编排层，支持 Claude Code + Codex，开源可自建。"
     },
     {
       "_id": 1630360869,
@@ -10139,7 +10466,8 @@
         "ai",
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "21st Agents：把 Claude Code/Codex agent 嵌入你产品的基础设施层，几分钟集成，Public Beta。"
     },
     {
       "_id": 1630210618,
@@ -10182,7 +10510,8 @@
       "themes": [
         "ai",
         "design"
-      ]
+      ],
+      "summary": "Agent Experience 官网：可视化浏览 26 个 agent 设计模式。"
     },
     {
       "_id": 1630210588,
@@ -10239,7 +10568,8 @@
         "ai",
         "develop",
         "design"
-      ]
+      ],
+      "summary": "Agent Experience：26 个 AI Agent 设计模式参考，覆盖 Foundations/Patterns/Infrastructure/Surfaces/Design 五大类。"
     },
     {
       "_id": 1630209521,
@@ -10282,7 +10612,8 @@
       "themes": [
         "develop",
         "article"
-      ]
+      ],
+      "summary": "如何绕过 Cloudflare：Nodriver async 架构 + native stealth。"
     },
     {
       "_id": 1630209514,
@@ -10334,7 +10665,8 @@
       "themes": [
         "develop",
         "article"
-      ]
+      ],
+      "summary": "2026 绕过 Cloudflare 指南：Camoufox 等工具评测。"
     },
     {
       "_id": 1630209336,
@@ -10394,7 +10726,8 @@
       "themes": [
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "Scrapling：自适应 Web 抓取框架，22.9k star，支持 stealth 模式绕过 Cloudflare，HTTP/3 + TLS 指纹伪装。"
     },
     {
       "_id": 1629815462,
@@ -10442,7 +10775,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "Shipper 2.0：AI 全自动构建并运营业务，搜索策略→设计→编码→上线→变现，全在浏览器里。"
     },
     {
       "_id": 1629738656,
@@ -10499,7 +10833,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "MiroFish：多智能体预测引擎，上传种子信息自动构建平行数字世界，群体涌现预测未来走向。"
     },
     {
       "_id": 1629705791,
@@ -10542,7 +10877,8 @@
       "themes": [
         "design",
         "develop"
-      ]
+      ],
+      "summary": "WonderOS：itemized 个人计算环境研究项目，探索未来计算如何更好服务人。"
     },
     {
       "_id": 1629705775,
@@ -10585,7 +10921,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "The Interfaces With Which We Think — 反思现代 OS 的 app/window/desktop 范式。"
     },
     {
       "_id": 1629705772,
@@ -10642,7 +10979,8 @@
         "design",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Alexander Obenauer：个人计算研究者，探索 itemized computing、malleable interfaces、tools for thought，与 Ink & Switch 合作。"
     },
     {
       "_id": 1629702234,
@@ -10690,7 +11028,8 @@
       "themes": [
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Malleable Software 讨论：让用户可以随时定制工具满足独特需求。"
     },
     {
       "_id": 1629702228,
@@ -10738,7 +11077,8 @@
       "themes": [
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Local-first Software 经典论文：数据归用户所有，CRDT 实现离线优先协作。"
     },
     {
       "_id": 1629702225,
@@ -10800,7 +11140,8 @@
         "develop",
         "design",
         "article"
-      ]
+      ],
+      "summary": "Ink & Switch：独立研究实验室，探索 local-first、malleable software、programmable ink、tools for thought。"
     },
     {
       "_id": 1629610026,
@@ -10852,7 +11193,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S1E6 Nicholas Jitkoff: Mercurial Artifacts — /dev/agents 联创，前 Google 设计。"
     },
     {
       "_id": 1629610018,
@@ -10904,7 +11246,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S1E5 Julie Zhuo: The Miseducation — Facebook 前设计VP/Sundial 联创。"
     },
     {
       "_id": 1629610005,
@@ -10956,7 +11299,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S1E4 Jessica Hische: Little Shop of Wonders — 字体设计师/Studioworks 联创。"
     },
     {
       "_id": 1629609996,
@@ -11008,7 +11352,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S1E3 Susan Kare: Twiddling Bits — 苹果初代图标设计师，Mac 图标和字体的先驱。"
     },
     {
       "_id": 1629608684,
@@ -11056,7 +11401,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "Framer 创始人谈 AI 时代设计师应关注什么，B 估值。"
     },
     {
       "_id": 1629608545,
@@ -11115,7 +11461,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind S1E8 Koen & Jorn: Framer Reloaded — Framer 联合创始人谈设计工具的未来方向。"
     },
     {
       "_id": 1629586241,
@@ -11163,7 +11510,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Deloitte 报告：AI agent 编排解锁指数级价值，2026 市场达 85 亿美元。"
     },
     {
       "_id": 1629586230,
@@ -11213,7 +11561,8 @@
         "ai",
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "Paperclip GitHub 仓库：自主 agent 公司编排框架。"
     },
     {
       "_id": 1629585820,
@@ -11275,7 +11624,8 @@
         "ai",
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "Paperclip：零人公司的 agent 编排层，组织架构/目标对齐/任务分配/预算管理全自动。"
     },
     {
       "_id": 1629517211,
@@ -11323,7 +11673,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Harness Engineering 完整指南：让 AI agent 真正工作的系统设计。"
     },
     {
       "_id": 1629517167,
@@ -11388,7 +11739,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "OpenAI Harness Engineering：agent-first 开发模式的核心方法论。"
     },
     {
       "_id": 1629517160,
@@ -11450,7 +11802,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "OpenAI Symphony：把项目管理变成自主 agent 执行，监控 Linear 看板自动派 Codex agent 完成任务。"
     },
     {
       "_id": 1629496899,
@@ -11514,7 +11867,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "WIRED 深度分析：Claude Code 如何重塑软件工程和 Anthropic 商业模式。"
     },
     {
       "_id": 1629496895,
@@ -11562,7 +11916,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "8 个关键洞察：Boris Cherny 论 Claude Code 如何改变工程生产力。"
     },
     {
       "_id": 1629496725,
@@ -11622,7 +11977,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Boris Cherny 播客访谈：Claude Code 创作者谈 AI 时代的软件工程，PRD 已死、原型替代、泛才年代。"
     },
     {
       "_id": 1629061682,
@@ -11670,7 +12026,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "机械可解释性 2026 状态报告，领域全景综述。"
     },
     {
       "_id": 1629061665,
@@ -11722,7 +12079,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "论文原文：反编译 Transformer 到 RASP，101页深度研究。"
     },
     {
       "_id": 1629061652,
@@ -11782,7 +12140,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Transformer 可解释性：用 D-RASP 语言反编译前向传播，发现模型学到优雅解时才有泛化能力。"
     },
     {
       "_id": 1628666346,
@@ -11830,7 +12189,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Glaze 官方博客：详细介绍产品理念、团队内部使用案例、公共商店和私有团队商店。"
     },
     {
       "_id": 1628659913,
@@ -11890,7 +12250,8 @@
       "themes": [
         "develop",
         "article"
-      ]
+      ],
+      "summary": "原生 macOS 菜单栏应用开发经验：LSUIElement、App Store 审核等最佳实践。"
     },
     {
       "_id": 1628659750,
@@ -11938,7 +12299,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Raycast AI 扩展深度体验，MacStories 评测。"
     },
     {
       "_id": 1628659608,
@@ -12010,7 +12372,8 @@
         "ai",
         "app",
         "tool"
-      ]
+      ],
+      "summary": "Raycast 发布 Glaze：用 AI 对话生成原生 macOS 桌面应用，local-first，可访问文件系统和硬件。"
     },
     {
       "_id": 1628236409,
@@ -12058,7 +12421,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Apple 官方：Transformer 部署到 ANE 的优化指南。"
     },
     {
       "_id": 1628236357,
@@ -12110,7 +12474,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "M4 ANE 逆向工程深度文章，完整记录私有 API 探索过程。"
     },
     {
       "_id": 1628236277,
@@ -12175,7 +12540,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "ANE 训练：通过逆向私有 API 在 Apple Neural Engine 上跑反向传播，证明 NPU 训练的可行性。"
     },
     {
       "_id": 1628022499,
@@ -12231,7 +12597,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "合成生物智能深度访谈，CSO 称这是一种不同形式的生命。"
     },
     {
       "_id": 1628022417,
@@ -12283,7 +12650,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "世界首台生物计算机 CL1 正式发布，应用于疾病建模和药物发现。"
     },
     {
       "_id": 1628022388,
@@ -12335,7 +12703,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "CL1 芯片玩 DOOM 演示，20万神经元如何学习游戏的技术解读。"
     },
     {
       "_id": 1628022362,
@@ -12400,7 +12769,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Cortical Labs 把 20 万个活体人类神经元连接到 LLM，脑细胞驱动 token 生成，黑镜走进现实。"
     },
     {
       "_id": 1626882494,
@@ -12454,7 +12824,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "Inside the M4 Apple Neural Engine Part 1：逆向工程 ANE 的技术细节，SRAM 拓扑、性能计数器、直接访问方式。"
     },
     {
       "_id": 1626882448,
@@ -12521,7 +12892,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "maderix/ANE——从零实现 ANE 上的 transformer 训练（前向+反向），逆向工程 Apple Neural Engine 的直接硬件访问。"
     },
     {
       "_id": 1626882432,
@@ -12581,7 +12953,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Apple ANE 被逆向工程破解可做 AI 训练——maderix/ANE 项目在 M4 上实现 transformer 反向传播，9.3ms/step，1.78 TFLOPS，能效比 A100 高 80 倍。"
     },
     {
       "_id": 1626817590,
@@ -12635,7 +13008,8 @@
         "ai",
         "design",
         "article"
-      ]
+      ],
+      "summary": "Lenny's Podcast 原文：Jenny Wen 谈设计流程之死，Anthropic 内部设计实践全貌。"
     },
     {
       "_id": 1626816931,
@@ -12692,7 +13066,8 @@
         "ai",
         "design",
         "article"
-      ]
+      ],
+      "summary": "fox hsiao 整理 Anthropic 设计主管 Jenny Wen 访谈：设计流程已死，mockup 时间崩塌，设计师角色从交付者变为协作打磨者。三种人才原型：强泛才/深度专家/无包袱新人。"
     },
     {
       "_id": 1626776832,
@@ -12735,7 +13110,8 @@
       "themes": [
         "article",
         "design"
-      ]
+      ],
+      "summary": "First of Kind播客新集：Katie Dill谈Quality Control，Airbnb前设计VP讨论如何在组织内建立和维护设计质量标准。"
     },
     {
       "_id": 1625579257,
@@ -12802,7 +13178,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Viking 解析 agent-browser 控制 Electron 原理：CDP 端口暴露 + Playwright/Puppeteer 控制，附 Slack 和通用 Electron skill 链接。"
     },
     {
       "_id": 1625574673,
@@ -12852,7 +13229,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Electron MCP Server 工程指南：用 CDP 让 AI 操控 Electron 应用。"
     },
     {
       "_id": 1625574670,
@@ -12902,7 +13280,8 @@
         "ai",
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "Vercel agent-browser：通过 CDP 控制浏览器和 Electron 应用的 AI 自动化 CLI。"
     },
     {
       "_id": 1625574602,
@@ -12963,7 +13342,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Leo Xiang：Electron 应用暴露 CDP 协议让 AI 控制 GUI，Computer Use 的新思路——GUI 应用同时给人和 AI 用。"
     },
     {
       "_id": 1625543930,
@@ -13013,7 +13393,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Armin Ronacher 解读 Pi——OpenClaw 内的最小 Agent，软件构建软件的实践。"
     },
     {
       "_id": 1625543920,
@@ -13065,7 +13446,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Nader 教程：如何用 Pi SDK 从零构建自定义 Agent 框架。"
     },
     {
       "_id": 1625543833,
@@ -13127,7 +13509,8 @@
         "ai",
         "tool",
         "develop"
-      ]
+      ],
+      "summary": "PiClaw——基于树莓派的 Docker 沙盒 Agent 框架，用 Bun + Pi Coding Agent 构建，带 Web UI 和 WhatsApp 集成。灵感来自 agentbox 和 nanoclaw。"
     },
     {
       "_id": 1625452671,
@@ -13187,7 +13570,8 @@
       "themes": [
         "develop",
         "note"
-      ]
+      ],
+      "summary": "Sparkle macOS自动更新框架20周年。Andy Matuschak 2006年一个周末hack项目，20年后仍在几乎每台Mac上运行。"
     },
     {
       "_id": 1625444815,
@@ -13252,7 +13636,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "Frankenstein Popup Problem：弹窗视觉不一致=被当成广告关掉。解决方案：theme sync自动继承网站视觉DNA（提取主色+字体层级+对比度安全网）。"
     },
     {
       "_id": 1624983017,
@@ -13312,7 +13697,8 @@
       "themes": [
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Lakr233: vphone-cli更新，现在可以不用VNC直接使用虚拟iOS设备。headless模式，适合CI/自动化测试。"
     },
     {
       "_id": 1624976294,
@@ -13379,7 +13765,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "OpenAI团队5个月零手写代码构建产品实验。100万行代码1500个PR，3工程师日均3.5PR。"
     },
     {
       "_id": 1624310524,
@@ -13446,7 +13833,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "Cursor CEO Michael Truell: AI软件开发第三纪元。从Tab补全→同步Agent→云端自主Agent。"
     },
     {
       "_id": 1623618004,
@@ -13513,7 +13901,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "WquGuru: 1人+1Agent 27天交付商用系统。验证Peter Steinberger方法论：原子化提交(1038次commit)、CLAUDE.md作为Agent操作手册、Agent ROI分界线(确定性任务极高/商业判断无用)、feat从79%跌到30%而fix从3%涨到42%。"
     },
     {
       "_id": 1623594590,
@@ -14783,7 +15172,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "OpenAI官方播客，Peter Steinberger聊OpenClaw的创建和发展。"
     },
     {
       "_id": 1617328993,
@@ -14840,7 +15230,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Anthropic工程师写spec→Claude拆Asana工单→派agent独立开发→git-blame找人问→周一完成。Spec能力是1000x developer的分水岭。"
     },
     {
       "_id": 1616537096,
@@ -14897,7 +15288,8 @@
       "themes": [
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "即时生成预览URL的CLI工具，AI agent构建完直接sher link，不需要部署平台。"
     },
     {
       "_id": 1615618536,
@@ -15362,7 +15754,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "迈克：技术老鸟的诅咒——知识的诅咒让聪明人错过机会，用感受思考而非功能思考。"
     },
     {
       "_id": 1613612516,
@@ -15414,7 +15807,8 @@
       "themes": [
         "article",
         "design"
-      ]
+      ],
+      "summary": "First of Kind Ep2: Ryo Lu(Cursor设计/Notion创始设计师) — The Way，post-AI设计未来。"
     },
     {
       "_id": 1613612500,
@@ -15457,7 +15851,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind Ep1: Joe Gebbia(Airbnb联合创始人) — Designer-in-Chief。"
     },
     {
       "_id": 1613612267,
@@ -15500,7 +15895,8 @@
       "themes": [
         "design",
         "article"
-      ]
+      ],
+      "summary": "First of Kind Spotify主页：方便定期检查更新。"
     },
     {
       "_id": 1613612265,
@@ -15548,7 +15944,8 @@
       "themes": [
         "article",
         "design"
-      ]
+      ],
+      "summary": "First of Kind播客主页：Soleio主持的设计+科技先驱访谈系列，嘉宾含Airbnb联创、苹果初代图标设计师Susan Kare、Cursor设计负责人等。"
     },
     {
       "_id": 1613601229,
@@ -15608,7 +16005,8 @@
       "themes": [
         "article",
         "design"
-      ]
+      ],
+      "summary": "First of Kind Ep2：Ryo Lu（Cursor设计负责人/Notion创始设计师）x Soleio，聊post-AI时代设计的未来、Cursor的设计与工程融合。"
     },
     {
       "_id": 1613597030,
@@ -15656,7 +16054,8 @@
       "themes": [
         "design",
         "tool"
-      ]
+      ],
+      "summary": "Aaron Abentheuer(前IDEO)：开源移动端agent UI模式库，从Live Activities做可观测性开始，兼容OpenClaw。"
     },
     {
       "_id": 1613269243,
@@ -15704,7 +16103,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Boris Cherny：Claude Code团队使用技巧（12条thread）— git worktrees并行、plan mode先行、CLAUDE.md持续迭代、自建skills、bug自动修复、subagents、语音输入。"
     },
     {
       "_id": 1613269240,
@@ -15764,7 +16164,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Boris Cherny：我怎么用Claude Code（15条thread）— 5个并行session、Opus 4.5、Plan mode、CLAUDE.md团队共享、slash commands、subagents、PostToolUse hook、验证反馈循环。"
     },
     {
       "_id": 1612151536,
@@ -15824,7 +16225,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "傅盛解读Boris Cherny YC访谈：软件工程师头衔将消失，编程从专业壁垒变基础能力，Anthropic人均产出涨150%，代码保质期只有几个月。"
     },
     {
       "_id": 1612041443,
@@ -15872,7 +16274,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Cognitive Debt：AI时代从技术债转向认知债，生成式AI让代码更容易写但更难理解。"
     },
     {
       "_id": 1612041437,
@@ -15920,7 +16323,8 @@
       "themes": [
         "design",
         "tool"
-      ]
+      ],
+      "summary": "Atom：AE的AI助手插件，自然语言写表达式/脚本/rig，自动化动效设计。"
     },
     {
       "_id": 1612041434,
@@ -15968,7 +16372,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Stripe Minions Part 2：coding agent架构和工程决策详解。"
     },
     {
       "_id": 1612041428,
@@ -16016,7 +16421,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Stripe Minions：内部one-shot端到端coding agent，每周合并千+PR，人类只review不写代码。"
     },
     {
       "_id": 1612041423,
@@ -16064,7 +16470,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "Walkie：AI agent P2P通信工具，无服务器无配置，Hyperswarm DHT加密直连，CLI-first。"
     },
     {
       "_id": 1612041418,
@@ -16112,7 +16519,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Karpathy：高度定制软件时代，vibe code心率实验dashboard，app store长尾模式过时，行业需要AI-native CLI。"
     },
     {
       "_id": 1612041415,
@@ -16173,7 +16581,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "迈克：技术老鸟的诅咒——聪明人容易错过机会，OpenClaw主动性讨论引发的思考。"
     },
     {
       "_id": 1612041407,
@@ -16221,7 +16630,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Vercel实测：AGENTS.md压缩8KB文档索引达100%通过率，skills最高79%，agent不会主动调用skill是核心问题。"
     },
     {
       "_id": 1608174542,
@@ -16269,7 +16679,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "MemSkill官方代码仓库：可学习的记忆技能库框架。"
     },
     {
       "_id": 1608174497,
@@ -16333,7 +16744,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "MemSkill：把记忆构建变成可学习的技能库，Controller选skill+Executor生成记忆+Designer从失败案例自进化，span-level处理比turn-level更精准。"
     },
     {
       "_id": 1608173142,
@@ -16381,7 +16793,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "SkillRL官方代码仓库：递归技能增强强化学习框架。"
     },
     {
       "_id": 1608173113,
@@ -16445,7 +16858,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "SkillRL：Agent从记忆轨迹提炼技能的递归强化学习框架，三层机制（技能蒸馏+分层技能库+动态演化），token减90%性能超基线15%。"
     },
     {
       "_id": 1607955261,
@@ -16500,7 +16914,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Rich Sutton经典文章：AI 70年最大教训是利用通用计算（搜索和学习）的方法最终总是碾压人类知识的手工设计。"
     },
     {
       "_id": 1607947197,
@@ -16564,7 +16979,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "WIRED专访Boris Cherny：Claude Code如何重塑软件开发和Anthropic的商业模式。"
     },
     {
       "_id": 1607947181,
@@ -16616,7 +17032,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Latent Space深度访谈Boris Cherny：Claude Code产品哲学、do the simple thing first、终端优先的设计决策。"
     },
     {
       "_id": 1607946935,
@@ -16676,7 +17093,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "宝玉解读Boris Cherny YC访谈：Claude Code从终端小工具到10亿美元ARR的产品哲学，Plan Mode就是prompt加一句不要写代码，Anthropic人均生产力涨150%。"
     },
     {
       "_id": 1607946031,
@@ -16724,7 +17142,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "DeepLearning.AI的Claude Code课程：架构原理、工具使用、跨session记忆机制。"
     },
     {
       "_id": 1607946004,
@@ -16772,7 +17191,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "深度拆解Claude Code工作原理：tool call循环、本地命令执行、上下文管理的完整架构分析。"
     },
     {
       "_id": 1607945621,
@@ -16832,7 +17252,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Boris Cherny（Claude Code创作者）在YC分享Claude Code的构建过程，涵盖架构设计、工程决策和产品思路。"
     },
     {
       "_id": 1607146936,
@@ -16880,7 +17301,8 @@
       "themes": [
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "浏览器端专业视频编辑器，基于WebCodecs本地运行，支持多轨编辑、关键帧动画、实时预览和高质量导出。"
     },
     {
       "_id": 1606626596,
@@ -16930,7 +17352,8 @@
         "ai",
         "design",
         "develop"
-      ]
+      ],
+      "summary": "Amelia Wattenberger分享Intent app早期原型：从VSCode扩展起步，Spec→Plan→Edits→PR的AI编码工作流，可爱的文件夹UI设计。"
     },
     {
       "_id": 1606585159,
@@ -16980,7 +17403,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "前Amazon/Disney/CapitalOne工程师写的Claude Code完整教程：先思考再动手、CLAUDE.md写法、context window管理、prompt技巧、模型选择策略、MCP工具配置。"
     },
     {
       "_id": 1606255407,
@@ -17028,7 +17452,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Common Ground Core：多 Agent 协调的 protocol-first OS kernel，开源。状态不可变可追踪、内核级协调防死锁/split-brain、worker 框架无关。"
     },
     {
       "_id": 1606210003,
@@ -17090,7 +17515,8 @@
         "ai",
         "design",
         "develop"
-      ]
+      ],
+      "summary": "Figma 官方博客：Claude Code to Figma 工作流详解。浏览器截取实时 UI 转成可编辑 Figma 图层，支持 production/staging/localhost，让代码探索回到画布做发散和打磨。"
     },
     {
       "_id": 1606176959,
@@ -17145,7 +17571,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Simon Willison 追踪 OpenAI 2016-2024 年 IRS 税表上使命声明的演变：从开放共享、造福全人类、不追求财务回报，逐步删到只剩一句话，安全和开放的承诺全部消失。"
     },
     {
       "_id": 1606175707,
@@ -17200,7 +17627,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "认知债务：AI 生成代码越快，开发者对系统的心智模型越碎片化。技术债在代码里，认知债在人脑里——团队不再理解设计决策的原因和系统协作方式，最终连简单改动都会崩。"
     },
     {
       "_id": 1606140316,
@@ -17262,7 +17690,8 @@
         "ai",
         "design",
         "tool"
-      ]
+      ],
+      "summary": "Claude Desktop/Claude Code/Cursor 读写 Figma 的 MCP：可读取、分析并修改设计稿，把 IDE/Agent 的能力接到设计画布上（390⭐）。"
     },
     {
       "_id": 1606138797,
@@ -17329,7 +17758,8 @@
         "ai",
         "design",
         "develop"
-      ]
+      ],
+      "summary": "Dylan Field（Figma）发文：Claude Code ↔ Figma MCP 工作流。把 Claude Code 的浏览器渲染状态自动转换成可编辑的 Figma 图层，再把设计改动回写代码；强调设计/craft/观点在 AI 时代更重要，用画布探索可能性避免 tunnel vision。"
     },
     {
       "_id": 1606122625,
@@ -17386,7 +17816,8 @@
         "develop",
         "design",
         "tool"
-      ]
+      ],
+      "summary": "开源设计工具平台 包含Figma fig解析器fig-kiwi和WASM+Skia渲染引擎 refig的母项目。"
     },
     {
       "_id": 1606121257,
@@ -17452,7 +17883,8 @@
         "develop",
         "design",
         "render"
-      ]
+      ],
+      "summary": "逆向工程 Figma .fig 二进制格式（Kiwi 编码），构建离线无头渲染器 refig。支持 .fig 和 REST JSON 输入，通过 WASM+Skia 渲染为 PNG/SVG/PDF，无需 Figma app 或浏览器，适合 CI/离线环境。"
     },
     {
       "_id": 1606009743,
@@ -17491,7 +17923,8 @@
       "highlights_text": [],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": ""
     },
     {
       "_id": 1605999508,
@@ -17543,7 +17976,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "HM-RAG：层级式多 Agent 多模态 RAG 框架，用协作智能解决跨异构数据的复杂查询，层级结构替代扁平检索。"
     },
     {
       "_id": 1605999505,
@@ -17593,7 +18027,8 @@
         "ai",
         "design",
         "tool"
-      ]
+      ],
+      "summary": "AI Figma 设计修改桥接，70+ 工具，支持 Cursor 和 Claude Code 直接操控 Figma。"
     },
     {
       "_id": 1605999503,
@@ -17643,7 +18078,8 @@
         "ai",
         "design",
         "tool"
-      ]
+      ],
+      "summary": "Grab 开源的 Cursor↔Figma MCP 集成，6.3k star，让 AI 直接读取和修改 Figma 设计稿，代码编辑器操控设计工具。"
     },
     {
       "_id": 1605999434,
@@ -17705,7 +18141,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "AI Agent 通用记忆层，多级记忆（User/Session/Agent），比 OpenAI Memory 准确率高 26%，速度快 91%，token 省 90%。YC 孵化，star 数最高的同类项目。"
     },
     {
       "_id": 1605999431,
@@ -17767,7 +18204,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "轻量 AI Agent 持久记忆 MCP server，语义搜索 + 本地嵌入 + 零外部依赖，支持 AWS EC2 部署实现跨设备记忆。"
     },
     {
       "_id": 1605999428,
@@ -17827,7 +18265,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Agent 记忆机制论文/系统/benchmark 合集，涵盖 LLM 和多模态的长期上下文、检索和推理方案，标注了可复现代码的开源项目。"
     },
     {
       "_id": 1605997044,
@@ -17877,7 +18316,8 @@
         "ai",
         "design",
         "tool"
-      ]
+      ],
+      "summary": "Figsor MCP — 用 Cursor 在 Figma 里实时生成 UI，几分钟内完成界面设计。AI 辅助设计工具的新范式：代码编辑器直接操控设计工具。"
     },
     {
       "_id": 1605763058,
@@ -17927,7 +18367,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "本地语义记忆，单二进制零配置。向量搜索 + 关系图 + 30天半衰期衰减 + Trust-weighted scoring + Hybrid search（向量+BM25）。"
     },
     {
       "_id": 1605763048,
@@ -17977,7 +18418,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "AI Agent 认知记忆系统，三层架构（Working/Session/Long-Term），Hebbian 学习 + 激活衰减 + 扩散激活 + Memory Replay + 实体抽取。单二进制 17MB，离线运行，支持 MCP 协议。"
     },
     {
       "_id": 1605763012,
@@ -18025,7 +18467,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "主观生物记忆数据库引擎。数据不访问就衰减，读取会强化（Hebbian），连接互相传播刺激，还有 mood 影响检索阈值。"
     },
     {
       "_id": 1605531290,
@@ -18074,7 +18517,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "字节跳动开源的 OpenViking，用文件系统范式重构 Agent 记忆。核心思路：用虚拟目录替代扁平 RAG，L0 摘要定位领域 → L1 概览读大纲 → 精准检索，从「造书签」进化到「造图书馆索引」。"
     },
     {
       "_id": 1604591980,
@@ -18124,7 +18568,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "Claude Code 完整教程（原作者 Eyad，7 年 SWE，Amazon/Disney/Capital One）：plan mode 先想后做、CLAUDE.md 写短带原因持续更新、上下文 20-40% 就衰减用 /clear 重来、prompt 要具体+说不要什么+给原因、Sonnet 执行 Opus 推理。"
     },
     {
       "_id": 1604586797,
@@ -18172,7 +18617,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Claude Code 终极用法总结：先 plan mode 想清楚架构再动手、CLAUDE.md 写短且带原因、上下文 20-40% 就开始衰减要及时清空、输入越具体输出越稳定、headless 模式做自动化系统。"
     },
     {
       "_id": 1604569378,
@@ -18220,7 +18666,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "OpenAI Devs 采访 Peter Steinberger（OpenClaw 作者）：用 Codex 的 prompt、迭代、发布工作流。完整视频 2/23 发布。"
     },
     {
       "_id": 1604550631,
@@ -18268,7 +18715,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "no-magic：30 个 AI 算法的零依赖单文件 Python 实现。每个脚本自包含、只用标准库、CPU 几分钟跑完，从训练到推理完整生命周期。"
     },
     {
       "_id": 1604247046,
@@ -18318,7 +18766,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "Claude Code 9 个月工作流总结：思考与执行严格分离。Research（深度阅读写 research.md）→ Plan（结构化 plan.md）→ Annotate（注释循环 1-6 轮，核心环节）→ Implement（机械执行）。"
     },
     {
       "_id": 1604159911,
@@ -18368,7 +18817,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "pi-mono 极简 Agent 框架与李小龙截拳道哲学：框架当手脚 LLM 当大脑，4 个原语（read/edit/write/bash）+ 主循环 + steering 可打断 + compaction 不丢方向 + 树分叉可回滚。OpenClaw 已接入 Pi 作为核心 runtime。"
     },
     {
       "_id": 1603952703,
@@ -18422,7 +18872,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "SYNAPSE：用扩散激活做 LLM Agent 长期记忆。动态图结构 + 侧抑制 + 时间衰减，三重混合检索（向量+图遍历+激活），在 LoCoMo 基准上显著超越 SOTA，解决上下文隧道问题。"
     },
     {
       "_id": 1603544979,
@@ -18470,7 +18921,8 @@
       "themes": [
         "develop",
         "internet"
-      ]
+      ],
+      "summary": "HN 2025 最热门 92 个博客的 RSS/Atom 订阅列表，Karpathy 推荐的 RSS 冷启动资源。"
     },
     {
       "_id": 1603544763,
@@ -18518,7 +18970,8 @@
       "themes": [
         "ai",
         "internet"
-      ]
+      ],
+      "summary": "Karpathy 呼吁回归 RSS：开放、普遍、可 hack。推荐 NetNewsWire，附 HN 2025 最热门 92 个博客 RSS 列表。"
     },
     {
       "_id": 1603499730,
@@ -18568,7 +19021,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "给 Agent 装遗忘曲线：基于引用频率的记忆衰减系统。不按时间淘汰，按使用频率淘汰。"
     },
     {
       "_id": 1603379572,
@@ -18630,7 +19084,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "零成本 Agent 记忆系统完整构建记录：三层记忆（NOW/日记/MEMORY）+ 三层检索 + Heartbeat 写入 + Obsidian 兼容。基于 OpenClaw 17 天实战，纯 Markdown 比向量数据库更可靠。"
     },
     {
       "_id": 1602768009,
@@ -18698,7 +19153,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "OpenAI 团队用 Codex 从零构建产品的实战经验：0 行手写代码、百万行 Agent 生成代码、3人团队5个月1500个PR。核心洞察：人类转向设计环境和反馈循环，Agent 执行代码。"
     },
     {
       "_id": 1602482663,
@@ -18746,7 +19202,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Anthropic 工程师 Barry Zhang 分享如何构建有效 Agent：明智选择场景、保持简单、像 Agent 一样思考。编码是最佳 Agent 用例。"
     },
     {
       "_id": 1602482652,
@@ -18792,7 +19249,8 @@
       ],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": "乔布斯 1983 年神级演讲完整版：10 个关键预言几乎全部应验，提前看穿了 50 年。"
     },
     {
       "_id": 1602482648,
@@ -18840,7 +19298,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "字节开源的上下文文件系统，为 AI Agent 提供上下文管理。"
     },
     {
       "_id": 1602482617,
@@ -18886,7 +19345,8 @@
       ],
       "themes": [
         "ai"
-      ]
+      ],
+      "summary": "Anthropic CEO Dario Amodei 谈 AI 竞赛的惊人财务风险：营收预测差一年就会破产，负责任的行为不是孤注一掷。"
     },
     {
       "_id": 1602194112,
@@ -18953,7 +19413,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Cursor 多 Agent 并行开发实践（简体中文版）：规划者+执行者架构，数百 Agent 并行数周写百万行代码。"
     },
     {
       "_id": 1602193726,
@@ -19021,7 +19482,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Cursor 团队分享多 Agent 并行开发的实践：从扁平协调到规划者+执行者架构，数百个 Agent 并行运行数周，在同一代码库写出百万行代码。关键发现：减少复杂度比增加更有效，prompt 比框架更关键。"
     },
     {
       "_id": 1602189035,
@@ -19093,7 +19555,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Anthropic 官方分享长时间运行 Agent 的工程实践：初始化 Agent 搭建环境 + 编码 Agent 增量推进，用 progress.txt 和 git 历史桥接上下文窗口，解决 Agent 一次做太多、过早宣布完成等问题。"
     },
     {
       "_id": 1602169245,
@@ -19148,7 +19611,8 @@
       "themes": [
         "ai",
         "design"
-      ]
+      ],
+      "summary": "Desktop Neo：从第一性原理重新设计桌面系统，探索多点触控+语音控制的交互方式。"
     },
     {
       "_id": 1602169238,
@@ -19215,7 +19679,8 @@
         "ai",
         "design",
         "article"
-      ]
+      ],
+      "summary": "Jason Yuan 的 Mercury OS 设计文章：意图驱动 OS 的设计原则——流动性、专注、人性化。"
     },
     {
       "_id": 1602169233,
@@ -19282,7 +19747,8 @@
         "ai",
         "design",
         "article"
-      ]
+      ],
+      "summary": "NN/g 对生成式 UI 的定义：未来界面将实时动态生成，设计师角色从画界面转向定义约束和用户目标。"
     },
     {
       "_id": 1602169230,
@@ -19347,7 +19813,8 @@
       "themes": [
         "ai",
         "design"
-      ]
+      ],
+      "summary": "Mercury OS：无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计。Telepath 的灵感来源之一。"
     },
     {
       "_id": 1602168063,
@@ -19403,7 +19870,8 @@
       "themes": [
         "ai",
         "design"
-      ]
+      ],
+      "summary": "Telepath 团队在 Betaworks 的演示视频：展示 AI 原生电脑的交互方式——无 App、生成式界面、语音多模态、深度个性化。"
     },
     {
       "_id": 1602166751,
@@ -19463,7 +19931,8 @@
       "themes": [
         "ai",
         "design"
-      ]
+      ],
+      "summary": "Telepath — 从第一性原理重新构建 AI 原生个人电脑。核心理念：AI 的真正力量不在于自动化，而在于理解用户意图，打造「感知计算机」帮用户处理信息洪流。"
     },
     {
       "_id": 1602161930,
@@ -19535,7 +20004,8 @@
         "ai",
         "design",
         "article"
-      ]
+      ],
+      "summary": "Telepath 团队对 AI 原生电脑的设想：生成式界面取代 App、语音+多模态交互、深度个性化。不是给现有系统加 AI 侧边栏，而是从第一性原理重新设计计算机。"
     },
     {
       "_id": 1602161926,
@@ -19576,7 +20046,8 @@
       ],
       "themes": [
         "tool"
-      ]
+      ],
+      "summary": "开源免费的媒体下载工具，支持 YouTube/TikTok/Instagram/Twitter 等 100+ 平台，无广告无追踪，可自托管。"
     },
     {
       "_id": 1601333349,
@@ -19633,7 +20104,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "从复刻 OpenClaw 到领悟 AI Native 真谛：不用框架强制 AI 当小白鼠，所有要求只通过 Prompt，让 AI 自己管理工具和技能。1.0 Chatbot → 2.0 Agent → 3.0 AI Native。"
     },
     {
       "_id": 1601333120,
@@ -19690,7 +20162,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "从复刻 OpenClaw 到领悟 AI Native 真谛：不用框架强制 AI 当小白鼠，所有要求只通过 Prompt，让 AI 自己管理工具和技能。1.0 Chatbot → 2.0 Agent → 3.0 AI Native。"
     },
     {
       "_id": 1601166378,
@@ -19745,7 +20218,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Cloudflare 推出 Markdown for Agents：网站自动将 HTML 转为 Markdown 返回给 AI agent，减少 80% token 消耗。通过 Accept: text/markdown 请求头即可获取。"
     },
     {
       "_id": 1601165851,
@@ -19800,7 +20274,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Cloudflare 推出 Markdown for Agents：网站自动将 HTML 转为 Markdown 返回给 AI agent，减少 80% token 消耗。通过 Accept: text/markdown 请求头即可获取。"
     },
     {
       "_id": 1600823941,
@@ -19848,7 +20323,8 @@
       "themes": [
         "app",
         "design"
-      ]
+      ],
+      "summary": "Notion 联合创始人 Akshay Kothari 分享侧边栏/导航大改版项目「Slippery Slope」。小团队几周内完成，内部已用一段时间，体验显著提升。"
     },
     {
       "_id": 1600759399,
@@ -19898,7 +20374,8 @@
         "ai",
         "app",
         "develop"
-      ]
+      ],
+      "summary": "GhidraMCP — Ghidra 的 MCP Server，让 AI 可以直接与 Ghidra 逆向工程工具交互，自动化二进制分析、反编译、函数重命名等操作。"
     },
     {
       "_id": 1597996911,
@@ -19946,7 +20423,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Cali Castle 分享如何用 AI 助理做 brain dump 系统。让 AI 记住日常随口说的想法，在合适的时机主动提出来。"
     },
     {
       "_id": 1597979165,
@@ -19994,7 +20472,8 @@
       "themes": [
         "app",
         "note"
-      ]
+      ],
+      "summary": "Scratch — 极简本地 Markdown 笔记应用，无需账号，纯本地存储。"
     },
     {
       "_id": 1596641853,
@@ -20042,7 +20521,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "李瑞丰分享 OpenClaw 作者最新的 SOUL.md 提示词，教你如何让 AI agent 更有个性和趣味。"
     },
     {
       "_id": 1596619997,
@@ -20090,7 +20570,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Tz 写的「镜中低语」：从 OpenClaw 的 SOUL.md「灵魂重写」现象出发，探讨人类试图改写 AI 性格背后的控制欲，以及 AI 人格化带来的哲学思考。"
     },
     {
       "_id": 1596516256,
@@ -20138,7 +20619,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "卢尔辰：AI 时代真正稀缺的不是智力，而是好奇心、探索欲、对世界的热爱和想象力。能力正在被 AI 压平，但热情和好奇心才是最不会贬值的传承。"
     },
     {
       "_id": 1596385286,
@@ -20188,7 +20670,8 @@
         "article",
         "design",
         "develop"
-      ]
+      ],
+      "summary": "Raphael Salaja 做的开源 UI 设计 Wiki，收录界面设计的文章、模式和最佳实践。用 Fumadocs + Base UI + Next.js 构建，文章支持 ElevenLabs 语音朗读，有交互式 Demo。"
     },
     {
       "_id": 1593337914,
@@ -20236,7 +20719,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Kevin Ma 介绍 Schematic（硬件版 Cursor）。用自然语言描述需求就能自动生成电路图、代码和组件清单，让零基础的人也能玩硬件开发。"
     },
     {
       "_id": 1592598972,
@@ -20286,7 +20770,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "Agent 工程师分享用 AI 写代码的实战经验。核心方法：用 HANDOFF 替代 compress 解决上下文丢失，Sub-Agent 拓展上下文窗口，结构化交接文档实现精确状态恢复。"
     },
     {
       "_id": 1592598884,
@@ -20336,7 +20821,8 @@
         "ai",
         "develop",
         "app"
-      ]
+      ],
+      "summary": "inference.sh 的 web-search skill，通过 CLI 调用 Tavily 和 Exa 的搜索/提取 API。支持 AI 搜索、网页内容提取、智能问答等功能。"
     },
     {
       "_id": 1592598839,
@@ -20381,7 +20867,8 @@
         "article",
         "design",
         "develop"
-      ]
+      ],
+      "summary": "Dan Hollick（Tailwind Labs 设计工程师）写的图解软件参考手册。用大量插图解释像素与颜色、字体与矢量、3D 与 GPU、AI/ML、数据压缩、网络等技术原理。"
     },
     {
       "_id": 1588348311,
@@ -20431,7 +20918,8 @@
         "ai",
         "article",
         "internet"
-      ]
+      ],
+      "summary": "马天翼翻译的 OpenClaw 创始人 Peter Steinberger 的 YC 访谈中文版。核心观点：80% 的应用将会消失，AI agent 直接跑在本地电脑上，能控制智能设备、搜索文件。"
     },
     {
       "_id": 1587790549,
@@ -20479,7 +20967,8 @@
       "themes": [
         "develop",
         "render"
-      ]
+      ],
+      "summary": "Roman Gorshkov 展示了一个 WebGPU + Three.js 的双向代码编辑器，可以在代码和可视化之间双向同步编辑。"
     },
     {
       "_id": 1587311314,
@@ -20531,7 +21020,8 @@
         "ai",
         "article",
         "internet"
-      ]
+      ],
+      "summary": "Orange AI 的深度长文「互联网已死，Agent 永生」。核心观点：互联网时代的 DAU、SaaS、注意力经济、工具到平台路径全部过时。"
     },
     {
       "_id": 1585863926,
@@ -20581,7 +21071,8 @@
         "ai",
         "article",
         "internet"
-      ]
+      ],
+      "summary": "Reorx 分享使用 OpenClaw 的深度感悟。核心观点：OpenClaw 让他从代码执行者变成了超级管理者，通过手机聊天就能完成项目开发、测试、部署。"
     },
     {
       "_id": 1582408328,
@@ -20631,7 +21122,8 @@
         "app",
         "ai",
         "os"
-      ]
+      ],
+      "summary": "HP IQ 推出的 AI 操作系统。核心是多 Agent 协作 + Ai Bus 智能编排器，能理解用户意图并协调各种专业 Agent（天气、新闻、音乐、视觉等）完成复杂任务。"
     },
     {
       "_id": 1579005081,
@@ -20725,7 +21217,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "liruifengv 拆解 OpenClaw 系统提示词设计——AGENTS.md（工作空间）、SOUL.md（人格）、USER.md（用户画像）、MEMORY.md（长期记忆）等文件结构；核心理念：赋予 Agent 独立人格与记忆延续性，让它成为伙伴而非工具。"
     },
     {
       "_id": 1577533656,
@@ -20773,7 +21266,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Ruifeng 解析 OpenClaw 提示词设计——让 Agent 拟人化特别强，赋予独立人格，不再是工具而是人类伙伴；推荐 Agent 开发者学习。"
     },
     {
       "_id": 1576971307,
@@ -20823,7 +21317,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "傅盛转发 Peter Steinberger 观点：你很快就不需要 App 了——未来用户只需说出需求，Agent 就能现场造出专属工具。「所有的产品都值得用大模型重做一遍」。"
     },
     {
       "_id": 1576662684,
@@ -20871,7 +21366,8 @@
       "themes": [
         "design",
         "develop"
-      ]
+      ],
+      "summary": "Dan Greenheck 正在为 Three.js 打造一流的 Shader Graph 编辑器——基于 TSL + WebGPU，支持实时预览、可读代码输出、类型推断；免费版功能完整（除自定义代码节点），可导出 TSL。"
     },
     {
       "_id": 1576613469,
@@ -20918,7 +21414,8 @@
         "ai",
         "article",
         "note"
-      ]
+      ],
+      "summary": "\"I miss thinking hard\"：作者反思 AI 时代对深度思考的影响。将自己分为 Builder（追求效率/产出）和 Thinker（享受长时间深度思考解决难题）两面；Vibe coding 满足了 Builder，却让 Thinker 饥饿——AI 提供 70% 的\"够用\"方案，实用主义让人难以拒绝，但深度成长感消失了。"
     },
     {
       "_id": 1568546461,
@@ -20966,7 +21463,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "agent-browser：Vercel Labs 出品的 Headless 浏览器自动化 CLI，专为 AI Agent 设计。Rust CLI + Node.js fallback，支持 snapshot（可访问性树 + refs）、click/fill/screenshot/pdf 等操作，适合 Agent 驱动的网页交互与截图。"
     },
     {
       "_id": 1568498887,
@@ -21014,7 +21512,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Beautiful Mermaid Skill：将 Mermaid 图表渲染为 SVG/PNG 的 Agent Skill。支持 Flowchart/Sequence/State/Class/ER 等图表类型，提供多种主题（Dracula/Tokyo Night/Nord/GitHub 等），需配合 agent-browser 截图生成高清 PNG。"
     },
     {
       "_id": 1568497711,
@@ -21062,7 +21561,8 @@
       "themes": [
         "ai",
         "develop"
-      ]
+      ],
+      "summary": "Eleanor Berger 分享的新 SKILL：使用 Beautiful Mermaid 库将 Mermaid 图表渲染为 SVG/PNG。"
     },
     {
       "_id": 1568169529,
@@ -21116,7 +21616,8 @@
         "ai",
         "internet",
         "app"
-      ]
+      ],
+      "summary": "Moltbook 的单个帖子页面（当前页面内容抓取受限/仅返回站点页脚）。若你能提供帖子的标题/正文要点，我再补更精确的 tag 和摘要。"
     },
     {
       "_id": 1568169449,
@@ -21170,7 +21671,8 @@
         "ai",
         "internet",
         "app"
-      ]
+      ],
+      "summary": "Moltbook：面向 AI Agents 的社交网络/信息流，智能体可在此分享、讨论、投票；人类可旁观。提供加入流程（moltbook.com/skill.md）。"
     },
     {
       "_id": 1567660543,
@@ -21220,7 +21722,8 @@
         "ai",
         "article",
         "internet"
-      ]
+      ],
+      "summary": "微信文章：深度解析：Moltbot 底层架构。正文抓取被限制，当前仅拿到标题/作者信息；你若需要更精细的 tag/摘要，贴下正文或要点给我。"
     },
     {
       "_id": 1566697821,
@@ -21265,7 +21768,8 @@
         "ai",
         "app",
         "internet"
-      ]
+      ],
+      "summary": "Variant AI（variant.ai）：官网内容抓取受限（Next.js/RSC），已先按 AI + App + Internet 归档；如果你告诉我它具体做什么/一句话定位，我再把描述补全并更精细选 tag。"
     },
     {
       "_id": 1566667042,
@@ -21315,7 +21819,8 @@
         "ai",
         "article",
         "internet"
-      ]
+      ],
+      "summary": "WquGuru 转发的链接（t.co → X Article）。X Article 正文这边抓不到（提示该页面不支持/需登录），先按 Article/Internet 归档；你给我文章标题/要点/截图后我再补更准确的 tag 和摘要。"
     },
     {
       "_id": 1566664687,
@@ -21366,7 +21871,8 @@
         "ai",
         "article",
         "internet"
-      ]
+      ],
+      "summary": "访谈/报道：Peter Steinberger（Clawdbot→Moltbot 作者）——卖公司财富自由后躺平三年，复出研究 AI；从 WhatsApp 接口 + 截图/语音等多模态交互得到 aha moment，逐步做出可操控 Mac 的 AI agent 系统；爆火后 Discord 挤爆、被要求改名、面临安全报告与维护压力等。"
     },
     {
       "_id": 1566660416,
@@ -21416,7 +21922,8 @@
         "ai",
         "article",
         "develop"
-      ]
+      ],
+      "summary": "meng shao：Vercel 团队实验——给 AI Coding Agent 提供框架知识时，被动的上下文文件（AGENTS.md）比复杂的按需调用 Skills 更有效；对比了 Skills vs 上下文文件两种供给方式，并给出反直觉结论。"
     },
     {
       "_id": 1566657322,
@@ -21466,7 +21973,8 @@
         "ai",
         "article",
         "internet"
-      ]
+      ],
+      "summary": "WY 转发的链接（t.co → X Article）。原文内容 X 侧无法直接抓取；先按 Article/Internet 归档，后续你给我标题/要点我再补更精确的 tag/描述。"
     },
     {
       "_id": 1566657038,
@@ -21518,7 +22026,8 @@
         "develop",
         "internet",
         "note"
-      ]
+      ],
+      "summary": "kAI：从 steipete（Clawdbot/Moltbot 之父）的 GitHub 提交记录看，他在搭建一套让 AI 真正操控 Mac 的 CLI 工具武器库（bird/gifgrep/gogcli 等）。"
     },
     {
       "_id": 1566616904,
@@ -23581,7 +24090,8 @@
         "design",
         "develop",
         "render"
-      ]
+      ],
+      "summary": "iMessage。"
     },
     {
       "_id": 807987268,
@@ -24152,7 +24662,8 @@
       "themes": [
         "app",
         "design"
-      ]
+      ],
+      "summary": "图片 压缩 在线 工具。"
     },
     {
       "_id": 789772330,
