@@ -1262,5 +1262,12 @@
       "desc": "描述2",
       "url": "https://test.com/rel-v2-2"
     }
+  ],
+  "https://test.com/verify-1": [
+    {
+      "title": "验证相关1",
+      "desc": "描述",
+      "url": "https://test.com/verify-rel-1"
+    }
   ]
 }
