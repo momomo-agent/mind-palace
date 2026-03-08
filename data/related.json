@@ -1250,5 +1250,17 @@
       "desc": "描述2",
       "url": "https://test.com/related-2"
     }
+  ],
+  "https://test.com/pipeline-v2": [
+    {
+      "title": "相关1",
+      "desc": "描述1",
+      "url": "https://test.com/rel-v2-1"
+    },
+    {
+      "title": "相关2",
+      "desc": "描述2",
+      "url": "https://test.com/rel-v2-2"
+    }
   ]
 }
