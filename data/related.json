@@ -1298,5 +1298,12 @@
       "desc": "从果蝇到人类：MICrONS 项目已映射鼠脑 1mm³（20万神经元+5.23亿突触），展望数字永生路径",
       "url": "https://dhruva.substack.com/p/from-fruit-fly-brains-to-digital"
     }
+  ],
+  "https://github.com/eonsystemspbc/fly-brain": [
+    {
+      "title": "Simulate an Entire Fly Brain on a Laptop — Berkeley News",
+      "desc": "Berkeley 报道：Shiu 团队在笔记本上模拟完整果蝇大脑，探讨从果蝇到人脑的可能路径",
+      "url": "https://news.berkeley.edu/2024/10/02/researchers-simulate-an-entire-fly-brain-on-a-laptop-is-a-human-brain-next/"
+    }
   ]
 }
