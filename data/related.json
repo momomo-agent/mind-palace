@@ -1286,5 +1286,17 @@
       "desc": "LessWrong 全脑仿真综述",
       "url": "https://www.lesswrong.com/posts/DGsBfcEQKuNPmQizQ/notable-progress-has-been-made-in-whole-brain-emulation"
     }
+  ],
+  "http://xhslink.com/o/7aQTKgeowqJ": [
+    {
+      "title": "The First Multi-Behavior Brain Upload — The Innermost Loop",
+      "desc": "深度技术分析：Eon 如何整合全脑计算模型、NeuroMechFly v2 具身仿真和集中式大脑网络实现多行为闭环",
+      "url": "https://theinnermostloop.substack.com/p/the-first-multi-behavior-brain-upload"
+    },
+    {
+      "title": "From Fruit Fly Brains to Digital Immortality — Dhruva",
+      "desc": "从果蝇到人类：MICrONS 项目已映射鼠脑 1mm³（20万神经元+5.23亿突触），展望数字永生路径",
+      "url": "https://dhruva.substack.com/p/from-fruit-fly-brains-to-digital"
+    }
   ]
 }
