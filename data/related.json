@@ -1239,61 +1239,52 @@
       "url": "https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for"
     }
   ],
-  "https://test.com/pipeline-test": [
+  "https://www.aidesignfieldguide.com/articles/nate-parrott": [
     {
-      "title": "相关1",
-      "desc": "描述1",
-      "url": "https://test.com/related-1"
+      "title": "42 Pages — Nate Parrott",
+      "desc": "Nate 的 HTML-based 设计工具原型，直接输出 HTML 供 LLM 消费",
+      "url": "https://nateparrott.com/42pages/index.html"
     },
     {
-      "title": "相关2",
-      "desc": "描述2",
-      "url": "https://test.com/related-2"
+      "title": "AI Design Field Guide",
+      "desc": "采访顶级 AI 公司设计师的深度访谈系列",
+      "url": "https://www.aidesignfieldguide.com/"
     }
   ],
-  "https://test.com/pipeline-v2": [
+  "https://wattenberger.com/thoughts/boo-chatbots": [
     {
-      "title": "相关1",
-      "desc": "描述1",
-      "url": "https://test.com/rel-v2-1"
+      "title": "LLMs as a Tool for Thought",
+      "desc": "Amelia 探索 LLM 作为思维工具而非聊天工具的可能性",
+      "url": "https://wattenberger.com/thoughts/llms-as-a-tool-for-thought"
     },
     {
-      "title": "相关2",
-      "desc": "描述2",
-      "url": "https://test.com/rel-v2-2"
+      "title": "Our Interfaces Have Lost Their Senses",
+      "desc": "现代界面的感官退化反思",
+      "url": "https://wattenberger.com/thoughts/our-interfaces-have-lost-their-senses"
     }
   ],
-  "https://test.com/verify-1": [
+  "https://x.com/onusoz/status/2030569684840460760": [
     {
-      "title": "验证相关1",
-      "desc": "描述",
-      "url": "https://test.com/verify-rel-1"
-    }
-  ],
-  "https://test.com/final-test": [
-    {
-      "title": "相关1",
-      "desc": "描述1",
-      "url": "https://test.com/final-rel-1"
+      "title": "ACP Agents — OpenClaw Docs",
+      "desc": "ACP agent 配置和绑定的官方文档",
+      "url": "https://docs.openclaw.ai/tools/acp-agents"
     },
     {
-      "title": "相关2",
-      "desc": "描述2",
-      "url": "https://test.com/final-rel-2"
+      "title": "OpenClaw v2026.3.7 Release",
+      "desc": "ACP 持久化绑定 + GPT-5.4 + Docker 瘦身",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.7"
     }
   ],
-  "https://test.com/e2e-final": [
+  "https://x.com/michaelandregg/status/2030764512488677736": [
     {
-      "title": "相关推荐1",
-      "desc": "端到端验证相关",
-      "url": "https://test.com/e2e-rel-1"
-    }
-  ],
-  "https://test.com/summary-test": [
+      "title": "FlyGM: Whole-Brain Connectomic Graph Model",
+      "desc": "连接组直接当 RL 控制器，无需训练即可驱动果蝇运动",
+      "url": "https://arxiv.org/html/2602.17997v1"
+    },
     {
-      "title": "相关",
-      "desc": "desc",
-      "url": "https://test.com/summary-rel"
+      "title": "Notable Progress in Whole Brain Emulation",
+      "desc": "LessWrong 全脑仿真综述",
+      "url": "https://www.lesswrong.com/posts/DGsBfcEQKuNPmQizQ/notable-progress-has-been-made-in-whole-brain-emulation"
     }
   ]
 }
