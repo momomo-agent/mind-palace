@@ -1305,5 +1305,12 @@
       "desc": "Berkeley 报道：Shiu 团队在笔记本上模拟完整果蝇大脑，探讨从果蝇到人脑的可能路径",
       "url": "https://news.berkeley.edu/2024/10/02/researchers-simulate-an-entire-fly-brain-on-a-laptop-is-a-human-brain-next/"
     }
+  ],
+  "https://x.com/bcherny/status/2031089411820228645": [
+    {
+      "title": "Claude Code Review Uses AI Agents to Check PRs — ZDNet",
+      "desc": "ZDNet 深度报道：Claude Code Review 的工作原理和实际使用体验",
+      "url": "https://www.zdnet.com/article/claude-code-review-ai-agents-pull-request-bug-detection/"
+    }
   ]
 }
