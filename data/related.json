@@ -1390,5 +1390,17 @@
       "desc": "源码：brew 安装，menubar app + web dashboard，多模型并发 + LRU eviction + block-level KV cache",
       "url": "https://github.com/jundot/omlx"
     }
+  ],
+  "https://github.com/MemTensor/MemOS": [
+    {
+      "title": "MemOS: An Operating System for LLMs (arXiv)",
+      "desc": "论文：MemCube 架构，文本记忆/激活缓存/参数记忆三层，系统级记忆调度",
+      "url": "https://arxiv.org/abs/2507.03724"
+    },
+    {
+      "title": "Awesome AI Memory — 资源集合",
+      "desc": "AI 记忆系统相关论文、项目、benchmark 资源汇总",
+      "url": "https://github.com/IAAR-Shanghai/Awesome-AI-Memory"
+    }
   ]
 }
