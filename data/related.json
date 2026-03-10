@@ -1350,5 +1350,12 @@
       "desc": "AgentHub 的前置项目：模拟单个 PhD 学生做 LLM 训练研究，AgentHub 把它扩展成研究社区",
       "url": "https://github.com/karpathy/autoresearch"
     }
+  ],
+  "https://x.com/yibie/status/2031222960372199523": [
+    {
+      "title": "AINews: Autoresearch — Sparks of Recursive Self Improvement",
+      "desc": "Latent Space 对 autoresearch 的深度分析：从 meme 到可测量收益，agent 驱动的自我改进循环",
+      "url": "https://www.latent.space/p/ainews-autoresearch-sparks-of-recursive"
+    }
   ]
 }
