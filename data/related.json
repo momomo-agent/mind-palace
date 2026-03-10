@@ -1312,5 +1312,17 @@
       "desc": "ZDNet 深度报道：Claude Code Review 的工作原理和实际使用体验",
       "url": "https://www.zdnet.com/article/claude-code-review-ai-agents-pull-request-bug-detection/"
     }
+  ],
+  "https://x.com/lappalainenjk/status/2031110353611010354": [
+    {
+      "title": "Connectome-constrained Networks Predict Neural Activity — Nature",
+      "desc": "Lappalainen 在 Nature 发表的核心论文：用连接组约束的深度机械网络在单神经元分辨率预测果蝇视觉系统活动",
+      "url": "https://www.nature.com/articles/s41586-024-07939-3"
+    },
+    {
+      "title": "AI + Connectome Predict Brain Cell Activity — Janelia",
+      "desc": "Janelia 科普报道：AI 和连接组结合预测大脑细胞活动的突破",
+      "url": "https://www.janelia.org/news/researchers-combine-the-power-of-ai-and-the-connectome-to-predict-brain-cell-activity"
+    }
   ]
 }
