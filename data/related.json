@@ -1369,5 +1369,12 @@
       "desc": "Google ADK 的记忆架构分析：短期与长期记忆的框架级分离",
       "url": "https://milvus.io/blog/how-to-build-productionready-ai-agents-with-longterm-memory-using-google-adk-and-milvus.md"
     }
+  ],
+  "https://x.com/dxhuang/status/2030608665464725921": [
+    {
+      "title": "mem9 — Unlimited Memory Infrastructure for OpenClaw",
+      "desc": "官网：Context Engine 支持，自动选择相关记忆注入 prompt，降低 token 消耗",
+      "url": "https://mem9.ai/"
+    }
   ]
 }
