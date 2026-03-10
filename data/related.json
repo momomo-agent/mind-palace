@@ -1383,5 +1383,12 @@
       "desc": "B站 CLI：视频详情/字幕/AI总结/评论/热门/排行榜/音频下载+ASR分段，SKILL.md 完整",
       "url": "https://github.com/jackwener/bilibili-cli"
     }
+  ],
+  "https://x.com/fredchuuu/status/2031285360735694917": [
+    {
+      "title": "jundot/omlx — GitHub",
+      "desc": "源码：brew 安装，menubar app + web dashboard，多模型并发 + LRU eviction + block-level KV cache",
+      "url": "https://github.com/jundot/omlx"
+    }
   ]
 }
