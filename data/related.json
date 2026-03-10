@@ -1331,5 +1331,12 @@
       "desc": "源码仓库：对比 Anthropic Computer Use（截图）、OpenAI Operator（浏览器）的差异化在于 accessibility tree + 本地 VLM 双模式",
       "url": "https://github.com/ghostwright/ghost-os"
     }
+  ],
+  "https://x.com/mubeitech/status/2031302926887432335": [
+    {
+      "title": "The March of Nines — Superagent",
+      "desc": "深度解读 Karpathy 的 march of nines 理论，分析 demo-to-product gap 在 AI agent 领域的具体表现",
+      "url": "https://www.superagent.sh/blog/the-march-of-nines"
+    }
   ]
 }
