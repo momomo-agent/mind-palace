@@ -1357,5 +1357,17 @@
       "desc": "Latent Space 对 autoresearch 的深度分析：从 meme 到可测量收益，agent 驱动的自我改进循环",
       "url": "https://www.latent.space/p/ainews-autoresearch-sparks-of-recursive"
     }
+  ],
+  "https://x.com/berryxia/status/2031406673148166584": [
+    {
+      "title": "Always On Memory Agent — GitHub",
+      "desc": "源码仓库：Google ADK + Gemini Flash-Lite + SQLite + Streamlit，支持27种格式摄取",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent"
+    },
+    {
+      "title": "Production AI Agents with Persistent Memory — Milvus",
+      "desc": "Google ADK 的记忆架构分析：短期与长期记忆的框架级分离",
+      "url": "https://milvus.io/blog/how-to-build-productionready-ai-agents-with-longterm-memory-using-google-adk-and-milvus.md"
+    }
   ]
 }
