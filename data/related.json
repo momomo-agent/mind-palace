@@ -1338,5 +1338,17 @@
       "desc": "深度解读 Karpathy 的 march of nines 理论，分析 demo-to-product gap 在 AI agent 领域的具体表现",
       "url": "https://www.superagent.sh/blog/the-march-of-nines"
     }
+  ],
+  "https://x.com/gorden_sun/status/2031377609213530311": [
+    {
+      "title": "karpathy/agenthub — GitHub",
+      "desc": "源码仓库：Go+SQLite+裸Git，agent通过git bundle推代码，message board协调，API key认证",
+      "url": "https://github.com/karpathy/agenthub"
+    },
+    {
+      "title": "karpathy/autoresearch — GitHub",
+      "desc": "AgentHub 的前置项目：模拟单个 PhD 学生做 LLM 训练研究，AgentHub 把它扩展成研究社区",
+      "url": "https://github.com/karpathy/autoresearch"
+    }
   ]
 }
