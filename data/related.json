@@ -1324,5 +1324,12 @@
       "desc": "Janelia 科普报道：AI 和连接组结合预测大脑细胞活动的突破",
       "url": "https://www.janelia.org/news/researchers-combine-the-power-of-ai-and-the-connectome-to-predict-brain-cell-activity"
     }
+  ],
+  "https://x.com/thetripathi58/status/2031037813194735791": [
+    {
+      "title": "Ghost OS — GitHub",
+      "desc": "源码仓库：对比 Anthropic Computer Use（截图）、OpenAI Operator（浏览器）的差异化在于 accessibility tree + 本地 VLM 双模式",
+      "url": "https://github.com/ghostwright/ghost-os"
+    }
   ]
 }
