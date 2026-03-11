@@ -1459,5 +1459,22 @@
       "desc": "claude-code-handoff 项目分析：/handoff 命令生成 context 文件，SessionStart hook 注入",
       "url": "https://vincentvandeth.nl/blog/context-rot-claude-code-automatic-rotation"
     }
+  ],
+  "https://github.com/mindfold-ai/Trellis": [
+    {
+      "title": "Trellis Documentation",
+      "desc": "官方文档：Quick Start、Multi-Platform、Real-World Use Cases",
+      "url": "https://docs.trytrellis.app/"
+    },
+    {
+      "title": "Chapter 13: Multi-Platform Configuration",
+      "desc": "多平台配置详解：Python 脚本、hooks、路径分隔符、平台特定 entry points",
+      "url": "https://docs.trytrellis.app/guide/ch13-multi-platform"
+    },
+    {
+      "title": "Git worktrees for parallel AI coding agents",
+      "desc": "Git worktrees 用于并行 AI agent：依赖不共享、需独立 npm install、pnpm 可优化",
+      "url": "https://devcenter.upsun.com/posts/git-worktrees-for-parallel-ai-coding-agents/"
+    }
   ]
 }
