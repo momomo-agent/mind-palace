@@ -1440,5 +1440,12 @@
       "desc": "Boris Cherny 访谈完整 transcript：subagent 灵感来源、Mama Claude 架构、context window 策略",
       "url": "https://every.to/podcast/transcript-how-to-use-claude-code-like-the-people-who-built-it"
     }
+  ],
+  "https://x.com/xxx111god/status/2030850416133492818": [
+    {
+      "title": "OpenClaw Issue #40272",
+      "desc": "ACP spawn completion notification 缺失问题",
+      "url": "https://github.com/openclaw/openclaw/issues/40272"
+    }
   ]
 }
