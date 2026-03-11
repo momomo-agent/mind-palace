@@ -1409,5 +1409,17 @@
       "desc": "官方文档：/crawl endpoint 参数详解，limit/depth/source 配置",
       "url": "https://developers.cloudflare.com/browser-rendering/rest-api/crawl-endpoint/"
     }
+  ],
+  "https://x.com/GithubProjects/status/2031518882566128054": [
+    {
+      "title": "Introducing A2UI — Google Developers Blog",
+      "desc": "官方介绍：A2UI 的设计动机、格式规范、渲染器架构、与 A2A 的关系",
+      "url": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/"
+    },
+    {
+      "title": "google/A2UI — GitHub",
+      "desc": "源码：UI format spec + 渲染器实现（Lit/Angular/Flutter），v0.8",
+      "url": "https://github.com/google/A2UI/"
+    }
   ]
 }
