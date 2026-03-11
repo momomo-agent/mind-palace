@@ -1476,5 +1476,12 @@
       "desc": "Git worktrees 用于并行 AI agent：依赖不共享、需独立 npm install、pnpm 可优化",
       "url": "https://devcenter.upsun.com/posts/git-worktrees-for-parallel-ai-coding-agents/"
     }
+  ],
+  "https://x.com/YuLin807/status/2031203025390535161": [
+    {
+      "title": "OpenClaw Web Search: How to Make Your Agent Actually Read the Web",
+      "desc": "OpenClaw web 搜索配置：web_fetch/Firecrawl/Readability 的 fallback 链路",
+      "url": "https://www.firecrawl.dev/blog/openclaw-web-search"
+    }
   ]
 }
