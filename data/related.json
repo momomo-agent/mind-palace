@@ -1483,5 +1483,12 @@
       "desc": "OpenClaw web 搜索配置：web_fetch/Firecrawl/Readability 的 fallback 链路",
       "url": "https://www.firecrawl.dev/blog/openclaw-web-search"
     }
+  ],
+  "https://x.com/Khazix0918/status/2010940910083940382": [
+    {
+      "title": "anthropics/skills — Anthropic 官方 Skills 仓库",
+      "desc": "官方 skill 实现 + 开放规范 agentskills.io",
+      "url": "https://github.com/anthropics/skills"
+    }
   ]
 }

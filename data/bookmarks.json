@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-11T02:37:52.702Z",
-    "count": 1479
+    "syncedAt": "2026-03-11T04:35:16.910Z",
+    "count": 1481
   },
   "themes": [
     {
@@ -631,8 +631,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 573,
+      "count": 574,
       "items": [
+        1638185397,
         1638103175,
         1637992695,
         1637992694,
@@ -1212,8 +1213,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 534,
+      "count": 535,
       "items": [
+        1638185394,
         1637992691,
         1637989994,
         1637981427,
@@ -1754,8 +1756,10 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 422,
+      "count": 424,
       "items": [
+        1638185397,
+        1638185394,
         1638103174,
         1637992695,
         1637992694,
@@ -3481,8 +3485,21 @@
   "galaxies": [
     {
       "id": "galaxy-0",
-      "name": "https + firecrawl",
+      "name": "skills + skill",
       "color": "#C4785A",
+      "members": [
+        1638185397,
+        1637968379,
+        1637968372,
+        1638185394,
+        1637968376
+      ],
+      "count": 5
+    },
+    {
+      "id": "galaxy-1",
+      "name": "https + firecrawl",
+      "color": "#7A8B6E",
       "members": [
         1638103175,
         1638103174
@@ -3490,9 +3507,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-1",
+      "id": "galaxy-2",
       "name": "trellis + https",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1637992695,
         1637992694,
@@ -3502,9 +3519,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-2",
+      "id": "galaxy-3",
       "name": "handoff + https",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1637989994,
         1637989993,
@@ -3513,9 +3530,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-3",
+      "id": "galaxy-4",
       "name": "openclaw + https",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1637986561,
         1637986560
@@ -3523,25 +3540,14 @@
       "count": 2
     },
     {
-      "id": "galaxy-4",
+      "id": "galaxy-5",
       "name": "bug + https",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1637981428,
         1637981427
       ],
       "count": 2
-    },
-    {
-      "id": "galaxy-5",
-      "name": "skill + https",
-      "color": "#6B8B8B",
-      "members": [
-        1637968379,
-        1637968376,
-        1637968372
-      ],
-      "count": 3
     },
     {
       "id": "galaxy-6",
@@ -6530,139 +6536,7 @@
   "bridges": [
     {
       "source": "galaxy-0",
-      "target": "galaxy-1",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-2",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-3",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-4",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-5",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-6",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-7",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-9",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-10",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-11",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-12",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-13",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-14",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-15",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-16",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-17",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-18",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-19",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-25",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-48",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-60",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-65",
+      "target": "galaxy-63",
       "strength": 3,
       "shared": []
     },
@@ -7022,169 +6896,169 @@
     },
     {
       "source": "galaxy-3",
+      "target": "galaxy-25",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-48",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-60",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-65",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-5",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-6",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-7",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-8",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-9",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-10",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-11",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-12",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-13",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-14",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-15",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-16",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-17",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-18",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-19",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
       "target": "galaxy-22",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-25",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-27",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-47",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-48",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-50",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-60",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-65",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-3",
+      "source": "galaxy-4",
       "target": "galaxy-68",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-5",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-6",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-7",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-9",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-10",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-11",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-12",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-13",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-14",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-15",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-16",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-17",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-18",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-19",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-25",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-48",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-60",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-4",
-      "target": "galaxy-65",
       "strength": 3,
       "shared": []
     },
@@ -8715,6 +8589,118 @@
   ],
   "items": [
     {
+      "_id": 1638185397,
+      "link": "https://github.com/anthropics/skills",
+      "excerpt": "",
+      "note": "Anthropic 官方 Agent Skills 仓库：14 个示例 skill + docx/pdf/pptx/xlsx 文档 skill + 开放规范",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-11T04:35:10.660Z",
+      "lastUpdate": "2026-03-11T04:35:10.660Z",
+      "domain": "github.com",
+      "title": "https://github.com/anthropics/skills",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1638185397,
+      "highlights": [],
+      "collectionId": -1,
+      "related": [
+        {
+          "title": "Agent Skills 开放规范",
+          "desc": "agentskills.io：Anthropic 发起的 Agent Skill 开放标准，已被多个 agent 产品采用",
+          "url": "https://agentskills.io"
+        },
+        {
+          "title": "Agent Skills: Anthropic定义AI标准的新尝试",
+          "desc": "深度分析：Agent Skills 的战略定位，从 MCP 到 skill，Anthropic 的标准化野心",
+          "url": "https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/"
+        }
+      ],
+      "highlights_text": [
+        "14 个示例 skill + docx/pdf/pptx/xlsx 文档 ski"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ]
+    },
+    {
+      "_id": 1638185394,
+      "link": "https://x.com/Khazix0918/status/2010940910083940382",
+      "excerpt": "",
+      "note": "数字生命卡兹克的 Skills 科普长文：一文带你看懂火爆全网的 Skills 到底是什么。91K views，442 likes。面向中文用户解释 Claude Skills 概念和生态（50+ skill 仓库已 18K star）。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-11T04:35:09.698Z",
+      "lastUpdate": "2026-03-11T04:35:09.698Z",
+      "domain": "x.com",
+      "title": "https://x.com/Khazix0918/status/2010940910083940382",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1638185394,
+      "highlights": [],
+      "collectionId": -1,
+      "related": [
+        {
+          "title": "anthropics/skills — Anthropic 官方 Skills 仓库",
+          "desc": "官方 skill 实现 + 开放规范 agentskills.io",
+          "url": "https://github.com/anthropics/skills"
+        }
+      ],
+      "highlights_text": [
+        "一文带你看懂火爆全网的 Skills 到底是什么"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "中文科普——一文看懂Claude Skills是什么，91K阅读量的入门解读"
+    },
+    {
       "_id": 1638103175,
       "link": "https://www.firecrawl.dev/blog/openclaw-web-search",
       "excerpt": "",
@@ -9483,7 +9469,7 @@
         "ai",
         "develop"
       ],
-      "summary": "Anthropic Agent Skills——Claude的skill系统官方实现+开放规范，SKILL.md格式驱动可复用能力"
+      "summary": "Anthropic Agent Skills官方仓库——skill实现和开放规范"
     },
     {
       "_id": 1637968372,
