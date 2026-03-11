@@ -1447,5 +1447,17 @@
       "desc": "ACP spawn completion notification 缺失问题",
       "url": "https://github.com/openclaw/openclaw/issues/40272"
     }
+  ],
+  "https://x.com/xiaohu/status/2031200365333631115": [
+    {
+      "title": "Feature Request: Session Handoff / Continuity Support",
+      "desc": "Claude Code 官方 issue：.claude/handoff.md 标准化文件传递 session 上下文",
+      "url": "https://github.com/anthropics/claude-code/issues/11455"
+    },
+    {
+      "title": "Context Rot in Claude Code: Automatic Context Rotation",
+      "desc": "claude-code-handoff 项目分析：/handoff 命令生成 context 文件，SessionStart hook 注入",
+      "url": "https://vincentvandeth.nl/blog/context-rot-claude-code-automatic-rotation"
+    }
   ]
 }
