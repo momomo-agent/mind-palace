@@ -1402,5 +1402,12 @@
       "desc": "AI 记忆系统相关论文、项目、benchmark 资源汇总",
       "url": "https://github.com/IAAR-Shanghai/Awesome-AI-Memory"
     }
+  ],
+  "https://x.com/CloudflareDev/status/2031488099725754821": [
+    {
+      "title": "Crawl web content — Cloudflare Browser Rendering docs",
+      "desc": "官方文档：/crawl endpoint 参数详解，limit/depth/source 配置",
+      "url": "https://developers.cloudflare.com/browser-rendering/rest-api/crawl-endpoint/"
+    }
   ]
 }
