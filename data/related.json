@@ -1433,5 +1433,12 @@
       "desc": "深度分析：Agent Skills 的战略定位，从 MCP 到 skill，Anthropic 的标准化野心",
       "url": "https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/"
     }
+  ],
+  "https://x.com/bcherny/status/2031151689219321886": [
+    {
+      "title": "How to Use Claude Code Like the People Who Built It",
+      "desc": "Boris Cherny 访谈完整 transcript：subagent 灵感来源、Mama Claude 架构、context window 策略",
+      "url": "https://every.to/podcast/transcript-how-to-use-claude-code-like-the-people-who-built-it"
+    }
   ]
 }
