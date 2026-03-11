@@ -1421,5 +1421,17 @@
       "desc": "源码：UI format spec + 渲染器实现（Lit/Angular/Flutter），v0.8",
       "url": "https://github.com/google/A2UI/"
     }
+  ],
+  "https://github.com/anthropics/skills": [
+    {
+      "title": "Agent Skills 开放规范",
+      "desc": "agentskills.io：Anthropic 发起的 Agent Skill 开放标准，已被多个 agent 产品采用",
+      "url": "https://agentskills.io"
+    },
+    {
+      "title": "Agent Skills: Anthropic定义AI标准的新尝试",
+      "desc": "深度分析：Agent Skills 的战略定位，从 MCP 到 skill，Anthropic 的标准化野心",
+      "url": "https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/"
+    }
   ]
 }
