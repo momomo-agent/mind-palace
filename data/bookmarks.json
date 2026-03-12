@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-12T04:57:13.291Z",
-    "count": 1491
+    "syncedAt": "2026-03-12T05:06:21.309Z",
+    "count": 1492
   },
   "themes": [
     {
@@ -1762,8 +1762,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 432,
+      "count": 433,
       "items": [
+        1639423422,
         1639415819,
         1639415756,
         1639384072,
@@ -2849,8 +2850,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#ef4444",
-      "count": 73,
+      "count": 74,
       "items": [
+        1639423422,
         1639302715,
         1639302716,
         1638103175,
@@ -6211,8 +6213,19 @@
     },
     {
       "id": "galaxy-184",
-      "name": "Apple · Article",
+      "name": "AI · Tool",
       "color": "#B8A060",
+      "members": [
+        1639423422,
+        1629815462,
+        1612041423
+      ],
+      "count": 3
+    },
+    {
+      "id": "galaxy-185",
+      "name": "Apple · Article",
+      "color": "#6B8B8B",
       "members": [
         738037360,
         558770705,
@@ -6221,25 +6234,15 @@
       "count": 3
     },
     {
-      "id": "galaxy-185",
+      "id": "galaxy-186",
       "name": "AI · Tutorial",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         564993285,
         530423912,
         509598748
       ],
       "count": 3
-    },
-    {
-      "id": "galaxy-186",
-      "name": "AI · Tool",
-      "color": "#9C7A5A",
-      "members": [
-        1629815462,
-        1612041423
-      ],
-      "count": 2
     },
     {
       "id": "galaxy-187",
@@ -9460,6 +9463,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1639423422,
+      "link": "https://www.openui.com/playground",
+      "excerpt": "",
+      "note": "OpenUI Playground：在线体验 Generative UI 生成。选模型（Claude Sonnet/Haiku、GPT-5.2）→ 输入需求 → 实时生成 OpenUI Lang 代码并渲染 UI。预设模板：天气仪表盘、定价卡片、看板、登录表单、数据表格。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-12T05:06:17.158Z",
+      "lastUpdate": "2026-03-12T05:06:17.158Z",
+      "domain": "openui.com",
+      "title": "https://www.openui.com/playground",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1639423422,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "在线体验 Generative UI 生成",
+        "天气仪表盘、定价卡片、看板、登录表单、数据表格"
+      ],
+      "themes": [
+        "tool",
+        "ai"
+      ],
+      "summary": "OpenUI Playground——在线体验Generative UI，选模型输需求即时生成并预览"
+    },
     {
       "_id": 1639415819,
       "link": "https://blog.logrocket.com/react-llm-ui/",
