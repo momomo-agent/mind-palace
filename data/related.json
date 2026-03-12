@@ -1525,5 +1525,17 @@
       "desc": "用 React 组件美化 LLM 流式输出，支持自定义 block 和 fallback",
       "url": "https://blog.logrocket.com/react-llm-ui/"
     }
+  ],
+  "https://x.com/HiTw93/status/2032091246588518683": [
+    {
+      "title": "Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel",
+      "desc": "TDS 文章：Skills 和 Subagents 如何摆脱 prompt 工程的反复调试",
+      "url": "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/"
+    },
+    {
+      "title": "claude-code-hooks-mastery — Hooks 实战指南",
+      "desc": "Hooks 进阶用法：agent 编排、任务系统、自动化测试",
+      "url": "https://github.com/disler/claude-code-hooks-mastery"
+    }
   ]
 }
