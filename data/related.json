@@ -1504,5 +1504,12 @@
       "desc": "Felo 的 Agent Skill 版本，直接装到 Claude Code 或 OpenClaw",
       "url": "https://github.com/Felo-Inc/felo-skills"
     }
+  ],
+  "https://satproto.org/": [
+    {
+      "title": "remysucre/satproto — GitHub",
+      "desc": "sAT Protocol 实现：静态站 + WASM 客户端 + 加密 JSON store",
+      "url": "https://github.com/remysucre/satproto"
+    }
   ]
 }
