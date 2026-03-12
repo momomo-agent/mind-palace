@@ -1518,5 +1518,12 @@
       "desc": "Agent OS 综述：MCP 集成、portable skills、跨平台 agent 能力",
       "url": "https://www.reddit.com/user/enoumen/comments/1r9283v/the_agent_operating_system_orchestrating_the/"
     }
+  ],
+  "https://github.com/thesysdev/openui": [
+    {
+      "title": "llm-ui — React LLM 输出美化库",
+      "desc": "用 React 组件美化 LLM 流式输出，支持自定义 block 和 fallback",
+      "url": "https://blog.logrocket.com/react-llm-ui/"
+    }
   ]
 }
