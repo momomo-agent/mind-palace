@@ -1511,5 +1511,12 @@
       "desc": "sAT Protocol 实现：静态站 + WASM 客户端 + 加密 JSON store",
       "url": "https://github.com/remysucre/satproto"
     }
+  ],
+  "https://arxiv.org/abs/2603.08938": [
+    {
+      "title": "The Agent Operating System: Orchestrating the Autonomous Future",
+      "desc": "Agent OS 综述：MCP 集成、portable skills、跨平台 agent 能力",
+      "url": "https://www.reddit.com/user/enoumen/comments/1r9283v/the_agent_operating_system_orchestrating_the/"
+    }
   ]
 }
