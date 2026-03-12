@@ -1497,5 +1497,12 @@
       "desc": "描述",
       "url": "https://example.com/related"
     }
+  ],
+  "https://x.com/bigCamel_/status/2031628896240808178": [
+    {
+      "title": "felo-skills — Claude Code / OpenClaw skill",
+      "desc": "Felo 的 Agent Skill 版本，直接装到 Claude Code 或 OpenClaw",
+      "url": "https://github.com/Felo-Inc/felo-skills"
+    }
   ]
 }
