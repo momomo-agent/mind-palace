@@ -1576,5 +1576,17 @@
       "desc": "pnpm 官方 worktree 支持文档：enableGlobalVirtualStore + worktree:new",
       "url": "https://pnpm.io/11.x/git-worktrees"
     }
+  ],
+  "https://x.com/kkawsb/status/2032300913910776099": [
+    {
+      "title": "Beyond Context Windows for Long-Term Agentic Memory — Hydra DB",
+      "desc": "Hydra DB 论文：图结构+向量混合的长期 agent 记忆",
+      "url": "https://research.usecortex.ai/cortex.pdf"
+    },
+    {
+      "title": "Vector Databases vs. Graph RAG for Agent Memory",
+      "desc": "向量数据库 vs Graph RAG 的适用场景对比",
+      "url": "https://machinelearningmastery.com/vector-databases-vs-graph-rag-for-agent-memory-when-to-use-which/"
+    }
   ]
 }
