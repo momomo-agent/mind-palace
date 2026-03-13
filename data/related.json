@@ -1551,5 +1551,12 @@
       "desc": "12个递进session：agent loop→tools→planning→subagent→context压缩→多agent协作→worktree隔离",
       "url": "https://github.com/shareAI-lab/learn-claude-code"
     }
+  ],
+  "https://cursor.com/zh-Hant/blog/cursorbench": [
+    {
+      "title": "The End of SWE-Bench Verified — Latent Space",
+      "desc": "SWE-bench 污染问题深度讨论：前沿模型可凭记忆重现标准修补",
+      "url": "https://www.latent.space/p/swe-bench-dead"
+    }
   ]
 }
