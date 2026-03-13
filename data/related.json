@@ -1,24 +1,9 @@
 {
   "https://ruperts.world/blog/ai-computer/": [
     {
-      "title": "Mercury OS",
-      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
-      "url": "https://www.mercuryos.com/"
-    },
-    {
-      "title": "Generative UI and Outcome-Oriented Design — NN/g",
-      "desc": "生成式 UI 的权威定义：未来界面将实时动态生成，设计师角色从画界面转向定义约束",
-      "url": "https://www.nngroup.com/articles/generative-ui/"
-    },
-    {
-      "title": "Introducing Mercury OS — UX Collective",
-      "desc": "意图驱动 OS 的设计原则：流动性、专注、人性化",
-      "url": "https://uxdesign.cc/introducing-mercury-os-f4de45a04289"
-    },
-    {
-      "title": "Desktop Neo",
-      "desc": "从第一性原理重新设计桌面系统，探索多点触控+语音控制",
-      "url": "https://desktopneo.com/"
+      "title": "Telepath — AI-first personal computer",
+      "desc": "Telepath 官网：正在构建的 AI 原生个人电脑",
+      "url": "https://telepath.computer"
     }
   ],
   "https://telepath.computer/": [
