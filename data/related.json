@@ -1569,5 +1569,12 @@
       "desc": "Vite+ 发布：VoidZero 的统一工具链愿景",
       "url": "https://voidzero.dev/posts/announcing-vite-plus"
     }
+  ],
+  "https://x.com/chenchengpro/status/2032411474703053012": [
+    {
+      "title": "pnpm 11.x Git Worktrees 文档",
+      "desc": "pnpm 官方 worktree 支持文档：enableGlobalVirtualStore + worktree:new",
+      "url": "https://pnpm.io/11.x/git-worktrees"
+    }
   ]
 }
