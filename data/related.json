@@ -1570,5 +1570,12 @@
       "desc": "论文：每次交互产生 next-state signal，将其作为在线学习信号",
       "url": "https://arxiv.org/abs/2603.10165"
     }
+  ],
+  "https://x.com/jakevin7/status/2032330774196981833": [
+    {
+      "title": "jackwener/xiaohongshu-cli — GitHub",
+      "desc": "小红书CLI：search/read/comments/feed/like/favorite/reply",
+      "url": "https://github.com/jackwener/xiaohongshu-cli"
+    }
   ]
 }
