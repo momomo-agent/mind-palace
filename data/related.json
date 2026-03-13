@@ -1544,5 +1544,12 @@
       "desc": "详细报道：基于 Imagine with Claude + Artifacts 的聊天内可视化",
       "url": "https://the-decoder.com/claude-can-now-create-interactive-charts-and-visualizations-directly-in-chat/"
     }
+  ],
+  "https://x.com/dddanielwang/status/2032054332586381696": [
+    {
+      "title": "learn-claude-code — 从0到1构建nano Claude Code",
+      "desc": "12个递进session：agent loop→tools→planning→subagent→context压缩→多agent协作→worktree隔离",
+      "url": "https://github.com/shareAI-lab/learn-claude-code"
+    }
   ]
 }
