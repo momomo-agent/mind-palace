@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-13T17:35:19.379Z",
-    "count": 1522
+    "syncedAt": "2026-03-13T17:37:57.063Z",
+    "count": 1523
   },
   "themes": [
     {
@@ -634,8 +634,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 596,
+      "count": 597,
       "items": [
+        1642126648,
         1642125831,
         1642125822,
         1642054947,
@@ -1238,8 +1239,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 548,
+      "count": 549,
       "items": [
+        1642126648,
         1642125831,
         1642054209,
         1641986741,
@@ -1794,8 +1796,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 458,
+      "count": 459,
       "items": [
+        1642126648,
         1642125831,
         1642125822,
         1642054947,
@@ -5898,6 +5901,7 @@
       "name": "AI · Develop",
       "color": "#5A7A6B",
       "members": [
+        1642126648,
         1641360772,
         1635693988,
         1635356731,
@@ -5962,7 +5966,7 @@
         469200214,
         441432575
       ],
-      "count": 63
+      "count": 64
     },
     {
       "id": "galaxy-178",
@@ -11456,6 +11460,57 @@
     }
   ],
   "items": [
+    {
+      "_id": 1642126648,
+      "link": "https://x.com/yan5xu/status/2031947154911351159",
+      "excerpt": "",
+      "note": "CLI is All Agents Need——Manus前后端负责人yan5xu的长文。核心论点：Unix的\"一切皆文本流\"和LLM的\"一切皆token\"跨越50年收敛到同一接口模型。单工具假说：一个run(command)替代散装tool definitions，LLM在统一namespace里做字符串组合vs在多个不相关API间做模式切换，认知负荷完全不同。LLM训练数据里CLI是最密集的工具使用范式（GitHub数十亿行代码），不需要教LLM用CLI——它已经会了。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-13T17:37:47.555Z",
+      "lastUpdate": "2026-03-13T17:37:47.555Z",
+      "domain": "x.com",
+      "title": "https://x.com/yan5xu/status/2031947154911351159",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1642126648,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Manus前后端负责人yan5xu的长文",
+        "Unix的\"一切皆文本流\"和LLM的\"一切皆token\"跨越50年收敛到同一接口",
+        "一个run(command)替代散装tool definitions"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "summary": "CLI is All Agents Need——Unix\"一切皆文本流\"和LLM\"一切皆token\"天然适配，单工具run(command)优于散装tool定义"
+    },
     {
       "_id": 1642125831,
       "link": "https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/",
