@@ -1558,5 +1558,17 @@
       "desc": "SWE-bench 污染问题深度讨论：前沿模型可凭记忆重现标准修补",
       "url": "https://www.latent.space/p/swe-bench-dead"
     }
+  ],
+  "https://x.com/aigclink/status/2032276960827883788": [
+    {
+      "title": "OpenClaw-RL — Train any agent simply by talking",
+      "desc": "RL 框架：从对话中自动学习，支持 terminal/GUI/SWE/tool-call 四种场景",
+      "url": "https://github.com/Gen-Verse/OpenClaw-RL"
+    },
+    {
+      "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+      "desc": "论文：每次交互产生 next-state signal，将其作为在线学习信号",
+      "url": "https://arxiv.org/abs/2603.10165"
+    }
   ]
 }
