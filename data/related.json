@@ -1577,5 +1577,12 @@
       "desc": "小红书CLI：search/read/comments/feed/like/favorite/reply",
       "url": "https://github.com/jackwener/xiaohongshu-cli"
     }
+  ],
+  "https://x.com/youyuxi/status/2032385324572180575": [
+    {
+      "title": "Announcing Vite+ — VoidZero",
+      "desc": "Vite+ 发布：VoidZero 的统一工具链愿景",
+      "url": "https://voidzero.dev/posts/announcing-vite-plus"
+    }
   ]
 }
