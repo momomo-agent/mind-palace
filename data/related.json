@@ -1588,5 +1588,12 @@
       "desc": "向量数据库 vs Graph RAG 的适用场景对比",
       "url": "https://machinelearningmastery.com/vector-databases-vs-graph-rag-for-agent-memory-when-to-use-which/"
     }
+  ],
+  "https://developers.openai.com/codex/learn/best-practices": [
+    {
+      "title": "Using skills to accelerate OSS maintenance — OpenAI",
+      "desc": "OpenAI 用 Skills 加速 Agents SDK 开源维护的实践",
+      "url": "https://developers.openai.com/blog/skills-agents-sdk/"
+    }
   ]
 }
