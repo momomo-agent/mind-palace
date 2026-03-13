@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-13T17:18:47.082Z",
-    "count": 1519
+    "syncedAt": "2026-03-13T17:21:07.496Z",
+    "count": 1520
   },
   "themes": [
     {
       "id": "design",
       "name": "设计",
       "color": "#6366f1",
-      "count": 617,
+      "count": 618,
       "items": [
+        1642054947,
         1641895962,
         1641895952,
         1635817216,
@@ -633,8 +634,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 593,
+      "count": 594,
       "items": [
+        1642054947,
         1642054211,
         1642054209,
         1641986737,
@@ -1789,8 +1791,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 455,
+      "count": 456,
       "items": [
+        1642054947,
         1642054211,
         1642054209,
         1641986741,
@@ -5800,6 +5803,7 @@
       "name": "Design · Develop",
       "color": "#7A6B8B",
       "members": [
+        1642054947,
         1632312885,
         1623411566,
         1606626596,
@@ -5872,7 +5876,7 @@
         166126457,
         160488785
       ],
-      "count": 71
+      "count": 72
     },
     {
       "id": "galaxy-176",
@@ -11215,6 +11219,56 @@
     }
   ],
   "items": [
+    {
+      "_id": 1642054947,
+      "link": "https://x.com/iguangzhengli/status/2032397093701300609",
+      "excerpt": "",
+      "note": "Claude 图表融入对话的实现细节分析。核心：本质是 HTML/SVG/Mermaid。设计原则：1) Seamless——无厚重阴影、彩色背景、花哨标题、品牌风格 2) 明确禁用渐变、阴影、模糊、发光——否则流式渲染时图表会不停闪烁。这些是流式 generative UI 的重要约束。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Design",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-13T17:20:57.334Z",
+      "lastUpdate": "2026-03-13T17:20:57.334Z",
+      "domain": "x.com",
+      "title": "https://x.com/iguangzhengli/status/2032397093701300609",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1642054947,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "本质是 HTML/SVG/Mermaid",
+        "1) Seamless——无厚重阴影、彩色背景、花哨标题、品牌风格 2) 明确禁"
+      ],
+      "themes": [
+        "ai",
+        "design",
+        "develop"
+      ],
+      "summary": "Claude图表实现细节——HTML/SVG/Mermaid，流式渲染必须禁用渐变阴影避免闪烁"
+    },
     {
       "_id": 1642054211,
       "link": "https://developers.openai.com/blog/skills-agents-sdk/",
