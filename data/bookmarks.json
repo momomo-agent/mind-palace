@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-13T00:16:12.002Z",
-    "count": 1500
+    "syncedAt": "2026-03-13T04:15:27.080Z",
+    "count": 1501
   },
   "themes": [
     {
@@ -1769,8 +1769,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 441,
+      "count": 442,
       "items": [
+        1641479829,
         1641361250,
         1641361249,
         1641360772,
@@ -2865,8 +2866,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#ef4444",
-      "count": 75,
+      "count": 76,
       "items": [
+        1641479829,
         1641360275,
         1639423422,
         1639302715,
@@ -6249,8 +6251,20 @@
     },
     {
       "id": "galaxy-186",
-      "name": "Article · Render",
+      "name": "AI · Tool",
       "color": "#9C7A5A",
+      "members": [
+        1641479829,
+        1639423422,
+        1629815462,
+        1612041423
+      ],
+      "count": 4
+    },
+    {
+      "id": "galaxy-187",
+      "name": "Article · Render",
+      "color": "#7A6B8B",
       "members": [
         1524231105,
         1038283614,
@@ -6258,17 +6272,6 @@
         578353486
       ],
       "count": 4
-    },
-    {
-      "id": "galaxy-187",
-      "name": "AI · Tool",
-      "color": "#7A6B8B",
-      "members": [
-        1639423422,
-        1629815462,
-        1612041423
-      ],
-      "count": 3
     },
     {
       "id": "galaxy-188",
@@ -10051,6 +10054,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1641479829,
+      "link": "https://x.com/FileCityAI/status/2031191569911382391",
+      "excerpt": "",
+      "note": "FileCity AI 为 OpenClaw 做的可视化代码地图 + 语音导览。FileCity 是一个将开源仓库转化为可视化地图和语音解说的服务，帮助理解大型代码库架构。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-13T04:15:17.442Z",
+      "lastUpdate": "2026-03-13T04:15:17.442Z",
+      "domain": "x.com",
+      "title": "https://x.com/FileCityAI/status/2031191569911382391",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1641479829,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "FileCity AI 为 OpenClaw 做的可视化代码地图 + 语音导览"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "FileCity为OpenClaw做的可视化代码地图——用语音导览理解大型代码库架构"
+    },
     {
       "_id": 1641361250,
       "link": "https://x.com/dddanielwang/status/2032054332586381696",
