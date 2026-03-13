@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-13T00:13:32.925Z",
-    "count": 1497
+    "syncedAt": "2026-03-13T00:14:47.989Z",
+    "count": 1498
   },
   "themes": [
     {
@@ -631,8 +631,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 579,
+      "count": 580,
       "items": [
+        1641360772,
         1640953033,
         1639415819,
         1639415756,
@@ -1766,8 +1767,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 438,
+      "count": 439,
       "items": [
+        1641360772,
         1641360276,
         1641360275,
         1640953051,
@@ -5750,6 +5752,7 @@
       "name": "AI · Develop",
       "color": "#C4785A",
       "members": [
+        1641360772,
         1635693988,
         1635356731,
         1635117413,
@@ -5813,7 +5816,7 @@
         469200214,
         441432575
       ],
-      "count": 62
+      "count": 63
     },
     {
       "id": "galaxy-169",
@@ -9848,6 +9851,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1641360772,
+      "link": "https://x.com/runes_leo/status/2032043669508018351",
+      "excerpt": "",
+      "note": "Anthropic 内部 Claude Code Plan Mode 提示词解析：1) 进入规划模式完全禁止改代码，只能读/搜/问，提示词写死优先级 2) 最多同时起3个agent从不同角度出方案（简单性/性能/维护成本），AI先自辩论再给用户选 3) 提交计划只能用专门工具(ExitPlanTool)，禁止在对话里问\"可以吗\"——堵死自然语言绕过审批。核心思路：用AI最贵的是返工，先读懂再动手。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-13T00:14:39.214Z",
+      "lastUpdate": "2026-03-13T00:14:39.214Z",
+      "domain": "x.com",
+      "title": "https://x.com/runes_leo/status/2032043669508018351",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1641360772,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "堵死自然语言绕过审批",
+        "1) 进入规划模式完全禁止改代码"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "summary": "Claude Code Plan Mode内部提示词——物理锁死写入权限，3个agent辩论出方案，专用工具提交计划"
+    },
     {
       "_id": 1641360276,
       "link": "https://the-decoder.com/claude-can-now-create-interactive-charts-and-visualizations-directly-in-chat/",
