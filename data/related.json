@@ -1537,5 +1537,12 @@
       "desc": "Hooks 进阶用法：agent 编排、任务系统、自动化测试",
       "url": "https://github.com/disler/claude-code-hooks-mastery"
     }
+  ],
+  "https://x.com/claudeai/status/2032124273587077133": [
+    {
+      "title": "The Decoder: Claude interactive charts and visualizations",
+      "desc": "详细报道：基于 Imagine with Claude + Artifacts 的聊天内可视化",
+      "url": "https://the-decoder.com/claude-can-now-create-interactive-charts-and-visualizations-directly-in-chat/"
+    }
   ]
 }
