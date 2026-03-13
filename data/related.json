@@ -1595,5 +1595,12 @@
       "desc": "OpenAI 用 Skills 加速 Agents SDK 开源维护的实践",
       "url": "https://developers.openai.com/blog/skills-agents-sdk/"
     }
+  ],
+  "https://x.com/karminski3/status/2032229691537703320": [
+    {
+      "title": "I was backend lead at Manus — Reddit 原帖",
+      "desc": "Manus后端负责人原帖：2年agent开发经验总结，统一工具调用方案",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/"
+    }
   ]
 }
