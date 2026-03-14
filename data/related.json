@@ -1602,5 +1602,22 @@
       "desc": "Manus后端负责人原帖：2年agent开发经验总结，统一工具调用方案",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/"
     }
+  ],
+  "https://x.com/_0xkenny/status/2032557322078400527": [
+    {
+      "title": "CLI-Anything — 一行命令让任意软件变AI Agent可控工具",
+      "desc": "港大开源，GIMP/Blender/LibreOffice/OBS等软件秒变AI可控",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "title": "Cognee — 自改进Skill系统",
+      "desc": "Skill能观察执行历史、检查失败、自动修正优化",
+      "url": "https://github.com/topoteretes/cognee"
+    },
+    {
+      "title": "Lightpanda — AI原生无头浏览器",
+      "desc": "非Chromium从零构建，快11倍省9倍内存",
+      "url": "https://github.com/lightpanda-io/lightpanda"
+    }
   ]
 }
