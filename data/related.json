@@ -1661,5 +1661,12 @@
       "desc": "终端 Reddit 客户端，支持 cookie 登录和 AI agent 集成",
       "url": "https://github.com/jackwener/rdt-cli"
     }
+  ],
+  "https://x.com/runes_leo/status/2032777762155487718": [
+    {
+      "title": "pi coding agent 设计原文",
+      "desc": "Mario Zechner 的 pi agent 设计哲学详解",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/"
+    }
   ]
 }
