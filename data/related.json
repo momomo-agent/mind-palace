@@ -1647,5 +1647,12 @@
       "desc": "为 pi coding agent 实现的 generative UI",
       "url": "https://github.com/Michaelliv/pi-generative-ui"
     }
+  ],
+  "https://x.com/wey_gu/status/2032528292360946062": [
+    {
+      "title": "OpenGenerativeUI — CopilotKit 开源 generative UI",
+      "desc": "CopilotKit + LangGraph 的 generative UI 开源实现",
+      "url": "https://github.com/CopilotKit/OpenGenerativeUI"
+    }
   ]
 }
