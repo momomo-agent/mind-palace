@@ -1633,5 +1633,12 @@
       "desc": "NYT视频版，Amanda Askell谈AI道德教育",
       "url": "https://www.nytimes.com/video/podcasts/100000010670974/can-you-teach-an-ai-model-to-be-good.html"
     }
+  ],
+  "https://x.com/chenchengpro/status/2032648998851674300": [
+    {
+      "title": "Defuddle — 从网页提取干净 Markdown",
+      "desc": "Obsidian 创始人 kepano 的 Readability 替代品",
+      "url": "https://github.com/kepano/defuddle"
+    }
   ]
 }
