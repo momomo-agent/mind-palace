@@ -1640,5 +1640,12 @@
       "desc": "Obsidian 创始人 kepano 的 Readability 替代品",
       "url": "https://github.com/kepano/defuddle"
     }
+  ],
+  "https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/": [
+    {
+      "title": "pi-generative-ui — 终端版 generative UI",
+      "desc": "为 pi coding agent 实现的 generative UI",
+      "url": "https://github.com/Michaelliv/pi-generative-ui"
+    }
   ]
 }
