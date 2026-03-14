@@ -1619,5 +1619,12 @@
       "desc": "非Chromium从零构建，快11倍省9倍内存",
       "url": "https://github.com/lightpanda-io/lightpanda"
     }
+  ],
+  "http://xhslink.com/o/6radm6MTPAx": [
+    {
+      "title": "Who is Amanda Askell? — Livemint",
+      "desc": "Amanda Askell 深度专访：如何用哲学教 Claude 做好人",
+      "url": "https://www.livemint.com/technology/who-is-amanda-askell-the-philosopher-anthropic-trusts-to-teach-claude-ai-morals-and-how-to-be-good-11770834572409.html"
+    }
   ]
 }
