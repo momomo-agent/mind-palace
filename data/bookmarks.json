@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-14T05:00:46.313Z",
-    "count": 1533
+    "syncedAt": "2026-03-14T08:23:56.441Z",
+    "count": 1534
   },
   "themes": [
     {
@@ -1803,8 +1803,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 469,
+      "count": 470,
       "items": [
+        1643003851,
         1642666812,
         1642666811,
         1642657445,
@@ -2928,8 +2929,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#ef4444",
-      "count": 82,
+      "count": 83,
       "items": [
+        1643003851,
         1642650284,
         1642650279,
         1641887149,
@@ -6442,12 +6444,13 @@
       "name": "AI · Tool",
       "color": "#6B8B8B",
       "members": [
+        1643003851,
         1641479829,
         1639423422,
         1629815462,
         1612041423
       ],
-      "count": 4
+      "count": 5
     },
     {
       "id": "galaxy-198",
@@ -12054,6 +12057,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1643003851,
+      "link": "https://x.com/runes_leo/status/2032267147481665772",
+      "excerpt": "",
+      "note": "Claude Code Skill：自动注册平台拿API key。两层架构——1)借Chrome cookie注入Playwright免重登(~200行Python) 2)全自动注册：Playwright填表+Gmail API读验证码。Mistral/Together AI/Firecrawl都是这样注册的。把5分钟/平台的重复劳动自动化掉。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-14T08:23:46.808Z",
+      "lastUpdate": "2026-03-14T08:23:46.808Z",
+      "domain": "x.com",
+      "title": "https://x.com/runes_leo/status/2032267147481665772",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1643003851,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "自动注册平台拿API key",
+        "Playwright填表+Gmail API读验证码"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Claude Code Skill——自动注册平台拿API key，借Chrome cookie+Gmail API全自动"
+    },
     {
       "_id": 1642666812,
       "link": "https://www.nytimes.com/video/podcasts/100000010670974/can-you-teach-an-ai-model-to-be-good.html",
