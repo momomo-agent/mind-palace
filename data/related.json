@@ -1654,5 +1654,12 @@
       "desc": "CopilotKit + LangGraph 的 generative UI 开源实现",
       "url": "https://github.com/CopilotKit/OpenGenerativeUI"
     }
+  ],
+  "https://x.com/jakevin7/status/2032751167302746369": [
+    {
+      "title": "rdt-cli — Reddit CLI",
+      "desc": "终端 Reddit 客户端，支持 cookie 登录和 AI agent 集成",
+      "url": "https://github.com/jackwener/rdt-cli"
+    }
   ]
 }
