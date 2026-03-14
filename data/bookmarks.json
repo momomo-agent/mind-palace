@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-14T16:37:05.615Z",
-    "count": 1544
+    "syncedAt": "2026-03-14T16:40:00.956Z",
+    "count": 1545
   },
   "themes": [
     {
@@ -634,8 +634,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 608,
+      "count": 609,
       "items": [
+        1643578121,
         1643577052,
         1643577048,
         1643070507,
@@ -1250,8 +1251,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 555,
+      "count": 556,
       "items": [
+        1643578121,
         1643577052,
         1642666812,
         1642666811,
@@ -1813,8 +1815,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 476,
+      "count": 477,
       "items": [
+        1643578121,
         1643577052,
         1643577048,
         1643069552,
@@ -3614,10 +3617,10 @@
   "galaxies": [
     {
       "id": "galaxy-0",
-      "name": "https + mariozechner",
+      "name": "https + coding",
       "color": "#C4785A",
       "members": [
-        1643577052,
+        1643578121,
         1643577048
       ],
       "count": 2
@@ -6026,6 +6029,7 @@
       "name": "AI · Develop",
       "color": "#6B8B8B",
       "members": [
+        1643577052,
         1642126648,
         1641360772,
         1635693988,
@@ -6091,7 +6095,7 @@
         469200214,
         441432575
       ],
-      "count": 64
+      "count": 65
     },
     {
       "id": "galaxy-186",
@@ -6185,8 +6189,35 @@
     },
     {
       "id": "galaxy-188",
-      "name": "Design · Render",
+      "name": "Article · Develop",
       "color": "#8B7A6E",
+      "members": [
+        735001607,
+        734970089,
+        697346563,
+        613191867,
+        602982203,
+        589683323,
+        551618692,
+        547958996,
+        425148853,
+        411178516,
+        397183181,
+        395794127,
+        365723464,
+        354476696,
+        347211178,
+        309886468,
+        201047965,
+        192354856,
+        192354605
+      ],
+      "count": 19
+    },
+    {
+      "id": "galaxy-189",
+      "name": "Design · Render",
+      "color": "#5A7A6B",
       "members": [
         801023667,
         789434872,
@@ -6215,33 +6246,6 @@
         166764976
       ],
       "count": 25
-    },
-    {
-      "id": "galaxy-189",
-      "name": "Article · Develop",
-      "color": "#5A7A6B",
-      "members": [
-        735001607,
-        734970089,
-        697346563,
-        613191867,
-        602982203,
-        589683323,
-        551618692,
-        547958996,
-        425148853,
-        411178516,
-        397183181,
-        395794127,
-        365723464,
-        354476696,
-        347211178,
-        309886468,
-        201047965,
-        192354856,
-        192354605
-      ],
-      "count": 19
     },
     {
       "id": "galaxy-190",
@@ -7155,6 +7159,24 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-50",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-56",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-57",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-58",
       "strength": 3,
       "shared": []
     },
@@ -13395,6 +13417,55 @@
   ],
   "items": [
     {
+      "_id": 1643578121,
+      "link": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+      "excerpt": "",
+      "note": "Mario Zechner（pi coding agent作者）的完整设计笔记。四层架构：pi-ai(统一LLM API,跨provider context handoff)→pi-agent-core(agent loop)→pi-tui(终端UI,differential rendering)→pi-coding-agent(CLI)。设计哲学：不需要就不造。砍掉MCP(吞13K+ tokens)、子agent(黑盒套黑盒)、plan mode、权限系统。4个工具(读写改跑)进Terminal-Bench前十。核心洞察：context engineering是关键但现有工具都不让你做。跨provider context handoff的实现细节值得参考（thinking traces转content blocks）。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-14T16:39:49.485Z",
+      "lastUpdate": "2026-03-14T16:39:49.485Z",
+      "domain": "mariozechner.at",
+      "title": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1643578121,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "pi-ai(统一LLM API,跨provider context handof",
+        "context engineering是关键但现有工具都不让你做"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ]
+    },
+    {
       "_id": 1643577052,
       "link": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
       "excerpt": "",
@@ -13407,8 +13478,8 @@
       "cover": "",
       "tags": [
         "AI",
-        "Develop",
-        "Article"
+        "Article",
+        "Develop"
       ],
       "pleaseParse": {
         "weight": 1
@@ -13441,7 +13512,7 @@
         "develop",
         "article"
       ],
-      "summary": "pi coding agent设计原文——透明度优先的agent架构"
+      "summary": "pi coding agent完整设计笔记——四层极简架构，砍掉一切黑盒，context engineering优先"
     },
     {
       "_id": 1643577048,
