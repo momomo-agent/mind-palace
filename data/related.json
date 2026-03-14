@@ -1626,5 +1626,12 @@
       "desc": "Amanda Askell 深度专访：如何用哲学教 Claude 做好人",
       "url": "https://www.livemint.com/technology/who-is-amanda-askell-the-philosopher-anthropic-trusts-to-teach-claude-ai-morals-and-how-to-be-good-11770834572409.html"
     }
+  ],
+  "https://www.nytimes.com/2026/01/23/podcasts/hardfork-chatgpt-ads-claude-constitution.html": [
+    {
+      "title": "Can You Teach an AI Model to Be Good? — NYT Video",
+      "desc": "NYT视频版，Amanda Askell谈AI道德教育",
+      "url": "https://www.nytimes.com/video/podcasts/100000010670974/can-you-teach-an-ai-model-to-be-good.html"
+    }
   ]
 }
