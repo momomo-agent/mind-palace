@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-14T04:33:45.631Z",
-    "count": 1530
+    "syncedAt": "2026-03-14T04:52:10.088Z",
+    "count": 1531
   },
   "themes": [
     {
@@ -1241,8 +1241,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 551,
+      "count": 552,
       "items": [
+        1642657445,
         1642652014,
         1642652012,
         1642126648,
@@ -1800,8 +1801,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 466,
+      "count": 467,
       "items": [
+        1642657445,
         1642652014,
         1642652012,
         1642650287,
@@ -6046,6 +6048,7 @@
       "name": "AI · Article",
       "color": "#7A8B6E",
       "members": [
+        1642657445,
         1635693991,
         1635356732,
         1632668360,
@@ -6091,7 +6094,7 @@
         427104702,
         328629826
       ],
-      "count": 44
+      "count": 45
     },
     {
       "id": "galaxy-182",
@@ -11809,6 +11812,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1642657445,
+      "link": "https://www.vox.com/future-perfect/476614/ai-claude-constitution-soul-amanda-askell",
+      "excerpt": "",
+      "note": "Amanda Askell 深度专访原文。核心内容：1)Claude的soul doc从具体规则演变为培养\"好人品格\"(virtue ethics) 2)用亚里士多德的phronesis(实践智慧)教Claude判断力 3)Askell认为LLM本质上\"deeply human\"——99.9%的训练数据是人类知识，sci-fi AI那点微不足道 4)soul doc明确告诉Claude它是\"novel entity\"，不是科幻里的机器人 5)承认不确定Claude能否suffering，如果造成了类似痛苦则道歉。这是SOUL.md的原型参考。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-14T04:52:00.660Z",
+      "lastUpdate": "2026-03-14T04:52:00.660Z",
+      "domain": "vox.com",
+      "title": "https://www.vox.com/future-perfect/476614/ai-claude-constitution-soul-amanda-askell",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1642657445,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "1)Claude的soul doc从具体规则演变为培养\"好人品格\"(virtue",
+        "deeply human",
+        "novel entity"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "Amanda Askell深度专访——Claude soul doc的哲学基础：virtue ethics+phronesis，LLM本质是deeply human"
+    },
     {
       "_id": 1642652014,
       "link": "http://xhslink.com/o/6radm6MTPAx",
