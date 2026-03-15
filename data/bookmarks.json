@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-15T06:13:40.141Z",
-    "count": 1549
+    "syncedAt": "2026-03-15T06:16:44.778Z",
+    "count": 1550
   },
   "themes": [
     {
@@ -1816,8 +1816,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 481,
+      "count": 482,
       "items": [
+        1644320335,
         1644311506,
         1644306121,
         1644306118,
@@ -2953,8 +2954,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#ef4444",
-      "count": 90,
+      "count": 91,
       "items": [
+        1644320335,
         1644306121,
         1644306118,
         1643070507,
@@ -6519,8 +6521,22 @@
     },
     {
       "id": "galaxy-202",
-      "name": "Develop · OS",
+      "name": "AI · Tool",
       "color": "#8B8B5A",
+      "members": [
+        1644320335,
+        1643003851,
+        1641479829,
+        1639423422,
+        1629815462,
+        1612041423
+      ],
+      "count": 6
+    },
+    {
+      "id": "galaxy-203",
+      "name": "Develop · OS",
+      "color": "#5A8B7A",
       "members": [
         537792560,
         537721658,
@@ -6532,19 +6548,6 @@
         352914602
       ],
       "count": 8
-    },
-    {
-      "id": "galaxy-203",
-      "name": "AI · Tool",
-      "color": "#5A8B7A",
-      "members": [
-        1643003851,
-        1641479829,
-        1639423422,
-        1629815462,
-        1612041423
-      ],
-      "count": 5
     },
     {
       "id": "galaxy-204",
@@ -13720,6 +13723,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1644320335,
+      "link": "https://github.com/karpathy/jobs",
+      "excerpt": "",
+      "note": "Karpathy的AI职业替代风险评估项目仓库。完整pipeline：1)Playwright爬BLS 342个职业页面 2)BeautifulSoup→Markdown 3)提取结构化数据→CSV 4)Gemini Flash(OpenRouter)按rubric打分0-10 5)treemap可视化。全部开源含数据。用的Gemini Flash而非GPT/Claude——成本考量。交互式demo在karpathy.ai/jobs。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-15T06:16:38.136Z",
+      "lastUpdate": "2026-03-15T06:16:38.136Z",
+      "domain": "github.com",
+      "title": "https://github.com/karpathy/jobs",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1644320335,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "1)Playwright爬BLS 342个职业页面 2)BeautifulSou"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Karpathy AI职业评估GitHub仓库——完整数据pipeline+交互式treemap"
+    },
     {
       "_id": 1644311506,
       "link": "https://x.com/JoshKale/status/2033012123320672339",
