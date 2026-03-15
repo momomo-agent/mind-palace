@@ -1,3 +1,4 @@
 {
-  "https://test.com/summary-v2": "验证pending summary机制：新条目的summary先存pending，sync时自动合并"
+  "https://test.com/summary-v2": "验证pending summary机制：新条目的summary先存pending，sync时自动合并",
+  "https://x.com/yatingzhao_ux/status/2023019488099160259": "UX思考：界面是否还需要存在——The Best Interface Is No Interface"
 }
