@@ -1689,5 +1689,12 @@
       "desc": "把任何网站变成命令行工具",
       "url": "https://github.com/jackwener/opencli"
     }
+  ],
+  "https://x.com/jason23818126/status/2033152973988364442": [
+    {
+      "title": "OpenClaw-RL GitHub",
+      "desc": "异步RL框架，从自然对话反馈训练个人化agent",
+      "url": "https://github.com/Gen-Verse/OpenClaw-RL"
+    }
   ]
 }
