@@ -1715,5 +1715,12 @@
       "desc": "Rambo的技术文章：如何创建和使用.caar文件",
       "url": "https://www.rambo.codes/posts/2018-11-09-animations-are-assets"
     }
+  ],
+  "https://x.com/khcrysalis/status/2033150024604176388": [
+    {
+      "title": "Shasta - Core Animation Archive Player",
+      "desc": ".caar和.ca文件查看器，支持QuickLook",
+      "url": "https://github.com/claration/Shasta"
+    }
   ]
 }
