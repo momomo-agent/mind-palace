@@ -1703,5 +1703,17 @@
       "desc": "Pi Agent框架作者Daniel+Mario的AMA视频",
       "url": "https://www.youtube.com/watch?v=WQ-LOL6Iaio"
     }
+  ],
+  "https://x.com/khcrysalis/status/2033118020839911715": [
+    {
+      "title": "CAARPlayer",
+      "desc": "查看.caar/.ca Core Animation Archive文件的macOS app",
+      "url": "https://github.com/insidegui/CAARPlayer"
+    },
+    {
+      "title": "Animations are assets: using Core Animation archives on iOS",
+      "desc": "Rambo的技术文章：如何创建和使用.caar文件",
+      "url": "https://www.rambo.codes/posts/2018-11-09-animations-are-assets"
+    }
   ]
 }
