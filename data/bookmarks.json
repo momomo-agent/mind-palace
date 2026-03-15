@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-15T06:16:44.778Z",
-    "count": 1550
+    "syncedAt": "2026-03-15T08:42:33.131Z",
+    "count": 1551
   },
   "themes": [
     {
@@ -1816,8 +1816,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 482,
+      "count": 483,
       "items": [
+        1644417978,
         1644320335,
         1644311506,
         1644306121,
@@ -2306,8 +2307,9 @@
       "id": "app",
       "name": "应用",
       "color": "#8b5cf6",
-      "count": 245,
+      "count": 246,
       "items": [
+        1644417978,
         1642559674,
         1628659608,
         1600823941,
@@ -6273,6 +6275,7 @@
       "name": "AI · App",
       "color": "#5A8B7A",
       "members": [
+        1644417978,
         1642559674,
         1566697821,
         737930840,
@@ -6310,7 +6313,7 @@
         377314871,
         158184748
       ],
-      "count": 36
+      "count": 37
     },
     {
       "id": "galaxy-192",
@@ -13723,6 +13726,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1644417978,
+      "link": "https://github.com/newmaterialco/chowder-iOS",
+      "excerpt": "",
+      "note": "Chowder：原生iOS聊天客户端for OpenClaw。WebSocket连接gateway，支持streaming、Live Activity显示thinking steps、IDENTITY.md/USER.md同步、持久化聊天记录。架构：iPhone→Tailscale→Mac mini gateway。需Xcode 15+/iOS 17+。有Apple Intelligence增强的本地摘要。早期开源项目(newmaterial.co)，定位是AI-first移动聊天模式探索。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "App"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-15T08:42:23.617Z",
+      "lastUpdate": "2026-03-15T08:42:23.617Z",
+      "domain": "github.com",
+      "title": "https://github.com/newmaterialco/chowder-iOS",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1644417978,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "原生iOS聊天客户端for OpenClaw",
+        "iPhone→Tailscale→Mac mini gateway"
+      ],
+      "themes": [
+        "app",
+        "ai"
+      ],
+      "summary": "Chowder——原生iOS OpenClaw客户端，Live Activity显示agent思考步骤"
+    },
     {
       "_id": 1644320335,
       "link": "https://github.com/karpathy/jobs",
