@@ -1682,5 +1682,12 @@
       "desc": "AI agent控制iOS开发全流程的macOS app",
       "url": "https://blitz.dev"
     }
+  ],
+  "https://x.com/jakevin7/status/2033127300649148850": [
+    {
+      "title": "OpenCLI GitHub",
+      "desc": "把任何网站变成命令行工具",
+      "url": "https://github.com/jackwener/opencli"
+    }
   ]
 }
