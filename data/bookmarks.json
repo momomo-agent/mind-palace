@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-15T08:48:51.352Z",
-    "count": 1554
+    "syncedAt": "2026-03-15T08:50:55.175Z",
+    "count": 1555
   },
   "themes": [
     {
@@ -634,8 +634,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 611,
+      "count": 612,
       "items": [
+        1644432348,
         1644428806,
         1644428801,
         1643578121,
@@ -1818,8 +1819,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 484,
+      "count": 485,
       "items": [
+        1644432348,
         1644422271,
         1644417978,
         1644320335,
@@ -6068,6 +6070,7 @@
       "name": "AI · Develop",
       "color": "#7A6B8B",
       "members": [
+        1644432348,
         1643577052,
         1642126648,
         1641360772,
@@ -6134,7 +6137,7 @@
         469200214,
         441432575
       ],
-      "count": 65
+      "count": 66
     },
     {
       "id": "galaxy-188",
@@ -14313,6 +14316,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1644432348,
+      "link": "https://x.com/QuantumTransf/status/2032863384497189033",
+      "excerpt": "",
+      "note": "Agent设计模式讨论：所有LLM文字输出视为内部推理(丢弃)，所有可观察动作通过tool call路由(包括向用户发消息)。两个结构性问题：1)tool call需要结构化输入(JSON schema) 2)退化到CLI语义——为避免JSON复杂度，实现简化成stdin/stdout。和Manus的tool call优化、pi agent的4-tool极简设计是同一个讨论域。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-15T08:50:44.110Z",
+      "lastUpdate": "2026-03-15T08:50:44.110Z",
+      "domain": "x.com",
+      "title": "https://x.com/QuantumTransf/status/2032863384497189033",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1644432348,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "为避免JSON复杂度，实现简化成stdin/stdout",
+        "所有LLM文字输出视为内部推理(丢弃)",
+        "1)tool call需要结构化输入(JSON schema) 2)退化到CLI"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "summary": "Agent设计：所有输出走tool call的结构性问题——JSON复杂度vs CLI退化"
+    },
     {
       "_id": 1644428806,
       "link": "https://blitz.dev",
