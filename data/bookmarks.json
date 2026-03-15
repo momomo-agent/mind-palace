@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-15T06:11:36.368Z",
-    "count": 1548
+    "syncedAt": "2026-03-15T06:13:40.141Z",
+    "count": 1549
   },
   "themes": [
     {
@@ -1816,8 +1816,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 480,
+      "count": 481,
       "items": [
+        1644311506,
         1644306121,
         1644306118,
         1644128575,
@@ -3050,8 +3051,9 @@
       "id": "internet",
       "name": "互联网",
       "color": "#3b82f6",
-      "count": 72,
+      "count": 73,
       "items": [
+        1644311506,
         1639309718,
         1639309715,
         1603544979,
@@ -6605,8 +6607,18 @@
     },
     {
       "id": "galaxy-209",
-      "name": "App · Internet",
+      "name": "AI · Internet",
       "color": "#6B8B8B",
+      "members": [
+        1644311506,
+        1603544763
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-210",
+      "name": "App · Internet",
+      "color": "#9C7A5A",
       "members": [
         741473622,
         672343345,
@@ -6618,9 +6630,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-210",
+      "id": "galaxy-211",
       "name": "Design · Tutorial",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         344914520,
         222987865
@@ -6628,9 +6640,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-211",
+      "id": "galaxy-212",
       "name": "Develop · Figma",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         317545085,
         311179599
@@ -6638,9 +6650,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-212",
+      "id": "galaxy-213",
       "name": "Article · Indie",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         395926445,
         348321519,
@@ -6651,9 +6663,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-213",
+      "id": "galaxy-214",
       "name": "App · Render",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1505944471,
         1422362448,
@@ -6662,9 +6674,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-214",
+      "id": "galaxy-215",
       "name": "Figma · Indie",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         394757303,
         379351339,
@@ -6673,9 +6685,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-215",
+      "id": "galaxy-216",
       "name": "App · Figma",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         377727319,
         313186885
@@ -6683,9 +6695,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-216",
+      "id": "galaxy-217",
       "name": "Develop · Note",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1625452671,
         333103490,
@@ -6694,9 +6706,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-217",
+      "id": "galaxy-218",
       "name": "Android · Develop",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         620952327,
         353198944
@@ -6704,9 +6716,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-218",
+      "id": "galaxy-219",
       "name": "App · Indie",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         365330744,
         350535252
@@ -6714,9 +6726,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-219",
+      "id": "galaxy-220",
       "name": "Design · Tool",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1613597030,
         1612041437
@@ -6729,7 +6741,6 @@
       "color": "#9C948A",
       "members": [
         1637311687,
-        1603544763,
         1602482652,
         1602482617,
         1602161926,
@@ -6935,7 +6946,7 @@
         157288645,
         157288168
       ],
-      "count": 206
+      "count": 205
     }
   ],
   "bridges": [
@@ -13709,6 +13720,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1644311506,
+      "link": "https://x.com/JoshKale/status/2033012123320672339",
+      "excerpt": "",
+      "note": "Karpathy新项目：用LLM给美国342个职业评AI替代风险(0-10分)。数据来自劳工统计局，交互式treemap可视化(面积=就业人数，颜色=AI暴露度)。核心信号：工作产出是数字化的+能远程办公→高暴露。全量均分5.3/10。软件开发8-9分，医疗转录10分，护士/零售4-5分，屋顶工/清洁工0-1分。全流程开源。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Internet"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-15T06:13:31.501Z",
+      "lastUpdate": "2026-03-15T06:13:31.501Z",
+      "domain": "x.com",
+      "title": "https://x.com/JoshKale/status/2033012123320672339",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1644311506,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "用LLM给美国342个职业评AI替代风险(0-10分)",
+        "工作产出是数字化的+能远程办公→高暴露"
+      ],
+      "themes": [
+        "ai",
+        "internet"
+      ],
+      "summary": "Karpathy用LLM给342个职业评AI替代风险，交互式treemap可视化，全流程开源"
+    },
     {
       "_id": 1644306121,
       "link": "https://x.com/aigclink/status/2033009586282860826",
