@@ -1668,5 +1668,12 @@
       "desc": "Mario Zechner 的 pi agent 设计哲学详解",
       "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/"
     }
+  ],
+  "https://x.com/aigclink/status/2033009586282860826": [
+    {
+      "title": "OpenJarvis GitHub",
+      "desc": "斯坦福 Scaling Intelligence Lab 的 local-first 个人 AI 框架",
+      "url": "https://github.com/open-jarvis/OpenJarvis"
+    }
   ]
 }
