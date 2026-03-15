@@ -1729,5 +1729,12 @@
       "desc": "Random Labs技术报告：thread-based episodic memory解决长horizon任务",
       "url": "https://randomlabs.ai/blog/slate"
     }
+  ],
+  "https://x.com/penny777/status/2032920873431347277": [
+    {
+      "title": "GStack GitHub",
+      "desc": "AI coding工作流系统，角色分离+阶段化",
+      "url": "https://github.com/garrytan/gstack"
+    }
   ]
 }
