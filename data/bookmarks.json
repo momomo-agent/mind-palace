@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-15T09:39:36.098Z",
-    "count": 1557
+    "syncedAt": "2026-03-15T09:46:48.935Z",
+    "count": 1558
   },
   "themes": [
     {
@@ -1821,8 +1821,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 487,
+      "count": 488,
       "items": [
+        1644508793,
         1644505143,
         1644455839,
         1644432348,
@@ -3611,9 +3612,18 @@
       ]
     },
     {
+      "id": "blog",
+      "name": "Blog",
+      "color": "#6366f1",
+      "count": 1,
+      "items": [
+        1644508793
+      ]
+    },
+    {
       "id": "font",
       "name": "Font",
-      "color": "#6366f1",
+      "color": "#10b981",
       "count": 1,
       "items": [
         669078187
@@ -3622,7 +3632,7 @@
     {
       "id": "gesture",
       "name": "Gesture",
-      "color": "#10b981",
+      "color": "#f59e0b",
       "count": 1,
       "items": [
         620664969
@@ -3631,7 +3641,7 @@
     {
       "id": "life",
       "name": "Life",
-      "color": "#f59e0b",
+      "color": "#ec4899",
       "count": 1,
       "items": [
         434324772
@@ -6772,6 +6782,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1644508793,
         1637311687,
         1602482652,
         1602482617,
@@ -6978,7 +6989,7 @@
         157288645,
         157288168
       ],
-      "count": 205
+      "count": 206
     }
   ],
   "bridges": [
@@ -14323,6 +14334,55 @@
   ],
   "items": [
     {
+      "_id": 1644508793,
+      "link": "https://simonwillison.net/",
+      "excerpt": "",
+      "note": "Simon Willison的博客——AI/LLM领域最有影响力的独立技术博客之一。Django联合创始人，Datasette作者。首页当前热门话题：AI slop PR导致Jazzband关闭、agentic engineering fireside chat、Anthropic 1M context GA无溢价、Craig Mod用AI写定制会计软件(\"feels like bushwhacking with a lightsaber\")、Shopify CEO Tobias Lütke提交PR让Liquid快53%。高质量信息源，值得定期阅读。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Blog"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-15T09:46:37.690Z",
+      "lastUpdate": "2026-03-15T09:46:37.690Z",
+      "domain": "simonwillison.net",
+      "title": "https://simonwillison.net/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1644508793,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "AI/LLM领域最有影响力的独立技术博客之一",
+        "AI slop PR导致Jazzband关闭、agentic engineeri",
+        "feels like bushwhacking with a lightsaber"
+      ],
+      "themes": [
+        "ai",
+        "blog"
+      ],
+      "summary": "Simon Willison的博客——AI/LLM领域最有影响力的独立技术博客"
+    },
+    {
       "_id": 1644505143,
       "link": "http://xhslink.com/o/1jJOn67zlpC",
       "excerpt": "",
@@ -14415,8 +14475,8 @@
         "界面是否还需要存在？引用Golden Krishna《最好的界面就是没有界面》"
       ],
       "themes": [
-        "design",
-        "ai"
+        "ai",
+        "design"
       ],
       "summary": "UX思考：界面是否还需要存在——The Best Interface Is No Interface"
     },
