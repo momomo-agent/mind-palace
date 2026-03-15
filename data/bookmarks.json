@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-15T09:02:20.681Z",
-    "count": 1555
+    "syncedAt": "2026-03-15T09:39:36.098Z",
+    "count": 1557
   },
   "themes": [
     {
       "id": "design",
       "name": "设计",
       "color": "#6366f1",
-      "count": 618,
+      "count": 619,
       "items": [
+        1644455839,
         1642054947,
         1641895962,
         1641895952,
@@ -1254,8 +1255,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 557,
+      "count": 558,
       "items": [
+        1644505143,
         1644128575,
         1643578121,
         1643577052,
@@ -1819,8 +1821,10 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 485,
+      "count": 487,
       "items": [
+        1644505143,
+        1644455839,
         1644432348,
         1644422271,
         1644417978,
@@ -6144,6 +6148,7 @@
       "name": "AI · Article",
       "color": "#8B7A6E",
       "members": [
+        1644505143,
         1644128575,
         1642657445,
         1635693991,
@@ -6191,7 +6196,7 @@
         427104702,
         328629826
       ],
-      "count": 46
+      "count": 47
     },
     {
       "id": "galaxy-189",
@@ -6463,11 +6468,12 @@
       "name": "AI · Design",
       "color": "#6B8B8B",
       "members": [
+        1644455839,
         1605997044,
         1551209593,
         1540468561
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "galaxy-198",
@@ -14316,6 +14322,104 @@
     }
   ],
   "items": [
+    {
+      "_id": 1644505143,
+      "link": "http://xhslink.com/o/1jJOn67zlpC",
+      "excerpt": "",
+      "note": "OpenClaw创始人Peter Steinberger 37分钟访谈视频(小红书@Ray商业笔记)。核心内容：1)用OpenClaw管理生活——订机票、控制智能家居(Philips Hue/Sonos/KNX/AidSleep)、食物追踪、购物、邮件日历 2)不用MCP/Plan Mode/复杂编排系统(\"I dont use MCPs or any of that crap\") 3)coding方式：开5个terminal checkout(clawbot1-5)同时跑，不用worktree 4)品味不能外包(\"agents dont have taste\") 5)长时间loop是vanity metric 6)把Discord用户反馈截图直接丢给AI做需求分析+开发 7)PR当prompt request看，提取intent重写 8)\"agentic trap\"：人们花时间做工具而非产品。与我们的实践高度一致。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-15T09:39:24.223Z",
+      "lastUpdate": "2026-03-15T09:39:24.223Z",
+      "domain": "xhslink.com",
+      "title": "http://xhslink.com/o/1jJOn67zlpC",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1644505143,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "1)用OpenClaw管理生活——订机票、控制智能家居(Philips Hue/",
+        "开5个terminal checkout(clawbot1-5)同时跑",
+        "人们花时间做工具而非产品"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "OpenClaw创始人Peter Steinberger完整访谈——用AI管理生活、反MCP、品味不可外包"
+    },
+    {
+      "_id": 1644455839,
+      "link": "https://x.com/yatingzhao_ux/status/2023019488099160259",
+      "excerpt": "越来越多讨论、思考、有趣的探索甚至设备出现，太有意思了。\n\n刚看到 Golden Krishna 在《最好的界面就是没有界面》（The Best Interface Is",
+      "note": "UX设计师Yating Zhao思考：界面是否还需要存在？引用Golden Krishna《最好的界面就是没有界面》。和IntentOS、GenUI Lab方向一致。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://pbs.twimg.com/profile_images/1805131800106385408/X_1s5Zr3_200x200.jpg",
+      "tags": [
+        "AI",
+        "Design"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://pbs.twimg.com/profile_images/1805131800106385408/X_1s5Zr3_200x200.jpg"
+        }
+      ],
+      "created": "2026-03-15T09:03:41.231Z",
+      "lastUpdate": "2026-03-15T09:03:41.231Z",
+      "domain": "x.com",
+      "title": "界面是否还需要存在？输入 (input) 是否还需要键盘/鼠标/触摸屏？输出 (output) 是否还需要现在的屏幕？输入/出的反复会减少多少？什么目的的界面会被保留？",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1644455839,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "界面是否还需要存在？引用Golden Krishna《最好的界面就是没有界面》"
+      ],
+      "themes": [
+        "design",
+        "ai"
+      ],
+      "summary": "UX思考：界面是否还需要存在——The Best Interface Is No Interface"
+    },
     {
       "_id": 1644432348,
       "link": "https://x.com/QuantumTransf/status/2032863384497189033",
