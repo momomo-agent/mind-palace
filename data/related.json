@@ -1675,5 +1675,12 @@
       "desc": "斯坦福 Scaling Intelligence Lab 的 local-first 个人 AI 框架",
       "url": "https://github.com/open-jarvis/OpenJarvis"
     }
+  ],
+  "https://x.com/minjunesh/status/2032957201036582914": [
+    {
+      "title": "Blitz · Skip Xcode. Ship with AI.",
+      "desc": "AI agent控制iOS开发全流程的macOS app",
+      "url": "https://blitz.dev"
+    }
   ]
 }
