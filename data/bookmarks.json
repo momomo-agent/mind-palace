@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T04:55:18.856Z",
-    "count": 1584
+    "syncedAt": "2026-03-16T04:55:42.643Z",
+    "count": 1585
   },
   "themes": [
     {
@@ -644,8 +644,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 625,
+      "count": 626,
       "items": [
+        1645745336,
         1645745021,
         1645744890,
         1645744765,
@@ -4753,13 +4754,14 @@
       "name": "https + share",
       "color": "#8B7A6E",
       "members": [
+        1645745336,
         1645745021,
         1645744890,
         1645744765,
         1645744636,
         1645532144
       ],
-      "count": 5
+      "count": 6
     },
     {
       "id": "galaxy-93",
@@ -17327,6 +17329,51 @@
     }
   ],
   "items": [
+    {
+      "_id": 1645745336,
+      "link": "https://share.transistor.fm/s/9aeb7f65",
+      "excerpt": "",
+      "note": "First of Kind Intro: Soleio和制作人回顾Season 1的6集访谈+制作初衷。Designer Founder archetype。短回顾集，不写文章。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Design"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T04:55:38.334Z",
+      "lastUpdate": "2026-03-16T04:55:38.334Z",
+      "domain": "share.transistor.fm",
+      "title": "https://share.transistor.fm/s/9aeb7f65",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645745336,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "First of Kind Intro: Soleio和制作人回顾Season 1的6集访谈+制作初衷"
+      ],
+      "themes": [
+        "design"
+      ],
+      "summary": "First of Kind Intro — 回顾与制作初衷"
+    },
     {
       "_id": 1645745021,
       "link": "https://share.transistor.fm/s/1e04baf0",
