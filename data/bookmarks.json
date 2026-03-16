@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T06:10:14.056Z",
-    "count": 1589
+    "syncedAt": "2026-03-16T07:26:22.355Z",
+    "count": 1590
   },
   "themes": [
     {
@@ -648,8 +648,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 626,
+      "count": 627,
       "items": [
+        1645907868,
         1645745336,
         1645745021,
         1645744890,
@@ -6973,6 +6974,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1645907868,
         1645624253,
         1644508793,
         1637311687,
@@ -7181,7 +7183,7 @@
         157288645,
         157288168
       ],
-      "count": 207
+      "count": 208
     }
   ],
   "bridges": [
@@ -17687,6 +17689,51 @@
     }
   ],
   "items": [
+    {
+      "_id": 1645907868,
+      "link": "https://www.championdontstop.com/site3/champ.html",
+      "excerpt": "",
+      "note": "Champion Graphics / Champion Studio：Geoff McFetridge的设计工作室作品集。客户包括Nike、Patagonia、NYT、Warby Parker、Girl Skateboards、Gap、Intel、Pepsi等。涵盖品牌设计、动画、插画。McFetridge是电影Her的片头设计师，滑板文化标志性设计师。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Design"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T07:26:11.953Z",
+      "lastUpdate": "2026-03-16T07:26:11.953Z",
+      "domain": "championdontstop.com",
+      "title": "https://www.championdontstop.com/site3/champ.html",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645907868,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Geoff McFetridge的设计工作室作品集"
+      ],
+      "themes": [
+        "design"
+      ],
+      "summary": "Geoff McFetridge 的 Champion Studio 作品集——从 Her 片头到 Patagonia"
+    },
     {
       "_id": 1645843895,
       "link": "https://x.com/Kimi_Moonshot/status/2033378587878072424",
