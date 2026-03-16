@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T05:21:26.952Z",
-    "count": 1588
+    "syncedAt": "2026-03-16T06:10:14.056Z",
+    "count": 1589
   },
   "themes": [
     {
       "id": "develop",
       "name": "开发",
       "color": "#6366f1",
-      "count": 631,
+      "count": 632,
       "items": [
+        1645843895,
         1645754017,
         1645750767,
         1645750757,
@@ -1852,8 +1853,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 506,
+      "count": 507,
       "items": [
+        1645843895,
         1645754017,
         1645750767,
         1645750757,
@@ -6269,6 +6271,7 @@
       "name": "AI · Develop",
       "color": "#6B8B8B",
       "members": [
+        1645843895,
         1644705643,
         1644432348,
         1643577052,
@@ -6338,7 +6341,7 @@
         469200214,
         441432575
       ],
-      "count": 68
+      "count": 69
     },
     {
       "id": "galaxy-198",
@@ -17684,6 +17687,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1645843895,
+      "link": "https://x.com/Kimi_Moonshot/status/2033378587878072424",
+      "excerpt": "",
+      "note": "Moonshot AI发布Attention Residuals：用learned attention替代fixed residual connections做depth-wise aggregation。Block AttnRes分块压缩让cross-layer attention可扩展。1.25x计算效率优势，推理延迟增加<2%。在Kimi Linear架构(48B total, 3B activated)上验证。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T06:10:04.513Z",
+      "lastUpdate": "2026-03-16T06:10:04.513Z",
+      "domain": "x.com",
+      "title": "https://x.com/Kimi_Moonshot/status/2033378587878072424",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645843895,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "用learned attention替代fixed residual conne"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "summary": "用 attention 替代 residual connection：1.25x 计算效率，<2% 延迟开销"
+    },
     {
       "_id": 1645754017,
       "link": "https://github.com/open-jarvis/OpenJarvis",
