@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T05:12:14.011Z",
-    "count": 1587
+    "syncedAt": "2026-03-16T05:21:26.952Z",
+    "count": 1588
   },
   "themes": [
     {
       "id": "develop",
       "name": "开发",
       "color": "#6366f1",
-      "count": 630,
+      "count": 631,
       "items": [
+        1645754017,
         1645750767,
         1645750757,
         1645656359,
@@ -1851,8 +1852,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 505,
+      "count": 506,
       "items": [
+        1645754017,
         1645750767,
         1645750757,
         1645656359,
@@ -2909,8 +2911,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 100,
+      "count": 101,
       "items": [
+        1645754017,
         1645656353,
         1645651963,
         1644703993,
@@ -3727,8 +3730,18 @@
   "galaxies": [
     {
       "id": "galaxy-0",
-      "name": "https + learn",
+      "name": "https + com",
       "color": "#C4785A",
+      "members": [
+        1645754017,
+        1644306121
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-1",
+      "name": "https + learn",
+      "color": "#7A8B6E",
       "members": [
         1645750767,
         1645750757
@@ -3736,9 +3749,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-1",
+      "id": "galaxy-2",
       "name": "loryoncloud + https",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1645656359,
         1645656353
@@ -3746,22 +3759,12 @@
       "count": 2
     },
     {
-      "id": "galaxy-2",
+      "id": "galaxy-3",
       "name": "https + superpowers",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1645651964,
         1645651963
-      ],
-      "count": 2
-    },
-    {
-      "id": "galaxy-3",
-      "name": "https + com",
-      "color": "#8B6E7A",
-      "members": [
-        1645159132,
-        1645159131
       ],
       "count": 2
     },
@@ -3770,8 +3773,8 @@
       "name": "https + com",
       "color": "#B8A060",
       "members": [
-        1645158593,
-        1645158591
+        1645159132,
+        1645159131
       ],
       "count": 2
     },
@@ -3780,15 +3783,25 @@
       "name": "https + com",
       "color": "#6B8B8B",
       "members": [
+        1645158593,
+        1645158591
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-6",
+      "name": "https + com",
+      "color": "#9C7A5A",
+      "members": [
         1644703993,
         1644703976
       ],
       "count": 2
     },
     {
-      "id": "galaxy-6",
+      "id": "galaxy-7",
       "name": "https + rambo",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1644702107,
         1644702100,
@@ -3797,9 +3810,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-7",
+      "id": "galaxy-8",
       "name": "https + com",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1644700612,
         1644700609
@@ -3807,9 +3820,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-8",
+      "id": "galaxy-9",
       "name": "https + com",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1644699796,
         1644699792,
@@ -3819,9 +3832,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-9",
+      "id": "galaxy-10",
       "name": "https + com",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1644683431,
         1644683426
@@ -3829,22 +3842,12 @@
       "count": 2
     },
     {
-      "id": "galaxy-10",
+      "id": "galaxy-11",
       "name": "blitz + https",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1644428806,
         1644428801
-      ],
-      "count": 2
-    },
-    {
-      "id": "galaxy-11",
-      "name": "https + com",
-      "color": "#5A8B7A",
-      "members": [
-        1644306121,
-        1644306118
       ],
       "count": 2
     },
@@ -6748,13 +6751,14 @@
       "color": "#5A7A6B",
       "members": [
         1644320335,
+        1644306118,
         1643003851,
         1641479829,
         1639423422,
         1629815462,
         1612041423
       ],
-      "count": 6
+      "count": 7
     },
     {
       "id": "galaxy-214",
@@ -7199,19 +7203,19 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-4",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-5",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-6",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7223,19 +7227,19 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-8",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-9",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-10",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7253,19 +7257,19 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-13",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-14",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-15",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7282,20 +7286,26 @@
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-19",
+      "target": "galaxy-18",
       "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-19",
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-20",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-22",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7307,7 +7317,7 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-26",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7319,19 +7329,19 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-28",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-29",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-30",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7361,7 +7371,7 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-35",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7397,7 +7407,7 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-42",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7415,13 +7425,13 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-45",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-46",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7457,7 +7467,7 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-52",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -7480,6 +7490,12 @@
     },
     {
       "source": "galaxy-0",
+      "target": "galaxy-56",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
       "target": "galaxy-61",
       "strength": 3,
       "shared": []
@@ -7487,7 +7503,7 @@
     {
       "source": "galaxy-0",
       "target": "galaxy-84",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -8171,13 +8187,13 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-4",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-5",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8189,19 +8205,19 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-7",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-8",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-9",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8213,7 +8229,7 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-11",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8225,19 +8241,19 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-13",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-14",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-15",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8254,26 +8270,20 @@
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-18",
+      "target": "galaxy-19",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-19",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-3",
       "target": "galaxy-20",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-22",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8285,7 +8295,7 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-26",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8297,19 +8307,19 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-28",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-29",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-30",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8339,7 +8349,7 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-35",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8375,7 +8385,7 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-42",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8393,13 +8403,13 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-45",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-46",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8435,7 +8445,7 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-52",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8458,12 +8468,6 @@
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-56",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-3",
       "target": "galaxy-61",
       "strength": 3,
       "shared": []
@@ -8471,7 +8475,7 @@
     {
       "source": "galaxy-3",
       "target": "galaxy-84",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8507,13 +8511,13 @@
     {
       "source": "galaxy-4",
       "target": "galaxy-6",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-4",
       "target": "galaxy-7",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8531,13 +8535,13 @@
     {
       "source": "galaxy-4",
       "target": "galaxy-10",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-4",
       "target": "galaxy-11",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8825,13 +8829,13 @@
     {
       "source": "galaxy-5",
       "target": "galaxy-6",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-5",
       "target": "galaxy-7",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -8849,13 +8853,13 @@
     {
       "source": "galaxy-5",
       "target": "galaxy-10",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-5",
       "target": "galaxy-11",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9149,19 +9153,19 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-8",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-9",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-10",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9179,19 +9183,19 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-13",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-14",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-15",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9208,20 +9212,26 @@
     },
     {
       "source": "galaxy-6",
-      "target": "galaxy-19",
+      "target": "galaxy-18",
       "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-19",
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-20",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-22",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9233,7 +9243,7 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-26",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9245,19 +9255,19 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-28",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-29",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-30",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9287,7 +9297,7 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-35",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9323,7 +9333,7 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-42",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9341,13 +9351,13 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-45",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-46",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9383,7 +9393,7 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-52",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9406,6 +9416,12 @@
     },
     {
       "source": "galaxy-6",
+      "target": "galaxy-56",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
       "target": "galaxy-61",
       "strength": 3,
       "shared": []
@@ -9413,7 +9429,7 @@
     {
       "source": "galaxy-6",
       "target": "galaxy-84",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -9443,13 +9459,13 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-8",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-9",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9461,7 +9477,7 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-11",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9473,19 +9489,19 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-13",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-14",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-15",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9502,26 +9518,20 @@
     },
     {
       "source": "galaxy-7",
-      "target": "galaxy-18",
+      "target": "galaxy-19",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
-      "target": "galaxy-19",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-7",
       "target": "galaxy-20",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-22",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9533,7 +9543,7 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-26",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9545,19 +9555,19 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-28",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-29",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-30",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9587,7 +9597,7 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-35",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9623,7 +9633,7 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-42",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9641,13 +9651,13 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-45",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-46",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9683,7 +9693,7 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-52",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9706,12 +9716,6 @@
     },
     {
       "source": "galaxy-7",
-      "target": "galaxy-56",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-7",
       "target": "galaxy-61",
       "strength": 3,
       "shared": []
@@ -9719,7 +9723,7 @@
     {
       "source": "galaxy-7",
       "target": "galaxy-84",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -9755,13 +9759,13 @@
     {
       "source": "galaxy-8",
       "target": "galaxy-10",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-8",
       "target": "galaxy-11",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10049,13 +10053,13 @@
     {
       "source": "galaxy-9",
       "target": "galaxy-10",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-9",
       "target": "galaxy-11",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10355,19 +10359,19 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-13",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-14",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-15",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10384,20 +10388,26 @@
     },
     {
       "source": "galaxy-10",
-      "target": "galaxy-19",
+      "target": "galaxy-18",
       "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-19",
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-20",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-22",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10409,7 +10419,7 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-26",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10421,19 +10431,19 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-28",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-29",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-30",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10463,7 +10473,7 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-35",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10499,7 +10509,7 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-42",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10517,13 +10527,13 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-45",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-46",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10559,7 +10569,7 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-52",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10582,6 +10592,12 @@
     },
     {
       "source": "galaxy-10",
+      "target": "galaxy-56",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
       "target": "galaxy-61",
       "strength": 3,
       "shared": []
@@ -10589,7 +10605,7 @@
     {
       "source": "galaxy-10",
       "target": "galaxy-84",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
@@ -10625,19 +10641,19 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-13",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
       "target": "galaxy-14",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
       "target": "galaxy-15",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10654,26 +10670,20 @@
     },
     {
       "source": "galaxy-11",
-      "target": "galaxy-18",
+      "target": "galaxy-19",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
-      "target": "galaxy-19",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-11",
       "target": "galaxy-20",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
       "target": "galaxy-22",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10685,7 +10695,7 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-26",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10697,19 +10707,19 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-28",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
       "target": "galaxy-29",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
       "target": "galaxy-30",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10739,7 +10749,7 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-35",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10775,7 +10785,7 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-42",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10793,13 +10803,13 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-45",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
       "target": "galaxy-46",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10835,7 +10845,7 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-52",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -10858,12 +10868,6 @@
     },
     {
       "source": "galaxy-11",
-      "target": "galaxy-56",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-11",
       "target": "galaxy-61",
       "strength": 3,
       "shared": []
@@ -10871,7 +10875,7 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-84",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -17681,6 +17685,54 @@
   ],
   "items": [
     {
+      "_id": 1645754017,
+      "link": "https://github.com/open-jarvis/OpenJarvis",
+      "excerpt": "",
+      "note": "Stanford Hazy Research出品的local-first个人AI框架。核心理念：本地模型已能处理88.7%的单轮对话，软件栈才是缺失的一环。支持Ollama/vLLM/SGLang/llama.cpp后端，Python+Rust混合架构，内置硬件检测和效率评估（能耗/FLOPs/延迟/成本与准确率并重）。Intelligence Per Watt研究项目。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T05:21:16.867Z",
+      "lastUpdate": "2026-03-16T05:21:16.867Z",
+      "domain": "github.com",
+      "title": "https://github.com/open-jarvis/OpenJarvis",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645754017,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "本地模型已能处理88.7%的单轮对话"
+      ],
+      "themes": [
+        "ai",
+        "tool",
+        "develop"
+      ]
+    },
+    {
       "_id": 1645750767,
       "link": "https://learn.shareai.run/zh/",
       "excerpt": "",
@@ -19722,7 +19774,7 @@
         "ai",
         "tool"
       ],
-      "summary": "OpenJarvis GitHub仓库——local-first个人AI框架"
+      "summary": "Stanford 的 local-first 个人 AI 框架：本地模型已够用，缺的是软件栈"
     },
     {
       "_id": 1644128575,
