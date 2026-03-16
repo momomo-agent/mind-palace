@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T04:54:16.074Z",
-    "count": 1582
+    "syncedAt": "2026-03-16T04:54:48.045Z",
+    "count": 1583
   },
   "themes": [
     {
@@ -644,8 +644,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 623,
+      "count": 624,
       "items": [
+        1645744890,
         1645744765,
         1645744636,
         1645532144,
@@ -1275,8 +1276,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 560,
+      "count": 561,
       "items": [
+        1645744890,
         1645744765,
         1645744636,
         1644505143,
@@ -4749,11 +4751,12 @@
       "name": "https + share",
       "color": "#8B7A6E",
       "members": [
+        1645744890,
         1645744765,
         1645744636,
         1645532144
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "galaxy-93",
@@ -17321,6 +17324,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1645744890,
+      "link": "https://share.transistor.fm/s/f5b93e19",
+      "excerpt": "",
+      "note": "First of Kind S1E1: Henry Modisett (Perplexity设计负责人)。管理哲学：Ownership+Trust+Accountability，没有Crit。设计师写production code。品牌焦土策略：覆盖所有审美。好设计师多好设计少的原因：产品管理不果断+UI工程被抛弃。Dog fooding=进化速度。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Article",
+        "Design"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T04:54:37.858Z",
+      "lastUpdate": "2026-03-16T04:54:37.858Z",
+      "domain": "share.transistor.fm",
+      "title": "https://share.transistor.fm/s/f5b93e19",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645744890,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Ownership+Trust+Accountability",
+        "产品管理不果断+UI工程被抛弃"
+      ],
+      "themes": [
+        "article",
+        "design"
+      ],
+      "summary": "Henry Modisett: The Curious Case — Perplexity的设计哲学"
+    },
     {
       "_id": 1645744765,
       "link": "https://share.transistor.fm/s/f90b455f",
