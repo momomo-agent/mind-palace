@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T04:54:48.045Z",
-    "count": 1583
+    "syncedAt": "2026-03-16T04:55:18.856Z",
+    "count": 1584
   },
   "themes": [
     {
@@ -644,8 +644,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 624,
+      "count": 625,
       "items": [
+        1645745021,
         1645744890,
         1645744765,
         1645744636,
@@ -1276,8 +1277,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 561,
+      "count": 562,
       "items": [
+        1645745021,
         1645744890,
         1645744765,
         1645744636,
@@ -4751,12 +4753,13 @@
       "name": "https + share",
       "color": "#8B7A6E",
       "members": [
+        1645745021,
         1645744890,
         1645744765,
         1645744636,
         1645532144
       ],
-      "count": 4
+      "count": 5
     },
     {
       "id": "galaxy-93",
@@ -17324,6 +17327,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1645745021,
+      "link": "https://share.transistor.fm/s/1e04baf0",
+      "excerpt": "",
+      "note": "First of Kind S1E2: Colin Dunn (Visual Electric创始人CEO)。设计师的问题选择能力差→iPod策略(已验证市场+无领导者+全执行风险)。6人团队全栈化=pre-AI两倍人力产出。质量是唯一阶跃函数。AI模型将替代品牌指南。从市场顶部进入向下延伸。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Article",
+        "Design"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T04:55:08.633Z",
+      "lastUpdate": "2026-03-16T04:55:08.633Z",
+      "domain": "share.transistor.fm",
+      "title": "https://share.transistor.fm/s/1e04baf0",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645745021,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "First of Kind S1E2: Colin Dunn (Visual Electric创始人CEO)"
+      ],
+      "themes": [
+        "article",
+        "design"
+      ],
+      "summary": "Colin Dunn: Electric Feel — 为图形设计师造AI时代的Cursor"
+    },
     {
       "_id": 1645744890,
       "link": "https://share.transistor.fm/s/f5b93e19",
