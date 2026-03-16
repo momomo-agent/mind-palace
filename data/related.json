@@ -1750,5 +1750,12 @@
       "desc": "AI Agent记忆管理系统，知识像树一样生长凋零循环",
       "url": "https://github.com/loryoncloud/Memory-Like-A-Tree"
     }
+  ],
+  "https://learn.shareai.run/zh/": [
+    {
+      "title": "Build a Coding Agent from Scratch: Complete Python Tutorial",
+      "desc": "分阶段 Python 教程：ReAct loop + 文件工具 + 沙箱执行 + CLAUDE.md 上下文",
+      "url": "https://sidbharath.com/blog/build-a-coding-agent-python-tutorial/"
+    }
   ]
 }
