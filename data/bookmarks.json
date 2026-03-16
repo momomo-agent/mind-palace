@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T04:53:41.358Z",
-    "count": 1581
+    "syncedAt": "2026-03-16T04:54:16.074Z",
+    "count": 1582
   },
   "themes": [
     {
@@ -644,8 +644,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 622,
+      "count": 623,
       "items": [
+        1645744765,
         1645744636,
         1645532144,
         1644702100,
@@ -1274,8 +1275,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 559,
+      "count": 560,
       "items": [
+        1645744765,
         1645744636,
         1644505143,
         1644128575,
@@ -4747,10 +4749,11 @@
       "name": "https + share",
       "color": "#8B7A6E",
       "members": [
+        1645744765,
         1645744636,
         1645532144
       ],
-      "count": 2
+      "count": 3
     },
     {
       "id": "galaxy-93",
@@ -17318,6 +17321,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1645744765,
+      "link": "https://share.transistor.fm/s/f90b455f",
+      "excerpt": "",
+      "note": "First of Kind S2E4: Koen Bok & Jorn van Dijk (Framer联合创始人)。5年原型工具天花板→pivot→10年成功。设计师恨handoff/重建→让设计师直接发布。55% YC公司用Framer。Act 3: AI时代反向路径——已有完整控制，加AI加速。VC是好的forcing function。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Article",
+        "Design"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T04:54:06.107Z",
+      "lastUpdate": "2026-03-16T04:54:06.107Z",
+      "domain": "share.transistor.fm",
+      "title": "https://share.transistor.fm/s/f90b455f",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645744765,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "已有完整控制，加AI加速"
+      ],
+      "themes": [
+        "article",
+        "design"
+      ],
+      "summary": "Koen & Jorn: Framer Reloaded — 五年濒死到十年成功"
+    },
     {
       "_id": 1645744636,
       "link": "https://share.transistor.fm/s/207c42d6",
