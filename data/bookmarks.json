@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T04:15:56.928Z",
-    "count": 1580
+    "syncedAt": "2026-03-16T04:53:41.358Z",
+    "count": 1581
   },
   "themes": [
     {
@@ -644,8 +644,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 621,
+      "count": 622,
       "items": [
+        1645744636,
         1645532144,
         1644702100,
         1644455839,
@@ -1273,8 +1274,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 558,
+      "count": 559,
       "items": [
+        1645744636,
         1644505143,
         1644128575,
         1643578121,
@@ -4742,8 +4744,18 @@
     },
     {
       "id": "galaxy-92",
-      "name": "openclaw + https",
+      "name": "https + share",
       "color": "#8B7A6E",
+      "members": [
+        1645744636,
+        1645532144
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-93",
+      "name": "openclaw + https",
+      "color": "#5A7A6B",
       "members": [
         1644422271,
         1635117740,
@@ -4753,9 +4765,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-93",
+      "id": "galaxy-94",
       "name": "field + guide",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1635795178,
         1622301957
@@ -4763,9 +4775,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-94",
+      "id": "galaxy-95",
       "name": "agent + llm",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1635693986,
         1605999508,
@@ -4777,9 +4789,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-95",
+      "id": "galaxy-96",
       "name": "example + https",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1635241753,
         1635241748,
@@ -4789,9 +4801,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-96",
+      "id": "galaxy-97",
       "name": "component + code’s",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1635117714,
         1128767891,
@@ -4814,9 +4826,9 @@
       "count": 17
     },
     {
-      "id": "galaxy-97",
+      "id": "galaxy-98",
       "name": "skills + install",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1632312988,
         517507676,
@@ -4825,9 +4837,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-98",
+      "id": "galaxy-99",
       "name": "kind + s1e6",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1629610026,
         1629610018,
@@ -4837,9 +4849,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-99",
+      "id": "galaxy-100",
       "name": "https + spotify",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1613612500,
         1613612267
@@ -4847,9 +4859,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-100",
+      "id": "galaxy-101",
       "name": "vercel + building",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1612041407,
         762917464,
@@ -4863,9 +4875,9 @@
       "count": 8
     },
     {
-      "id": "galaxy-101",
+      "id": "galaxy-102",
       "name": "rss + file",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1603544979,
         599138254,
@@ -4878,9 +4890,9 @@
       "count": 7
     },
     {
-      "id": "galaxy-102",
+      "id": "galaxy-103",
       "name": "openclaw + soul",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1596641853,
         1567660543,
@@ -4925,9 +4937,9 @@
       "count": 39
     },
     {
-      "id": "galaxy-103",
+      "id": "galaxy-104",
       "name": "web-search + mermaid",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1592598884,
         1568498887
@@ -4935,9 +4947,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-104",
+      "id": "galaxy-105",
       "name": "moltbook + front",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1568169529,
         1568169449
@@ -4945,9 +4957,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-105",
+      "id": "galaxy-106",
       "name": "notes + these",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1540454272,
         358968151
@@ -4955,9 +4967,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-106",
+      "id": "galaxy-107",
       "name": "field + hdr",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1162211616,
         744206175,
@@ -5005,9 +5017,9 @@
       "count": 42
     },
     {
-      "id": "galaxy-107",
+      "id": "galaxy-108",
       "name": "guide + should",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1128992474,
         668609812,
@@ -5025,9 +5037,9 @@
       "count": 12
     },
     {
-      "id": "galaxy-108",
+      "id": "galaxy-109",
       "name": "⁣⁡‍‌‍‍‌⁢ + ‌⁡‍",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         853938556,
         767864771,
@@ -5036,9 +5048,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-109",
+      "id": "galaxy-110",
       "name": "codrops + shape",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         849401155,
         814765361
@@ -5046,9 +5058,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-110",
+      "id": "galaxy-111",
       "name": "shadertoy + noises",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         812033767,
         604592114,
@@ -5067,9 +5079,9 @@
       "count": 13
     },
     {
-      "id": "galaxy-111",
+      "id": "galaxy-112",
       "name": "maxime + heckel",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         806153243,
         789772330,
@@ -5078,9 +5090,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-112",
+      "id": "galaxy-113",
       "name": "stripe + website",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         786086487,
         184076292
@@ -5088,9 +5100,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-113",
+      "id": "galaxy-114",
       "name": "【实时渲染】ue新版大气渲染（论文及分析）_a + scalable",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         771613682,
         735511520,
@@ -5106,9 +5118,9 @@
       "count": 10
     },
     {
-      "id": "galaxy-114",
+      "id": "galaxy-115",
       "name": "created + apple",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         768478977,
         728867732,
@@ -5117,9 +5129,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-115",
+      "id": "galaxy-116",
       "name": "twitter + michael",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         740471433,
         714609963,
@@ -5178,9 +5190,9 @@
       "count": 53
     },
     {
-      "id": "galaxy-116",
+      "id": "galaxy-117",
       "name": "precomputed + atmospheric",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         729367371,
         729367210
@@ -5188,9 +5200,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-117",
+      "id": "galaxy-118",
       "name": "news + designing",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         713267269,
         568939425
@@ -5198,9 +5210,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-118",
+      "id": "galaxy-119",
       "name": "apple + archive",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         683511008,
         683509338
@@ -5208,9 +5220,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-119",
+      "id": "galaxy-120",
       "name": "apple + developer",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         682771296,
         472623830,
@@ -5220,9 +5232,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-120",
+      "id": "galaxy-121",
       "name": "blender + product",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         676295109,
         560048104,
@@ -5250,9 +5262,9 @@
       "count": 22
     },
     {
-      "id": "galaxy-121",
+      "id": "galaxy-122",
       "name": "゜-゜ + -bilibili",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         668870687,
         633670413,
@@ -5277,9 +5289,9 @@
       "count": 19
     },
     {
-      "id": "galaxy-122",
+      "id": "galaxy-123",
       "name": "base + bedrock",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         664163871,
         556141769
@@ -5287,9 +5299,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-123",
+      "id": "galaxy-124",
       "name": "专访苹果高级副总裁craig和alan + iphone诞生16年，交互设计走向何方？",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         658296170,
         350077625,
@@ -5298,9 +5310,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-124",
+      "id": "galaxy-125",
       "name": "codesandbox + framer",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         650100112,
         353941603,
@@ -5309,9 +5321,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-125",
+      "id": "galaxy-126",
       "name": "number + deep",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         648412247,
         648412197
@@ -5319,9 +5331,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-126",
+      "id": "galaxy-127",
       "name": "如何设计出流畅的手势动效体验？来看腾讯高手的实战经验！ + 原来苹果也没有做好！apple",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         620664969,
         432762034,
@@ -5331,9 +5343,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-127",
+      "id": "galaxy-128",
       "name": "gpu + gdc08",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         619452999,
         307025082
@@ -5341,9 +5353,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-128",
+      "id": "galaxy-129",
       "name": "零基础如何学习计算机图形学？ + 为什么",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         604226339,
         599750287,
@@ -5355,9 +5367,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-129",
+      "id": "galaxy-130",
       "name": "figma + blog",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         595358714,
         551361150,
@@ -5373,9 +5385,9 @@
       "count": 10
     },
     {
-      "id": "galaxy-130",
+      "id": "galaxy-131",
       "name": "raycast + api",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         585384757,
         411179801
@@ -5383,9 +5395,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-131",
+      "id": "galaxy-132",
       "name": "nando + costa",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         585203402,
         585199451
@@ -5393,9 +5405,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-132",
+      "id": "galaxy-133",
       "name": "material + ui材质设计",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         585199535,
         388012380
@@ -5403,9 +5415,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-133",
+      "id": "galaxy-134",
       "name": "图灵奖获得者yann + lecun",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         569376864,
         223549574
@@ -5413,9 +5425,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-134",
+      "id": "galaxy-135",
       "name": "博客园 + webgpu",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         568216664,
         568216183,
@@ -5427,9 +5439,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-135",
+      "id": "galaxy-136",
       "name": "hugging + face",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         563683874,
         446518576,
@@ -5441,9 +5453,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-136",
+      "id": "galaxy-137",
       "name": "designing + generating",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         558710297,
         539498277
@@ -5451,9 +5463,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-137",
+      "id": "galaxy-138",
       "name": "chatgpt + 、stable",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         558228310,
         333104526,
@@ -5462,9 +5474,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-138",
+      "id": "galaxy-139",
       "name": "faking + volumetric",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         557856447,
         557856386
@@ -5472,9 +5484,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-139",
+      "id": "galaxy-140",
       "name": "glsl粒子计算 + swissgl",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         557090129,
         285901119
@@ -5482,9 +5494,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-140",
+      "id": "galaxy-141",
       "name": "fusion + brain",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         556087091,
         556087078
@@ -5492,9 +5504,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-141",
+      "id": "galaxy-142",
       "name": "browser + mossberg",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         554284992,
         474014140,
@@ -5505,9 +5517,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-142",
+      "id": "galaxy-143",
       "name": "目击者 + 爱死机",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         554032711,
         474987620
@@ -5515,9 +5527,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-143",
+      "id": "galaxy-144",
       "name": "作为文化实践而非计算对象的思维工具 + 可编程笔记",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         552542907,
         379456392,
@@ -5527,9 +5539,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-144",
+      "id": "galaxy-145",
       "name": "vr-os + 工作台",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         552541891,
         381651587,
@@ -5538,9 +5550,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-145",
+      "id": "galaxy-146",
       "name": "ruffle + web",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         551695102,
         248423705
@@ -5548,9 +5560,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-146",
+      "id": "galaxy-147",
       "name": "mind + secret",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         551318176,
         369821700
@@ -5558,9 +5570,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-147",
+      "id": "galaxy-148",
       "name": "agi + 前夜，聊聊",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         550084783,
         425545403,
@@ -5569,9 +5581,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-148",
+      "id": "galaxy-149",
       "name": "gpt-4 + reasoning",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         549224859,
         441428466
@@ -5579,9 +5591,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-149",
+      "id": "galaxy-150",
       "name": "actually + duplicate",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         546098127,
         385659557
@@ -5589,9 +5601,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-150",
+      "id": "galaxy-151",
       "name": "terragen + video",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         546075160,
         543070896
@@ -5599,9 +5611,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-151",
+      "id": "galaxy-152",
       "name": "internet + computers",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         544276659,
         365473573
@@ -5609,9 +5621,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-152",
+      "id": "galaxy-153",
       "name": "observable + three",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         542418127,
         390285433,
@@ -5620,9 +5632,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-153",
+      "id": "galaxy-154",
       "name": "chatgpt + rewind",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         542072407,
         469199626
@@ -5630,9 +5642,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-154",
+      "id": "galaxy-155",
       "name": "material + science",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         541924249,
         390284098,
@@ -5642,9 +5654,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-155",
+      "id": "galaxy-156",
       "name": "nobe-企业支出管理平台 + nobe-enterprise",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         519522004,
         519520540
@@ -5652,9 +5664,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-156",
+      "id": "galaxy-157",
       "name": "godly + web",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         514302117,
         400251373
@@ -5662,9 +5674,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-157",
+      "id": "galaxy-158",
       "name": "reflect",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         507607546,
         455630219
@@ -5672,9 +5684,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-158",
+      "id": "galaxy-159",
       "name": "arc + release",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         506241633,
         480512755
@@ -5682,9 +5694,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-159",
+      "id": "galaxy-160",
       "name": "android + search",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         502623672,
         352243298
@@ -5692,9 +5704,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-160",
+      "id": "galaxy-161",
       "name": "humane + good",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         502029621,
         464704210
@@ -5702,9 +5714,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-161",
+      "id": "galaxy-162",
       "name": "make + clouds",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         498673370,
         157753933
@@ -5712,9 +5724,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-162",
+      "id": "galaxy-163",
       "name": "takes + time",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         487534973,
         471519157
@@ -5722,9 +5734,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-163",
+      "id": "galaxy-164",
       "name": "disney + brdf",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         481057238,
         232561260
@@ -5732,9 +5744,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-164",
+      "id": "galaxy-165",
       "name": "quasimode + text",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         477069770,
         477068983
@@ -5742,9 +5754,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-165",
+      "id": "galaxy-166",
       "name": "introducing + notion",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         473305843,
         315314324
@@ -5752,9 +5764,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-166",
+      "id": "galaxy-167",
       "name": "swiftui + prototype",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         473100406,
         229329415
@@ -5762,9 +5774,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-167",
+      "id": "galaxy-168",
       "name": "productivity + spotify",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         462651297,
         462651078,
@@ -5774,9 +5786,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-168",
+      "id": "galaxy-169",
       "name": "浅谈设计师如何晋升管理者（干货分享）_houng弘-站酷zcool + 整理-最全最细致的设计师接私单（私活）渠道及优缺介绍",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         445142905,
         334241349
@@ -5784,9 +5796,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-169",
+      "id": "galaxy-170",
       "name": "systems + future",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         432339693,
         339714985
@@ -5794,9 +5806,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-170",
+      "id": "galaxy-171",
       "name": "colors + reinventing",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         411168874,
         396810539
@@ -5804,9 +5816,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-171",
+      "id": "galaxy-172",
       "name": "prototypr + prototyping",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         411167264,
         411167223
@@ -5814,9 +5826,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-172",
+      "id": "galaxy-173",
       "name": "sparkbox + web",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         408074243,
         378380031
@@ -5824,9 +5836,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-173",
+      "id": "galaxy-174",
       "name": "jony + ive",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         396304253,
         396304209
@@ -5834,9 +5846,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-174",
+      "id": "galaxy-175",
       "name": "mechanical + watch",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         391773307,
         181131983
@@ -5844,9 +5856,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-175",
+      "id": "galaxy-176",
       "name": "color-space + figma-squircle",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         390256349,
         371585363,
@@ -5855,9 +5867,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-176",
+      "id": "galaxy-177",
       "name": "阮一峰的网络日志 + actions",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         381174343,
         339976057
@@ -5865,9 +5877,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-177",
+      "id": "galaxy-178",
       "name": "folme + miui",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         378380462,
         181482602,
@@ -5883,9 +5895,9 @@
       "count": 10
     },
     {
-      "id": "galaxy-178",
+      "id": "galaxy-179",
       "name": "cross + reference",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         376149782,
         353230155
@@ -5893,9 +5905,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-179",
+      "id": "galaxy-180",
       "name": "零散的工具体验信息 + craft",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         375794422,
         338678012
@@ -5903,9 +5915,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-180",
+      "id": "galaxy-181",
       "name": "成长期的乔布斯：矛盾、谎言与暴力 + 阿北不是老板，豆瓣不是公司",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         369824674,
         160263471
@@ -5913,9 +5925,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-181",
+      "id": "galaxy-182",
       "name": "设计一个新的互联网 + exapt",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         368957295,
         368957101
@@ -5923,9 +5935,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-182",
+      "id": "galaxy-183",
       "name": "wikipedia + ted",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         361733196,
         361732694,
@@ -5935,9 +5947,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-183",
+      "id": "galaxy-184",
       "name": "published + discovering",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         359976579,
         359976569
@@ -5945,9 +5957,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-184",
+      "id": "galaxy-185",
       "name": "我做系统架构的一些原则 + coolshell",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         344254971,
         166222789
@@ -5955,9 +5967,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-185",
+      "id": "galaxy-186",
       "name": "color + practical",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         320085040,
         244909066
@@ -5965,9 +5977,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-186",
+      "id": "galaxy-187",
       "name": "monetizing + figma",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         317544082,
         311178474,
@@ -5976,9 +5988,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-187",
+      "id": "galaxy-188",
       "name": "w2solo + 独立开发者社区",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         306908915,
         271620850,
@@ -5987,9 +5999,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-188",
+      "id": "galaxy-189",
       "name": "three + journey",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         232563489,
         213889604
@@ -5997,9 +6009,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-189",
+      "id": "galaxy-190",
       "name": "miui + design（研发中）",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         228132330,
         209578034
@@ -6007,9 +6019,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-190",
+      "id": "galaxy-191",
       "name": "shadowsocks + potatso",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         204154958,
         204154924
@@ -6017,9 +6029,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-191",
+      "id": "galaxy-192",
       "name": "microsoft + hololens",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         172664790,
         163020622
@@ -6027,9 +6039,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-192",
+      "id": "galaxy-193",
       "name": "ntfs + 一位个人开发者，靠几百张图片，训练了一款很牛的",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         172332622,
         160775201
@@ -6037,9 +6049,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-193",
+      "id": "galaxy-194",
       "name": "Article · Design",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1632312992,
         1626776832,
@@ -6144,9 +6156,9 @@
       "count": 99
     },
     {
-      "id": "galaxy-194",
+      "id": "galaxy-195",
       "name": "Design · Develop",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1642054947,
         1632312885,
@@ -6224,9 +6236,9 @@
       "count": 72
     },
     {
-      "id": "galaxy-195",
+      "id": "galaxy-196",
       "name": "AI · Develop",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1644705643,
         1644432348,
@@ -6300,9 +6312,9 @@
       "count": 68
     },
     {
-      "id": "galaxy-196",
+      "id": "galaxy-197",
       "name": "AI · Article",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         1644505143,
         1644128575,
@@ -6355,9 +6367,9 @@
       "count": 47
     },
     {
-      "id": "galaxy-197",
+      "id": "galaxy-198",
       "name": "Develop · Render",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1587790549,
         1341731095,
@@ -6392,9 +6404,9 @@
       "count": 29
     },
     {
-      "id": "galaxy-198",
+      "id": "galaxy-199",
       "name": "Article · Develop",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         735001607,
         734970089,
@@ -6419,9 +6431,9 @@
       "count": 19
     },
     {
-      "id": "galaxy-199",
+      "id": "galaxy-200",
       "name": "Design · Render",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         801023667,
         789434872,
@@ -6452,9 +6464,9 @@
       "count": 25
     },
     {
-      "id": "galaxy-200",
+      "id": "galaxy-201",
       "name": "AI · App",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1644417978,
         1642559674,
@@ -6497,9 +6509,9 @@
       "count": 37
     },
     {
-      "id": "galaxy-201",
+      "id": "galaxy-202",
       "name": "App · Design",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1600823941,
         790069300,
@@ -6532,9 +6544,9 @@
       "count": 27
     },
     {
-      "id": "galaxy-202",
+      "id": "galaxy-203",
       "name": "App · Develop",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1566275144,
         1044296804,
@@ -6560,9 +6572,9 @@
       "count": 20
     },
     {
-      "id": "galaxy-203",
+      "id": "galaxy-204",
       "name": "App · Note",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1597979165,
         565982668,
@@ -6597,9 +6609,9 @@
       "count": 29
     },
     {
-      "id": "galaxy-204",
+      "id": "galaxy-205",
       "name": "Article · OS",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         632995849,
         552541478,
@@ -6620,9 +6632,9 @@
       "count": 15
     },
     {
-      "id": "galaxy-205",
+      "id": "galaxy-206",
       "name": "AI · Design",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1644455839,
         1605997044,
@@ -6632,9 +6644,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-206",
+      "id": "galaxy-207",
       "name": "Article · Internet",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1145819654,
         454110406,
@@ -6647,9 +6659,9 @@
       "count": 7
     },
     {
-      "id": "galaxy-207",
+      "id": "galaxy-208",
       "name": "Design · OS",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         1135575203,
         619881773,
@@ -6661,9 +6673,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-208",
+      "id": "galaxy-209",
       "name": "Apple · Develop",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         824960520,
         806039651,
@@ -6681,9 +6693,9 @@
       "count": 12
     },
     {
-      "id": "galaxy-209",
+      "id": "galaxy-210",
       "name": "Develop · Tutorial",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         559978521,
         539926094,
@@ -6695,9 +6707,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-210",
+      "id": "galaxy-211",
       "name": "Apple · Design",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         826983319,
         685049001
@@ -6705,9 +6717,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-211",
+      "id": "galaxy-212",
       "name": "AI · Tool",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1644320335,
         1643003851,
@@ -6719,9 +6731,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-212",
+      "id": "galaxy-213",
       "name": "Develop · OS",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         537792560,
         537721658,
@@ -6735,9 +6747,9 @@
       "count": 8
     },
     {
-      "id": "galaxy-213",
+      "id": "galaxy-214",
       "name": "Article · Render",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1524231105,
         1038283614,
@@ -6747,9 +6759,9 @@
       "count": 4
     },
     {
-      "id": "galaxy-214",
+      "id": "galaxy-215",
       "name": "Apple · Article",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         738037360,
         558770705,
@@ -6758,9 +6770,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-215",
+      "id": "galaxy-216",
       "name": "AI · Tutorial",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         564993285,
         530423912,
@@ -6769,9 +6781,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-216",
+      "id": "galaxy-217",
       "name": "Develop · Tool",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1624983017,
         1616537096,
@@ -6780,9 +6792,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-217",
+      "id": "galaxy-218",
       "name": "Develop · Indie",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         413254930,
         377978269,
@@ -6794,9 +6806,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-218",
+      "id": "galaxy-219",
       "name": "AI · Internet",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         1644311506,
         1603544763
@@ -6804,9 +6816,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-219",
+      "id": "galaxy-220",
       "name": "App · Internet",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         741473622,
         672343345,
@@ -6818,9 +6830,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-220",
+      "id": "galaxy-221",
       "name": "Design · Tutorial",
-      "color": "#B8A060",
+      "color": "#6B8B8B",
       "members": [
         344914520,
         222987865
@@ -6828,9 +6840,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-221",
+      "id": "galaxy-222",
       "name": "Develop · Figma",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         317545085,
         311179599
@@ -6838,9 +6850,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-222",
+      "id": "galaxy-223",
       "name": "Article · Indie",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         395926445,
         348321519,
@@ -6851,9 +6863,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-223",
+      "id": "galaxy-224",
       "name": "App · Render",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1505944471,
         1422362448,
@@ -6862,9 +6874,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-224",
+      "id": "galaxy-225",
       "name": "Figma · Indie",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         394757303,
         379351339,
@@ -6873,9 +6885,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-225",
+      "id": "galaxy-226",
       "name": "App · Figma",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         377727319,
         313186885
@@ -6883,9 +6895,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-226",
+      "id": "galaxy-227",
       "name": "Develop · Note",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1625452671,
         333103490,
@@ -6894,9 +6906,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-227",
+      "id": "galaxy-228",
       "name": "Android · Develop",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         620952327,
         353198944
@@ -6904,9 +6916,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-228",
+      "id": "galaxy-229",
       "name": "App · Indie",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         365330744,
         350535252
@@ -6914,9 +6926,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-229",
+      "id": "galaxy-230",
       "name": "Design · Tool",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1613597030,
         1612041437
@@ -6929,7 +6941,6 @@
       "color": "#9C948A",
       "members": [
         1645624253,
-        1645532144,
         1644508793,
         1637311687,
         1602482652,
@@ -7137,7 +7148,7 @@
         157288645,
         157288168
       ],
-      "count": 208
+      "count": 207
     }
   ],
   "bridges": [
@@ -7455,13 +7466,19 @@
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -7773,13 +7790,19 @@
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -8097,13 +8120,19 @@
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -8415,13 +8444,19 @@
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -8727,13 +8762,19 @@
     },
     {
       "source": "galaxy-4",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-4",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -9021,13 +9062,19 @@
     },
     {
       "source": "galaxy-5",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-5",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-5",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -9321,13 +9368,19 @@
     },
     {
       "source": "galaxy-6",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-6",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -9615,13 +9668,19 @@
     },
     {
       "source": "galaxy-7",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-7",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -9903,13 +9962,19 @@
     },
     {
       "source": "galaxy-8",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-8",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-8",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -10173,13 +10238,19 @@
     },
     {
       "source": "galaxy-9",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-9",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -10449,13 +10520,19 @@
     },
     {
       "source": "galaxy-10",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-10",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -10725,13 +10802,19 @@
     },
     {
       "source": "galaxy-11",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-11",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -10989,13 +11072,19 @@
     },
     {
       "source": "galaxy-12",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-12",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-12",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -11247,13 +11336,19 @@
     },
     {
       "source": "galaxy-13",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-13",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -11499,13 +11594,19 @@
     },
     {
       "source": "galaxy-14",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-14",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-14",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -11733,13 +11834,19 @@
     },
     {
       "source": "galaxy-15",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-15",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-15",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -11961,13 +12068,19 @@
     },
     {
       "source": "galaxy-16",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-16",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-16",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -12273,13 +12386,19 @@
     },
     {
       "source": "galaxy-18",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-18",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-18",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -12495,13 +12614,19 @@
     },
     {
       "source": "galaxy-19",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-19",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-19",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -12717,13 +12842,19 @@
     },
     {
       "source": "galaxy-21",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-21",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-21",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -12921,13 +13052,19 @@
     },
     {
       "source": "galaxy-24",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-24",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-24",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -13125,13 +13262,19 @@
     },
     {
       "source": "galaxy-25",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-25",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-25",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -13353,7 +13496,7 @@
     },
     {
       "source": "galaxy-26",
-      "target": "galaxy-94",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
@@ -13365,7 +13508,13 @@
     },
     {
       "source": "galaxy-26",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-26",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -13551,13 +13700,19 @@
     },
     {
       "source": "galaxy-27",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-27",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-27",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -13737,13 +13892,19 @@
     },
     {
       "source": "galaxy-28",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-28",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-28",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -13917,13 +14078,19 @@
     },
     {
       "source": "galaxy-29",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-29",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-29",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -14085,7 +14252,7 @@
     },
     {
       "source": "galaxy-30",
-      "target": "galaxy-94",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
@@ -14097,7 +14264,13 @@
     },
     {
       "source": "galaxy-30",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-30",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -14289,7 +14462,7 @@
     },
     {
       "source": "galaxy-31",
-      "target": "galaxy-94",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
@@ -14301,7 +14474,13 @@
     },
     {
       "source": "galaxy-31",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-31",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -14451,13 +14630,19 @@
     },
     {
       "source": "galaxy-32",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-32",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-32",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -14601,13 +14786,19 @@
     },
     {
       "source": "galaxy-33",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-33",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-33",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -14751,19 +14942,25 @@
     },
     {
       "source": "galaxy-34",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-34",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-34",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-35",
-      "target": "galaxy-97",
+      "target": "galaxy-98",
       "strength": 3,
       "shared": []
     },
@@ -14895,13 +15092,19 @@
     },
     {
       "source": "galaxy-36",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-36",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-36",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15027,13 +15230,19 @@
     },
     {
       "source": "galaxy-37",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-37",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-37",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15153,13 +15362,19 @@
     },
     {
       "source": "galaxy-38",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-38",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-38",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15292,24 +15507,30 @@
     {
       "source": "galaxy-39",
       "target": "galaxy-92",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-39",
+      "target": "galaxy-93",
       "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-39",
-      "target": "galaxy-95",
+      "target": "galaxy-96",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-39",
-      "target": "galaxy-99",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-39",
-      "target": "galaxy-102",
+      "target": "galaxy-103",
       "strength": 3,
       "shared": []
     },
@@ -15417,13 +15638,19 @@
     },
     {
       "source": "galaxy-40",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-40",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-40",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15531,13 +15758,19 @@
     },
     {
       "source": "galaxy-41",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-41",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-41",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15633,13 +15866,19 @@
     },
     {
       "source": "galaxy-42",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-42",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-42",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15729,13 +15968,19 @@
     },
     {
       "source": "galaxy-43",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-43",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-43",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15825,13 +16070,19 @@
     },
     {
       "source": "galaxy-44",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-44",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-44",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15915,13 +16166,19 @@
     },
     {
       "source": "galaxy-45",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-45",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-45",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -15993,13 +16250,19 @@
     },
     {
       "source": "galaxy-46",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-46",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-46",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16065,13 +16328,19 @@
     },
     {
       "source": "galaxy-47",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-47",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-47",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16131,13 +16400,19 @@
     },
     {
       "source": "galaxy-48",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-48",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-48",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16191,13 +16466,19 @@
     },
     {
       "source": "galaxy-49",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-49",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-49",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16245,13 +16526,19 @@
     },
     {
       "source": "galaxy-50",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-50",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-50",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16299,13 +16586,19 @@
     },
     {
       "source": "galaxy-51",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-51",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-51",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16341,13 +16634,19 @@
     },
     {
       "source": "galaxy-52",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-52",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-52",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16377,13 +16676,19 @@
     },
     {
       "source": "galaxy-53",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-53",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-53",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16407,13 +16712,19 @@
     },
     {
       "source": "galaxy-54",
-      "target": "galaxy-95",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-54",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-54",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16425,13 +16736,13 @@
     },
     {
       "source": "galaxy-55",
-      "target": "galaxy-169",
+      "target": "galaxy-170",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-56",
-      "target": "galaxy-140",
+      "target": "galaxy-141",
       "strength": 3,
       "shared": []
     },
@@ -16455,13 +16766,13 @@
     },
     {
       "source": "galaxy-57",
-      "target": "galaxy-92",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-57",
-      "target": "galaxy-102",
+      "target": "galaxy-103",
       "strength": 3,
       "shared": []
     },
@@ -16473,13 +16784,13 @@
     },
     {
       "source": "galaxy-59",
-      "target": "galaxy-93",
+      "target": "galaxy-94",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-59",
-      "target": "galaxy-106",
+      "target": "galaxy-107",
       "strength": 3,
       "shared": []
     },
@@ -16533,7 +16844,7 @@
     },
     {
       "source": "galaxy-60",
-      "target": "galaxy-94",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
@@ -16545,7 +16856,13 @@
     },
     {
       "source": "galaxy-60",
-      "target": "galaxy-99",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-60",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
@@ -16563,13 +16880,13 @@
     },
     {
       "source": "galaxy-62",
-      "target": "galaxy-92",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-62",
-      "target": "galaxy-102",
+      "target": "galaxy-103",
       "strength": 3,
       "shared": []
     },
@@ -16605,7 +16922,7 @@
     },
     {
       "source": "galaxy-64",
-      "target": "galaxy-94",
+      "target": "galaxy-95",
       "strength": 3,
       "shared": []
     },
@@ -16653,7 +16970,7 @@
     },
     {
       "source": "galaxy-67",
-      "target": "galaxy-94",
+      "target": "galaxy-95",
       "strength": 3,
       "shared": []
     },
@@ -16677,37 +16994,37 @@
     },
     {
       "source": "galaxy-69",
-      "target": "galaxy-94",
+      "target": "galaxy-95",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-70",
-      "target": "galaxy-145",
+      "target": "galaxy-146",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-70",
-      "target": "galaxy-156",
+      "target": "galaxy-157",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-70",
-      "target": "galaxy-172",
+      "target": "galaxy-173",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-73",
-      "target": "galaxy-98",
+      "target": "galaxy-99",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-73",
-      "target": "galaxy-124",
+      "target": "galaxy-125",
       "strength": 3,
       "shared": []
     },
@@ -16725,25 +17042,19 @@
     },
     {
       "source": "galaxy-74",
-      "target": "galaxy-94",
+      "target": "galaxy-95",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-77",
-      "target": "galaxy-130",
+      "target": "galaxy-131",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-78",
-      "target": "galaxy-114",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-78",
-      "target": "galaxy-118",
+      "target": "galaxy-115",
       "strength": 3,
       "shared": []
     },
@@ -16754,6 +17065,12 @@
       "shared": []
     },
     {
+      "source": "galaxy-78",
+      "target": "galaxy-120",
+      "strength": 3,
+      "shared": []
+    },
+    {
       "source": "galaxy-82",
       "target": "galaxy-85",
       "strength": 3,
@@ -16767,61 +17084,67 @@
     },
     {
       "source": "galaxy-82",
-      "target": "galaxy-92",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-82",
-      "target": "galaxy-94",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-82",
-      "target": "galaxy-102",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-83",
-      "target": "galaxy-92",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-83",
       "target": "galaxy-95",
       "strength": 3,
       "shared": []
     },
     {
+      "source": "galaxy-82",
+      "target": "galaxy-103",
+      "strength": 3,
+      "shared": []
+    },
+    {
       "source": "galaxy-83",
-      "target": "galaxy-99",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-84",
-      "target": "galaxy-165",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-85",
       "target": "galaxy-92",
       "strength": 3,
       "shared": []
     },
     {
+      "source": "galaxy-83",
+      "target": "galaxy-93",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-83",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-83",
+      "target": "galaxy-100",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-84",
+      "target": "galaxy-166",
+      "strength": 3,
+      "shared": []
+    },
+    {
       "source": "galaxy-85",
-      "target": "galaxy-102",
+      "target": "galaxy-93",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-85",
+      "target": "galaxy-103",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-86",
-      "target": "galaxy-114",
+      "target": "galaxy-115",
       "strength": 3,
       "shared": []
     },
@@ -16833,150 +17156,215 @@
     },
     {
       "source": "galaxy-89",
-      "target": "galaxy-129",
+      "target": "galaxy-130",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-89",
-      "target": "galaxy-186",
+      "target": "galaxy-187",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-90",
-      "target": "galaxy-129",
+      "target": "galaxy-130",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-90",
-      "target": "galaxy-186",
+      "target": "galaxy-187",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-91",
-      "target": "galaxy-94",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-92",
       "target": "galaxy-95",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-92",
-      "target": "galaxy-99",
+      "target": "galaxy-93",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-92",
-      "target": "galaxy-102",
+      "target": "galaxy-96",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-92",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-93",
-      "target": "galaxy-106",
+      "target": "galaxy-96",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-93",
+      "target": "galaxy-100",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-93",
+      "target": "galaxy-103",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-94",
       "target": "galaxy-107",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-95",
-      "target": "galaxy-99",
+      "source": "galaxy-94",
+      "target": "galaxy-108",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-99",
-      "target": "galaxy-167",
+      "source": "galaxy-96",
+      "target": "galaxy-100",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-114",
-      "target": "galaxy-118",
+      "source": "galaxy-100",
+      "target": "galaxy-168",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-114",
+      "source": "galaxy-115",
       "target": "galaxy-119",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-117",
-      "target": "galaxy-136",
+      "source": "galaxy-115",
+      "target": "galaxy-120",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-118",
-      "target": "galaxy-119",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-129",
-      "target": "galaxy-186",
+      "source": "galaxy-119",
+      "target": "galaxy-120",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-132",
+      "source": "galaxy-130",
+      "target": "galaxy-187",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-133",
+      "target": "galaxy-155",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-138",
       "target": "galaxy-154",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-137",
-      "target": "galaxy-153",
+      "source": "galaxy-146",
+      "target": "galaxy-157",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-145",
-      "target": "galaxy-156",
+      "source": "galaxy-146",
+      "target": "galaxy-173",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-145",
-      "target": "galaxy-172",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-152",
-      "target": "galaxy-188",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-156",
-      "target": "galaxy-172",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-177",
+      "source": "galaxy-153",
       "target": "galaxy-189",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-157",
+      "target": "galaxy-173",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-178",
+      "target": "galaxy-190",
       "strength": 3,
       "shared": []
     }
   ],
   "items": [
+    {
+      "_id": 1645744636,
+      "link": "https://share.transistor.fm/s/207c42d6",
+      "excerpt": "",
+      "note": "First of Kind S2E1: Joe Gebbia (Airbnb联合创始人) → 美国首位首席设计官。退休系统从6个月纸质流程到60秒数字化。National Design Studio目标3年触达联邦政府所有数字界面。YC方法论Do things that dont scale直接应用到联邦政府。Brand at civilization scale。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Article",
+        "Design"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T04:53:31.022Z",
+      "lastUpdate": "2026-03-16T04:53:31.022Z",
+      "domain": "share.transistor.fm",
+      "title": "https://share.transistor.fm/s/207c42d6",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645744636,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "First of Kind S2E1: Joe Gebbia (Airbnb联合创始人) → 美国首位首席设计官"
+      ],
+      "themes": [
+        "article",
+        "design"
+      ],
+      "summary": "Joe Gebbia: Designer-in-Chief — 美国首位首席设计官"
+    },
     {
       "_id": 1645656359,
       "link": "https://x.com/loryoncloud/status/2033189755488551096",
