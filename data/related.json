@@ -1743,5 +1743,12 @@
       "desc": "Simon Willison的Superpowers使用体验",
       "url": "https://simonwillison.net/2025/Oct/10/superpowers/"
     }
+  ],
+  "https://x.com/loryoncloud/status/2033189755488551096": [
+    {
+      "title": "Memory-Like-A-Tree GitHub",
+      "desc": "AI Agent记忆管理系统，知识像树一样生长凋零循环",
+      "url": "https://github.com/loryoncloud/Memory-Like-A-Tree"
+    }
   ]
 }
