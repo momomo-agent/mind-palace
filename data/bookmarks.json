@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-16T07:26:22.355Z",
-    "count": 1590
+    "syncedAt": "2026-03-16T13:43:50.553Z",
+    "count": 1591
   },
   "themes": [
     {
@@ -648,8 +648,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 627,
+      "count": 628,
       "items": [
+        1646115148,
         1645907868,
         1645745336,
         1645745021,
@@ -2914,8 +2915,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 101,
+      "count": 102,
       "items": [
+        1646115148,
         1645754017,
         1645656353,
         1645651963,
@@ -6941,8 +6943,19 @@
     },
     {
       "id": "galaxy-229",
-      "name": "Android · Develop",
+      "name": "Design · Tool",
       "color": "#7A8B6E",
+      "members": [
+        1646115148,
+        1613597030,
+        1612041437
+      ],
+      "count": 3
+    },
+    {
+      "id": "galaxy-230",
+      "name": "Android · Develop",
+      "color": "#5A6B7A",
       "members": [
         620952327,
         353198944
@@ -6950,22 +6963,12 @@
       "count": 2
     },
     {
-      "id": "galaxy-230",
+      "id": "galaxy-231",
       "name": "App · Indie",
-      "color": "#5A6B7A",
+      "color": "#8B6E7A",
       "members": [
         365330744,
         350535252
-      ],
-      "count": 2
-    },
-    {
-      "id": "galaxy-231",
-      "name": "Design · Tool",
-      "color": "#8B6E7A",
-      "members": [
-        1613597030,
-        1612041437
       ],
       "count": 2
     },
@@ -17689,6 +17692,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1646115148,
+      "link": "https://www.thiings.co/things",
+      "excerpt": "",
+      "note": "The Thiings Collection：9000+ AI生成的免费3D图标库。适合设计师和创意项目。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Design",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T13:43:46.202Z",
+      "lastUpdate": "2026-03-16T13:43:46.202Z",
+      "domain": "thiings.co",
+      "title": "https://www.thiings.co/things",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1646115148,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "9000+ AI生成的免费3D图标库"
+      ],
+      "themes": [
+        "design",
+        "tool"
+      ],
+      "summary": "9000+ AI 生成的免费 3D 图标库"
+    },
     {
       "_id": 1645907868,
       "link": "https://www.championdontstop.com/site3/champ.html",
