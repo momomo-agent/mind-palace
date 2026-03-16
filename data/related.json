@@ -1757,5 +1757,12 @@
       "desc": "分阶段 Python 教程：ReAct loop + 文件工具 + 沙箱执行 + CLAUDE.md 上下文",
       "url": "https://sidbharath.com/blog/build-a-coding-agent-python-tutorial/"
     }
+  ],
+  "https://exe.dev/": [
+    {
+      "title": "Shelley — exe.dev 的 coding agent 开源仓库",
+      "desc": "web-based, multi-model coding agent",
+      "url": "https://github.com/boldsoftware/shelley"
+    }
   ]
 }
