@@ -1736,5 +1736,12 @@
       "desc": "AI coding工作流系统，角色分离+阶段化",
       "url": "https://github.com/garrytan/gstack"
     }
+  ],
+  "https://github.com/obra/superpowers": [
+    {
+      "title": "Simon Willison: How I use coding agents with Superpowers",
+      "desc": "Simon Willison的Superpowers使用体验",
+      "url": "https://simonwillison.net/2025/Oct/10/superpowers/"
+    }
   ]
 }
