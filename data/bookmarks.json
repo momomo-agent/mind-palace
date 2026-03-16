@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-15T17:47:27.101Z",
-    "count": 1574
+    "syncedAt": "2026-03-16T00:33:06.924Z",
+    "count": 1575
   },
   "themes": [
     {
@@ -640,8 +640,9 @@
       "id": "design",
       "name": "设计",
       "color": "#10b981",
-      "count": 620,
+      "count": 621,
       "items": [
+        1645532144,
         1644702100,
         1644455839,
         1642054947,
@@ -3653,9 +3654,18 @@
       ]
     },
     {
+      "id": "podcast",
+      "name": "Podcast",
+      "color": "#10b981",
+      "count": 1,
+      "items": [
+        1645532144
+      ]
+    },
+    {
       "id": "blog",
       "name": "Blog",
-      "color": "#10b981",
+      "color": "#f59e0b",
       "count": 1,
       "items": [
         1644508793
@@ -3664,7 +3674,7 @@
     {
       "id": "font",
       "name": "Font",
-      "color": "#f59e0b",
+      "color": "#ec4899",
       "count": 1,
       "items": [
         669078187
@@ -3673,7 +3683,7 @@
     {
       "id": "gesture",
       "name": "Gesture",
-      "color": "#ec4899",
+      "color": "#8b5cf6",
       "count": 1,
       "items": [
         620664969
@@ -3682,7 +3692,7 @@
     {
       "id": "life",
       "name": "Life",
-      "color": "#8b5cf6",
+      "color": "#14b8a6",
       "count": 1,
       "items": [
         434324772
@@ -6887,6 +6897,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1645532144,
         1644508793,
         1637311687,
         1602482652,
@@ -7094,7 +7105,7 @@
         157288645,
         157288168
       ],
-      "count": 206
+      "count": 207
     }
   ],
   "bridges": [
@@ -16292,6 +16303,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1645532144,
+      "link": "https://share.transistor.fm/s/6ae5edb5",
+      "excerpt": "",
+      "note": "First of Kind S2E5: Joseph Cohen(Universe联合创始人→Infinite Machine创始人)谈电动摩托车设计哲学。核心观点：不是改造汽车而是创造全新品类(non-car vehicles)、电动化解锁激进新造型、自主的人>自动驾驶汽车。设计哲学讨论：Hard Modernism、P1 vs Vision Pro对比、公司本身作为媒介。Soleio主持，Framer/Cursor/Vercel赞助。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Design",
+        "Podcast"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-16T00:32:56.441Z",
+      "lastUpdate": "2026-03-16T00:32:56.441Z",
+      "domain": "share.transistor.fm",
+      "title": "https://share.transistor.fm/s/6ae5edb5",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1645532144,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "不是改造汽车而是创造全新品类(non-car vehicles)、电动化解锁激进",
+        "Hard Modernism、P1 vs Vision Pro对比、公司本身作为"
+      ],
+      "themes": [
+        "design",
+        "podcast"
+      ],
+      "summary": "First of Kind S2E5——Joseph Cohen谈电动摩托车的\"非汽车\"设计哲学"
+    },
     {
       "_id": 1645159132,
       "link": "https://x.com/penny777/status/2032920873431347277",
