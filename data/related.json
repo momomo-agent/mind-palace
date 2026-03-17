@@ -1795,5 +1795,12 @@
       "desc": "Sydney Lewis, ArXiv 2603.13017v1, 2026-03-13",
       "url": "https://arxiv.org/abs/2603.13017"
     }
+  ],
+  "https://x.com/chenchengpro/status/2033692471713280027": [
+    {
+      "title": "chrome-devtools-mcp — npm 包",
+      "desc": "Chrome DevTools MCP Server，通过远程调试协议连接 Chrome",
+      "url": "https://www.npmjs.com/package/chrome-devtools-mcp"
+    }
   ]
 }
