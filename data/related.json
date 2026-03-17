@@ -1788,5 +1788,12 @@
       "desc": "模块化的指令、脚本、引用包，agent 按需加载获得领域能力",
       "url": "https://www.agno.com/blog/from-prompts-to-capabilities-introducing-agnos-agent-skills"
     }
+  ],
+  "http://xhslink.com/o/3bQr2igIvmv": [
+    {
+      "title": "Structured Distillation for Personalized Agent Memory — 原论文",
+      "desc": "Sydney Lewis, ArXiv 2603.13017v1, 2026-03-13",
+      "url": "https://arxiv.org/abs/2603.13017"
+    }
   ]
 }
