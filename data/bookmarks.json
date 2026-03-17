@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-17T05:37:08.478Z",
-    "count": 1596
+    "syncedAt": "2026-03-17T05:39:22.441Z",
+    "count": 1597
   },
   "themes": [
     {
@@ -1861,8 +1861,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 512,
+      "count": 513,
       "items": [
+        1647016075,
         1647015495,
         1647015489,
         1647015488,
@@ -7011,6 +7012,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1647016075,
         1645907868,
         1645624253,
         1644508793,
@@ -7220,7 +7222,7 @@
         157288645,
         157288168
       ],
-      "count": 208
+      "count": 209
     }
   ],
   "bridges": [
@@ -18080,6 +18082,51 @@
     }
   ],
   "items": [
+    {
+      "_id": 1647016075,
+      "link": "https://x.com/yan5xu/status/2018149359310033242",
+      "excerpt": "",
+      "note": "yan5xu 上条推文的后续：Session 应替换为 agent + topic。Agent 拥有贯通的全局上下文，topic 是 agent 的特殊形态，保留全局上下文但突出当前话题焦点。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-17T05:39:12.885Z",
+      "lastUpdate": "2026-03-17T05:39:12.885Z",
+      "domain": "x.com",
+      "title": "https://x.com/yan5xu/status/2018149359310033242",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1647016075,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Session 应替换为 agent + topic"
+      ],
+      "themes": [
+        "ai"
+      ],
+      "summary": "Session 替换方案：agent（全局上下文）+ topic（聚焦当前话题）"
+    },
     {
       "_id": 1647015495,
       "link": "https://velvetshark.com/openclaw-memory-masterclass",
