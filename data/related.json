@@ -1802,5 +1802,12 @@
       "desc": "Chrome DevTools MCP Server，通过远程调试协议连接 Chrome",
       "url": "https://www.npmjs.com/package/chrome-devtools-mcp"
     }
+  ],
+  "https://x.com/qingq77/status/2033875243413201217": [
+    {
+      "title": "graph-memory GitHub 仓库",
+      "desc": "OpenClaw 知识图谱记忆/上下文引擎插件",
+      "url": "https://github.com/adoresever/graph-memory"
+    }
   ]
 }
