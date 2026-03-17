@@ -1776,5 +1776,17 @@
       "desc": "OpenClaw 记忆系统完整指南：四层架构 + 最佳实践",
       "url": "https://velvetshark.com/openclaw-memory-masterclass"
     }
+  ],
+  "https://x.com/yan5xu/status/2033721922757005519": [
+    {
+      "title": "AgentOS 论文：从应用孤岛到自然语言驱动的数据操作系统",
+      "desc": "Agent Kernel 解释意图、分解任务、协调多 agent，应用演化为 Skills-as-Modules",
+      "url": "https://arxiv.org/html/2603.08938v2"
+    },
+    {
+      "title": "Agno Agent Skills：从 prompts 到 capabilities",
+      "desc": "模块化的指令、脚本、引用包，agent 按需加载获得领域能力",
+      "url": "https://www.agno.com/blog/from-prompts-to-capabilities-introducing-agnos-agent-skills"
+    }
   ]
 }
