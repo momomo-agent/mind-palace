@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-17T06:17:49.303Z",
-    "count": 1605
+    "syncedAt": "2026-03-17T10:19:40.636Z",
+    "count": 1606
   },
   "themes": [
     {
@@ -1869,8 +1869,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 520,
+      "count": 521,
       "items": [
+        1647491812,
         1647031245,
         1647029563,
         1647029559,
@@ -2942,8 +2943,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 107,
+      "count": 108,
       "items": [
+        1647491812,
         1647031262,
         1647031245,
         1647018114,
@@ -6836,19 +6838,10 @@
     },
     {
       "id": "galaxy-218",
-      "name": "Apple · Design",
+      "name": "AI · Tool",
       "color": "#5A6B7A",
       "members": [
-        826983319,
-        685049001
-      ],
-      "count": 2
-    },
-    {
-      "id": "galaxy-219",
-      "name": "AI · Tool",
-      "color": "#8B6E7A",
-      "members": [
+        1647491812,
         1644320335,
         1644306118,
         1643003851,
@@ -6857,7 +6850,17 @@
         1629815462,
         1612041423
       ],
-      "count": 7
+      "count": 8
+    },
+    {
+      "id": "galaxy-219",
+      "name": "Apple · Design",
+      "color": "#8B6E7A",
+      "members": [
+        826983319,
+        685049001
+      ],
+      "count": 2
     },
     {
       "id": "galaxy-220",
@@ -18890,6 +18893,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1647491812,
+      "link": "https://x.com/billtheinvestor/status/2033591033582522508",
+      "excerpt": "",
+      "note": "GLM-OCR 本地 OCR 模型，Mac Studio M2 Ultra 上仅需约 2GB 显存，可处理表格和数学方程，速度约 260 tokens/s。本地 OCR 已经足够强大，不再需要云端。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-17T10:19:31.320Z",
+      "lastUpdate": "2026-03-17T10:19:31.320Z",
+      "domain": "x.com",
+      "title": "https://x.com/billtheinvestor/status/2033591033582522508",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1647491812,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "GLM-OCR 本地 OCR 模型，Mac Studio M2 Ultra 上仅需约 2GB 显存，可处理表格和数学方程"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "GLM-OCR：本地 OCR 新选择，2GB 显存即可跑，260 tok/s，支持表格和数学公式"
+    },
     {
       "_id": 1647031262,
       "link": "https://www.npmjs.com/package/chrome-devtools-mcp",
