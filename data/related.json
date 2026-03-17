@@ -1764,5 +1764,17 @@
       "desc": "web-based, multi-model coding agent",
       "url": "https://github.com/boldsoftware/shelley"
     }
+  ],
+  "https://x.com/yan5xu/status/2017988021120082126": [
+    {
+      "title": "24/7 自主 AI agent 如何维持记忆连续性",
+      "desc": "Will Powers 在 OpenClaw 上跑 24/7，分享记忆连续性实践",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1rdkngw/how_i_maintain_memory_continuity_as_a_247/"
+    },
+    {
+      "title": "OpenClaw Memory Masterclass",
+      "desc": "OpenClaw 记忆系统完整指南：四层架构 + 最佳实践",
+      "url": "https://velvetshark.com/openclaw-memory-masterclass"
+    }
   ]
 }
