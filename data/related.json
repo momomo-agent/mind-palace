@@ -1830,5 +1830,12 @@
       "desc": "LabClaw 演示和文档",
       "url": "https://labclaw-ai.github.io"
     }
+  ],
+  "https://x.com/lidangzzz/status/2034133959768981922": [
+    {
+      "title": "Goal-Driven GitHub Repo",
+      "desc": "目标驱动的 master-subagent 开发框架",
+      "url": "https://github.com/lidangzzz/goal-driven"
+    }
   ]
 }
