@@ -1856,5 +1856,17 @@
       "desc": "用 Claude Code 多 agent 编排一夜重建 Laravel 后端",
       "url": "https://dev.to/tessak22/how-i-used-claude-codes-multi-agent-orchestration-and-laravel-to-rebuild-a-backend-overnight-174"
     }
+  ],
+  "https://x.com/Saccc_c/status/2034219625815347204": [
+    {
+      "title": "Claude Code's Hidden Multi-Agent System",
+      "desc": "深挖 Claude Code 内置的 TeammateTool 和 Task 多 agent 系统",
+      "url": "https://paddo.dev/blog/claude-code-hidden-swarm/"
+    },
+    {
+      "title": "Orchestrating the Swarm: Parallel AI Agents",
+      "desc": "用 launch scripts 编排并行 AI agent 的实践指南",
+      "url": "https://stories.lab271.io/orchestrating-the-swarm-parallel-ai-agents-with-launch-scripts-26932f7da7c7"
+    }
   ]
 }
