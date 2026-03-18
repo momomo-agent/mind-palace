@@ -1816,5 +1816,12 @@
       "desc": "Anthropic 52名开发者 RCT 实验",
       "url": "https://arxiv.org/abs/2601.20245"
     }
+  ],
+  "https://x.com/DLKFZWilliam2/status/2034041985510904019": [
+    {
+      "title": "Thariq 原文：Lessons from Building Claude Code — How We Use Skills",
+      "desc": "Claude Code 内部工程师 2366 字长文，9种 Skill 类型 + 最佳实践",
+      "url": "https://x.com/trq212/status/2033949937936085378"
+    }
   ]
 }
