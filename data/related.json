@@ -1844,5 +1844,17 @@
       "desc": "Simon Willison 的 agent 工程模式指南",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/"
     }
+  ],
+  "https://x.com/pirrer/status/2034208585534849052": [
+    {
+      "title": "Using AI to Port a Legacy Laravel CMS",
+      "desc": "另一个 AI 迁移 Laravel CMS 的案例，用了 AGENTS.md 定义约定",
+      "url": "https://www.2am.tech/blog/using-ai-to-port-a-legacy-laravel-cms-to-a-modern-architecture"
+    },
+    {
+      "title": "Claude Code Multi-Agent + Laravel 重建后端",
+      "desc": "用 Claude Code 多 agent 编排一夜重建 Laravel 后端",
+      "url": "https://dev.to/tessak22/how-i-used-claude-codes-multi-agent-orchestration-and-laravel-to-rebuild-a-backend-overnight-174"
+    }
   ]
 }
