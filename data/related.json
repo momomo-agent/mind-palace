@@ -1809,5 +1809,12 @@
       "desc": "OpenClaw 知识图谱记忆/上下文引擎插件",
       "url": "https://github.com/adoresever/graph-memory"
     }
+  ],
+  "https://x.com/chenchengpro/status/2034085556108595603": [
+    {
+      "title": "论文原文：AI辅助学习的随机对照实验",
+      "desc": "Anthropic 52名开发者 RCT 实验",
+      "url": "https://arxiv.org/abs/2601.20245"
+    }
   ]
 }
