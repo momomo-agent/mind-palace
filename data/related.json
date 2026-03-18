@@ -1837,5 +1837,12 @@
       "desc": "目标驱动的 master-subagent 开发框架",
       "url": "https://github.com/lidangzzz/goal-driven"
     }
+  ],
+  "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/": [
+    {
+      "title": "Agentic Engineering Patterns 完整指南",
+      "desc": "Simon Willison 的 agent 工程模式指南",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/"
+    }
   ]
 }
