@@ -1929,5 +1929,17 @@
       "desc": "Anthropic 官方的 context engineering 指南，涵盖 agent 上下文管理策略",
       "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
     }
+  ],
+  "https://x.com/garrytan/status/2034304114574909681": [
+    {
+      "title": "garrytan/gstack - GitHub",
+      "desc": "GStack 源码：Garry Tan 的 Claude Code 配置和 skills 集合",
+      "url": "https://github.com/garrytan/gstack"
+    },
+    {
+      "title": "GStack — Turn Claude Code into a Virtual Software Development Team",
+      "desc": "GStack 官网，详细介绍角色分工和使用方法",
+      "url": "https://gstacks.org/"
+    }
   ]
 }
