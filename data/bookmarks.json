@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T11:47:52.729Z",
-    "count": 1634
+    "syncedAt": "2026-03-19T11:59:16.478Z",
+    "count": 1635
   },
   "themes": [
     {
@@ -3452,8 +3452,9 @@
       "id": "note",
       "name": "笔记",
       "color": "#10b981",
-      "count": 51,
+      "count": 52,
       "items": [
+        1649696344,
         1625452671,
         1623594590,
         1622309811,
@@ -7247,6 +7248,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1649696344,
         1649691517,
         1649601310,
         1647016075,
@@ -7459,7 +7461,7 @@
         157288645,
         157288168
       ],
-      "count": 211
+      "count": 212
     }
   ],
   "bridges": [
@@ -22627,6 +22629,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649696344,
+      "link": "https://x.com/HotmailfromSH/status/2034152774066463209",
+      "excerpt": "",
+      "note": "波士顿大学研究：睡眠时脑脊液（CSF）脉动式冲洗大脑，清除β淀粉样蛋白等毒素。血液周期性大量流出→脑脊液趁机涌入。脑电波指挥液体运动。只有睡着后才能充分清洗。跟我们的记忆系统 sleep.js 有趣的对应——我们的'睡眠整合'模拟的就是这个过程：清除低价值节点（代谢废物），巩固高连接节点。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Note"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T11:59:06.670Z",
+      "lastUpdate": "2026-03-19T11:59:06.671Z",
+      "domain": "x.com",
+      "title": "https://x.com/HotmailfromSH/status/2034152774066463209",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649696344,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "我们的'睡眠整合'模拟的就是这个过程：清除低价值节点（代谢废物），巩固高连接节点",
+        "睡眠时脑脊液（CSF）脉动式冲洗大脑",
+        "清除低价值节点（代谢废物）"
+      ],
+      "themes": [
+        "note"
+      ],
+      "summary": "睡眠时脑脊液冲洗大脑清除毒素——只有睡着才行"
+    },
     {
       "_id": 1649691517,
       "link": "https://x.com/waylybaye/status/2034536583387611342",
@@ -109753,6 +109802,24 @@
   ],
   "relations": [
     {
+      "source": 358968151,
+      "target": 356001107,
+      "strength": 2,
+      "reason": "Note, OS"
+    },
+    {
+      "source": 358968151,
+      "target": 356000902,
+      "strength": 2,
+      "reason": "Note, OS"
+    },
+    {
+      "source": 356001107,
+      "target": 356000902,
+      "strength": 2,
+      "reason": "Note, OS"
+    },
+    {
       "source": 1644703993,
       "target": 1644703976,
       "strength": 2,
@@ -110927,24 +110994,6 @@
       "target": 346492531,
       "strength": 2,
       "reason": "Internet, OS"
-    },
-    {
-      "source": 358968151,
-      "target": 356001107,
-      "strength": 2,
-      "reason": "Note, OS"
-    },
-    {
-      "source": 358968151,
-      "target": 356000902,
-      "strength": 2,
-      "reason": "Note, OS"
-    },
-    {
-      "source": 356001107,
-      "target": 356000902,
-      "strength": 2,
-      "reason": "Note, OS"
     },
     {
       "source": 676295109,
