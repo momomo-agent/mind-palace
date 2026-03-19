@@ -1887,5 +1887,12 @@
       "desc": "YC CEO 的 Claude Code 工具集，19000 stars",
       "url": "https://github.com/garrytan/gstack"
     }
+  ],
+  "https://x.com/MaximeHeckel/status/2034285194736206029": [
+    {
+      "title": "The Study of Shaders with React Three Fiber",
+      "desc": "Maxime Heckel 的 shader 学习系列",
+      "url": "https://blog.maximeheckel.com/posts/the-study-of-shaders-with-react-three-fiber/"
+    }
   ]
 }
