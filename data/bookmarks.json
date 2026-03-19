@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T13:45:46.812Z",
-    "count": 1639
+    "syncedAt": "2026-03-19T14:51:34.514Z",
+    "count": 1640
   },
   "themes": [
     {
       "id": "develop",
       "name": "开发",
       "color": "#6366f1",
-      "count": 662,
+      "count": 663,
       "items": [
+        1649820735,
         1649765860,
         1649765110,
         1649764267,
@@ -3011,8 +3012,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 118,
+      "count": 119,
       "items": [
+        1649820735,
         1649765110,
         1649764267,
         1649764253,
@@ -7081,11 +7083,12 @@
       "name": "Develop · Tool",
       "color": "#8B6E7A",
       "members": [
+        1649820735,
         1624983017,
         1616537096,
         1607146936
       ],
-      "count": 3
+      "count": 4
     },
     {
       "id": "galaxy-232",
@@ -23090,6 +23093,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649820735,
+      "link": "https://x.com/jarredsumner/status/2034165778103312487",
+      "excerpt": "",
+      "note": "Bun 下个版本将内置 Bun.WebView——在 Bun 中编程控制无头浏览器。Jarred Sumner（Bun 创始人）发布。这意味着不再需要 Puppeteer/Playwright 做浏览器自动化，Bun 原生支持。对 agent 做 web 自动化很有价值。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Develop",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T14:51:24.930Z",
+      "lastUpdate": "2026-03-19T14:51:24.930Z",
+      "domain": "x.com",
+      "title": "https://x.com/jarredsumner/status/2034165778103312487",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649820735,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "在 Bun 中编程控制无头浏览器"
+      ],
+      "themes": [
+        "develop",
+        "tool"
+      ],
+      "summary": "Bun 将内置 WebView：原生无头浏览器控制，无需 Puppeteer"
+    },
     {
       "_id": 1649765860,
       "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/blob/main/Anthropic/Claude%20Sonnet%204.6.txt",
