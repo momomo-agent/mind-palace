@@ -1868,5 +1868,17 @@
       "desc": "用 launch scripts 编排并行 AI agent 的实践指南",
       "url": "https://stories.lab271.io/orchestrating-the-swarm-parallel-ai-agents-with-launch-scripts-26932f7da7c7"
     }
+  ],
+  "https://x.com/wey_gu/status/2034492291029897261": [
+    {
+      "title": "EverMind-AI/MSA",
+      "desc": "MSA 论文和代码仓库",
+      "url": "https://github.com/EverMind-AI/MSA"
+    },
+    {
+      "title": "Microsoft KBLaM",
+      "desc": "微软知识库语言模型：将知识编码进 attention 的另一种方案",
+      "url": "https://github.com/microsoft/kblam"
+    }
   ]
 }
