@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T09:19:32.558Z",
-    "count": 1628
+    "syncedAt": "2026-03-19T09:20:25.498Z",
+    "count": 1629
   },
   "themes": [
     {
       "id": "develop",
       "name": "开发",
       "color": "#6366f1",
-      "count": 653,
+      "count": 654,
       "items": [
+        1649603605,
         1649597809,
         1649597804,
         1648822854,
@@ -1894,8 +1895,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 543,
+      "count": 544,
       "items": [
+        1649603605,
         1649603291,
         1649601310,
         1649598800,
@@ -2990,8 +2992,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 113,
+      "count": 114,
       "items": [
+        1649603605,
         1648822853,
         1648298967,
         1648298965,
@@ -6505,6 +6508,7 @@
       "name": "AI · Develop",
       "color": "#7A6B8B",
       "members": [
+        1649603605,
         1645843895,
         1644705643,
         1644432348,
@@ -6575,7 +6579,7 @@
         469200214,
         441432575
       ],
-      "count": 69
+      "count": 70
     },
     {
       "id": "galaxy-212",
@@ -7029,8 +7033,19 @@
     },
     {
       "id": "galaxy-230",
-      "name": "Apple · Article",
+      "name": "Develop · Tool",
       "color": "#5A6B7A",
+      "members": [
+        1624983017,
+        1616537096,
+        1607146936
+      ],
+      "count": 3
+    },
+    {
+      "id": "galaxy-231",
+      "name": "Apple · Article",
+      "color": "#8B6E7A",
       "members": [
         738037360,
         558770705,
@@ -7039,24 +7054,13 @@
       "count": 3
     },
     {
-      "id": "galaxy-231",
+      "id": "galaxy-232",
       "name": "AI · Tutorial",
-      "color": "#8B6E7A",
+      "color": "#B8A060",
       "members": [
         564993285,
         530423912,
         509598748
-      ],
-      "count": 3
-    },
-    {
-      "id": "galaxy-232",
-      "name": "Develop · Tool",
-      "color": "#B8A060",
-      "members": [
-        1624983017,
-        1616537096,
-        1607146936
       ],
       "count": 3
     },
@@ -22169,6 +22173,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649603605,
+      "link": "https://x.com/QingQ77/status/2034516971702858199",
+      "excerpt": "",
+      "note": "另一个人对 ClawTeam 的介绍推文。核心内容与之前 Saccc_c 的推文重复，已有收藏。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T09:20:21.885Z",
+      "lastUpdate": "2026-03-19T09:20:21.885Z",
+      "domain": "x.com",
+      "title": "https://x.com/QingQ77/status/2034516971702858199",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649603605,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "另一个人对 ClawTeam 的介绍推文"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ],
+      "summary": "ClawTeam 介绍（与已收藏内容重复）"
+    },
     {
       "_id": 1649603291,
       "link": "https://x.com/evermind/status/2034544383316332575",
