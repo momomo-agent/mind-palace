@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T09:12:13.312Z",
-    "count": 1626
+    "syncedAt": "2026-03-19T09:14:34.652Z",
+    "count": 1627
   },
   "themes": [
     {
@@ -1893,8 +1893,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 541,
+      "count": 542,
       "items": [
+        1649601310,
         1649598800,
         1649597812,
         1649597809,
@@ -7206,6 +7207,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1649601310,
         1647016075,
         1645907868,
         1645624253,
@@ -7416,7 +7418,7 @@
         157288645,
         157288168
       ],
-      "count": 209
+      "count": 210
     }
   ],
   "bridges": [
@@ -22164,6 +22166,51 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649601310,
+      "link": "https://x.com/elliotchen100/status/2033317320940998945",
+      "excerpt": "",
+      "note": "EverMind MSA 论文最早的一句话预告。实质内容见后续两条 MSA 收藏。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T09:14:30.712Z",
+      "lastUpdate": "2026-03-19T09:14:30.712Z",
+      "domain": "x.com",
+      "title": "https://x.com/elliotchen100/status/2033317320940998945",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649601310,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "EverMind MSA 论文最早的一句话预告"
+      ],
+      "themes": [
+        "ai"
+      ],
+      "summary": "MSA 论文最早预告（一句话）"
+    },
     {
       "_id": 1649598800,
       "link": "https://x.com/elliotchen100/status/2034059226356830492",
