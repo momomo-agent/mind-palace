@@ -1915,5 +1915,12 @@
       "desc": "罗福莉 X 账号——DeepSeek R1 / MiMo 团队负责人",
       "url": "https://x.com/_LuoFuli"
     }
+  ],
+  "https://x.com/danveloper/status/2034353876753592372": [
+    {
+      "title": "flash-moe",
+      "desc": "基于 Apple LLM in a Flash 的 MoE 模型本地推理引擎",
+      "url": "https://github.com/danveloper/flash-moe"
+    }
   ]
 }
