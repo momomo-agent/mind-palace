@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T13:43:43.322Z",
-    "count": 1638
+    "syncedAt": "2026-03-19T13:45:46.812Z",
+    "count": 1639
   },
   "themes": [
     {
       "id": "develop",
       "name": "开发",
       "color": "#6366f1",
-      "count": 661,
+      "count": 662,
       "items": [
+        1649765860,
         1649765110,
         1649764267,
         1649764253,
@@ -1906,8 +1907,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 548,
+      "count": 549,
       "items": [
+        1649765860,
         1649765110,
         1649691517,
         1649604214,
@@ -6560,6 +6562,7 @@
       "name": "AI · Develop",
       "color": "#5A7A6B",
       "members": [
+        1649765860,
         1649765110,
         1649603605,
         1645843895,
@@ -6633,7 +6636,7 @@
         469200214,
         441432575
       ],
-      "count": 72
+      "count": 73
     },
     {
       "id": "galaxy-214",
@@ -23087,6 +23090,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649765860,
+      "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/blob/main/Anthropic/Claude%20Sonnet%204.6.txt",
+      "excerpt": "",
+      "note": "Claude Sonnet 4.6 的完整 system prompt 泄露。包含产品信息、拒绝策略、安全规则等。可以看到 Anthropic 如何设计 Claude 的行为约束——refusal handling、child safety、malicious code 禁止、广告政策等。跟刚才 gstack 的'姿态设计'形成对比：Anthropic 侧重安全约束，Garry Tan 侧重审查姿态。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T13:45:36.484Z",
+      "lastUpdate": "2026-03-19T13:45:36.484Z",
+      "domain": "github.com",
+      "title": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/blob/main/Anthropic/Claude%20Sonnet%204.6.txt",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649765860,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Anthropic 侧重安全约束"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "summary": "Claude Sonnet 4.6 完整 system prompt——Anthropic 的行为约束设计"
+    },
     {
       "_id": 1649765110,
       "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
