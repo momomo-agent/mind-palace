@@ -1894,5 +1894,12 @@
       "desc": "Maxime Heckel 的 shader 学习系列",
       "url": "https://blog.maximeheckel.com/posts/the-study-of-shaders-with-react-three-fiber/"
     }
+  ],
+  "https://x.com/dingyi/status/2034616400552263850": [
+    {
+      "title": "silships/figma-cli",
+      "desc": "第三方 Figma CLI，支持 agent 直接操控 Figma",
+      "url": "https://github.com/silships/figma-cli"
+    }
   ]
 }
