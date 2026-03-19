@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T13:41:02.539Z",
-    "count": 1637
+    "syncedAt": "2026-03-19T13:43:43.322Z",
+    "count": 1638
   },
   "themes": [
     {
       "id": "develop",
       "name": "开发",
       "color": "#6366f1",
-      "count": 660,
+      "count": 661,
       "items": [
+        1649765110,
         1649764267,
         1649764253,
         1649686124,
@@ -1905,8 +1906,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 547,
+      "count": 548,
       "items": [
+        1649765110,
         1649691517,
         1649604214,
         1649604204,
@@ -3007,8 +3009,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 117,
+      "count": 118,
       "items": [
+        1649765110,
         1649764267,
         1649764253,
         1649604214,
@@ -6557,6 +6560,7 @@
       "name": "AI · Develop",
       "color": "#5A7A6B",
       "members": [
+        1649765110,
         1649603605,
         1645843895,
         1645159131,
@@ -6629,7 +6633,7 @@
         469200214,
         441432575
       ],
-      "count": 71
+      "count": 72
     },
     {
       "id": "galaxy-214",
@@ -7071,8 +7075,19 @@
     },
     {
       "id": "galaxy-231",
-      "name": "Article · Render",
+      "name": "Develop · Tool",
       "color": "#8B6E7A",
+      "members": [
+        1624983017,
+        1616537096,
+        1607146936
+      ],
+      "count": 3
+    },
+    {
+      "id": "galaxy-232",
+      "name": "Article · Render",
+      "color": "#B8A060",
       "members": [
         1524231105,
         1038283614,
@@ -7080,17 +7095,6 @@
         578353486
       ],
       "count": 4
-    },
-    {
-      "id": "galaxy-232",
-      "name": "Develop · Tool",
-      "color": "#B8A060",
-      "members": [
-        1624983017,
-        1616537096,
-        1607146936
-      ],
-      "count": 3
     },
     {
       "id": "galaxy-233",
@@ -23083,6 +23087,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649765110,
+      "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "excerpt": "",
+      "note": "各大 AI 工具的 system prompt 收集仓库，30000+ 行。包含 ChatGPT、Claude、Cursor、Windsurf、v0 等产品的系统提示词。对分析竞品提示词工程有参考价值。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T13:43:38.754Z",
+      "lastUpdate": "2026-03-19T13:43:38.754Z",
+      "domain": "github.com",
+      "title": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649765110,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "各大 AI 工具的 system prompt 收集仓库，30000+ 行"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ],
+      "summary": "30000+ 行 AI 工具 system prompt 收集——ChatGPT/Claude/Cursor 等"
+    },
     {
       "_id": 1649764267,
       "link": "https://github.com/silships/figma-cli",
