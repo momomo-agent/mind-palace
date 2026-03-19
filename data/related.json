@@ -1953,5 +1953,12 @@
       "desc": "品味作为 agent 时代新瓶颈的设计策略讨论",
       "url": "https://www.designative.info/2026/02/01/taste-is-the-new-bottleneck-design-strategy-and-judgment-in-the-age-of-agents-and-vibe-coding/"
     }
+  ],
+  "https://x.com/yibie/status/2034623700923003053": [
+    {
+      "title": "How I Built a Local Memory Layer for AI Agents",
+      "desc": "另一个本地 memory layer 实现，基于 vault 文件系统",
+      "url": "https://dev.to/filippo_venturini/how-i-built-a-local-memory-layer-for-ai-agents-and-why-vaults-changed-everything-1apg"
+    }
   ]
 }
