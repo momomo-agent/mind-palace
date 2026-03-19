@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T09:14:34.652Z",
-    "count": 1627
+    "syncedAt": "2026-03-19T09:19:32.558Z",
+    "count": 1628
   },
   "themes": [
     {
@@ -1306,8 +1306,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 579,
+      "count": 580,
       "items": [
+        1649603291,
         1649598800,
         1649597812,
         1648560670,
@@ -1893,8 +1894,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 542,
+      "count": 543,
       "items": [
+        1649603291,
         1649601310,
         1649598800,
         1649597812,
@@ -6580,6 +6582,7 @@
       "name": "AI · Article",
       "color": "#8B7A6E",
       "members": [
+        1649603291,
         1649598800,
         1644128575,
         1642657445,
@@ -6628,7 +6631,7 @@
         427104702,
         328629826
       ],
-      "count": 47
+      "count": 48
     },
     {
       "id": "galaxy-213",
@@ -22166,6 +22169,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649603291,
+      "link": "https://x.com/evermind/status/2034544383316332575",
+      "excerpt": "",
+      "note": "EverMind 官方 MSA 技术长文（X Article）。完整介绍四个架构创新：Memory Sparse Attention（可微分双路由）、Document-wise RoPE（文档级位置编码）、KV Cache Compression with Memory Parallel（GPU路由+CPU存储）、Memory Interleave（多跳推理）。还提出 Memory-as-a-Service 愿景：记忆层独立于推理核心，可插拔。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T09:19:23.701Z",
+      "lastUpdate": "2026-03-19T09:19:23.701Z",
+      "domain": "x.com",
+      "title": "https://x.com/evermind/status/2034544383316332575",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649603291,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Memory Sparse Attention（可微分双路由）、Document",
+        "记忆层独立于推理核心"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "MSA 官方长文：四个架构创新 + Memory-as-a-Service 愿景"
+    },
     {
       "_id": 1649601310,
       "link": "https://x.com/elliotchen100/status/2033317320940998945",
