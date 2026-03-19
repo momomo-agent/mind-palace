@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T09:09:37.541Z",
-    "count": 1625
+    "syncedAt": "2026-03-19T09:12:13.312Z",
+    "count": 1626
   },
   "themes": [
     {
@@ -1306,8 +1306,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 578,
+      "count": 579,
       "items": [
+        1649598800,
         1649597812,
         1648560670,
         1648393899,
@@ -1892,8 +1893,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 540,
+      "count": 541,
       "items": [
+        1649598800,
         1649597812,
         1649597809,
         1649597804,
@@ -6577,6 +6579,7 @@
       "name": "AI · Article",
       "color": "#8B7A6E",
       "members": [
+        1649598800,
         1644128575,
         1642657445,
         1635693991,
@@ -6624,7 +6627,7 @@
         427104702,
         328629826
       ],
-      "count": 46
+      "count": 47
     },
     {
       "id": "galaxy-213",
@@ -22161,6 +22164,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649598800,
+      "link": "https://x.com/elliotchen100/status/2034059226356830492",
+      "excerpt": "",
+      "note": "EverMind 创始人艾略特的 MSA 论文预告：记忆的不可能三角（扩展性/精度/效率），1亿 token 端到端记忆、4B 打赢 235B RAG、2张 A800 可跑。正式论文见 MSA 那条收藏。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T09:12:09.188Z",
+      "lastUpdate": "2026-03-19T09:12:09.188Z",
+      "domain": "x.com",
+      "title": "https://x.com/elliotchen100/status/2034059226356830492",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649598800,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "记忆的不可能三角（扩展性/精度/效率）"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "MSA 预告：记忆的不可能三角，三个都要"
+    },
     {
       "_id": 1649597812,
       "link": "https://x.com/wey_gu/status/2034492291029897261",
