@@ -1941,5 +1941,17 @@
       "desc": "GStack 官网，详细介绍角色分工和使用方法",
       "url": "https://gstacks.org/"
     }
+  ],
+  "https://x.com/Tz_2022/status/2034655562558808160": [
+    {
+      "title": "TASTES.md — The Missing Layer",
+      "desc": "TASTES.md 官网，品味作为 AI agent 审美判断的开放标准",
+      "url": "https://tastes.md/"
+    },
+    {
+      "title": "Taste Is the New Bottleneck",
+      "desc": "品味作为 agent 时代新瓶颈的设计策略讨论",
+      "url": "https://www.designative.info/2026/02/01/taste-is-the-new-bottleneck-design-strategy-and-judgment-in-the-age-of-agents-and-vibe-coding/"
+    }
   ]
 }
