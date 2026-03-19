@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T17:22:34.360Z",
-    "count": 1644
+    "syncedAt": "2026-03-19T17:32:50.655Z",
+    "count": 1645
   },
   "themes": [
     {
@@ -1911,8 +1911,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 551,
+      "count": 552,
       "items": [
+        1649913012,
         1649905775,
         1649905774,
         1649765860,
@@ -3794,9 +3795,22 @@
       ]
     },
     {
+      "id": "insight",
+      "name": "Insight",
+      "color": "#6366f1",
+      "count": 5,
+      "items": [
+        1649913012,
+        1649905774,
+        1649821560,
+        1649821556,
+        1649691517
+      ]
+    },
+    {
       "id": "ios",
       "name": "iOS",
-      "color": "#6366f1",
+      "color": "#10b981",
       "count": 5,
       "items": [
         1644703993,
@@ -3804,18 +3818,6 @@
         1644702107,
         1644702103,
         1644702100
-      ]
-    },
-    {
-      "id": "insight",
-      "name": "Insight",
-      "color": "#10b981",
-      "count": 4,
-      "items": [
-        1649905774,
-        1649821560,
-        1649821556,
-        1649691517
       ]
     },
     {
@@ -7298,12 +7300,21 @@
       "count": 2
     },
     {
+      "id": "galaxy-250",
+      "name": "AI · Insight",
+      "color": "#8B8B5A",
+      "members": [
+        1649913012,
+        1649691517
+      ],
+      "count": 2
+    },
+    {
       "id": "galaxy-explore",
       "name": "散星",
       "color": "#9C948A",
       "members": [
         1649696344,
-        1649691517,
         1649601310,
         1647016075,
         1645907868,
@@ -7515,7 +7526,7 @@
         157288645,
         157288168
       ],
-      "count": 212
+      "count": 211
     }
   ],
   "bridges": [
@@ -23979,6 +23990,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649913012,
+      "link": "https://x.com/_LuoFuli/status/2034379957913129140",
+      "excerpt": "",
+      "note": "罗福莉原推：MiMo-V2-Pro/Omni/TTS 发布。orchestrated Context、Hybrid Attention、MTP inference、1M context window。详细解读见宝玉那条收藏。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Insight"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T17:32:46.782Z",
+      "lastUpdate": "2026-03-19T17:32:46.782Z",
+      "domain": "x.com",
+      "title": "https://x.com/_LuoFuli/status/2034379957913129140",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649913012,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "MiMo-V2-Pro/Omni/TTS 发布"
+      ],
+      "themes": [
+        "ai",
+        "insight"
+      ],
+      "summary": "罗福莉原推：MiMo-V2 发布，为 Agent 时代设计的全栈模型"
+    },
     {
       "_id": 1649905775,
       "link": "https://x.com/_LuoFuli",
