@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-19T17:34:28.685Z",
-    "count": 1647
+    "syncedAt": "2026-03-19T17:35:42.862Z",
+    "count": 1648
   },
   "themes": [
     {
@@ -1323,8 +1323,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 583,
+      "count": 584,
       "items": [
+        1649915254,
         1649913764,
         1649905774,
         1649604204,
@@ -1914,8 +1915,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#ec4899",
-      "count": 554,
+      "count": 555,
       "items": [
+        1649915254,
         1649913764,
         1649913757,
         1649913012,
@@ -6691,6 +6693,7 @@
       "name": "AI · Article",
       "color": "#7A8B6E",
       "members": [
+        1649915254,
         1649603291,
         1649598800,
         1644128575,
@@ -6740,7 +6743,7 @@
         427104702,
         328629826
       ],
-      "count": 48
+      "count": 49
     },
     {
       "id": "galaxy-218",
@@ -24438,6 +24441,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1649915254,
+      "link": "https://x.com/elliotchen100/status/2034479369855590660",
+      "excerpt": "",
+      "note": "艾略特 MSA 论文正式发布推文。内容已在 Wey Gu 和 EverMind 官方长文两条收藏中完整覆盖。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-19T17:35:39.251Z",
+      "lastUpdate": "2026-03-19T17:35:39.251Z",
+      "domain": "x.com",
+      "title": "https://x.com/elliotchen100/status/2034479369855590660",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1649915254,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "艾略特 MSA 论文正式发布推文"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "MSA 论文发布（已在其他收藏中覆盖）"
+    },
     {
       "_id": 1649913764,
       "link": "https://x.com/danveloper/status/2034353876753592372",
