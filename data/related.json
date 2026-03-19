@@ -1880,5 +1880,12 @@
       "desc": "微软知识库语言模型：将知识编码进 attention 的另一种方案",
       "url": "https://github.com/microsoft/kblam"
     }
+  ],
+  "https://x.com/dontbesilent/status/2034180260049363291": [
+    {
+      "title": "gstack by Garry Tan",
+      "desc": "YC CEO 的 Claude Code 工具集，19000 stars",
+      "url": "https://github.com/garrytan/gstack"
+    }
   ]
 }
