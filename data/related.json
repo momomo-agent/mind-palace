@@ -1901,5 +1901,12 @@
       "desc": "第三方 Figma CLI，支持 agent 直接操控 Figma",
       "url": "https://github.com/silships/figma-cli"
     }
+  ],
+  "https://x.com/imwsl90/status/2034473948050800695": [
+    {
+      "title": "Rob Pike's Rules of Programming",
+      "desc": "Rob Pike 编程法则原文",
+      "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html"
+    }
   ]
 }
