@@ -1922,5 +1922,12 @@
       "desc": "基于 Apple LLM in a Flash 的 MoE 模型本地推理引擎",
       "url": "https://github.com/danveloper/flash-moe"
     }
+  ],
+  "https://x.com/guigudao/status/2034542675547062320": [
+    {
+      "title": "Effective Context Engineering for AI Agents - Anthropic",
+      "desc": "Anthropic 官方的 context engineering 指南，涵盖 agent 上下文管理策略",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    }
   ]
 }
