@@ -1840,8 +1840,8 @@
   ],
   "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/": [
     {
-      "title": "Agentic Engineering Patterns 完整指南",
-      "desc": "Simon Willison 的 agent 工程模式指南",
+      "title": "Agentic Engineering Patterns",
+      "desc": "Simon Willison 的完整 agentic engineering 模式集合",
       "url": "https://simonwillison.net/guides/agentic-engineering-patterns/"
     }
   ],
