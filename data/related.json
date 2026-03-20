@@ -1991,5 +1991,12 @@
       "desc": "Paul Bakaus（jQuery UI 原作者）做的设计 skill，20+ 命令抓 AI 生成 UI 的反模式",
       "url": "https://apidog.com/blog/impeccable-claude-code-skill"
     }
+  ],
+  "https://github.com/hotjp/long-run-agent": [
+    {
+      "title": "The Ralph Loop: Long-Running AI Agents - ZeroSync",
+      "desc": "Ralph Loop 技术深入解析：每次迭代重置 context + 外部记忆 + 结构化背压",
+      "url": "https://www.zerosync.co/blog/ralph-loop-technical-deep-dive"
+    }
   ]
 }
