@@ -1967,5 +1967,17 @@
       "desc": "Mark Simonson 工作室25周年回顾，从副业到全职字体设计",
       "url": "https://www.marksimonson.com/notebook/view/mark-simonson-studio-at-25/"
     }
+  ],
+  "https://stitch.withgoogle.com/docs/design-md/overview": [
+    {
+      "title": "Introducing 'vibe design' with Stitch - Google Blog",
+      "desc": "Google 官方博客介绍 Stitch 和 DESIGN.md",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/"
+    },
+    {
+      "title": "design-md skill - Tessl",
+      "desc": "Stitch 的 design-md 作为 agent skill 的注册条目，含完整 DESIGN.md 结构定义",
+      "url": "https://tessl.io/registry/skills/github/google-labs-code/stitch-skills/design-md"
+    }
   ]
 }
