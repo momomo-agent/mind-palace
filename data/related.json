@@ -1998,5 +1998,12 @@
       "desc": "Ralph Loop 技术深入解析：每次迭代重置 context + 外部记忆 + 结构化背压",
       "url": "https://www.zerosync.co/blog/ralph-loop-technical-deep-dive"
     }
+  ],
+  "https://x.com/austinit/status/2035014414102143033": [
+    {
+      "title": "Actionbook - Browser automation for AI agents",
+      "desc": "智能浏览器操作引擎，Rust CLI + 复用系统浏览器，支持 Claude Code/Cursor 等",
+      "url": "https://github.com/actionbook/actionbook"
+    }
   ]
 }
