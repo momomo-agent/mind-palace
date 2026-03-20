@@ -2005,5 +2005,12 @@
       "desc": "智能浏览器操作引擎，Rust CLI + 复用系统浏览器，支持 Claude Code/Cursor 等",
       "url": "https://github.com/actionbook/actionbook"
     }
+  ],
+  "https://github.com/MoonshotAI/Attention-Residuals": [
+    {
+      "title": "Attention Residuals (arXiv)",
+      "desc": "AttnRes 论文原文",
+      "url": "https://arxiv.org/abs/2603.15031"
+    }
   ]
 }
