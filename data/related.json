@@ -1979,5 +1979,17 @@
       "desc": "Stitch 的 design-md 作为 agent skill 的注册条目，含完整 DESIGN.md 结构定义",
       "url": "https://tessl.io/registry/skills/github/google-labs-code/stitch-skills/design-md"
     }
+  ],
+  "https://x.com/pirrer/status/2034872129108464100": [
+    {
+      "title": "Neethan Wu: Design Without Designing 原推",
+      "desc": "Neethan Wu 原始长推，详细列出每个工具和使用方式",
+      "url": "https://x.com/neethanwu/status/2034786360356204934"
+    },
+    {
+      "title": "Impeccable: The Claude Code Skill for Unique Frontend UI",
+      "desc": "Paul Bakaus（jQuery UI 原作者）做的设计 skill，20+ 命令抓 AI 生成 UI 的反模式",
+      "url": "https://apidog.com/blog/impeccable-claude-code-skill"
+    }
   ]
 }
