@@ -1960,5 +1960,12 @@
       "desc": "另一个本地 memory layer 实现，基于 vault 文件系统",
       "url": "https://dev.to/filippo_venturini/how-i-built-a-local-memory-layer-for-ai-agents-and-why-vaults-changed-everything-1apg"
     }
+  ],
+  "https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/": [
+    {
+      "title": "Mark Simonson Studio at 25",
+      "desc": "Mark Simonson 工作室25周年回顾，从副业到全职字体设计",
+      "url": "https://www.marksimonson.com/notebook/view/mark-simonson-studio-at-25/"
+    }
   ]
 }
