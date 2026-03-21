@@ -2012,5 +2012,12 @@
       "desc": "AttnRes 论文原文",
       "url": "https://arxiv.org/abs/2603.15031"
     }
+  ],
+  "https://github.com/nari-labs/dia": [
+    {
+      "title": "Dia2 - Nari Labs 下一代对话 TTS",
+      "desc": "Dia 的升级版本",
+      "url": "https://github.com/nari-labs/dia2"
+    }
   ]
 }
