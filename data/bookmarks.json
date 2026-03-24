@@ -82671,7 +82671,7 @@
       "excerpt": "无论是设计工具还是前端代码，都只是实现创意的工具。最终能够限制创意的，只有不够开放和好奇的大脑。",
       "note": "",
       "type": "link",
-      "cover": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f5beaadd-2026-4ed5-91b2-56cf1e8bb440/frontend_page-0001.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230201T170026Z&X-Amz-Expires=3600&X-Amz-Signature=439bfdfe8cd1f5d343e661fb3ba8a6c11c01f947fdeff6b0ab88b0cedb61b0a5&X-Amz-SignedHeaders=host&x-id=GetObject",
+      "cover": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f5beaadd-2026-4ed5-91b2-56cf1e8bb440/frontend_page-0001.jpg",
       "tags": [
         "Article",
         "Design",
@@ -82691,7 +82691,7 @@
       "media": [
         {
           "type": "image",
-          "link": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f5beaadd-2026-4ed5-91b2-56cf1e8bb440/frontend_page-0001.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230201%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230201T170026Z&X-Amz-Expires=3600&X-Amz-Signature=439bfdfe8cd1f5d343e661fb3ba8a6c11c01f947fdeff6b0ab88b0cedb61b0a5&X-Amz-SignedHeaders=host&x-id=GetObject"
+          "link": "https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f5beaadd-2026-4ed5-91b2-56cf1e8bb440/frontend_page-0001.jpg"
         }
       ],
       "user": {
