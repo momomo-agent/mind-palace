@@ -2031,5 +2031,12 @@
       "desc": "Anthropic 多 agent 研究系统设计——子 agent 输出到文件系统，绕过主协调器减少信息损耗",
       "url": "https://www.anthropic.com/engineering/multi-agent-research-system"
     }
+  ],
+  "https://x.com/GenAI_is_real/status/2036266930290696599": [
+    {
+      "title": "Skill Issue: Harness Engineering for Coding Agents",
+      "desc": "HumanLayer 把 harness engineering 定位为 context engineering 的子集",
+      "url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents"
+    }
   ]
 }
