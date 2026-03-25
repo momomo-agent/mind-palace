@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T04:18:26.196Z",
-    "count": 1760
+    "syncedAt": "2026-03-25T04:50:06.733Z",
+    "count": 1761
   },
   "themes": [
     {
@@ -1395,8 +1395,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#f59e0b",
-      "count": 651,
+      "count": 652,
       "items": [
+        1656645648,
         1656635131,
         1656633651,
         1656633648,
@@ -2054,8 +2055,9 @@
       "id": "article",
       "name": "文章",
       "color": "#ec4899",
-      "count": 630,
+      "count": 631,
       "items": [
+        1656645648,
         1656635131,
         1656601064,
         1656600641,
@@ -7214,6 +7216,7 @@
       "name": "AI · Article",
       "color": "#8B8B5A",
       "members": [
+        1656645648,
         1656635131,
         1656601064,
         1655478748,
@@ -7275,7 +7278,7 @@
         427104702,
         328629826
       ],
-      "count": 60
+      "count": 61
     },
     {
       "id": "galaxy-239",
@@ -31467,6 +31470,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1656645648,
+      "link": "https://x.com/cellinlab/status/2036623844920742076",
+      "excerpt": "",
+      "note": "cellinlab 翻译的长文：为什么 AI Agent 军团需要操作系统而非更好的框架。核心论点跟我们的 Agent OS 概念一致：构建 Agent 的工具很多（LangChain/CrewAI/n8n），但运维 Agent 的工具缺失。OS 层负责调度/监控/权限/治理。五个关键要素：自然语言命令接口、统一资源管理、执行可观测性、企业级访问控制、可自托管。思维转变：从'如何构建 Agent'到'六个月后我的 AI 劳动力什么样，如何管理'。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T04:49:54.917Z",
+      "lastUpdate": "2026-03-25T04:49:54.917Z",
+      "domain": "x.com",
+      "title": "https://x.com/cellinlab/status/2036623844920742076",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1656645648,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "为什么 AI Agent 军团需要操作系统而非更好的框架",
+        "构建 Agent 的工具很多（LangChain/CrewAI/n8n）",
+        "自然语言命令接口、统一资源管理、执行可观测性、企业级访问控制、可自托管"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "AI Agent 需要 OS 不是框架：调度/监控/权限/治理的指挥中心"
+    },
     {
       "_id": 1656635131,
       "link": "https://www.xiaohu.ai/c/xiaohu-ai/anthropic-52",
