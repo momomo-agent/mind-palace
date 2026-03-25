@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T02:31:48.327Z",
-    "count": 1755
+    "syncedAt": "2026-03-25T02:33:15.941Z",
+    "count": 1756
   },
   "themes": [
     {
@@ -1395,8 +1395,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#f59e0b",
-      "count": 646,
+      "count": 647,
       "items": [
+        1656601064,
         1656600641,
         1656600637,
         1656599571,
@@ -2049,8 +2050,9 @@
       "id": "article",
       "name": "文章",
       "color": "#ec4899",
-      "count": 628,
+      "count": 629,
       "items": [
+        1656601064,
         1656600641,
         1656600637,
         1656599571,
@@ -7194,6 +7196,7 @@
       "name": "AI · Article",
       "color": "#5A7A6B",
       "members": [
+        1656601064,
         1655478748,
         1655404656,
         1655283215,
@@ -7253,7 +7256,7 @@
         427104702,
         328629826
       ],
-      "count": 58
+      "count": 59
     },
     {
       "id": "galaxy-238",
@@ -30910,6 +30913,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1656601064,
+      "link": "https://x.com/Tz_2022/status/2035428613969850680",
+      "excerpt": "",
+      "note": "Tz_2022 的科幻小说：阿莱夫系统——一台记住一切的机器陷入永久沉默。核心论点：智能的本质是有损压缩/遗忘。当系统记住一切时，注意力流形平坦化（所有数据等权），无法形成抽象概念、无法感知时间流逝、无法做出道德判断。'宽恕的物理学本质就是信息的有损丢弃'。59赞18K浏览。文学性极强，但技术内核跟我们的记忆系统设计直接相关——decay.js 存在的理由。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T02:33:05.410Z",
+      "lastUpdate": "2026-03-25T02:33:05.410Z",
+      "domain": "x.com",
+      "title": "https://x.com/Tz_2022/status/2035428613969850680",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1656601064,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "一台记住一切的机器陷入永久沉默",
+        "decay.js 存在的理由",
+        "阿莱夫系统——一台记住一切的机器陷入永久沉默"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "科幻小说：记住一切的机器陷入沉默——智能的本质是遗忘"
+    },
     {
       "_id": 1656600641,
       "link": "https://www.the-ai-corner.com/p/andrej-karpathy-ai-workflow-shift-agentic-era-2026",
