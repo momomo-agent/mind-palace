@@ -2073,5 +2073,12 @@
       "desc": "Anthropic 官方 G 轮融资公告，Claude Code 年化收入 $25 亿",
       "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation"
     }
+  ],
+  "https://mp.weixin.qq.com/s/iTLZQHw9Dkt6AsDumZZJNQ": [
+    {
+      "title": "Harness design for long-running application development - Anthropic",
+      "desc": "Anthropic 官方 Harness Engineering 博客原文",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+    }
   ]
 }
