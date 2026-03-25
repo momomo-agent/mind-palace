@@ -2094,5 +2094,12 @@
       "desc": "InfoQ 深度文章：AI agent 驱动的 CLI 设计模式",
       "url": "https://www.infoq.com/articles/ai-agent-cli/"
     }
+  ],
+  "https://x.com/mubeitech/status/2036714883505352976": [
+    {
+      "title": "Superwhisper - AI powered voice to text for macOS",
+      "desc": "Superwhisper 官网，macOS 本地 AI 语音转文字",
+      "url": "https://superwhisper.com/"
+    }
   ]
 }
