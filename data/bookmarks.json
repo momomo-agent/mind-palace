@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T11:34:46.750Z",
-    "count": 1766
+    "syncedAt": "2026-03-25T11:46:51.183Z",
+    "count": 1767
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 657,
+      "count": 658,
       "items": [
+        1656993082,
         1656973430,
         1656969041,
         1656969036,
@@ -3259,8 +3260,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 162,
+      "count": 163,
       "items": [
+        1656993082,
         1656592554,
         1656264934,
         1655853451,
@@ -7491,6 +7493,7 @@
       "name": "AI · Tool",
       "color": "#6B8B8B",
       "members": [
+        1656993082,
         1655248772,
         1654741738,
         1654413722,
@@ -7506,7 +7509,7 @@
         1612041423,
         1605997044
       ],
-      "count": 14
+      "count": 15
     },
     {
       "id": "galaxy-246",
@@ -31943,6 +31946,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1656993082,
+      "link": "https://x.com/poetengineer__/status/2036479827193090399",
+      "excerpt": "",
+      "note": "poetengineer 做的 Claude Code session 可视化 dashboard：3 个月 254 个 session / 58 个项目。3D 地形图展示 token 使用量、session 卡片（首/末 prompt + hover 展开）、点击直接在浏览器恢复 session、活动热力图、项目 treemap。1590 赞 69K 浏览。代码仅对 X 订阅者开放。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T11:46:46.255Z",
+      "lastUpdate": "2026-03-25T11:46:46.255Z",
+      "domain": "x.com",
+      "title": "https://x.com/poetengineer__/status/2036479827193090399",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1656993082,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "3 个月 254 个 session / 58 个项目"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Claude Code session 可视化 dashboard：3D 地形 + 热力图 + session 恢复"
+    },
     {
       "_id": 1656973430,
       "link": "https://hark.com/",
@@ -125741,6 +125791,24 @@
   ],
   "relations": [
     {
+      "source": 1644703993,
+      "target": 1644703976,
+      "strength": 2,
+      "reason": "Tool, iOS"
+    },
+    {
+      "source": 1644703993,
+      "target": 1644702107,
+      "strength": 2,
+      "reason": "Tool, iOS"
+    },
+    {
+      "source": 1644703976,
+      "target": 1644702107,
+      "strength": 2,
+      "reason": "Tool, iOS"
+    },
+    {
       "source": 672343345,
       "target": 632995849,
       "strength": 2,
@@ -126897,24 +126965,6 @@
       "target": 346492531,
       "strength": 2,
       "reason": "Internet, OS"
-    },
-    {
-      "source": 1644703993,
-      "target": 1644703976,
-      "strength": 2,
-      "reason": "Tool, iOS"
-    },
-    {
-      "source": 1644703993,
-      "target": 1644702107,
-      "strength": 2,
-      "reason": "Tool, iOS"
-    },
-    {
-      "source": 1644703976,
-      "target": 1644702107,
-      "strength": 2,
-      "reason": "Tool, iOS"
     },
     {
       "source": 358968151,
