@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T11:29:47.676Z",
-    "count": 1765
+    "syncedAt": "2026-03-25T11:34:46.750Z",
+    "count": 1766
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 656,
+      "count": 657,
       "items": [
+        1656973430,
         1656969041,
         1656969036,
         1656707940,
@@ -3533,8 +3534,9 @@
       "id": "internet",
       "name": "互联网",
       "color": "#3b82f6",
-      "count": 79,
+      "count": 80,
       "items": [
+        1656973430,
         1656969041,
         1656969036,
         1656633651,
@@ -7710,25 +7712,26 @@
     },
     {
       "id": "galaxy-257",
-      "name": "Article · Render",
+      "name": "AI · Internet",
       "color": "#6B8B8B",
+      "members": [
+        1656973430,
+        1656603869,
+        1653292999,
+        1644311506,
+        1603544763
+      ],
+      "count": 5
+    },
+    {
+      "id": "galaxy-258",
+      "name": "Article · Render",
+      "color": "#9C7A5A",
       "members": [
         1524231105,
         1038283614,
         607820580,
         578353486
-      ],
-      "count": 4
-    },
-    {
-      "id": "galaxy-258",
-      "name": "AI · Internet",
-      "color": "#9C7A5A",
-      "members": [
-        1656603869,
-        1653292999,
-        1644311506,
-        1603544763
       ],
       "count": 4
     },
@@ -31940,6 +31943,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1656973430,
+      "link": "https://hark.com/",
+      "excerpt": "",
+      "note": "Hark AI 官网。Brett Adcock 创立的个人智能实验室，模型+硬件+界面三合一设计。$1亿自有资金启动，45人团队（Apple/Meta/Google）。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Internet"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T11:34:41.543Z",
+      "lastUpdate": "2026-03-25T11:34:41.544Z",
+      "domain": "hark.com",
+      "title": "https://hark.com/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1656973430,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Hark AI 官网"
+      ],
+      "themes": [
+        "ai",
+        "internet"
+      ],
+      "summary": "Hark AI 官网：个人智能 + 下一代硬件"
+    },
     {
       "_id": 1656969041,
       "link": "https://x.com/adcock_brett/status/2036461258443202810",
