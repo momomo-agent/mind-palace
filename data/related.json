@@ -2052,5 +2052,12 @@
       "desc": "Claude Code Auto-dream 机制详解，类比 REM 睡眠",
       "url": "https://claudefa.st/blog/guide/mechanics/auto-dream"
     }
+  ],
+  "https://x.com/chenchengpro/status/2036620474034319615": [
+    {
+      "title": "Claude Code Auto Mode 完整分析",
+      "desc": "sorrycc 博客：Claude Code Auto Mode 逆向工程完整分析",
+      "url": "https://blog.sorrycc.com/claude-code-auto-mode"
+    }
   ]
 }
