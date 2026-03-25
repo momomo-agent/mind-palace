@@ -2038,5 +2038,12 @@
       "desc": "HumanLayer 把 harness engineering 定位为 context engineering 的子集",
       "url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents"
     }
+  ],
+  "https://x.com/FradSer/status/2036619884122267745": [
+    {
+      "title": "FradSer dotclaude superpowers",
+      "desc": "FradSer 魔改版 superpowers 配置",
+      "url": "https://github.com/FradSer/dotclaude/tree/main/superpowers"
+    }
   ]
 }
