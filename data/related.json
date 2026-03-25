@@ -2080,5 +2080,12 @@
       "desc": "Anthropic 官方 Harness Engineering 博客原文",
       "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
     }
+  ],
+  "https://x.com/adcock_brett/status/2036461258443202810": [
+    {
+      "title": "Meet the former Apple designer building a new AI interface at Hark",
+      "desc": "TechCrunch 报道 Hark 的前 Apple 设计师团队",
+      "url": "https://techcrunch.com/2026/03/24/meet-the-former-apple-designer-building-a-new-ai-interface-at-hark/"
+    }
   ]
 }
