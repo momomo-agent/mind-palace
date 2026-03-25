@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T02:33:15.941Z",
-    "count": 1756
+    "syncedAt": "2026-03-25T02:41:41.687Z",
+    "count": 1757
   },
   "themes": [
     {
@@ -1395,8 +1395,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#f59e0b",
-      "count": 647,
+      "count": 648,
       "items": [
+        1656603869,
         1656601064,
         1656600641,
         1656600637,
@@ -3520,8 +3521,9 @@
       "id": "internet",
       "name": "互联网",
       "color": "#3b82f6",
-      "count": 74,
+      "count": 75,
       "items": [
+        1656603869,
         1653292999,
         1644311506,
         1639309718,
@@ -7680,8 +7682,20 @@
     },
     {
       "id": "galaxy-256",
-      "name": "Apple · Article",
+      "name": "AI · Internet",
       "color": "#B8A060",
+      "members": [
+        1656603869,
+        1653292999,
+        1644311506,
+        1603544763
+      ],
+      "count": 4
+    },
+    {
+      "id": "galaxy-257",
+      "name": "Apple · Article",
+      "color": "#6B8B8B",
       "members": [
         738037360,
         558770705,
@@ -7690,24 +7704,13 @@
       "count": 3
     },
     {
-      "id": "galaxy-257",
+      "id": "galaxy-258",
       "name": "AI · Tutorial",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         564993285,
         530423912,
         509598748
-      ],
-      "count": 3
-    },
-    {
-      "id": "galaxy-258",
-      "name": "AI · Internet",
-      "color": "#9C7A5A",
-      "members": [
-        1653292999,
-        1644311506,
-        1603544763
       ],
       "count": 3
     },
@@ -30913,6 +30916,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1656603869,
+      "link": "https://agentcommunity.org/",
+      "excerpt": "",
+      "note": ".agent TLD 社区竞标——申请 ICANN 注册 .agent 顶级域名，由社区治理而非单一公司控制。3000+ 成员（700+ 公司含 Ollama/Datadog/Netlify/Sourcegraph/Brave/Alibaba Cloud 等，2300+ 开发者）。目标：开放标准的 agent 发现和互操作性，社区治理，无准入门槛。类比：.edu=教育，.gov=政府，.agent=AI。当前可免费预注册。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Internet"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T02:41:37.713Z",
+      "lastUpdate": "2026-03-25T02:41:37.713Z",
+      "domain": "agentcommunity.org",
+      "title": "https://agentcommunity.org/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1656603869,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "申请 ICANN 注册 .agent 顶级域名，由社区治理而非单一公司控制",
+        "开放标准的 agent 发现和互操作性"
+      ],
+      "themes": [
+        "ai",
+        "internet"
+      ],
+      "summary": ".agent 顶级域名社区竞标：3000+ 成员，ICANN 申请中"
+    },
     {
       "_id": 1656601064,
       "link": "https://x.com/Tz_2022/status/2035428613969850680",
@@ -124217,42 +124268,6 @@
   ],
   "relations": [
     {
-      "source": 1644703993,
-      "target": 1644703976,
-      "strength": 2,
-      "reason": "Tool, iOS"
-    },
-    {
-      "source": 1644703993,
-      "target": 1644702107,
-      "strength": 2,
-      "reason": "Tool, iOS"
-    },
-    {
-      "source": 1644703976,
-      "target": 1644702107,
-      "strength": 2,
-      "reason": "Tool, iOS"
-    },
-    {
-      "source": 358968151,
-      "target": 356001107,
-      "strength": 2,
-      "reason": "Note, OS"
-    },
-    {
-      "source": 358968151,
-      "target": 356000902,
-      "strength": 2,
-      "reason": "Note, OS"
-    },
-    {
-      "source": 356001107,
-      "target": 356000902,
-      "strength": 2,
-      "reason": "Note, OS"
-    },
-    {
       "source": 672343345,
       "target": 632995849,
       "strength": 2,
@@ -125409,6 +125424,42 @@
       "target": 346492531,
       "strength": 2,
       "reason": "Internet, OS"
+    },
+    {
+      "source": 1644703993,
+      "target": 1644703976,
+      "strength": 2,
+      "reason": "Tool, iOS"
+    },
+    {
+      "source": 1644703993,
+      "target": 1644702107,
+      "strength": 2,
+      "reason": "Tool, iOS"
+    },
+    {
+      "source": 1644703976,
+      "target": 1644702107,
+      "strength": 2,
+      "reason": "Tool, iOS"
+    },
+    {
+      "source": 358968151,
+      "target": 356001107,
+      "strength": 2,
+      "reason": "Note, OS"
+    },
+    {
+      "source": 358968151,
+      "target": 356000902,
+      "strength": 2,
+      "reason": "Note, OS"
+    },
+    {
+      "source": 356001107,
+      "target": 356000902,
+      "strength": 2,
+      "reason": "Note, OS"
     },
     {
       "source": 676295109,
