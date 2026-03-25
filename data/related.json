@@ -2108,5 +2108,12 @@
       "desc": "Cursor Composer 2 发布博文",
       "url": "https://cursor.com/blog/composer-2"
     }
+  ],
+  "https://x.com/bruceblue/status/2036671363742920848": [
+    {
+      "title": "Cursor's Composer 2 was secretly built on a Chinese AI model",
+      "desc": "VentureBeat: Composer 2 基于月之暗面的 Kimi K2.5 构建",
+      "url": "https://venturebeat.com/technology/cursors-composer-2-was-secretly-built-on-a-chinese-ai-model-and-it-exposes-a"
+    }
   ]
 }
