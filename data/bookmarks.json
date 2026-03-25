@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T15:45:27.256Z",
-    "count": 1779
+    "syncedAt": "2026-03-25T15:47:09.216Z",
+    "count": 1780
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 668,
+      "count": 669,
       "items": [
+        1657177328,
         1657176600,
         1657176594,
         1657174565,
@@ -3271,8 +3272,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 166,
+      "count": 167,
       "items": [
+        1657177328,
         1657175699,
         1657014199,
         1657014198,
@@ -7575,6 +7577,7 @@
       "name": "AI · Tool",
       "color": "#5A7A6B",
       "members": [
+        1657177328,
         1656993082,
         1655248772,
         1654741738,
@@ -7591,7 +7594,7 @@
         1612041423,
         1605997044
       ],
-      "count": 15
+      "count": 16
     },
     {
       "id": "galaxy-250",
@@ -34202,6 +34205,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1657177328,
+      "link": "https://github.com/hardhackerlabs/podwise-cli",
+      "excerpt": "",
+      "note": "Podwise CLI——podwise.ai 的命令行客户端，把播客变成 AI 洞察（转录/摘要/大纲/Q&A/思维导图）。专门为 AI agent 设计——让 LLM 和自动化管道无需浏览器获取结构化播客内容。支持小宇宙/YouTube/Podwise URL。有 OpenClaw agent skill 和 MCP server。Go 写的，Homebrew 可装。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T15:47:04.881Z",
+      "lastUpdate": "2026-03-25T15:47:04.881Z",
+      "domain": "github.com",
+      "title": "https://github.com/hardhackerlabs/podwise-cli",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1657177328,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "podwise.ai 的命令行客户端，把播客变成 AI 洞察（转录/摘要/大纲/Q&A/思维导图）",
+        "让 LLM 和自动化管道无需浏览器获取结构化播客内容"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Podwise CLI: 播客→AI 洞察的 agent 工具（转录/摘要/Q&A）"
+    },
     {
       "_id": 1657176600,
       "link": "https://x.com/op7418/status/2033113845120807170",
