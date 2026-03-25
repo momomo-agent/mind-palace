@@ -2115,5 +2115,12 @@
       "desc": "VentureBeat: Composer 2 基于月之暗面的 Kimi K2.5 构建",
       "url": "https://venturebeat.com/technology/cursors-composer-2-was-secretly-built-on-a-chinese-ai-model-and-it-exposes-a"
     }
+  ],
+  "https://x.com/op7418/status/2033113845120807170": [
+    {
+      "title": "OpenGenerativeUI - Open-Source Generative UI Framework",
+      "desc": "开源生成式 UI 框架",
+      "url": "https://github.com/CopilotKit/OpenGenerativeUI"
+    }
   ]
 }
