@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T19:32:29.944Z",
-    "count": 1783
+    "syncedAt": "2026-03-25T19:33:41.511Z",
+    "count": 1784
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 672,
+      "count": 673,
       "items": [
+        1657884958,
         1657883003,
         1657883002,
         1657877483,
@@ -3275,8 +3276,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 168,
+      "count": 169,
       "items": [
+        1657884958,
         1657883003,
         1657177328,
         1657175699,
@@ -7610,6 +7612,7 @@
       "name": "AI · Tool",
       "color": "#5A8B7A",
       "members": [
+        1657884958,
         1657177328,
         1656993082,
         1655248772,
@@ -7627,7 +7630,7 @@
         1612041423,
         1605997044
       ],
-      "count": 16
+      "count": 17
     },
     {
       "id": "galaxy-252",
@@ -34916,6 +34919,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1657884958,
+      "link": "https://x.com/askalphaxiv",
+      "excerpt": "",
+      "note": "alphaXiv 的 X 账号。alphaXiv 是 arxiv 论文的讨论和评论平台，可以在论文上留评论、看 AI 摘要、查看相似论文。上条 Memento-Skills 论文就是在这个平台上看到的。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T19:33:37.692Z",
+      "lastUpdate": "2026-03-25T19:33:37.692Z",
+      "domain": "x.com",
+      "title": "https://x.com/askalphaxiv",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1657884958,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "alphaXiv 的 X 账号"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "alphaXiv: arxiv 论文讨论平台的 X 账号"
+    },
     {
       "_id": 1657883003,
       "link": "https://github.com/Memento-Teams/Memento-Skills",
