@@ -2101,5 +2101,12 @@
       "desc": "Superwhisper 官网，macOS 本地 AI 语音转文字",
       "url": "https://superwhisper.com/"
     }
+  ],
+  "https://cursor.com/resources/Composer2.pdf": [
+    {
+      "title": "Introducing Composer 2 - Cursor",
+      "desc": "Cursor Composer 2 发布博文",
+      "url": "https://cursor.com/blog/composer-2"
+    }
   ]
 }
