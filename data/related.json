@@ -2019,5 +2019,17 @@
       "desc": "Dia 的升级版本",
       "url": "https://github.com/nari-labs/dia2"
     }
+  ],
+  "https://x.com/wangray/status/2036489778015953164": [
+    {
+      "title": "Harness design for long-running application development",
+      "desc": "Anthropic 官方原文：多 agent harness 的 GAN 式设计",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+    },
+    {
+      "title": "How we built our multi-agent research system",
+      "desc": "Anthropic 多 agent 研究系统设计——子 agent 输出到文件系统，绕过主协调器减少信息损耗",
+      "url": "https://www.anthropic.com/engineering/multi-agent-research-system"
+    }
   ]
 }
