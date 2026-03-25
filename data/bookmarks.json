@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-25T15:39:48.508Z",
-    "count": 1775
+    "syncedAt": "2026-03-25T15:42:39.618Z",
+    "count": 1776
   },
   "themes": [
     {
@@ -1408,8 +1408,9 @@
       "id": "design",
       "name": "设计",
       "color": "#f59e0b",
-      "count": 653,
+      "count": 654,
       "items": [
+        1657175699,
         1656264934,
         1655799684,
         1654733399,
@@ -3268,8 +3269,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 165,
+      "count": 166,
       "items": [
+        1657175699,
         1657014199,
         1657014198,
         1656993082,
@@ -7826,8 +7828,22 @@
     },
     {
       "id": "galaxy-265",
-      "name": "Develop · Indie",
+      "name": "Design · Tool",
       "color": "#7A8B6E",
+      "members": [
+        1657175699,
+        1655799684,
+        1652011007,
+        1646115148,
+        1613597030,
+        1612041437
+      ],
+      "count": 6
+    },
+    {
+      "id": "galaxy-266",
+      "name": "Develop · Indie",
+      "color": "#5A6B7A",
       "members": [
         413254930,
         377978269,
@@ -7837,19 +7853,6 @@
         280577022
       ],
       "count": 6
-    },
-    {
-      "id": "galaxy-266",
-      "name": "Design · Tool",
-      "color": "#5A6B7A",
-      "members": [
-        1655799684,
-        1652011007,
-        1646115148,
-        1613597030,
-        1612041437
-      ],
-      "count": 5
     },
     {
       "id": "galaxy-267",
@@ -34182,6 +34185,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1657175699,
+      "link": "https://x.com/hiid/status/2035710177740251516",
+      "excerpt": "",
+      "note": "Hi-iD 做的自动更新设计专利阅读网站。用 LLM 过滤和转译专利材料，通过多幅配图获取第一感觉。专利的可阅读性差导致被多数人遗弃，这个工具用 Prompt 驱动 LLM 来解决。Vibe coding 成果。主要收录 Apple 等公司的设计相关专利，自动生成中文摘要+技术领域+核心创新。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Design",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-25T15:42:35.648Z",
+      "lastUpdate": "2026-03-25T15:42:35.648Z",
+      "domain": "x.com",
+      "title": "https://x.com/hiid/status/2035710177740251516",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1657175699,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Hi-iD 做的自动更新设计专利阅读网站"
+      ],
+      "themes": [
+        "design",
+        "tool"
+      ],
+      "summary": "LLM 驱动的设计专利阅读器：自动过滤转译+配图预览"
+    },
     {
       "_id": 1657174565,
       "link": "https://venturebeat.com/technology/cursors-composer-2-was-secretly-built-on-a-chinese-ai-model-and-it-exposes-a",
