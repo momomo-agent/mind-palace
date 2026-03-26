@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-26T05:36:20.168Z",
-    "count": 1788
+    "syncedAt": "2026-03-26T09:28:22.261Z",
+    "count": 1789
   },
   "themes": [
     {
@@ -3280,8 +3280,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 169,
+      "count": 170,
       "items": [
+        1658598430,
         1657884958,
         1657883003,
         1657177328,
@@ -4174,9 +4175,18 @@
       ]
     },
     {
+      "id": "macos",
+      "name": "macOS",
+      "color": "#8b5cf6",
+      "count": 1,
+      "items": [
+        1658598430
+      ]
+    },
+    {
       "id": "reference",
       "name": "Reference",
-      "color": "#8b5cf6",
+      "color": "#14b8a6",
       "count": 1,
       "items": [
         1657176125
@@ -4185,7 +4195,7 @@
     {
       "id": "podcast",
       "name": "Podcast",
-      "color": "#14b8a6",
+      "color": "#f97316",
       "count": 1,
       "items": [
         1645532144
@@ -4194,7 +4204,7 @@
     {
       "id": "blog",
       "name": "Blog",
-      "color": "#f97316",
+      "color": "#ef4444",
       "count": 1,
       "items": [
         1644508793
@@ -4203,7 +4213,7 @@
     {
       "id": "font",
       "name": "Font",
-      "color": "#ef4444",
+      "color": "#3b82f6",
       "count": 1,
       "items": [
         669078187
@@ -4212,7 +4222,7 @@
     {
       "id": "gesture",
       "name": "Gesture",
-      "color": "#3b82f6",
+      "color": "#84cc16",
       "count": 1,
       "items": [
         620664969
@@ -4221,7 +4231,7 @@
     {
       "id": "life",
       "name": "Life",
-      "color": "#84cc16",
+      "color": "#6366f1",
       "count": 1,
       "items": [
         434324772
@@ -8051,6 +8061,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1658598430,
         1657176125,
         1649696344,
         1649601310,
@@ -8263,7 +8274,7 @@
         157288645,
         157288168
       ],
-      "count": 211
+      "count": 212
     }
   ],
   "bridges": [
@@ -34279,6 +34290,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1658598430,
+      "link": "https://github.com/hehehai/voxt",
+      "excerpt": "",
+      "note": "Voxt——macOS 菜单栏语音输入+翻译应用。按住说话，松开粘贴。核心功能：1) 实时转录+增强（去口头禅/加标点/自定义 prompt）2) 语音翻译（fn+shift）3) 语音即 prompt（fn+control，语音驱动 AI 助手）4) 会议记录 Beta（双源采集 mic+系统音频）。App Branch 让不同应用/URL 使用不同增强规则。本地模型支持 Qwen3-ASR + WhisperKit + MLX Audio + 本地 LLM。开源 Swift 项目，Homebrew 可装。比之前收藏的 TypeNo 功能丰富得多。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Tool",
+        "macOS"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-26T09:28:18.332Z",
+      "lastUpdate": "2026-03-26T09:28:18.332Z",
+      "domain": "github.com",
+      "title": "https://github.com/hehehai/voxt",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1658598430,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "macOS 菜单栏语音输入+翻译应用",
+        "1) 实时转录+增强（去口头禅/加标点/自定义 prompt）2) 语音翻译（f"
+      ],
+      "themes": [
+        "tool",
+        "macos"
+      ],
+      "summary": "Voxt: macOS 语音输入+翻译+AI 助手，本地模型，开源"
+    },
     {
       "_id": 1658474378,
       "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
