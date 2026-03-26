@@ -2205,5 +2205,12 @@
       "desc": "反思 Weiser 愿景：30 年过去普适计算为何未实现",
       "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/6706/submitted_broken_dream_paper.pdf"
     }
+  ],
+  "https://github.com/letta-ai/claude-subconscious": [
+    {
+      "title": "Claude Subconscious - Cameron (作者博客)",
+      "desc": "作者详细解读设计思路",
+      "url": "https://cameron.stream/blog/claude-subconscious/"
+    }
   ]
 }
