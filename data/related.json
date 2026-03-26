@@ -2129,5 +2129,17 @@
       "desc": "Memento-Skills 开源代码",
       "url": "https://github.com/Memento-Teams/Memento-Skills"
     }
+  ],
+  "https://www.anthropic.com/engineering/harness-design-long-running-apps": [
+    {
+      "title": "Effective harnesses for long-running agents",
+      "desc": "前作：长时间运行 agent 的有效 harness 设计",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "title": "Effective context engineering for AI agents",
+      "desc": "Context Engineering 方法论",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    }
   ]
 }
