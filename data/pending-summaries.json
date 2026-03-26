@@ -1,6 +1,5 @@
 {
   "https://test.com/summary-v2": "验证pending summary机制：新条目的summary先存pending，sync时自动合并",
   "https://x.com/berryxia/status/2034030584671134087": "LabClaw：斯坦福-普林斯顿开源，一条命令让 OpenClaw agent 变成 AI 合作科学家",
-  "https://labclaw-ai.github.io": "LabClaw demo site",
-  "https://x.com/alchainhust/status/2037183105602109498": "林俊旸离职长文：从 reasoning thinking 到 agentic thinking，以及 Qwen3 混合模式的失败反思"
+  "https://labclaw-ai.github.io": "LabClaw demo site"
 }
