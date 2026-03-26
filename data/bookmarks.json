@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-26T15:20:33.047Z",
-    "count": 1798
+    "syncedAt": "2026-03-26T15:21:19.419Z",
+    "count": 1799
   },
   "themes": [
     {
@@ -4136,8 +4136,9 @@
       "id": "thinking",
       "name": "Thinking",
       "color": "#6366f1",
-      "count": 7,
+      "count": 8,
       "items": [
+        1658788439,
         1658788144,
         1658788136,
         1658788133,
@@ -4204,8 +4205,9 @@
       "id": "iot",
       "name": "IoT",
       "color": "#14b8a6",
-      "count": 1,
+      "count": 2,
       "items": [
+        1658788439,
         1658788130
       ]
     },
@@ -8121,6 +8123,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1658788439,
         1658598430,
         1657176125,
         1649696344,
@@ -8334,7 +8337,7 @@
         157288645,
         157288168
       ],
-      "count": 212
+      "count": 213
     }
   ],
   "bridges": [
@@ -35460,6 +35463,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1658788439,
+      "link": "https://www.media.mit.edu/groups/responsive-environments/overview/",
+      "excerpt": "",
+      "note": "MIT Media Lab Responsive Environments 研究组。空间感知、多传感器融合、环境智能。Ambient Hub 项目调研参考。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "IoT",
+        "Thinking"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-26T15:21:15.063Z",
+      "lastUpdate": "2026-03-26T15:21:15.063Z",
+      "domain": "media.mit.edu",
+      "title": "https://www.media.mit.edu/groups/responsive-environments/overview/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1658788439,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "MIT Media Lab Responsive Environments 研究组"
+      ],
+      "themes": [
+        "thinking",
+        "iot"
+      ],
+      "summary": "MIT Media Lab: Responsive Environments 研究组 — 空间感知与环境智能"
+    },
     {
       "_id": 1658788144,
       "link": "https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf",
@@ -130912,6 +130962,12 @@
     }
   ],
   "relations": [
+    {
+      "source": 1658788439,
+      "target": 1658788130,
+      "strength": 2,
+      "reason": "IoT, Thinking"
+    },
     {
       "source": 1644703993,
       "target": 1644703976,
