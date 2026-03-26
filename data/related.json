@@ -2178,5 +2178,32 @@
       "desc": "最好的技术是消失的技术，普适计算奠基论文",
       "url": "https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf"
     }
+  ],
+  "https://blog.khinsen.net/posts/2025/11/12/explorable-explorable-explanations.html": [
+    {
+      "title": "Bret Victor — A Brief Rant on the Future of Interaction Design",
+      "desc": "未来交互不应是在玻璃板上滑手指，手有丰富触觉能力",
+      "url": "https://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/"
+    },
+    {
+      "title": "Calm Technology — Mark Weiser",
+      "desc": "信息技术应在注意力的边缘运作",
+      "url": "https://calmtech.com/papers/computer-for-the-21st-century"
+    },
+    {
+      "title": "Generative Interfaces for Language Models",
+      "desc": "LLM 动态创建全新界面结构而非在 chat 窗口输出文字",
+      "url": "https://arxiv.org/html/2508.19227v2"
+    },
+    {
+      "title": "DeepVIS: Bridging NL and Data Visualization",
+      "desc": "IEEE 2026 NL2VIS 最新论文",
+      "url": "https://www.computer.org/csdl/journal/tg/2026/01/11284783/2ckbM9b3bMY"
+    },
+    {
+      "title": "The Broken Dream of Pervasive Computing",
+      "desc": "反思 Weiser 愿景：30 年过去普适计算为何未实现",
+      "url": "https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/6706/submitted_broken_dream_paper.pdf"
+    }
   ]
 }
