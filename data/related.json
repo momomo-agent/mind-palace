@@ -2141,5 +2141,42 @@
       "desc": "Context Engineering 方法论",
       "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
     }
+  ],
+  "https://worrydream.com/ExplorableExplanations/": [
+    {
+      "title": "Bret Victor — Drawing Dynamic Visualizations",
+      "desc": "直接操纵生成可视化，科学图表的未来形态",
+      "url": "https://www.youtube.com/watch?v=ef2jpjTEB5U"
+    },
+    {
+      "title": "Bret Victor — Media for Thinking the Unthinkable",
+      "desc": "人类需要新媒介来思考复杂系统",
+      "url": "https://www.youtube.com/watch?v=oUaOucZRlmE"
+    },
+    {
+      "title": "Natural Language Visualization (V-NLI)",
+      "desc": "自然语言驱动数据可视化 NL2VIS 综述",
+      "url": "https://towardsdatascience.com/natural-language-visualization-and-the-future-of-data-analysis-and-presentation/"
+    },
+    {
+      "title": "Voice to Diagram — Synergy Codes",
+      "desc": "语音转图表 AI 产品方向",
+      "url": "https://www.synergycodes.com/voice-to-diagram"
+    },
+    {
+      "title": "Beyond Conversations: NL as Interaction Influencer",
+      "desc": "从 chat 到 canvas 到 control panel 的交互模式演变",
+      "url": "https://uxdesign.cc/beyond-conversations-natural-language-as-interaction-influencer-8b39ed123c39"
+    },
+    {
+      "title": "Ambient Intelligence (AmI)",
+      "desc": "计算嵌入环境，感知人的存在，智能响应。2001年ISTAG提出",
+      "url": "https://en.wikipedia.org/wiki/Ambient_intelligence"
+    },
+    {
+      "title": "Mark Weiser — The Computer for the 21st Century (1991)",
+      "desc": "最好的技术是消失的技术，普适计算奠基论文",
+      "url": "https://www.lri.fr/~mbl/Stanford/CS477/papers/Weiser-SciAm.pdf"
+    }
   ]
 }
