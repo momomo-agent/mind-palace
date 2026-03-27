@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-27T11:35:14.700Z",
-    "count": 1816
+    "syncedAt": "2026-03-27T14:26:39.444Z",
+    "count": 1817
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 692,
+      "count": 693,
       "items": [
+        1660857274,
         1660320897,
         1660132144,
         1660113806,
@@ -4245,9 +4246,18 @@
       ]
     },
     {
+      "id": "product",
+      "name": "Product",
+      "color": "#f97316",
+      "count": 1,
+      "items": [
+        1660857274
+      ]
+    },
+    {
       "id": "opinion",
       "name": "Opinion",
-      "color": "#f97316",
+      "color": "#ef4444",
       "count": 1,
       "items": [
         1660466715
@@ -4256,7 +4266,7 @@
     {
       "id": "macos",
       "name": "macOS",
-      "color": "#ef4444",
+      "color": "#3b82f6",
       "count": 1,
       "items": [
         1658598430
@@ -4265,7 +4275,7 @@
     {
       "id": "reference",
       "name": "Reference",
-      "color": "#3b82f6",
+      "color": "#84cc16",
       "count": 1,
       "items": [
         1657176125
@@ -4274,7 +4284,7 @@
     {
       "id": "podcast",
       "name": "Podcast",
-      "color": "#84cc16",
+      "color": "#6366f1",
       "count": 1,
       "items": [
         1645532144
@@ -4283,7 +4293,7 @@
     {
       "id": "blog",
       "name": "Blog",
-      "color": "#6366f1",
+      "color": "#10b981",
       "count": 1,
       "items": [
         1644508793
@@ -4292,7 +4302,7 @@
     {
       "id": "font",
       "name": "Font",
-      "color": "#10b981",
+      "color": "#f59e0b",
       "count": 1,
       "items": [
         669078187
@@ -4301,7 +4311,7 @@
     {
       "id": "gesture",
       "name": "Gesture",
-      "color": "#f59e0b",
+      "color": "#ec4899",
       "count": 1,
       "items": [
         620664969
@@ -4310,7 +4320,7 @@
     {
       "id": "life",
       "name": "Life",
-      "color": "#ec4899",
+      "color": "#8b5cf6",
       "count": 1,
       "items": [
         434324772
@@ -8213,6 +8223,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1660857274,
         1660466715,
         1658788439,
         1658598430,
@@ -8428,7 +8439,7 @@
         157288645,
         157288168
       ],
-      "count": 214
+      "count": 215
     }
   ],
   "bridges": [
@@ -37312,6 +37323,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1660857274,
+      "link": "https://x.com/karrisaarinen/status/2007534281011155419",
+      "excerpt": "",
+      "note": "Karri Saarinen (Linear CEO) 论软件工作的中间层消失。核心观点：1)传统软件工作的中间层（写代码）曾是最重要部分，现在正在变薄 2)Coding agent 让 IDE 从写作工具变成代码查看器 3)前端（定义意图）和后端（审查/测试/发布）变得更重要 4)设计不是工具或产物，是通过探索/研究/讨论形成清晰意图 5)Linear workspace 作为产品工作的协调和上下文层，结构化实体/工作流/预期结果让 AI/agent 更有效。中间层消失后，形成正确意图+确保结果符合意图成为焦点。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Product"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-27T14:26:26.029Z",
+      "lastUpdate": "2026-03-27T14:26:26.029Z",
+      "domain": "x.com",
+      "title": "https://x.com/karrisaarinen/status/2007534281011155419",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1660857274,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "1)传统软件工作的中间层（写代码）曾是最重要部分"
+      ],
+      "themes": [
+        "ai",
+        "product"
+      ],
+      "summary": "软件工作的中间层消失 — Linear CEO 论 agent 时代的产品工作"
+    },
     {
       "_id": 1660466715,
       "link": "https://x.com/brettfromdj/status/2019100446959493120",
