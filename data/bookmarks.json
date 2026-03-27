@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-27T10:07:00.551Z",
-    "count": 1815
+    "syncedAt": "2026-03-27T11:35:14.700Z",
+    "count": 1816
   },
   "themes": [
     {
@@ -1434,8 +1434,9 @@
       "id": "design",
       "name": "设计",
       "color": "#f59e0b",
-      "count": 664,
+      "count": 665,
       "items": [
+        1660466715,
         1658885704,
         1658885679,
         1658885678,
@@ -4244,9 +4245,18 @@
       ]
     },
     {
+      "id": "opinion",
+      "name": "Opinion",
+      "color": "#f97316",
+      "count": 1,
+      "items": [
+        1660466715
+      ]
+    },
+    {
       "id": "macos",
       "name": "macOS",
-      "color": "#f97316",
+      "color": "#ef4444",
       "count": 1,
       "items": [
         1658598430
@@ -4255,7 +4265,7 @@
     {
       "id": "reference",
       "name": "Reference",
-      "color": "#ef4444",
+      "color": "#3b82f6",
       "count": 1,
       "items": [
         1657176125
@@ -4264,7 +4274,7 @@
     {
       "id": "podcast",
       "name": "Podcast",
-      "color": "#3b82f6",
+      "color": "#84cc16",
       "count": 1,
       "items": [
         1645532144
@@ -4273,7 +4283,7 @@
     {
       "id": "blog",
       "name": "Blog",
-      "color": "#84cc16",
+      "color": "#6366f1",
       "count": 1,
       "items": [
         1644508793
@@ -4282,7 +4292,7 @@
     {
       "id": "font",
       "name": "Font",
-      "color": "#6366f1",
+      "color": "#10b981",
       "count": 1,
       "items": [
         669078187
@@ -4291,7 +4301,7 @@
     {
       "id": "gesture",
       "name": "Gesture",
-      "color": "#10b981",
+      "color": "#f59e0b",
       "count": 1,
       "items": [
         620664969
@@ -4300,7 +4310,7 @@
     {
       "id": "life",
       "name": "Life",
-      "color": "#f59e0b",
+      "color": "#ec4899",
       "count": 1,
       "items": [
         434324772
@@ -8203,6 +8213,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1660466715,
         1658788439,
         1658598430,
         1657176125,
@@ -8417,7 +8428,7 @@
         157288645,
         157288168
       ],
-      "count": 213
+      "count": 214
     }
   ],
   "bridges": [
@@ -37301,6 +37312,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1660466715,
+      "link": "https://x.com/brettfromdj/status/2019100446959493120",
+      "excerpt": "",
+      "note": "Brett (Designjoy) 反驳'Figma已死/设计师该学编程'论调。核心论点：1)建造变容易→产品爆炸→设计成唯一差异化 2)市场不为多面手付费，为卓越付费 3)AI生成的同质化产品泛滥后，视觉设计大师会更稀缺 4)Designjoy收入同比增长100%。建议：深耕craft而非学编程，速度+定位+定价比versatility重要。市场会修正回专业化。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Design",
+        "Opinion"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-27T11:35:03.221Z",
+      "lastUpdate": "2026-03-27T11:35:03.221Z",
+      "domain": "x.com",
+      "title": "https://x.com/brettfromdj/status/2019100446959493120",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1660466715,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "1)建造变容易→产品爆炸→设计成唯一差异化 2)市场不为多面手付费",
+        "深耕craft而非学编程"
+      ],
+      "themes": [
+        "design",
+        "opinion"
+      ],
+      "summary": "Figma will make you rich. Claude won't. — 深耕设计craft vs 学编程"
+    },
     {
       "_id": 1660320897,
       "link": "https://www.reddit.com/r/LocalLLaMA/comments/1s46ylj/mistral_ai_to_release_voxtral_tts_a/",
