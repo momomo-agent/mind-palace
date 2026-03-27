@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-26T21:38:15.129Z",
-    "count": 1810
+    "syncedAt": "2026-03-27T01:52:32.180Z",
+    "count": 1811
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 687,
+      "count": 688,
       "items": [
+        1659369647,
         1659240479,
         1659240478,
         1659093788,
@@ -4168,9 +4169,24 @@
       ]
     },
     {
+      "id": "paper",
+      "name": "Paper",
+      "color": "#10b981",
+      "count": 7,
+      "items": [
+        1659369647,
+        1659240478,
+        1658885705,
+        1658885680,
+        1658788144,
+        1658390506,
+        1657883002
+      ]
+    },
+    {
       "id": "math",
       "name": "Math",
-      "color": "#10b981",
+      "color": "#f59e0b",
       "count": 7,
       "items": [
         599750287,
@@ -4180,20 +4196,6 @@
         161083690,
         161083527,
         157288655
-      ]
-    },
-    {
-      "id": "paper",
-      "name": "Paper",
-      "color": "#f59e0b",
-      "count": 6,
-      "items": [
-        1659240478,
-        1658885705,
-        1658885680,
-        1658788144,
-        1658390506,
-        1657883002
       ]
     },
     {
@@ -8180,6 +8182,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1659369647,
         1658788439,
         1658598430,
         1657176125,
@@ -8394,7 +8397,7 @@
         157288645,
         157288168
       ],
-      "count": 213
+      "count": 214
     }
   ],
   "bridges": [
@@ -37212,6 +37215,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1659369647,
+      "link": "https://x.com/aigclink/status/2037303969593397527",
+      "excerpt": "",
+      "note": "Meta 开源人脑活动基础模型 TRIBE v2。三模态编码（音频/视频/文本）→ Transformer 通用整合 → 个体 fMRI 体素映射。零样本预测新刺激/新任务/新受试者的全脑反应（70000 个体素），比标准方法提升 2-3 倍。预测结果比单次 fMRI 扫描更接近群体平均（去噪效果）。应用于神经科学模拟和脑部疾病辅助诊断。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Paper"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-27T01:52:28.560Z",
+      "lastUpdate": "2026-03-27T01:52:28.560Z",
+      "domain": "x.com",
+      "title": "https://x.com/aigclink/status/2037303969593397527",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1659369647,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Meta 开源人脑活动基础模型 TRIBE v2"
+      ],
+      "themes": [
+        "ai",
+        "paper"
+      ],
+      "summary": "Meta TRIBE v2: 开源人脑活动基础模型，三模态→全脑 70K 体素预测"
+    },
     {
       "_id": 1659240479,
       "link": "https://sakana.ai/ai-scientist-nature/",
