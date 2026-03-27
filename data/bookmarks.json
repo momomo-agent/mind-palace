@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-27T08:40:34.079Z",
-    "count": 1814
+    "syncedAt": "2026-03-27T10:07:00.551Z",
+    "count": 1815
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 691,
+      "count": 692,
       "items": [
+        1660320897,
         1660132144,
         1660113806,
         1659986405,
@@ -3309,8 +3310,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 171,
+      "count": 172,
       "items": [
+        1660320897,
         1659037343,
         1658598430,
         1657884958,
@@ -5810,8 +5812,22 @@
     },
     {
       "id": "galaxy-136",
-      "name": "agent + flash-lite",
+      "name": "https + www",
       "color": "#B8A060",
+      "members": [
+        1660320897,
+        1658390506,
+        1644422271,
+        1635117740,
+        1625444815,
+        314044814
+      ],
+      "count": 6
+    },
+    {
+      "id": "galaxy-137",
+      "name": "agent + flash-lite",
+      "color": "#6B8B8B",
       "members": [
         1659986405,
         1596641853,
@@ -5857,27 +5873,14 @@
       "count": 40
     },
     {
-      "id": "galaxy-137",
+      "id": "galaxy-138",
       "name": "https + mariozechner",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1658697773,
         1643577052
       ],
       "count": 2
-    },
-    {
-      "id": "galaxy-138",
-      "name": "https + www",
-      "color": "#9C7A5A",
-      "members": [
-        1658390506,
-        1644422271,
-        1635117740,
-        1625444815,
-        314044814
-      ],
-      "count": 5
     },
     {
       "id": "galaxy-139",
@@ -8948,7 +8951,7 @@
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -9512,7 +9515,7 @@
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -10070,7 +10073,7 @@
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -10634,7 +10637,7 @@
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -11348,7 +11351,7 @@
     },
     {
       "source": "galaxy-5",
-      "target": "galaxy-136",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -11876,7 +11879,7 @@
     },
     {
       "source": "galaxy-6",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -12422,7 +12425,7 @@
     },
     {
       "source": "galaxy-7",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -12962,7 +12965,7 @@
     },
     {
       "source": "galaxy-8",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -13496,7 +13499,7 @@
     },
     {
       "source": "galaxy-9",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -14024,7 +14027,7 @@
     },
     {
       "source": "galaxy-10",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -14546,7 +14549,7 @@
     },
     {
       "source": "galaxy-11",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -15062,7 +15065,7 @@
     },
     {
       "source": "galaxy-12",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -16118,7 +16121,7 @@
     },
     {
       "source": "galaxy-14",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -16604,7 +16607,7 @@
     },
     {
       "source": "galaxy-15",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -17084,7 +17087,7 @@
     },
     {
       "source": "galaxy-16",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -17576,7 +17579,7 @@
     },
     {
       "source": "galaxy-21",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -18044,7 +18047,7 @@
     },
     {
       "source": "galaxy-22",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -19022,7 +19025,7 @@
     },
     {
       "source": "galaxy-24",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -19472,7 +19475,7 @@
     },
     {
       "source": "galaxy-25",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -19916,14 +19919,14 @@
     },
     {
       "source": "galaxy-26",
-      "target": "galaxy-137",
-      "strength": 3,
+      "target": "galaxy-136",
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-26",
       "target": "galaxy-138",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -20354,7 +20357,7 @@
     },
     {
       "source": "galaxy-27",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -20786,7 +20789,7 @@
     },
     {
       "source": "galaxy-28",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -21224,7 +21227,7 @@
     },
     {
       "source": "galaxy-29",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -21644,7 +21647,7 @@
     },
     {
       "source": "galaxy-30",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -22070,7 +22073,7 @@
     },
     {
       "source": "galaxy-31",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -22478,7 +22481,7 @@
     },
     {
       "source": "galaxy-32",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -22892,7 +22895,7 @@
     },
     {
       "source": "galaxy-33",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -23312,7 +23315,7 @@
     },
     {
       "source": "galaxy-34",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -23714,7 +23717,7 @@
     },
     {
       "source": "galaxy-35",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -24524,7 +24527,7 @@
     },
     {
       "source": "galaxy-37",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -24908,7 +24911,7 @@
     },
     {
       "source": "galaxy-38",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -25286,7 +25289,7 @@
     },
     {
       "source": "galaxy-39",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -25664,7 +25667,7 @@
     },
     {
       "source": "galaxy-40",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -26018,7 +26021,7 @@
     },
     {
       "source": "galaxy-41",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -26768,7 +26771,7 @@
     },
     {
       "source": "galaxy-44",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -27116,7 +27119,7 @@
     },
     {
       "source": "galaxy-46",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -27446,7 +27449,7 @@
     },
     {
       "source": "galaxy-47",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -27770,7 +27773,7 @@
     },
     {
       "source": "galaxy-48",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -28088,7 +28091,7 @@
     },
     {
       "source": "galaxy-49",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -28412,7 +28415,7 @@
     },
     {
       "source": "galaxy-50",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -28730,7 +28733,7 @@
     },
     {
       "source": "galaxy-51",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -29030,7 +29033,7 @@
     },
     {
       "source": "galaxy-52",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -29336,7 +29339,7 @@
     },
     {
       "source": "galaxy-53",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -29636,7 +29639,7 @@
     },
     {
       "source": "galaxy-54",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -29930,7 +29933,7 @@
     },
     {
       "source": "galaxy-55",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -30206,7 +30209,7 @@
     },
     {
       "source": "galaxy-56",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -30494,7 +30497,7 @@
     },
     {
       "source": "galaxy-57",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -30770,7 +30773,7 @@
     },
     {
       "source": "galaxy-58",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -31040,7 +31043,7 @@
     },
     {
       "source": "galaxy-59",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -31292,7 +31295,7 @@
     },
     {
       "source": "galaxy-60",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -31538,14 +31541,14 @@
     },
     {
       "source": "galaxy-61",
-      "target": "galaxy-137",
-      "strength": 3,
+      "target": "galaxy-136",
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-61",
       "target": "galaxy-138",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -31868,7 +31871,7 @@
     },
     {
       "source": "galaxy-63",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -32108,7 +32111,7 @@
     },
     {
       "source": "galaxy-64",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -32348,7 +32351,7 @@
     },
     {
       "source": "galaxy-66",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -32570,7 +32573,7 @@
     },
     {
       "source": "galaxy-69",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -32792,7 +32795,7 @@
     },
     {
       "source": "galaxy-70",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -33260,7 +33263,7 @@
     },
     {
       "source": "galaxy-72",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -33464,7 +33467,7 @@
     },
     {
       "source": "galaxy-73",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -33662,7 +33665,7 @@
     },
     {
       "source": "galaxy-74",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -33848,7 +33851,7 @@
     },
     {
       "source": "galaxy-75",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -34250,7 +34253,7 @@
     },
     {
       "source": "galaxy-77",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -34418,7 +34421,7 @@
     },
     {
       "source": "galaxy-78",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -34586,7 +34589,7 @@
     },
     {
       "source": "galaxy-79",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -34748,7 +34751,7 @@
     },
     {
       "source": "galaxy-81",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -34898,7 +34901,7 @@
     },
     {
       "source": "galaxy-82",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35042,7 +35045,7 @@
     },
     {
       "source": "galaxy-83",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35204,7 +35207,7 @@
     },
     {
       "source": "galaxy-84",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35336,7 +35339,7 @@
     },
     {
       "source": "galaxy-85",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35468,7 +35471,7 @@
     },
     {
       "source": "galaxy-86",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35588,7 +35591,7 @@
     },
     {
       "source": "galaxy-87",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35702,7 +35705,7 @@
     },
     {
       "source": "galaxy-88",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35816,7 +35819,7 @@
     },
     {
       "source": "galaxy-89",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -35924,7 +35927,7 @@
     },
     {
       "source": "galaxy-90",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36020,7 +36023,7 @@
     },
     {
       "source": "galaxy-91",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36110,7 +36113,7 @@
     },
     {
       "source": "galaxy-92",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36194,7 +36197,7 @@
     },
     {
       "source": "galaxy-93",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36272,7 +36275,7 @@
     },
     {
       "source": "galaxy-94",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36344,7 +36347,7 @@
     },
     {
       "source": "galaxy-95",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36416,7 +36419,7 @@
     },
     {
       "source": "galaxy-96",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36476,14 +36479,14 @@
     },
     {
       "source": "galaxy-97",
-      "target": "galaxy-137",
-      "strength": 3,
+      "target": "galaxy-136",
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-97",
       "target": "galaxy-138",
-      "strength": 6,
+      "strength": 3,
       "shared": []
     },
     {
@@ -36530,7 +36533,7 @@
     },
     {
       "source": "galaxy-98",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36578,7 +36581,7 @@
     },
     {
       "source": "galaxy-99",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36722,7 +36725,7 @@
     },
     {
       "source": "galaxy-108",
-      "target": "galaxy-136",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -36782,7 +36785,7 @@
     },
     {
       "source": "galaxy-111",
-      "target": "galaxy-136",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -36818,7 +36821,7 @@
     },
     {
       "source": "galaxy-113",
-      "target": "galaxy-136",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -36878,7 +36881,7 @@
     },
     {
       "source": "galaxy-118",
-      "target": "galaxy-136",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -36938,7 +36941,7 @@
     },
     {
       "source": "galaxy-126",
-      "target": "galaxy-136",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -36956,7 +36959,7 @@
     },
     {
       "source": "galaxy-127",
-      "target": "galaxy-137",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -37040,7 +37043,7 @@
     },
     {
       "source": "galaxy-135",
-      "target": "galaxy-136",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -37058,23 +37061,41 @@
     },
     {
       "source": "galaxy-136",
-      "target": "galaxy-139",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-136",
-      "target": "galaxy-147",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-137",
       "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
+      "source": "galaxy-136",
+      "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-136",
+      "target": "galaxy-148",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-136",
+      "target": "galaxy-149",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-136",
+      "target": "galaxy-151",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-136",
+      "target": "galaxy-154",
+      "strength": 3,
+      "shared": []
+    },
+    {
       "source": "galaxy-137",
       "target": "galaxy-139",
       "strength": 3,
@@ -37082,25 +37103,7 @@
     },
     {
       "source": "galaxy-137",
-      "target": "galaxy-148",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-137",
-      "target": "galaxy-149",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-137",
-      "target": "galaxy-151",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-137",
-      "target": "galaxy-154",
+      "target": "galaxy-147",
       "strength": 3,
       "shared": []
     },
@@ -37298,6 +37301,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1660320897,
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1s46ylj/mistral_ai_to_release_voxtral_tts_a/",
+      "excerpt": "",
+      "note": "Mistral AI 发布 Voxtral TTS：3B 参数文本转语音模型。Mistral CEO 称击败 ElevenLabs。核心定位：为 agentic AI 构建，音频是 agent 的自然接口。配套 Voxtral Transcribe 2（STT，<200ms 延迟）。应用场景：voice agents 实时对话、contact centers 实时指导、broadcast 低延迟字幕。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-27T10:06:57.021Z",
+      "lastUpdate": "2026-03-27T10:06:57.022Z",
+      "domain": "reddit.com",
+      "title": "https://www.reddit.com/r/LocalLLaMA/comments/1s46ylj/mistral_ai_to_release_voxtral_tts_a/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1660320897,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "3B 参数文本转语音模型",
+        "为 agentic AI 构建",
+        "voice agents 实时对话、contact centers 实时指导、b"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Mistral Voxtral TTS: 3B 参数 TTS 模型，为 agentic AI 构建"
+    },
     {
       "_id": 1660132144,
       "link": "https://x.com/Khazix0918/status/2037424637802668481",
@@ -133558,12 +133610,6 @@
   ],
   "relations": [
     {
-      "source": 1658885705,
-      "target": 1658788144,
-      "strength": 2,
-      "reason": "Paper, Thinking"
-    },
-    {
       "source": 1644703993,
       "target": 1644703976,
       "strength": 2,
@@ -133580,6 +133626,12 @@
       "target": 1644702107,
       "strength": 2,
       "reason": "Tool, iOS"
+    },
+    {
+      "source": 1658885705,
+      "target": 1658788144,
+      "strength": 2,
+      "reason": "Paper, Thinking"
     },
     {
       "source": 1658788439,
