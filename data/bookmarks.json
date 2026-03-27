@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-27T07:34:56.967Z",
-    "count": 1812
+    "syncedAt": "2026-03-27T08:30:54.372Z",
+    "count": 1813
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 689,
+      "count": 690,
       "items": [
+        1660113806,
         1659986405,
         1659369647,
         1659240479,
@@ -4174,8 +4175,9 @@
       "id": "paper",
       "name": "Paper",
       "color": "#10b981",
-      "count": 7,
+      "count": 8,
       "items": [
+        1660113806,
         1659369647,
         1659240478,
         1658885705,
@@ -8172,8 +8174,18 @@
     },
     {
       "id": "galaxy-284",
-      "name": "AI · Insight",
+      "name": "AI · Paper",
       "color": "#8B7A6E",
+      "members": [
+        1660113806,
+        1659369647
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-285",
+      "name": "AI · Insight",
+      "color": "#5A7A6B",
       "members": [
         1649913012,
         1649691517
@@ -8185,7 +8197,6 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
-        1659369647,
         1658788439,
         1658598430,
         1657176125,
@@ -8400,7 +8411,7 @@
         157288645,
         157288168
       ],
-      "count": 214
+      "count": 213
     }
   ],
   "bridges": [
@@ -37284,6 +37295,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1660113806,
+      "link": "https://x.com/berryxia/status/2037346725632069981",
+      "excerpt": "",
+      "note": "Chroma 发布 Context-1：20B 参数开源搜索代理模型。核心创新：self-editing context（搜索中主动修剪无关文档）。32k 上下文预算超越更大窗口的前沿模型。比 GPT-5 快 10x、便宜 10x。在 8000+ 合成多跳任务上训练（网页/SEC/专利/邮件），SFT+RL。性能达到或超过前沿模型（BrowseComp-Plus/SealQA/FRAMES/HotpotQA）。搜索与生成分离——搜索代理专注检索，下游模型专注推理。Apache 2.0 开源。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Paper"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-27T08:30:44.514Z",
+      "lastUpdate": "2026-03-27T08:30:44.514Z",
+      "domain": "x.com",
+      "title": "https://x.com/berryxia/status/2037346725632069981",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1660113806,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "搜索代理专注检索，下游模型专注推理",
+        "20B 参数开源搜索代理模型",
+        "self-editing context（搜索中主动修剪无关文档）"
+      ],
+      "themes": [
+        "ai",
+        "paper"
+      ],
+      "summary": "Chroma Context-1: 20B 开源搜索代理，self-editing context，快 10x 便宜 10x"
+    },
     {
       "_id": 1659986405,
       "link": "https://mp.weixin.qq.com/s/dYoxCRk1_qUYAphk0rjuLw",
