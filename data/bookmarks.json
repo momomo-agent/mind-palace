@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-27T08:30:54.372Z",
-    "count": 1813
+    "syncedAt": "2026-03-27T08:40:34.079Z",
+    "count": 1814
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 690,
+      "count": 691,
       "items": [
+        1660132144,
         1660113806,
         1659986405,
         1659369647,
@@ -2104,8 +2105,9 @@
       "id": "article",
       "name": "文章",
       "color": "#ec4899",
-      "count": 637,
+      "count": 638,
       "items": [
+        1660132144,
         1659986405,
         1659240479,
         1659093788,
@@ -7491,6 +7493,7 @@
       "name": "AI · Article",
       "color": "#8B7A6E",
       "members": [
+        1660132144,
         1659093788,
         1656645648,
         1656635131,
@@ -7554,7 +7557,7 @@
         427104702,
         328629826
       ],
-      "count": 62
+      "count": 63
     },
     {
       "id": "galaxy-249",
@@ -37295,6 +37298,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1660132144,
+      "link": "https://x.com/Khazix0918/status/2037424637802668481",
+      "excerpt": "",
+      "note": "2026中关村论坛AI开源圆桌完整记录。杨植麟主持，嘉宾：智谱张鹏、无问芯穹夏立雪、小米MiMo罗福莉、港大黄超。核心议题：OpenClaw演进+Agent技术+算力基础设施。关键洞察：1)张鹏-GLM5 Turbo提价逻辑（从聊天到干活，token消耗10-100倍）2)夏立雪-token用量每两周翻番，需Agentic Infra 3)罗福莉-中国团队结构创新优势（long context efficient架构）4)黄超-Agent三大痛点（planning/memory/tool use）。未来12个月关键词：生态/自进化/可持续token/算力。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-27T08:40:22.133Z",
+      "lastUpdate": "2026-03-27T08:40:22.133Z",
+      "domain": "x.com",
+      "title": "https://x.com/Khazix0918/status/2037424637802668481",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1660132144,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "智谱张鹏、无问芯穹夏立雪、小米MiMo罗福莉、港大黄超",
+        "OpenClaw演进+Agent技术+算力基础设施",
+        "1)张鹏-GLM5 Turbo提价逻辑（从聊天到干活"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ],
+      "summary": "2026中关村论坛AI开源圆桌：OpenClaw演进+Agent技术+算力挑战"
+    },
     {
       "_id": 1660113806,
       "link": "https://x.com/berryxia/status/2037346725632069981",
