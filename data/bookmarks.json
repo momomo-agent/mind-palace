@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T10:19:09.293Z",
-    "count": 1822
+    "syncedAt": "2026-03-28T10:20:10.221Z",
+    "count": 1823
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 698,
+      "count": 699,
       "items": [
+        1663077526,
         1663076120,
         1663073908,
         1663070508,
@@ -4125,9 +4126,29 @@
       ]
     },
     {
+      "id": "paper",
+      "name": "Paper",
+      "color": "#3b82f6",
+      "count": 12,
+      "items": [
+        1663077526,
+        1663076120,
+        1663073908,
+        1663070508,
+        1660113806,
+        1659369647,
+        1659240478,
+        1658885705,
+        1658885680,
+        1658788144,
+        1658390506,
+        1657883002
+      ]
+    },
+    {
       "id": "thinking",
       "name": "Thinking",
-      "color": "#3b82f6",
+      "color": "#84cc16",
       "count": 12,
       "items": [
         1658885705,
@@ -4147,7 +4168,7 @@
     {
       "id": "hardware",
       "name": "Hardware",
-      "color": "#84cc16",
+      "color": "#6366f1",
       "count": 12,
       "items": [
         533627080,
@@ -4162,25 +4183,6 @@
         283240173,
         263798438,
         172634970
-      ]
-    },
-    {
-      "id": "paper",
-      "name": "Paper",
-      "color": "#6366f1",
-      "count": 11,
-      "items": [
-        1663076120,
-        1663073908,
-        1663070508,
-        1660113806,
-        1659369647,
-        1659240478,
-        1658885705,
-        1658885680,
-        1658788144,
-        1658390506,
-        1657883002
       ]
     },
     {
@@ -5850,9 +5852,10 @@
     },
     {
       "id": "galaxy-136",
-      "name": "hugging + face",
+      "name": "huggingface + hugging",
       "color": "#B8A060",
       "members": [
+        1663077526,
         1663076120,
         1663073908,
         1663070508,
@@ -5863,7 +5866,7 @@
         446518522,
         438356886
       ],
-      "count": 9
+      "count": 10
     },
     {
       "id": "galaxy-137",
@@ -37910,6 +37913,54 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663077526,
+      "link": "https://huggingface.co/papers/2603.24533",
+      "excerpt": "",
+      "note": "UI-Voyager: 通过失败经验自我进化的GUI agent。核心创新GRSD（Group Rollout with Step-level Dense supervision）：在group rollouts中定位fork点，从成功轨迹注入密集的step-level修正。两阶段循环：rejection fine-tuning + GRSD。AndroidWorld上4B模型达到81.0% pass@1。GitHub ui-voyager/UI-Voyager。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Paper"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T10:19:59.195Z",
+      "lastUpdate": "2026-03-28T10:19:59.195Z",
+      "domain": "huggingface.co",
+      "title": "https://huggingface.co/papers/2603.24533",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663077526,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "在group rollouts中定位fork点",
+        "rejection fine-tuning + GRSD"
+      ],
+      "themes": [
+        "ai",
+        "paper"
+      ],
+      "summary": "UI-Voyager: 从失败学习的自我进化GUI agent (81% pass@1)"
+    },
     {
       "_id": 1663076120,
       "link": "https://huggingface.co/papers/2603.24440",
