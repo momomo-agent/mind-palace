@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T10:18:04.688Z",
-    "count": 1821
+    "syncedAt": "2026-03-28T10:19:09.293Z",
+    "count": 1822
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 697,
+      "count": 698,
       "items": [
+        1663076120,
         1663073908,
         1663070508,
         1662879352,
@@ -4164,9 +4165,28 @@
       ]
     },
     {
+      "id": "paper",
+      "name": "Paper",
+      "color": "#6366f1",
+      "count": 11,
+      "items": [
+        1663076120,
+        1663073908,
+        1663070508,
+        1660113806,
+        1659369647,
+        1659240478,
+        1658885705,
+        1658885680,
+        1658788144,
+        1658390506,
+        1657883002
+      ]
+    },
+    {
       "id": "android",
       "name": "Android",
-      "color": "#6366f1",
+      "color": "#10b981",
       "count": 11,
       "items": [
         1422362448,
@@ -4180,24 +4200,6 @@
         352243298,
         267443377,
         157288645
-      ]
-    },
-    {
-      "id": "paper",
-      "name": "Paper",
-      "color": "#10b981",
-      "count": 10,
-      "items": [
-        1663073908,
-        1663070508,
-        1660113806,
-        1659369647,
-        1659240478,
-        1658885705,
-        1658885680,
-        1658788144,
-        1658390506,
-        1657883002
       ]
     },
     {
@@ -5851,6 +5853,7 @@
       "name": "hugging + face",
       "color": "#B8A060",
       "members": [
+        1663076120,
         1663073908,
         1663070508,
         563683874,
@@ -5860,7 +5863,7 @@
         446518522,
         438356886
       ],
-      "count": 8
+      "count": 9
     },
     {
       "id": "galaxy-137",
@@ -37907,6 +37910,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663076120,
+      "link": "https://huggingface.co/papers/2603.24440",
+      "excerpt": "",
+      "note": "CUA-Suite: 大规模人工标注视频演示数据集，用于桌面计算机使用代理。55小时连续专家视频（6M帧30fps），~10,000任务跨87个桌面应用。包含：运动学光标轨迹+毫秒级动作日志、多层推理标注、56K截图+3.5M+人工验证UI元素边界框（GroundCUA）、450任务评估基准（UI-Vision）。ServiceNow开源，数据集VideoCUA，代码GroundCUA。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Paper"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T10:18:57.859Z",
+      "lastUpdate": "2026-03-28T10:18:57.860Z",
+      "domain": "huggingface.co",
+      "title": "https://huggingface.co/papers/2603.24440",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663076120,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "运动学光标轨迹+毫秒级动作日志、多层推理标注、56K截图+3.5M+人工验证UI"
+      ],
+      "themes": [
+        "ai",
+        "paper"
+      ],
+      "summary": "CUA-Suite: 55小时桌面agent演示数据集+3.5M UI标注"
+    },
     {
       "_id": 1663073908,
       "link": "https://huggingface.co/papers/2603.25040",
