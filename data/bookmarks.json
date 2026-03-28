@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T01:40:45.475Z",
-    "count": 1818
+    "syncedAt": "2026-03-28T08:15:01.211Z",
+    "count": 1819
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 694,
+      "count": 695,
       "items": [
+        1662879352,
         1662138861,
         1660857274,
         1660320897,
@@ -4248,9 +4249,18 @@
       ]
     },
     {
+      "id": "research",
+      "name": "Research",
+      "color": "#f97316",
+      "count": 1,
+      "items": [
+        1662879352
+      ]
+    },
+    {
       "id": "product",
       "name": "Product",
-      "color": "#f97316",
+      "color": "#ef4444",
       "count": 1,
       "items": [
         1660857274
@@ -4259,7 +4269,7 @@
     {
       "id": "opinion",
       "name": "Opinion",
-      "color": "#ef4444",
+      "color": "#3b82f6",
       "count": 1,
       "items": [
         1660466715
@@ -4268,7 +4278,7 @@
     {
       "id": "macos",
       "name": "macOS",
-      "color": "#3b82f6",
+      "color": "#84cc16",
       "count": 1,
       "items": [
         1658598430
@@ -4277,7 +4287,7 @@
     {
       "id": "reference",
       "name": "Reference",
-      "color": "#84cc16",
+      "color": "#6366f1",
       "count": 1,
       "items": [
         1657176125
@@ -4286,7 +4296,7 @@
     {
       "id": "podcast",
       "name": "Podcast",
-      "color": "#6366f1",
+      "color": "#10b981",
       "count": 1,
       "items": [
         1645532144
@@ -4295,7 +4305,7 @@
     {
       "id": "blog",
       "name": "Blog",
-      "color": "#10b981",
+      "color": "#f59e0b",
       "count": 1,
       "items": [
         1644508793
@@ -4304,7 +4314,7 @@
     {
       "id": "font",
       "name": "Font",
-      "color": "#f59e0b",
+      "color": "#ec4899",
       "count": 1,
       "items": [
         669078187
@@ -4313,7 +4323,7 @@
     {
       "id": "gesture",
       "name": "Gesture",
-      "color": "#ec4899",
+      "color": "#8b5cf6",
       "count": 1,
       "items": [
         620664969
@@ -4322,7 +4332,7 @@
     {
       "id": "life",
       "name": "Life",
-      "color": "#8b5cf6",
+      "color": "#14b8a6",
       "count": 1,
       "items": [
         434324772
@@ -5834,8 +5844,22 @@
     },
     {
       "id": "galaxy-136",
-      "name": "https + www",
+      "name": "anthropic + https",
       "color": "#B8A060",
+      "members": [
+        1662879352,
+        1655538800,
+        1655538798,
+        1655538797,
+        1649930370,
+        555112995
+      ],
+      "count": 6
+    },
+    {
+      "id": "galaxy-137",
+      "name": "https + www",
+      "color": "#6B8B8B",
       "members": [
         1660320897,
         1658390506,
@@ -5847,9 +5871,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-137",
+      "id": "galaxy-138",
       "name": "agent + flash-lite",
-      "color": "#6B8B8B",
+      "color": "#9C7A5A",
       "members": [
         1659986405,
         1596641853,
@@ -5895,9 +5919,9 @@
       "count": 40
     },
     {
-      "id": "galaxy-138",
+      "id": "galaxy-139",
       "name": "https + mariozechner",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1658697773,
         1643577052
@@ -5905,27 +5929,14 @@
       "count": 2
     },
     {
-      "id": "galaxy-139",
+      "id": "galaxy-140",
       "name": "https + agent",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1657877483,
         1655943446
       ],
       "count": 2
-    },
-    {
-      "id": "galaxy-140",
-      "name": "anthropic + vibe",
-      "color": "#8B7A6E",
-      "members": [
-        1655538800,
-        1655538798,
-        1655538797,
-        1649930370,
-        555112995
-      ],
-      "count": 5
     },
     {
       "id": "galaxy-141",
@@ -8982,13 +8993,19 @@
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-0",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-0",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -9546,13 +9563,19 @@
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-1",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -10104,13 +10127,19 @@
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-2",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -10668,13 +10697,19 @@
     },
     {
       "source": "galaxy-3",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-3",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-3",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -11269,6 +11304,12 @@
     {
       "source": "galaxy-4",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-4",
+      "target": "galaxy-140",
       "strength": 6,
       "shared": []
     },
@@ -11376,13 +11417,13 @@
     },
     {
       "source": "galaxy-5",
-      "target": "galaxy-137",
+      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-5",
-      "target": "galaxy-139",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -11910,13 +11951,19 @@
     },
     {
       "source": "galaxy-6",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-6",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-6",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -12456,13 +12503,19 @@
     },
     {
       "source": "galaxy-7",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-7",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-7",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -12996,13 +13049,19 @@
     },
     {
       "source": "galaxy-8",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-8",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-8",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -13530,13 +13589,19 @@
     },
     {
       "source": "galaxy-9",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-9",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-9",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -14058,13 +14123,19 @@
     },
     {
       "source": "galaxy-10",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-10",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-10",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -14580,13 +14651,19 @@
     },
     {
       "source": "galaxy-11",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-11",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-11",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -15091,12 +15168,12 @@
     {
       "source": "galaxy-12",
       "target": "galaxy-136",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-12",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -15649,6 +15726,12 @@
     {
       "source": "galaxy-13",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-13",
+      "target": "galaxy-140",
       "strength": 6,
       "shared": []
     },
@@ -16152,13 +16235,19 @@
     },
     {
       "source": "galaxy-14",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-14",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-14",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -16638,13 +16727,19 @@
     },
     {
       "source": "galaxy-15",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-15",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-15",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -17118,13 +17213,19 @@
     },
     {
       "source": "galaxy-16",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-16",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-16",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -17610,13 +17711,19 @@
     },
     {
       "source": "galaxy-21",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-21",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-21",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -18078,13 +18185,19 @@
     },
     {
       "source": "galaxy-22",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-22",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-22",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -18589,6 +18702,12 @@
     {
       "source": "galaxy-23",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-23",
+      "target": "galaxy-140",
       "strength": 6,
       "shared": []
     },
@@ -19056,13 +19175,19 @@
     },
     {
       "source": "galaxy-24",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-24",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-24",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -19506,13 +19631,19 @@
     },
     {
       "source": "galaxy-25",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-25",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-25",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -19945,18 +20076,24 @@
     {
       "source": "galaxy-26",
       "target": "galaxy-136",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-26",
-      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-26",
+      "target": "galaxy-137",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-26",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-26",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -20388,13 +20525,19 @@
     },
     {
       "source": "galaxy-27",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-27",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-27",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -20820,13 +20963,19 @@
     },
     {
       "source": "galaxy-28",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-28",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-28",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -21258,13 +21407,19 @@
     },
     {
       "source": "galaxy-29",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-29",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-29",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -21678,13 +21833,19 @@
     },
     {
       "source": "galaxy-30",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-30",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-30",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -22104,13 +22265,19 @@
     },
     {
       "source": "galaxy-31",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-31",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-31",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -22512,13 +22679,19 @@
     },
     {
       "source": "galaxy-32",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-32",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-32",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -22926,13 +23099,19 @@
     },
     {
       "source": "galaxy-33",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-33",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-33",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -23346,13 +23525,19 @@
     },
     {
       "source": "galaxy-34",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-34",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-34",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -23748,13 +23933,19 @@
     },
     {
       "source": "galaxy-35",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-35",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-35",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -24181,6 +24372,12 @@
     {
       "source": "galaxy-36",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-36",
+      "target": "galaxy-140",
       "strength": 6,
       "shared": []
     },
@@ -24558,13 +24755,19 @@
     },
     {
       "source": "galaxy-37",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-37",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-37",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -24942,13 +25145,19 @@
     },
     {
       "source": "galaxy-38",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-38",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-38",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -25315,12 +25524,12 @@
     {
       "source": "galaxy-39",
       "target": "galaxy-136",
-      "strength": 3,
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-39",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
@@ -25698,13 +25907,19 @@
     },
     {
       "source": "galaxy-40",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-40",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-40",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -26052,13 +26267,19 @@
     },
     {
       "source": "galaxy-41",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-41",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-41",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -26449,6 +26670,12 @@
     {
       "source": "galaxy-43",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-43",
+      "target": "galaxy-140",
       "strength": 6,
       "shared": []
     },
@@ -26802,13 +27029,19 @@
     },
     {
       "source": "galaxy-44",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-44",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-44",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -27150,13 +27383,19 @@
     },
     {
       "source": "galaxy-46",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-46",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-46",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -27480,13 +27719,19 @@
     },
     {
       "source": "galaxy-47",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-47",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-47",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -27804,13 +28049,19 @@
     },
     {
       "source": "galaxy-48",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-48",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-48",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -28122,13 +28373,19 @@
     },
     {
       "source": "galaxy-49",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-49",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-49",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -28446,13 +28703,19 @@
     },
     {
       "source": "galaxy-50",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-50",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-50",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -28764,13 +29027,19 @@
     },
     {
       "source": "galaxy-51",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-51",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-51",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -29064,13 +29333,19 @@
     },
     {
       "source": "galaxy-52",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-52",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-52",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -29370,13 +29645,19 @@
     },
     {
       "source": "galaxy-53",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-53",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-53",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -29670,13 +29951,19 @@
     },
     {
       "source": "galaxy-54",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-54",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-54",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -29964,13 +30251,19 @@
     },
     {
       "source": "galaxy-55",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-55",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-55",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -30240,13 +30533,19 @@
     },
     {
       "source": "galaxy-56",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-56",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-56",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -30528,13 +30827,19 @@
     },
     {
       "source": "galaxy-57",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-57",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-57",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -30804,13 +31109,19 @@
     },
     {
       "source": "galaxy-58",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-58",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-58",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -31074,13 +31385,19 @@
     },
     {
       "source": "galaxy-59",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-59",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-59",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -31326,13 +31643,19 @@
     },
     {
       "source": "galaxy-60",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-60",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-60",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -31567,18 +31890,24 @@
     {
       "source": "galaxy-61",
       "target": "galaxy-136",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-61",
-      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-61",
+      "target": "galaxy-137",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-61",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-61",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -31902,13 +32231,19 @@
     },
     {
       "source": "galaxy-63",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-63",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-63",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -32142,13 +32477,19 @@
     },
     {
       "source": "galaxy-64",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-64",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-64",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -32382,13 +32723,19 @@
     },
     {
       "source": "galaxy-66",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-66",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-66",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -32604,13 +32951,19 @@
     },
     {
       "source": "galaxy-69",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-69",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-69",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -32826,13 +33179,19 @@
     },
     {
       "source": "galaxy-70",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-70",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-70",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -33085,6 +33444,12 @@
     {
       "source": "galaxy-71",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-71",
+      "target": "galaxy-140",
       "strength": 6,
       "shared": []
     },
@@ -33294,13 +33659,19 @@
     },
     {
       "source": "galaxy-72",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-72",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-72",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -33498,13 +33869,19 @@
     },
     {
       "source": "galaxy-73",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-73",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-73",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -33696,13 +34073,19 @@
     },
     {
       "source": "galaxy-74",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-74",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-74",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -33882,13 +34265,19 @@
     },
     {
       "source": "galaxy-75",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-75",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-75",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -34111,6 +34500,12 @@
     {
       "source": "galaxy-76",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-76",
+      "target": "galaxy-140",
       "strength": 6,
       "shared": []
     },
@@ -34284,13 +34679,19 @@
     },
     {
       "source": "galaxy-77",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-77",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-77",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -34452,13 +34853,19 @@
     },
     {
       "source": "galaxy-78",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-78",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-78",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -34620,13 +35027,19 @@
     },
     {
       "source": "galaxy-79",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-79",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-79",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -34782,13 +35195,19 @@
     },
     {
       "source": "galaxy-81",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-81",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-81",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -34932,13 +35351,19 @@
     },
     {
       "source": "galaxy-82",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-82",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-82",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35076,13 +35501,19 @@
     },
     {
       "source": "galaxy-83",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-83",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-83",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35238,13 +35669,19 @@
     },
     {
       "source": "galaxy-84",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-84",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-84",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35370,13 +35807,19 @@
     },
     {
       "source": "galaxy-85",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-85",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-85",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35502,13 +35945,19 @@
     },
     {
       "source": "galaxy-86",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-86",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-86",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35622,13 +36071,19 @@
     },
     {
       "source": "galaxy-87",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-87",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-87",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35736,13 +36191,19 @@
     },
     {
       "source": "galaxy-88",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-88",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-88",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35850,13 +36311,19 @@
     },
     {
       "source": "galaxy-89",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-89",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-89",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -35958,13 +36425,19 @@
     },
     {
       "source": "galaxy-90",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-90",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-90",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36054,13 +36527,19 @@
     },
     {
       "source": "galaxy-91",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-91",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-91",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36144,13 +36623,19 @@
     },
     {
       "source": "galaxy-92",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-92",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-92",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36228,13 +36713,19 @@
     },
     {
       "source": "galaxy-93",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-93",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-93",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36306,13 +36797,19 @@
     },
     {
       "source": "galaxy-94",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-94",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-94",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36378,13 +36875,19 @@
     },
     {
       "source": "galaxy-95",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-95",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-95",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36450,13 +36953,19 @@
     },
     {
       "source": "galaxy-96",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-96",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-96",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36505,18 +37014,24 @@
     {
       "source": "galaxy-97",
       "target": "galaxy-136",
-      "strength": 6,
-      "shared": []
-    },
-    {
-      "source": "galaxy-97",
-      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-97",
+      "target": "galaxy-137",
+      "strength": 6,
+      "shared": []
+    },
+    {
+      "source": "galaxy-97",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-97",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36564,13 +37079,19 @@
     },
     {
       "source": "galaxy-98",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-98",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-98",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36612,13 +37133,19 @@
     },
     {
       "source": "galaxy-99",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-99",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-99",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36690,7 +37217,7 @@
     },
     {
       "source": "galaxy-104",
-      "target": "galaxy-140",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36750,13 +37277,13 @@
     },
     {
       "source": "galaxy-108",
-      "target": "galaxy-137",
+      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-108",
-      "target": "galaxy-139",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36810,13 +37337,13 @@
     },
     {
       "source": "galaxy-111",
-      "target": "galaxy-137",
+      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-111",
-      "target": "galaxy-139",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36846,13 +37373,13 @@
     },
     {
       "source": "galaxy-113",
-      "target": "galaxy-137",
+      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-113",
-      "target": "galaxy-139",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36906,13 +37433,13 @@
     },
     {
       "source": "galaxy-118",
-      "target": "galaxy-137",
+      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-118",
-      "target": "galaxy-139",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36924,7 +37451,7 @@
     },
     {
       "source": "galaxy-119",
-      "target": "galaxy-140",
+      "target": "galaxy-136",
       "strength": 3,
       "shared": []
     },
@@ -36966,13 +37493,13 @@
     },
     {
       "source": "galaxy-126",
-      "target": "galaxy-137",
+      "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-126",
-      "target": "galaxy-139",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -36990,13 +37517,19 @@
     },
     {
       "source": "galaxy-127",
-      "target": "galaxy-138",
+      "target": "galaxy-137",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-127",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-127",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -37068,31 +37601,37 @@
     },
     {
       "source": "galaxy-135",
-      "target": "galaxy-137",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-135",
-      "target": "galaxy-139",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-135",
-      "target": "galaxy-147",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-136",
       "target": "galaxy-138",
       "strength": 3,
       "shared": []
     },
     {
+      "source": "galaxy-135",
+      "target": "galaxy-140",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-135",
+      "target": "galaxy-147",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-136",
+      "target": "galaxy-137",
+      "strength": 3,
+      "shared": []
+    },
+    {
       "source": "galaxy-136",
       "target": "galaxy-139",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-136",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -37128,43 +37667,49 @@
     },
     {
       "source": "galaxy-137",
-      "target": "galaxy-147",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-138",
-      "target": "galaxy-139",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-138",
+      "source": "galaxy-137",
       "target": "galaxy-148",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-138",
+      "source": "galaxy-137",
       "target": "galaxy-149",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-138",
+      "source": "galaxy-137",
       "target": "galaxy-151",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-138",
+      "source": "galaxy-137",
       "target": "galaxy-154",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-139",
+      "source": "galaxy-138",
+      "target": "galaxy-140",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-138",
       "target": "galaxy-147",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-139",
+      "target": "galaxy-140",
       "strength": 3,
       "shared": []
     },
@@ -37188,6 +37733,36 @@
     },
     {
       "source": "galaxy-139",
+      "target": "galaxy-154",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-140",
+      "target": "galaxy-147",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-140",
+      "target": "galaxy-148",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-140",
+      "target": "galaxy-149",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-140",
+      "target": "galaxy-151",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-140",
       "target": "galaxy-154",
       "strength": 3,
       "shared": []
@@ -37326,6 +37901,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1662879352,
+      "link": "https://www.anthropic.com/research/economic-index-march-2026-report",
+      "excerpt": "",
+      "note": "Anthropic Economic Index 2026年3月报告（2月数据）。核心发现：1)Claude.ai用例多样化，top 10任务占比从24%降至19%（编码迁移到API+个人查询增加）2)平均任务工资略降（采用曲线：早期高价值编码→后期广泛用例）3)全球使用不平等持续（top 20国家占48%人均使用）4)学习曲线：高tenure用户成功率高10%，更多高教育任务，更少个人用例 5)模型选择匹配任务（Opus用于高工资任务，付费用户编码+4pp，辅导-7pp）6)49%职业至少1/4任务用Claude完成。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Research"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T08:14:51.135Z",
+      "lastUpdate": "2026-03-28T08:14:51.135Z",
+      "domain": "anthropic.com",
+      "title": "https://www.anthropic.com/research/economic-index-march-2026-report",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1662879352,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "1)Claude.ai用例多样化",
+        "早期高价值编码→后期广泛用例）3)全球使用不平等持续（top 20国家占48%人",
+        "高tenure用户成功率高10%"
+      ],
+      "themes": [
+        "ai",
+        "research"
+      ],
+      "summary": "Anthropic Economic Index 3月报告：学习曲线+用例多样化"
+    },
     {
       "_id": 1662138861,
       "link": "https://x.com/berryxia/status/2037682334108106843",
