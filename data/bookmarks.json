@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T19:45:47.045Z",
-    "count": 1825
+    "syncedAt": "2026-03-28T19:46:19.235Z",
+    "count": 1826
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 701,
+      "count": 702,
       "items": [
+        1663952315,
         1663952111,
         1663241510,
         1663077526,
@@ -3320,8 +3321,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 175,
+      "count": 176,
       "items": [
+        1663952315,
         1663952111,
         1663241510,
         1662138861,
@@ -7799,6 +7801,7 @@
       "name": "AI · Tool",
       "color": "#5A6B7A",
       "members": [
+        1663952315,
         1663952111,
         1663241510,
         1662138861,
@@ -7820,7 +7823,7 @@
         1612041423,
         1605997044
       ],
-      "count": 20
+      "count": 21
     },
     {
       "id": "galaxy-255",
@@ -37919,6 +37922,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663952315,
+      "link": "https://github.com/roboflow/trackers",
+      "excerpt": "",
+      "note": "Roboflow trackers GitHub仓库。多目标追踪开源项目，任意检测器即插即用，CLI+Python API，集成supervision+inference。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T19:46:15.907Z",
+      "lastUpdate": "2026-03-28T19:46:15.907Z",
+      "domain": "github.com",
+      "title": "https://github.com/roboflow/trackers",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663952315,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Roboflow trackers GitHub仓库"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Roboflow trackers GitHub"
+    },
     {
       "_id": 1663952111,
       "link": "https://x.com/berryxia/status/2037755337537982923",
