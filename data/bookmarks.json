@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-27T14:26:39.444Z",
-    "count": 1817
+    "syncedAt": "2026-03-28T01:40:45.475Z",
+    "count": 1818
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 693,
+      "count": 694,
       "items": [
+        1662138861,
         1660857274,
         1660320897,
         1660132144,
@@ -3312,8 +3313,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 172,
+      "count": 173,
       "items": [
+        1662138861,
         1660320897,
         1659037343,
         1658598430,
@@ -7770,6 +7772,7 @@
       "name": "AI · Tool",
       "color": "#5A6B7A",
       "members": [
+        1662138861,
         1657884958,
         1657177328,
         1656993082,
@@ -7788,7 +7791,7 @@
         1612041423,
         1605997044
       ],
-      "count": 17
+      "count": 18
     },
     {
       "id": "galaxy-255",
@@ -37323,6 +37326,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1662138861,
+      "link": "https://x.com/berryxia/status/2037682334108106843",
+      "excerpt": "",
+      "note": "Atomic Chat 本地运行 Google Turbo Quant。MacBook Air M4 16GB + Qwen3.5-9B：50,000 token 上下文，几秒总结 20,000 字文档，上下文 3x 更大 + 速度 3x 更快。本地运行，隐私安全，免费，不需联网。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T01:40:41.590Z",
+      "lastUpdate": "2026-03-28T01:40:41.590Z",
+      "domain": "x.com",
+      "title": "https://x.com/berryxia/status/2037682334108106843",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1662138861,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "50,000 token 上下文"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Atomic Chat 本地跑 Google Turbo Quant — M4 16GB 50K context"
+    },
     {
       "_id": 1660857274,
       "link": "https://x.com/karrisaarinen/status/2007534281011155419",
