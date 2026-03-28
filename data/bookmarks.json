@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T10:20:10.221Z",
-    "count": 1823
+    "syncedAt": "2026-03-28T11:56:41.795Z",
+    "count": 1824
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 699,
+      "count": 700,
       "items": [
+        1663241510,
         1663077526,
         1663076120,
         1663073908,
@@ -3318,8 +3319,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 173,
+      "count": 174,
       "items": [
+        1663241510,
         1662138861,
         1660320897,
         1659037343,
@@ -7795,6 +7797,7 @@
       "name": "AI · Tool",
       "color": "#5A6B7A",
       "members": [
+        1663241510,
         1662138861,
         1657884958,
         1657177328,
@@ -7814,7 +7817,7 @@
         1612041423,
         1605997044
       ],
-      "count": 18
+      "count": 19
     },
     {
       "id": "galaxy-255",
@@ -37913,6 +37916,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663241510,
+      "link": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "excerpt": "",
+      "note": "AI Scientist-v2: Workshop级别自动化科学发现，通过agentic tree search。首个完全由AI撰写并通过同行评审的workshop论文。移除人工模板依赖，跨ML领域泛化，progressive agentic tree search + experiment manager agent。v2比v1更探索性（成功率更低但更开放），v1适合明确目标+强模板。支持OpenAI/Gemini/Claude(Bedrock)。包含ideation阶段（生成研究想法）和实验阶段（BFTS配置）。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T11:56:31.516Z",
+      "lastUpdate": "2026-03-28T11:56:31.516Z",
+      "domain": "github.com",
+      "title": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663241510,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "AI Scientist-v2: Workshop级别自动化科学发现，通过agentic tree search"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "AI Scientist-v2: 首个AI撰写并通过同行评审的workshop论文"
+    },
     {
       "_id": 1663077526,
       "link": "https://huggingface.co/papers/2603.24533",
@@ -134602,12 +134652,6 @@
   ],
   "relations": [
     {
-      "source": 1658885705,
-      "target": 1658788144,
-      "strength": 2,
-      "reason": "Paper, Thinking"
-    },
-    {
       "source": 1644703993,
       "target": 1644703976,
       "strength": 2,
@@ -134624,6 +134668,12 @@
       "target": 1644702107,
       "strength": 2,
       "reason": "Tool, iOS"
+    },
+    {
+      "source": 1658885705,
+      "target": 1658788144,
+      "strength": 2,
+      "reason": "Paper, Thinking"
     },
     {
       "source": 1658788439,
