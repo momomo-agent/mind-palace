@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T19:57:41.444Z",
-    "count": 1827
+    "syncedAt": "2026-03-28T20:04:32.051Z",
+    "count": 1828
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 703,
+      "count": 704,
       "items": [
+        1663965842,
         1663959487,
         1663952315,
         1663952111,
@@ -3322,8 +3323,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 177,
+      "count": 178,
       "items": [
+        1663965842,
         1663959487,
         1663952315,
         1663952111,
@@ -7764,8 +7766,39 @@
     },
     {
       "id": "galaxy-253",
-      "name": "App · Design",
+      "name": "AI · Tool",
       "color": "#7A8B6E",
+      "members": [
+        1663965842,
+        1663959487,
+        1663952315,
+        1663952111,
+        1663241510,
+        1662138861,
+        1657884958,
+        1657177328,
+        1656993082,
+        1655248772,
+        1654741738,
+        1654413722,
+        1653963643,
+        1652906126,
+        1647491812,
+        1644320335,
+        1644306118,
+        1643003851,
+        1641479829,
+        1639423422,
+        1629815462,
+        1612041423,
+        1605997044
+      ],
+      "count": 23
+    },
+    {
+      "id": "galaxy-254",
+      "name": "App · Design",
+      "color": "#5A6B7A",
       "members": [
         1656264934,
         1600823941,
@@ -7797,36 +7830,6 @@
         157745783
       ],
       "count": 28
-    },
-    {
-      "id": "galaxy-254",
-      "name": "AI · Tool",
-      "color": "#5A6B7A",
-      "members": [
-        1663959487,
-        1663952315,
-        1663952111,
-        1663241510,
-        1662138861,
-        1657884958,
-        1657177328,
-        1656993082,
-        1655248772,
-        1654741738,
-        1654413722,
-        1653963643,
-        1652906126,
-        1647491812,
-        1644320335,
-        1644306118,
-        1643003851,
-        1641479829,
-        1639423422,
-        1629815462,
-        1612041423,
-        1605997044
-      ],
-      "count": 22
     },
     {
       "id": "galaxy-255",
@@ -37925,6 +37928,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663965842,
+      "link": "https://github.com/fakechris/spec-orch",
+      "excerpt": "",
+      "note": "SpecOrch: spec驱动软件交付的控制平面。七层架构（Contract/Task/Harness/Execution/Evidence/Control/Evolution）。核心理念：Issue不是需求Spec才是/Merge不是完成Gate才是/编排会进化/Prompt是建议Harness是强制。可插拔agent适配器（Codex/OpenCode/Claude Code/Droid/ACPX统一15+agents）。自进化引擎（skill发现/context排序/记忆压缩）。v0.5.2 alpha，1328+测试，65+命令。Python实现。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T20:04:22.530Z",
+      "lastUpdate": "2026-03-28T20:04:22.530Z",
+      "domain": "github.com",
+      "title": "https://github.com/fakechris/spec-orch",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663965842,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Issue不是需求Spec才是/Merge不是完成Gate才是/编排会进化/Pr"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "SpecOrch: spec驱动软件交付控制平面（七层架构+自进化）"
+    },
     {
       "_id": 1663959487,
       "link": "https://github.com/yologdev/yoyo-evolve",
