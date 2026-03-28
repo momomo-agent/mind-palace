@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T19:46:19.235Z",
-    "count": 1826
+    "syncedAt": "2026-03-28T19:57:41.444Z",
+    "count": 1827
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 702,
+      "count": 703,
       "items": [
+        1663959487,
         1663952315,
         1663952111,
         1663241510,
@@ -3321,8 +3322,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 176,
+      "count": 177,
       "items": [
+        1663959487,
         1663952315,
         1663952111,
         1663241510,
@@ -7801,6 +7803,7 @@
       "name": "AI · Tool",
       "color": "#5A6B7A",
       "members": [
+        1663959487,
         1663952315,
         1663952111,
         1663241510,
@@ -7823,7 +7826,7 @@
         1612041423,
         1605997044
       ],
-      "count": 21
+      "count": 22
     },
     {
       "id": "galaxy-255",
@@ -37922,6 +37925,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663959487,
+      "link": "https://github.com/yologdev/yoyo-evolve",
+      "excerpt": "",
+      "note": "yoyo: 自我进化的coding agent。从~200行CLI开始，24天自主进化到31,000+行Rust+1,346测试+14模块。每几小时读自己源码→选改进→实现→测试通过就commit。无人类写代码，无roadmap，自己决定。55个slash命令，streaming REPL，11个provider，git集成，project tooling，MCP/OpenAPI/Skills扩展。Rust实现。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T19:57:31.621Z",
+      "lastUpdate": "2026-03-28T19:57:31.621Z",
+      "domain": "github.com",
+      "title": "https://github.com/yologdev/yoyo-evolve",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663959487,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "yoyo: 自我进化的coding agent"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "yoyo: 自我进化的coding agent (24天31K行Rust)"
+    },
     {
       "_id": 1663952315,
       "link": "https://github.com/roboflow/trackers",
