@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T11:56:41.795Z",
-    "count": 1824
+    "syncedAt": "2026-03-28T19:45:47.045Z",
+    "count": 1825
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 700,
+      "count": 701,
       "items": [
+        1663952111,
         1663241510,
         1663077526,
         1663076120,
@@ -3319,8 +3320,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 174,
+      "count": 175,
       "items": [
+        1663952111,
         1663241510,
         1662138861,
         1660320897,
@@ -7797,6 +7799,7 @@
       "name": "AI · Tool",
       "color": "#5A6B7A",
       "members": [
+        1663952111,
         1663241510,
         1662138861,
         1657884958,
@@ -7817,7 +7820,7 @@
         1612041423,
         1605997044
       ],
-      "count": 19
+      "count": 20
     },
     {
       "id": "galaxy-255",
@@ -37916,6 +37919,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663952111,
+      "link": "https://x.com/berryxia/status/2037755337537982923",
+      "excerpt": "",
+      "note": "Roboflow 多目标追踪开源，2周3.1K Star。任意检测器即插即用（YOLO/RF-DETR），一行CLI命令追踪视频，Python API零配置集成supervision+inference，MOT17/SportsMOT/SoccerNet高分基准。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T19:45:43.528Z",
+      "lastUpdate": "2026-03-28T19:45:43.528Z",
+      "domain": "x.com",
+      "title": "https://x.com/berryxia/status/2037755337537982923",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663952111,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Roboflow 多目标追踪开源，2周3.1K Star"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Roboflow 多目标追踪开源 — 2周3.1K Star"
+    },
     {
       "_id": 1663241510,
       "link": "https://github.com/SakanaAI/AI-Scientist-v2",
