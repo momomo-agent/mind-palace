@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T20:04:32.051Z",
-    "count": 1828
+    "syncedAt": "2026-03-28T20:17:01.628Z",
+    "count": 1830
   },
   "themes": [
     {
@@ -734,8 +734,10 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 704,
+      "count": 706,
       "items": [
+        1663978306,
+        1663967242,
         1663965842,
         1663959487,
         1663952315,
@@ -4257,22 +4259,24 @@
       ]
     },
     {
+      "id": "research",
+      "name": "Research",
+      "color": "#14b8a6",
+      "count": 3,
+      "items": [
+        1663978306,
+        1663967242,
+        1662879352
+      ]
+    },
+    {
       "id": "iot",
       "name": "IoT",
-      "color": "#14b8a6",
+      "color": "#f97316",
       "count": 2,
       "items": [
         1658788439,
         1658788130
-      ]
-    },
-    {
-      "id": "research",
-      "name": "Research",
-      "color": "#f97316",
-      "count": 1,
-      "items": [
-        1662879352
       ]
     },
     {
@@ -8241,8 +8245,18 @@
     },
     {
       "id": "galaxy-284",
-      "name": "AI · Paper",
+      "name": "AI · Research",
       "color": "#8B7A6E",
+      "members": [
+        1663978306,
+        1663967242
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-285",
+      "name": "AI · Paper",
+      "color": "#5A7A6B",
       "members": [
         1660113806,
         1659369647
@@ -8250,9 +8264,9 @@
       "count": 2
     },
     {
-      "id": "galaxy-285",
+      "id": "galaxy-286",
       "name": "AI · Insight",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1649913012,
         1649691517
@@ -37928,6 +37942,101 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663978306,
+      "link": "https://x.com/AIatMeta/status/2037153756346016207",
+      "excerpt": "",
+      "note": "Meta TRIBE v2 (Trimodal Brain Encoder): 预测人脑对视觉/声音响应的基础模型。基于Algonauts 2025获奖架构，500+小时fMRI记录来自700+人，创建神经活动数字孪生，支持zero-shot预测新受试者/语言/任务。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Research"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T20:16:58.316Z",
+      "lastUpdate": "2026-03-28T20:16:58.316Z",
+      "domain": "x.com",
+      "title": "https://x.com/AIatMeta/status/2037153756346016207",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663978306,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Meta TRIBE v2 (Trimodal Brain Encoder): 预测人脑对视觉/声音响应的基础模型"
+      ],
+      "themes": [
+        "ai",
+        "research"
+      ],
+      "summary": "Meta TRIBE v2: 预测人脑响应的基础模型"
+    },
+    {
+      "_id": 1663967242,
+      "link": "https://x.com/AIatMeta/status/2037153756346016207",
+      "excerpt": "Building on our Algonauts 2025 award-winning architecture, TRIBE v2 draws on 500+ hours of fMRI recordings from 700+ people",
+      "note": "Meta TRIBE v2 (Trimodal Brain Encoder): 预测人脑对视觉/声音响应的基础模型。基于Algonauts 2025获奖架构，500+小时fMRI记录来自700+人，创建神经活动数字孪生，支持zero-shot预测新受试者/语言/任务。Demo: go.meta.me/tribe2",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://pbs.twimg.com/amplify_video_thumb/2037153118039994368/img/CicIYfKmgfwyMDKp.jpg:large",
+      "tags": [
+        "AI",
+        "Research"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://pbs.twimg.com/amplify_video_thumb/2037153118039994368/img/CicIYfKmgfwyMDKp.jpg:large"
+        }
+      ],
+      "created": "2026-03-28T20:05:37.458Z",
+      "lastUpdate": "2026-03-28T20:05:37.458Z",
+      "domain": "x.com",
+      "title": "Today we're introducing TRIBE v2 (Trimodal Brain Encoder), a foundation model trained to predict how the human brain responds to almost any sight or sound.",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663967242,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Meta TRIBE v2 (Trimodal Brain Encoder): 预测人脑对视觉/声音响应的基础模型"
+      ],
+      "themes": [
+        "ai",
+        "research"
+      ]
+    },
     {
       "_id": 1663965842,
       "link": "https://github.com/fakechris/spec-orch",
