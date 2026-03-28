@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-28T10:16:50.889Z",
-    "count": 1820
+    "syncedAt": "2026-03-28T10:18:04.688Z",
+    "count": 1821
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 696,
+      "count": 697,
       "items": [
+        1663073908,
         1663070508,
         1662879352,
         1662138861,
@@ -4185,8 +4186,9 @@
       "id": "paper",
       "name": "Paper",
       "color": "#10b981",
-      "count": 9,
+      "count": 10,
       "items": [
+        1663073908,
         1663070508,
         1660113806,
         1659369647,
@@ -5849,6 +5851,7 @@
       "name": "hugging + face",
       "color": "#B8A060",
       "members": [
+        1663073908,
         1663070508,
         563683874,
         446518576,
@@ -5857,7 +5860,7 @@
         446518522,
         438356886
       ],
-      "count": 7
+      "count": 8
     },
     {
       "id": "galaxy-137",
@@ -37904,6 +37907,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1663073908,
+      "link": "https://huggingface.co/papers/2603.25040",
+      "excerpt": "",
+      "note": "Intern-S1-Pro: 万亿规模科学多模态基础模型。Intern Large Models 组织，GitHub InternLM/Intern-S1，模型 internlm/Intern-S1-Pro。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Paper"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-28T10:18:00.832Z",
+      "lastUpdate": "2026-03-28T10:18:00.833Z",
+      "domain": "huggingface.co",
+      "title": "https://huggingface.co/papers/2603.25040",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1663073908,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Intern-S1-Pro: 万亿规模科学多模态基础模型"
+      ],
+      "themes": [
+        "ai",
+        "paper"
+      ],
+      "summary": "Intern-S1-Pro: 万亿规模科学多模态基础模型"
+    },
     {
       "_id": 1663070508,
       "link": "https://huggingface.co/papers/2603.25728",
