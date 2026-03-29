@@ -2236,5 +2236,22 @@
       "desc": "Anthropic官方：长时间运行agents的harness设计，initializer agent + coding agent双重方案",
       "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
     }
+  ],
+  "https://x.com/wquguru/status/2038069503758897357": [
+    {
+      "title": "AIOS: LLM Agent Operating System",
+      "desc": "arXiv论文，AIOS kernel提供调度、context管理、内存管理、存储管理、访问控制等基础服务",
+      "url": "https://arxiv.org/html/2403.16971v5"
+    },
+    {
+      "title": "Agent OS Architecture: Models, Memory, Tools, and Workflows",
+      "desc": "Agent OS架构详解，models/memory/tools/workflows如何协同工作，实现安全可扩展的agentic AI",
+      "url": "https://yodaplus.com/blog/agent-os-architecture-models-memory-tools-and-workflows/"
+    },
+    {
+      "title": "AIOS Explained: A Secure AI Agent Operating System Kernel",
+      "desc": "AIOS深度解析，scheduler/memory manager/context switching/inter-agent communication，解决多agent规模化运行的基础设施挑战",
+      "url": "https://www.labellerr.com/blog/aios-explained/"
+    }
   ]
 }
