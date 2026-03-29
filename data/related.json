@@ -2253,5 +2253,17 @@
       "desc": "AIOS深度解析，scheduler/memory manager/context switching/inter-agent communication，解决多agent规模化运行的基础设施挑战",
       "url": "https://www.labellerr.com/blog/aios-explained/"
     }
+  ],
+  "https://x.com/michaelzsguo/status/2029376551419039792": [
+    {
+      "title": "Andrej Karpathy: LLMs as new operating systems",
+      "desc": "Karpathy的类比：LLM的context window=RAM，model=CPU",
+      "url": "https://www.facebook.com/groups/techtitansgroup/posts/1524327628894550/"
+    },
+    {
+      "title": "Illustrated LLM OS: An Implementational Perspective",
+      "desc": "HuggingFace博客，LLM作为OS的实现视角，state machine注入到decoding过程，实时代码执行",
+      "url": "https://huggingface.co/blog/shivance/illustrated-llm-os"
+    }
   ]
 }
