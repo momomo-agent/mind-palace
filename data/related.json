@@ -2219,5 +2219,22 @@
       "desc": "官方博客详解",
       "url": "https://sakana.ai/ai-scientist-nature/"
     }
+  ],
+  "http://xhslink.com/o/bFlDTq2SAh": [
+    {
+      "title": "Effective context engineering for AI agents",
+      "desc": "Anthropic官方：context管理策略，tool result clearing，memory tool，Claude Code实战",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    },
+    {
+      "title": "Skill Issue: Harness Engineering for Coding Agents",
+      "desc": "Harness工程详解，四个定制杠杆（system prompt/tools/context/sub-agents），Claude Code的Explore和Bash sub-agents",
+      "url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents"
+    },
+    {
+      "title": "Effective harnesses for long-running agents",
+      "desc": "Anthropic官方：长时间运行agents的harness设计，initializer agent + coding agent双重方案",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
   ]
 }
