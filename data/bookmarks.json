@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-03-29T17:39:37.306Z",
-    "count": 1832
+    "syncedAt": "2026-03-29T18:47:19.874Z",
+    "count": 1833
   },
   "themes": [
     {
@@ -734,8 +734,9 @@
       "id": "ai",
       "name": "AI",
       "color": "#10b981",
-      "count": 707,
+      "count": 708,
       "items": [
+        1665030486,
         1664019999,
         1663978306,
         1663967242,
@@ -3326,8 +3327,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 179,
+      "count": 180,
       "items": [
+        1665030486,
         1664989024,
         1663965842,
         1663959487,
@@ -7787,6 +7789,7 @@
       "name": "AI · Tool",
       "color": "#7A8B6E",
       "members": [
+        1665030486,
         1663965842,
         1663959487,
         1663952315,
@@ -7811,7 +7814,7 @@
         1612041423,
         1605997044
       ],
-      "count": 23
+      "count": 24
     },
     {
       "id": "galaxy-254",
@@ -38496,6 +38499,53 @@
     }
   ],
   "items": [
+    {
+      "_id": 1665030486,
+      "link": "https://x.com/dailydoseofds_/status/2038186923769082189",
+      "excerpt": "",
+      "note": "Google TimesFM: 时间序列基础模型，开源。无需训练即可预测任何数据，不需要数据集特定训练。在100B真实世界时间点上训练（流量/天气/需求预测）。开箱即用。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-29T18:47:16.347Z",
+      "lastUpdate": "2026-03-29T18:47:16.347Z",
+      "domain": "x.com",
+      "title": "https://x.com/dailydoseofds_/status/2038186923769082189",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1665030486,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Google TimesFM: 时间序列基础模型，开源"
+      ],
+      "themes": [
+        "ai",
+        "tool"
+      ],
+      "summary": "Google TimesFM: 时间序列基础模型（100B数据点，开箱即用）"
+    },
     {
       "_id": 1664989024,
       "link": "https://mp.weixin.qq.com/s/Mp7xu2yXaTu5tY0-XMur8Q",
