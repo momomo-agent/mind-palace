@@ -2308,5 +2308,17 @@
       "desc": "第二大脑工具大全，涵盖知识图谱、Markdown、Wiki 等多个品类",
       "url": "https://wildrye.com/roundup-of-67-tools-for-thought-to-build-your-second-brain/"
     }
+  ],
+  "https://x.com/jingwangtalk/status/2037871440926834987": [
+    {
+      "title": "Anthropic — Harness Design for Long-Running Apps",
+      "desc": "Anthropic 官方的 Harness 设计指南，针对长时间运行的 coding agent",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+    },
+    {
+      "title": "Agent Frameworks vs Runtimes vs Harnesses",
+      "desc": "对比 Framework/Runtime/Harness 三层概念的技术文章",
+      "url": "https://www.analyticsvidhya.com/blog/2025/12/agent-frameworks-vs-runtimes-vs-harnesses/"
+    }
   ]
 }
