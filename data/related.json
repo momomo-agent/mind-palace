@@ -2320,5 +2320,17 @@
       "desc": "对比 Framework/Runtime/Harness 三层概念的技术文章",
       "url": "https://www.analyticsvidhya.com/blog/2025/12/agent-frameworks-vs-runtimes-vs-harnesses/"
     }
+  ],
+  "https://skip.dev/": [
+    {
+      "title": "Skip 技术详解：如何把 Swift 带到 Android",
+      "desc": "深入解析 Skip 转译器原理：SwiftSyntax → Kotlin 语法树，类型系统统一",
+      "url": "https://skip.dev/blog/bringing-swift-to-android/"
+    },
+    {
+      "title": "Skip 完全开源",
+      "desc": "2026年1月 Skip 宣布完全开源，Swift Android Workgroup 和 Swift Android SDK",
+      "url": "https://www.infoq.com/news/2026/01/swift-skip-open-sourced/"
+    }
   ]
 }
