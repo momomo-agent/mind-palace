@@ -2301,5 +2301,12 @@
       "desc": "无限嵌套画布，面向非线性思维者，支持研究素材混排",
       "url": "https://mwm.ai/apps/muse-canvas-for-ideas/1501563902"
     }
+  ],
+  "https://github.com/kenforthewin/atomic": [
+    {
+      "title": "66 Tools for Thought 工具清单",
+      "desc": "第二大脑工具大全，涵盖知识图谱、Markdown、Wiki 等多个品类",
+      "url": "https://wildrye.com/roundup-of-67-tools-for-thought-to-build-your-second-brain/"
+    }
   ]
 }
