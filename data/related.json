@@ -2344,5 +2344,12 @@
       "desc": "工程师社区热议，OpenAI 官方回应，讨论 CAPTCHA 边界和隐私问题",
       "url": "https://news.ycombinator.com/item?id=47566865"
     }
+  ],
+  "https://github.com/Vaibhavs10/insanely-fast-whisper": [
+    {
+      "title": "insanely-fast-whisper-v3 (Fork)",
+      "desc": "v3 fork 版本，基于 Transformers 的进一步优化",
+      "url": "https://github.com/paperwave/insanely-fast-whisper-v3"
+    }
   ]
 }
