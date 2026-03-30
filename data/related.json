@@ -2277,5 +2277,17 @@
       "desc": "Google 的知识蒸馏论文，用 CoT 数据蒸馏小模型",
       "url": "https://arxiv.org/abs/2305.02301"
     }
+  ],
+  "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2": [
+    {
+      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "desc": "Dan Woods 用 Claude Code + autoresearch 在 MacBook Pro M3 Max 上跑 Qwen 397B",
+      "url": "https://x.com/danveloper/status/2034353876753592372"
+    },
+    {
+      "title": "林俊旸从阿里离开后首度发声：推理模型的时代快结束了",
+      "desc": "前 Qwen 负责人谈 AI 从 reasoning thinking 转向 agentic thinking",
+      "url": "https://x.com/alchainhust/status/2037183105602109498"
+    }
   ]
 }
