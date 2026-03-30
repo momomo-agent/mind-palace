@@ -2265,5 +2265,17 @@
       "desc": "HuggingFace博客，LLM作为OS的实现视角，state machine注入到decoding过程，实时代码执行",
       "url": "https://huggingface.co/blog/shivance/illustrated-llm-os"
     }
+  ],
+  "http://xhslink.com/o/4TPJg8w1lhi": [
+    {
+      "title": "o3-mini thinking 模型",
+      "desc": "HuggingFace 上的蒸馏模型实现",
+      "url": "https://huggingface.co/Jac-Cai/o3-mini-2025-01-31-thinking"
+    },
+    {
+      "title": "Distilling Step-by-Step",
+      "desc": "Google 的知识蒸馏论文，用 CoT 数据蒸馏小模型",
+      "url": "https://arxiv.org/abs/2305.02301"
+    }
   ]
 }
