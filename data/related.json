@@ -2332,5 +2332,17 @@
       "desc": "2026年1月 Skip 宣布完全开源，Swift Android Workgroup 和 Swift Android SDK",
       "url": "https://www.infoq.com/news/2026/01/swift-skip-open-sourced/"
     }
+  ],
+  "https://x.com/TechFlowPost/status/2038544579939701096": [
+    {
+      "title": "原文：ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
+      "desc": "完整技术拆解：Cloudflare Turnstile 如何检测 React 应用状态做反机器人验证",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/"
+    },
+    {
+      "title": "HN 讨论：798 points, 518 comments",
+      "desc": "工程师社区热议，OpenAI 官方回应，讨论 CAPTCHA 边界和隐私问题",
+      "url": "https://news.ycombinator.com/item?id=47566865"
+    }
   ]
 }
