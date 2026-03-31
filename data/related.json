@@ -2363,5 +2363,17 @@
       "desc": "各方 AGI 时间线预测汇总：Amodei/Musk/Altman/Hassabis 的不同观点",
       "url": "https://lumichats.com/blog/agi-timeline-2026-expert-predictions-what-it-means"
     }
+  ],
+  "https://github.com/tommywalkie/excalidraw-cli": [
+    {
+      "title": "excalidraw-brute-export-cli",
+      "desc": "另一种 Excalidraw CLI 导出方案，通过 Puppeteer 暴力渲染确保与官方完全一致",
+      "url": "https://github.com/realazthat/excalidraw-brute-export-cli"
+    },
+    {
+      "title": "excalidraw-render MCP Server",
+      "desc": "Excalidraw MCP 渲染服务，headless Chromium 服务端渲染，可集成 Claude Code 等 agent",
+      "url": "https://lobehub.com/mcp/bassimeledath-excalidraw-render"
+    }
   ]
 }
