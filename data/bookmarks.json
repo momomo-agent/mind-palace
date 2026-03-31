@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-31T17:04:09.008Z",
-    "count": 1886
+    "syncedAt": "2026-03-31T17:13:45.196Z",
+    "count": 1887
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 750,
+      "count": 751,
       "items": [
+        1667451885,
         1667433511,
         1667306600,
         1667306596,
@@ -766,8 +767,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 734,
+      "count": 735,
       "items": [
+        1667451885,
         1667433511,
         1667277798,
         1667277797,
@@ -3413,8 +3415,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 189,
+      "count": 190,
       "items": [
+        1667451885,
         1666917552,
         1666917547,
         1666917546,
@@ -7587,6 +7590,7 @@
       "name": "AI · Develop",
       "color": "#9C7A5A",
       "members": [
+        1667451885,
         1667433511,
         1667275991,
         1667110998,
@@ -7695,7 +7699,7 @@
         441432575,
         184076073
       ],
-      "count": 107
+      "count": 108
     },
     {
       "id": "galaxy-259",
@@ -8251,19 +8255,8 @@
     },
     {
       "id": "galaxy-271",
-      "name": "AI · Design",
-      "color": "#7A6B8B",
-      "members": [
-        1644455839,
-        1551209593,
-        1540468561
-      ],
-      "count": 3
-    },
-    {
-      "id": "galaxy-272",
       "name": "Develop · Tool",
-      "color": "#8B7A6E",
+      "color": "#7A6B8B",
       "members": [
         1652289312,
         1649820735,
@@ -8272,6 +8265,17 @@
         1607146936
       ],
       "count": 5
+    },
+    {
+      "id": "galaxy-272",
+      "name": "AI · Design",
+      "color": "#8B7A6E",
+      "members": [
+        1644455839,
+        1551209593,
+        1540468561
+      ],
+      "count": 3
     },
     {
       "id": "galaxy-273",
@@ -46380,6 +46384,56 @@
   ],
   "items": [
     {
+      "_id": 1667451885,
+      "link": "https://github.com/claude-code-best/claude-code",
+      "excerpt": "",
+      "note": "Claude Code 反编译还原项目——不只是源码备份，目标是跑通核心功能。已实现：REPL 交互界面、API 通信（Anthropic/Bedrock/Vertex/Azure）、流式对话+工具调用循环、42 个工具、权限系统（6300+行）、自动压缩、会话恢复。完整的能力清单标注了每个工具/命令的状态（可用/条件启用/stub）",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-31T17:13:33.922Z",
+      "lastUpdate": "2026-03-31T17:13:33.922Z",
+      "domain": "github.com",
+      "title": "https://github.com/claude-code-best/claude-code",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1667451885,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "不只是源码备份，目标是跑通核心功能",
+        "REPL 交互界面、API 通信（Anthropic/Bedrock/Verte"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ],
+      "summary": "Claude Code 反编译可运行版——核心功能跑通，42 工具+权限系统+压缩全实现"
+    },
+    {
       "_id": 1667433511,
       "link": "https://x.com/yukerx/status/2038959908968919297",
       "excerpt": "",
@@ -46423,8 +46477,8 @@
       ],
       "themes": [
         "ai",
-        "develop",
-        "article"
+        "article",
+        "develop"
       ],
       "summary": "Claude Code 源码科普——51 万行代码构建的以 LLM 为内核的操作系统"
     },
