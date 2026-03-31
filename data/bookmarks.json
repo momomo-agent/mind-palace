@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-31T10:42:18.373Z",
-    "count": 1880
+    "syncedAt": "2026-03-31T14:15:08.719Z",
+    "count": 1881
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 744,
+      "count": 745,
       "items": [
+        1667275991,
         1667122722,
         1667122721,
         1667110998,
@@ -760,8 +761,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 730,
+      "count": 731,
       "items": [
+        1667275991,
         1667110998,
         1667107075,
         1667103188,
@@ -2175,8 +2177,9 @@
       "id": "article",
       "name": "文章",
       "color": "#ec4899",
-      "count": 655,
+      "count": 656,
       "items": [
+        1667275991,
         1667107075,
         1667103197,
         1666595151,
@@ -7553,6 +7556,7 @@
       "name": "AI · Develop",
       "color": "#B8A060",
       "members": [
+        1667275991,
         1667110998,
         1667103188,
         1656569001,
@@ -7659,7 +7663,7 @@
         441432575,
         184076073
       ],
-      "count": 105
+      "count": 106
     },
     {
       "id": "galaxy-257",
@@ -45671,6 +45675,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1667275991,
+      "link": "https://github.com/6551Team/claude-code-design-guide",
+      "excerpt": "",
+      "note": "基于 Claude Code 泄露源码写的中文深度解析书（26 章）。覆盖架构设计（Query Engine/状态管理/消息循环）、43 个工具全览、权限模型、Context Engineering（system prompt 构建/Memory/Auto-Compact）、Agent Runtime/多代理/协调器模式、MCP/Skills/插件扩展、安全与性能。三位华人开发者编写",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-31T14:14:58.592Z",
+      "lastUpdate": "2026-03-31T14:14:58.592Z",
+      "domain": "github.com",
+      "title": "https://github.com/6551Team/claude-code-design-guide",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1667275991,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "基于 Claude Code 泄露源码写的中文深度解析书（26 章）"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "summary": "Claude Code 源码深度解析书（中文，26 章），从 Unix 哲学到 Agent Runtime 的完整架构分析"
+    },
     {
       "_id": 1667122722,
       "link": "https://linear.app/developers/aig",
