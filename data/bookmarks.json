@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-31T17:13:45.196Z",
-    "count": 1887
+    "syncedAt": "2026-03-31T17:29:13.690Z",
+    "count": 1888
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 751,
+      "count": 752,
       "items": [
+        1667470215,
         1667451885,
         1667433511,
         1667306600,
@@ -767,8 +768,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 735,
+      "count": 736,
       "items": [
+        1667470215,
         1667451885,
         1667433511,
         1667277798,
@@ -2187,8 +2189,9 @@
       "id": "article",
       "name": "文章",
       "color": "#ec4899",
-      "count": 659,
+      "count": 660,
       "items": [
+        1667470215,
         1667433511,
         1667306596,
         1667277798,
@@ -7590,6 +7593,7 @@
       "name": "AI · Develop",
       "color": "#9C7A5A",
       "members": [
+        1667470215,
         1667451885,
         1667433511,
         1667275991,
@@ -7699,7 +7703,7 @@
         441432575,
         184076073
       ],
-      "count": 108
+      "count": 109
     },
     {
       "id": "galaxy-259",
@@ -46383,6 +46387,56 @@
     }
   ],
   "items": [
+    {
+      "_id": 1667470215,
+      "link": "https://x.com/pluvio9yte/status/2038980082471997921",
+      "excerpt": "",
+      "note": "从 Claude Code 源码提炼的 5 条 prompt 工程实践：1) Prompt 是结构化参数不是闲聊 2) AI 工具本质是状态机而非一问一答 3) 上下文是最贵资源必须主动管理 4) 给 AI 的权限要极度收敛 5) 优雅降级比推倒重来重要。结论：Vibe coding 天花板取决于给 AI 画的框有多清晰",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-31T17:29:01.763Z",
+      "lastUpdate": "2026-03-31T17:29:01.763Z",
+      "domain": "x.com",
+      "title": "https://x.com/pluvio9yte/status/2038980082471997921",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1667470215,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "1) Prompt 是结构化参数不是闲聊 2) AI 工具本质是状态机而非一问一",
+        "Vibe coding 天花板取决于给 AI 画的框有多清晰"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ],
+      "summary": "Claude Code 源码启发的 5 条实践——Vibe Coding 的尽头是工程化"
+    },
     {
       "_id": 1667451885,
       "link": "https://github.com/claude-code-best/claude-code",
