@@ -2351,5 +2351,17 @@
       "desc": "v3 fork 版本，基于 Transformers 的进一步优化",
       "url": "https://github.com/paperwave/insanely-fast-whisper-v3"
     }
+  ],
+  "https://x.com/web3annie/status/2038610393900478736": [
+    {
+      "title": "Anthropic CEO warns humanity may not be ready for advanced AI",
+      "desc": "Dario Amodei 2026年1月长文论述 AI 风险与应对措施",
+      "url": "https://siliconangle.com/2026/01/26/anthropic-ceo-warns-humanity-may-not-ready-advanced-ai/"
+    },
+    {
+      "title": "AGI in 2026? The World's Smartest People Disagree",
+      "desc": "各方 AGI 时间线预测汇总：Amodei/Musk/Altman/Hassabis 的不同观点",
+      "url": "https://lumichats.com/blog/agi-timeline-2026-expert-predictions-what-it-means"
+    }
   ]
 }
