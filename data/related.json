@@ -2375,5 +2375,17 @@
       "desc": "Excalidraw MCP 渲染服务，headless Chromium 服务端渲染，可集成 Claude Code 等 agent",
       "url": "https://lobehub.com/mcp/bassimeledath-excalidraw-render"
     }
+  ],
+  "https://x.com/chenchengpro/status/2038904406406476195": [
+    {
+      "title": "Anthropic DMCA Claude Code 反编译开发者",
+      "desc": "TechCrunch 报道 Anthropic 对反编译 Claude Code 源码的开发者发 DMCA 通知",
+      "url": "https://techcrunch.com/2025/04/25/anthropic-sent-a-takedown-notice-to-a-dev-trying-to-reverse-engineer-its-coding-tool/"
+    },
+    {
+      "title": "Digging into the Claude Code source",
+      "desc": "开发者深入分析 Claude Code 源码结构的详细博文",
+      "url": "https://daveschumaker.net/digging-into-the-claude-code-source-saved-by-sublime-text/"
+    }
   ]
 }
