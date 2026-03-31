@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-31T09:57:11.818Z",
-    "count": 1876
+    "syncedAt": "2026-03-31T10:06:08.237Z",
+    "count": 1877
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 740,
+      "count": 741,
       "items": [
+        1667107075,
         1667103197,
         1667103188,
         1667103178,
@@ -756,8 +757,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 728,
+      "count": 729,
       "items": [
+        1667107075,
         1667103188,
         1667103178,
         1666917552,
@@ -2167,8 +2169,9 @@
       "id": "article",
       "name": "文章",
       "color": "#ec4899",
-      "count": 654,
+      "count": 655,
       "items": [
+        1667107075,
         1667103197,
         1666595151,
         1666595146,
@@ -4506,12 +4509,12 @@
   "galaxies": [
     {
       "id": "galaxy-0",
-      "name": "https + cli",
+      "name": "map + https",
       "color": "#C4785A",
       "members": [
-        1667103197,
+        1667107075,
         1667103178,
-        1667103188
+        1667103197
       ],
       "count": 3
     },
@@ -7534,6 +7537,7 @@
       "name": "AI · Develop",
       "color": "#8B6E7A",
       "members": [
+        1667103188,
         1656569001,
         1655943448,
         1655860207,
@@ -7638,7 +7642,7 @@
         441432575,
         184076073
       ],
-      "count": 103
+      "count": 104
     },
     {
       "id": "galaxy-256",
@@ -44955,6 +44959,54 @@
   ],
   "items": [
     {
+      "_id": 1667107075,
+      "link": "https://daveschumaker.net/digging-into-the-claude-code-source-saved-by-sublime-text/",
+      "excerpt": "",
+      "note": "开发者 Dave Schumaker 详细记录了从 npm 缓存中恢复 Claude Code 0.2.8 source map 的全过程。Anthropic 发现泄露后紧急推送更新移除 source map 并从 npm registry unpublish 旧版本，但 Sublime Text 的 undo 历史保存了原始内容。文中还展示了从 source map 中提取出的有趣细节：React+Ink CLI、loading 状态词数组（Clauding/Finagling/Noodling）等",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "Develop",
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-31T10:05:51.599Z",
+      "lastUpdate": "2026-03-31T10:05:51.599Z",
+      "domain": "daveschumaker.net",
+      "title": "https://daveschumaker.net/digging-into-the-claude-code-source-saved-by-sublime-text/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1667107075,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "React+Ink CLI、loading 状态词数组（Clauding/Fin"
+      ],
+      "themes": [
+        "develop",
+        "ai",
+        "article"
+      ]
+    },
+    {
       "_id": 1667103197,
       "link": "https://techcrunch.com/2025/04/25/anthropic-sent-a-takedown-notice-to-a-dev-trying-to-reverse-engineer-its-coding-tool/",
       "excerpt": "",
@@ -45013,8 +45065,8 @@
       },
       "cover": "",
       "tags": [
-        "Develop",
-        "AI"
+        "AI",
+        "Develop"
       ],
       "pleaseParse": {
         "weight": 1
@@ -45046,7 +45098,7 @@
         "develop",
         "ai"
       ],
-      "summary": "Claude Code 源码的技术性挖掘笔记"
+      "summary": "Sublime Text 的 Ctrl+Z 救回了被 Anthropic 紧急擦除的 Claude Code source map"
     },
     {
       "_id": 1667103178,
