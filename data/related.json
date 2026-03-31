@@ -2394,5 +2394,12 @@
       "desc": "从实践角度提出的 7 条 agentic UX 设计原则，含真实踩坑经验",
       "url": "https://medium.com/design-bootcamp/agentic-ux-7-principles-for-designing-systems-with-agents-019512c2caa9"
     }
+  ],
+  "https://x.com/cryptonerdcn/status/2038954988278313447": [
+    {
+      "title": "claude-code-2188 源码备份",
+      "desc": "NerdC 的 Claude Code 源码备份仓库，带 restored 目录结构",
+      "url": "https://github.com/cryptonerdcn/claude-code-2188"
+    }
   ]
 }
