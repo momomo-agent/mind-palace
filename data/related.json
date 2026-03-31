@@ -2387,5 +2387,12 @@
       "desc": "开发者深入分析 Claude Code 源码结构的详细博文",
       "url": "https://daveschumaker.net/digging-into-the-claude-code-source-saved-by-sublime-text/"
     }
+  ],
+  "https://linear.app/developers/aig": [
+    {
+      "title": "Agentic UX: 7 principles for designing systems with agents",
+      "desc": "从实践角度提出的 7 条 agentic UX 设计原则，含真实踩坑经验",
+      "url": "https://medium.com/design-bootcamp/agentic-ux-7-principles-for-designing-systems-with-agents-019512c2caa9"
+    }
   ]
 }
