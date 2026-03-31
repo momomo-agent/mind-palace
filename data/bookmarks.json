@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-31T10:06:08.237Z",
-    "count": 1877
+    "syncedAt": "2026-03-31T10:19:39.840Z",
+    "count": 1878
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 741,
+      "count": 742,
       "items": [
+        1667110998,
         1667107075,
         1667103197,
         1667103188,
@@ -757,8 +758,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 729,
+      "count": 730,
       "items": [
+        1667110998,
         1667107075,
         1667103188,
         1667103178,
@@ -7537,6 +7539,7 @@
       "name": "AI · Develop",
       "color": "#8B6E7A",
       "members": [
+        1667110998,
         1667103188,
         1656569001,
         1655943448,
@@ -7642,7 +7645,7 @@
         441432575,
         184076073
       ],
-      "count": 104
+      "count": 105
     },
     {
       "id": "galaxy-256",
@@ -44959,6 +44962,53 @@
   ],
   "items": [
     {
+      "_id": 1667110998,
+      "link": "https://x.com/Fried_rice/status/2038894956459290963",
+      "excerpt": "",
+      "note": "Chaofan Shou 发布的 Claude Code source map 泄露原始推文（4600 likes, 100万 views）。直接提供了从 source map 提取的完整源码 zip 下载链接（R2 CDN），包含 1884 个 TS/TSX 源文件，远比去混淆版（37 文件）完整",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-03-31T10:19:29.468Z",
+      "lastUpdate": "2026-03-31T10:19:29.468Z",
+      "domain": "x.com",
+      "title": "https://x.com/Fried_rice/status/2038894956459290963",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1667110998,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Chaofan Shou 发布的 Claude Code source map 泄露原始推文（4600 likes, 1"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "summary": "Claude Code 源码泄露的原始推文，附完整 1884 文件源码 zip 下载"
+    },
+    {
       "_id": 1667107075,
       "link": "https://daveschumaker.net/digging-into-the-claude-code-source-saved-by-sublime-text/",
       "excerpt": "",
@@ -45095,8 +45145,8 @@
         "开发者对 Claude Code 去混淆源码的技术分析，记录了整个探索过程"
       ],
       "themes": [
-        "develop",
-        "ai"
+        "ai",
+        "develop"
       ],
       "summary": "Sublime Text 的 Ctrl+Z 救回了被 Anthropic 紧急擦除的 Claude Code source map"
     },
