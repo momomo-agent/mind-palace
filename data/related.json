@@ -2401,5 +2401,12 @@
       "desc": "NerdC 的 Claude Code 源码备份仓库，带 restored 目录结构",
       "url": "https://github.com/cryptonerdcn/claude-code-2188"
     }
+  ],
+  "http://xhslink.com/o/72xl2DcFIGy": [
+    {
+      "title": "Qwen3.5-Omni 官方博客",
+      "desc": "Qwen 团队官方技术博客，详细介绍 Thinker-Talker 架构升级和性能评测",
+      "url": "https://qwen.ai/blog?id=qwen3.5-omni"
+    }
   ]
 }
