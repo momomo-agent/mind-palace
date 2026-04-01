@@ -2415,5 +2415,12 @@
       "desc": "源码仓库，MIT 协议，Python 实现",
       "url": "https://github.com/nousresearch/hermes-agent"
     }
+  ],
+  "https://x.com/DayShuai/status/2038992712406581608": [
+    {
+      "title": "AutoMath GitHub",
+      "desc": "开源项目仓库，Lean 4 实现",
+      "url": "https://github.com/the-omega-institute/automath"
+    }
   ]
 }
