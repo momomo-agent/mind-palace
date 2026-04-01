@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-03-31T17:29:13.690Z",
-    "count": 1888
+    "syncedAt": "2026-04-01T00:29:20.160Z",
+    "count": 1889
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 752,
+      "count": 753,
       "items": [
+        1667730993,
         1667470215,
         1667451885,
         1667433511,
@@ -768,8 +769,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 736,
+      "count": 737,
       "items": [
+        1667730993,
         1667470215,
         1667451885,
         1667433511,
@@ -3418,8 +3420,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#f97316",
-      "count": 190,
+      "count": 191,
       "items": [
+        1667730993,
         1667451885,
         1666917552,
         1666917547,
@@ -7593,6 +7596,7 @@
       "name": "AI · Develop",
       "color": "#9C7A5A",
       "members": [
+        1667730993,
         1667470215,
         1667451885,
         1667433511,
@@ -7703,7 +7707,7 @@
         441432575,
         184076073
       ],
-      "count": 109
+      "count": 110
     },
     {
       "id": "galaxy-259",
@@ -46388,6 +46392,55 @@
   ],
   "items": [
     {
+      "_id": 1667730993,
+      "link": "https://github.com/paoloanzn/free-code",
+      "excerpt": "",
+      "note": "Claude Code 的 free build：去遥测（OpenTelemetry/GrowthBook/Sentry 全 stub）+ 去安全 prompt 限制（hardcoded refusal/cyber risk/managed-settings 全剥离）+ 解锁全部 45+ 实验功能（ULTRAPLAN/ULTRATHINK/VOICE_MODE/AGENT_TRIGGERS/BRIDGE_MODE 等）。Bun 构建，一行 curl 安装，直接用 Anthropic API Key 跑",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-04-01T00:29:08.877Z",
+      "lastUpdate": "2026-04-01T00:29:08.877Z",
+      "domain": "github.com",
+      "title": "https://github.com/paoloanzn/free-code",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1667730993,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "去遥测（OpenTelemetry/GrowthBook/Sentry 全 st"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ],
+      "summary": "free-code — Claude Code 去遥测去限制全功能解锁版，88 个 feature flag 审计+45+ 解锁"
+    },
+    {
       "_id": 1667470215,
       "link": "https://x.com/pluvio9yte/status/2038980082471997921",
       "excerpt": "",
@@ -46432,8 +46485,8 @@
       ],
       "themes": [
         "ai",
-        "develop",
-        "article"
+        "article",
+        "develop"
       ],
       "summary": "Claude Code 源码启发的 5 条实践——Vibe Coding 的尽头是工程化"
     },
