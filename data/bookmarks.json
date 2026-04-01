@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-04-01T04:14:19.680Z",
-    "count": 1896
+    "syncedAt": "2026-04-01T04:24:35.933Z",
+    "count": 1897
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 758,
+      "count": 759,
       "items": [
+        1667876473,
         1667873741,
         1667830096,
         1667830092,
@@ -774,8 +775,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 742,
+      "count": 743,
       "items": [
+        1667876473,
         1667873741,
         1667830096,
         1667830092,
@@ -7640,6 +7642,7 @@
       "name": "AI · Develop",
       "color": "#5A7A6B",
       "members": [
+        1667876473,
         1667873741,
         1667730993,
         1667470215,
@@ -7752,7 +7755,7 @@
         441432575,
         184076073
       ],
-      "count": 111
+      "count": 112
     },
     {
       "id": "galaxy-262",
@@ -48434,6 +48437,55 @@
     }
   ],
   "items": [
+    {
+      "_id": 1667876473,
+      "link": "https://x.com/itsolelehmann/status/2039018963611627545",
+      "excerpt": "",
+      "note": "Ole Lehmann 对 Claude Code KAIROS 模式的科普解读（40 万阅读）。KAIROS = 始终在线的主动 Agent：每隔几秒收到 heartbeat 问现在有什么值得做的吗？。三个独享工具：推送通知（手机/桌面）、文件投递（主动发送创建物）、PR 订阅（监听 GitHub 变更自动反应）。夜间跑 autoDream 整合白天学到的东西。跨 session 持久化。他的结论：post-prompting 时代——AI 在后台替你工作不需要你提问",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-04-01T04:24:24.070Z",
+      "lastUpdate": "2026-04-01T04:24:24.070Z",
+      "domain": "x.com",
+      "title": "https://x.com/itsolelehmann/status/2039018963611627545",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1667876473,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "AI 在后台替你工作不需要你提问",
+        "每隔几秒收到 heartbeat 问现在有什么值得做的吗？",
+        "推送通知（手机/桌面）、文件投递（主动发送创建物）、PR 订阅（监听 GitHu"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ],
+      "summary": "KAIROS = Claude Code 的 post-prompting 终态——始终在线的主动 Agent"
+    },
     {
       "_id": 1667873741,
       "link": "https://x.com/geoffreylitt/status/2039167509731983383",
