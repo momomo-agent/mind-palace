@@ -2441,5 +2441,17 @@
       "desc": "Accomplish 使用教程和评测",
       "url": "https://microlaunch.net/h/how-to-automate-file-management-and-document-workflows-with-ai-on-your-desktop"
     }
+  ],
+  "https://x.com/jiayuan_jy/status/2039241051605791028": [
+    {
+      "title": "Multica GitHub",
+      "desc": "源码仓库，Go 后端 + Next.js 前端 + 本地 agent daemon",
+      "url": "https://github.com/multica-ai/multica"
+    },
+    {
+      "title": "Reddit: PM for agentic-human collaboration",
+      "desc": "讨论人+AI 混合工作流的项目管理方案",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rl3wl1/project_management_for_agentichuman_collaboration/"
+    }
   ]
 }
