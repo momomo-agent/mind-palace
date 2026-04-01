@@ -2429,5 +2429,17 @@
       "desc": "可交互的 inkField 水墨生成体验",
       "url": "https://aluanwang.com/inkField/index.html"
     }
+  ],
+  "https://github.com/accomplish-ai/accomplish": [
+    {
+      "title": "Accomplish 官网",
+      "desc": "产品介绍、下载和博客",
+      "url": "https://www.accomplish.ai/"
+    },
+    {
+      "title": "How to automate file management with AI",
+      "desc": "Accomplish 使用教程和评测",
+      "url": "https://microlaunch.net/h/how-to-automate-file-management-and-document-workflows-with-ai-on-your-desktop"
+    }
   ]
 }
