@@ -2408,5 +2408,12 @@
       "desc": "Qwen 团队官方技术博客，详细介绍 Thinker-Talker 架构升级和性能评测",
       "url": "https://qwen.ai/blog?id=qwen3.5-omni"
     }
+  ],
+  "https://hermes-agent.nousresearch.com/": [
+    {
+      "title": "Hermes Agent GitHub",
+      "desc": "源码仓库，MIT 协议，Python 实现",
+      "url": "https://github.com/nousresearch/hermes-agent"
+    }
   ]
 }
