@@ -2453,5 +2453,17 @@
       "desc": "讨论人+AI 混合工作流的项目管理方案",
       "url": "https://www.reddit.com/r/ClaudeCode/comments/1rl3wl1/project_management_for_agentichuman_collaboration/"
     }
+  ],
+  "https://x.com/dingyi/status/2039298177061511399": [
+    {
+      "title": "CSS-Tricks: A Serene CSS Dappled Light Effect",
+      "desc": "2022年原始文章，用CSS shadow和blend模拟自然斑驳光",
+      "url": "https://css-tricks.com/css-dappled-light-effect/"
+    },
+    {
+      "title": "Theme Switch Demo",
+      "desc": "dingyi 的 vibe demo，支持 sunny/rainy/moonlight 模式切换",
+      "url": "https://theme-switch.pages.dev/"
+    }
   ]
 }
