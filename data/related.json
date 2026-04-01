@@ -2422,5 +2422,12 @@
       "desc": "开源项目仓库，Lean 4 实现",
       "url": "https://github.com/the-omega-institute/automath"
     }
+  ],
+  "https://aluanwang.com/short-form/inkfield2026/": [
+    {
+      "title": "inkField 在线 Demo",
+      "desc": "可交互的 inkField 水墨生成体验",
+      "url": "https://aluanwang.com/inkField/index.html"
+    }
   ]
 }
