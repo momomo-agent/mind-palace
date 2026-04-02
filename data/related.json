@@ -2520,5 +2520,17 @@
       "desc": "ColaOS 首条官方发布推文（已收藏）",
       "url": "https://x.com/ColaOSofficial/status/2039372247501336874"
     }
+  ],
+  "https://x.com/feitengli/status/2039639771912515584": [
+    {
+      "title": "OmniVoice GitHub",
+      "desc": "OmniVoice 开源仓库，代码+模型",
+      "url": "https://github.com/k2-fsa/OmniVoice"
+    },
+    {
+      "title": "ZipVoice — Fast Zero-Shot TTS",
+      "desc": "同团队的轻量 TTS：123M 参数，基于 flow matching",
+      "url": "https://github.com/k2-fsa/ZipVoice"
+    }
   ]
 }
