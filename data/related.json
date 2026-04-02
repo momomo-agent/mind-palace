@@ -2477,5 +2477,17 @@
       "desc": "为什么 Personal AI OS 是自智能手机以来最重要的技术转变",
       "url": "https://www.zerotoai.in/blogs/personal-ai-operating-systems-2026"
     }
+  ],
+  "https://github.com/ghuntley/how-to-ralph-wiggum": [
+    {
+      "title": "Everything is a Ralph Loop",
+      "desc": "Geoffrey Huntley 原文：一切都是循环，用 loop 自动化工程师职能",
+      "url": "https://ghuntley.com/loop/"
+    },
+    {
+      "title": "Inventing the Ralph Wiggum Loop — Creator Geoffrey Huntley",
+      "desc": "播客访谈：bash loop + 确定性 context 分配如何改变单人开发",
+      "url": "https://devinterrupted.substack.com/p/inventing-the-ralph-wiggum-loop-creator"
+    }
   ]
 }
