@@ -2489,5 +2489,17 @@
       "desc": "播客访谈：bash loop + 确定性 context 分配如何改变单人开发",
       "url": "https://devinterrupted.substack.com/p/inventing-the-ralph-wiggum-loop-creator"
     }
+  ],
+  "https://x.com/wquguru/status/2039519918291611656": [
+    {
+      "title": "Skill Issue: Harness Engineering for Coding Agents",
+      "desc": "Harness Engineering 是 context engineering 的子集，专注管理 coding agent 的 context window",
+      "url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents"
+    },
+    {
+      "title": "Harness Engineering: From Claude Code to AI Coding",
+      "desc": "张汉东老师的 Harness Engineering 专著，从 Claude Code 出发到 AI Coding 全景",
+      "url": "https://zhanghandong.github.io/harness-engineering-from-cc-to-ai-coding/"
+    }
   ]
 }
