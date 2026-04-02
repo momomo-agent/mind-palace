@@ -2532,5 +2532,17 @@
       "desc": "同团队的轻量 TTS：123M 参数，基于 flow matching",
       "url": "https://github.com/k2-fsa/ZipVoice"
     }
+  ],
+  "https://x.com/anthropicai/status/2039749628737019925": [
+    {
+      "title": "Emotion concepts and their function in a LLM",
+      "desc": "Anthropic 研究博客全文",
+      "url": "https://www.anthropic.com/research/emotion-concepts-function"
+    },
+    {
+      "title": "Emotion concepts paper (full)",
+      "desc": "完整论文",
+      "url": "https://transformer-circuits.pub/2026/emotions/index.html"
+    }
   ]
 }
