@@ -2501,5 +2501,17 @@
       "desc": "张汉东老师的 Harness Engineering 专著，从 Claude Code 出发到 AI Coding 全景",
       "url": "https://zhanghandong.github.io/harness-engineering-from-cc-to-ai-coding/"
     }
+  ],
+  "https://x.com/AYi_AInotes/status/2039388762116088205": [
+    {
+      "title": "Elon Musk's Semantic Trees",
+      "desc": "语义树方法的详细拆解：用基础知识作为新学习的 hooks",
+      "url": "https://samueljtanner.blog/2020/11/20/elon-musks-semantic-trees/"
+    },
+    {
+      "title": "How To Utilize The Tree Principle of Learning",
+      "desc": "树形学习原则实操指南：从根到枝的学习路径设计",
+      "url": "https://hive.com/blog/tree-principle-of-learning-roots-branches/"
+    }
   ]
 }
