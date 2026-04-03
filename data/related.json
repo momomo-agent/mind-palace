@@ -2544,5 +2544,17 @@
       "desc": "完整论文",
       "url": "https://transformer-circuits.pub/2026/emotions/index.html"
     }
+  ],
+  "https://x.com/IndieDevHailey/status/2039899502518362292": [
+    {
+      "title": "Brow6el — Sixel 图形终端浏览器",
+      "desc": "另一种思路：用 sixel 图形协议在终端渲染完整网页，底层也是 Chromium 渲染",
+      "url": "https://hackaday.com/2026/01/01/terminal-based-web-browsing-with-modern-conveniences/"
+    },
+    {
+      "title": "Reddit: Carbonyl vs Browsh 对比讨论",
+      "desc": "社区讨论 Carbonyl 与 Browsh 的差异，Docker 容器仅 50MB 内存",
+      "url": "https://www.reddit.com/r/browsers/comments/10oyepk/carbonyl_a_chromiumbased_web_browser_running_in_a/"
+    }
   ]
 }
