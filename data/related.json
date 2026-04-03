@@ -2556,5 +2556,17 @@
       "desc": "社区讨论 Carbonyl 与 Browsh 的差异，Docker 容器仅 50MB 内存",
       "url": "https://www.reddit.com/r/browsers/comments/10oyepk/carbonyl_a_chromiumbased_web_browser_running_in_a/"
     }
+  ],
+  "https://x.com/jackywine/status/2039966721478721737": [
+    {
+      "title": "Andy Matuschak — Evergreen Notes 笔记方法论",
+      "desc": "常青笔记原创者 Andy Matuschak 的笔记系统，文中多次引用的理论来源",
+      "url": "https://notes.andymatuschak.org/zGkLPdiEs7Qohkesq7TNiBe"
+    },
+    {
+      "title": "Obsidian + AI 实践 Evergreen Notes（视频教程）",
+      "desc": "受 Andy Matuschak 启发，在 Obsidian 中用 AI 辅助构建常青笔记的实操",
+      "url": "https://www.youtube.com/watch?v=Pz1zhCyAq0M"
+    }
   ]
 }
