@@ -2568,5 +2568,12 @@
       "desc": "受 Andy Matuschak 启发，在 Obsidian 中用 AI 辅助构建常青笔记的实操",
       "url": "https://www.youtube.com/watch?v=Pz1zhCyAq0M"
     }
+  ],
+  "https://x.com/dotey/status/2040157640442229153": [
+    {
+      "title": "RAG Is Broken — Vercel 用 grep 替代向量数据库",
+      "desc": "详细解读 Vercel 如何用传统文本搜索工具替代向量检索，与 Mintlify 方案异曲同工",
+      "url": "https://thamizhelango.medium.com/rag-is-broken-vercel-ditched-vector-databases-and-built-a-knowledge-agent-with-grep-instead-7f9e36532b23"
+    }
   ]
 }
