@@ -2606,5 +2606,17 @@
       "desc": "OpenAI Realtime API 官方文档",
       "url": "https://platform.openai.com/docs/guides/realtime"
     }
+  ],
+  "https://x.com/ayi_ainotes/status/2040454120281419833": [
+    {
+      "title": "Open Multi-Agent GitHub",
+      "desc": "项目源码仓库，3.9k stars",
+      "url": "https://github.com/JackChen-me/open-multi-agent"
+    },
+    {
+      "title": "AutoGen - Multi-Agent Conversation Framework",
+      "desc": "微软的多 agent 对话框架，Python 生态的标杆",
+      "url": "https://github.com/microsoft/autogen"
+    }
   ]
 }
