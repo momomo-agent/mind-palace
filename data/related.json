@@ -2587,5 +2587,17 @@
       "desc": "最流行的 LLM 应用框架",
       "url": "https://github.com/langchain-ai/langchain"
     }
+  ],
+  "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant": [
+    {
+      "title": "just-bash - TypeScript reimplementation of bash",
+      "desc": "Vercel Labs 的 TypeScript bash 重实现，ChromaFs 的底层依赖",
+      "url": "https://github.com/vercel-labs/just-bash"
+    },
+    {
+      "title": "Agents converging on filesystems as primary interface",
+      "desc": "论文：agent 正在收敛到文件系统作为主要交互接口",
+      "url": "https://arxiv.org/abs/2601.11672"
+    }
   ]
 }
