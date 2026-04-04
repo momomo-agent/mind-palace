@@ -2618,5 +2618,17 @@
       "desc": "微软的多 agent 对话框架，Python 生态的标杆",
       "url": "https://github.com/microsoft/autogen"
     }
+  ],
+  "https://x.com/ayi_ainotes/status/2040512739739881714": [
+    {
+      "title": "PersonaPlex GitHub",
+      "desc": "项目源码，MIT 开源",
+      "url": "https://github.com/NVIDIA/PersonaPlex"
+    },
+    {
+      "title": "Moshi - Full-Duplex Speech Model",
+      "desc": "PersonaPlex 的基础架构 Moshi 论文",
+      "url": "https://arxiv.org/abs/2410.00037"
+    }
   ]
 }
