@@ -2575,5 +2575,17 @@
       "desc": "详细解读 Vercel 如何用传统文本搜索工具替代向量检索，与 Mintlify 方案异曲同工",
       "url": "https://thamizhelango.medium.com/rag-is-broken-vercel-ditched-vector-databases-and-built-a-knowledge-agent-with-grep-instead-7f9e36532b23"
     }
+  ],
+  "https://github.com/Athena-AI-Lab/athena-core": [
+    {
+      "title": "OpenClaw - AI Agent Runtime",
+      "desc": "我们自己的 agent 框架，类似定位",
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "title": "LangChain - Building applications with LLMs",
+      "desc": "最流行的 LLM 应用框架",
+      "url": "https://github.com/langchain-ai/langchain"
+    }
   ]
 }
