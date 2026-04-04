@@ -2599,5 +2599,12 @@
       "desc": "论文：agent 正在收敛到文件系统作为主要交互接口",
       "url": "https://arxiv.org/abs/2601.11672"
     }
+  ],
+  "https://x.com/openaidevs/status/2040094154899050515": [
+    {
+      "title": "OpenAI Realtime API Guide",
+      "desc": "OpenAI Realtime API 官方文档",
+      "url": "https://platform.openai.com/docs/guides/realtime"
+    }
   ]
 }
