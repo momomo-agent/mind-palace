@@ -2630,5 +2630,12 @@
       "desc": "PersonaPlex 的基础架构 Moshi 论文",
       "url": "https://arxiv.org/abs/2410.00037"
     }
+  ],
+  "https://x.com/karpathy/status/2040470801506541998": [
+    {
+      "title": "Karpathy LLM Wiki Idea File",
+      "desc": "完整的 idea file，可直接给 agent 执行",
+      "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+    }
   ]
 }
