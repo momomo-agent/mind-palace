@@ -2644,5 +2644,17 @@
       "desc": "今天早上已收藏的 Karpathy LLM Wiki 原帖",
       "url": "https://x.com/karpathy/status/2040470801506541998"
     }
+  ],
+  "https://x.com/zeroz_jq/status/2040468390549311996": [
+    {
+      "title": "VKFS GitHub",
+      "desc": "项目源码，Go 实现，MIT 开源",
+      "url": "https://github.com/ZeroZ-lab/vkfs"
+    },
+    {
+      "title": "Mintlify ChromaFs",
+      "desc": "今天早上已收藏，同一赛道的先行者",
+      "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant"
+    }
   ]
 }
