@@ -2710,5 +2710,17 @@
       "desc": "项目源码，Apache 2.0",
       "url": "https://github.com/kellyvv/PhoneClaw"
     }
+  ],
+  "https://mp.weixin.qq.com/s/NC3gcYWjfSFP5s4w85SmUA": [
+    {
+      "title": "Transformers.js v4 Release Notes",
+      "desc": "官方发布说明",
+      "url": "https://github.com/huggingface/transformers.js/releases/tag/4.0.0"
+    },
+    {
+      "title": "Qwen3.5 WebGPU Demo",
+      "desc": "浏览器直接跑 Qwen3.5",
+      "url": "https://huggingface.co/spaces/webml-community/Qwen3.5-WebGPU"
+    }
   ]
 }
