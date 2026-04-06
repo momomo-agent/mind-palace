@@ -2663,5 +2663,12 @@
       "desc": "模型下载地址",
       "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
     }
+  ],
+  "https://x.com/lonely__mh/status/2040965338217791992": [
+    {
+      "title": "llmfit GitHub",
+      "desc": "项目源码",
+      "url": "https://github.com/AlexsJones/llmfit"
+    }
   ]
 }
