@@ -2703,5 +2703,12 @@
       "desc": "Web 版本，按硬件推荐本地模型",
       "url": "https://www.whatcani.run/"
     }
+  ],
+  "https://x.com/kellyv_ai/status/2040895967860547836": [
+    {
+      "title": "PhoneClaw GitHub",
+      "desc": "项目源码，Apache 2.0",
+      "url": "https://github.com/kellyvv/PhoneClaw"
+    }
   ]
 }
