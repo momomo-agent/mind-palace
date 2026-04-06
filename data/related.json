@@ -2656,5 +2656,12 @@
       "desc": "今天早上已收藏，同一赛道的先行者",
       "url": "https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant"
     }
+  ],
+  "https://x.com/lonely__mh/status/2040832951206961413": [
+    {
+      "title": "Gemma-4-31B-JANG_4M-CRACK on HuggingFace",
+      "desc": "模型下载地址",
+      "url": "https://huggingface.co/dealignai/Gemma-4-31B-JANG_4M-CRACK"
+    }
   ]
 }
