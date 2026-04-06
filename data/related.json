@@ -2677,5 +2677,17 @@
       "desc": "官方文档详细说明",
       "url": "https://docs.openclaw.ai/concepts/dreaming"
     }
+  ],
+  "https://x.com/vikingmute/status/2040786432822825243": [
+    {
+      "title": "WICG HTML-in-Canvas Proposal",
+      "desc": "W3C 提案原文",
+      "url": "https://github.com/WICG/html-in-canvas"
+    },
+    {
+      "title": "HTML-in-Canvas 原理解释文章",
+      "desc": "vikingmute 写的中文原理文章",
+      "url": "https://ai-battle.vikingz.me/article"
+    }
   ]
 }
