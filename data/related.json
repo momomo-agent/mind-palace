@@ -2696,5 +2696,12 @@
       "desc": "项目管理工具，已将首页改为 chat bar",
       "url": "https://linear.app"
     }
+  ],
+  "https://x.com/dingyi/status/2041079227748106506": [
+    {
+      "title": "whatcani.run",
+      "desc": "Web 版本，按硬件推荐本地模型",
+      "url": "https://www.whatcani.run/"
+    }
   ]
 }
