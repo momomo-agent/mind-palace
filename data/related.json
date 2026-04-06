@@ -2689,5 +2689,12 @@
       "desc": "vikingmute 写的中文原理文章",
       "url": "https://ai-battle.vikingz.me/article"
     }
+  ],
+  "https://x.com/rabi_guha/status/2040082295563169852": [
+    {
+      "title": "Linear",
+      "desc": "项目管理工具，已将首页改为 chat bar",
+      "url": "https://linear.app"
+    }
   ]
 }
