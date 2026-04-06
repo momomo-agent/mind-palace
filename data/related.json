@@ -2670,5 +2670,12 @@
       "desc": "项目源码",
       "url": "https://github.com/AlexsJones/llmfit"
     }
+  ],
+  "https://x.com/openclaw/status/2040998577372021026": [
+    {
+      "title": "OpenClaw Dreaming Docs",
+      "desc": "官方文档详细说明",
+      "url": "https://docs.openclaw.ai/concepts/dreaming"
+    }
   ]
 }
