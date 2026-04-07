@@ -2736,5 +2736,12 @@
       "desc": "源码仓库，MIT 开源",
       "url": "https://github.com/Milla-Jovovich/MemPalace"
     }
+  ],
+  "https://x.com/billtheinvestor/status/2041442952443240878": [
+    {
+      "title": "Hermes Agent LLM-Wiki PR",
+      "desc": "LLM-Wiki 集成的 PR",
+      "url": "https://github.com/NousResearch/hermes-agent/pull/5100"
+    }
   ]
 }
