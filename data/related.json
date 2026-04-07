@@ -2722,5 +2722,12 @@
       "desc": "浏览器直接跑 Qwen3.5",
       "url": "https://huggingface.co/spaces/webml-community/Qwen3.5-WebGPU"
     }
+  ],
+  "https://mp.weixin.qq.com/s/QG99OoKOdFA3lpBhVcKUpA": [
+    {
+      "title": "Joanne Jang 离职公开信",
+      "desc": "Joanne 在 X 上的离职长文",
+      "url": "https://x.com/joannejang/status/2041267523107299557"
+    }
   ]
 }
