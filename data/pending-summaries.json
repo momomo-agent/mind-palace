@@ -1,5 +1,6 @@
 {
   "https://test.com/summary-v2": "验证pending summary机制：新条目的summary先存pending，sync时自动合并",
   "https://x.com/berryxia/status/2034030584671134087": "LabClaw：斯坦福-普林斯顿开源，一条命令让 OpenClaw agent 变成 AI 合作科学家",
-  "https://labclaw-ai.github.io": "LabClaw demo site"
+  "https://labclaw-ai.github.io": "LabClaw demo site",
+  "https://www.mindstudio.ai/blog/what-is-design-md-google-stitch/": "DESIGN.md 是 AI 的设计系统 system prompt"
 }
