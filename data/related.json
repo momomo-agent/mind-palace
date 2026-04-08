@@ -2779,5 +2779,17 @@
       "desc": "Figma 官方博客介绍 Claude Code to Figma 功能，让代码回流到设计画布",
       "url": "https://www.figma.com/blog/introducing-claude-code-to-figma/"
     }
+  ],
+  "https://x.com/QingQ77/status/2041730755186061403": [
+    {
+      "title": "GitHub - fikrikarim/parlor",
+      "desc": "Parlor 源码仓库，on-device 实时多模态 AI，Gemma 4 E2B + Kokoro TTS",
+      "url": "https://github.com/fikrikarim/parlor"
+    },
+    {
+      "title": "Parlor: Real-Time Multimodal AI Achieves 2.5s Latency on Consumer Hardware",
+      "desc": "Parlor 技术架构分析：Browser → WebSocket → FastAPI → Gemma 4 E2B → WebSocket → Browser",
+      "url": "https://www.simplenews.ai/news/parlor-real-time-multimodal-ai-achieves-25s-latency-on-consumer-hardware-ukkv"
+    }
   ]
 }
