@@ -2803,5 +2803,17 @@
       "desc": "Canvas 交互图形和动画综合指南，包括基于物理的动画、重力、摩擦力、碰撞检测",
       "url": "https://blog.devgenius.io/mastering-the-art-of-canvas-a-comprehensive-guide-to-interactive-web-graphics-and-animations-cd8922d41238"
     }
+  ],
+  "https://skills.sh/yofine/skills/blueprinter": [
+    {
+      "title": "Diagrams in software design - forward or backward design?",
+      "desc": "draw.io 博客讨论软件设计中的技术图表：前向设计 vs 后向设计，如何用图表设计接口和用户流程",
+      "url": "https://www.drawio.com/blog/diagrams-software-design"
+    },
+    {
+      "title": "How to Create A Good Technical Drawing",
+      "desc": "Xometry 技术绘图最佳实践：符合 ASME/ISO 标准的模板、标题栏、比例选择",
+      "url": "https://www.xometry.com/resources/design-guides/technical-drawing-best-practices/"
+    }
   ]
 }
