@@ -2743,5 +2743,17 @@
       "desc": "LLM-Wiki 集成的 PR",
       "url": "https://github.com/NousResearch/hermes-agent/pull/5100"
     }
+  ],
+  "https://x.com/turingou/status/2041515302467543276": [
+    {
+      "title": "Autonomous Observability: AI Agents That Debug AI",
+      "desc": "自主可观测性范式：AI agent 持续消费遥测和日志，自动诊断、定位甚至修复问题",
+      "url": "https://www.computer.org/publications/tech-news/community-voices/autonomous-observability-ai-agents"
+    },
+    {
+      "title": "AI Agent Observability: Tracing, Testing, and Improving Agents",
+      "desc": "LangChain 的 agent 可观测性方案：trace 分析、自动捕获失败、系统性质量改进",
+      "url": "https://www.langchain.com/articles/agent-observability"
+    }
   ]
 }
