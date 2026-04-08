@@ -2755,5 +2755,17 @@
       "desc": "LangChain 的 agent 可观测性方案：trace 分析、自动捕获失败、系统性质量改进",
       "url": "https://www.langchain.com/articles/agent-observability"
     }
+  ],
+  "https://www.anthropic.com/glasswing": [
+    {
+      "title": "Claude Mythos Preview",
+      "desc": "Anthropic 红队博客介绍 Mythos Preview 发现的漏洞案例，包括生产环境内存安全 VMM 的内存损坏漏洞",
+      "url": "https://red.anthropic.com/2026/mythos-preview/"
+    },
+    {
+      "title": "Anthropic's Project Glasswing—restricting Claude Mythos to security",
+      "desc": "Simon Willison 对 Glasswing 的分析：Mythos 能力已超越绝大多数人类，必须限制访问用于防御",
+      "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/"
+    }
   ]
 }
