@@ -2767,5 +2767,17 @@
       "desc": "Simon Willison 对 Glasswing 的分析：Mythos 能力已超越绝大多数人类，必须限制访问用于防御",
       "url": "https://simonwillison.net/2026/Apr/7/project-glasswing/"
     }
+  ],
+  "https://www.weship.today/": [
+    {
+      "title": "Claude Code to Figma: Tutorial, Limitations, and a Better Approach",
+      "desc": "Builder.io 的 Claude Code to Figma 教程，捕获浏览器实际渲染状态转为可编辑 Figma 组件",
+      "url": "https://www.builder.io/blog/claude-code-to-figma"
+    },
+    {
+      "title": "From Claude Code to Figma: Turning Production Code into Editable Designs",
+      "desc": "Figma 官方博客介绍 Claude Code to Figma 功能，让代码回流到设计画布",
+      "url": "https://www.figma.com/blog/introducing-claude-code-to-figma/"
+    }
   ]
 }
