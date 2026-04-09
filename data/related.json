@@ -2914,5 +2914,19 @@
       "title": "Screen-AI: Building a Native macOS App Overnight Without Knowing Swift",
       "url": "https://kusog.ai/blog/2026/02/screen-ai-building-a-macos-app-overnight-with-claude-code/"
     }
+  ],
+  "https://x.com/xiaokedada/status/2042113510415687777": [
+    {
+      "title": "Mario and Earendil — Armin Ronacher",
+      "url": "https://lucumr.pocoo.org/2026/4/8/mario-and-earendil/"
+    },
+    {
+      "title": "Pi - The AI Harness That Powers OpenClaw — Syntax Podcast",
+      "url": "https://syntax.fm/show/976/pi-the-ai-harness-that-powers-openclaw-w-armin-ronacher-and-mario-zechner"
+    },
+    {
+      "title": "Pi: The Minimal Agent Within OpenClaw — Armin Ronacher",
+      "url": "https://lucumr.pocoo.org/2026/1/31/pi/"
+    }
   ]
 }
