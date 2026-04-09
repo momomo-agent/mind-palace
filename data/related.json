@@ -2858,5 +2858,17 @@
       "desc": "arXiv 论文：Apple Silicon 上的原生 LLM 和 MLLM 大规模推理，M4 Max 128GB 测试多个模型架构",
       "url": "https://arxiv.org/html/2601.19139v1"
     }
+  ],
+  "https://x.com/claudeai/status/2041927687460024721": [
+    {
+      "title": "Claude Managed Agents: get to production 10x faster",
+      "desc": "Anthropic 官方博客：Claude Managed Agents 是一套可组合的 API，用于构建和部署云托管 agent。包括安全基础设施、状态管理、权限控制",
+      "url": "https://claude.com/blog/claude-managed-agents"
+    },
+    {
+      "title": "12 Production AI Agent Primitives Every Builder Should Know",
+      "desc": "从 Claude Code 泄露中总结的 12 个生产级 AI agent 基础设施原语：工具注册、权限、会话状态等应该先设计，不是后补",
+      "url": "https://www.mindstudio.ai/blog/12-production-ai-agent-primitives-claude-code-leak/"
+    }
   ]
 }
