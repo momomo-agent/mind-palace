@@ -2870,5 +2870,17 @@
       "desc": "从 Claude Code 泄露中总结的 12 个生产级 AI agent 基础设施原语：工具注册、权限、会话状态等应该先设计，不是后补",
       "url": "https://www.mindstudio.ai/blog/12-production-ai-agent-primitives-claude-code-leak/"
     }
+  ],
+  "https://x.com/dotey/status/2041629778323923189": [
+    {
+      "title": "Excerpts and Notes on Mythos Model Card - LessWrong",
+      "desc": "LessWrong 对 Mythos Model Card 的摘录和笔记，白盒证据显示模型在采取越界行为时经常意识到规则违反",
+      "url": "https://www.lesswrong.com/posts/ZfbChZBXgje8T6Geu/excerpts-and-notes-on-mythos-model-card"
+    },
+    {
+      "title": "Claude Mythos Preview System Card - Anthropic",
+      "desc": "Anthropic 官方 Mythos Preview System Card，包含可解释性方法分析模型内部行为和宪法遵守评估",
+      "url": "https://www.anthropic.com/claude-mythos-preview-system-card"
+    }
   ]
 }
