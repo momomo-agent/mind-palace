@@ -2882,5 +2882,17 @@
       "desc": "Anthropic 官方 Mythos Preview System Card，包含可解释性方法分析模型内部行为和宪法遵守评估",
       "url": "https://www.anthropic.com/claude-mythos-preview-system-card"
     }
+  ],
+  "https://www.anthropic.com/engineering/managed-agents": [
+    {
+      "title": "Harness design for long-running application development - Anthropic",
+      "desc": "Anthropic 长时间运行 harness 设计：初始化 agent → 编码 agent → context 重置的架构模式",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
+    },
+    {
+      "title": "Effective harnesses for long-running agents - Anthropic",
+      "desc": "长时间运行 agent 的核心挑战：每个新 session 开始时没有之前工作的记忆。类比换班工程师，新人必须重新了解上下文",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
   ]
 }
