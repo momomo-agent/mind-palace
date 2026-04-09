@@ -2904,5 +2904,15 @@
       "title": "Gemma 4 31B vs Claude Opus 4.5 - Model Comparison",
       "url": "https://artificialanalysis.ai/models/comparisons/gemma-4-31b-vs-claude-opus-4-5"
     }
+  ],
+  "https://github.com/farzaa/clicky": [
+    {
+      "title": "Clippi — AI buddy that lives next to your cursor",
+      "url": "https://clippi.us/"
+    },
+    {
+      "title": "Screen-AI: Building a Native macOS App Overnight Without Knowing Swift",
+      "url": "https://kusog.ai/blog/2026/02/screen-ai-building-a-macos-app-overnight-with-claude-code/"
+    }
   ]
 }
