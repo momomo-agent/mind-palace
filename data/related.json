@@ -2846,5 +2846,17 @@
       "desc": "Google Stitch 官方博客介绍 DESIGN.md，可以从任何 URL 提取设计系统，或用 DESIGN.md 导入导出设计规则",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/"
     }
+  ],
+  "https://x.com/berryxia/status/2041828745569513906": [
+    {
+      "title": "Gemma 4 on Apple Silicon: All Four Models Compared",
+      "desc": "MLX 是 Apple Silicon 优化器，社区对 Gemma 4 的支持几乎立即到位，MLX 优化模型性能超过 GGUF 推理",
+      "url": "https://sudoall.com/gemma-4-31b-apple-silicon-local-guide/"
+    },
+    {
+      "title": "Native LLM and MLLM Inference at Scale on Apple Silicon",
+      "desc": "arXiv 论文：Apple Silicon 上的原生 LLM 和 MLLM 大规模推理，M4 Max 128GB 测试多个模型架构",
+      "url": "https://arxiv.org/html/2601.19139v1"
+    }
   ]
 }
