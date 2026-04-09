@@ -2894,5 +2894,15 @@
       "desc": "长时间运行 agent 的核心挑战：每个新 session 开始时没有之前工作的记忆。类比换班工程师，新人必须重新了解上下文",
       "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
     }
+  ],
+  "https://x.com/billtheinvestor/status/2041982161239339463": [
+    {
+      "title": "kai-os/gemma4-31b-Opus-4.6-reasoning - Hugging Face",
+      "url": "https://huggingface.co/kai-os/gemma4-31b-Opus-4.6-reasoning"
+    },
+    {
+      "title": "Gemma 4 31B vs Claude Opus 4.5 - Model Comparison",
+      "url": "https://artificialanalysis.ai/models/comparisons/gemma-4-31b-vs-claude-opus-4-5"
+    }
   ]
 }
