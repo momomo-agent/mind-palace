@@ -2982,5 +2982,17 @@
       "title": "Welcome Gemma 4: Frontier multimodal intelligence on device — HuggingFace",
       "url": "https://huggingface.co/blog/gemma4"
     }
+  ],
+  "https://x.com/zenzhe99/status/2042504519225847937": [
+    {
+      "title": "Anthropic: Stop Building Agents, Build Skills Instead",
+      "desc": "cto4.ai 对这场演讲的深度解读，逐段分析 Barry 和 Mahesh 的核心论点",
+      "url": "https://cto4.ai/p/anthropic-stop-building-agents-start-building-skills"
+    },
+    {
+      "title": "Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag",
+      "desc": "AIECS 演讲原始 YouTube 视频",
+      "url": "https://www.youtube.com/watch?v=CEvIs9y1uog"
+    }
   ]
 }
