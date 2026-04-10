@@ -2994,5 +2994,17 @@
       "desc": "AIECS 演讲原始 YouTube 视频",
       "url": "https://www.youtube.com/watch?v=CEvIs9y1uog"
     }
+  ],
+  "https://x.com/karpathy/status/2042334451611693415": [
+    {
+      "title": "Verifiability | Karpathy",
+      "desc": "Karpathy 关于可验证性的深度文章，解释为什么可验证任务最先被 AI 攻克",
+      "url": "https://karpathy.bearblog.dev/verifiability/"
+    },
+    {
+      "title": "AI Psychosis Is Rarely Psychosis at All - WIRED",
+      "desc": "WIRED 对 AI Psychosis 现象的报道",
+      "url": "https://www.wired.com/story/ai-psychosis-is-rarely-psychosis-at-all/"
+    }
   ]
 }
