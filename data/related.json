@@ -2972,5 +2972,15 @@
       "title": "Google AI Research Introduces PaperOrchestra — MarkTechPost",
       "url": "https://www.marktechpost.com/2026/04/08/google-ai-research-introduces-paperorchestra-a-multi-agent-framework-for-automated-ai-research-paper-writing/"
     }
+  ],
+  "https://x.com/JackdeS11/status/2042479232895631384": [
+    {
+      "title": "CoreML-LLM: On-device LLMs on Apple Neural Engine",
+      "url": "https://github.com/john-rocky/CoreML-LLM"
+    },
+    {
+      "title": "Welcome Gemma 4: Frontier multimodal intelligence on device — HuggingFace",
+      "url": "https://huggingface.co/blog/gemma4"
+    }
   ]
 }
