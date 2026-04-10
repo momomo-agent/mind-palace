@@ -2962,5 +2962,15 @@
       "title": "Harness design for long-running application development — Anthropic",
       "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps"
     }
+  ],
+  "https://x.com/dair_ai/status/2041897121948000469": [
+    {
+      "title": "PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing",
+      "url": "https://arxiv.org/abs/2604.05018"
+    },
+    {
+      "title": "Google AI Research Introduces PaperOrchestra — MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/04/08/google-ai-research-introduces-paperorchestra-a-multi-agent-framework-for-automated-ai-research-paper-writing/"
+    }
   ]
 }
