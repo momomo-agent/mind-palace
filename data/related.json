@@ -3066,5 +3066,17 @@
       "desc": "给终端 AI 工具注入 context 的 PTY wrapper",
       "url": "https://github.com/MobAI-App/aibridge"
     }
+  ],
+  "https://x.com/anupambatra_/status/2042720647055577177": [
+    {
+      "title": "tldraw-sync-cloudflare",
+      "desc": "tldraw 的 Cloudflare Durable Objects 多人同步方案",
+      "url": "https://github.com/tldraw/tldraw-sync-cloudflare"
+    },
+    {
+      "title": "tldraw Multiplayer Starter Kit",
+      "desc": "tldraw 多人协作入门套件",
+      "url": "https://tldraw.dev/starter-kits/multiplayer"
+    }
   ]
 }
