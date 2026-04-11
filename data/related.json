@@ -3054,5 +3054,17 @@
       "desc": "书的源码仓库，mdbook 格式，可本地构建",
       "url": "https://github.com/ZhangHanDong/pi-book"
     }
+  ],
+  "https://mobai.run/": [
+    {
+      "title": "mobai-mcp - GitHub",
+      "desc": "MobAI 的 MCP server 开源实现",
+      "url": "https://github.com/MobAI-App/mobai-mcp"
+    },
+    {
+      "title": "AiBridge - PTY wrapper with HTTP API",
+      "desc": "给终端 AI 工具注入 context 的 PTY wrapper",
+      "url": "https://github.com/MobAI-App/aibridge"
+    }
   ]
 }
