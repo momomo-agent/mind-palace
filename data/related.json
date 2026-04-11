@@ -3092,5 +3092,17 @@
       "desc": "刚收藏的 Hermes Agent 文章，GBrain 推荐的两个 agent harness 之一",
       "url": "https://x.com/blocmates/status/2042539396638085339"
     }
+  ],
+  "https://github.com/snarktank/ralph": [
+    {
+      "title": "Geoffrey Huntley 的 Ralph 原始文章",
+      "desc": "Ralph pattern 的提出者",
+      "url": "https://ghuntley.com/ralph/"
+    },
+    {
+      "title": "Ryan Carson 的 Ralph 使用深度文章",
+      "desc": "Ralph 作者的实战经验分享",
+      "url": "https://x.com/ryancarson/status/2008548371712135632"
+    }
   ]
 }
