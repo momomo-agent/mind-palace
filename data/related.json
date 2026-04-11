@@ -3018,5 +3018,17 @@
       "desc": "OpenAI 官方的 CLI 创建 skill，设计命令接口、构建 CLI、安装到 PATH",
       "url": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator"
     }
+  ],
+  "https://x.com/dottchen/status/2042798632307712354": [
+    {
+      "title": "How we built a Linear coding agent: the hard parts",
+      "desc": "Linear 团队分享构建 coding agent 的技术细节和难点",
+      "url": "https://daily.dev/blog/how-we-built-a-linear-coding-agent-the-hard-parts"
+    },
+    {
+      "title": "OpenAI product lead on getting the most out of Codex",
+      "desc": "Codex 产品负责人 Alexander Embiricos 的深度访谈",
+      "url": "https://www.lennysnewsletter.com/p/a-full-software-engineering-teammate"
+    }
   ]
 }
