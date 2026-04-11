@@ -3078,5 +3078,12 @@
       "desc": "tldraw 多人协作入门套件",
       "url": "https://tldraw.dev/starter-kits/multiplayer"
     }
+  ],
+  "https://x.com/blocmates/status/2042539396638085339": [
+    {
+      "title": "Hermes Agent - GitHub",
+      "desc": "Nous Research 的 Hermes Agent 开源仓库",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    }
   ]
 }
