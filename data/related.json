@@ -3042,5 +3042,17 @@
       "desc": "刚收藏的 Dott Chen 推文，个人视角的 Linear+Codex 工作流",
       "url": "https://x.com/dottchen/status/2042798632307712354"
     }
+  ],
+  "https://zhanghandong.github.io/pi-book/": [
+    {
+      "title": "What I learned building an opinionated and minimal coding agent",
+      "desc": "pi 作者 Mario Zechner 自己写的设计回顾",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/"
+    },
+    {
+      "title": "pi-book GitHub 仓库",
+      "desc": "书的源码仓库，mdbook 格式，可本地构建",
+      "url": "https://github.com/ZhangHanDong/pi-book"
+    }
   ]
 }
