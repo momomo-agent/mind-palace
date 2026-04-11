@@ -3006,5 +3006,17 @@
       "desc": "WIRED 对 AI Psychosis 现象的报道",
       "url": "https://www.wired.com/story/ai-psychosis-is-rarely-psychosis-at-all/"
     }
+  ],
+  "https://x.com/dotey/status/2042777337398210713": [
+    {
+      "title": "Create a CLI Codex can use | OpenAI Docs",
+      "desc": "Nick Baumann 写的完整教程，含 cli-creator skill 和 starter prompt",
+      "url": "https://developers.openai.com/codex/use-cases/agent-friendly-clis"
+    },
+    {
+      "title": "OpenAI cli-creator skill",
+      "desc": "OpenAI 官方的 CLI 创建 skill，设计命令接口、构建 CLI、安装到 PATH",
+      "url": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator"
+    }
   ]
 }
