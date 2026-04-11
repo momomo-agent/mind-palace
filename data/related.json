@@ -3085,5 +3085,12 @@
       "desc": "Nous Research 的 Hermes Agent 开源仓库",
       "url": "https://github.com/NousResearch/hermes-agent"
     }
+  ],
+  "https://github.com/garrytan/gbrain": [
+    {
+      "title": "Hermes Agent 深度介绍",
+      "desc": "刚收藏的 Hermes Agent 文章，GBrain 推荐的两个 agent harness 之一",
+      "url": "https://x.com/blocmates/status/2042539396638085339"
+    }
   ]
 }
