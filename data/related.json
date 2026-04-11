@@ -3030,5 +3030,17 @@
       "desc": "Codex 产品负责人 Alexander Embiricos 的深度访谈",
       "url": "https://www.lennysnewsletter.com/p/a-full-software-engineering-teammate"
     }
+  ],
+  "https://linear.app/now/how-we-use-linear-agent-at-linear": [
+    {
+      "title": "An agent cannot be held accountable - Linear",
+      "desc": "Linear 的 AI 设计原则：agent 不能被追责，issue 始终 assigned to 人",
+      "url": "https://linear.app/developers/aig#an-agent-cannot-be-held-accountable"
+    },
+    {
+      "title": "Dott Chen: Linear + Codex workflow",
+      "desc": "刚收藏的 Dott Chen 推文，个人视角的 Linear+Codex 工作流",
+      "url": "https://x.com/dottchen/status/2042798632307712354"
+    }
   ]
 }
