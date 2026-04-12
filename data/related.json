@@ -3123,5 +3123,17 @@
       "desc": "ICLR 2026 Oral 论文的开源实现",
       "url": "https://github.com/gepa-ai/gepa"
     }
+  ],
+  "https://x.com/ayi_ainotes/status/2043167839079506023": [
+    {
+      "title": "VoxCPM GitHub",
+      "desc": "完整代码和模型权重",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "title": "VoxCPM2 在线 Demo",
+      "desc": "HuggingFace Playground",
+      "url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo"
+    }
   ]
 }
