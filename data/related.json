@@ -3104,5 +3104,12 @@
       "desc": "Ralph 作者的实战经验分享",
       "url": "https://x.com/ryancarson/status/2008548371712135632"
     }
+  ],
+  "https://x.com/turingou/status/2042951407167508987": [
+    {
+      "title": "Stripe Projects CLI 官方文档",
+      "desc": "完整的 CLI 使用指南",
+      "url": "https://docs.stripe.com/projects"
+    }
   ]
 }
