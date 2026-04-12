@@ -3111,5 +3111,17 @@
       "desc": "完整的 CLI 使用指南",
       "url": "https://docs.stripe.com/projects"
     }
+  ],
+  "https://x.com/kkawsb/status/2043119101028274268": [
+    {
+      "title": "hermes-agent-self-evolution GitHub",
+      "desc": "Nous Research 的 agent 自进化框架",
+      "url": "https://github.com/NousResearch/hermes-agent-self-evolution"
+    },
+    {
+      "title": "GEPA - Genetic-Pareto Prompt Evolution",
+      "desc": "ICLR 2026 Oral 论文的开源实现",
+      "url": "https://github.com/gepa-ai/gepa"
+    }
   ]
 }
