@@ -3159,5 +3159,17 @@
       "desc": "Vercel 发布 use workflow 让 TypeScript 函数变 durable，Open Agents 的底座",
       "url": "https://vercel.com/blog/ship-ai-2025-recap"
     }
+  ],
+  "https://x.com/billtheinvestor/status/2043691015941636254": [
+    {
+      "title": "dimensionalOS/dimos - GitHub",
+      "desc": "DiMOS 源码仓库，Python SDK，支持多种硬件平台",
+      "url": "https://github.com/dimensionalOS/dimos"
+    },
+    {
+      "title": "DimensionalOS — Openflows",
+      "desc": "Openflows 对 DiMOS 的信号分析",
+      "url": "https://openflows.org/currency/currents/dimensionalos/"
+    }
   ]
 }
