@@ -3135,5 +3135,17 @@
       "desc": "HuggingFace Playground",
       "url": "https://huggingface.co/spaces/OpenBMB/VoxCPM-Demo"
     }
+  ],
+  "https://x.com/dotey/status/2043904844608532640": [
+    {
+      "title": "Anyone can build agents, but it takes a platform to run them",
+      "desc": "Vercel 官方博客解释为什么 agent 需要平台级支持",
+      "url": "https://vercel.com/blog/anyone-can-build-agents-but-it-takes-a-platform-to-run-them"
+    },
+    {
+      "title": "Decoupling the Brain and the Hands: Anthropic Managed Agents Architecture",
+      "desc": "深度分析 Anthropic 大脑-手分离架构的工程意义",
+      "url": "https://www.epsilla.com/blogs/anthropic-managed-agents-decoupling-brain-hands-enterprise-orchestration"
+    }
   ]
 }
