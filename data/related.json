@@ -3171,5 +3171,17 @@
       "desc": "Openflows 对 DiMOS 的信号分析",
       "url": "https://openflows.org/currency/currents/dimensionalos/"
     }
+  ],
+  "https://mp.weixin.qq.com/s/wGgipQio8DeU2b_ksYBKiA": [
+    {
+      "title": "A2UI Protocol: Google's New Agent-Driven Interface Standard",
+      "desc": "Google A2UI 协议详解——agent 动态生成 UI 的标准化方案",
+      "url": "https://getdiffer.com/blog/a2ui-protocol-googles-new-agent-driven-interface-standard"
+    },
+    {
+      "title": "The Developer's Guide to Generative UI in 2026",
+      "desc": "CopilotKit 的 Generative UI 开发者指南",
+      "url": "https://www.copilotkit.ai/blog/the-developer-s-guide-to-generative-ui-in-2026"
+    }
   ]
 }
