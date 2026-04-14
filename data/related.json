@@ -3195,5 +3195,17 @@
       "desc": "Granola 深度评测——会议场景下的 AI 笔记最佳实践",
       "url": "https://wondertools.substack.com/p/granolaguide"
     }
+  ],
+  "https://x.com/intuitiveml/status/2043545596699750791": [
+    {
+      "title": "Harness engineering: leveraging Codex in an agent-first world",
+      "desc": "OpenAI 提出 harness engineering 概念的原文",
+      "url": "https://openai.com/index/harness-engineering/"
+    },
+    {
+      "title": "Martin Fowler on Harness Engineering",
+      "desc": "Martin Fowler 对 harness engineering 概念的分析和扩展",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html"
+    }
   ]
 }
