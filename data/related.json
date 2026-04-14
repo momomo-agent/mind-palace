@@ -3147,5 +3147,17 @@
       "desc": "深度分析 Anthropic 大脑-手分离架构的工程意义",
       "url": "https://www.epsilla.com/blogs/anthropic-managed-agents-decoupling-brain-hands-enterprise-orchestration"
     }
+  ],
+  "https://github.com/vercel-labs/open-agents": [
+    {
+      "title": "Security boundaries in agentic architectures",
+      "desc": "Vercel 官方博客解释为什么 agent 和 sandbox 必须分离——安全边界视角",
+      "url": "https://vercel.com/blog/security-boundaries-in-agentic-architectures"
+    },
+    {
+      "title": "Vercel Ship AI 2025 recap",
+      "desc": "Vercel 发布 use workflow 让 TypeScript 函数变 durable，Open Agents 的底座",
+      "url": "https://vercel.com/blog/ship-ai-2025-recap"
+    }
   ]
 }
