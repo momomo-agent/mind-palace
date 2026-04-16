@@ -3218,5 +3218,17 @@
     {
       "url": "https://www.developing.dev/p/boris-cherny-creator-of-claude-code"
     }
+  ],
+  "https://github.com/badlogic/pi-mono": [
+    {
+      "title": "What I learned building an opinionated and minimal coding agent",
+      "desc": "Mario Zechner 的设计哲学长文：为什么不要 MCP、不要 sub-agents、不要 plan mode",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/"
+    },
+    {
+      "title": "Pi: The Best Coding Agent You've (Probably) Never Heard Of",
+      "desc": "pi coding agent 视频介绍",
+      "url": "https://www.youtube.com/watch?v=IJe9CabMeTk"
+    }
   ]
 }
