@@ -3230,5 +3230,17 @@
       "desc": "pi coding agent 视频介绍",
       "url": "https://www.youtube.com/watch?v=IJe9CabMeTk"
     }
+  ],
+  "https://arxiv.org/abs/2410.08328": [
+    {
+      "title": "Thinking Fast and Slow: Google DeepMind's Dual-Agent Architecture for Smarter AI",
+      "desc": "Synced Review 对论文的解读",
+      "url": "https://syncedreview.com/2024/10/21/thinking-fast-and-slow-google-deepminds-dual-agent-architecture-for-smarter-ai/"
+    },
+    {
+      "title": "Talker-Reasoner Architecture Paper Review",
+      "desc": "Medium 上的论文 review",
+      "url": "https://sulbhajain.medium.com/agents-thinking-fast-and-slow-a-talker-reasoner-architecture-paper-review-8a43c5bd6503"
+    }
   ]
 }
