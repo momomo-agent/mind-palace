@@ -3242,5 +3242,17 @@
       "desc": "Medium 上的论文 review",
       "url": "https://sulbhajain.medium.com/agents-thinking-fast-and-slow-a-talker-reasoner-architecture-paper-review-8a43c5bd6503"
     }
+  ],
+  "https://x.com/adocomplete/status/2044786054356709604": [
+    {
+      "title": "Claude Opus 4.7: 5 key insights from Vertex AI leak",
+      "desc": "汇总三个独立情报源分析 Opus 4.7 发布时间线和能力升级",
+      "url": "https://help.apiyi.com/en/claude-opus-4-7-vertex-ai-leak-release-analysis-en.html"
+    },
+    {
+      "title": "Exclusive: Anthropic Preps Opus 4.7 Model, AI Design Tool",
+      "desc": "The Information 独家报道",
+      "url": "https://www.theinformation.com/briefings/exclusive-anthropic-preps-opus-4-7-model-ai-design-tool"
+    }
   ]
 }
