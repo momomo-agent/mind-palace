@@ -3273,5 +3273,12 @@
       "desc": "英文原版 thread",
       "url": "https://x.com/bcherny/status/2044786054356709604"
     }
+  ],
+  "https://x.com/BitrigApp/status/2044814136274776344": [
+    {
+      "title": "Bitrig — The best way to build native Swift apps with AI",
+      "desc": "AI 驱动的 Swift/SwiftUI 应用生成工具，macOS Sequoia 15+",
+      "url": "https://bitrig.app"
+    }
   ]
 }
