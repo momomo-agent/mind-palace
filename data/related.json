@@ -3266,5 +3266,12 @@
       "desc": "安全评估完整报告",
       "url": "https://anthropic.com/claude-opus-4-7-system-card"
     }
+  ],
+  "https://x.com/dotey/status/2044868344256381254": [
+    {
+      "title": "Boris Cherny 原推：Dogfooding Opus 4.7 tips",
+      "desc": "英文原版 thread",
+      "url": "https://x.com/bcherny/status/2044786054356709604"
+    }
   ]
 }
