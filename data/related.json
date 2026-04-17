@@ -3280,5 +3280,12 @@
       "desc": "AI 驱动的 Swift/SwiftUI 应用生成工具，macOS Sequoia 15+",
       "url": "https://bitrig.app"
     }
+  ],
+  "https://x.com/rwayne/status/2045066736932651077": [
+    {
+      "title": "bytedance/deer-flow",
+      "desc": "DeerFlow GitHub 仓库",
+      "url": "https://github.com/bytedance/deer-flow"
+    }
   ]
 }
