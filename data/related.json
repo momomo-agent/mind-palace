@@ -3287,5 +3287,17 @@
       "desc": "DeerFlow GitHub 仓库",
       "url": "https://github.com/bytedance/deer-flow"
     }
+  ],
+  "https://x.com/claudeai/status/2045156267690213649": [
+    {
+      "title": "Claude Design by Anthropic Labs",
+      "desc": "官方博客介绍",
+      "url": "https://claude.com/blog/claude-design-anthropic-labs"
+    },
+    {
+      "title": "Anthropic just launched Claude Design — VentureBeat",
+      "desc": "深度报道：Claude Design 如何挑战 Figma，Anthropic 从 AI 实验室转型全栈产品公司",
+      "url": "https://venturebeat.com/technology/anthropic-just-launched-claude-design-an-ai-tool-that-turns-prompts-into-prototypes-and-challenges-figma"
+    }
   ]
 }
