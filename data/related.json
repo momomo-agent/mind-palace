@@ -3354,5 +3354,17 @@
       "desc": "原始 demo 作者，展示 iPad 上 agent 控制任意 app",
       "url": "https://x.com/finnvoorhees"
     }
+  ],
+  "https://x.com/joshpuckett/status/2045203601598099734": [
+    {
+      "title": "joshpuckett/dialkit",
+      "desc": "DialKit：为 agentic 世界优化的界面参数实时调参库",
+      "url": "https://github.com/joshpuckett/dialkit"
+    },
+    {
+      "title": "Tweakpane",
+      "desc": "Web 端参数微调面板库，DialKit 的前身之一",
+      "url": "https://tweakpane.github.io/docs/"
+    }
   ]
 }
