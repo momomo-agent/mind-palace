@@ -3407,5 +3407,17 @@
       "desc": "开源工具：AI chat 接口驱动 Ghidra 做二进制分析",
       "url": "https://github.com/biniamf/ai-reverse-engineering"
     }
+  ],
+  "https://x.com/patentlyapple/status/2045448968747065409": [
+    {
+      "title": "All iPhone buttons could become Action buttons",
+      "desc": "Digital Trends 对 Apple 多 Action Button 专利的解读",
+      "url": "https://www.digitaltrends.com/phones/in-the-future-all-buttons-on-your-iphone-could-be-action-buttons/"
+    },
+    {
+      "title": "Apple patent: multiple customizable action buttons",
+      "desc": "Macworld 对同一专利的分析，提到可能扩展到 iPad 和 Mac",
+      "url": "https://www.macworld.com/article/2542819/wild-apple-patent-hints-at-an-iphone-with-multiple-customizable-action-buttons.html"
+    }
   ]
 }
