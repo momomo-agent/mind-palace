@@ -3323,5 +3323,17 @@
       "desc": "BusinessWire 官方发布公告，含 benchmark 对比数据",
       "url": "https://www.businesswire.com/news/home/20260416714351/en/Ant-Groups-Robbyant-Unveils-LingBot-Map-A-Streaming-3D-Reconstruction-Model-for-Real-Time-Spatial-Understanding"
     }
+  ],
+  "https://x.com/github_daily/status/2045143202064400641": [
+    {
+      "title": "ARahim3/mlx-tune",
+      "desc": "mlx-tune 官方 GitHub 仓库",
+      "url": "https://github.com/ARahim3/mlx-tune"
+    },
+    {
+      "title": "Unsloth-MLX 社区讨论",
+      "desc": "LocalLLaMA 社区对 mlx-tune 的讨论和使用反馈",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q5mh84/unslothmlx_finetune_llms_on_your_mac_same_api_as/"
+    }
   ]
 }
