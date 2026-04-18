@@ -3311,5 +3311,17 @@
       "desc": "IDEO 视角：AI 与设计思维的交汇点",
       "url": "https://www.ideou.com/blogs/inspiration/ai-and-design-thinking"
     }
+  ],
+  "https://x.com/aidrivr/status/2045235103413235917": [
+    {
+      "title": "robbyant/lingbot-map",
+      "desc": "LingBot-Map 官方 GitHub 仓库",
+      "url": "https://github.com/robbyant/lingbot-map"
+    },
+    {
+      "title": "Ant Group's Robbyant Unveils LingBot-Map",
+      "desc": "BusinessWire 官方发布公告，含 benchmark 对比数据",
+      "url": "https://www.businesswire.com/news/home/20260416714351/en/Ant-Groups-Robbyant-Unveils-LingBot-Map-A-Streaming-3D-Reconstruction-Model-for-Real-Time-Spatial-Understanding"
+    }
   ]
 }
