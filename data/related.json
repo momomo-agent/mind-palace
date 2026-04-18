@@ -3335,5 +3335,17 @@
       "desc": "LocalLLaMA 社区对 mlx-tune 的讨论和使用反馈",
       "url": "https://www.reddit.com/r/LocalLLaMA/comments/1q5mh84/unslothmlx_finetune_llms_on_your_mac_same_api_as/"
     }
+  ],
+  "https://x.com/dotey/status/2045327385763913731": [
+    {
+      "title": "Ryan Mather 原推（英文）",
+      "desc": "Claude Design 官方设计师的原版 tips",
+      "url": "https://x.com/Flomerboy/status/2045327385763913731"
+    },
+    {
+      "title": "Claude Design 发布报道汇总",
+      "desc": "Techmeme 汇总的 Claude Design 相关报道",
+      "url": "https://www.techmeme.com/260417/p21"
+    }
   ]
 }
