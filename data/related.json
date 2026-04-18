@@ -3366,5 +3366,17 @@
       "desc": "Web 端参数微调面板库，DialKit 的前身之一",
       "url": "https://tweakpane.github.io/docs/"
     }
+  ],
+  "https://huggingface.co/papers/2604.11045": [
+    {
+      "title": "midea-ai/sema-code-core",
+      "desc": "Sema Code 核心引擎 GitHub 仓库",
+      "url": "https://github.com/midea-ai/sema-code-core"
+    },
+    {
+      "title": "midea-ai/SemaClaw",
+      "desc": "基于 Sema Code 的通用 AI agent harness，多渠道消息网关",
+      "url": "https://github.com/midea-ai/SemaClaw"
+    }
   ]
 }
