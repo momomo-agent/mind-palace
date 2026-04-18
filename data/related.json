@@ -3378,5 +3378,17 @@
       "desc": "基于 Sema Code 的通用 AI agent harness，多渠道消息网关",
       "url": "https://github.com/midea-ai/SemaClaw"
     }
+  ],
+  "https://www.ted.com/talks/peter_steinberger_how_i_created_openclaw_the_breakthrough_ai_agent": [
+    {
+      "title": "State of the Claw — Peter Steinberger",
+      "desc": "Peter Steinberger 的 State of the Claw 演讲",
+      "url": "https://www.youtube.com/watch?v=zgNvts_2TUE"
+    },
+    {
+      "title": "2026 will Be the Year of Agents",
+      "desc": "IBL News 对 Peter Steinberger 的报道",
+      "url": "https://iblnews.org/story/2026-will-be-the-year-of-agents-said-the-developer-who-created-open-claw"
+    }
   ]
 }
