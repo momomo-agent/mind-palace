@@ -3390,5 +3390,22 @@
       "desc": "IBL News 对 Peter Steinberger 的报道",
       "url": "https://iblnews.org/story/2026-will-be-the-year-of-agents-said-the-developer-who-created-open-claw"
     }
+  ],
+  "https://blog.huli.tw/2026/04/18/ai-reverse-engineering-op/": [
+    {
+      "title": "Agentic RE: Automating Reverse Engineering with AI (DEF CON 2026)",
+      "desc": "DEF CON 培训课程，专门讲 AI agent 自动化逆向和漏洞研究",
+      "url": "https://training.defcon.org/products/agentic-re-automating-reverse-engineering-vulnerability-research-with-ai-john-mcintosh-dctlv2026"
+    },
+    {
+      "title": "MCP Server for Ghidra (Official Issue)",
+      "desc": "Ghidra 官方 repo 的 MCP server 讨论",
+      "url": "https://github.com/NationalSecurityAgency/ghidra/issues/9098"
+    },
+    {
+      "title": "AI-Assisted Reverse Engineering with Ghidra",
+      "desc": "开源工具：AI chat 接口驱动 Ghidra 做二进制分析",
+      "url": "https://github.com/biniamf/ai-reverse-engineering"
+    }
   ]
 }
