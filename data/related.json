@@ -3448,5 +3448,17 @@
       "desc": "Amanda Askell 个人网站，Anthropic 哲学家，负责 Claude 的性格对齐",
       "url": "https://askell.io/"
     }
+  ],
+  "https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/": [
+    {
+      "title": "Exploring LLMs with MLX and M5 Neural Accelerators",
+      "desc": "Apple 官方 MLX 框架在 M5 芯片上利用 Neural Accelerators 加速 LLM 推理",
+      "url": "https://machinelearning.apple.com/research/exploring-llms-mlx-m5"
+    },
+    {
+      "title": "The Mac AI Developer Stack: MLX in 2026",
+      "desc": "2026 年 Mac 本地 AI 开发全栈：MLX + mlx-lm + Ollama + LM Studio",
+      "url": "https://www.buildmvpfast.com/blog/mlx-apple-silicon-ai-development-mac-fine-tune-llm-2026"
+    }
   ]
 }
