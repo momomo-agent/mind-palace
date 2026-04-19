@@ -3477,5 +3477,22 @@
       "desc": "WWDC 2026 泄露汇总，Siri 2.0 和 Apple Intelligence 2.0",
       "url": "https://medium.com/apple-insides/wwdc-2026-leaks-ios-27-to-focus-on-siri-2-0-and-apple-intelligence-2-0-fab9b86df60f"
     }
+  ],
+  "https://x.com/kyegomezb/status/2045659150340723107": [
+    {
+      "title": "OpenMythos 技术解析",
+      "desc": "详细分析 OpenMythos 的架构假设和实现细节",
+      "url": "https://awesomeagents.ai/news/openmythos-recurrent-depth-transformer/"
+    },
+    {
+      "title": "Reasoning with Latent Thoughts: On the Power of Looped Transformers",
+      "desc": "学术论文：循环 Transformer 的推理能力理论分析",
+      "url": "https://openreview.net/forum?id=din0lGfZFd"
+    },
+    {
+      "title": "COCONUT: Meta 的潜空间推理框架",
+      "desc": "Meta FAIR 2024 年提出的连续潜空间推理方法",
+      "url": "https://towardsdatascience.com/coconut-a-framework-for-latent-reasoning-in-llms/"
+    }
   ]
 }
