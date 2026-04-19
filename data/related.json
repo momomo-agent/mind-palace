@@ -3419,5 +3419,17 @@
       "desc": "Macworld 对同一专利的分析，提到可能扩展到 iPad 和 Mac",
       "url": "https://www.macworld.com/article/2542819/wild-apple-patent-hints-at-an-iphone-with-multiple-customizable-action-buttons.html"
     }
+  ],
+  "https://github.com/elder-plinius/CL4R1T4S": [
+    {
+      "title": "system_prompts_leaks - 另一个 system prompt 合集",
+      "desc": "更结构化的 system prompt 收集，按模型版本分类",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "title": "AI System Prompts Leaked: ChatGPT, Claude & Gemini [2026]",
+      "desc": "对 system prompt 泄露现象的分析文章",
+      "url": "https://aithinkerlab.com/ai-system-prompts-leaked/"
+    }
   ]
 }
