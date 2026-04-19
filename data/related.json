@@ -3431,5 +3431,22 @@
       "desc": "对 system prompt 泄露现象的分析文章",
       "url": "https://aithinkerlab.com/ai-system-prompts-leaked/"
     }
+  ],
+  "https://www.youtube.com/watch?v=nQYayZs8jn4": [
+    {
+      "title": "Anthropic Prompt Engineering Interactive Tutorial",
+      "desc": "Anthropic 官方免费 prompt engineering 课程，从基础到高级的系统教学",
+      "url": "https://github.com/anthropics/courses/blob/master/prompt_engineering_interactive_tutorial/README.md"
+    },
+    {
+      "title": "Claude System Prompt: A Prompt Engineering Case Study",
+      "desc": "深度分析 Claude 系统 prompt 的设计哲学和工程实践",
+      "url": "https://promptengineering.org/claudes-system-prompt-a-prompt-engineering-case-study/"
+    },
+    {
+      "title": "Amanda Askell - Personal Site",
+      "desc": "Amanda Askell 个人网站，Anthropic 哲学家，负责 Claude 的性格对齐",
+      "url": "https://askell.io/"
+    }
   ]
 }
