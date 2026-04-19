@@ -3494,5 +3494,17 @@
       "desc": "Meta FAIR 2024 年提出的连续潜空间推理方法",
       "url": "https://towardsdatascience.com/coconut-a-framework-for-latent-reasoning-in-llms/"
     }
+  ],
+  "https://simonwillison.net/2026/Apr/18/opus-system-prompt/": [
+    {
+      "title": "Anthropic 官方 System Prompt 存档",
+      "desc": "Anthropic 公开发布的所有 Claude 模型 system prompt 历史",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts"
+    },
+    {
+      "title": "Anthropic: Advanced Tool Use",
+      "desc": "Anthropic 2025.11 发布的高级工具使用文档，包含 tool search 机制",
+      "url": "https://www.anthropic.com/engineering/advanced-tool-use"
+    }
   ]
 }
