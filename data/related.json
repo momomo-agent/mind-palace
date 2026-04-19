@@ -3460,5 +3460,22 @@
       "desc": "2026 年 Mac 本地 AI 开发全栈：MLX + mlx-lm + Ollama + LM Studio",
       "url": "https://www.buildmvpfast.com/blog/mlx-apple-silicon-ai-development-mac-fine-tune-llm-2026"
     }
+  ],
+  "https://x.com/PatentlyApple/status/2045877480112984146": [
+    {
+      "title": "Bloomberg: iOS 27 Siri Chatbot 原始报道",
+      "desc": "Mark Gurman 1月原始报道，Siri 转型为内置聊天机器人",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-21/ios-27-apple-to-revamp-siri-as-built-in-iphone-mac-chatbot-to-fend-off-openai"
+    },
+    {
+      "title": "Apple Plans to Open Siri to Rival AI Assistants",
+      "desc": "Apple 计划开放 Siri 给第三方 AI 助手，Extensions 框架",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/apple-plans-to-open-up-siri-to-rival-ai-assistants-beyond-chatgpt-in-ios-27"
+    },
+    {
+      "title": "WWDC 2026 Leaks: Siri 2.0",
+      "desc": "WWDC 2026 泄露汇总，Siri 2.0 和 Apple Intelligence 2.0",
+      "url": "https://medium.com/apple-insides/wwdc-2026-leaks-ios-27-to-focus-on-siri-2-0-and-apple-intelligence-2-0-fab9b86df60f"
+    }
   ]
 }
