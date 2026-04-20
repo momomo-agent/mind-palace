@@ -3601,5 +3601,17 @@
       "desc": "Towards AI 对 Boris 第一批 tips 的详细解读",
       "url": "https://towardsai.net/p/machine-learning/15-tips-to-use-claude-code-more-effectively-from-boris-cherny-creator-of-claude-code"
     }
+  ],
+  "https://www.flyingpenguin.com/build-an-openclaw-free-secure-always-on-local-ai-agent/": [
+    {
+      "title": "NVIDIA NemoClaw + OpenClaw Tutorial",
+      "desc": "NVIDIA 官方教程：DGX Spark 上部署 OpenClaw + NemoClaw 全栈本地 agent",
+      "url": "https://developer.nvidia.com/blog/build-a-secure-always-on-local-ai-agent-with-nvidia-nemoclaw-and-openclaw/"
+    },
+    {
+      "title": "Wirken - Secure AI Agent Gateway",
+      "desc": "tool-level 权限控制的 agent gateway，Ed25519 身份 + hash-chained 审计",
+      "url": "https://github.com/gebruder/wirken"
+    }
   ]
 }
