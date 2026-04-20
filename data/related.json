@@ -3553,5 +3553,17 @@
       "desc": "个人电脑文件管理 Agent benchmark",
       "url": "https://arxiv.org/abs/2604.01221"
     }
+  ],
+  "https://github.com/h4ckf0r0day/obscura": [
+    {
+      "title": "Best Headless Browsers for AI Agents (2026)",
+      "desc": "2026 年 AI Agent 专用浏览器工具对比",
+      "url": "https://fast.io/resources/best-headless-browsers-ai-agents/"
+    },
+    {
+      "title": "Best Agent Browsers for 2026",
+      "desc": "Vercel Agent Browser 等 Rust 构建的 AI 浏览器工具",
+      "url": "https://medium.com/@datajournal/best-agentic-browsers-for-2026-top-7-reviewed-7760b9609b80"
+    }
   ]
 }
