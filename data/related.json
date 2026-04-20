@@ -3506,5 +3506,17 @@
       "desc": "Anthropic 2025.11 发布的高级工具使用文档，包含 tool search 机制",
       "url": "https://www.anthropic.com/engineering/advanced-tool-use"
     }
+  ],
+  "https://github.com/ZeroZ-lab/cc-design": [
+    {
+      "title": "Open CoDesign",
+      "desc": "Claude Design 的开源替代，Electron 桌面端，支持 20+ 模型",
+      "url": "https://github.com/OpenCoworkAI/open-codesign"
+    },
+    {
+      "title": "brand-design-md",
+      "desc": "getdesign.md 的 Claude Code Skill 封装，62 个品牌设计系统",
+      "url": "https://github.com/zephyrwang6/brand-design-md"
+    }
   ]
 }
