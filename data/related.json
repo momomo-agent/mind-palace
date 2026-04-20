@@ -3625,5 +3625,17 @@
       "desc": "传统 microfacet BRDF 采样方法详解，可对比理解",
       "url": "https://agraphicsguynotes.com/posts/sample_microfacet_brdf/"
     }
+  ],
+  "https://x.com/AlchainHust/status/2046192558666342720": [
+    {
+      "title": "huashu-skills - 花叔的 Claude Code Skills 合集",
+      "desc": "21 个实战验证的内容创作 skill，覆盖选题到发布全流程",
+      "url": "https://github.com/alchaincyf/huashu-skills"
+    },
+    {
+      "title": "hue - Claude Code Skill 学习品牌设计系统",
+      "desc": "学习任何品牌并转化为完整设计系统的 Claude Code skill",
+      "url": "https://github.com/dominikmartn/hue"
+    }
   ]
 }
