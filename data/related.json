@@ -3661,5 +3661,17 @@
       "desc": "XDA 对 Puter 的深度评测",
       "url": "https://www.xda-developers.com/this-cracking-cloud-computer-can-be-anything/"
     }
+  ],
+  "https://x.com/openaidevs/status/2046288243768082699": [
+    {
+      "title": "Chronicle 官方文档",
+      "desc": "OpenAI 开发者文档，详细说明隐私、存储、权限",
+      "url": "https://developers.openai.com/codex/memories/chronicle"
+    },
+    {
+      "title": "The Decoder: Codex watches your screen to remember",
+      "desc": "Chronicle 功能解读和隐私分析",
+      "url": "https://the-decoder.com/openais-codex-now-watches-your-screen-to-remember-what-youre-working-on/"
+    }
   ]
 }
