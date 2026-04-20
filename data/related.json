@@ -3525,5 +3525,12 @@
       "desc": "论文配套的交互式 demo 页面，可以看到实际生成效果",
       "url": "https://generativeui.github.io"
     }
+  ],
+  "https://arxiv.org/abs/2604.11378": [
+    {
+      "title": "Generative UI: LLMs are Effective UI Generators",
+      "desc": "Google Research 论文，LLM 生成完整交互界面",
+      "url": "https://arxiv.org/abs/2604.09577"
+    }
   ]
 }
