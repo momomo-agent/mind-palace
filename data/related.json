@@ -3532,5 +3532,12 @@
       "desc": "Google Research 论文，LLM 生成完整交互界面",
       "url": "https://arxiv.org/abs/2604.09577"
     }
+  ],
+  "https://arxiv.org/abs/2506.06326": [
+    {
+      "title": "MemoryOS GitHub",
+      "desc": "MemoryOS 开源实现",
+      "url": "https://github.com/BAI-LAB/MemoryOS"
+    }
   ]
 }
