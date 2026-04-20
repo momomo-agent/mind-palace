@@ -3518,5 +3518,12 @@
       "desc": "getdesign.md 的 Claude Code Skill 封装，62 个品牌设计系统",
       "url": "https://github.com/zephyrwang6/brand-design-md"
     }
+  ],
+  "https://arxiv.org/abs/2604.09577": [
+    {
+      "title": "Generative UI Demo",
+      "desc": "论文配套的交互式 demo 页面，可以看到实际生成效果",
+      "url": "https://generativeui.github.io"
+    }
   ]
 }
