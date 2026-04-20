@@ -3565,5 +3565,17 @@
       "desc": "Vercel Agent Browser 等 Rust 构建的 AI 浏览器工具",
       "url": "https://medium.com/@datajournal/best-agentic-browsers-for-2026-top-7-reviewed-7760b9609b80"
     }
+  ],
+  "https://simonwillison.net/2026/Apr/20/claude-token-counts/": [
+    {
+      "title": "Claude Token Counter Tool",
+      "desc": "Simon Willison 的在线 token 计数工具，支持多模型对比",
+      "url": "https://tools.simonwillison.net/claude-token-counter"
+    },
+    {
+      "title": "Claude Token Counting API",
+      "desc": "Anthropic 官方 token 计数 API 文档",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/token-counting"
+    }
   ]
 }
