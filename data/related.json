@@ -3577,5 +3577,17 @@
       "desc": "Anthropic 官方 token 计数 API 文档",
       "url": "https://platform.claude.com/docs/en/build-with-claude/token-counting"
     }
+  ],
+  "https://t3.codes/": [
+    {
+      "title": "T3 Code GitHub",
+      "desc": "源码仓库，支持 Codex 和 Claude Code",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "title": "Vibe Kanban",
+      "desc": "另一个 AI coding agent 编排工具，看板式管理多个 agent 任务",
+      "url": "https://vibekanban.com/"
+    }
   ]
 }
