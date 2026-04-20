@@ -3589,5 +3589,17 @@
       "desc": "另一个 AI coding agent 编排工具，看板式管理多个 agent 任务",
       "url": "https://vibekanban.com/"
     }
+  ],
+  "https://x.com/WEB3_furture/status/2046092999721988545": [
+    {
+      "title": "How Boris Uses Claude Code",
+      "desc": "87 条 tips 完整整理，从 Boris 的多个 Twitter thread 汇编",
+      "url": "https://howborisusesclaudecode.com/"
+    },
+    {
+      "title": "15 Tips to Use Claude Code More Effectively",
+      "desc": "Towards AI 对 Boris 第一批 tips 的详细解读",
+      "url": "https://towardsai.net/p/machine-learning/15-tips-to-use-claude-code-more-effectively-from-boris-cherny-creator-of-claude-code"
+    }
   ]
 }
