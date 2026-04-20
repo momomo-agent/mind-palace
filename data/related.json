@@ -3539,5 +3539,12 @@
       "desc": "MemoryOS 开源实现",
       "url": "https://github.com/BAI-LAB/MemoryOS"
     }
+  ],
+  "https://arxiv.org/abs/2604.01221": [
+    {
+      "title": "HippoCamp Project Page",
+      "desc": "HippoCamp benchmark 项目主页",
+      "url": "https://hippocamp-ai.github.io/"
+    }
   ]
 }
