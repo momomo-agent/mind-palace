@@ -3613,5 +3613,17 @@
       "desc": "tool-level 权限控制的 agent gateway，Ed25519 身份 + hash-chained 审计",
       "url": "https://github.com/gebruder/wirken"
     }
+  ],
+  "https://www.reddit.com/r/GraphicsProgramming/comments/1sqfaxn/another_way_to_render_microfacet_brdf/": [
+    {
+      "title": "PBR Without BRDF/PDF - Blog",
+      "desc": "作者的详细算法解释和渲染对比",
+      "url": "https://nihalkenkre.github.io/pbr_without_brdf_pdf/"
+    },
+    {
+      "title": "Sampling Microfacet BRDF - A Graphics Guy's Note",
+      "desc": "传统 microfacet BRDF 采样方法详解，可对比理解",
+      "url": "https://agraphicsguynotes.com/posts/sample_microfacet_brdf/"
+    }
   ]
 }
