@@ -3649,5 +3649,17 @@
       "desc": "2026 年 4 月实测 11 个开源 computer use agent",
       "url": "https://fazm.ai/blog/best-open-source-computer-use-agent-windows-2026"
     }
+  ],
+  "https://github.com/heyPuter/puter/": [
+    {
+      "title": "Puter.js 开发者文档",
+      "desc": "免费无服务器的云和 AI JavaScript 库",
+      "url": "https://developer.puter.com"
+    },
+    {
+      "title": "Puter is a self-hostable cloud computer",
+      "desc": "XDA 对 Puter 的深度评测",
+      "url": "https://www.xda-developers.com/this-cracking-cloud-computer-can-be-anything/"
+    }
   ]
 }
