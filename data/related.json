@@ -3546,5 +3546,12 @@
       "desc": "HippoCamp benchmark 项目主页",
       "url": "https://hippocamp-ai.github.io/"
     }
+  ],
+  "https://arxiv.org/abs/2510.04607": [
+    {
+      "title": "HippoCamp: Benchmarking Contextual Agents on Personal Computers",
+      "desc": "个人电脑文件管理 Agent benchmark",
+      "url": "https://arxiv.org/abs/2604.01221"
+    }
   ]
 }
