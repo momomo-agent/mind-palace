@@ -3711,5 +3711,22 @@
       "desc": "diginomica 对 MGI 报告的批判性分析",
       "url": "https://diginomica.com/ai-agents-and-robots-our-future-partners-all-work-says-mckinsey"
     }
+  ],
+  "https://github.com/ZhangHanDong/research-rs": [
+    {
+      "title": "karpathy/autoresearch",
+      "desc": "Karpathy 的自动研究框架，2-file resume 架构",
+      "url": "https://github.com/karpathy/autoresearch"
+    },
+    {
+      "title": "postagent - HTTP API client",
+      "desc": "research-rs 的 HTTP 数据采集组件",
+      "url": "https://github.com/actionbook/postagent"
+    },
+    {
+      "title": "actionbook - CDP browser automation",
+      "desc": "research-rs 的浏览器自动化组件",
+      "url": "https://github.com/actionbook/actionbook"
+    }
   ]
 }
