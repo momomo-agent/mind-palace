@@ -3697,5 +3697,12 @@
       "desc": "Boris Cherny 87 个 Claude Code 使用技巧合集",
       "url": "https://howborisusesclaudecode.com/"
     }
+  ],
+  "https://github.com/alchaincyf/huashu-design": [
+    {
+      "title": "skills.sh - Agent Skills 平台",
+      "desc": "跨 agent 通用的 skill 安装平台",
+      "url": "https://skills.sh"
+    }
   ]
 }
