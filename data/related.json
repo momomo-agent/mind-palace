@@ -3704,5 +3704,12 @@
       "desc": "跨 agent 通用的 skill 安装平台",
       "url": "https://skills.sh"
     }
+  ],
+  "https://www.mckinsey.com/mgi/our-research/agents-robots-and-us-skill-partnerships-in-the-age-of-ai": [
+    {
+      "title": "AI agents and robots – our future partners for all work, says McKinsey",
+      "desc": "diginomica 对 MGI 报告的批判性分析",
+      "url": "https://diginomica.com/ai-agents-and-robots-our-future-partners-all-work-says-mckinsey"
+    }
   ]
 }
