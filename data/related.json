@@ -3673,5 +3673,17 @@
       "desc": "Chronicle 功能解读和隐私分析",
       "url": "https://the-decoder.com/openais-codex-now-watches-your-screen-to-remember-what-youre-working-on/"
     }
+  ],
+  "https://github.com/LookInsideApp/LookInside": [
+    {
+      "title": "Lookin - 原版 iOS view debugging 工具",
+      "desc": "免费 macOS app，iOS view 调试",
+      "url": "https://github.com/hughkli/Lookin"
+    },
+    {
+      "title": "Lookin 官网",
+      "desc": "Lookin 产品官网，功能介绍和集成指南",
+      "url": "https://lookin.work/"
+    }
   ]
 }
