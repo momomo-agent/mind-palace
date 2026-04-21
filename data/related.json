@@ -3728,5 +3728,17 @@
       "desc": "research-rs 的浏览器自动化组件",
       "url": "https://github.com/actionbook/actionbook"
     }
+  ],
+  "https://github.com/patoles/agent-flow": [
+    {
+      "title": "Agent Flow on AgentSkillsHub",
+      "desc": "Agent Flow 在 skill hub 上的页面",
+      "url": "https://agentskillshub.top/skill/patoles/agent-flow/"
+    },
+    {
+      "title": "CraftMyGame",
+      "desc": "AI 驱动的游戏创建平台，Agent Flow 的诞生背景",
+      "url": "https://craftmygame.com"
+    }
   ]
 }
