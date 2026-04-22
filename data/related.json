@@ -3788,5 +3788,17 @@
       "desc": "HN 上对这篇帖子的讨论",
       "url": "https://news.ycombinator.com/item?id=27333260"
     }
+  ],
+  "https://huggingface.co/papers/2604.19742": [
+    {
+      "title": "PlayCoder GitHub",
+      "desc": "腾讯开源的 PlayCoder 实现",
+      "url": "https://github.com/Tencent/PlayCoder"
+    },
+    {
+      "title": "PlayCoder arXiv",
+      "desc": "论文原文",
+      "url": "https://arxiv.org/abs/2604.19742"
+    }
   ]
 }
