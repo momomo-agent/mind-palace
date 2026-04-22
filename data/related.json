@@ -3776,5 +3776,17 @@
       "desc": "Photon 的 iMessage SDK，1.3k star，零依赖读 macOS chat.db",
       "url": "https://github.com/photon-hq/imessage-kit"
     }
+  ],
+  "https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as": [
+    {
+      "title": "Reddit 原帖",
+      "desc": "原始 Reddit 帖子（作者已删号，帖子还在）",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/nmodyl/drunk_post_things_ive_learned_as_a_sr_engineer/"
+    },
+    {
+      "title": "Hacker News 讨论",
+      "desc": "HN 上对这篇帖子的讨论",
+      "url": "https://news.ycombinator.com/item?id=27333260"
+    }
   ]
 }
