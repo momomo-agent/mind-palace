@@ -3740,5 +3740,17 @@
       "desc": "AI 驱动的游戏创建平台，Agent Flow 的诞生背景",
       "url": "https://craftmygame.com"
     }
+  ],
+  "https://github.com/jasonkneen/agent-simulator": [
+    {
+      "title": "AXe - cursor-free iOS simulator input driver",
+      "desc": "Agent Simulator 的核心依赖，通过 FBSimulatorHID 做无光标输入",
+      "url": "https://github.com/cameroncooke/AXe"
+    },
+    {
+      "title": "agent-device - CLI to control iOS devices",
+      "desc": "Callstack 的 iOS 设备控制 CLI，类似方案",
+      "url": "https://github.com/callstackincubator/agent-device"
+    }
   ]
 }
