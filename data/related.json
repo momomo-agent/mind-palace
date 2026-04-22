@@ -3752,5 +3752,17 @@
       "desc": "Callstack 的 iOS 设备控制 CLI，类似方案",
       "url": "https://github.com/callstackincubator/agent-device"
     }
+  ],
+  "https://github.com/photon-hq/spectrum-ts": [
+    {
+      "title": "imessage-kit",
+      "desc": "Photon 的 iMessage SDK，1.3k star，零依赖读 macOS chat.db",
+      "url": "https://github.com/photon-hq/imessage-kit"
+    },
+    {
+      "title": "Spectrum 官网",
+      "desc": "Spectrum 产品页面",
+      "url": "https://photon.codes/spectrum"
+    }
   ]
 }
