@@ -3764,5 +3764,17 @@
       "desc": "Spectrum 产品页面",
       "url": "https://photon.codes/spectrum"
     }
+  ],
+  "https://photon.codes/spectrum": [
+    {
+      "title": "spectrum-ts GitHub",
+      "desc": "Spectrum 的 TypeScript SDK 源码",
+      "url": "https://github.com/photon-hq/spectrum-ts"
+    },
+    {
+      "title": "imessage-kit",
+      "desc": "Photon 的 iMessage SDK，1.3k star，零依赖读 macOS chat.db",
+      "url": "https://github.com/photon-hq/imessage-kit"
+    }
   ]
 }
