@@ -3819,5 +3819,22 @@
       "desc": "Flipbook 作者，前 OpenAI/Opendoor/YC S13",
       "url": "https://zainshah.me"
     }
+  ],
+  "https://x.com/SaitoWu/status/2046829706692202686": [
+    {
+      "title": "Getting Started With GitButler Agents",
+      "desc": "GitButler 官方博客：如何用 Virtual Branches 替代 Worktree 做 AI agent 工作流",
+      "url": "https://blog.gitbutler.com/gitbutler-agent-assist"
+    },
+    {
+      "title": "Automate Your AI Workflows with Claude Code Hooks",
+      "desc": "Scott Chacon 写的 Claude Code Hooks 自动化工作流教程",
+      "url": "https://blog.gitbutler.com/automate-your-ai-workflows-with-claude-code-hooks"
+    },
+    {
+      "title": "Rebuilding Git for AI Agents - Deep Dives with a16z",
+      "desc": "原始播客视频：Scott Chacon 与 a16z 的 Matt Bornstein 深度对谈",
+      "url": "https://www.youtube.com/watch?v=vJiCnQeYLho"
+    }
   ]
 }
