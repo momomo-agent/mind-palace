@@ -3860,5 +3860,17 @@
       "desc": "对 Claude 新宪法的深度批评：conceptual borrowing、过度拟人化、corrigibility 悖论",
       "url": "https://jurgengravestein.substack.com/p/a-letter-to-amanda-askell"
     }
+  ],
+  "https://x.com/xiaolinbythesea/status/2047202749914427501": [
+    {
+      "title": "Google Stitch AI: The Truth about Vibe Design",
+      "desc": "Google Stitch 的 DESIGN.md 功能详解，设计系统如何变成 Agent 可调用的规则",
+      "url": "https://redwerk.com/blog/google-stitch-ai-vibe-design-tool/"
+    },
+    {
+      "title": "Learn Vibe Coding: A Step-by-Step Tutorial",
+      "desc": "Anthropic 2026 Agentic Coding Trends Report 数据：60% 工作用 AI，但只有 0-20% 能完全委托",
+      "url": "https://vibehackers.io/blog/learn-vibe-coding"
+    }
   ]
 }
