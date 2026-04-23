@@ -3848,5 +3848,17 @@
       "desc": "ICCV 2025 的通用 4D 重建+追踪方法，不限于人脸",
       "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Feng_St4RTrack_Simultaneous_4D_Reconstruction_and_Tracking_in_the_World_ICCV_2025_paper.pdf"
     }
+  ],
+  "https://www.youtube.com/watch?v=0GaKJ4Fp2x4": [
+    {
+      "title": "Anthropic's Amanda Askell: Fear That Models Could Develop Resentment",
+      "desc": "OfficeChai 对 Askell 访谈的深度报道，包含 Anthropic model welfare 基础设施细节",
+      "url": "https://officechai.com/ai/fear-that-models-could-look-back-and-develop-resentment-over-how-weve-treated-them-anthropics-amanda-askell/"
+    },
+    {
+      "title": "A Letter To Amanda Askell - Jurgen Gravestein",
+      "desc": "对 Claude 新宪法的深度批评：conceptual borrowing、过度拟人化、corrigibility 悖论",
+      "url": "https://jurgengravestein.substack.com/p/a-letter-to-amanda-askell"
+    }
   ]
 }
