@@ -3896,5 +3896,17 @@
       "desc": "Fazm 的 macOS AI agent 教程，用 AX API + ScreenCaptureKit",
       "url": "https://fazm.ai/blog/macos-ai-agent-accessibility-screencapturekit"
     }
+  ],
+  "https://x.com/nanoclaw_ai/status/2047269757653553511": [
+    {
+      "title": "NanoClaw GitHub",
+      "desc": "开源代码，基于 Anthropic Agents SDK，容器隔离运行",
+      "url": "https://github.com/qwibitai/nanoclaw"
+    },
+    {
+      "title": "VentureBeat: NanoClaw v2 深度报道",
+      "desc": "VentureBeat 对 NanoClaw v2 的详细技术报道",
+      "url": "https://venturebeat.com/orchestration/should-my-enterprise-ai-agent-do-that-nanoclaw-and-vercel-launch-easier-agentic-policy-setting-and-approval-dialogs-across-15-messaging-apps"
+    }
   ]
 }
