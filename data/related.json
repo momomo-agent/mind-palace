@@ -3800,5 +3800,17 @@
       "desc": "论文原文",
       "url": "https://arxiv.org/abs/2604.19742"
     }
+  ],
+  "https://trees.software/": [
+    {
+      "title": "@pierre/trees 文档",
+      "desc": "Guide-first 文档，覆盖 React/Vanilla/SSR",
+      "url": "https://trees.software/docs"
+    },
+    {
+      "title": "Pierre Computer Company",
+      "desc": "trees 的母公司，做开发工具",
+      "url": "https://pierre.computer"
+    }
   ]
 }
