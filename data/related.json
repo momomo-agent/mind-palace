@@ -3884,5 +3884,17 @@
       "desc": "模型和代码开源",
       "url": "https://tap-next-plus-plus.github.io"
     }
+  ],
+  "https://x.com/QingQ77/status/2047211368609452461": [
+    {
+      "title": "pi-computer-use GitHub",
+      "desc": "源码仓库，含 benchmark harness 和 CONTRIBUTING.md",
+      "url": "https://github.com/injaneity/pi-computer-use"
+    },
+    {
+      "title": "Building a macOS AI Agent with Accessibility APIs",
+      "desc": "Fazm 的 macOS AI agent 教程，用 AX API + ScreenCaptureKit",
+      "url": "https://fazm.ai/blog/macos-ai-agent-accessibility-screencapturekit"
+    }
   ]
 }
