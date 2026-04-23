@@ -3836,5 +3836,17 @@
       "desc": "原始播客视频：Scott Chacon 与 a16z 的 Matt Bornstein 深度对谈",
       "url": "https://www.youtube.com/watch?v=vJiCnQeYLho"
     }
+  ],
+  "https://kocasariumut.github.io/FaceAnything/": [
+    {
+      "title": "FaceAnything arXiv 论文",
+      "desc": "完整论文 PDF",
+      "url": "https://arxiv.org/abs/2604.19702"
+    },
+    {
+      "title": "St4RTrack: Simultaneous 4D Reconstruction and Tracking",
+      "desc": "ICCV 2025 的通用 4D 重建+追踪方法，不限于人脸",
+      "url": "https://openaccess.thecvf.com/content/ICCV2025/papers/Feng_St4RTrack_Simultaneous_4D_Reconstruction_and_Tracking_in_the_World_ICCV_2025_paper.pdf"
+    }
   ]
 }
