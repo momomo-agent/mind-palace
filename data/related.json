@@ -3872,5 +3872,17 @@
       "desc": "Anthropic 2026 Agentic Coding Trends Report 数据：60% 工作用 AI，但只有 0-20% 能完全委托",
       "url": "https://vibehackers.io/blog/learn-vibe-coding"
     }
+  ],
+  "https://x.com/sjung0/status/2046697294498586891": [
+    {
+      "title": "TAPNext++ arXiv 论文",
+      "desc": "完整论文 PDF",
+      "url": "https://arxiv.org/abs/2604.10582"
+    },
+    {
+      "title": "TAPNext++ 项目页",
+      "desc": "模型和代码开源",
+      "url": "https://tap-next-plus-plus.github.io"
+    }
   ]
 }
