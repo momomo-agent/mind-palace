@@ -3939,5 +3939,17 @@
       "desc": "GitHub 上的泄漏版本镜像",
       "url": "https://github.com/codeaashu/claude-code"
     }
+  ],
+  "https://x.com/no_stp_on_snek/status/2047359233520271831": [
+    {
+      "title": "vllm-swift GitHub",
+      "desc": "源码 + benchmark + TurboQuant+ KV cache 压缩",
+      "url": "https://github.com/TheTom/vllm-swift"
+    },
+    {
+      "title": "TurboQuant+",
+      "desc": "KV cache 压缩，3.2x-4.6x 压缩率，PPL 几乎不变",
+      "url": "https://github.com/TheTom/turboquant_plus"
+    }
   ]
 }
