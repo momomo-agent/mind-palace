@@ -3908,5 +3908,17 @@
       "desc": "VentureBeat 对 NanoClaw v2 的详细技术报道",
       "url": "https://venturebeat.com/orchestration/should-my-enterprise-ai-agent-do-that-nanoclaw-and-vercel-launch-easier-agentic-policy-setting-and-approval-dialogs-across-15-messaging-apps"
     }
+  ],
+  "https://www.anthropic.com/engineering/april-23-postmortem": [
+    {
+      "title": "Clients Were Right: Anthropic Admits Claude Code Got Dumber",
+      "desc": "第三方对 Anthropic postmortem 的分析解读",
+      "url": "https://kingy.ai/ai/clients-were-right-anthropic-admits-claude-code-got-dumber-not-claude-post-mortem/"
+    },
+    {
+      "title": "VentureBeat: Mystery solved - Anthropic reveals Claude harness changes",
+      "desc": "VentureBeat 对事件的报道",
+      "url": "https://venturebeat.com/technology/mystery-solved-anthropic-reveals-changes-to-claudes-harnesses-and-operating-instructions-likely-caused-degradation"
+    }
   ]
 }
