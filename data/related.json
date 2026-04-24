@@ -3927,5 +3927,17 @@
       "desc": "开源源码，Tauri + React + TypeScript",
       "url": "https://github.com/refactoringhq/tolaria"
     }
+  ],
+  "https://www.buildfastwithai.com/blogs/claude-code-source-code-leak-2026": [
+    {
+      "title": "Pluto Security: Inside Claude Cowork 逆向分析",
+      "desc": "Claude Desktop Cowork/Dispatch/Computer Use 架构逆向，VM 安全分析",
+      "url": "https://pluto.security/blog/inside-claude-cowork-how-anthropics-autonomous-agent-actually-works/"
+    },
+    {
+      "title": "Claude Code 泄漏源码镜像",
+      "desc": "GitHub 上的泄漏版本镜像",
+      "url": "https://github.com/codeaashu/claude-code"
+    }
   ]
 }
