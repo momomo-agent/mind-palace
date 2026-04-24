@@ -3951,5 +3951,17 @@
       "desc": "KV cache 压缩，3.2x-4.6x 压缩率，PPL 几乎不变",
       "url": "https://github.com/TheTom/turboquant_plus"
     }
+  ],
+  "https://x.com/wangray/status/2047594277979693157": [
+    {
+      "title": "Lenny × Cat Wu 完整播客",
+      "desc": "1.5 小时完整对谈",
+      "url": "https://www.youtube.com/watch?v=PplmzlgE0kg"
+    },
+    {
+      "title": "Lenny's Newsletter 文字版",
+      "desc": "含完整 transcript 和参考链接",
+      "url": "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves"
+    }
   ]
 }
