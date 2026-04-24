@@ -3920,5 +3920,12 @@
       "desc": "VentureBeat 对事件的报道",
       "url": "https://venturebeat.com/technology/mystery-solved-anthropic-reveals-changes-to-claudes-harnesses-and-operating-instructions-likely-caused-degradation"
     }
+  ],
+  "https://tolaria.md/": [
+    {
+      "title": "Tolaria GitHub",
+      "desc": "开源源码，Tauri + React + TypeScript",
+      "url": "https://github.com/refactoringhq/tolaria"
+    }
   ]
 }
