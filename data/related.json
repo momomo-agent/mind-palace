@@ -3985,9 +3985,14 @@
   ],
   "https://github.com/actuallyepic/background-computer-use": [
     {
-      "title": "trycua/cua — GitHub",
-      "desc": "cua-driver：同类后台 computer-use，走 SkyLight 私有框架 + MCP 协议",
-      "url": "https://github.com/trycua/cua"
+      "title": "Taskhomie - Computer Use AI Agent",
+      "desc": "截图+光标控制的 computer-use agent",
+      "url": "https://github.com/suitedaces/computer-agent"
+    },
+    {
+      "title": "Agent - Local Computer-Use Operator for Cursor",
+      "desc": "跨多 App 的 computer-use workflow，macOS/Linux 沙箱隔离",
+      "url": "https://www.reddit.com/r/cursor/comments/1jngntk/agent_a_local_computeruse_operator_that_works/"
     }
   ],
   "https://github.com/lahfir/agent-desktop": [
