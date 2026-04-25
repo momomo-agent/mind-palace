@@ -3963,5 +3963,24 @@
       "desc": "含完整 transcript 和参考链接",
       "url": "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves"
     }
+  ],
+  "https://www.anthropic.com/features/project-deal": [
+    {
+      "title": "Project Vend 1 — Anthropic",
+      "desc": "Claude 独立运营办公室小卖部的前序实验",
+      "url": "https://www.anthropic.com/research/project-vend-1"
+    },
+    {
+      "title": "AI Agents in Economic Transactions",
+      "desc": "经济学家对 AI agent 主导商业交易的理论研究",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5875162"
+    }
+  ],
+  "https://x.com/0xlogicrw/status/2047616125643678066": [
+    {
+      "title": "trycua/cua — GitHub",
+      "desc": "cua 开源 computer-use 基础设施项目",
+      "url": "https://github.com/trycua/cua"
+    }
   ]
 }
