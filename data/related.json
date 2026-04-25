@@ -4001,5 +4001,12 @@
       "desc": "Swift HTTP API 实现的后台 computer-use，同类工具",
       "url": "https://github.com/actuallyepic/background-computer-use"
     }
+  ],
+  "https://mercury.cosmicstack.org/": [
+    {
+      "title": "Mercury Agent: Soul-Driven AI with Permission-Hardened Tools",
+      "desc": "Mercury 的详细介绍和使用指南",
+      "url": "https://pyshine.com/Mercury-Agent-Soul-Driven-AI-with-Permission-Hardened-Tools/"
+    }
   ]
 }
