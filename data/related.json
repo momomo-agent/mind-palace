@@ -3989,5 +3989,12 @@
       "desc": "cua-driver：同类后台 computer-use，走 SkyLight 私有框架 + MCP 协议",
       "url": "https://github.com/trycua/cua"
     }
+  ],
+  "https://github.com/lahfir/agent-desktop": [
+    {
+      "title": "background-computer-use",
+      "desc": "Swift HTTP API 实现的后台 computer-use，同类工具",
+      "url": "https://github.com/actuallyepic/background-computer-use"
+    }
   ]
 }
