@@ -4008,5 +4008,17 @@
       "desc": "Mercury 的详细介绍和使用指南",
       "url": "https://pyshine.com/Mercury-Agent-Soul-Driven-AI-with-Permission-Hardened-Tools/"
     }
+  ],
+  "https://github.com/machinarii/hypervibe": [
+    {
+      "title": "Vibe-Coding Without Keys On Claude Code through Voice",
+      "desc": "Claude Code 语音模式深度体验",
+      "url": "https://medium.com/activated-thinker/vibe-coding-without-keys-on-claude-code-through-voice-7eb4274dedc6"
+    },
+    {
+      "title": "RemoteVibe - 手机遥控 AI coding agent",
+      "desc": "手机端遥控 Claude Code/Gemini CLI/Codex",
+      "url": "https://apps.apple.com/my/app/remotevibe/id6759631464"
+    }
   ]
 }
