@@ -4020,5 +4020,17 @@
       "desc": "手机端遥控 Claude Code/Gemini CLI/Codex",
       "url": "https://apps.apple.com/my/app/remotevibe/id6759631464"
     }
+  ],
+  "https://x.com/MaximeHeckel/status/2038380281451671638": [
+    {
+      "title": "Precomputed Atmospheric Scattering (Three.js)",
+      "desc": "Eric Bruneton 物理大气散射模型的 Three.js 移植版",
+      "url": "https://github.com/jeantimex/precomputed_atmospheric_scattering"
+    },
+    {
+      "title": "Native WebGPU + Atmospheric Scattering",
+      "desc": "Three.js 社区讨论 WebGPU 原生大气散射实现",
+      "url": "https://www.reddit.com/r/threejs/comments/1otk6uk/native_webgpu_atmospheric_scattering/"
+    }
   ]
 }
