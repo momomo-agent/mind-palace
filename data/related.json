@@ -4044,5 +4044,17 @@
       "desc": "NASA 官方发布的月球远端地球落照片",
       "url": "https://science.nasa.gov/earth/earth-observatory/earthset-from-the-lunar-far-side/"
     }
+  ],
+  "https://x.com/MaximeHeckel/status/2048068479631176085": [
+    {
+      "title": "GPU Gems 2: Accurate Atmospheric Scattering - NVIDIA",
+      "desc": "NVIDIA GPU Gems 经典章节，大气散射的权威参考",
+      "url": "https://developer.nvidia.com/gpugems/gpugems2/part-ii-shading-lighting-and-shadows/chapter-16-accurate-atmospheric-scattering"
+    },
+    {
+      "title": "Rayleigh + Mie + Ozone Atmospheric Scatter - Godot Shaders",
+      "desc": "Godot 引擎的大气散射 shader，含臭氧层和日落效果",
+      "url": "https://godotshaders.com/shader/rayleigh-mie-ozone-based-atmospheric-scatter/"
+    }
   ]
 }
