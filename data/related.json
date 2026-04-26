@@ -4080,5 +4080,17 @@
       "desc": "HN 讨论帖，社区对 Shimmy 的评价和使用反馈",
       "url": "https://news.ycombinator.com/item?id=45130322"
     }
+  ],
+  "https://x.com/AYi_AInotes/status/2048312357667954746": [
+    {
+      "title": "Someone built a tiny AI that lives next to your cursor - daily.dev",
+      "desc": "daily.dev 对 Clicky 的深度介绍和使用体验",
+      "url": "https://app.daily.dev/posts/someone-built-a-tiny-ai-that-lives-next-to-your-cursor-and-it-s-the-most-useful-thing-i-ve-tried-in-aeqepdl5t"
+    },
+    {
+      "title": "Built Farza's clicky but for Mac, PC, and Linux - Open Source",
+      "desc": "有人仿照 Clicky 做了跨平台开源版，Mac/PC/Linux 都能用",
+      "url": "https://www.reddit.com/r/buildinpublic/comments/1sntjec/built_farzas_clicky_but_for_mac_pc_and_linux_yes/"
+    }
   ]
 }
