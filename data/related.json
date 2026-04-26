@@ -4068,5 +4068,17 @@
       "desc": "自定义 SDF 材质 + 折射 shader 实验，含色差效果",
       "url": "https://www.linkedin.com/posts/geokaralis_glass-webgl-shader-experiment-a-custom-activity-7357315033447415808-AMFg"
     }
+  ],
+  "https://github.com/Michael-A-Kuykendall/shimmy": [
+    {
+      "title": "Shimmy vs. Ollama: A Lightweight Alternative - Medium",
+      "desc": "详细对比 Shimmy 和 Ollama 的性能、体积、功能差异",
+      "url": "https://medium.com/@shouke.wei/shimmy-vs-ollama-a-lightweight-alternative-for-local-llm-serving-890caeaf141d"
+    },
+    {
+      "title": "Show HN: Shimmy – 5MB privacy-first local alternative to Ollama",
+      "desc": "HN 讨论帖，社区对 Shimmy 的评价和使用反馈",
+      "url": "https://news.ycombinator.com/item?id=45130322"
+    }
   ]
 }
