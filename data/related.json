@@ -4056,5 +4056,17 @@
       "desc": "Godot 引擎的大气散射 shader，含臭氧层和日落效果",
       "url": "https://godotshaders.com/shader/rayleigh-mie-ozone-based-atmospheric-scatter/"
     }
+  ],
+  "https://x.com/MaximeHeckel/status/2023457403413688425": [
+    {
+      "title": "Shape Lens Blur Effect with SDFs and WebGL - Codrops",
+      "desc": "Codrops 教程：用 SDF 实现形状镜头模糊效果",
+      "url": "https://tympanus.net/codrops/2024/06/12/shape-lens-blur-effect-with-sdfs-and-webgl/"
+    },
+    {
+      "title": "Glass WebGL Shader - Custom SDF Refraction",
+      "desc": "自定义 SDF 材质 + 折射 shader 实验，含色差效果",
+      "url": "https://www.linkedin.com/posts/geokaralis_glass-webgl-shader-experiment-a-custom-activity-7357315033447415808-AMFg"
+    }
   ]
 }
