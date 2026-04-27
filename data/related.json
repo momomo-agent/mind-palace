@@ -4143,5 +4143,22 @@
       "desc": "UE4 时代 Epic 自己的论文：用 G-buffer aggregate 做 pre-filtering 解决 specular aliasing",
       "url": "https://advances.realtimerendering.com/s2016/AGAA_UE4_SG2016_6.pdf"
     }
+  ],
+  "https://x.com/Shubham_iosdev/status/2048349961306394791": [
+    {
+      "title": "ScrollView effects using visualEffect() and scrollTargetBehavior() — Hacking with Swift",
+      "desc": "Paul Hudson 讲 ScrollView + visualEffect 做 CoverFlow 等滚动驱动效果",
+      "url": "https://www.hackingwithswift.com/books/ios-swiftui/scrollview-effects-using-visualeffect-and-scrolltargetbehavior"
+    },
+    {
+      "title": "SwiftUI transitions with distortion effect and Metal Shaders — Pavel Zak",
+      "desc": "distortionEffect 的完整 Metal shader 实现讲解",
+      "url": "https://nerdyak.tech/development/2023/06/16/distortionEffect-with-Metal-shaders-for-better-transitions.html"
+    },
+    {
+      "title": "Introduction to Shaders in SwiftUI: Wave Effect — Cindori",
+      "desc": "SwiftUI shader 入门：用 TimelineView 驱动 wave distortion",
+      "url": "https://cindori.com/developer/swiftui-shaders-wave"
+    }
   ]
 }
