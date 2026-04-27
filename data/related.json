@@ -4092,5 +4092,22 @@
       "desc": "有人仿照 Clicky 做了跨平台开源版，Mac/PC/Linux 都能用",
       "url": "https://www.reddit.com/r/buildinpublic/comments/1sntjec/built_farzas_clicky_but_for_mac_pc_and_linux_yes/"
     }
+  ],
+  "https://x.com/Codelaby/status/2048505304124371366": [
+    {
+      "title": "Metal and Custom Shaders in SwiftUI: GPU-Powered Graphics",
+      "desc": "SwiftUI Metal shader 综合教程：dissolve、chromatic aberration、bloom、distortion 全覆盖",
+      "url": "https://medium.com/codetodeploy/metal-and-custom-shaders-in-swiftui-gpu-powered-graphics-bfd4019a1781"
+    },
+    {
+      "title": "Advanced Texture Effects — Metal Shaders for SwiftUI",
+      "desc": "进阶 SwiftUI::Layer 纹理采样：bloom、模糊、卷积、多 pass 效果",
+      "url": "https://metal.graphics/chapter10-texture-effects"
+    },
+    {
+      "title": "Metal for SwiftUI — Alex Logan",
+      "desc": "WWDC23 Metal + SwiftUI 三个 modifier（colorEffect/distortionEffect/layerEffect）对比",
+      "url": "https://alexanderlogan.co.uk/blog/wwdc23/09-metal"
+    }
   ]
 }
