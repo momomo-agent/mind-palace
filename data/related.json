@@ -4160,5 +4160,22 @@
       "desc": "SwiftUI shader 入门：用 TimelineView 驱动 wave distortion",
       "url": "https://cindori.com/developer/swiftui-shaders-wave"
     }
+  ],
+  "https://x.com/1amageek/status/2048629794049540341": [
+    {
+      "title": "1amageek/OpenCoreAnimation",
+      "desc": "OpenCoreAnimation 仓库本体，完整 README 和示例代码",
+      "url": "https://github.com/1amageek/OpenCoreAnimation"
+    },
+    {
+      "title": "swiftwasm/WasmKit — Swift WebAssembly Runtime",
+      "desc": "纯 Swift 写的 WebAssembly 运行时，Swift 6.2 起官方支持",
+      "url": "https://github.com/swiftwasm/WasmKit"
+    },
+    {
+      "title": "henrybetts/swift-webgpu — Swift WebGPU bindings",
+      "desc": "Swift 的 WebGPU type-safe 绑定，WASM 和原生都能用",
+      "url": "https://github.com/henrybetts/swift-webgpu"
+    }
   ]
 }
