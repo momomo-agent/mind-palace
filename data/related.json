@@ -4194,5 +4194,22 @@
       "desc": "2026 AI coding agent 实际使用评测：成本、生产力、UI 重要性",
       "url": "https://www.faros.ai/blog/best-ai-coding-agents-2026"
     }
+  ],
+  "https://developer.chrome.com/docs/ai/prompt-api?hl=zh-tw": [
+    {
+      "title": "Calling Gemini Nano from the Browser: A Practical Guide (April 2026)",
+      "desc": "Chrome Prompt API 实战指南：启用、流式响应、会话管理、云端 fallback",
+      "url": "https://gemilab.net/en/articles/gemini-dev/chrome-prompt-api-gemini-nano-browser-implementation-guide"
+    },
+    {
+      "title": "On-Device AI vs. Cloud AI: Why Privacy Can Win Over Convenience",
+      "desc": "iOS 本地 AI vs 云端 AI：隐私为何能战胜便利性",
+      "url": "https://dev.to/arshtechpro/on-device-ai-vs-cloud-ai-why-privacy-can-win-over-convenience-2h1i"
+    },
+    {
+      "title": "On-Device AI vs Cloud AI: Privacy & Performance Comparison",
+      "desc": "Apple Intelligence 证明本地 AI 不只可行，在多数场景优于云端",
+      "url": "https://basilai.app/articles/2026-02-21-on-device-ai-vs-cloud-ai-privacy-performance-comparison.html"
+    }
   ]
 }
