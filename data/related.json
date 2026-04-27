@@ -4228,5 +4228,22 @@
       "desc": "吉祥物在品牌和 UI 设计中的力量：从抽象 logo 到具象角色",
       "url": "https://uxplanet.org/the-power-of-mascots-in-branding-and-ui-design-5973d12be955"
     }
+  ],
+  "https://github.com/trycua/cua": [
+    {
+      "title": "Build Your Own Operator on macOS - Part 2",
+      "desc": "Cua 官方博客：cua-agent 框架简化 computer-use agent 开发",
+      "url": "https://cua.ai/blog/build-your-own-operator-on-macos-2"
+    },
+    {
+      "title": "From Lume to Containerization: Our Journey Meets Apple's Vision",
+      "desc": "Lume 遇上 Apple Containerization framework 的演进",
+      "url": "https://cua.ai/blog/lume-to-containerization"
+    },
+    {
+      "title": "Computer-Use Agent Frameworks Can Expose Realistic Risks (ICLR 2026)",
+      "desc": "ICLR 2026 论文：CUA 框架的安全风险分析（TTP）",
+      "url": "https://openreview.net/forum?id=whqkAw5M7q"
+    }
   ]
 }
