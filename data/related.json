@@ -4109,5 +4109,22 @@
       "desc": "WWDC23 Metal + SwiftUI 三个 modifier（colorEffect/distortionEffect/layerEffect）对比",
       "url": "https://alexanderlogan.co.uk/blog/wwdc23/09-metal"
     }
+  ],
+  "https://www.reddit.com/r/GraphicsProgramming/comments/1swb31d/why_is_liquid_glass_so_computer_intensive/": [
+    {
+      "title": "Liquid Glass: iOS Effect Explanation",
+      "desc": "Liquid Glass 效果的 fragment shader 完整实现讲解",
+      "url": "https://medium.com/@aghajari/liquid-glass-ios-effect-explanation-dabadd6414ae"
+    },
+    {
+      "title": "Video Game Blurs (and how the best one works) — FrostKiwi",
+      "desc": "Dual Kawase blur 为什么是当前游戏业最优模糊方案",
+      "url": "https://blog.frost.kiwi/dual-kawase/"
+    },
+    {
+      "title": "Mastering Liquid Glass UI in iOS (SwiftUI) Part 3: Depth, Light, Refraction",
+      "desc": "SwiftUI 实现 Liquid Glass 的进阶：深度/光照/折射分层",
+      "url": "https://medium.com/@shashidj206/liquid-glass-in-ios-part-3-depth-light-refraction-7d01f0d653e8"
+    }
   ]
 }
