@@ -4177,5 +4177,22 @@
       "desc": "Swift 的 WebGPU type-safe 绑定，WASM 和原生都能用",
       "url": "https://github.com/henrybetts/swift-webgpu"
     }
+  ],
+  "https://x.com/karrisaarinen/status/2048267794924650791": [
+    {
+      "title": "The AI Dunning-Kruger Paradox",
+      "desc": "为什么我们在错误的地方信任 AI：Gell-Mann amnesia + Dunning-Kruger 双重效应",
+      "url": "https://medium.com/@ale.fuerer/the-ai-dunning-kruger-paradox-why-we-trust-ai-in-all-the-wrong-places-52ae4cd82ba0"
+    },
+    {
+      "title": "The Risks of Having AI Create Your Strategic Plan FOR You",
+      "desc": "让 AI 写战略计划的风险：alignment first, AI second",
+      "url": "https://www.smestrategy.net/blog/the-risks-of-having-ai-create-your-strategic-plan-for-you-the-case-for-alignment-first-and-ai-second"
+    },
+    {
+      "title": "Best AI Coding Agents for 2026: Real-World Developer Reviews",
+      "desc": "2026 AI coding agent 实际使用评测：成本、生产力、UI 重要性",
+      "url": "https://www.faros.ai/blog/best-ai-coding-agents-2026"
+    }
   ]
 }
