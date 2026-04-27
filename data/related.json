@@ -4126,5 +4126,22 @@
       "desc": "SwiftUI 实现 Liquid Glass 的进阶：深度/光照/折射分层",
       "url": "https://medium.com/@shashidj206/liquid-glass-in-ios-part-3-depth-light-refraction-7d01f0d653e8"
     }
+  ],
+  "https://www.reddit.com/r/GraphicsProgramming/comments/1svx1cx/modern_engine_artifacts/": [
+    {
+      "title": "NVIDIA RTXGI Vs Unreal's Lumen",
+      "desc": "RTXGI 和 Lumen 两大实时 GI 方案对比：原理、质量、性能",
+      "url": "https://unrealstack.com/nvidia-rtxgi-vs-unreals-lumen/"
+    },
+    {
+      "title": "PBR and Specular Aliasing — Computer Graphics Stack Exchange",
+      "desc": "firefly 伪影的根本原因：低 roughness 材质边缘的高频高光采样不足",
+      "url": "https://computergraphics.stackexchange.com/questions/8102/pbr-and-specular-aliasing"
+    },
+    {
+      "title": "Aggregate G-Buffer Anti-Aliasing in Unreal Engine 4",
+      "desc": "UE4 时代 Epic 自己的论文：用 G-buffer aggregate 做 pre-filtering 解决 specular aliasing",
+      "url": "https://advances.realtimerendering.com/s2016/AGAA_UE4_SG2016_6.pdf"
+    }
   ]
 }
