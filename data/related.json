@@ -4279,5 +4279,22 @@
       "desc": "业内人士对 No Graphics API 的深度回应",
       "url": "https://www.corsix.org/content/thoughts-on-no-graphics-api"
     }
+  ],
+  "https://x.com/OpenAIDevs/status/2048871260512473385": [
+    {
+      "title": "gpt-realtime-1.5 Model — OpenAI API Docs",
+      "desc": "官方模型页：规格、定价、rate limit、endpoint",
+      "url": "https://developers.openai.com/api/docs/models/gpt-realtime-1.5"
+    },
+    {
+      "title": "OpenAI Just Changed Voice AI Forever - Meet GPT-Realtime-1.5",
+      "desc": "DEV 社区技术解读，benchmark 数据+实测体验",
+      "url": "https://dev.to/tyson_cung/openai-just-changed-voice-ai-forever-meet-gpt-realtime-15-2ghn"
+    },
+    {
+      "title": "Build a realtime speech app with OpenAI, Cloudflare, and Replicate",
+      "desc": "Realtime WebRTC + function calling 实战教程",
+      "url": "https://replicate.com/docs/guides/extend/openai-realtime"
+    }
   ]
 }
