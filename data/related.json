@@ -4364,5 +4364,17 @@
       "desc": "TechCrunch 报道 OpenAI 首款硬件设备可能是耳机",
       "url": "https://techcrunch.com/2026/01/21/openai-aims-to-ship-its-first-device-in-2026-and-it-could-be-earbuds/"
     }
+  ],
+  "https://x.com/superdoteng/status/2049163568491188543": [
+    {
+      "title": "oh-my-pi (GitHub)",
+      "desc": "Pi coding agent 开源仓库，TypeScript+Rust+Bun",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "title": "Pi.dev",
+      "desc": "Pi coding agent 官网",
+      "url": "https://pi.dev"
+    }
   ]
 }
