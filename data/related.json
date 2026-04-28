@@ -4245,5 +4245,22 @@
       "desc": "ICLR 2026 论文：CUA 框架的安全风险分析（TTP）",
       "url": "https://openreview.net/forum?id=whqkAw5M7q"
     }
+  ],
+  "https://x.com/XiaomiMiMo/status/2048821516079661561": [
+    {
+      "title": "Kimi K2: 1T MoE Model (32B Active) — Local Setup & Benchmarks",
+      "desc": "Kimi K2 1T MoE（32B 激活）本地部署指南，对比 DeepSeek V3 生态成熟度",
+      "url": "https://localaimaster.com/models/kimi-k2"
+    },
+    {
+      "title": "How to Run Kimi K2.5 Locally on Mac Studio M3 Ultra with 512GB",
+      "desc": "Mac Studio M3 Ultra 512GB 本地跑 Kimi K2.5 的实战指南",
+      "url": "https://developer.tenten.co/how-to-run-kimi-k25-locally-on-mac-studio-m3-ultra-with-512gb"
+    },
+    {
+      "title": "MiMo-V2.5-Pro Performance on OpenRouter",
+      "desc": "MiMo-V2.5-Pro API 性能指标，1M 上下文，$1/M input + $3/M output",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro/performance"
+    }
   ]
 }
