@@ -4347,5 +4347,22 @@
       "desc": "AI 生成 UI 组件的工具",
       "url": "https://v0.dev"
     }
+  ],
+  "https://mp.weixin.qq.com/s/4Anx-PYzppWzrpH5W62Nkw": [
+    {
+      "title": "OpenAI's agent-first smartphone could jump-start its foray into devices",
+      "desc": "eMarketer 分析 OpenAI agent-first 手机的市场前景",
+      "url": "https://www.emarketer.com/content/openai-agent-first-smartphone-could-jump-start-its-foray-devices"
+    },
+    {
+      "title": "OpenAI Titan Custom AI Chip: Samsung HBM4 Deal",
+      "desc": "OpenAI 自研芯片 Titan 的技术规格和 Samsung HBM4 合作",
+      "url": "https://tech-insider.org/openai-titan-chip-samsung-hbm4-custom-ai-chip-2026/"
+    },
+    {
+      "title": "OpenAI aims to ship its first device in 2026",
+      "desc": "TechCrunch 报道 OpenAI 首款硬件设备可能是耳机",
+      "url": "https://techcrunch.com/2026/01/21/openai-aims-to-ship-its-first-device-in-2026-and-it-could-be-earbuds/"
+    }
   ]
 }
