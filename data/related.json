@@ -4330,5 +4330,22 @@
       "desc": "Karpathy 的 LLM knowledge base 方法论详解",
       "url": "https://academy.dair.ai/blog/llm-knowledge-bases-karpathy"
     }
+  ],
+  "https://x.com/tuturetom/status/2049066330934976610": [
+    {
+      "title": "Anthropic Brand Guidelines",
+      "desc": "Claude 官方品牌设计指南",
+      "url": "https://www.anthropic.com/brand"
+    },
+    {
+      "title": "shadcn/ui",
+      "desc": "可复用的 React 组件库，基于 Radix UI 和 Tailwind CSS",
+      "url": "https://github.com/shadcn-ui/ui"
+    },
+    {
+      "title": "v0 by Vercel",
+      "desc": "AI 生成 UI 组件的工具",
+      "url": "https://v0.dev"
+    }
   ]
 }
