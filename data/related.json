@@ -4262,5 +4262,22 @@
       "desc": "MiMo-V2.5-Pro API 性能指标，1M 上下文，$1/M input + $3/M output",
       "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro/performance"
     }
+  ],
+  "https://x.com/wookash_podcast/status/2048082116429156660": [
+    {
+      "title": "No Graphics API — Sebastian Aaltonen",
+      "desc": "Aaltonen 2025 年底发表的 manifesto，论证 'modern APIs' 需要被推倒",
+      "url": "https://www.sebastianaaltonen.com/blog/no-graphics-api"
+    },
+    {
+      "title": "HypeHype Mobile Rendering Architecture - SIGGRAPH 2023",
+      "desc": "Aaltonen 在 SIGGRAPH 2023 讲 HypeHype 移动渲染架构的 slides",
+      "url": "https://advances.realtimerendering.com/s2023/AaltonenHypeHypeAdvances2023.pdf"
+    },
+    {
+      "title": "Thoughts on No Graphics API - corsix.org",
+      "desc": "业内人士对 No Graphics API 的深度回应",
+      "url": "https://www.corsix.org/content/thoughts-on-no-graphics-api"
+    }
   ]
 }
