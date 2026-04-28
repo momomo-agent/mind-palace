@@ -4313,5 +4313,22 @@
       "desc": "配套模型的规格和定价（已存过）",
       "url": "https://developers.openai.com/api/docs/models/gpt-realtime-1.5"
     }
+  ],
+  "https://x.com/DtDt666/status/2049028300761366989": [
+    {
+      "title": "How I use LLMs — Andrej Karpathy (YouTube)",
+      "desc": "2:11:12 完整视频，Karpathy 官方频道",
+      "url": "https://www.youtube.com/watch?v=EWvNQjAaOHw"
+    },
+    {
+      "title": "Andrej Karpathy's Actual LLM Workflow: It's Not What You Think",
+      "desc": "Medium 解读 Karpathy 的 LLM 工作流核心",
+      "url": "https://mayursurani.medium.com/andrej-karpathys-actual-llm-workflow-it-s-not-what-you-think-ff2ab720d0db"
+    },
+    {
+      "title": "LLM Knowledge Bases — DAIR.AI",
+      "desc": "Karpathy 的 LLM knowledge base 方法论详解",
+      "url": "https://academy.dair.ai/blog/llm-knowledge-bases-karpathy"
+    }
   ]
 }
