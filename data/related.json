@@ -4427,5 +4427,22 @@
       "desc": "PyShine 对 Craft Agents 架构的详细分析，含 monorepo 分层图",
       "url": "https://pyshine.com/Craft-Agents-Open-Source-AI-Agent-Platform/"
     }
+  ],
+  "https://blog.qiaomu.ai/lessons-from-openai-ai-researcher": [
+    {
+      "title": "Things I learned at OpenAI - Karina Nguyen 原文",
+      "desc": "Karina Nguyen 的 Substack 原文，英文版",
+      "url": "https://semaphore.substack.com/p/things-i-learned-at-openai"
+    },
+    {
+      "title": "Lenny's Podcast: Karina Nguyen on Soft Skills",
+      "desc": "Karina Nguyen 在 Lenny's Podcast 的深度访谈，讨论 soft skills 在 AI 时代的价值",
+      "url": "https://www.lennysnewsletter.com/p/why-soft-skills-are-the-future-of-work-karina-nguyen"
+    },
+    {
+      "title": "Karina Nguyen 个人主页",
+      "desc": "她在 OpenAI 的贡献：Canvas、SimpleQA、ChatGPT Tasks、o-series",
+      "url": "https://karinanguyen.com/"
+    }
   ]
 }
