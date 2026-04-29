@@ -4487,5 +4487,17 @@
       "desc": "2026 \u5f00\u6e90 agent \u7f16\u6392\u5de5\u5177\u6a2a\u8bc4",
       "url": "https://www.augmentcode.com/tools/open-source-agent-orchestrators"
     }
+  ],
+  "https://x.com/dingyi/status/2049507438156787936": [
+    {
+      "title": "The AGI Lab Dominating AI Most Underestimated Metric",
+      "desc": "ZenGen Labs \u6df1\u5ea6\u5206\u6790 Inclusion AI",
+      "url": "https://research.zengenlabs.com/p/the-agi-lab-dominating-ais-most-underestimated"
+    },
+    {
+      "title": "Ling-2.6-flash on OpenRouter",
+      "desc": "OpenRouter \u514d\u8d39\u4f7f\u7528 + benchmark",
+      "url": "https://openrouter.ai/inclusionai/ling-2.6-flash:free/benchmarks"
+    }
   ]
 }
