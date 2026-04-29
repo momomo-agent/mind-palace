@@ -4475,5 +4475,17 @@
       "desc": "2026 \u672c\u5730 LLM \u5de5\u5177\u6a2a\u8bc4",
       "url": "https://getstream.io/blog/best-local-llm-tools/"
     }
+  ],
+  "https://x.com/caspian_1016/status/2049154170025058452": [
+    {
+      "title": "Helmor GitHub",
+      "desc": "Apache 2.0 \u5f00\u6e90\u4ed3\u5e93",
+      "url": "https://github.com/dohooo/helmor"
+    },
+    {
+      "title": "9 Open-Source Agent Orchestrators",
+      "desc": "2026 \u5f00\u6e90 agent \u7f16\u6392\u5de5\u5177\u6a2a\u8bc4",
+      "url": "https://www.augmentcode.com/tools/open-source-agent-orchestrators"
+    }
   ]
 }
