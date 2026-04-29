@@ -4410,5 +4410,22 @@
       "desc": "GitHub 官方博客介绍 Agent HQ，支持 Claude 和 Codex 作为 coding agent",
       "url": "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/"
     }
+  ],
+  "https://agents.craft.do/": [
+    {
+      "title": "lukilabs/craft-agents-oss GitHub 仓库",
+      "desc": "TypeScript monorepo，4189 Star，Electron+WebUI+CLI+Viewer 四入口",
+      "url": "https://github.com/lukilabs/craft-agents-oss"
+    },
+    {
+      "title": "Craft Agents 官方文档",
+      "desc": "完整文档：安装、核心概念、Sources、Skills、Automations、Browser、Server",
+      "url": "https://agents.craft.do/docs/getting-started/introduction"
+    },
+    {
+      "title": "Craft Agents OSS 深度解析",
+      "desc": "PyShine 对 Craft Agents 架构的详细分析，含 monorepo 分层图",
+      "url": "https://pyshine.com/Craft-Agents-Open-Source-AI-Agent-Platform/"
+    }
   ]
 }
