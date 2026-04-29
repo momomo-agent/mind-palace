@@ -4376,5 +4376,22 @@
       "desc": "Pi coding agent 官网",
       "url": "https://pi.dev"
     }
+  ],
+  "https://x.com/shao__meng/status/2049305218731622408": [
+    {
+      "title": "browser-trace Skill 官方页面",
+      "desc": "安装和使用文档，含 Quickstart 和架构说明",
+      "url": "https://skills.sh/browserbase/skills/browser-trace"
+    },
+    {
+      "title": "CDP Under the Hood: A Deep Dive",
+      "desc": "深入解析 Chrome DevTools Protocol 的内部机制，为什么它是为调试而非自动化设计的",
+      "url": "https://lightpanda.io/blog/posts/cdp-under-the-hood"
+    },
+    {
+      "title": "Browserbase Observability 文档",
+      "desc": "Browserbase 平台的可观测性功能，包括 session 实时查看和录制",
+      "url": "https://docs.browserbase.com/platform/browser/observability/observability"
+    }
   ]
 }
