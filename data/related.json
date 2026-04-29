@@ -4393,5 +4393,22 @@
       "desc": "Browserbase 平台的可观测性功能，包括 session 实时查看和录制",
       "url": "https://docs.browserbase.com/platform/browser/observability/observability"
     }
+  ],
+  "https://x.com/sitinme/status/2049332344130064660": [
+    {
+      "title": "shareAI-lab/learn-claude-code GitHub 仓库",
+      "desc": "原始仓库，12 个 session 递进教学，核心代码不到 200 行",
+      "url": "https://github.com/shareAI-lab/learn-claude-code"
+    },
+    {
+      "title": "10 GitHub Repositories To Master Claude Code",
+      "desc": "KDnuggets 整理的 10 个学习 Claude Code 的 GitHub 仓库",
+      "url": "https://www.kdnuggets.com/10-github-repositories-to-master-claude-code"
+    },
+    {
+      "title": "GitHub Agent HQ: Use Claude and Codex",
+      "desc": "GitHub 官方博客介绍 Agent HQ，支持 Claude 和 Codex 作为 coding agent",
+      "url": "https://github.blog/news-insights/company-news/pick-your-agent-use-claude-and-codex-on-agent-hq/"
+    }
   ]
 }
