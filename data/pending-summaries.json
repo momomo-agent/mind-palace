@@ -1,10 +1,7 @@
 {
-  "https://test.com/summary-v2": "\u9a8c\u8bc1pending summary\u673a\u5236\uff1a\u65b0\u6761\u76ee\u7684summary\u5148\u5b58pending\uff0csync\u65f6\u81ea\u52a8\u5408\u5e76",
-  "https://x.com/berryxia/status/2034030584671134087": "LabClaw\uff1a\u65af\u5766\u798f-\u666e\u6797\u65af\u987f\u5f00\u6e90\uff0c\u4e00\u6761\u547d\u4ee4\u8ba9 OpenClaw agent \u53d8\u6210 AI \u5408\u4f5c\u79d1\u5b66\u5bb6",
+  "https://test.com/summary-v2": "验证pending summary机制：新条目的summary先存pending，sync时自动合并",
+  "https://x.com/berryxia/status/2034030584671134087": "LabClaw：斯坦福-普林斯顿开源，一条命令让 OpenClaw agent 变成 AI 合作科学家",
   "https://labclaw-ai.github.io": "LabClaw demo site",
-  "https://www.mindstudio.ai/blog/what-is-design-md-google-stitch/": "DESIGN.md \u662f AI \u7684\u8bbe\u8ba1\u7cfb\u7edf system prompt",
-  "https://sudoall.com/gemma-4-31b-apple-silicon-local-guide/": "MLX \u4f18\u5316\u7684 Gemma 4 \u6027\u80fd\u8d85\u8fc7 GGUF",
-  "https://x.com/dingyi/status/2049507438156787936": "\u8682\u8681 Inclusion AI \u5f00\u6e90 Ling-2.6-flash\uff08104B MoE\uff09+ 1T \u6084\u6084\u4e0a\u7ebf\uff0c340 tokens/s",
-  "https://research.zengenlabs.com/p/the-agi-lab-dominating-ais-most-underestimated": "Inclusion AI \u88ab\u4f4e\u4f30\uff1atokens/s \u624d\u662f\u771f\u5b9e\u6307\u6807",
-  "https://openrouter.ai/inclusionai/ling-2.6-flash:free/benchmarks": "Ling-2.6-flash \u514d\u8d39 + 262K context benchmark"
+  "https://www.mindstudio.ai/blog/what-is-design-md-google-stitch/": "DESIGN.md 是 AI 的设计系统 system prompt",
+  "https://sudoall.com/gemma-4-31b-apple-silicon-local-guide/": "MLX 优化的 Gemma 4 性能超过 GGUF"
 }
