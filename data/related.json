@@ -4523,5 +4523,17 @@
       "desc": "从零搭 reverse-mode 自动微分的系统课程，从计算图讲到 backward 调用",
       "url": "https://mlsysbook.ai/tinytorch/modules/06_autograd_ABOUT.html"
     }
+  ],
+  "https://huggingface.co/papers/2604.25917": [
+    {
+      "title": "LatentMAS (Gen-Verse)",
+      "desc": "独立团队同方向工作，把 multi-agent 协作从 token 空间搬到 latent 空间，可与 RecursiveMAS 对照看",
+      "url": "https://github.com/Gen-Verse/LatentMAS"
+    },
+    {
+      "title": "MCOUT: Multimodal Chain of Continuous Thought (NeurIPS 2025)",
+      "desc": "单 agent 版的连续思考，复用 LLM 最后一层 hidden state 迭代推理，跟 RecursiveLink 内链同源",
+      "url": "https://neurips.cc/virtual/2025/126662"
+    }
   ]
 }
