@@ -4583,5 +4583,41 @@
       "desc": "第一个 tweak 演示：自定义键盘快捷键",
       "url": "https://x.com/b_nnett/status/2049099036427452640"
     }
+  ],
+  "https://x.com/geekbb/status/2049722118129213613": [
+    {
+      "title": "CliRelay repo",
+      "desc": "Go 写的 CLI Proxy，统一 AI 编程工具的 OAuth/API Key 代理",
+      "url": "https://github.com/kittors/CliRelay"
+    },
+    {
+      "title": "CLIProxyAPI 介绍",
+      "desc": "CliRelay 的原项目，多 AI CLI 工具统一代理",
+      "url": "https://help.router-for.me/introduction/what-is-cliproxyapi"
+    }
+  ],
+  "https://x.com/anthropicai/status/2049624600741560340": [
+    {
+      "title": "Introducing Anthropic Science Blog",
+      "desc": "专谈 AI+科学的博客。主题：compressed 21st century 、AI 接管 cognition",
+      "url": "https://www.anthropic.com/research/introducing-anthropic-science"
+    },
+    {
+      "title": "Machines of Loving Grace（Dario Amodei）",
+      "desc": "Anthropic CEO 的 compressed 21st century 愿景原文",
+      "url": "https://www.darioamodei.com/essay/machines-of-loving-grace"
+    }
+  ],
+  "https://x.com/qqqqqf_/status/2049776170246471804": [
+    {
+      "title": "Arkloop repo",
+      "desc": "开源本地 agent 平台，Firecracker microVM 沙箱，兼容 OpenClaw SKILL.md 格式",
+      "url": "https://github.com/qqqqqf-q/Arkloop"
+    },
+    {
+      "title": "Arkloop 官网",
+      "desc": "桌面 app 打包全运行时，零配置，支持 macOS/Linux/Windows",
+      "url": "https://arkloop.cn"
+    }
   ]
 }
