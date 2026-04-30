@@ -4535,5 +4535,17 @@
       "desc": "单 agent 版的连续思考，复用 LLM 最后一层 hidden state 迭代推理，跟 RecursiveLink 内链同源",
       "url": "https://neurips.cc/virtual/2025/126662"
     }
+  ],
+  "https://x.com/tong_ping_diary/status/2049579081948364818": [
+    {
+      "title": "How to Connect Claude AI to Blender",
+      "desc": "Claude+Blender 实战指南：Python API 自动化物体放置、材质生成、procedural geometry",
+      "url": "https://medium.com/@gizmo.codes/how-to-connect-claude-ai-to-blender-a-practical-guide-for-3d-artists-b96c141cd97c"
+    },
+    {
+      "title": "Generate 3D Models with Claude MCP and Blender",
+      "desc": "用 MCP 协议让 Claude 直控 Blender 的步骤教程，文本 prompt 生成 3D 内容",
+      "url": "https://www.harknessai.nz/articles/generate-3d-models-claude-blender"
+    }
   ]
 }
