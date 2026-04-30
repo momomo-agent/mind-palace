@@ -4619,5 +4619,17 @@
       "desc": "桌面 app 打包全运行时，零配置，支持 macOS/Linux/Windows",
       "url": "https://arkloop.cn"
     }
+  ],
+  "https://x.com/openaidevs/status/2049595890395152728": [
+    {
+      "title": "Speeding up agentic workflows with WebSockets (OpenAI 官方)",
+      "desc": "WebSocket 加速 agent loop 的技术细节，从 65 TPS 到 1000 TPS",
+      "url": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets/"
+    },
+    {
+      "title": "Unrolling the Codex Agent Loop (OpenAI 官方)",
+      "desc": "Codex agent loop 架构详解，previous_response_id 增量传输",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop/"
+    }
   ]
 }
