@@ -4511,5 +4511,17 @@
       "desc": "基于人类偏好数据验证 ~50% 成本下降，讨论路由不是选最便宜而是匹配能力",
       "url": "https://router.orq.ai/blog/auto-router-intelligent-llm-routing"
     }
+  ],
+  "https://github.com/apoorvnandan/tensor.h": [
+    {
+      "title": "micrograd by Karpathy",
+      "desc": "Python 150 行的 autograd 引擎，tensor.h 的兄弟项目，先看这个更容易上手",
+      "url": "https://github.com/karpathy/micrograd"
+    },
+    {
+      "title": "TinyTorch Module 06: Autograd",
+      "desc": "从零搭 reverse-mode 自动微分的系统课程，从计算图讲到 backward 调用",
+      "url": "https://mlsysbook.ai/tinytorch/modules/06_autograd_ABOUT.html"
+    }
   ]
 }
