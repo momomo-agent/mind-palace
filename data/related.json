@@ -4559,5 +4559,17 @@
       "desc": "DSPy + GEPA 优化 skills/prompts/agent 代码，可衡量的复合改进",
       "url": "https://kisztof.medium.com/hermes-agent-review-nous-researchs-self-improving-ai-agent-e72bc244435a"
     }
+  ],
+  "https://x.com/b_nnett/status/2049099036427452640": [
+    {
+      "title": "Codex Customization 官方文档",
+      "desc": "AGENTS.md + Skills + MCP + Subagents 四层定制体系，跟 OpenClaw 高度同构",
+      "url": "https://developers.openai.com/codex/concepts/customization"
+    },
+    {
+      "title": "Introducing Codex (OpenAI 官方)",
+      "desc": "Cloud-based coding agent，多 agent 并行，Codex CLI 开源",
+      "url": "https://openai.com/index/introducing-codex/"
+    }
   ]
 }
