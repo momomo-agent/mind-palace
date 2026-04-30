@@ -4547,5 +4547,17 @@
       "desc": "用 MCP 协议让 Claude 直控 Blender 的步骤教程，文本 prompt 生成 3D 内容",
       "url": "https://www.harknessai.nz/articles/generate-3d-models-claude-blender"
     }
+  ],
+  "https://x.com/dotey/status/2049735038560842186": [
+    {
+      "title": "Inside Hermes Agent: How a Self-Improving AI Agent Actually Works",
+      "desc": "Hermes Agent 深度分析，40+ bundled skills + self-improving loop 实际工作机制",
+      "url": "https://mranand.substack.com/p/inside-hermes-agent-how-a-self-improving"
+    },
+    {
+      "title": "Hermes Agent Review + Self-Evolution (ICLR 2026 Oral)",
+      "desc": "DSPy + GEPA 优化 skills/prompts/agent 代码，可衡量的复合改进",
+      "url": "https://kisztof.medium.com/hermes-agent-review-nous-researchs-self-improving-ai-agent-e72bc244435a"
+    }
   ]
 }
