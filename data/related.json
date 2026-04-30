@@ -4499,5 +4499,17 @@
       "desc": "OpenRouter \u514d\u8d39\u4f7f\u7528 + benchmark",
       "url": "https://openrouter.ai/inclusionai/ling-2.6-flash:free/benchmarks"
     }
+  ],
+  "https://github.com/mnfst/manifest": [
+    {
+      "title": "LLM Model Routing: Cut Costs 85%",
+      "desc": "Burnwise 写的智能路由完整指南，砍 85% 成本保 95% 质量",
+      "url": "https://www.burnwise.io/blog/llm-model-routing-guide"
+    },
+    {
+      "title": "Orq.ai Auto Router 实测",
+      "desc": "基于人类偏好数据验证 ~50% 成本下降，讨论路由不是选最便宜而是匹配能力",
+      "url": "https://router.orq.ai/blog/auto-router-intelligent-llm-routing"
+    }
   ]
 }
