@@ -1,4 +1,21 @@
 {
+  "https://x.com/karpathy/status/2049903821095354523": [
+    {
+      "title": "Karpathy Sequoia Ascent 2026 完整视频",
+      "desc": "从 vibe coding 到 agentic engineering，完整 fireside chat",
+      "url": "https://www.youtube.com/watch?v=96jN2OCOfLs"
+    },
+    {
+      "title": "Sequoia AI Ascent 2026 详细笔记",
+      "desc": "Software 3.0、agent-native economy、verifiability 框架完整拆解",
+      "url": "https://www.theaiopportunities.com/p/sequoia-ai-ascent-2026-andrej-karpathy"
+    },
+    {
+      "title": "Addy Osmani: Agentic Engineering",
+      "desc": "从 vibe coding 到 agentic engineering 的演进路径",
+      "url": "https://addyosmani.com/blog/agentic-engineering/"
+    }
+  ],
   "https://eu.36kr.com/en/p/3789208597372165": [
     {
       "title": "Chain-of-Thought Spatial Grounding",
