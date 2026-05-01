@@ -1,4 +1,21 @@
 {
+  "https://eu.36kr.com/en/p/3789208597372165": [
+    {
+      "title": "Chain-of-Thought Spatial Grounding",
+      "desc": "CoT 空间定位综述，与 Visual Primitives 同一学术脉络",
+      "url": "https://www.emergentmind.com/topics/chain-of-thought-spatial-grounding"
+    },
+    {
+      "title": "CoT Degrades Visual Spatial Reasoning",
+      "desc": "反面证据：纯文本 CoT 在空间推理上可能有害，印证了坐标锚定的必要性",
+      "url": "https://arxiv.org/pdf/2604.16060"
+    },
+    {
+      "title": "DeepSeek 论文 PDF 备份 (HuggingFace)",
+      "desc": "被撤回的原始论文完整 PDF",
+      "url": "https://huggingface.co/datasets/NodeLinker/deepseek-ai-Thinking-with-Visual-Primitives-deleted-repo"
+    }
+  ],
   "https://ruperts.world/blog/ai-computer/": [
     {
       "title": "Telepath \u2014 AI-first personal computer",
