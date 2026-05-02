@@ -4677,5 +4677,24 @@
       "desc": "Codex agent loop 架构详解，previous_response_id 增量传输",
       "url": "https://openai.com/index/unrolling-the-codex-agent-loop/"
     }
+  ],
+  "https://arxiv.org/abs/2604.25917": [
+    {
+      "title": "LatentMAS (前序工作)",
+      "desc": "同一团队的 latent space multi-agent 协作开源实现",
+      "url": "https://github.com/Gen-Verse/LatentMAS"
+    },
+    {
+      "title": "Thought Communication in Multiagent Collaboration (NeurIPS 2025)",
+      "desc": "agent 间用 latent thought 而非自然语言通信的探索",
+      "url": "https://neurips.cc/virtual/2025/poster/115550"
+    }
+  ],
+  "https://github.com/EvanBacon/serve-sim": [
+    {
+      "title": "ios-simulator-mcp",
+      "desc": "MCP 协议的 iOS Simulator 控制服务，另一种 agent 操控方案",
+      "url": "https://www.npmjs.com/package/ios-simulator-mcp"
+    }
   ]
 }
