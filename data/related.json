@@ -4814,5 +4814,17 @@
       "title": "2026 最佳 AI 3D 模型生成器对比",
       "note": "Tripo/Hunyuan/Seed3D/Sam3D/Trellis 横评"
     }
+  ],
+  "https://x.com/mnilax/status/2050321700802408552": [
+    {
+      "url": "https://www.latent.space/p/claude-code",
+      "title": "Latent Space: Claude Code — Boris Cherny + Cat Wu 深度访谈",
+      "note": "Claude Code 设计哲学原始访谈，Unix utility 思维"
+    },
+    {
+      "url": "https://buildtolaunch.substack.com/p/claude-code-token-optimization",
+      "title": "Claude Code Token Optimization: Full System Guide",
+      "note": "完整 token 优化指南，19 个具体改动"
+    }
   ]
 }
