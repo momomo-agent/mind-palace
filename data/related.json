@@ -4708,5 +4708,22 @@
       "desc": "177000 个 MCP tools 的大规模实证分析",
       "url": "https://arxiv.org/html/2603.23802v1"
     }
+  ],
+  "https://mp.weixin.qq.com/s/HTFcXBzYUVHvwShu3Zp-EA": [
+    {
+      "title": "Karpathy Sequoia Ascent 2026 博文",
+      "desc": "Karpathy 本人的一手总结：agentic engineering 不是放弃质量门槛",
+      "url": "https://karpathy.bearblog.dev/sequoia-ascent-2026/"
+    },
+    {
+      "title": "Agentic Engineering 完整指南",
+      "desc": "从 Vibe Coding 到 AI-First 软件开发方法论的系统梳理",
+      "url": "https://www.nxcode.io/resources/news/agentic-engineering-complete-guide-vibe-coding-ai-agents-2026"
+    },
+    {
+      "title": "Karpathy x Sequoia 完整视频",
+      "desc": "从 vibe coding 到 agentic engineering 的 fireside chat 原始视频",
+      "url": "https://www.youtube.com/watch?v=96jN2OCOfLs"
+    }
   ]
 }
