@@ -4802,5 +4802,17 @@
       "title": "Shopify co-founder on commitment, culture, and building a real company",
       "note": "Founded 对这期播客的深度分析"
     }
+  ],
+  "https://github.com/lightningpixel/modly": [
+    {
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
+      "title": "Hunyuan3D 2 — Tencent 开源 3D 生成模型",
+      "note": "Modly 支持的主力模型之一"
+    },
+    {
+      "url": "https://generativeai.pub/best-ai-3d-model-generators-in-2026-3eab8a71cc86",
+      "title": "2026 最佳 AI 3D 模型生成器对比",
+      "note": "Tripo/Hunyuan/Seed3D/Sam3D/Trellis 横评"
+    }
   ]
 }
