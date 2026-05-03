@@ -4680,14 +4680,14 @@
   ],
   "https://arxiv.org/abs/2604.25917": [
     {
-      "title": "LatentMAS (前序工作)",
-      "desc": "同一团队的 latent space multi-agent 协作开源实现",
-      "url": "https://github.com/Gen-Verse/LatentMAS"
+      "title": "Latent Collaboration in Multi-Agent Systems",
+      "desc": "RecursiveMAS 的前置工作，首次探索 agent 在 latent space 直接协作",
+      "url": "https://arxiv.org/abs/2511.20639"
     },
     {
-      "title": "Thought Communication in Multiagent Collaboration (NeurIPS 2025)",
-      "desc": "agent 间用 latent thought 而非自然语言通信的探索",
-      "url": "https://neurips.cc/virtual/2025/poster/115550"
+      "title": "Ouro: Looped Language Models",
+      "desc": "预训练阶段内置递归推理的 LoopLM，RecursiveMAS 的单模型递归基础",
+      "url": "https://ouro-llm.github.io/"
     }
   ],
   "https://github.com/EvanBacon/serve-sim": [
