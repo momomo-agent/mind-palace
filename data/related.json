@@ -4778,5 +4778,17 @@
       "title": "Karpathy 最新访谈：从 Vibe Coding 到 Agentic Engineering（中文翻译）",
       "note": "微信公众号翻译版"
     }
+  ],
+  "https://www.anthropic.com/research/claude-personal-guidance": [
+    {
+      "url": "https://www-cdn.anthropic.com/cffd979fd050fbc0d8874b8c58b24cc10554e208/claudes-constitution_webPDF_26-01.26a.pdf",
+      "title": "Claude Constitution 完整 PDF（2026.1 版）",
+      "note": "Claude 行为准则的完整定义，personal guidance 研究的基础"
+    },
+    {
+      "url": "https://www.anthropic.com/research/clio",
+      "title": "Clio: Privacy-Preserving Insights into Real-World AI Use",
+      "note": "本研究使用的隐私保护分析工具"
+    }
   ]
 }
