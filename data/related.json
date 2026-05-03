@@ -4725,5 +4725,29 @@
       "desc": "从 vibe coding 到 agentic engineering 的 fireside chat 原始视频",
       "url": "https://www.youtube.com/watch?v=96jN2OCOfLs"
     }
+  ],
+  "https://mp.weixin.qq.com/s/2Qs5gRlhe7qSVYCd9r8t1g": [
+    {
+      "title": "Anthropic 原文：Lessons from building Claude Code",
+      "desc": "Anthropic 工程团队原始博客，7 条 Prompt Caching 最佳实践",
+      "url": "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything"
+    },
+    {
+      "title": "Prefix Caching - LLM Inference Handbook",
+      "desc": "BentoML 推理优化手册，从引擎层面解释 KV cache 复用机制",
+      "url": "https://bentoml.com/llm/inference-optimization/prefix-caching"
+    }
+  ],
+  "https://claude.com/blog/lessons-from-building-claude-code-prompt-caching-is-everything": [
+    {
+      "title": "AGI Hunt 中文解读",
+      "desc": "J0hn 对 Anthropic Prompt Caching 博客的中文解读，附书桌/图书馆等比喻",
+      "url": "https://mp.weixin.qq.com/s/2Qs5gRlhe7qSVYCd9r8t1g"
+    },
+    {
+      "title": "Prefix Caching - LLM Inference Handbook",
+      "desc": "BentoML 推理优化手册，从引擎层面解释 KV cache 复用机制",
+      "url": "https://bentoml.com/llm/inference-optimization/prefix-caching"
+    }
   ]
 }
