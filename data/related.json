@@ -1,4 +1,16 @@
 {
+  "https://mp.weixin.qq.com/s/jHW0mBxbCC7czYy1fHrr4A": [
+    {
+      "title": "Cursor 官方原文: Continually improving our agent harness",
+      "desc": "Cursor 团队原文，CursorBench、线上 A/B、工具可靠性、多模型适配的完整实践",
+      "url": "https://cursor.com/blog/continually-improving-our-agent-harness"
+    },
+    {
+      "title": "Composer 2 Technical Report",
+      "desc": "Cursor Agent 架构技术报告，CursorBench 迭代数据",
+      "url": "https://cursor.com/resources/Composer2.pdf"
+    }
+  ],
   "https://x.com/stephzhan/status/2049518659513852109": [
     {
       "title": "Karpathy Sequoia Ascent 2026 Highlights",
