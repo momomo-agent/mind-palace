@@ -11,6 +11,18 @@
       "url": "https://allen.hutchison.org/2025/11/28/the-era-of-personal-software/"
     }
   ],
+  "https://x.com/manishamishra24/status/2050531425020211549": [
+    {
+      "title": "Building Effective Agents - Anthropic",
+      "desc": "Eric 和 Barry Zhang 合著的 Agent 设计最佳实践原文",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents"
+    },
+    {
+      "title": "Writing effective tools for AI agents - Anthropic",
+      "desc": "Anthropic 工程博客：给 Agent 写好工具的系统方法",
+      "url": "https://www.anthropic.com/engineering/writing-tools-for-agents"
+    }
+  ],
   "https://mp.weixin.qq.com/s/jHW0mBxbCC7czYy1fHrr4A": [
     {
       "title": "Cursor 官方原文: Continually improving our agent harness",
