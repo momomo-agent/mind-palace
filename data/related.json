@@ -1,4 +1,16 @@
 {
+  "https://x.com/berryxia/status/2051673193145045046": [
+    {
+      "title": "PageIndex GitHub",
+      "desc": "Vectorless reasoning-based RAG 开源项目，树索引+LLM 推理检索",
+      "url": "https://github.com/VectifyAI/PageIndex"
+    },
+    {
+      "title": "VentureBeats: Tree search hits 98.7% where vector search fails",
+      "desc": "深度报道 PageIndex 如何在金融文档上碾压向量 RAG",
+      "url": "https://venturebeat.com/infrastructure/this-tree-search-framework-hits-98-7-on-documents-where-vector-search-fails"
+    }
+  ],
   "http://xhslink.com/o/1l2fdhd26mz": [
     {
       "title": "Model Spec Midtraining — Anthropic Alignment Blog",
