@@ -1,4 +1,16 @@
 {
+  "https://x.com/GoSailGlobal/status/2051494907974697144": [
+    {
+      "title": "Stanford CS336: Language Modeling from Scratch",
+      "desc": "课程主页，Percy Liang + Tatsu Hashimoto 主讲，从零构建 LLM",
+      "url": "https://cs336.stanford.edu/"
+    },
+    {
+      "title": "CS336 Spring 2026 Lecture Video",
+      "desc": "Tatsu 讲 LLM 架构收敛的完整视频",
+      "url": "https://www.youtube.com/watch?v=lVynu4bo1rY"
+    }
+  ],
   "https://isene.org/2026/05/Audience-of-One.html": [
     {
       "title": "Personal Software - Lee Robinson",
