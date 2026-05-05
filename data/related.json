@@ -1,4 +1,16 @@
 {
+  "https://openai.com/index/gpt-5-5-instant/": [
+    {
+      "title": "OpenAI releases GPT-5.5 amid rapid-fire AI updates — Fortune",
+      "desc": "GPT-5.4 发布几周后就出 5.5，AI 军备竞赛加速",
+      "url": "https://fortune.com/2026/04/23/openai-releases-gpt-5-5/"
+    },
+    {
+      "title": "GPT-5.5 is the new leading AI model — Artificial Analysis",
+      "desc": "独立评测：OpenAI 领先五项指标，仅次于 Gemini 3.1 Pro",
+      "url": "https://artificialanalysis.ai/articles/openai-gpt5-5-is-the-new-leading-AI-model"
+    }
+  ],
   "https://x.com/berryxia/status/2051673193145045046": [
     {
       "title": "PageIndex GitHub",
