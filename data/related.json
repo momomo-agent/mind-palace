@@ -1,4 +1,21 @@
 {
+  "http://xhslink.com/o/MCESiA7XjC": [
+    {
+      "title": "Autocurricula and the Emergence of Innovation from Social Interaction",
+      "desc": "Leibo 2019 核心论文：多 agent 竞争合作自然涌现课程，持续推动创新",
+      "url": "https://arxiv.org/abs/1903.00742"
+    },
+    {
+      "title": "Melting Pot — DeepMind 多 agent 评估套件",
+      "desc": "50+ 环境 256 场景，评估 agent 社会泛化能力",
+      "url": "https://deepmind.google/blog/melting-pot-an-evaluation-suite-for-multi-agent-reinforcement-learning/"
+    },
+    {
+      "title": "Understanding Agent Cooperation — Google DeepMind",
+      "desc": "Sequential Social Dilemmas：用深度多 agent RL 研究合作涌现",
+      "url": "https://deepmind.google/blog/understanding-agent-cooperation/"
+    }
+  ],
   "https://x.com/GoSailGlobal/status/2051494907974697144": [
     {
       "title": "Stanford CS336: Language Modeling from Scratch",
