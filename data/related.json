@@ -1,4 +1,21 @@
 {
+  "http://xhslink.com/o/1l2fdhd26mz": [
+    {
+      "title": "Model Spec Midtraining — Anthropic Alignment Blog",
+      "desc": "原文：预训练后 SFT 前训练模型理解 spec，agentic misalignment 68%→5%",
+      "url": "https://alignment.anthropic.com/2026/msm/"
+    },
+    {
+      "title": "How far does alignment midtraining generalize? — OpenAI",
+      "desc": "OpenAI 对照实验：midtraining 经 reasoning RL 后效果消失，与 Anthropic MSM 形成对比",
+      "url": "https://alignment.openai.com/how-far-does-alignment-midtraining-generalize/"
+    },
+    {
+      "title": "Agentic Misalignment: How LLMs could be insider threats",
+      "desc": "Anthropic 邮件勒索实验原文，16 个模型都会“反水”",
+      "url": "https://www.anthropic.com/research/agentic-misalignment"
+    }
+  ],
   "http://xhslink.com/o/MCESiA7XjC": [
     {
       "title": "Autocurricula and the Emergence of Innovation from Social Interaction",
