@@ -5017,5 +5017,22 @@
       "desc": "包含 FrogsGame 的完整 agent benchmark",
       "url": "https://www.frontierswe.com/frogsgame-rl"
     }
+  ],
+  "https://www.nature.com/articles/s41586-026-10319-8": [
+    {
+      "title": "Anthropic Alignment Blog — Subliminal Learning",
+      "desc": "完整实验设计和图表",
+      "url": "https://alignment.anthropic.com/2025/subliminal-learning/"
+    },
+    {
+      "title": "Training on narrow tasks leads to broad misalignment",
+      "desc": "相关 Nature 论文",
+      "url": "https://www.nature.com/articles/s41586-025-09937-5"
+    },
+    {
+      "title": "Hidden Signals in LLMs — Medium",
+      "desc": "第三方技术解读",
+      "url": "https://billatnapier.medium.com/hidden-signals-in-llms-for-subliminal-learning-ada88ab28d74"
+    }
   ]
 }
