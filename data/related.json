@@ -1,4 +1,21 @@
 {
+  "https://x.com/chenchengpro/status/2052029344227443170": [
+    {
+      "title": "Anthropic's Boris Cherny: Coding's Printing Press Moment (YouTube)",
+      "desc": "完整访谈视频——Claude Code 创始人讲述从零到十亿美元、Loop 模式、印刷术类比",
+      "url": "https://www.youtube.com/watch?v=SlGRN8jh2RI"
+    },
+    {
+      "title": "Claude Code Routines — The Register",
+      "desc": "Routines 功能介绍，Loop 的服务器端版本，关机也能跑 cron 式 agent 任务",
+      "url": "https://www.theregister.com/2026/04/14/claude_code_routines/"
+    },
+    {
+      "title": "The Trillion Dollar Race to Automate Our Entire Lives — WSJ",
+      "desc": "Claude Code 年化营收 $2.5B 报道，coding agent 军备竞赛全景",
+      "url": "https://www.wsj.com/tech/ai/claude-code-cursor-codex-vibe-coding-52750531"
+    }
+  ],
   "https://openai.com/index/gpt-5-5-instant/": [
     {
       "title": "OpenAI releases GPT-5.5 amid rapid-fire AI updates — Fortune",

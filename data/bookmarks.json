@@ -1,15 +1,18 @@
 {
   "meta": {
-    "syncedAt": "2026-05-06T13:20:58.421Z",
-    "count": 2583
+    "syncedAt": "2026-05-06T23:57:40.476Z",
+    "count": 2586
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 1316,
+      "count": 1319,
       "items": [
+        1708228631,
+        1708228630,
+        1708228573,
         1707702207,
         1707702194,
         1707702150,
@@ -1332,8 +1335,11 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 1114,
+      "count": 1117,
       "items": [
+        1708228631,
+        1708228630,
+        1708228573,
         1707702207,
         1707702194,
         1707702150,
@@ -2454,8 +2460,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 855,
+      "count": 856,
       "items": [
+        1708228573,
         1707335749,
         1707335486,
         1707299873,
@@ -4064,8 +4071,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#8b5cf6",
-      "count": 410,
+      "count": 411,
       "items": [
+        1708228631,
         1707279814,
         1707279790,
         1707036169,
@@ -6537,8 +6545,23 @@
   "galaxies": [
     {
       "id": "galaxy-0",
-      "name": "language + models",
+      "name": "boris + cherny",
       "color": "#C4785A",
+      "members": [
+        1708228631,
+        1708228573,
+        1708228630,
+        1707299873,
+        1707274479,
+        1707274437,
+        1707274477
+      ],
+      "count": 7
+    },
+    {
+      "id": "galaxy-1",
+      "name": "language + models",
+      "color": "#7A8B6E",
       "members": [
         1707484365,
         1707484210
@@ -6546,28 +6569,15 @@
       "count": 2
     },
     {
-      "id": "galaxy-1",
+      "id": "galaxy-2",
       "name": "agents + agent-native",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1707302718,
         1707302682,
         1707302717
       ],
       "count": 3
-    },
-    {
-      "id": "galaxy-2",
-      "name": "boris + cherny",
-      "color": "#5A6B7A",
-      "members": [
-        1707299951,
-        1707299873,
-        1707274479,
-        1707274437,
-        1707274477
-      ],
-      "count": 5
     },
     {
       "id": "galaxy-3",
@@ -10402,75 +10412,10 @@
     },
     {
       "id": "galaxy-338",
-      "name": "gpt-5 + instant",
+      "name": "boris + cherny",
       "color": "#5A6B7A",
       "members": [
-        1707036964,
-        1652960437
-      ],
-      "count": 2
-    },
-    {
-      "id": "galaxy-339",
-      "name": "neural + networks",
-      "color": "#8B6E7A",
-      "members": [
-        1700460688,
-        1654729123,
-        1635117714,
-        1128767891,
-        615655692,
-        569711602,
-        553342718,
-        533964997,
-        519217821,
-        454111361,
-        434705522,
-        429914826,
-        411168766,
-        393934151,
-        386737601,
-        352743442,
-        346492531,
-        340153006,
-        164634118
-      ],
-      "count": 19
-    },
-    {
-      "id": "galaxy-340",
-      "name": "thanos + metal",
-      "color": "#B8A060",
-      "members": [
-        1697384294,
-        1603544979,
-        599138254,
-        595012395,
-        549263471,
-        469546199,
-        319376331,
-        176584875
-      ],
-      "count": 8
-    },
-    {
-      "id": "galaxy-341",
-      "name": "wikipedia + form",
-      "color": "#6B8B8B",
-      "members": [
-        1689549502,
-        361733196,
-        361732694,
-        361732269,
-        272890238
-      ],
-      "count": 5
-    },
-    {
-      "id": "galaxy-342",
-      "name": "blender + boris",
-      "color": "#9C7A5A",
-      "members": [
+        1707299951,
         1688718718,
         1679329126,
         1652013184,
@@ -10498,7 +10443,73 @@
         173463504,
         168872948
       ],
-      "count": 26
+      "count": 27
+    },
+    {
+      "id": "galaxy-339",
+      "name": "gpt-5 + instant",
+      "color": "#8B6E7A",
+      "members": [
+        1707036964,
+        1652960437
+      ],
+      "count": 2
+    },
+    {
+      "id": "galaxy-340",
+      "name": "neural + networks",
+      "color": "#B8A060",
+      "members": [
+        1700460688,
+        1654729123,
+        1635117714,
+        1128767891,
+        615655692,
+        569711602,
+        553342718,
+        533964997,
+        519217821,
+        454111361,
+        434705522,
+        429914826,
+        411168766,
+        393934151,
+        386737601,
+        352743442,
+        346492531,
+        340153006,
+        164634118
+      ],
+      "count": 19
+    },
+    {
+      "id": "galaxy-341",
+      "name": "thanos + metal",
+      "color": "#6B8B8B",
+      "members": [
+        1697384294,
+        1603544979,
+        599138254,
+        595012395,
+        549263471,
+        469546199,
+        319376331,
+        176584875
+      ],
+      "count": 8
+    },
+    {
+      "id": "galaxy-342",
+      "name": "wikipedia + form",
+      "color": "#9C7A5A",
+      "members": [
+        1689549502,
+        361733196,
+        361732694,
+        361732269,
+        272890238
+      ],
+      "count": 5
     },
     {
       "id": "galaxy-343",
@@ -13057,74 +13068,74 @@
   ],
   "bridges": [
     {
-      "source": "galaxy-1",
-      "target": "galaxy-8",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-36",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-85",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-132",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-151",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-311",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-11",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-87",
       "strength": 6,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-121",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-126",
       "strength": 6,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-327",
       "strength": 3,
       "shared": []
     },
     {
+      "source": "galaxy-0",
+      "target": "galaxy-338",
+      "strength": 6,
+      "shared": []
+    },
+    {
       "source": "galaxy-2",
-      "target": "galaxy-342",
+      "target": "galaxy-8",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-36",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-85",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-132",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-151",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-311",
       "strength": 3,
       "shared": []
     },
@@ -14481,6 +14492,12 @@
     {
       "source": "galaxy-11",
       "target": "galaxy-337",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-11",
+      "target": "galaxy-338",
       "strength": 3,
       "shared": []
     },
@@ -20354,12 +20371,6 @@
     },
     {
       "source": "galaxy-27",
-      "target": "galaxy-342",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-27",
       "target": "galaxy-346",
       "strength": 3,
       "shared": []
@@ -23036,7 +23047,7 @@
     },
     {
       "source": "galaxy-66",
-      "target": "galaxy-340",
+      "target": "galaxy-341",
       "strength": 3,
       "shared": []
     },
@@ -23900,8 +23911,8 @@
     },
     {
       "source": "galaxy-87",
-      "target": "galaxy-342",
-      "strength": 3,
+      "target": "galaxy-338",
+      "strength": 6,
       "shared": []
     },
     {
@@ -26252,7 +26263,7 @@
     },
     {
       "source": "galaxy-121",
-      "target": "galaxy-342",
+      "target": "galaxy-338",
       "strength": 3,
       "shared": []
     },
@@ -26456,8 +26467,8 @@
     },
     {
       "source": "galaxy-126",
-      "target": "galaxy-342",
-      "strength": 3,
+      "target": "galaxy-338",
+      "strength": 6,
       "shared": []
     },
     {
@@ -78746,7 +78757,7 @@
     },
     {
       "source": "galaxy-320",
-      "target": "galaxy-339",
+      "target": "galaxy-340",
       "strength": 3,
       "shared": []
     },
@@ -78824,7 +78835,7 @@
     },
     {
       "source": "galaxy-327",
-      "target": "galaxy-342",
+      "target": "galaxy-338",
       "strength": 3,
       "shared": []
     },
@@ -79178,6 +79189,166 @@
     }
   ],
   "items": [
+    {
+      "_id": 1708228631,
+      "link": "https://www.theregister.com/2026/04/14/claude_code_routines/",
+      "excerpt": ": Plus Anthropic has redesigned its Claude app",
+      "note": "Claude Code Routines 功能介绍——把 Loop 搬到服务器端，关掉笔记本也能跑 cron 式 agent 任务",
+      "type": "article",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://regmedia.co.uk/2023/10/25/time_shutterstock.jpg",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://regmedia.co.uk/2023/10/25/time_shutterstock.jpg"
+        }
+      ],
+      "created": "2026-05-06T23:55:00.543Z",
+      "lastUpdate": "2026-05-06T23:55:00.543Z",
+      "domain": "theregister.com",
+      "title": "Claude Code routines promise mildly clever cron jobs",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1708228631,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "把 Loop 搬到服务器端，关掉笔记本也能跑 cron 式 agent 任务"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ]
+    },
+    {
+      "_id": 1708228630,
+      "link": "https://www.youtube.com/watch?v=SlGRN8jh2RI",
+      "excerpt": "200 likes, 25 comments. \"Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next\"",
+      "note": "Boris Cherny 在 Sequoia AI Ascent 2026 的完整访谈视频，讲述 Claude Code 从零到十亿美元、Loop 模式、印刷术类比",
+      "type": "video",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://i.ytimg.com/vi/SlGRN8jh2RI/maxresdefault.jpg",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://i.ytimg.com/vi/SlGRN8jh2RI/maxresdefault.jpg"
+        }
+      ],
+      "created": "2026-05-06T23:55:00.413Z",
+      "lastUpdate": "2026-05-06T23:55:00.414Z",
+      "domain": "youtube.com",
+      "title": "Anthropic's Boris Cherny: Why Coding Is Solved, and What Comes Next",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1708228630,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Boris Cherny 在 Sequoia AI Ascent 2026 的完整访谈视频，讲述 Claude Code"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ]
+    },
+    {
+      "_id": 1708228573,
+      "link": "https://x.com/chenchengpro/status/2052029344227443170",
+      "excerpt": "起点：2024 年底 Boris 加入 Anthropic 内部一个叫 Anthropic Labs 的孵化器，只有几个人，产出了三样东西——Claude Code、MCP、Desktop App。做完团队就解散了，2026 年初由 Instagram",
+      "note": "陈成整理的 Boris Cherny (Claude Code 创始人) 在 Sequoia AI Ascent 2026 访谈核心内容：Claude Code 年化营收超十亿、Loop/Routines 模式、组织流程改造比技术更难",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://rdl.ink/render/https%3A%2F%2Fx.com%2Fchenchengpro%2Fstatus%2F2052029344227443170",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "removed": false,
+      "media": [],
+      "created": "2026-05-06T23:54:53.010Z",
+      "lastUpdate": "2026-05-06T23:54:53.010Z",
+      "domain": "x.com",
+      "title": "Claude Code 创始人 Boris Cherny 在 Sequoia AI Ascent 2026 上的访谈，信息量极大，整理一下核心内容。",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1708228573,
+      "highlights": [],
+      "collectionId": -1,
+      "related": [
+        {
+          "title": "Anthropic's Boris Cherny: Coding's Printing Press Moment (YouTube)",
+          "desc": "完整访谈视频——Claude Code 创始人讲述从零到十亿美元、Loop 模式、印刷术类比",
+          "url": "https://www.youtube.com/watch?v=SlGRN8jh2RI"
+        },
+        {
+          "title": "Claude Code Routines — The Register",
+          "desc": "Routines 功能介绍，Loop 的服务器端版本，关机也能跑 cron 式 agent 任务",
+          "url": "https://www.theregister.com/2026/04/14/claude_code_routines/"
+        },
+        {
+          "title": "The Trillion Dollar Race to Automate Our Entire Lives — WSJ",
+          "desc": "Claude Code 年化营收 $2.5B 报道，coding agent 军备竞赛全景",
+          "url": "https://www.wsj.com/tech/ai/claude-code-cursor-codex-vibe-coding-52750531"
+        }
+      ],
+      "highlights_text": [
+        "Claude Code 年化营收超十亿、Loop/Routines 模式、组织流"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ]
+    },
     {
       "_id": 1707702207,
       "link": "https://github.com/redis/redis/pull/15162",
