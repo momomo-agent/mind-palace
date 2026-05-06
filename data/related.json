@@ -4932,5 +4932,22 @@
       "title": "Claude Code Token Optimization: Full System Guide",
       "note": "完整 token 优化指南，19 个具体改动"
     }
+  ],
+  "https://x.com/alex_whedon/status/2051663268704636937": [
+    {
+      "title": "Introducing SubQ: The First Fully Subquadratic LLM",
+      "desc": "SubQ 官方技术博客：架构详解+benchmark 数据",
+      "url": "https://subq.ai/introducing-subq"
+    },
+    {
+      "title": "Subquadratic launches with $29M — SiliconANGLE",
+      "desc": "$29M 种子轮，Lightspeed 领投，团队来自 Meta/Google/Oxford",
+      "url": "https://siliconangle.com/2026/05/05/subquadratic-launches-29m-bring-12m-token-context-windows-ai/"
+    },
+    {
+      "title": "SubQ and Long Context Efficiency — Adam Holter",
+      "desc": "独立分析：亚二次注意力对长上下文推理的实际影响",
+      "url": "https://adam.holter.com/subq-and-long-context-efficiency/"
+    }
   ]
 }
