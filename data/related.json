@@ -5000,5 +5000,22 @@
       "desc": "strategy/design/agents 三文件的官方 Claude Code 插件",
       "url": "https://github.com/EveryInc/compound-engineering-plugin"
     }
+  ],
+  "https://www.thoughtfullab.com/letting-ai-posttrain-ai.html": [
+    {
+      "title": "FrogsGame-Posttraining — GitHub",
+      "desc": "完整实验代码和日志",
+      "url": "https://github.com/Thoughtful-Lab/FrogsGame-Posttraining"
+    },
+    {
+      "title": "Tinker API — Thinking Machines Lab",
+      "desc": "Mir Murati 的远程训练 API",
+      "url": "https://www.youtube.com/watch?v=Mmo-B5HD0ac"
+    },
+    {
+      "title": "FrontierSWE Benchmark",
+      "desc": "包含 FrogsGame 的完整 agent benchmark",
+      "url": "https://www.frontierswe.com/frogsgame-rl"
+    }
   ]
 }
