@@ -4966,5 +4966,22 @@
       "desc": "Voximplant 集成 Inworld TTS，carrier-grade 语音 AI",
       "url": "https://voximplant.com/blog/inworld-text-to-speech-now-available-in-voximplant"
     }
+  ],
+  "https://x.com/dotey/status/2051688341519609897": [
+    {
+      "title": "Boris Cherny Sequoia AI Ascent 2026 原始视频",
+      "desc": "Claude Code 创建者完整访谈",
+      "url": "https://www.youtube.com/watch?v=SlGRN8jh2RI"
+    },
+    {
+      "title": "7 Powers — Hamilton Helmer",
+      "desc": "Boris 引用的护城河框架原书",
+      "url": "https://7powers.com/"
+    },
+    {
+      "title": "SubQ: First Fully Subquadratic LLM",
+      "desc": "12M token context 印证 Boris 说的\"context 够大就不需要编排\"",
+      "url": "https://subq.ai/introducing-subq"
+    }
   ]
 }
