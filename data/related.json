@@ -4949,5 +4949,22 @@
       "desc": "独立分析：亚二次注意力对长上下文推理的实际影响",
       "url": "https://adam.holter.com/subq-and-long-context-efficiency/"
     }
+  ],
+  "https://x.com/inworld_ai/status/2051699438201282992": [
+    {
+      "title": "Realtime TTS-2 Blog — Inworld AI",
+      "desc": "技术博客：韵律细节+conversation-aware 架构",
+      "url": "https://inworld.ai/blog/realtime-tts-2"
+    },
+    {
+      "title": "Realtime API — Inworld AI",
+      "desc": "开发者 API：STT 情绪检测+LLM Router+TTS 自适应",
+      "url": "https://inworld.ai/realtime-api"
+    },
+    {
+      "title": "Inworld TTS on Voximplant",
+      "desc": "Voximplant 集成 Inworld TTS，carrier-grade 语音 AI",
+      "url": "https://voximplant.com/blog/inworld-text-to-speech-now-available-in-voximplant"
+    }
   ]
 }
