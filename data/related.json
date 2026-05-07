@@ -1,4 +1,21 @@
 {
+  "https://openai.com/index/mrc-supercomputer-networking/": [
+    {
+      "title": "Resilient AI Supercomputer Networking using MRC and SRv6 (OpenAI PDF)",
+      "desc": "完整论文 PDF：MRC + SRv6 技术细节与生产数据，多个前沿模型实验结果",
+      "url": "https://cdn.openai.com/pdf/resilient-ai-supercomputer-networking-using-mrc-and-srv6.pdf"
+    },
+    {
+      "title": "OCP MRC 1.0 规范文档",
+      "desc": "Open Compute Project 开源协议原文，2026-03-21 定稿，全行业可实现的标准",
+      "url": "https://www.opencompute.org/documents/ocp-mrc-1-0-pdf"
+    },
+    {
+      "title": "NVIDIA Spectrum-X Ethernet 支持 MRC",
+      "desc": "硬件侧视角：Spectrum-X 以太网 + MRC 协议集成详情，NVIDIA 官方博客",
+      "url": "https://blogs.nvidia.com/blog/spectrum-x-ethernet-mrc/"
+    }
+  ],
   "https://www.reddit.com/r/GraphicsProgramming/comments/1t4n0ns/would_anyone_be_interested_in_a_tiny_graphics/": [
     {
       "title": "Petros Bantolas 个人站",
