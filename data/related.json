@@ -1,4 +1,21 @@
 {
+  "https://x.com/dotey/status/2052198818385465667": [
+    {
+      "title": "Anthropic Code with Claude 2026 完整视频 (YouTube)",
+      "desc": "Dario + Daniela Amodei + Ami Vora 三方对话原片，课题第二届开发者大会旧金山场",
+      "url": "https://www.youtube.com/watch?v=7xco5Qd2Oo8"
+    },
+    {
+      "title": "Claude Mythos #2: Cybersecurity and Project Glasswing (Zvi)",
+      "desc": "Zvi Mowshowitz 深度分析：为什么 Anthropic 不公开发布最强模型 Mythos，安全风险是真的",
+      "url": "https://thezvi.substack.com/p/claude-mythos-2-cybersecurity-and"
+    },
+    {
+      "title": "Anthropic SpaceX compute deal (Axios)",
+      "desc": "Colossus 1 交易细节：300MW / 22 万张 GPU / 一个月内上线，Musk 之前多次批评 Dario 上周风向转变",
+      "url": "https://www.axios.com/2026/05/06/anthropic-spacex-elon-musk-compute"
+    }
+  ],
   "https://x.com/chenchengpro/status/2052029344227443170": [
     {
       "title": "Anthropic's Boris Cherny: Coding's Printing Press Moment (YouTube)",
