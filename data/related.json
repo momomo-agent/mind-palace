@@ -1,4 +1,21 @@
 {
+  "https://www.reddit.com/r/GraphicsProgramming/comments/1t4n0ns/would_anyone_be_interested_in_a_tiny_graphics/": [
+    {
+      "title": "Petros Bantolas 个人站",
+      "desc": "发起人的个人站，前 Apple systems 工程师，Metal+Swift/C++ 图形引擎咨询，有 planetarium renderer 跨平台案例",
+      "url": "https://bantolas.dev"
+    },
+    {
+      "title": "Metal by Tutorials v4 (Kodeco)",
+      "desc": "Metal 图形编程 + 自研游戏引擎系统教程，入门到进阶的最佳资源",
+      "url": "https://www.kodeco.com/books/metal-by-tutorials/v4.0"
+    },
+    {
+      "title": "Planetarium Renderer Case Study (C++ + bgfx)",
+      "desc": "Petros 的跨平台 planetarium 渲染器案例：iOS/Android，10 周交付，60-120 FPS / <5ms 加载",
+      "url": "https://bantolas.dev/case-studies/planetarium-renderer-cpp-bgfx-cross-platform"
+    }
+  ],
   "https://x.com/dotey/status/2052198818385465667": [
     {
       "title": "Anthropic Code with Claude 2026 完整视频 (YouTube)",
