@@ -79921,7 +79921,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Vercel 文件系统 agent 模板：grep+find+cat 确定性检索，成本降 75%"
     },
     {
       "_id": 1710315884,
@@ -79969,7 +79970,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "Turso AgentFS：SQLite 上 POSIX 兼容虚拟 FS，agent 同时用 FS 和 SQL 接口"
     },
     {
       "_id": 1710315874,
@@ -80019,7 +80021,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Anthropic MCP 工具定义 150k→2k token 省 98.7%，数据隐私 PII 不过 model context"
     },
     {
       "_id": 1710315494,
@@ -80067,7 +80070,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Manus 'file system as the ultimate context'，reduce/offload/isolate 三管齐下"
     },
     {
       "_id": 1710315485,
@@ -80132,7 +80136,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Agent 外置记忆从向量数据库转向文件系统的完整综述——三代演化、四家方案分歧、四大盲区、分层架构预测"
     },
     {
       "_id": 1710312179,
