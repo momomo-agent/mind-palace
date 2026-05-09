@@ -1,4 +1,21 @@
 {
+  "https://x.com/trq212/status/2052809885763747935?s=12": [
+    {
+      "title": "Thariq 的 HTML 示例集",
+      "desc": "18 个真实 HTML artifact demo 分 5 类：exploration / code review / design / reports / editing",
+      "url": "https://thariqs.github.io/html-effectiveness/"
+    },
+    {
+      "title": "Thariq 的 Playgrounds 文章",
+      "desc": "双向交互 HTML 的更早实践，讲怎么设计 export flow",
+      "url": "https://x.com/trq212/status/2017024445244924382"
+    },
+    {
+      "title": "Claude Code Skills 最佳实践 (Thariq)",
+      "desc": "更早讲 skill 实践，跟这篇形成«先别固化成 skill»的呼应",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice/blob/main/tips/claude-thariq-tips-17-mar-26.md"
+    }
+  ],
   "https://x.com/rwayne/status/2052674597687087182?s=12": [
     {
       "title": "MiA-Signature 论文原文 (arxiv 2605.06416)",
