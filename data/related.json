@@ -1,4 +1,21 @@
 {
+  "https://x.com/hardmaru/status/2052787980344099293": [
+    {
+      "title": "Sparser Faster Lighter 论文原文 (arxiv 2603.23198)",
+      "desc": "ICML 2026 完整技术细节，TwELL 设计 + ablation",
+      "url": "https://arxiv.org/abs/2603.23198"
+    },
+    {
+      "title": "Sakana 官方 Blog",
+      "desc": "带交互式可视化 + 完整讲解，比论文更好读",
+      "url": "https://pub.sakana.ai/sparser-faster-llms/"
+    },
+    {
+      "title": "代码仓库 (GitHub)",
+      "desc": "开源 TwELL CUDA kernel，可以直接读实现",
+      "url": "https://github.com/SakanaAI/sparser-faster-llms"
+    }
+  ],
   "https://x.com/trq212/status/2052809885763747935?s=12": [
     {
       "title": "Thariq 的 HTML 示例集",
