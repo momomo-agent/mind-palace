@@ -1,4 +1,21 @@
 {
+  "https://x.com/rwayne/status/2052674597687087182?s=12": [
+    {
+      "title": "MiA-Signature 论文原文 (arxiv 2605.06416)",
+      "desc": "Mo Yu 等人的完整论文：Global Workspace 启发 + submodular 选择 + 双 retriever 架构，RAG 下 R@10 +10.9%",
+      "url": "https://arxiv.org/abs/2605.06416"
+    },
+    {
+      "title": "MindscapeRAG 开源权重 (HuggingFace)",
+      "desc": "配套的 SFT-Emb-8B / MiA-Emb-8B / MiA-Gen-14B 三个模型，可以直接 inference",
+      "url": "https://huggingface.co/MindscapeRAG"
+    },
+    {
+      "title": "HippoRAG (NeurIPS 2024)",
+      "desc": "更早的神经启发长记忆 RAG，用 HC 启发的图结构做索引，MiA 的前辈之一",
+      "url": "https://arxiv.org/abs/2405.14831"
+    }
+  ],
   "https://openai.com/index/mrc-supercomputer-networking/": [
     {
       "title": "Resilient AI Supercomputer Networking using MRC and SRv6 (OpenAI PDF)",

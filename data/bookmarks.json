@@ -79489,7 +79489,8 @@
       "themes": [
         "ai",
         "tool"
-      ]
+      ],
+      "summary": "MiA-Signature 配套开源：query retriever + mindscape-aware retriever + signature-aware generator"
     },
     {
       "_id": 1710298951,
@@ -79541,7 +79542,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Global Workspace + IIT 启发的长上下文 memory interface，把查询诱导的全局激活压缩成 compact signature，R@10 +10.9%"
     },
     {
       "_id": 1710298916,
@@ -79589,7 +79591,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "意识研究的 global ignition 机制翻译成 RAG/agent 的工程实现——submodular 选择覆盖激活区的高层概念作为条件信号"
     },
     {
       "_id": 1710298915,
