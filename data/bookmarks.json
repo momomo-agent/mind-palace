@@ -79548,7 +79548,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "TwELL 稀疏 CUDA kernel 开源实现"
     },
     {
       "_id": 1710312169,
@@ -79591,7 +79592,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Sakana 官方 blog，带交互式可视化和公式推导，比论文更好读"
     },
     {
       "_id": 1710312163,
@@ -79643,7 +79645,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "ICML 2026 论文原文 Sparser Faster Lighter Transformer Language Models"
     },
     {
       "_id": 1710312158,
@@ -79708,7 +79711,8 @@
       "themes": [
         "ai",
         "article"
-      ]
+      ],
+      "summary": "Sakana AI × NVIDIA ICML 2026：TwELL 稀疏格式 + CUDA kernel，让稀疏适应 GPU 而不是反过来，H100 实测 20%+ 训练推理加速"
     },
     {
       "_id": 1710307448,
