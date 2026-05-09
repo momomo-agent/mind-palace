@@ -79516,7 +79516,8 @@
         "ai",
         "develop",
         "tool"
-      ]
+      ],
+      "summary": "Thariq 的 18 个 HTML artifact 真实示例，分 exploration / code review / design / reports / editing 五类"
     },
     {
       "_id": 1710307442,
@@ -79583,7 +79584,8 @@
         "ai",
         "develop",
         "article"
-      ]
+      ],
+      "summary": "HTML 成为 agent 新默认输出格式——信息密度、易读、易分享、双向交互、Claude Code 团队内部最佳实践"
     },
     {
       "_id": 1710298958,
