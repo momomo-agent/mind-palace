@@ -70,10 +70,42 @@ function normalizeTags(tags) {
   return [...result];
 }
 
+function sanitizeSecrets(data) {
+  // Strip expired Notion S3 presigned URLs containing AWS access keys
+  // (blocks GitHub push protection). Covers both AKIA and ASIA patterns.
+  const awsKeyRe = /\bA[KS]IA[0-9A-Z]{16}\b/;
+  const notionS3Re = /https:\/\/s3\.us-west-2\.amazonaws\.com\/secure\.notion-static\.com\/[^"\s?]+\?[^"\s]*/g;
+  let stripped = 0;
+  function clean(obj) {
+    if (!obj) return obj;
+    if (typeof obj === 'string') {
+      if (awsKeyRe.test(obj)) {
+        const out = obj.replace(notionS3Re, (m) => awsKeyRe.test(m) ? 'https://example.invalid/notion-expired' : m);
+        if (out !== obj) stripped++;
+        return out;
+      }
+      return obj;
+    }
+    if (Array.isArray(obj)) return obj.map(clean);
+    if (typeof obj === 'object') {
+      for (const k of Object.keys(obj)) obj[k] = clean(obj[k]);
+    }
+    return obj;
+  }
+  clean(data);
+  if (stripped) console.log(`Sanitized: ${stripped} expired Notion S3 URLs`);
+  return data;
+}
+
 function build() {
   console.log('Building mind palace...');
   
   const data = JSON.parse(readFileSync(join(dataDir, 'bookmarks.json'), 'utf-8'));
+  
+  // Scrub any secrets before anything else
+  sanitizeSecrets(data);
+  // Persist sanitized data so sync->build->deploy round-trips stay clean
+  writeFileSync(join(dataDir, 'bookmarks.json'), JSON.stringify(data, null, 2));
   
   // Normalize tags and themes on every build
   let fixedThemes = 0, fixedTags = 0;
