@@ -29606,6 +29606,7 @@
         "email": ""
       },
       "sort": 1711385546,
+      "summary": "MiniMax 官方拆解 'M2 说不出马嘉祺' 的根因——低频 token 在 SFT 阶段 lm_head 方向漂移，理解还在但生成失效。全词表覆盖合成数据修复，顺便解决了日语混杂问题。",
       "highlights": [],
       "collectionId": -1,
       "related": [
