@@ -1,4 +1,21 @@
 {
+  "https://github.com/antirez/ds4": [
+    {
+      "title": "HN 讨论 ds4（490分，152 评论）",
+      "desc": "社区对 '一个模型一个引擎' 反框架主义思路的接受度",
+      "url": "https://news.ycombinator.com/item?id=48050751"
+    },
+    {
+      "title": "antirez/deepseek-v4-gguf HF 仓库",
+      "desc": "专为 ds4 定制的 DeepSeek V4 Flash GGUF 权重，三件套 B 层",
+      "url": "https://huggingface.co/antirez/deepseek-v4-gguf"
+    },
+    {
+      "title": "ds4 第三方深度解读（意大利语媒体）",
+      "desc": "第三方视角的技术分析",
+      "url": "https://pasqualepillitteri.it/en/news/2253/ds4-antirez-deepseek-v4-flash-inference-engine"
+    }
+  ],
   "https://x.com/RyanLeeMiniMax/status/2052766909070983243": [
     {
       "title": "Mitigating Forgetting via Low-Perplexity Token Learning (NeurIPS 2025)",
