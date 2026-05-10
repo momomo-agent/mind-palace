@@ -1,4 +1,21 @@
 {
+  "https://x.com/RyanLeeMiniMax/status/2052766909070983243": [
+    {
+      "title": "Mitigating Forgetting via Low-Perplexity Token Learning (NeurIPS 2025)",
+      "desc": "mask 高困惑度 token 同样能保留非目标任务能力，跟 MiniMax 全词表覆盖思路互补",
+      "url": "https://openreview.net/forum?id=1ktdvp1EYI"
+    },
+    {
+      "title": "Avoiding Amnesia: LLM 后训练防遗忘实战指南",
+      "desc": "CPT/CIT/RLHF 全阶段的灾难性遗忘缓解策略",
+      "url": "https://medium.com/@baicenxiao/avoiding-amnesia-some-practical-guides-to-mitigate-catastrophic-forgetting-in-llms-post-training-6a23e4f064cb"
+    },
+    {
+      "title": "Meta: Continual Learning via Sparse Memory Finetuning",
+      "desc": "稀疏记忆 fine-tuning 减少 78% 遗忘，另一种反向思路",
+      "url": "https://www.linkedin.com/posts/data-science-dojo_continual-learning-via-sparse-memory-finetuning-activity-7387246464046989312-5E4u"
+    }
+  ],
   "https://yage.ai/share/agent-filesystem-survey-20260507.html": [
     {
       "title": "Manus Context Engineering 博客",
