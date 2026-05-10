@@ -29622,6 +29622,7 @@
         "email": ""
       },
       "sort": 1711404234,
+      "summary": "antirez 为 DeepSeek V4 Flash 专门写的 Metal 推理引擎，'故意窄'的反框架主义——一个模型一个引擎，换来深度：非对称 2-bit 量化、KV cache 磁盘一等公民、三件套（引擎+GGUF+agent 验证）。128GB MacBook 能跑 284B MoE。",
       "highlights": [],
       "collectionId": -1,
       "related": [
