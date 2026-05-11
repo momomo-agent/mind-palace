@@ -5214,5 +5214,22 @@
     "https://designplusai.com/p/generative-interfaces",
     "https://ai-sdk.dev/docs/ai-sdk-ui/generative-user-interfaces",
     "https://www.copilotkit.ai/generative-ui"
+  ],
+  "https://www.shadertoy.com/view/dljfRm": [
+    {
+      "title": "Why Sugar Always Twists Light To The Right — Steve Mould",
+      "url": "https://www.youtube.com/watch?v=975r9a7FMqc",
+      "desc": "视频：糖水为什么把偏振光向右扭。shader 的物理源头之一"
+    },
+    {
+      "title": "3Blue1Brown — The barber pole optical mystery",
+      "url": "https://www.youtube.com/watch?v=QCX62YJCmGk",
+      "desc": "理发店灯柱的光学谜题：波长依赖的旋光如何让彩带出现"
+    },
+    {
+      "title": "Harvard Natural Sciences — Sugar Syrups demo",
+      "url": "https://sciencedemonstrations.fas.harvard.edu/presentations/sugar-syrups",
+      "desc": "哈佛物理演示：线偏振光=左右圆偏振光的叠加，手性溶液对两种旋向折射率不同"
+    }
   ]
 }
