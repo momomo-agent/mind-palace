@@ -5265,5 +5265,22 @@
       "desc": "81K 调查的视频解读",
       "url": "https://www.youtube.com/watch?v=pqDTplnnraw"
     }
+  ],
+  "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/": [
+    {
+      "title": "Production Ready Atmosphere Rendering — Hillaire (EGSR 2020)",
+      "desc": "Unreal Engine Sky Atmosphere 的理论基础，LUT 预计算方案",
+      "url": "https://sebh.github.io/publications/egsr2020.pdf"
+    },
+    {
+      "title": "Production Sky Rendering — Shadertoy",
+      "desc": "Hillaire 论文的可运行 Shadertoy 实现，含多重散射近似",
+      "url": "https://www.shadertoy.com/view/slSXRW"
+    },
+    {
+      "title": "Volumetric Clouds — Maxime Heckel",
+      "desc": "同作者的体积云教程，raymarching 基础相同",
+      "url": "https://blog.maximeheckel.com/posts/real-time-cloudscapes-with-volumetric-raymarching/"
+    }
   ]
 }
