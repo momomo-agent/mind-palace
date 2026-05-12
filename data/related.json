@@ -5282,5 +5282,22 @@
       "desc": "同作者的体积云教程，raymarching 基础相同",
       "url": "https://blog.maximeheckel.com/posts/real-time-cloudscapes-with-volumetric-raymarching/"
     }
+  ],
+  "https://x.com/figma/status/2054222624864026913": [
+    {
+      "title": "How to Design Agentic Tools for Work — Figma Blog",
+      "desc": "原文完整版含 UI 截图和设计细节",
+      "url": "https://www.figma.com/blog/how-to-design-agentic-tools-for-work/"
+    },
+    {
+      "title": "Designing Trust Into AI Agents: Transparency Moments",
+      "desc": "即使答案对了不解释也会侵蚀信任——agentic UX 信任设计核心模式",
+      "url": "https://reptile.haus/journal/transparency-moments-ai-agents-ux-trust-2026/"
+    },
+    {
+      "title": "The new Gemini Enterprise — Google Cloud Blog",
+      "desc": "产品官方介绍：一个平台做 agent 开发",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/the-new-gemini-enterprise-one-platform-for-agent-development"
+    }
   ]
 }
