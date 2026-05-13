@@ -30415,6 +30415,7 @@
     {
       "_id": 1716800955,
       "link": "https://www.hannahhearth.com/posts/tools-the-vercel-product-design-team-actually-uses",
+      "summary": "并行线程是 AI 时代的心流机制，production 变成 source of truth处理 canvas 变成反向链路",
       "excerpt": "A blog about design leadership",
       "note": "Vercel 产品设计团队 2026 年正在用的工具合集：Codex+Claude 配对编程、Conductor 并行线程进入心流、Paper/UI Fork 把生产环境当画布、Timeless 持续录屏补 bug，AI 工具在设计流程里仍然 clunky",
       "type": "link",
