@@ -1,4 +1,26 @@
 {
+  "https://www.hannahhearth.com/posts/tools-the-vercel-product-design-team-actually-uses": [
+    {
+      "title": "Claude Review skill (Timo)",
+      "desc": "让 Claude 审查 Codex 计划的双模型 review skill，npx 一键安装",
+      "url": "https://github.com/timolins/claude-review"
+    },
+    {
+      "title": "UI Fork (Sam Bernhardt)",
+      "desc": "在 local dev 里创建组件多版本，浏览器内切换再 merge 回源文件",
+      "url": "https://github.com/sambernhardt/uifork"
+    },
+    {
+      "title": "Conductor: running multiple AI coding agents in parallel",
+      "desc": "Conductor 工具的原理：每个 agent 跑在独立 git worktree 不互相干扰",
+      "url": "https://madewithlove.com/blog/conductor-running-multiple-ai-coding-agents-in-parallel/"
+    },
+    {
+      "title": "Addy Osmani: Conductors to Orchestrators",
+      "desc": "agentic coding 从单 agent 协奏走向多 agent 编排的演进论述",
+      "url": "https://addyosmani.com/blog/future-agentic-coding/"
+    }
+  ],
   "http://xhslink.com/o/1if8OWZNnW4": [
     {
       "title": "Live coding session with Boris Cherny and Jarred Sumner（原视频）",
