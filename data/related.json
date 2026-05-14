@@ -1,4 +1,21 @@
 {
+  "https://blog.cloudflare.com/enterprise-mcp/": [
+    {
+      "title": "Code execution with MCP (Anthropic)",
+      "desc": "Anthropic 官方 code execution 模式：agent 通过文件系统按需发现 tool，context 开销减 98.7%",
+      "url": "https://www.anthropic.com/engineering/code-execution-with-mcp"
+    },
+    {
+      "title": "Code Mode to power Cloudflare's MCP server",
+      "desc": "Cloudflare 第一篇 Code Mode：search/execute 两个 tool 暴露上千 API endpoint，token 减 99.9%",
+      "url": "https://blog.cloudflare.com/code-mode-mcp/"
+    },
+    {
+      "title": "10 strategies to reduce MCP token bloat",
+      "desc": "The New Stack 总结的 10 种 MCP token 优化策略：tool 质量 > tool 数量",
+      "url": "https://thenewstack.io/how-to-reduce-mcp-token-bloat/"
+    }
+  ],
   "https://www.hannahhearth.com/posts/tools-the-vercel-product-design-team-actually-uses": [
     {
       "title": "Claude Review skill (Timo)",
