@@ -30469,7 +30469,8 @@
       "themes": [
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Raycast 2.0 从零重写技术全解：拒绝 Electron/Tauri，自建 Swift/C# 壳+系统 WebView+Node+Rust 四运行时混合架构"
     },
     {
       "_id": 1718502247,
@@ -30512,7 +30513,8 @@
       "themes": [
         "develop",
         "article"
-      ]
+      ],
+      "summary": "Pedro Duarte 推荐 Raycast 2.0 技术深度文章"
     },
     {
       "_id": 1717702071,
