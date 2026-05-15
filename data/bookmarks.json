@@ -1,15 +1,17 @@
 {
   "meta": {
-    "syncedAt": "2026-05-15T02:52:58.287Z",
-    "count": 2680
+    "syncedAt": "2026-05-15T10:07:43.451Z",
+    "count": 2682
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 1395,
+      "count": 1397,
       "items": [
+        1719052235,
+        1719052204,
         1718744734,
         1718744715,
         1718744690,
@@ -1411,8 +1413,10 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 1163,
+      "count": 1165,
       "items": [
+        1719052235,
+        1719052204,
         1718502335,
         1718502333,
         1718502248,
@@ -2582,8 +2586,9 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 907,
+      "count": 908,
       "items": [
+        1719052204,
         1718744734,
         1718744690,
         1718502335,
@@ -10662,8 +10667,19 @@
     },
     {
       "id": "galaxy-345",
-      "name": "google + android",
+      "name": "https + com",
       "color": "#5A7A6B",
+      "members": [
+        1719052204,
+        1716285917,
+        1654566557
+      ],
+      "count": 3
+    },
+    {
+      "id": "galaxy-346",
+      "name": "google + android",
+      "color": "#8B8B5A",
       "members": [
         1718744715,
         1707553204,
@@ -10672,9 +10688,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-346",
+      "id": "galaxy-347",
       "name": "google + agent",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         1718744690,
         1707493680,
@@ -10723,9 +10739,9 @@
       "count": 43
     },
     {
-      "id": "galaxy-347",
+      "id": "galaxy-348",
       "name": "raycast + blog",
-      "color": "#5A8B7A",
+      "color": "#C4785A",
       "members": [
         1718502335,
         1718502333,
@@ -10736,25 +10752,15 @@
       "count": 5
     },
     {
-      "id": "galaxy-348",
+      "id": "galaxy-349",
       "name": "万美元追上 + gpt-5？kimi",
-      "color": "#C4785A",
+      "color": "#7A8B6E",
       "members": [
         1717702071,
         369824674,
         160263471
       ],
       "count": 3
-    },
-    {
-      "id": "galaxy-349",
-      "name": "https + com",
-      "color": "#7A8B6E",
-      "members": [
-        1716285917,
-        1654566557
-      ],
-      "count": 2
     },
     {
       "id": "galaxy-350",
@@ -12168,6 +12174,7 @@
       "name": "AI · Develop",
       "color": "#6B8B8B",
       "members": [
+        1719052235,
         1717649277,
         1716285961,
         1716285954,
@@ -12304,7 +12311,7 @@
         441432575,
         184076073
       ],
-      "count": 135
+      "count": 136
     },
     {
       "id": "galaxy-462",
@@ -13925,7 +13932,7 @@
     },
     {
       "source": "galaxy-0",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -14339,7 +14346,7 @@
     },
     {
       "source": "galaxy-1",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -15077,7 +15084,7 @@
     },
     {
       "source": "galaxy-22",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -15701,7 +15708,7 @@
     },
     {
       "source": "galaxy-31",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -16091,7 +16098,7 @@
     },
     {
       "source": "galaxy-33",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -16457,7 +16464,7 @@
     },
     {
       "source": "galaxy-37",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -16811,7 +16818,7 @@
     },
     {
       "source": "galaxy-38",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -17201,7 +17208,7 @@
     },
     {
       "source": "galaxy-41",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -17585,7 +17592,7 @@
     },
     {
       "source": "galaxy-46",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -18059,7 +18066,7 @@
     },
     {
       "source": "galaxy-52",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -18413,7 +18420,7 @@
     },
     {
       "source": "galaxy-54",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -18827,7 +18834,7 @@
     },
     {
       "source": "galaxy-56",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -19211,7 +19218,7 @@
     },
     {
       "source": "galaxy-58",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -19817,7 +19824,7 @@
     },
     {
       "source": "galaxy-77",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -20291,7 +20298,7 @@
     },
     {
       "source": "galaxy-88",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -20615,7 +20622,7 @@
     },
     {
       "source": "galaxy-91",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -20927,7 +20934,7 @@
     },
     {
       "source": "galaxy-98",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -21317,7 +21324,7 @@
     },
     {
       "source": "galaxy-106",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -21611,7 +21618,7 @@
     },
     {
       "source": "galaxy-109",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -21905,7 +21912,7 @@
     },
     {
       "source": "galaxy-110",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -22175,7 +22182,7 @@
     },
     {
       "source": "galaxy-112",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -22487,7 +22494,7 @@
     },
     {
       "source": "galaxy-115",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -22925,7 +22932,7 @@
     },
     {
       "source": "galaxy-124",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -23225,7 +23232,7 @@
     },
     {
       "source": "galaxy-125",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -23477,7 +23484,7 @@
     },
     {
       "source": "galaxy-126",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -23717,7 +23724,7 @@
     },
     {
       "source": "galaxy-128",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -24071,7 +24078,7 @@
     },
     {
       "source": "galaxy-134",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -24389,7 +24396,7 @@
     },
     {
       "source": "galaxy-140",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -24623,7 +24630,7 @@
     },
     {
       "source": "galaxy-142",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -24857,7 +24864,7 @@
     },
     {
       "source": "galaxy-144",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -25085,7 +25092,7 @@
     },
     {
       "source": "galaxy-146",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -25367,7 +25374,7 @@
     },
     {
       "source": "galaxy-151",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -25565,7 +25572,7 @@
     },
     {
       "source": "galaxy-152",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -25763,7 +25770,7 @@
     },
     {
       "source": "galaxy-155",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -25907,13 +25914,13 @@
     },
     {
       "source": "galaxy-160",
-      "target": "galaxy-345",
+      "target": "galaxy-346",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-160",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -26093,7 +26100,7 @@
     },
     {
       "source": "galaxy-162",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -26213,13 +26220,13 @@
     },
     {
       "source": "galaxy-168",
-      "target": "galaxy-345",
+      "target": "galaxy-346",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-168",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -26231,7 +26238,7 @@
     },
     {
       "source": "galaxy-171",
-      "target": "galaxy-347",
+      "target": "galaxy-348",
       "strength": 3,
       "shared": []
     },
@@ -26417,7 +26424,7 @@
     },
     {
       "source": "galaxy-176",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -26609,7 +26616,7 @@
     },
     {
       "source": "galaxy-179",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -26867,7 +26874,7 @@
     },
     {
       "source": "galaxy-190",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -27083,7 +27090,7 @@
     },
     {
       "source": "galaxy-192",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -27257,7 +27264,7 @@
     },
     {
       "source": "galaxy-198",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -27413,7 +27420,7 @@
     },
     {
       "source": "galaxy-202",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -27557,7 +27564,7 @@
     },
     {
       "source": "galaxy-206",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -27701,7 +27708,7 @@
     },
     {
       "source": "galaxy-208",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -27833,7 +27840,7 @@
     },
     {
       "source": "galaxy-209",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -28013,7 +28020,7 @@
     },
     {
       "source": "galaxy-221",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -28181,7 +28188,7 @@
     },
     {
       "source": "galaxy-230",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -28373,7 +28380,7 @@
     },
     {
       "source": "galaxy-238",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -28481,7 +28488,7 @@
     },
     {
       "source": "galaxy-241",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -28667,7 +28674,7 @@
     },
     {
       "source": "galaxy-252",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -28829,7 +28836,7 @@
     },
     {
       "source": "galaxy-259",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -28955,7 +28962,7 @@
     },
     {
       "source": "galaxy-260",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29051,7 +29058,7 @@
     },
     {
       "source": "galaxy-264",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29195,7 +29202,7 @@
     },
     {
       "source": "galaxy-281",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29273,7 +29280,7 @@
     },
     {
       "source": "galaxy-286",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29357,7 +29364,7 @@
     },
     {
       "source": "galaxy-290",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29453,7 +29460,7 @@
     },
     {
       "source": "galaxy-293",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29597,13 +29604,13 @@
     },
     {
       "source": "galaxy-299",
-      "target": "galaxy-345",
+      "target": "galaxy-346",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-299",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29645,13 +29652,13 @@
     },
     {
       "source": "galaxy-305",
-      "target": "galaxy-345",
+      "target": "galaxy-346",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-305",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29771,7 +29778,7 @@
     },
     {
       "source": "galaxy-320",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29843,7 +29850,7 @@
     },
     {
       "source": "galaxy-323",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29897,7 +29904,7 @@
     },
     {
       "source": "galaxy-325",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29969,7 +29976,7 @@
     },
     {
       "source": "galaxy-330",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -29999,7 +30006,7 @@
     },
     {
       "source": "galaxy-332",
-      "target": "galaxy-347",
+      "target": "galaxy-348",
       "strength": 3,
       "shared": []
     },
@@ -30035,7 +30042,7 @@
     },
     {
       "source": "galaxy-337",
-      "target": "galaxy-349",
+      "target": "galaxy-345",
       "strength": 6,
       "shared": []
     },
@@ -30095,7 +30102,7 @@
     },
     {
       "source": "galaxy-344",
-      "target": "galaxy-346",
+      "target": "galaxy-347",
       "strength": 3,
       "shared": []
     },
@@ -30125,61 +30132,61 @@
     },
     {
       "source": "galaxy-345",
-      "target": "galaxy-346",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-345",
-      "target": "galaxy-429",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-346",
-      "target": "galaxy-356",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-346",
-      "target": "galaxy-362",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-346",
-      "target": "galaxy-366",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-346",
-      "target": "galaxy-370",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-347",
-      "target": "galaxy-402",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-349",
       "target": "galaxy-352",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-349",
+      "source": "galaxy-345",
       "target": "galaxy-374",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-349",
+      "source": "galaxy-345",
       "target": "galaxy-377",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-346",
+      "target": "galaxy-347",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-346",
+      "target": "galaxy-429",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-347",
+      "target": "galaxy-356",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-347",
+      "target": "galaxy-362",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-347",
+      "target": "galaxy-366",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-347",
+      "target": "galaxy-370",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-348",
+      "target": "galaxy-402",
       "strength": 3,
       "shared": []
     },
@@ -30377,6 +30384,100 @@
     }
   ],
   "items": [
+    {
+      "_id": 1719052235,
+      "link": "https://levelup.gitconnected.com/a-mental-model-for-claude-code-skills-subagents-and-plugins-3dea9924bf05",
+      "excerpt": "",
+      "note": "Claude Code Skills/Subagents/Plugins 心智模型：银行 ML 工程师的实战总结",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-05-15T10:07:05.791Z",
+      "lastUpdate": "2026-05-15T10:07:05.791Z",
+      "domain": "levelup.gitconnected.com",
+      "title": "https://levelup.gitconnected.com/a-mental-model-for-claude-code-skills-subagents-and-plugins-3dea9924bf05",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1719052235,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "银行 ML 工程师的实战总结"
+      ],
+      "themes": [
+        "ai",
+        "develop"
+      ]
+    },
+    {
+      "_id": 1719052204,
+      "link": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "excerpt": "",
+      "note": "Anthropic 官方 Claude Code at Scale 系列首篇：大型代码库最佳实践。五层扩展体系(CLAUDE.md→Hooks→Skills→Plugins→MCP)、agentic search 替代 RAG 索引、LSP 集成做符号级导航、subagent 分离探索与编辑、三个配置模式(可导航性/持续维护/组织所有权)",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-05-15T10:06:59.812Z",
+      "lastUpdate": "2026-05-15T10:06:59.812Z",
+      "domain": "claude.com",
+      "title": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1719052204,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Anthropic 官方 Claude Code at Scale 系列首篇：大型代码库最佳实践"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "article"
+      ]
+    },
     {
       "_id": 1718744734,
       "link": "https://www.androidcentral.com/apps-software/android-os/i-didnt-think-the-desktop-cursor-needed-reinventing-googlebooks-magic-pointer",
