@@ -1,4 +1,31 @@
 {
+  "https://jacobharr.is/personal/i-dont-vibe-code": [
+    {
+      "title": "Against essential and accidental complexity",
+      "desc": "Dan Luu 反思 Brooks 二分法，真实工程里 essential/accidental 难以分辨但 essence 仍无法靠工具消解",
+      "url": "https://danluu.com/essential-complexity/"
+    },
+    {
+      "title": "Are Language Models in Hell?",
+      "desc": "Robin Sloan：LLM 活在 token 的水里像金鱼，没有元认知，文中 Jacob 直接引用",
+      "url": "https://www.robinsloan.com/lab/language-models-hell/"
+    },
+    {
+      "title": "Vibe coding is not the same as AI-Assisted engineering",
+      "desc": "Addy Osmani：vibe coding 适合原型琐事，AI-assisted engineering 才是有纪律的工程",
+      "url": "https://medium.com/@addyosmani/vibe-coding-is-not-the-same-as-ai-assisted-engineering-3f81088d5b98"
+    },
+    {
+      "title": "No Silver Bullet — Brooks 原文（带注解）",
+      "desc": "essential vs accidental complexity 二分法的源头，文章核心论据",
+      "url": "https://fermatslibrary.com/s/no-silver-bullet-essence-and-accident-in-software-engineering"
+    },
+    {
+      "title": "Architectural Decision Records",
+      "desc": "Jacob 写代码前必做的 ADR 实践模板，强迫显式化假设和后果",
+      "url": "https://adr.github.io/"
+    }
+  ],
   "https://garymarcus.substack.com/p/the-illusion-of-generative-ai-the": [
     {
       "title": "Goldman Sachs — Tracking Trillions: AI Build-out Assumptions",
