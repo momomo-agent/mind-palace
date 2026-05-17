@@ -1,4 +1,26 @@
 {
+  "https://garymarcus.substack.com/p/the-illusion-of-generative-ai-the": [
+    {
+      "title": "Goldman Sachs — Tracking Trillions: AI Build-out Assumptions",
+      "desc": "用 NVIDIA 数据中心收入预期反推全行业 capex 的假设链条，跟 Marcus 的 $1.6T/年回本数字互证",
+      "url": "https://www.goldmansachs.com/insights/articles/tracking-trillions-the-assumptions-shaping-scale-of-the-ai-build-out"
+    },
+    {
+      "title": "Forbes — Neuro-Symbolic AI Gains Street Cred After Claude Code Leak",
+      "desc": "Claude Code 50 万行泄露事件的工程视角拆解：52 个 symbolic tool 是 neurosymbolic 复活的实证",
+      "url": "https://www.forbes.com/sites/lanceeliot/2026/04/12/neuro-symbolic-ai-gains-needed-street-cred-after-fluky-leak-of-anthropic-claude-code-components/"
+    },
+    {
+      "title": "Marcus — A knockout blow for LLMs?",
+      "desc": "Marcus 这次三连发的理论基础——泛化缺陷不是 scaling 能解决的根本性问题",
+      "url": "https://garymarcus.substack.com/p/a-knockout-blow-for-llms"
+    },
+    {
+      "title": "Marcus — How o3 and Grok 4 Accidentally Vindicated Neurosymbolic AI",
+      "desc": "Marcus 自己梳理 neurosymbolic 复兴的工程脉络",
+      "url": "https://garymarcus.substack.com/p/how-o3-and-grok-4-accidentally-vindicated"
+    }
+  ],
   "https://blog.cloudflare.com/enterprise-mcp/": [
     {
       "title": "Code execution with MCP (Anthropic)",
