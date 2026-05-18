@@ -1,4 +1,26 @@
 {
+  "https://arxiv.org/abs/2605.13850": [
+    {
+      "title": "Building Effective Agents — Anthropic",
+      "desc": "拓扑轴的源头：6 种 execution topology（prompt chain/route/parallel/orchestrator-workers/evaluator-optimizer/autonomous）",
+      "url": "https://www.anthropic.com/research/building-effective-agents"
+    },
+    {
+      "title": "Cognitive Architectures for Language Agents (CoALA)",
+      "desc": "Sumers et al. 认知功能轴的源头，language agent 的 working/long-term memory + 内外行动空间 + 决策过程三维度",
+      "url": "https://arxiv.org/abs/2309.02427"
+    },
+    {
+      "title": "Anthropic Multi-Agent Research System",
+      "desc": "orchestrator 怎么 decompose 任务、怎么给 subagent 写 objective、怎么避免指令压缩",
+      "url": "https://www.anthropic.com/engineering/multi-agent-research-system"
+    },
+    {
+      "title": "Zenodo 镜像（永久链接）",
+      "desc": "论文完整 PDF 永久存档位置",
+      "url": "https://zenodo.org/records/19036557"
+    }
+  ],
   "https://jacobharr.is/personal/i-dont-vibe-code": [
     {
       "title": "Against essential and accidental complexity",
