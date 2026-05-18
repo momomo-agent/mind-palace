@@ -1,4 +1,28 @@
 {
+  "https://claude.com/blog/the-founders-playbook": [
+    {
+      "title": "TechTimes: Anthropic's New Founder Playbook Argues AI Has 'Rebooted' the Startup Lifecycle",
+      "desc": "外部评论，指出 playbook 发布时间点（Claude for Small Business 发布次日）的商业动机",
+      "url": "https://www.techtimes.com/articles/316740/20260516/anthropics-new-founder-playbook-argues-ai-has-rebooted-startup-lifecycle-heres-what-holds.htm"
+    },
+    {
+      "title": "The Guardian: To be human is to live with friction",
+      "desc": "Alexander Hurst 从人文角度论证 friction 的价值，跟 Harris 的 friction is a gift 和 Anthropic 的 validation window 三角互证",
+      "url": "https://www.theguardian.com/commentisfree/2026/apr/23/humanity-friction-artificial-intelligence-capitalism-black-mirror"
+    },
+    {
+      "title": "YC: The Playbook For Building An AI Native Company",
+      "desc": "YC 版 AI-native 创业方法论，三种员工原型（IC/orchestrator/strategist）",
+      "url": "https://www.ycombinator.com/library/OX-the-playbook-for-building-an-ai-native-company"
+    }
+  ],
+  "http://xhslink.com/o/3G2zu68In2t": [
+    {
+      "title": "Anthropic: The Founder's Playbook (原文)",
+      "desc": "这条小红书转述的原文，36 页 PDF",
+      "url": "https://claude.com/blog/the-founders-playbook"
+    }
+  ],
   "https://arxiv.org/abs/2605.13850": [
     {
       "title": "Building Effective Agents — Anthropic",
