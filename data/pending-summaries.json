@@ -5,7 +5,5 @@
   "https://www.mindstudio.ai/blog/what-is-design-md-google-stitch/": "DESIGN.md 是 AI 的设计系统 system prompt",
   "https://sudoall.com/gemma-4-31b-apple-silicon-local-guide/": "MLX 优化的 Gemma 4 性能超过 GGUF",
   "https://test.com/summary-test": "用pipeline实现summary从LLM判断到持久化的完整链路",
-  "https://test.com/summary-rel": "相关链接的精炼看点",
-  "https://claude.com/blog/the-founders-playbook": "Anthropic 官方 AI-Native 创业指南：建造成本趋零时验证窗口消失，42% 失败率只会更高。Founder 从 IC 转 orchestrator，先雇 agent 再雇人",
-  "http://xhslink.com/o/3G2zu68In2t": "小红书 Joy 对 Anthropic Founder's Playbook 的中文转述，挑了 4 步展开（让 Claude 反对你 / 1h demo 陷阱 / agentic 技术债 / 先雇 agent）"
+  "https://test.com/summary-rel": "相关链接的精炼看点"
 }
