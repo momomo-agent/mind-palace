@@ -31063,6 +31063,7 @@
       "_id": 1722722173,
       "link": "https://x.com/notionhq/status/2056451082411544969",
       "excerpt": "That's the question behind ntn — the Notion CLI. Carter and Anthony break down the 4 principles that shaped it.\n\n0:00 How we built the Notion CLI \n0:21 Progressive disclosure \n2:26 Actionable error messages \n4:04 Separate data",
+      "summary": "Notion CLI 设计四原则：渐进式披露 / 可操作错误 / stdout-stderr 分离 / TTY-非TTY 切换。同时给人和 agent 用的契约 checklist。",
       "note": "Notion CLI (ntn) 设计四原则——同时服务人类和 agent：渐进式披露、可操作错误信息、stdout/stderr 分离数据与消息、交互/非交互模式。Carter 和 Anthony 用 7 分钟视频拆解。",
       "type": "link",
       "user": {
