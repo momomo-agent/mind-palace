@@ -1,4 +1,26 @@
 {
+  "https://github.com/vercel-labs/zero": [
+    {
+      "title": "ZeroLang: When Vercel Built a Systems Programming Language for AI Agents",
+      "desc": "深度解析：capability-based I/O、effects system、shape/enum/choice 数据建模、与传统语言对比",
+      "url": "https://needhelp.icu/blogs/zerolang-vercel-ai-agent-language"
+    },
+    {
+      "title": "Zero Compiler Speaks JSON to AI Agents",
+      "desc": "TechTimes 分析：编译器对 agent 说 JSON 而不是对人说 prose，zero fix --plan --json 给结构化修复计划",
+      "url": "https://www.techtimes.com/articles/316793/20260518/vercel-labs-zero-compiler-speaks-json-ai-agents-closing-human-translation-gap-agentic-coding.htm"
+    },
+    {
+      "title": "Vercel made a programming language (Better Stack)",
+      "desc": "视频评测：它能用，但核心问题是 AI 真的需要自己的编程语言吗？",
+      "url": "https://www.youtube.com/watch?v=Koop0_nkNtc"
+    },
+    {
+      "title": "Notion CLI 设计四原则",
+      "desc": "同一思路的另一个角度：CLI 给 agent 用需要 stdout/stderr 分离 + 结构化输出",
+      "url": "https://x.com/notionhq/status/2056451082411544969"
+    }
+  ],
   "https://www.anthropic.com/news/anthropic-acquires-stainless": [
     {
       "title": "Anthropic Stainless Acquisition: $300M+ Deal Explained",

@@ -1,15 +1,18 @@
 {
   "meta": {
-    "syncedAt": "2026-05-19T06:25:15.094Z",
-    "count": 2714
+    "syncedAt": "2026-05-19T17:37:31.561Z",
+    "count": 2717
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 1426,
+      "count": 1429,
       "items": [
+        1723943293,
+        1723943217,
+        1723943067,
         1722935674,
         1722935515,
         1722931527,
@@ -1442,8 +1445,11 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 1185,
+      "count": 1188,
       "items": [
+        1723943293,
+        1723943217,
+        1723943067,
         1722931527,
         1722931487,
         1722931436,
@@ -2635,8 +2641,10 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 932,
+      "count": 934,
       "items": [
+        1723943293,
+        1723943217,
         1722935674,
         1722931527,
         1722931487,
@@ -4329,8 +4337,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#8b5cf6",
-      "count": 441,
+      "count": 442,
       "items": [
+        1723943067,
         1722931527,
         1722931436,
         1722722350,
@@ -6853,8 +6862,22 @@
   "galaxies": [
     {
       "id": "galaxy-0",
-      "name": "anthropic + stainless",
+      "name": "cli + agents",
       "color": "#C4785A",
+      "members": [
+        1723943293,
+        1723943067,
+        1723943217,
+        1722722173,
+        1722722311,
+        1722722350
+      ],
+      "count": 6
+    },
+    {
+      "id": "galaxy-1",
+      "name": "anthropic + stainless",
+      "color": "#7A8B6E",
       "members": [
         1722935674,
         1722935515,
@@ -6866,9 +6889,9 @@
       "count": 6
     },
     {
-      "id": "galaxy-1",
+      "id": "galaxy-2",
       "name": "karpathy + forrest",
-      "color": "#7A8B6E",
+      "color": "#5A6B7A",
       "members": [
         1722931527,
         1722931060,
@@ -6878,17 +6901,6 @@
         1651723692
       ],
       "count": 6
-    },
-    {
-      "id": "galaxy-2",
-      "name": "cli + agents",
-      "color": "#5A6B7A",
-      "members": [
-        1722722350,
-        1722722173,
-        1722722311
-      ],
-      "count": 3
     },
     {
       "id": "galaxy-3",
@@ -13681,199 +13693,199 @@
   "bridges": [
     {
       "source": "galaxy-0",
-      "target": "galaxy-23",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-26",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-35",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-64",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-87",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-92",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-137",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-141",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-165",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-172",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-239",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-262",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-323",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-0",
-      "target": "galaxy-357",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-38",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-65",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-240",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-1",
-      "target": "galaxy-313",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-2",
       "target": "galaxy-8",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-12",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-32",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-59",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-108",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-154",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-173",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-218",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-233",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-280",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-285",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-287",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-310",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-317",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-2",
+      "source": "galaxy-0",
       "target": "galaxy-331",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-23",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-26",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-35",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-64",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-87",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-92",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-137",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-141",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-165",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-172",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-239",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-262",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-323",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-1",
+      "target": "galaxy-357",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-38",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-65",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-240",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-2",
+      "target": "galaxy-313",
       "strength": 3,
       "shared": []
     },
@@ -31105,6 +31117,184 @@
     }
   ],
   "items": [
+    {
+      "_id": 1723943293,
+      "link": "https://www.techtimes.com/articles/316793/20260518/vercel-labs-zero-compiler-speaks-json-ai-agents-closing-human-translation-gap-agentic-coding.htm",
+      "excerpt": "Vercel Labs released Zero on May 15, 2026 — a low-level systems programming language whose compiler was built from the ground up to communicate with AI agents rather than human engineers.",
+      "note": "TechTimes 分析：Zero 编译器对 agent 说 JSON 而不是对人说 prose。核心问题：agent 写代码→编译器报错→agent 要从人类文本推断修复→循环断裂。Zero 的 zero fix --plan --json 直接给结构化修复计划。",
+      "type": "article",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://d.techtimes.com/en/full/465011/runway-enables-next-generation-content-creation-ai-vercel.png",
+      "tags": [
+        "Develop",
+        "AI",
+        "Article"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://d.techtimes.com/en/full/465011/runway-enables-next-generation-content-creation-ai-vercel.png"
+        },
+        {
+          "type": "image",
+          "link": "https://d.techtimes.com/en/full/465011/runway-enables-next-generation-content-creation-ai-vercel.png?w=1600&h=900&q=88&f=80c59aa0130af5c5c24b43997a9ad461"
+        }
+      ],
+      "created": "2026-05-19T17:36:44.608Z",
+      "lastUpdate": "2026-05-19T17:36:44.608Z",
+      "domain": "techtimes.com",
+      "title": "Vercel Labs’ Zero Compiler Speaks JSON to AI Agents: Closing the Human-Translation Gap in Agentic Coding Loops",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1723943293,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Zero 编译器对 agent 说 JSON 而不是对人说 prose",
+        "agent 写代码→编译器报错→agent 要从人类文本推断修复→循环断裂"
+      ],
+      "themes": [
+        "develop",
+        "ai",
+        "article"
+      ]
+    },
+    {
+      "_id": 1723943217,
+      "link": "https://needhelp.icu/blogs/zerolang-vercel-ai-agent-language",
+      "excerpt": "Vercel Labs launched Zero (file extension .0), an experimental systems programming language positioned as 'the programming language for agents.' Designed around 'everything is explicit' — no hidden allocators, no implicit async, no magic globals — with a built-in agent-first toolchain.",
+      "note": "ZeroLang 深度解析：设计哲学（everything explicit）、capability-based I/O（World 参数）、effects system（check + raises 显式错误传播）、shape/enum/choice 数据建模。对比传统语言的 agent 不友好点。",
+      "type": "article",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://needhelp.icu/og-image.webp",
+      "tags": [
+        "Develop",
+        "AI",
+        "Article"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://needhelp.icu/og-image.webp"
+        }
+      ],
+      "created": "2026-05-19T17:36:34.955Z",
+      "lastUpdate": "2026-05-19T17:36:34.955Z",
+      "domain": "needhelp.icu",
+      "title": "ZeroLang: When Vercel Built a Systems Programming Language for AI Agents - needhelp",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1723943217,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "设计哲学（everything explicit）、capability-bas"
+      ],
+      "themes": [
+        "develop",
+        "ai",
+        "article"
+      ]
+    },
+    {
+      "_id": 1723943067,
+      "link": "https://github.com/vercel-labs/zero",
+      "excerpt": "The programming language for agents",
+      "note": "Vercel Labs 的 Zero——agent-first 系统编程语言实验。核心设计：一切显式（无隐式分配器/无隐式 async/无 magic globals），编译器输出结构化 JSON 给 agent 直接消费（diagnostics/fix plan/graph facts/size reports）。World capability 对象让 agent 静态理解副作用边界。文件扩展名 .0。pre-1 阶段，intentionally unstable。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://opengraph.githubassets.com/78328660c462fce14dcc087d7c9d05c398790e8305a1c6f1c7563ab636994a66/vercel-labs/zero",
+      "tags": [
+        "Develop",
+        "AI",
+        "Tool"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://opengraph.githubassets.com/78328660c462fce14dcc087d7c9d05c398790e8305a1c6f1c7563ab636994a66/vercel-labs/zero"
+        }
+      ],
+      "created": "2026-05-19T17:36:26.508Z",
+      "lastUpdate": "2026-05-19T17:36:26.508Z",
+      "domain": "github.com",
+      "title": "vercel-labs/zero: The programming language for agents",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1723943067,
+      "highlights": [],
+      "collectionId": -1,
+      "related": [
+        {
+          "title": "ZeroLang: When Vercel Built a Systems Programming Language for AI Agents",
+          "desc": "深度解析：capability-based I/O、effects system、shape/enum/choice 数据建模、与传统语言对比",
+          "url": "https://needhelp.icu/blogs/zerolang-vercel-ai-agent-language"
+        },
+        {
+          "title": "Zero Compiler Speaks JSON to AI Agents",
+          "desc": "TechTimes 分析：编译器对 agent 说 JSON 而不是对人说 prose，zero fix --plan --json 给结构化修复计划",
+          "url": "https://www.techtimes.com/articles/316793/20260518/vercel-labs-zero-compiler-speaks-json-ai-agents-closing-human-translation-gap-agentic-coding.htm"
+        },
+        {
+          "title": "Vercel made a programming language (Better Stack)",
+          "desc": "视频评测：它能用，但核心问题是 AI 真的需要自己的编程语言吗？",
+          "url": "https://www.youtube.com/watch?v=Koop0_nkNtc"
+        },
+        {
+          "title": "Notion CLI 设计四原则",
+          "desc": "同一思路的另一个角度：CLI 给 agent 用需要 stdout/stderr 分离 + 结构化输出",
+          "url": "https://x.com/notionhq/status/2056451082411544969"
+        }
+      ],
+      "highlights_text": [
+        "agent-first 系统编程语言实验",
+        "一切显式（无隐式分配器/无隐式 async/无 magic globals）"
+      ],
+      "themes": [
+        "develop",
+        "ai",
+        "tool"
+      ]
+    },
     {
       "_id": 1722935674,
       "link": "https://entrepreneurloop.com/anthropic-stainless-acquisition-300m-developer-tools-deal/",
