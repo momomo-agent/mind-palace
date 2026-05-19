@@ -31105,6 +31105,7 @@
       "_id": 1722724711,
       "link": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
       "excerpt": "The most successful Claude Code deployments share a set of recognizable patterns across configurations, tooling, and org structure. This article is part of Claude Code at scale, a new series covering best practices for engineering organizations building with Claude Code at enterprise scale.",
+      "summary": "Anthropic 官方背书：harness（CLAUDE.md+hooks+skills+plugins+MCP+LSP+subagents）比模型本身更决定 Claude Code 表现。agentic search 在活跃 codebase 里赢 RAG，因为索引永远 stale。",
       "note": "Anthropic Applied AI 团队总结 Claude Code 在百万行 monorepo / 数十年 legacy / 几十个 microservice 的部署经验。核心：harness（CLAUDE.md+hooks+skills+plugins+MCP+LSP+subagents）比模型本身更决定结果。agentic search vs RAG，CLAUDE.md 要瘦+分层，hooks 做 self-improving，skills on-demand，plugins 防止知识部落化。",
       "type": "article",
       "user": {
