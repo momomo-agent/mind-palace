@@ -1,4 +1,21 @@
 {
+  "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start": [
+    {
+      "title": "Agentic Search vs. RAG: Why Claude Code Doesn't Index",
+      "desc": "RAG 索引 stale 问题的深度分析，agentic search 的 token 经济学",
+      "url": "https://aiskill.market/blog/agentic-search-vs-rag-why-claude-code-doesnt-index"
+    },
+    {
+      "title": "A Mental Model for Claude Code: Skills, Subagents, and Plugins",
+      "desc": "七个扩展点的 when/why/how mental model，ML 工程师视角",
+      "url": "https://levelup.gitconnected.com/a-mental-model-for-claude-code-skills-subagents-and-plugins-3dea9924bf05"
+    },
+    {
+      "title": "Best Claude Code Skills to Try in 2026",
+      "desc": "流行 skill 清单，参考别人怎么打包专长（GStack / Frontend Design / Trail of Bits Security / Skill Creator）",
+      "url": "https://www.firecrawl.dev/blog/best-claude-code-skills"
+    }
+  ],
   "https://x.com/notionhq/status/2056451082411544969": [
     {
       "title": "Meet the Notion CLI: Built for Agents & Humans",
