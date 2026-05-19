@@ -1,4 +1,31 @@
 {
+  "https://x.com/notionhq/status/2056451082411544969": [
+    {
+      "title": "Meet the Notion CLI: Built for Agents & Humans",
+      "desc": "7 分钟视频原片，Carter 和 Anthony 拆解四原则",
+      "url": "https://www.youtube.com/watch?v=k-6ldiWIDsg"
+    },
+    {
+      "title": "Notion CLI 文档",
+      "desc": "官方上手指南，progressive disclosure 在导航结构里直接体现",
+      "url": "https://developers.notion.com/cli/get-started/overview"
+    },
+    {
+      "title": "Building a CLI That Works for Humans and Machines",
+      "desc": "OpenStatus 同主题深度文章：TTY 检测、wizard fallback、结构化错误、JSON 输出",
+      "url": "https://www.openstatus.dev/blog/building-cli-for-human-and-agents"
+    },
+    {
+      "title": "Writing CLI Tools That AI Agents Actually Want to Use",
+      "desc": "MCP 替成 CLI 后 token 用量降 40% 的实战复盘，'Zero indirection' 原则",
+      "url": "https://dev.to/uenyioha/writing-cli-tools-that-ai-agents-actually-want-to-use-39no"
+    },
+    {
+      "title": "Sakasegawa: Coding-Agent-Friendly CLI for Notion",
+      "desc": "开发者用 Remote MCP 包成 CLI 的设计推演，error pattern matching → 附加 hint",
+      "url": "https://nyosegawa.com/en/posts/notion-cli-for-coding-agent/"
+    }
+  ],
   "https://claude.com/blog/the-founders-playbook": [
     {
       "title": "TechTimes: Anthropic's New Founder Playbook Argues AI Has 'Rebooted' the Startup Lifecycle",
