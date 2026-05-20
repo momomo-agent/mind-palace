@@ -5552,6 +5552,23 @@
   "1718502247": [
     1718502248
   ],
+  "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude": [
+    {
+      "title": "Computer Use Best Practices Demo (GitHub)",
+      "desc": "Anthropic 官方参考实现：trajectory viewer、batch tools、advisor tool、localization playground",
+      "url": "https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-best-practices"
+    },
+    {
+      "title": "Claude Computer Use Tool Docs",
+      "desc": "官方工具规格文档：computer_20251124 配置、enable_zoom、display dimensions",
+      "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/computer-use-tool"
+    },
+    {
+      "title": "Adaptive Thinking Docs",
+      "desc": "effort 等级配置：low/medium/high/xhigh/max，按任务复杂度自动调整推理深度",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking"
+    }
+  ],
   "https://x.com/barret_china/status/2055663814725787726": [
     {
       "title": "WhisperTest: A Voice-Control-based Library for iOS UI Automation (CCS 2025)",
