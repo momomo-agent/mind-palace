@@ -5552,6 +5552,23 @@
   "1718502247": [
     1718502248
   ],
+  "https://www.anthropic.com/news/widening-conversation-ai": [
+    {
+      "title": "Claude's Constitution",
+      "desc": "2026 完整宪法文档，从规则列表升级为解释性文档，告诉 why 而不只是 what",
+      "url": "https://www.anthropic.com/constitution"
+    },
+    {
+      "title": "Persona Selection Model",
+      "desc": "Anthropic 关于 AI 人格特质选择的研究：如何决定模型应展现哪些品格特征",
+      "url": "https://www.anthropic.com/research/persona-selection-model"
+    },
+    {
+      "title": "Claude's New Constitution (LessWrong)",
+      "desc": "LessWrong 社区对 2026 宪法的深度分析：'Anthropic wants Claude to embody the Good'",
+      "url": "https://www.lesswrong.com/posts/mLvxxoNjDqDHBAo6K/claude-s-new-constitution"
+    }
+  ],
   "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude": [
     {
       "title": "Computer Use Best Practices Demo (GitHub)",
