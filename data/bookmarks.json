@@ -1,15 +1,18 @@
 {
   "meta": {
-    "syncedAt": "2026-05-20T01:29:14.913Z",
-    "count": 2721
+    "syncedAt": "2026-05-20T09:48:52.673Z",
+    "count": 2724
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 1433,
+      "count": 1436,
       "items": [
+        1724808607,
+        1724808594,
+        1724808550,
         1724453389,
         1724453384,
         1724453380,
@@ -2649,8 +2652,11 @@
       "id": "article",
       "name": "文章",
       "color": "#f59e0b",
-      "count": 937,
+      "count": 940,
       "items": [
+        1724808607,
+        1724808594,
+        1724808550,
         1724453389,
         1724453384,
         1724453341,
@@ -10877,8 +10883,29 @@
     },
     {
       "id": "galaxy-353",
-      "name": "google + android",
+      "name": "anthropic + agent",
       "color": "#6B8B8B",
+      "members": [
+        1724808607,
+        1724808594,
+        1724808550,
+        1713117350,
+        1710315874,
+        1662879352,
+        1658474371,
+        1656565652,
+        1655538800,
+        1655538798,
+        1655538797,
+        1649930370,
+        555112995
+      ],
+      "count": 13
+    },
+    {
+      "id": "galaxy-354",
+      "name": "google + android",
+      "color": "#9C7A5A",
       "members": [
         1718744715,
         1707553204,
@@ -10887,9 +10914,9 @@
       "count": 3
     },
     {
-      "id": "galaxy-354",
+      "id": "galaxy-355",
       "name": "google + agent",
-      "color": "#9C7A5A",
+      "color": "#7A6B8B",
       "members": [
         1718744690,
         1707493680,
@@ -10938,9 +10965,9 @@
       "count": 43
     },
     {
-      "id": "galaxy-355",
+      "id": "galaxy-356",
       "name": "raycast + blog",
-      "color": "#7A6B8B",
+      "color": "#8B7A6E",
       "members": [
         1718502335,
         1718502333,
@@ -10951,9 +10978,9 @@
       "count": 5
     },
     {
-      "id": "galaxy-356",
+      "id": "galaxy-357",
       "name": "万美元追上 + gpt-5？kimi",
-      "color": "#8B7A6E",
+      "color": "#5A7A6B",
       "members": [
         1717702071,
         369824674,
@@ -10962,32 +10989,14 @@
       "count": 3
     },
     {
-      "id": "galaxy-357",
+      "id": "galaxy-358",
       "name": "https + com",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1716285917,
         1654566557
       ],
       "count": 2
-    },
-    {
-      "id": "galaxy-358",
-      "name": "anthropic + agent",
-      "color": "#8B8B5A",
-      "members": [
-        1713117350,
-        1710315874,
-        1662879352,
-        1658474371,
-        1656565652,
-        1655538800,
-        1655538798,
-        1655538797,
-        1649930370,
-        555112995
-      ],
-      "count": 10
     },
     {
       "id": "galaxy-359",
@@ -13903,7 +13912,7 @@
     },
     {
       "source": "galaxy-2",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -14299,13 +14308,13 @@
     },
     {
       "source": "galaxy-5",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-5",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -14791,13 +14800,13 @@
     },
     {
       "source": "galaxy-9",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-9",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -15199,13 +15208,13 @@
     },
     {
       "source": "galaxy-10",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-10",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -15475,7 +15484,7 @@
     },
     {
       "source": "galaxy-24",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -15583,7 +15592,7 @@
     },
     {
       "source": "galaxy-27",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -15931,13 +15940,13 @@
     },
     {
       "source": "galaxy-31",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-31",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -16177,7 +16186,7 @@
     },
     {
       "source": "galaxy-36",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -16543,13 +16552,13 @@
     },
     {
       "source": "galaxy-40",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-40",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -16933,13 +16942,13 @@
     },
     {
       "source": "galaxy-42",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-42",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -17299,13 +17308,13 @@
     },
     {
       "source": "galaxy-46",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-46",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -17653,13 +17662,13 @@
     },
     {
       "source": "galaxy-47",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-47",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -18043,13 +18052,13 @@
     },
     {
       "source": "galaxy-50",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-50",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -18427,13 +18436,13 @@
     },
     {
       "source": "galaxy-55",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-55",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -18895,13 +18904,13 @@
     },
     {
       "source": "galaxy-61",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-61",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -19249,13 +19258,13 @@
     },
     {
       "source": "galaxy-63",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-63",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -19663,14 +19672,14 @@
     },
     {
       "source": "galaxy-65",
-      "target": "galaxy-354",
-      "strength": 3,
+      "target": "galaxy-353",
+      "strength": 6,
       "shared": []
     },
     {
       "source": "galaxy-65",
-      "target": "galaxy-358",
-      "strength": 6,
+      "target": "galaxy-355",
+      "strength": 3,
       "shared": []
     },
     {
@@ -20041,13 +20050,13 @@
     },
     {
       "source": "galaxy-67",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-67",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -20647,13 +20656,13 @@
     },
     {
       "source": "galaxy-86",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-86",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -20731,7 +20740,7 @@
     },
     {
       "source": "galaxy-88",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -20797,7 +20806,7 @@
     },
     {
       "source": "galaxy-93",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -21121,13 +21130,13 @@
     },
     {
       "source": "galaxy-97",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-97",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -21445,13 +21454,13 @@
     },
     {
       "source": "galaxy-100",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-100",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -21757,13 +21766,13 @@
     },
     {
       "source": "galaxy-107",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-107",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -22141,13 +22150,13 @@
     },
     {
       "source": "galaxy-115",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-115",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -22435,13 +22444,13 @@
     },
     {
       "source": "galaxy-118",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-118",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -22729,13 +22738,13 @@
     },
     {
       "source": "galaxy-119",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-119",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -22999,13 +23008,13 @@
     },
     {
       "source": "galaxy-121",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-121",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -23311,13 +23320,13 @@
     },
     {
       "source": "galaxy-124",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-124",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -23749,13 +23758,13 @@
     },
     {
       "source": "galaxy-133",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-133",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -24049,13 +24058,13 @@
     },
     {
       "source": "galaxy-134",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-134",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -24301,13 +24310,13 @@
     },
     {
       "source": "galaxy-135",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-135",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -24541,13 +24550,13 @@
     },
     {
       "source": "galaxy-137",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-137",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -24613,7 +24622,7 @@
     },
     {
       "source": "galaxy-138",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -24691,7 +24700,7 @@
     },
     {
       "source": "galaxy-142",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -24895,13 +24904,13 @@
     },
     {
       "source": "galaxy-143",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-143",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -25213,13 +25222,13 @@
     },
     {
       "source": "galaxy-149",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-149",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -25459,13 +25468,13 @@
     },
     {
       "source": "galaxy-152",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-152",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -25693,13 +25702,13 @@
     },
     {
       "source": "galaxy-154",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-154",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -25975,13 +25984,13 @@
     },
     {
       "source": "galaxy-159",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-159",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -26179,13 +26188,13 @@
     },
     {
       "source": "galaxy-160",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-160",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -26383,13 +26392,13 @@
     },
     {
       "source": "galaxy-163",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-163",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -26491,7 +26500,7 @@
     },
     {
       "source": "galaxy-166",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -26533,13 +26542,13 @@
     },
     {
       "source": "galaxy-168",
-      "target": "galaxy-353",
+      "target": "galaxy-354",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-168",
-      "target": "galaxy-354",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -26719,13 +26728,13 @@
     },
     {
       "source": "galaxy-170",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-170",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -26785,7 +26794,7 @@
     },
     {
       "source": "galaxy-173",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -26839,13 +26848,13 @@
     },
     {
       "source": "galaxy-176",
-      "target": "galaxy-353",
+      "target": "galaxy-354",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-176",
-      "target": "galaxy-354",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -26857,7 +26866,7 @@
     },
     {
       "source": "galaxy-179",
-      "target": "galaxy-355",
+      "target": "galaxy-356",
       "strength": 3,
       "shared": []
     },
@@ -27043,13 +27052,13 @@
     },
     {
       "source": "galaxy-184",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-184",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -27241,13 +27250,13 @@
     },
     {
       "source": "galaxy-187",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-187",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -27505,13 +27514,13 @@
     },
     {
       "source": "galaxy-198",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-198",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -27727,13 +27736,13 @@
     },
     {
       "source": "galaxy-200",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-200",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -27907,13 +27916,13 @@
     },
     {
       "source": "galaxy-206",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-206",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -28069,13 +28078,13 @@
     },
     {
       "source": "galaxy-210",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-210",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -28219,13 +28228,13 @@
     },
     {
       "source": "galaxy-214",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-214",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -28369,13 +28378,13 @@
     },
     {
       "source": "galaxy-216",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-216",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -28507,13 +28516,13 @@
     },
     {
       "source": "galaxy-217",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-217",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -28693,13 +28702,13 @@
     },
     {
       "source": "galaxy-229",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-229",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -28861,13 +28870,13 @@
     },
     {
       "source": "galaxy-238",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-238",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -28939,7 +28948,7 @@
     },
     {
       "source": "galaxy-240",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -29059,13 +29068,13 @@
     },
     {
       "source": "galaxy-246",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-246",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -29173,13 +29182,13 @@
     },
     {
       "source": "galaxy-249",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-249",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -29365,13 +29374,13 @@
     },
     {
       "source": "galaxy-260",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-260",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -29413,7 +29422,7 @@
     },
     {
       "source": "galaxy-263",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -29533,13 +29542,13 @@
     },
     {
       "source": "galaxy-267",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-267",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -29665,13 +29674,13 @@
     },
     {
       "source": "galaxy-268",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-268",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -29767,13 +29776,13 @@
     },
     {
       "source": "galaxy-272",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-272",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -29905,13 +29914,13 @@
     },
     {
       "source": "galaxy-289",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-289",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -29989,13 +29998,13 @@
     },
     {
       "source": "galaxy-294",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-294",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30079,13 +30088,13 @@
     },
     {
       "source": "galaxy-298",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-298",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30181,13 +30190,13 @@
     },
     {
       "source": "galaxy-301",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-301",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30331,13 +30340,13 @@
     },
     {
       "source": "galaxy-307",
-      "target": "galaxy-353",
+      "target": "galaxy-354",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-307",
-      "target": "galaxy-354",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30379,13 +30388,13 @@
     },
     {
       "source": "galaxy-313",
-      "target": "galaxy-353",
+      "target": "galaxy-354",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-313",
-      "target": "galaxy-354",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30439,7 +30448,7 @@
     },
     {
       "source": "galaxy-324",
-      "target": "galaxy-358",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
@@ -30499,13 +30508,13 @@
     },
     {
       "source": "galaxy-328",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-328",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30577,13 +30586,13 @@
     },
     {
       "source": "galaxy-331",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-331",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30631,13 +30640,13 @@
     },
     {
       "source": "galaxy-333",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-333",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30709,13 +30718,13 @@
     },
     {
       "source": "galaxy-338",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-338",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30745,7 +30754,7 @@
     },
     {
       "source": "galaxy-340",
-      "target": "galaxy-355",
+      "target": "galaxy-356",
       "strength": 3,
       "shared": []
     },
@@ -30781,7 +30790,7 @@
     },
     {
       "source": "galaxy-345",
-      "target": "galaxy-357",
+      "target": "galaxy-358",
       "strength": 6,
       "shared": []
     },
@@ -30841,13 +30850,13 @@
     },
     {
       "source": "galaxy-352",
-      "target": "galaxy-354",
+      "target": "galaxy-353",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-352",
-      "target": "galaxy-358",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
@@ -30877,91 +30886,91 @@
     },
     {
       "source": "galaxy-353",
-      "target": "galaxy-354",
+      "target": "galaxy-355",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-353",
+      "target": "galaxy-364",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-353",
+      "target": "galaxy-370",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-353",
+      "target": "galaxy-374",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-353",
+      "target": "galaxy-378",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-354",
+      "target": "galaxy-355",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-354",
       "target": "galaxy-437",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-354",
-      "target": "galaxy-358",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-354",
+      "source": "galaxy-355",
       "target": "galaxy-364",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-354",
-      "target": "galaxy-370",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-354",
-      "target": "galaxy-374",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-354",
-      "target": "galaxy-378",
       "strength": 3,
       "shared": []
     },
     {
       "source": "galaxy-355",
-      "target": "galaxy-410",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-357",
-      "target": "galaxy-360",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-357",
-      "target": "galaxy-382",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-357",
-      "target": "galaxy-385",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-358",
-      "target": "galaxy-364",
-      "strength": 3,
-      "shared": []
-    },
-    {
-      "source": "galaxy-358",
       "target": "galaxy-370",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-358",
+      "source": "galaxy-355",
       "target": "galaxy-374",
       "strength": 3,
       "shared": []
     },
     {
-      "source": "galaxy-358",
+      "source": "galaxy-355",
       "target": "galaxy-378",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-356",
+      "target": "galaxy-410",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-358",
+      "target": "galaxy-360",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-358",
+      "target": "galaxy-382",
+      "strength": 3,
+      "shared": []
+    },
+    {
+      "source": "galaxy-358",
+      "target": "galaxy-385",
       "strength": 3,
       "shared": []
     },
@@ -31159,6 +31168,144 @@
     }
   ],
   "items": [
+    {
+      "_id": 1724808607,
+      "link": "https://www.anthropic.com/research/persona-selection-model",
+      "excerpt": "",
+      "note": "Anthropic persona selection model 研究：如何选择 AI 应该展现的人格特质，character formation 的技术路径。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-05-20T09:48:15.773Z",
+      "lastUpdate": "2026-05-20T09:48:15.773Z",
+      "domain": "anthropic.com",
+      "title": "https://www.anthropic.com/research/persona-selection-model",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1724808607,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "如何选择 AI 应该展现的人格特质"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ]
+    },
+    {
+      "_id": 1724808594,
+      "link": "https://www.anthropic.com/constitution",
+      "excerpt": "",
+      "note": "Claude 宪法全文——从规则列表到解释性文档的哲学转变，2026年1月更新版。解释 why 而非 what，给 Claude 道德推理能力而非硬编码规则。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-05-20T09:48:14.203Z",
+      "lastUpdate": "2026-05-20T09:48:14.203Z",
+      "domain": "anthropic.com",
+      "title": "https://www.anthropic.com/constitution",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1724808594,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "从规则列表到解释性文档的哲学转变，2026年1月更新版"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ]
+    },
+    {
+      "_id": 1724808550,
+      "link": "https://www.anthropic.com/news/widening-conversation-ai",
+      "excerpt": "",
+      "note": "Anthropic 与 15+ 宗教/哲学/伦理传统对话，探索 AI 的 moral formation。核心实验：给 Claude 一个可调用的 ethical reminder tool，在关键决策前暂停反思自身价值承诺，显著降低 misaligned behavior。下一步扩展到法律学者、心理学家、作家、公民机构。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Article"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-05-20T09:48:05.939Z",
+      "lastUpdate": "2026-05-20T09:48:05.939Z",
+      "domain": "anthropic.com",
+      "title": "https://www.anthropic.com/news/widening-conversation-ai",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1724808550,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "给 Claude 一个可调用的 ethical reminder tool"
+      ],
+      "themes": [
+        "ai",
+        "article"
+      ]
+    },
     {
       "_id": 1724453389,
       "link": "https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking",
