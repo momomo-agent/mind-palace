@@ -1,4 +1,26 @@
 {
+  "https://developers.openai.com/codex/app/computer-use": [
+    {
+      "title": "OpenAI's New Codex App Has the Best 'Computer Use' Feature",
+      "desc": "MacStories 实测：parallel cursors 在后台多 app 操作，不抢前台。称为'目前最好的 computer use 实现'",
+      "url": "https://www.macstories.net/notes/openais-new-codex-app-has-the-best-computer-use-feature-ive-ever-tested"
+    },
+    {
+      "title": "Codex can now control other desktop devices via Computer Use",
+      "desc": "TestingCatalog 提前曝光 Locked Use（锁屏后通过 authorization plug-in 解锁）+ 跨设备控制（手机直连 Mac mini）",
+      "url": "https://www.testingcatalog.com/openai-will-let-codex-control-other-desktop-devices-via-computer-use"
+    },
+    {
+      "title": "Codex Computer Use: When to Use It, How to Start Safely",
+      "desc": "使用场景指南：GUI-only flow、桌面 app QA、浏览器/simulator 步骤、shell/MCP 不能干净覆盖的设置",
+      "url": "https://blog.laozhang.ai/en/posts/codex-computer-use"
+    },
+    {
+      "title": "Apple Authorization Plug-ins 文档",
+      "desc": "Codex Locked Use 钩进 macOS unlock flow 的官方机制——FileVault/Touch ID 走的同一类 API",
+      "url": "https://developer.apple.com/documentation/security/authorization-plug-ins"
+    }
+  ],
   "https://github.com/vercel-labs/zero": [
     {
       "title": "ZeroLang: When Vercel Built a Systems Programming Language for AI Agents",
