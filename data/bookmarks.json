@@ -31523,6 +31523,7 @@
       "_id": 1727776859,
       "link": "https://developers.openai.com/codex/app/computer-use#locked-use",
       "excerpt": "Let Codex use desktop apps while it works",
+      "summary": "OpenAI 走 OS 级整合路线：parallel cursors 后台多 app 不抢前台 + Locked Use 用 authorization plug-in 接管锁屏 unlock flow。第三方 agent-control 永远做不到这层。",
       "note": "Codex 在 macOS 上的 Computer Use 功能：parallel cursors 后台并行操作多 app（不抢前台）+ Locked Use（Mac 锁屏后通过 authorization plug-in 短窗口解锁让 Codex 干活）。绕过 macOS 安全默认行为，AppleID 还没表态。",
       "type": "article",
       "user": {
