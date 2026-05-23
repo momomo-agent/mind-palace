@@ -1,4 +1,21 @@
 {
+  "https://orionpda.org/": [
+    {
+      "title": "Pocket Z - 现代 UMPC 致敬经典 PDA",
+      "desc": "Hackaday 项目：5/7寸屏 + Pi Zero 2W 的现代 UMPC，致敬 Psion 5Mx / HP Jornada 720 / Sharp Zaurus，低价高性能跑 Linux 桌面",
+      "url": "https://hackaday.io/project/196625-pocket-z-bring-back-the-pdas-amp-umpcs"
+    },
+    {
+      "title": "PocketMage - ESP32 + E-Ink 双屏 PDA",
+      "desc": "另一个 clamshell PDA 项目，ESP32 跑 E-Ink，DIY 拇指键盘开源。跟 Orion 同思路不同技术路线",
+      "url": "https://liliputing.com/pocketmage-pda-is-a-clamshell-handheld-with-an-e-ink-display-thumb-keyboard-and-clamshell-design"
+    },
+    {
+      "title": "Pomera - 日本极简写作机",
+      "desc": "King Jim 出的口袋写作机，全键盘 + e-ink，唯一目的写字。distraction-free writing devices 的标杆",
+      "url": "https://chrisabraham.com/blog/pomera-typewriter-offers-a-distraction-free-text-editor-keyboard-experience"
+    }
+  ],
   "https://developers.openai.com/codex/app/computer-use": [
     {
       "title": "OpenAI's New Codex App Has the Best 'Computer Use' Feature",
