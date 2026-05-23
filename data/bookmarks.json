@@ -31622,6 +31622,7 @@
       "link": "https://orionpda.org/",
       "excerpt": "Appunti, musica, niente notifiche. Un PDA tascabile con ricarica solare e hardware aperto.",
       "note": "Orion PDA: clamshell pocket device with Sharp Memory LCD 536x336, STM32U5 Cortex-M33, integrated solar charging, WM8904 DAC + 3.5mm jack, MEMS mic. Distraction-free notes + music, no cloud, open hardware. Inspired by early-2000s Sharp Zaurus. Prototype v2, MV Labs (Italy). Beta open Apr 2026.",
+      "summary": "Sharp Zaurus 的现代极简复刻：Sharp Memory LCD + 太阳能 + STM32U5 + 物理 QWERTY，专做笔记和 MP3 两件事，开源可扩展。",
       "type": "link",
       "user": {
         "$ref": "users",
