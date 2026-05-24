@@ -1,4 +1,21 @@
 {
+  "https://x.com/turingou/status/2058481244766347765": [
+    {
+      "title": "agent-git-service GitHub repo",
+      "desc": "AGS 源码——Go 实现，REST v3/GraphQL v4/OAuth/Git Smart HTTP，给 agent 用的 GitHub 兼容控制平面",
+      "url": "https://github.com/ngaut/agent-git-service"
+    },
+    {
+      "title": "GitHub Agent HQ - 任意 agent 任意工作流",
+      "desc": "GitHub 官方思路：把仓库当 agent 的 mission control，任何 agent 都能接入；跟 AGS 自托管路线相反，但用同一套协议",
+      "url": "https://github.blog/news-insights/company-news/welcome-home-agents"
+    },
+    {
+      "title": "open-gitagent - git-native AI agent 框架",
+      "desc": "agent 住在 git repo 里——身份/规则/记忆/工具/skill 都是版本化的文件。把 git 当 agent 的根存储",
+      "url": "https://github.com/open-gitagent/gitagent"
+    }
+  ],
   "https://orionpda.org/": [
     {
       "title": "Pocket Z - 现代 UMPC 致敬经典 PDA",
