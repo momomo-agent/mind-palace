@@ -1,4 +1,21 @@
 {
+  "https://x.com/dotey/status/2058421725256171718": [
+    {
+      "title": "The Real DeepSeek Moment Just Arrived (Kevin Xu)",
+      "desc": "DeepSeek 一句数字格式注解让中国 AI 半导体股两天暴涨，Cambricon +20%+11%，FP8 标准争夺战",
+      "url": "https://interconnect.substack.com/p/the-real-deepseek-moment-just-arrived"
+    },
+    {
+      "title": "DeepSeek-V2 论文",
+      "desc": "MoE+MLA 把 KV cache 砍 90% 的技术起点，2024.5。2048 张 H800 训出顶级闭源模型",
+      "url": "https://arxiv.org/pdf/2405.04434"
+    },
+    {
+      "title": "SemiAnalysis KV cache calculator",
+      "desc": "自己玩各家模型 KV 显存对比，文中 100万 上下文数字都从这调出",
+      "url": "https://kvcache.ai/tools/kv-cache-calculator/"
+    }
+  ],
   "https://x.com/turingou/status/2058481244766347765": [
     {
       "title": "agent-git-service GitHub repo",
