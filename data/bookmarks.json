@@ -31902,6 +31902,7 @@
       "link": "https://github.com/ngaut/agent-git-service",
       "excerpt": "Reimplement GitHub for Agents",
       "note": "AGS - GitHub 兼容的 agent git service，自托管 REST v3/GraphQL v4/OAuth/Git Smart HTTP，给 agent 提供持久身份+token+仓库转移；Go 实现，TiDB 存元数据",
+      "summary": "不另造协议、不重定义客户端——拿现成 gh cli 跟你的自托管 server 说话，agent 有身份有 token 有 history",
       "type": "link",
       "user": {
         "$ref": "users",
@@ -31952,6 +31953,7 @@
       "link": "https://x.com/turingou/status/2058481244766347765",
       "excerpt": "",
       "note": "郭宇推荐 AGS (agent-git-service) 开源项目——完全兼容 gh cli 的自托管 GitHub API server，给 agent 用的 git 控制平面",
+      "summary": "agent 的 GitHub：用 gh cli 协议跟自托管 server 说话，不另造轮子",
       "type": "link",
       "user": {
         "$ref": "users",
