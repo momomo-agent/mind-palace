@@ -1,4 +1,21 @@
 {
+  "https://mp.weixin.qq.com/s/51Z9Zgt5Jkpj45P9vishZQ": [
+    {
+      "title": "Fixation duration on natural scenes is explained by memory encoding not processing demand (Nat Neurosci 2026)",
+      "desc": "原始论文（Sulewski/Amme/Hebart）。MEG + 眼动 + 4080 张自然场景，证明注视时长由记忆编码需求决定，颠覆传统主动视觉理论",
+      "url": "https://www.nature.com/articles/s41593-026-02285-1"
+    },
+    {
+      "title": "The intrinsic time tracker (Nat Comm 2025)",
+      "desc": "内嗅皮层与海马的时间追踪机制，跟图谱时序索引相关",
+      "url": "https://www.nature.com/articles/s41467-025-63633-6"
+    },
+    {
+      "title": "Memory Encoding and Retrieval: Rethinking how memories are retrieved (eLife 2026)",
+      "desc": "脑振荡和胆碱能信号在记忆编码与提取中的作用——θ-γ PAC 的另一份证据",
+      "url": "https://elifesciences.org/articles/111126"
+    }
+  ],
   "https://x.com/dotey/status/2058421725256171718": [
     {
       "title": "The Real DeepSeek Moment Just Arrived (Kevin Xu)",
