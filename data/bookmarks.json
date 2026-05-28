@@ -1,15 +1,17 @@
 {
   "meta": {
-    "syncedAt": "2026-05-28T00:49:18.435Z",
-    "count": 2749
+    "syncedAt": "2026-05-28T03:42:32.273Z",
+    "count": 2751
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 1450,
+      "count": 1452,
       "items": [
+        1735497044,
+        1735496931,
         1735249297,
         1735249279,
         1734769157,
@@ -1466,8 +1468,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 1203,
+      "count": 1204,
       "items": [
+        1735497044,
         1734769157,
         1734769155,
         1734769154,
@@ -5169,8 +5172,10 @@
       "id": "render",
       "name": "渲染",
       "color": "#f97316",
-      "count": 286,
+      "count": 288,
       "items": [
+        1735497044,
+        1735496931,
         1716503612,
         1716503603,
         1716503569,
@@ -12532,6 +12537,7 @@
       "name": "AI · Develop",
       "color": "#5A7A6B",
       "members": [
+        1735497044,
         1734769155,
         1734769154,
         1719052235,
@@ -12671,7 +12677,7 @@
         441432575,
         184076073
       ],
-      "count": 138
+      "count": 139
     },
     {
       "id": "galaxy-478",
@@ -13635,6 +13641,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1735496931,
         1733033775,
         1727244980,
         1710551805,
@@ -13865,7 +13872,7 @@
         157288645,
         157288168
       ],
-      "count": 229
+      "count": 230
     }
   ],
   "bridges": [
@@ -31968,6 +31975,101 @@
   ],
   "items": [
     {
+      "_id": 1735497044,
+      "link": "https://github.com/apple/ml-lgtm",
+      "excerpt": "",
+      "note": "LGTM 官方代码（Apple ML）：uv sync 安装，支持单目/双目/多视角，有 DL3DV-Benchmark 推理脚本",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Render"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-05-28T03:42:09.418Z",
+      "lastUpdate": "2026-05-28T03:42:09.418Z",
+      "domain": "github.com",
+      "title": "https://github.com/apple/ml-lgtm",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1735497044,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "uv sync 安装"
+      ],
+      "themes": [
+        "ai",
+        "render",
+        "develop"
+      ]
+    },
+    {
+      "_id": 1735496931,
+      "link": "https://yxlao.github.io/lgtm/",
+      "excerpt": "",
+      "note": "LGTM (ICLR 2026, Apple+HKU)：首个原生 4K feed-forward 3DGS 方法。把 Gaussian 几何和纹理解耦——compact Gaussian 网络管形状，独立纹理网络管高频细节。T² 倍更少 Gaussian，单 pass 出 4K。",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Render"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-05-28T03:41:59.533Z",
+      "lastUpdate": "2026-05-28T03:41:59.533Z",
+      "domain": "yxlao.github.io",
+      "title": "https://yxlao.github.io/lgtm/",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1735496931,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "compact Gaussian 网络管形状，独立纹理网络管高频细节",
+        "首个原生 4K feed-forward 3DGS 方法"
+      ],
+      "themes": [
+        "ai",
+        "render"
+      ]
+    },
+    {
       "_id": 1735249297,
       "link": "https://www.nature.com/articles/s41593-026-02285-1",
       "excerpt": "By combining magnetoencephalography and eye tracking, this study sheds light on why people fixate on some parts of natural scenes longer than others. Rather than visual complexity, fixation durations are affected by memory encoding.",
@@ -32181,8 +32283,8 @@
       ],
       "themes": [
         "ai",
-        "develop",
-        "article"
+        "article",
+        "develop"
       ]
     },
     {
