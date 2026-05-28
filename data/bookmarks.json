@@ -32023,6 +32023,7 @@
       "_id": 1735249279,
       "link": "https://mp.weixin.qq.com/s/51Z9Zgt5Jkpj45P9vishZQ",
       "excerpt": "人类每日产生约 20 万次眼动，注视时长差异极大（\\x26lt;150 ms 至\\x26gt; 500 ms），其核心决定机制长期存在",
+      "summary": "颠覆主动视觉理论：注视时长不是因为加工难，而是因为值得记。易识别区域反而注视更久，长注视伴随前额叶-海马 θ-γ PAC 增强。跟图谱 imp 加权的 spreading activation 同构",
       "note": "Nat Neurosci 2026 论文解读：自然场景注视时长由记忆编码驱动（前额叶-海马 θ-γ PAC 增强），不是加工负荷。易识别区域反而注视更久，因为编码效率高。颠覆主动视觉传统理论。",
       "type": "article",
       "user": {
