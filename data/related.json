@@ -1,4 +1,21 @@
 {
+  "https://x.com/fayazara/status/2060077571694624782": [
+    {
+      "title": "Cloudflare Browser Run Quick Actions 官方文档",
+      "desc": "9 个 endpoints（content/screenshot/pdf/markdown/snapshot/scrape/json/links/crawl）+ REST API 和 Workers binding 两种用法",
+      "url": "https://developers.cloudflare.com/browser-run/quick-actions"
+    },
+    {
+      "title": "Workers binding 直接调 Quick Actions 上线（Changelog）",
+      "desc": "5/28 发布——env.BROWSER.quickAction() 一句话调用，免 API token 免外部 HTTP",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-05-28-use-browser-run-quick-actions-directly-from-workers"
+    },
+    {
+      "title": "Steel Browser（开源浏览器 API for AI agents）",
+      "desc": "同类竞品参照——open-source batteries-included 浏览器沙箱，专给 AI agent 用",
+      "url": "https://github.com/steel-dev/steel-browser"
+    }
+  ],
   "https://mp.weixin.qq.com/s/51Z9Zgt5Jkpj45P9vishZQ": [
     {
       "title": "Fixation duration on natural scenes is explained by memory encoding not processing demand (Nat Neurosci 2026)",
