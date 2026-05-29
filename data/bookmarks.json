@@ -32182,6 +32182,7 @@
       "_id": 1737053734,
       "link": "https://x.com/fayazara/status/2060077571694624782",
       "excerpt": "",
+      "summary": "浏览器自动化高频动作被打包成原子 verb——不是功能新而是 verb 边界划准：每个动词对应一个真实任务而不是底层 API",
       "note": "Cloudflare Browser Run 推出 Quick Actions：screenshot/content/pdf/markdown/snapshot/scrape/json/links/crawl 9 个一键操作。Workers 通过 env.BROWSER.quickAction() 直接调用，免 API token、免 Puppeteer 启停。",
       "type": "link",
       "user": {
