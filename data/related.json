@@ -5544,6 +5544,7 @@
       "url": "https://github.com/EveryInc/compound-engineering-plugin"
     }
   ],
+<<<<<<< Updated upstream
   "https://www.thoughtfullab.com/letting-ai-posttrain-ai.html": [
     {
       "title": "FrogsGame-Posttraining — GitHub",
@@ -5600,6 +5601,8 @@
       "desc": "哈佛物理演示：线偏振光=左右圆偏振光的叠加，手性溶液对两种旋向折射率不同"
     }
   ],
+=======
+>>>>>>> Stashed changes
   "https://www.anthropic.com/research/81k-economics": [
     {
       "title": "Anthropic Economic Index — March 2026",
@@ -5616,6 +5619,7 @@
       "desc": "81K 调查的视频解读",
       "url": "https://www.youtube.com/watch?v=pqDTplnnraw"
     }
+<<<<<<< Updated upstream
   ],
   "https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/": [
     {
@@ -5726,5 +5730,7 @@
       "desc": "TLS 指纹反爬全面解析，理解为什么'在真模拟器里跑'是从源头解决问题",
       "url": "https://www.browserless.io/blog/device-fingerprinting"
     }
+=======
+>>>>>>> Stashed changes
   ]
 }
