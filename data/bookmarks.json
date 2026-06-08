@@ -1,7 +1,7 @@
 {
   "meta": {
-    "syncedAt": "2026-06-08T02:42:22.018Z",
-    "count": 2763
+    "syncedAt": "2026-06-08T18:27:02.627Z",
+    "count": 2764
   },
   "themes": [
     {
@@ -3658,8 +3658,9 @@
       "id": "design",
       "name": "设计",
       "color": "#ec4899",
-      "count": 752,
+      "count": 753,
       "items": [
+        1749952767,
         1744566176,
         1743220748,
         1743220693,
@@ -4885,8 +4886,9 @@
       "id": "app",
       "name": "应用",
       "color": "#14b8a6",
-      "count": 308,
+      "count": 309,
       "items": [
+        1749952767,
         1749185612,
         1744566176,
         1743220748,
@@ -10884,6 +10886,7 @@
       "name": "App · Design",
       "color": "#B8A060",
       "members": [
+        1749952767,
         1743220748,
         1724820445,
         1724820401,
@@ -10921,7 +10924,7 @@
         170207026,
         157745783
       ],
-      "count": 36
+      "count": 37
     },
     {
       "id": "galaxy-209",
@@ -13425,6 +13428,52 @@
     }
   ],
   "items": [
+    {
+      "_id": 1749952767,
+      "link": "https://x.com/avstorm/status/2064049419868127524",
+      "excerpt": "",
+      "note": "iOS 26 新 Siri 监听动画演示 by Andreas Storm，Liquid Glass 风格",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "App",
+        "Design"
+      ],
+      "pleaseParse": {
+        "weight": 1
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-06-08T18:26:36.955Z",
+      "lastUpdate": "2026-06-08T18:26:36.955Z",
+      "domain": "x.com",
+      "title": "https://x.com/avstorm/status/2064049419868127524",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1749952767,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "iOS 26 新 Siri 监听动画演示 by Andreas Storm，Liquid Glass 风格"
+      ],
+      "themes": [
+        "design",
+        "app"
+      ]
+    },
     {
       "_id": 1749185612,
       "link": "https://x.com/berryxia/status/2063781016230297676",
