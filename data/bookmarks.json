@@ -1,15 +1,16 @@
 {
   "meta": {
-    "syncedAt": "2026-06-08T18:27:02.627Z",
-    "count": 2764
+    "syncedAt": "2026-06-09T03:29:30.429Z",
+    "count": 2765
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 1459,
+      "count": 1460,
       "items": [
+        1750373764,
         1749185612,
         1745488649,
         null,
@@ -1475,8 +1476,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 1210,
+      "count": 1211,
       "items": [
+        1750373764,
         1744566315,
         1744566219,
         1737053798,
@@ -4419,8 +4421,9 @@
       "id": "tool",
       "name": "Tool",
       "color": "#8b5cf6",
-      "count": 459,
+      "count": 460,
       "items": [
+        1750373764,
         1749185612,
         1737053798,
         1737053794,
@@ -9606,6 +9609,7 @@
       "name": "AI · Develop",
       "color": "#6B8B8B",
       "members": [
+        1750373764,
         1737053798,
         1735497044,
         1734769155,
@@ -10077,7 +10081,7 @@
         469200214,
         184076073
       ],
-      "count": 470
+      "count": 471
     },
     {
       "id": "galaxy-198",
@@ -13429,6 +13433,54 @@
   ],
   "items": [
     {
+      "_id": 1750373764,
+      "link": "https://github.com/apple/python-apple-fm-sdk",
+      "excerpt": "",
+      "note": "Apple 官方开源的 Python SDK，调用 Foundation Models framework 做设备端推理，支持流式生成、Guided Generation（@generable 装饰器）、结构化输出，macOS 26+ 专属",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "",
+      "tags": [
+        "AI",
+        "Develop",
+        "Tool"
+      ],
+      "pleaseParse": {
+        "weight": 99999
+      },
+      "removed": false,
+      "media": [],
+      "created": "2026-06-09T03:28:49.242Z",
+      "lastUpdate": "2026-06-09T03:28:49.243Z",
+      "domain": "github.com",
+      "title": "https://github.com/apple/python-apple-fm-sdk",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1750373764,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "Apple 官方开源的 Python SDK，调用 Foundation Models framework 做设备端推理"
+      ],
+      "themes": [
+        "ai",
+        "develop",
+        "tool"
+      ]
+    },
+    {
       "_id": 1749952767,
       "link": "https://x.com/avstorm/status/2064049419868127524",
       "excerpt": "",
@@ -13470,8 +13522,8 @@
         "iOS 26 新 Siri 监听动画演示 by Andreas Storm，Liquid Glass 风格"
       ],
       "themes": [
-        "design",
-        "app"
+        "app",
+        "design"
       ]
     },
     {
