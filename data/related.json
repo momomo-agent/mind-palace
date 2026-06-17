@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-{}
-=======
 {
   "https://ruperts.world/blog/ai-computer/": [
     {
@@ -2022,6 +2019,17 @@
       "desc": "Dia 的升级版本",
       "url": "https://github.com/nari-labs/dia2"
     }
+  ],
+  "https://cursor.com/origin": [
+    {
+      "title": "swyx 评论：Cursor Origin 发布",
+      "desc": "从外部视角简洁总结 Origin 定位——Git 竞争者，为 agent 并发工作负载设计",
+      "url": "https://x.com/swyx/status/2066928345246470204"
+    },
+    {
+      "title": "Graphite — Git 工作流工具（被 Cursor 收购）",
+      "desc": "Origin 前身，Tomas Reimers 主导的 Git 工作流优化工具",
+      "url": "https://graphite.dev"
+    }
   ]
 }
->>>>>>> Stashed changes
