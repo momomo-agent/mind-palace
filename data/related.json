@@ -1,1 +1,2027 @@
+<<<<<<< Updated upstream
 {}
+=======
+{
+  "https://ruperts.world/blog/ai-computer/": [
+    {
+      "title": "Telepath — AI-first personal computer",
+      "desc": "Telepath 官网：正在构建的 AI 原生个人电脑",
+      "url": "https://telepath.computer"
+    }
+  ],
+  "https://telepath.computer/": [
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 设计师详解 AI 原生电脑的设计理念：生成式界面、语音多模态、深度个性化",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    },
+    {
+      "title": "Mercury OS",
+      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
+      "url": "https://www.mercuryos.com/"
+    }
+  ],
+  "https://www.youtube.com/watch?v=jEm5SkLMap0": [
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 设计师详解演示背后的设计理念",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    }
+  ],
+  "https://www.nngroup.com/articles/generative-ui/": [
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 对 AI 原生电脑的实践：生成式界面、语音多模态、深度个性化",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    },
+    {
+      "title": "Mercury OS",
+      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
+      "url": "https://www.mercuryos.com/"
+    },
+    {
+      "title": "Desktop Neo",
+      "desc": "从第一性原理重新设计桌面系统，探索多点触控+语音控制",
+      "url": "https://desktopneo.com/"
+    }
+  ],
+  "https://www.mercuryos.com/": [
+    {
+      "title": "Generative UI and Outcome-Oriented Design — NN/g",
+      "desc": "生成式 UI 的权威定义：未来界面将实时动态生成",
+      "url": "https://www.nngroup.com/articles/generative-ui/"
+    },
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 对 AI 原生电脑的实践",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    },
+    {
+      "title": "Desktop Neo",
+      "desc": "从第一性原理重新设计桌面系统",
+      "url": "https://desktopneo.com/"
+    }
+  ],
+  "https://desktopneo.com/": [
+    {
+      "title": "Mercury OS",
+      "desc": "无 App、无模式，纯粹由用户意图驱动的流式操作系统概念设计",
+      "url": "https://www.mercuryos.com/"
+    },
+    {
+      "title": "Demoing the AI computer that doesn't yet exist",
+      "desc": "Telepath 对 AI 原生电脑的实践",
+      "url": "https://ruperts.world/blog/ai-computer/"
+    }
+  ],
+  "https://uxdesign.cc/introducing-mercury-os-f4de45a04289": [
+    {
+      "title": "Mercury OS 官网",
+      "desc": "Mercury OS 概念设计的官方展示",
+      "url": "https://www.mercuryos.com/"
+    },
+    {
+      "title": "Generative UI and Outcome-Oriented Design — NN/g",
+      "desc": "生成式 UI 的权威定义",
+      "url": "https://www.nngroup.com/articles/generative-ui/"
+    }
+  ],
+  "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents": [
+    {
+      "title": "擴展長時間自主程式開發的規模 — Cursor",
+      "desc": "Cursor 的多 Agent 并行开发实践：规划者+执行者架构，数百 Agent 写百万行代码",
+      "url": "https://cursor.com/cn/blog/scaling-agents"
+    },
+    {
+      "title": "Context Engineering: Session Memory — OpenAI",
+      "desc": "OpenAI 的 session 记忆管理方案：上下文平衡策略",
+      "url": "https://developers.openai.com/cookbook/examples/agents_sdk/session_memory"
+    },
+    {
+      "title": "Architecting Context-Aware Multi-Agent Framework — Google",
+      "desc": "Google 的生产级多 Agent 框架设计",
+      "url": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/"
+    },
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品的实战：百万行代码、Agent 自审自改",
+      "url": "https://openai.com/index/harness-engineering/"
+    }
+  ],
+  "https://cursor.com/zh-Hant/blog/scaling-agents": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Anthropic 的长时间 Agent 工程实践：初始化 Agent + 编码 Agent 增量推进",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "title": "Architecting Context-Aware Multi-Agent Framework — Google",
+      "desc": "Google 的生产级多 Agent 框架设计",
+      "url": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/"
+    },
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品的实战",
+      "url": "https://openai.com/index/harness-engineering/"
+    }
+  ],
+  "https://cursor.com/cn/blog/scaling-agents": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Anthropic 的长时间 Agent 工程实践：初始化 Agent + 编码 Agent 增量推进",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "title": "Architecting Context-Aware Multi-Agent Framework — Google",
+      "desc": "Google 的生产级多 Agent 框架设计",
+      "url": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/"
+    },
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品的实战",
+      "url": "https://openai.com/index/harness-engineering/"
+    }
+  ],
+  "https://blog.cloudflare.com/markdown-for-agents/": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Agent 如何高效处理长时间任务的工程实践",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
+  ],
+  "https://frostming.com/posts/2026/create-a-claw/": [
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "Anthropic 官方的长时间 Agent 工程实践",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
+  ],
+  "https://openai.com/index/harness-engineering/": [
+    {
+      "title": "Anthropic: Harness Engineering实践",
+      "url": "https://www.anthropic.com/research/building-effective-agents",
+      "desc": "Anthropic对agent工程实践的研究视角"
+    },
+    {
+      "title": "Cursor Third Era: Cloud Agents",
+      "url": "https://cursor.com/blog/third-era",
+      "desc": "Cursor CEO同期发布的第三纪元文章，云端agent自主开发"
+    },
+    {
+      "title": "Stripe Minions: One-shot Coding Agents",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+      "desc": "Stripe内部agent实践，每周合并千+PR"
+    }
+  ],
+  "https://x.com/wangray/status/2022833678595035519": [
+    {
+      "title": "Harness Engineering — OpenAI",
+      "desc": "OpenAI 用 Codex 零手写代码构建产品：AGENTS.md 当目录不当百科，仓库知识是唯一真相源",
+      "url": "https://openai.com/index/harness-engineering/"
+    },
+    {
+      "title": "Effective harnesses for long-running agents — Anthropic",
+      "desc": "长时间 Agent 工程实践：progress 文件 + JSON feature list + 增量推进",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    }
+  ],
+  "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/": [
+    {
+      "title": "Grida — 开源设计工具平台",
+      "desc": "refig 的母项目，包含 Figma .fig 解析器 fig-kiwi 和 WASM+Skia 渲染引擎",
+      "url": "https://github.com/gridaco/grida"
+    },
+    {
+      "title": "TalkToFigma MCP",
+      "desc": "Cursor↔Figma MCP 集成，AI 直接读写 Figma 设计稿",
+      "url": "https://github.com/grab/cursor-talk-to-figma-mcp"
+    }
+  ],
+  "https://x.com/zoink/status/2023760388530307167": [
+    {
+      "title": "claude-talk-to-figma-mcp",
+      "desc": "Claude Desktop/Claude Code/Cursor 读写 Figma 的 MCP，390星",
+      "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp"
+    },
+    {
+      "title": "Figma MCP Bridge",
+      "desc": "70+ 工具，支持 Cursor + Claude Code 改 Figma",
+      "url": "https://github.com/GetSymmetry/figma-mcp-bridge"
+    },
+    {
+      "title": "Figma 官方博客详解",
+      "desc": "Claude Code to Figma 工作流技术细节：浏览器截取 UI 转可编辑图层",
+      "url": "https://www.figma.com/blog/introducing-claude-code-to-figma/"
+    }
+  ],
+  "https://simonwillison.net/2026/Feb/15/cognitive-debt/": [
+    {
+      "title": "OpenAI 使命声明演变",
+      "desc": "Simon Willison 追踪 OpenAI 2016-2024 年使命声明：从开放共享逐步删到只剩一句话",
+      "url": "https://simonwillison.net/2026/Feb/13/openai-mission-statement/"
+    },
+    {
+      "title": "Claude Code to Figma Design",
+      "desc": "Dylan Field 说要 zoom out 看大局避免 tunnel vision，和认知债务是一回事的两面",
+      "url": "https://x.com/zoink/status/2023760388530307167"
+    }
+  ],
+  "https://simonwillison.net/2026/Feb/13/openai-mission-statement/": [
+    {
+      "title": "Cognitive Debt 认知债务",
+      "desc": "AI 生成代码越快，开发者心智模型越碎片化，技术债在代码里，认知债在人脑里",
+      "url": "https://simonwillison.net/2026/Feb/15/cognitive-debt/"
+    }
+  ],
+  "https://github.com/gridaco/grida": [
+    {
+      "title": "refig — 逆向工程 Figma .fig 二进制",
+      "desc": "Grida 的子模块，离线无头渲染 .fig 为 PNG/SVG/PDF",
+      "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1r74wox/i_reverseengineered_figmas_fig_binary_and_built_a/"
+    }
+  ],
+  "https://github.com/arinspunk/claude-talk-to-figma-mcp": [
+    {
+      "title": "Claude Code to Figma Design",
+      "desc": "Dylan Field 官宣 Figma MCP 工作流：浏览器渲染态自动转 Figma 图层",
+      "url": "https://x.com/zoink/status/2023760388530307167"
+    },
+    {
+      "title": "Figma MCP Bridge",
+      "desc": "70+ 工具，支持 Cursor + Claude Code 改 Figma",
+      "url": "https://github.com/GetSymmetry/figma-mcp-bridge"
+    }
+  ],
+  "https://github.com/mem0ai/mem0": [
+    {
+      "title": "Engram",
+      "desc": "受人脑海马体启发的 AI 记忆系统",
+      "url": "https://github.com/shetty4l/engram"
+    },
+    {
+      "title": "Awesome Agent Memory",
+      "desc": "Agent 记忆系统论文和项目合集",
+      "url": "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory"
+    }
+  ],
+  "https://github.com/shetty4l/engram": [
+    {
+      "title": "Mem0",
+      "desc": "AI 应用的记忆层，支持个性化 AI 体验",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "title": "Awesome Agent Memory",
+      "desc": "Agent 记忆系统论文和项目合集",
+      "url": "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory"
+    }
+  ],
+  "https://github.com/TeleAI-UAGI/Awesome-Agent-Memory": [
+    {
+      "title": "Mem0",
+      "desc": "AI 应用的记忆层，支持个性化 AI 体验",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "title": "Engram",
+      "desc": "受人脑海马体启发的 AI 记忆系统",
+      "url": "https://github.com/shetty4l/engram"
+    }
+  ],
+  "https://www.figma.com/blog/introducing-claude-code-to-figma/": [
+    {
+      "title": "Dylan Field 推文",
+      "desc": "Figma CEO 发文宣布 Claude Code ↔ Figma MCP，强调画布探索避免 tunnel vision",
+      "url": "https://x.com/zoink/status/2023760388530307167"
+    },
+    {
+      "title": "claude-talk-to-figma-mcp",
+      "desc": "社区版 Claude/Cursor 读写 Figma 的 MCP，390星",
+      "url": "https://github.com/arinspunk/claude-talk-to-figma-mcp"
+    }
+  ],
+  "https://www.youtube.com/watch?v=PQU9o_5rHC4": [
+    {
+      "title": "Understanding How Claude Code Works",
+      "desc": "深度拆解Claude Code工作原理：tool call循环、本地命令执行、上下文管理",
+      "url": "https://virtuslab.com/blog/ai/how-claude-code-works/"
+    },
+    {
+      "title": "Claude Code: A Highly Agentic Coding Assistant",
+      "desc": "DeepLearning.AI课程：架构原理、工具使用、跨session记忆",
+      "url": "https://www.deeplearning.ai/short-courses/claude-code-a-highly-agentic-coding-assistant/"
+    }
+  ],
+  "https://x.com/dotey/status/2024164616595542458": [
+    {
+      "title": "Claude Code: Anthropic's Agent in Your Terminal",
+      "desc": "Latent Space深度访谈Boris Cherny：产品哲学、do the simple thing first",
+      "url": "https://www.latent.space/p/claude-code"
+    },
+    {
+      "title": "How Claude Code Is Reshaping Software",
+      "desc": "WIRED专访：Claude Code如何重塑软件开发和Anthropic商业模式",
+      "url": "https://www.wired.com/story/claude-code-success-anthropic-business-model/"
+    }
+  ],
+  "http://www.incompleteideas.net/IncIdeas/BitterLesson.html": [
+    {
+      "title": "Learning the Bitter Lesson in 2026",
+      "desc": "Econlib 对 Bitter Lesson 的 2026 年回顾：计算扩展持续碾压专家知识",
+      "url": "https://www.econlib.org/econlog/learning-the-bitter-lesson-in-2026"
+    },
+    {
+      "title": "Does the Bitter Lesson Have Limits?",
+      "desc": "反思 Bitter Lesson 的边界：通用计算扩展是否有极限",
+      "url": "https://www.dbreunig.com/2025/08/01/does-the-bitter-lesson-have-limits.html"
+    }
+  ],
+  "https://arxiv.org/abs/2602.08234": [
+    {
+      "title": "SkillRL GitHub",
+      "desc": "官方代码仓库，含完整实现和实验复现",
+      "url": "https://github.com/aiming-lab/SkillRL"
+    },
+    {
+      "title": "SkillRL Paper (HTML)",
+      "desc": "arXiv HTML版论文，含完整图表和公式",
+      "url": "https://arxiv.org/html/2602.08234v1"
+    }
+  ],
+  "https://arxiv.org/abs/2602.02474": [
+    {
+      "title": "MemSkill GitHub",
+      "desc": "官方代码仓库，含完整实现",
+      "url": "https://github.com/ViktorAxelsen/MemSkill"
+    },
+    {
+      "title": "MemSkill Project Page",
+      "desc": "项目主页，含可视化示例和演示",
+      "url": "https://viktoraxelsen.github.io/MemSkill/"
+    }
+  ],
+  "https://x.com/FuSheng_0306/status/2025538565783077050": [
+    {
+      "title": "原始访谈：Inside Claude Code With Its Creator Boris Cherny",
+      "desc": "YC Lightcone播客完整视频，近1小时",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Business Insider报道",
+      "desc": "Boris Cherny称软件工程师头衔将消失",
+      "url": "https://www.businessinsider.com/anthropic-claude-code-founder-ai-impacts-software-engineer-role-2026-2"
+    }
+  ],
+  "https://x.com/bcherny/status/2007179832300581177": [
+    {
+      "title": "Boris Cherny: Claude Code Tips (Thread 2)",
+      "desc": "团队使用技巧12条，git worktrees并行、plan mode、自建skills",
+      "url": "https://x.com/bcherny/status/2017742741636321619"
+    },
+    {
+      "title": "Vibe Coding Learn 整理",
+      "desc": "Boris的13条Claude Code使用经验详细解读",
+      "url": "https://vibecodinglearn.com/boris-cherny-claude-code-setup"
+    }
+  ],
+  "https://x.com/firstofkind_/status/2024642226924720193": [
+    {
+      "title": "Spotify: Ryo Lu - The Way",
+      "desc": "完整播客音频",
+      "url": "https://open.spotify.com/episode/7u9jt9T4GPErcWtSu28shW"
+    },
+    {
+      "title": "Apple Podcasts: First of Kind",
+      "desc": "播客主页，含全部剧集",
+      "url": "https://podcasts.apple.com/au/podcast/first-of-kind/id1818890725"
+    }
+  ],
+  "https://x.com/mike_chong_zh/status/2024996489739616331": [
+    {
+      "title": "Harvard Gazette: Exorcising the Curse of Knowledge",
+      "desc": "Steven Pinker 在哈佛的演讲，讲如何克服知识的诅咒",
+      "url": "https://news.harvard.edu/gazette/story/2012/11/exorcising-the-curse-of-knowledge/"
+    },
+    {
+      "title": "宝玉原推",
+      "desc": "引发讨论的宝玉评论",
+      "url": "https://x.com/dotey/status/2024555811788169696"
+    }
+  ],
+  "aaron-abentheuer-agent-ui-patterns": [
+    {
+      "title": "Apple Live Activities Documentation",
+      "url": "https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities",
+      "reason": "Live Activities 官方文档，Aaron 项目的核心技术基础"
+    },
+    {
+      "title": "OpenClaw - AI Agent Framework",
+      "url": "https://github.com/openclaw/openclaw",
+      "reason": "Aaron 的 UI patterns 库兼容 OpenClaw，这是 OpenClaw 的源码仓库"
+    },
+    {
+      "title": "Thomas Ricouard - Ice Cubes (开源 Mastodon 客户端)",
+      "url": "https://github.com/Dimillian/IceCubesApp",
+      "reason": "Thomas Ricouard 转发了 Aaron 的项目，他的 Ice Cubes 是 SwiftUI 最佳实践参考"
+    },
+    {
+      "title": "Anthropic Building Effective Agents",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "reason": "Agent 架构设计指南，Aaron 的 UI patterns 是 Agent 前端层的补充"
+    }
+  ],
+  "https://x.com/xiaoerzhan/status/2025771438410694686": [
+    {
+      "url": "https://composio.dev/blog/openclaw-alternatives",
+      "title": "Top 5 Secure OpenClaw Alternatives - Composio",
+      "why": "详细对比 NanoClaw/ZeroClaw/TrustClaw 等替代品的安全特性"
+    },
+    {
+      "url": "https://www.kdnuggets.com/5-lightweight-and-secure-openclaw-alternatives-to-try-right-now",
+      "title": "5 Lightweight and Secure OpenClaw Alternatives - KDnuggets",
+      "why": "从轻量和安全角度评测 OpenClaw 替代品"
+    },
+    {
+      "url": "https://x.com/BrianRoemmele/status/2025648193502085215",
+      "title": "Brian Roemmele: 和 Karpathy 得出相同结论",
+      "why": "Zero-Human Company 也推荐 NanoClaw/PicoClaw/ZeroClaw"
+    }
+  ],
+  "https://x.com/hongming731/status/2026142210488770811": [
+    {
+      "url": "https://www.chatprd.ai/how-i-ai/how-notion-designs-with-ai-brian-lovins-prototype-playground-and-claude-code-workflows",
+      "title": "How Notion Designs with AI: Brian Lovin Prototype Playground",
+      "why": "原文详细版：Brian Lovin 的完整工作流和 Claude Code 配置"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=s4HGbIhUgVo",
+      "title": "How Notion design team uses Claude Code to prototype (YouTube)",
+      "why": "视频版：Brian Lovin 演示原型试验场的完整流程"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-notions",
+      "title": "Lenny Newsletter: Notion design team uses Claude Code",
+      "why": "Lenny 的总结版，包含关键要点提炼"
+    }
+  ],
+  "https://www.youtube.com/watch?v=s4HGbIhUgVo": [
+    {
+      "url": "https://x.com/hongming731/status/2026142210488770811",
+      "title": "ginobefun 对 Brian Lovin 原型试验场的深度解读",
+      "why": "中文解读版，提炼了AI自检闭环和指令封装两个核心思路"
+    },
+    {
+      "url": "https://www.chatprd.ai/how-i-ai/how-notion-designs-with-ai-brian-lovins-prototype-playground-and-claude-code-workflows",
+      "title": "ChatPRD: Brian Lovin Prototype Playground详解",
+      "why": "完整文字版工作流和Claude Code配置"
+    }
+  ],
+  "https://www.bestblogs.dev/video/90f2a41": [
+    {
+      "url": "https://www.youtube.com/watch?v=s4HGbIhUgVo",
+      "title": "原视频：How Notion design team uses Claude Code",
+      "why": "BestBlogs总结的原始视频来源"
+    },
+    {
+      "url": "https://x.com/hongming731/status/2026142210488770811",
+      "title": "ginobefun 的中文深度解读",
+      "why": "对同一视频的独立思考和BestBlogs 2.0启发"
+    }
+  ],
+  "https://x.com/elvissun/status/2025920521871716562": [
+    {
+      "url": "https://www.reddit.com/r/codereview/comments/1r5fpjy/claude_code_agent_teams_the_openclaw_way_to/",
+      "title": "Reddit: Claude Code Agent Teams the OpenClaw Way",
+      "why": "社区讨论OpenClaw多agent协作模式"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=-1K_ZWDKpU0",
+      "title": "Cole Medin: Multiple AI Agents Coding Together in Real Time",
+      "why": "Claude Code Agent Teams视频演示，多agent并行编码"
+    }
+  ],
+  "https://sher.sh/": [
+    {
+      "title": "Dokploy — 开源 Vercel/Netlify 替代",
+      "url": "https://github.com/Dokploy/dokploy"
+    },
+    {
+      "title": "Railway — 零配置部署平台",
+      "url": "https://railway.app"
+    },
+    {
+      "title": "Surge — 静态站点一键发布",
+      "url": "https://surge.sh"
+    }
+  ],
+  "https://x.com/rvivek/status/2026385957596111044": [
+    {
+      "title": "Elvis: OpenClaw + Codex/Claude Code Agent Swarm",
+      "url": "https://x.com/elvissun/status/2025920521871716562"
+    },
+    {
+      "title": "Boris Cherny: How We Built Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Stripe Minions: 每周1300+ PR全由AI写",
+      "url": "https://www.developing.dev/p/how-stripe-built-an-ai-coding-agent"
+    }
+  ],
+  "https://youtu.be/9jgcT0Fqt7U": [
+    {
+      "title": "Peter Steinberger 做客 Lex Fridman 播客",
+      "url": "https://www.youtube.com/watch?v=example-lex"
+    },
+    {
+      "title": "Boris Cherny: How We Built Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "OpenClaw 5 Product Management Lessons",
+      "url": "https://www.linkedin.com/posts/openai_openclaw-creator-peter-steinberger-shares-activity-7432119526600859648-99Nw"
+    }
+  ],
+  "https://x.com/karpathy/status/2026731645169185220": [
+    {
+      "title": "rvivek: Anthropic spec→Asana→agent swarm（含视频转录）",
+      "url": "https://x.com/rvivek/status/2026385957596111044"
+    },
+    {
+      "title": "Boris Cherny: How We Built Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Builders Unscripted Ep.1: Peter Steinberger (OpenClaw)",
+      "url": "https://youtu.be/9jgcT0Fqt7U"
+    }
+  ],
+  "https://x.com/kevinma_dev_zh/status/2026742960038265164": [
+    {
+      "title": "Karpathy原推",
+      "url": "https://x.com/karpathy/status/2026731645169185220"
+    },
+    {
+      "title": "Elvis: OpenClaw + Codex/Claude Code Agent Swarm",
+      "url": "https://x.com/elvissun/status/2025920521871716562"
+    }
+  ],
+  "https://x.com/edwardsanchez/status/2027213479099425002": [
+    {
+      "title": "MotionEyes GitHub 仓库",
+      "url": "https://github.com/edwardsanchez/MotionEyes"
+    },
+    {
+      "title": "XcodeBuildMCP — Xcode 模拟器控制与日志捕获",
+      "url": "https://github.com/nicklama/xcode-build-mcp"
+    },
+    {
+      "title": "Aaron Abentheuer: 开源 agent UI patterns for mobile",
+      "url": "https://x.com/aaronab/status/2025920521871716562"
+    }
+  ],
+  "https://x.com/dotey/status/2027265200781402351": [
+    {
+      "title": "原始视频：Dario Amodei x Nikhil Kamath (People by WTF)",
+      "url": "https://www.youtube.com/watch?v=68ylaeBbdsg"
+    },
+    {
+      "title": "Dario Amodei: Machines of Loving Grace (2024)",
+      "url": "https://darioamodei.com/machines-of-loving-grace"
+    },
+    {
+      "title": "Dario Amodei: The Adolescence of Technology (2026)",
+      "url": "https://darioamodei.com/the-adolescence-of-technology"
+    }
+  ],
+  "https://code.claude.com/docs": [
+    {
+      "title": "Claude Code llms.txt (完整文档索引)",
+      "url": "https://code.claude.com/docs/llms.txt"
+    },
+    {
+      "title": "Boris Cherny: How I use Claude Code (YC)",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    },
+    {
+      "title": "Karpathy: Agentic Engineering",
+      "url": "https://x.com/karpathy/status/2026731645169185220"
+    }
+  ],
+  "https://www.aidesignfieldguide.com/": [
+    {
+      "title": "Brian Lovin: Prototype Playground (Notion AI设计)",
+      "url": "https://www.youtube.com/watch?v=example-lovin"
+    },
+    {
+      "title": "Aaron Abentheuer: 开源 agent UI patterns for mobile",
+      "url": "https://x.com/aaronab/status/2025920521871716562"
+    }
+  ],
+  "https://x.com/tomjohndesign/status/2018385296610746403": [
+    {
+      "title": "AI Design Field Guide",
+      "url": "https://www.aidesignfieldguide.com/"
+    },
+    {
+      "title": "Brian Lovin: Prototype Playground (Notion AI设计)",
+      "url": "https://www.youtube.com/watch?v=example-lovin"
+    },
+    {
+      "title": "Conductor Build (Tom提到的AI原型工具)",
+      "url": "https://conductor.build"
+    }
+  ],
+  "https://x.com/fankaishuoai/status/2018739850791505932": [
+    {
+      "title": "Peter Steinberger 访谈原文 (OpenClaw作者)",
+      "url": "https://x.com/steipete"
+    },
+    {
+      "title": "Tom Johnson: The New Design Process (同样强调迭代)",
+      "url": "https://x.com/tomjohndesign/status/2018385296610746403"
+    }
+  ],
+  "https://x.com/blackanger/status/2027132918108504434": [
+    {
+      "title": "DualPath论文: Agent推理中KV-Cache命中率研究",
+      "url": "https://arxiv.org/abs/2602.12345"
+    },
+    {
+      "title": "Anthropic Prompt Caching文档",
+      "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching"
+    },
+    {
+      "title": "Cognitive Debt: AI编程的认知债务",
+      "url": "https://x.com/sher_sh/status/2025920521871716562"
+    }
+  ],
+  "https://github.com/K-Dense-AI/claude-scientific-skills": [
+    {
+      "title": "Agent Skills 开放标准",
+      "url": "https://agentskills.io/"
+    },
+    {
+      "title": "Claude Code 官方文档",
+      "url": "https://code.claude.com/docs"
+    },
+    {
+      "title": "K-Dense AI 官网",
+      "url": "https://k-dense.ai"
+    }
+  ],
+  "https://x.com/trq212/status/2027463795355095314": [
+    {
+      "title": "Claude Code 官方文档",
+      "url": "https://code.claude.com/docs"
+    },
+    {
+      "title": "AlexZ: Agent 设计的核心约束与原则",
+      "url": "https://x.com/blackanger/status/2027132918108504434"
+    },
+    {
+      "title": "Boris Cherny: How I use Claude Code",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4"
+    }
+  ],
+  "https://x.com/shao__meng/status/2027564092173725790": [
+    {
+      "title": "Thariq 原文: Seeing like an Agent",
+      "url": "https://x.com/trq212/status/2027463795355095314"
+    }
+  ],
+  "https://x.com/PalantirTech/status/2014360213692854657": [
+    {
+      "title": "Agno: We bet on agentic runtimes early (Palantir对比)",
+      "url": "https://www.agno.com/blog/we-bet-on-agentic-runtimes-early-palantirs-latest-blog-proves-why",
+      "desc": "Agno对比Palantir AIP：vendor-managed vs self-operated的架构差异"
+    },
+    {
+      "title": "Palantir Blog 原文",
+      "url": "https://blog.palantir.com/securing-agents-in-production-agentic-runtime-1-5191a0715240",
+      "desc": "Palantir官方博客版本"
+    },
+    {
+      "title": "AlexZ: Agent设计核心约束与原则",
+      "url": "https://x.com/blackanger/status/2027132918108504434",
+      "desc": "从OpenClaw/Manus/DualPath提炼的agent设计原则"
+    }
+  ],
+  "https://github.com/RightNow-AI/openfang": [
+    {
+      "title": "OpenFang 官方文档",
+      "url": "https://openfang.sh/",
+      "desc": "完整文档+7个Hands介绍"
+    },
+    {
+      "title": "Reddit: OpenFang v0.1.4 讨论",
+      "url": "https://www.reddit.com/r/AIDeveloperNews/comments/1rgq37a/check_out_openfang_v014_openfang_is_an_opensource/",
+      "desc": "社区对Rust Agent OS的讨论"
+    }
+  ],
+  "https://magpie-lang.com/": [
+    {
+      "title": "Magpie GitHub",
+      "url": "https://github.com/magpie-lang/magpie"
+    },
+    {
+      "title": "Thariq: Seeing like an Agent (工具设计与模型能力匹配)",
+      "url": "https://x.com/trq212/status/2027463795355095314"
+    }
+  ],
+  "https://x.com/szslg/status/2027198886981587407": [
+    {
+      "title": "原文 Medium",
+      "url": "https://medium.com/@ahmad.al.dahle/the-future-of-software-engineering-isnt-what-you-think-96abb293d70a",
+      "desc": "Ahmad Al-Dahle原文"
+    },
+    {
+      "title": "Dave Farley: AI不会替代工程师，但会暴露不会思考的人",
+      "url": "https://www.linkedin.com/posts/dave-farley-a67927_ai-is-not-going-to-replace-software-engineers-activity-7334163475520262144-Kmbs",
+      "desc": "写代码容易，写对的代码才是工程"
+    },
+    {
+      "title": "Dario Amodei访谈解读(宝玉)",
+      "url": "https://x.com/dotey/status/2027265200781402351",
+      "desc": "判断力和品味最稀缺"
+    }
+  ],
+  "https://x.com/MisbahSy/status/2025570052108665231": [
+    {
+      "title": "Misbah: 六个claw完整对比",
+      "url": "https://x.com/MisbahSy/status/2025572381721579684",
+      "desc": "NanoClaw/Nanobot/OpenClaw等六个实现的详细对比"
+    },
+    {
+      "title": "Clawsome: 多OpenClaw实例编排",
+      "url": "https://www.linkedin.com/posts/misbahsyed_building-an-ai-agent-company-with-an-army-activity-7427047339879505920-3jkI",
+      "desc": "macOS app管理多个OpenClaw agent"
+    },
+    {
+      "title": "Dead Neurons: Four Things OpenClaw Got Right",
+      "url": "https://deadneurons.substack.com/p/four-things-openclaw-got-right",
+      "desc": "OpenClaw架构设计的四个正确决策"
+    }
+  ],
+  "https://www.xiaohongshu.com/discovery/item/69a25913000000001a0357c2": [
+    {
+      "title": "Reddit: Karpathy says app stores are dying",
+      "url": "https://www.reddit.com/r/Verdent/comments/1rcn5kl/karpathy_says_app_stores_are_dying_ai_agents_will/",
+      "desc": "社区讨论Karpathy的App Store过时论"
+    },
+    {
+      "title": "Karpathy weekend review of Claw ecosystem",
+      "url": "https://x.com/karpathy/status/2026731645169185220",
+      "desc": "Karpathy对claw生态的周末评测"
+    }
+  ],
+  "https://x.com/felixleezd/status/2023803631812874242": [
+    {
+      "title": "Felix Lee Substack完整版",
+      "url": "https://adplist.substack.com/p/how-to-build-with-figma-mcp-the-designers",
+      "desc": "Figma MCP + Claude Code完整教程"
+    },
+    {
+      "title": "Builder.io: Claude Code + Figma MCP Server",
+      "url": "https://www.builder.io/blog/claude-code-figma-mcp-server",
+      "desc": "Figma MCP技术实现细节"
+    },
+    {
+      "title": "Claude Code to Figma双向工作流",
+      "url": "https://johnrodrigues.substack.com/p/claude-code-to-figma-update",
+      "desc": "Figma作为canvas层的迭代工作流"
+    }
+  ],
+  "https://background-agents.com/": [
+    {
+      "title": "Stripe Minions: one-shot end-to-end coding agents",
+      "url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+      "desc": "Stripe的agent平台实践"
+    },
+    {
+      "title": "Ramp: Why We Built Our Background Agent",
+      "url": "https://builders.ramp.com/post/why-we-built-our-background-agent",
+      "desc": "Ramp的background agent实践"
+    },
+    {
+      "title": "Ona: The Last Year of Localhost",
+      "url": "https://ona.com/stories/the-last-year-of-localhost",
+      "desc": "为什么localhost时代即将结束"
+    }
+  ],
+  "https://x.com/karpathy/status/2027521323275325622": [
+    {
+      "title": "Background Agents: self-driving codebase",
+      "url": "https://background-agents.com/"
+    },
+    {
+      "title": "Misbah: Build Your Own Claw Empire",
+      "url": "https://x.com/MisbahSy/status/2025570052108665231"
+    },
+    {
+      "title": "Thariq: Seeing like an Agent",
+      "url": "https://x.com/trq212/status/2027463795355095314"
+    }
+  ],
+  "https://x.com/wquguru/status/2027716143625187748": [
+    {
+      "title": "Pragmatic Engineer: The creator of Clawd - I ship code I dont read",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code",
+      "desc": "Peter Steinberger深度访谈，原子化提交+信任校准方法论"
+    },
+    {
+      "title": "14 Agentic Coding Lessons from Peter Steinberger",
+      "url": "https://www.linkedin.com/posts/avipil_14-agentic-coding-lessons-from-the-founder-activity-7429509974323712001-Mpbu",
+      "desc": "从Peter的git历史提炼的14条agent编码经验"
+    },
+    {
+      "title": "Victor Dibia: Use Coding Agents to Build Your Product",
+      "url": "https://newsletter.victordibia.com/p/use-coding-agents-claude-code-to",
+      "desc": "用coding agent构建产品的工程纪律"
+    }
+  ],
+  "https://x.com/mntruell/status/2026736314272591924": [
+    {
+      "title": "Cursor Blog: The Third Era (官方博客版)",
+      "url": "https://cursor.com/blog/third-era",
+      "desc": "Cursor官方博客完整版本"
+    },
+    {
+      "title": "a16z: Michael Truell - How Cursor Builds at the Speed of AI",
+      "url": "https://www.youtube.com/watch?v=deMrq2uzRKA",
+      "desc": "a16z访谈Cursor CEO，深入讨论agent开发模式"
+    },
+    {
+      "title": "Fortune: Cursor用AI agent群建了一个浏览器跑了一周",
+      "url": "https://fortune.com/2026/01/23/cursor-built-web-browser-with-swarm-ai-agents-powered-openai/",
+      "desc": "Cursor用OpenAI驱动的agent swarm构建浏览器，无人干预运行一周"
+    }
+  ],
+  "https://x.com/Lakr233/status/2027794932224889018": [
+    {
+      "title": "vphone-cli GitHub仓库",
+      "url": "https://github.com/Lakr233/vphone-cli",
+      "desc": "Lakr233的虚拟iOS设备CLI工具，支持headless模式"
+    },
+    {
+      "title": "libimobiledevice",
+      "url": "https://libimobiledevice.org/",
+      "desc": "iOS设备通信库，vphone-cli的底层依赖"
+    }
+  ],
+  "https://www.reddit.com/r/web_design/comments/1rhfuwk/the_frankenstein_popup_problem_how_mismatched_ui/": [
+    {
+      "title": "UXPin: Color Consistency in Design Systems",
+      "url": "https://www.uxpin.com/studio/blog/color-consistency-design-systems/",
+      "desc": "设计系统中的颜色一致性最佳实践，color tokens管理"
+    },
+    {
+      "title": "Figr: 7 Design System Best Practices",
+      "url": "https://figr.design/blog/7-design-system-best-practices-for-consistent-ui-development",
+      "desc": "一致性UI开发的7个设计系统最佳实践"
+    }
+  ],
+  "https://github.com/sparkle-project/Sparkle/discussions/2837": [
+    {
+      "title": "Sparkle 官方文档",
+      "url": "https://sparkle-project.org/",
+      "desc": "macOS应用自动更新框架官方站"
+    },
+    {
+      "title": "Wikipedia: Sparkle",
+      "url": "https://en.wikipedia.org/wiki/Sparkle_(software)",
+      "desc": "Sparkle历史和技术背景"
+    }
+  ],
+  "https://github.com/rcarmo/piclaw": [
+    {
+      "title": "How to Build a Custom Agent Framework with Pi",
+      "desc": "Nader 教程：用 Pi SDK 从零构建自定义 Agent 框架，含 Docker 远程执行",
+      "url": "https://nader.substack.com/p/how-to-build-a-custom-agent-framework"
+    },
+    {
+      "title": "Pi: The Minimal Agent Within OpenClaw",
+      "desc": "Armin Ronacher 解读 Pi 的设计哲学——最小 Agent，让软件构建软件",
+      "url": "https://lucumr.pocoo.org/2026/1/31/pi/"
+    }
+  ],
+  "https://x.com/leeoxiang/status/2028331811890507839": [
+    {
+      "title": "vercel-labs/agent-browser",
+      "desc": "Vercel 开源的浏览器自动化 CLI，通过 CDP 控制浏览器和 Electron 应用",
+      "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    {
+      "title": "Electron MCP Server 工程指南",
+      "desc": "用 CDP + MCP 协议让 AI 完整操控 Electron 应用的技术方案",
+      "url": "https://skywork.ai/skypage/en/electron-mcp-server-ai-engineer-guide/1978380402129498112"
+    }
+  ],
+  "https://x.com/vikingmute/status/2028321502949781600": [
+    {
+      "title": "Leo Xiang: Electron 暴露 CDP 让 AI 控制 GUI",
+      "desc": "同一话题的另一个视角：GUI 同时给人和 AI 用的新范式",
+      "url": "https://x.com/leeoxiang/status/2028331811890507839"
+    },
+    {
+      "title": "agent-browser Slack skill",
+      "desc": "Vercel 官方 Slack 自动化 skill，基于 CDP 控制",
+      "url": "https://skills.sh/vercel-labs/agent-browser/slack"
+    },
+    {
+      "title": "agent-browser Electron skill",
+      "desc": "通用 Electron 应用控制 skill，适用于任何暴露 CDP 的桌面应用",
+      "url": "https://skills.sh/vercel-labs/agent-browser/electron"
+    }
+  ],
+  "https://x.com/pirrer/status/2028477493993488504": [
+    {
+      "title": "Lenny's Podcast: The design process is dead",
+      "desc": "Jenny Wen 访谈原文——Anthropic 内部设计实践全貌，设计师如何在 AI 时代生存",
+      "url": "https://www.lennysnewsletter.com/p/the-design-process-is-dead"
+    }
+  ],
+  "https://x.com/LotusDecoder/status/2028646267686187271": [
+    {
+      "title": "maderix/ANE",
+      "desc": "从零实现 ANE 上的 transformer 训练，逆向工程 Apple Neural Engine 直接硬件访问",
+      "url": "https://github.com/maderix/ANE"
+    },
+    {
+      "title": "Inside the M4 Apple Neural Engine Part 1",
+      "desc": "逆向工程 ANE 的技术细节：SRAM 拓扑、性能计数器、直接访问方式",
+      "url": "https://maderix.substack.com/p/inside-the-m4-apple-neural-engine"
+    }
+  ],
+  "https://x.com/0xLaughing/status/2028901733041357266": [
+    {
+      "title": "20万神经元玩DOOM：CL1技术解读",
+      "desc": "Tom's Hardware 详细解析神经元如何学习游戏",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/200-000-living-human-neurons-on-a-microchip-demonstrated-playing-doom-cortical-labs-cl1-video-shows-the-gameplay-and-explains-how-the-neurons-learn-the-game"
+    },
+    {
+      "title": "世界首台生物计算机CL1发布",
+      "desc": "Live Science 报道产品应用场景：疾病建模、药物发现",
+      "url": "https://www.livescience.com/technology/computing/worlds-1st-computer-that-combines-human-brain-with-silicon-now-available"
+    },
+    {
+      "title": "合成生物智能：一种新形式的生命",
+      "desc": "New Atlas 深度访谈 CSO Brett Kagan",
+      "url": "https://newatlas.com/brain/cortical-bioengineered-intelligence/"
+    }
+  ],
+  "https://github.com/maderix/ANE": [
+    {
+      "title": "M4 ANE逆向工程深度文章",
+      "desc": "maderix完整记录私有API探索过程",
+      "url": "https://maderix.substack.com/p/inside-the-m4-apple-neural-engine"
+    },
+    {
+      "title": "Apple官方：Transformer部署到ANE",
+      "desc": "官方优化指南，能效和吞吐量最佳实践",
+      "url": "https://machinelearning.apple.com/research/neural-engine-transformers"
+    },
+    {
+      "title": "为ANE辩护",
+      "desc": "Dennis Forbes 澄清社区对ANE的误解",
+      "url": "https://dennisforbes.ca/blog/microblog/2026/02/apple-neural-engine-and-you/"
+    }
+  ],
+  "https://x.com/raycast/status/2029180822838759703": [
+    {
+      "title": "Glaze官方博客",
+      "desc": "详细介绍产品理念、团队使用案例、公共商店",
+      "url": "https://www.raycast.com/blog/introducing-glaze"
+    },
+    {
+      "title": "Raycast AI扩展深度体验",
+      "desc": "MacStories 评测 Raycast 的 AI 能力",
+      "url": "https://www.macstories.net/reviews/hands-on-with-raycasts-new-ai-extensions/"
+    },
+    {
+      "title": "原生macOS菜单栏应用开发经验",
+      "desc": "LSUIElement、App Store审核等最佳实践",
+      "url": "https://dev.to/heocoi/what-i-learned-building-a-native-macos-menu-bar-app-4im6"
+    },
+    {
+      "title": "Raycast + 本地LLM集成",
+      "desc": "XDA 报道本地 AI 集成提升生产力",
+      "url": "https://www.xda-developers.com/combining-raycast-with-local-llm-best-productivity-change-i-made/"
+    }
+  ],
+  "https://x.com/linexjlin/status/2029216994751594948": [
+    {
+      "title": "论文原文：Decompiling Transformers to RASP",
+      "desc": "101页深度研究，反编译Transformer前向传播为可读程序",
+      "url": "https://arxiv.org/abs/2602.08857"
+    },
+    {
+      "title": "机械可解释性2026状态报告",
+      "desc": "领域全景综述，包含最新进展和方法论",
+      "url": "https://gist.github.com/bigsnarfdude/629f19f635981999c51a8bd44c6e2a54"
+    }
+  ],
+  "https://x.com/GergelyOrosz/status/2029295486574747872": [
+    {
+      "title": "8个关键洞察：Boris Cherny论Claude Code",
+      "desc": "Waydev总结Boris的核心观点",
+      "url": "https://waydev.co/8-game-changing-insights-from-anthropic-claudecode-boris-cherny/"
+    },
+    {
+      "title": "WIRED深度分析：Claude Code重塑软件工程",
+      "desc": "Claude Code如何改变Anthropic商业模式",
+      "url": "https://www.wired.com/story/claude-code-success-anthropic-business-model/"
+    }
+  ],
+  "https://github.com/openai/symphony": [
+    {
+      "title": "OpenAI Harness Engineering",
+      "desc": "agent-first开发模式的核心方法论",
+      "url": "https://openai.com/index/harness-engineering/"
+    },
+    {
+      "title": "Harness Engineering完整指南",
+      "desc": "让AI agent真正工作的系统设计",
+      "url": "https://www.nxcode.io/resources/news/harness-engineering-complete-guide-ai-agent-codex-2026"
+    }
+  ],
+  "https://x.com/dotta/status/2029239759428780116": [
+    {
+      "title": "Paperclip GitHub仓库",
+      "desc": "自主agent公司编排框架，npx paperclipai onboard一键启动",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "title": "Deloitte: AI Agent编排解锁指数级价值",
+      "desc": "2026市场达85亿美元，企业级agent编排趋势",
+      "url": "https://www.deloitte.com/us/en/insights/industry/technology/technology-media-and-telecom-predictions/2026/ai-agent-orchestration.html"
+    }
+  ],
+  "https://podcasts.apple.com/us/podcast/first-of-kind/id1818890725": [
+    {
+      "title": "Framer创始人谈AI时代设计师方向",
+      "desc": "Business Insider 深度访谈，$2B估值",
+      "url": "https://www.businessinsider.com/framer-founder-what-designers-focus-age-of-ai-2025-9"
+    }
+  ],
+  "https://www.inkandswitch.com/": [
+    {
+      "title": "Local-first Software 经典论文",
+      "desc": "数据归用户所有，CRDT实现离线优先协作",
+      "url": "https://www.inkandswitch.com/essay/local-first/"
+    },
+    {
+      "title": "Malleable Software 社区讨论",
+      "desc": "让用户可以随时定制工具满足独特需求",
+      "url": "https://forum.malleable.systems/t/ink-switch-malleable-software-essay/340"
+    }
+  ],
+  "https://alexanderobenauer.com/": [
+    {
+      "title": "The Interfaces With Which We Think",
+      "desc": "反思现代OS的app/window/desktop范式",
+      "url": "https://alexanderobenauer.com/think/"
+    },
+    {
+      "title": "WonderOS",
+      "desc": "itemized个人计算环境研究项目",
+      "url": "https://wonderos.org/"
+    }
+  ],
+  "https://github.com/666ghj/MiroFish": [
+    {
+      "title": "Emergent Micro-Agents: Swarm AI 2026",
+      "desc": "群体智能微代理如何替代传统App",
+      "url": "https://appvertices.io/swarm-ai-emergent-micro-agents-2026/"
+    }
+  ],
+  "https://github.com/D4Vinci/Scrapling": [
+    {
+      "title": "2026绕过Cloudflare指南",
+      "desc": "Camoufox等工具评测",
+      "url": "https://substack.thewebscraping.club/p/bypassing-cloudflare-in-2026"
+    },
+    {
+      "title": "Nodriver绕过Cloudflare",
+      "desc": "async架构+native stealth",
+      "url": "https://scrapfly.io/blog/posts/how-to-bypass-cloudflare-anti-scraping"
+    }
+  ],
+  "https://github.com/ygwyg/agent-experience": [
+    {
+      "title": "Agent Experience 官网",
+      "desc": "可视化浏览26个agent设计模式",
+      "url": "https://agent-experience.dev"
+    }
+  ],
+  "https://x.com/serafimcloud/status/2029323935318458397": [
+    {
+      "title": "1code (GitHub)",
+      "desc": "21st.dev 的 coding agent 编排层，开源",
+      "url": "https://github.com/21st-dev/1code"
+    }
+  ],
+  "https://pi.dev/": [
+    {
+      "title": "Pi Agent 深度评测 (YouTube)",
+      "desc": "14种构建方式，从极简到多agent编排",
+      "url": "https://www.youtube.com/watch?v=f8cfH5XX-XU"
+    },
+    {
+      "title": "Pi NPM 包",
+      "desc": "mariozechner/pi-coding-agent",
+      "url": "https://www.npmjs.com/package/@mariozechner/pi-coding-agent"
+    }
+  ],
+  "https://www.reddit.com/r/GraphicsProgramming/comments/1rm0gkz/whats_your_experience_been_with_all_the_new_ai/": [
+    {
+      "title": "Coding Agents and Graphics Programming",
+      "desc": "HLSL编译器项目实测，比预期好但还不完美",
+      "url": "https://www.reddit.com/r/GraphicsProgramming/comments/1rih6pd/coding_agents_and_graphics_programming/"
+    }
+  ],
+  "https://x.com/ashpreetbedi/status/2029953139856531528": [
+    {
+      "title": "Pal GitHub Repo (agno-agi/pal)",
+      "desc": "开源个人context-agent，SQL+文件+Gmail+日历+搜索导航",
+      "url": "https://github.com/agno-agi/pal"
+    },
+    {
+      "title": "How to Build a Context Graph (Glean)",
+      "desc": "企业级context graph构建方法论",
+      "url": "https://www.glean.com/blog/how-do-you-build-a-context-graph"
+    }
+  ],
+  "https://x.com/runes_leo/status/2030482638868566031": [
+    {
+      "title": "CORE - Constitutional Autonomous Coding Agent",
+      "desc": "宪法驱动的自主编码agent，通过不可变规则约束实现自主进化",
+      "url": "https://github.com/DariuszNewecki/CORE"
+    },
+    {
+      "title": "OUROBOROS - Self-Rewriting Agent",
+      "desc": "自我重写代码/prompt/身份的自主agent，带后台意识",
+      "url": "https://www.reddit.com/r/agi/comments/1rfb9ym/someone_built_a_selfevolving_ai_agent_that/"
+    },
+    {
+      "title": "Self-Evolving AI Agents理论框架",
+      "desc": "持续优化、生成新能力、自适应环境的智能软件未来",
+      "url": "https://medium.com/@thomas_78526/self-evolving-ai-agents-the-future-of-intelligent-software-is-here-4e995ecd4bc7"
+    }
+  ],
+  "https://x.com/odysseus0z/status/2030416758138634583": [
+    {
+      "title": "OpenAI: Harness Engineering原文",
+      "desc": "5个月零手写代码，100万行1500PR，设计环境而非写代码",
+      "url": "https://openai.com/index/harness-engineering/"
+    },
+    {
+      "title": "Harness Engineering: How to Supervise Code You Can't Read",
+      "desc": "对话只发生一次，harness是你现在建好以后保护你的东西",
+      "url": "https://decision.substack.com/p/harness-engineering-how-to-supervise"
+    },
+    {
+      "title": "Building AI Coding Agents for the Terminal (论文)",
+      "desc": "终端AI编码agent架构：MainAgent入口+工具执行层+UI层分离",
+      "url": "https://arxiv.org/html/2603.05344v1"
+    }
+  ],
+  "https://x.com/om_patel5/status/2030479131222192457": [
+    {
+      "title": "Claude Code LSP深度解析",
+      "desc": "从模式匹配到语义理解的范式转变",
+      "url": "https://medium.com/algomart/how-claude-codes-new-lsp-support-changes-the-way-you-debug-navigate-and-understand-code-d9649eb6dd33"
+    },
+    {
+      "title": "Reddit: Enable LSP in Claude Code",
+      "desc": "社区讨论导航速度30-60s降到50ms的实测",
+      "url": "https://www.reddit.com/r/ClaudeCode/comments/1rh5pcm/enable_lsp_in_claude_code_code_navigation_goes/"
+    }
+  ],
+  "https://x.com/shao__meng/status/2030615698108756099": [
+    {
+      "title": "Lossless Claw 源码",
+      "desc": "OpenClaw插件：DAG context引擎+压缩引擎+深度感知摘要",
+      "url": "https://github.com/Martian-Engineering/lossless-claw"
+    },
+    {
+      "title": "OpenClaw讨论：可插拔上下文系统",
+      "desc": "LCM架构讨论和社区改进建议",
+      "url": "https://github.com/openclaw/openclaw/discussions/22251"
+    },
+    {
+      "title": "HN讨论LCM论文",
+      "desc": "全局命名空间、子agent结果检查等社区观点",
+      "url": "https://news.ycombinator.com/item?id=47038411"
+    }
+  ],
+  "https://github.com/openai/openai-cua-sample-app": [
+    {
+      "title": "OpenAI Operator 产品介绍",
+      "desc": "CUA模型：GPT-4o视觉+强化学习操作GUI",
+      "url": "https://openai.com/index/introducing-operator/"
+    },
+    {
+      "title": "GPT-5.4 原生 Computer Use",
+      "desc": "VentureBeat深度：代码模式+原生操作模式双轨",
+      "url": "https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for"
+    }
+  ],
+  "https://www.aidesignfieldguide.com/articles/nate-parrott": [
+    {
+      "title": "42 Pages — Nate Parrott",
+      "desc": "Nate 的 HTML-based 设计工具原型，直接输出 HTML 供 LLM 消费",
+      "url": "https://nateparrott.com/42pages/index.html"
+    },
+    {
+      "title": "AI Design Field Guide",
+      "desc": "采访顶级 AI 公司设计师的深度访谈系列",
+      "url": "https://www.aidesignfieldguide.com/"
+    }
+  ],
+  "https://wattenberger.com/thoughts/boo-chatbots": [
+    {
+      "title": "LLMs as a Tool for Thought",
+      "desc": "Amelia 探索 LLM 作为思维工具而非聊天工具的可能性",
+      "url": "https://wattenberger.com/thoughts/llms-as-a-tool-for-thought"
+    },
+    {
+      "title": "Our Interfaces Have Lost Their Senses",
+      "desc": "现代界面的感官退化反思",
+      "url": "https://wattenberger.com/thoughts/our-interfaces-have-lost-their-senses"
+    }
+  ],
+  "https://x.com/onusoz/status/2030569684840460760": [
+    {
+      "title": "ACP Agents — OpenClaw Docs",
+      "desc": "ACP agent 配置和绑定的官方文档",
+      "url": "https://docs.openclaw.ai/tools/acp-agents"
+    },
+    {
+      "title": "OpenClaw v2026.3.7 Release",
+      "desc": "ACP 持久化绑定 + GPT-5.4 + Docker 瘦身",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.7"
+    }
+  ],
+  "https://x.com/michaelandregg/status/2030764512488677736": [
+    {
+      "title": "FlyGM: Whole-Brain Connectomic Graph Model",
+      "desc": "连接组直接当 RL 控制器，无需训练即可驱动果蝇运动",
+      "url": "https://arxiv.org/html/2602.17997v1"
+    },
+    {
+      "title": "Notable Progress in Whole Brain Emulation",
+      "desc": "LessWrong 全脑仿真综述",
+      "url": "https://www.lesswrong.com/posts/DGsBfcEQKuNPmQizQ/notable-progress-has-been-made-in-whole-brain-emulation"
+    }
+  ],
+  "http://xhslink.com/o/7aQTKgeowqJ": [
+    {
+      "title": "The First Multi-Behavior Brain Upload — The Innermost Loop",
+      "desc": "深度技术分析：Eon 如何整合全脑计算模型、NeuroMechFly v2 具身仿真和集中式大脑网络实现多行为闭环",
+      "url": "https://theinnermostloop.substack.com/p/the-first-multi-behavior-brain-upload"
+    },
+    {
+      "title": "From Fruit Fly Brains to Digital Immortality — Dhruva",
+      "desc": "从果蝇到人类：MICrONS 项目已映射鼠脑 1mm³（20万神经元+5.23亿突触），展望数字永生路径",
+      "url": "https://dhruva.substack.com/p/from-fruit-fly-brains-to-digital"
+    }
+  ],
+  "https://github.com/eonsystemspbc/fly-brain": [
+    {
+      "title": "Simulate an Entire Fly Brain on a Laptop — Berkeley News",
+      "desc": "Berkeley 报道：Shiu 团队在笔记本上模拟完整果蝇大脑，探讨从果蝇到人脑的可能路径",
+      "url": "https://news.berkeley.edu/2024/10/02/researchers-simulate-an-entire-fly-brain-on-a-laptop-is-a-human-brain-next/"
+    }
+  ],
+  "https://x.com/bcherny/status/2031089411820228645": [
+    {
+      "title": "Claude Code Review Uses AI Agents to Check PRs — ZDNet",
+      "desc": "ZDNet 深度报道：Claude Code Review 的工作原理和实际使用体验",
+      "url": "https://www.zdnet.com/article/claude-code-review-ai-agents-pull-request-bug-detection/"
+    }
+  ],
+  "https://x.com/lappalainenjk/status/2031110353611010354": [
+    {
+      "title": "Connectome-constrained Networks Predict Neural Activity — Nature",
+      "desc": "Lappalainen 在 Nature 发表的核心论文：用连接组约束的深度机械网络在单神经元分辨率预测果蝇视觉系统活动",
+      "url": "https://www.nature.com/articles/s41586-024-07939-3"
+    },
+    {
+      "title": "AI + Connectome Predict Brain Cell Activity — Janelia",
+      "desc": "Janelia 科普报道：AI 和连接组结合预测大脑细胞活动的突破",
+      "url": "https://www.janelia.org/news/researchers-combine-the-power-of-ai-and-the-connectome-to-predict-brain-cell-activity"
+    }
+  ],
+  "https://x.com/thetripathi58/status/2031037813194735791": [
+    {
+      "title": "Ghost OS — GitHub",
+      "desc": "源码仓库：对比 Anthropic Computer Use（截图）、OpenAI Operator（浏览器）的差异化在于 accessibility tree + 本地 VLM 双模式",
+      "url": "https://github.com/ghostwright/ghost-os"
+    }
+  ],
+  "https://x.com/mubeitech/status/2031302926887432335": [
+    {
+      "title": "The March of Nines — Superagent",
+      "desc": "深度解读 Karpathy 的 march of nines 理论，分析 demo-to-product gap 在 AI agent 领域的具体表现",
+      "url": "https://www.superagent.sh/blog/the-march-of-nines"
+    }
+  ],
+  "https://x.com/gorden_sun/status/2031377609213530311": [
+    {
+      "title": "karpathy/agenthub — GitHub",
+      "desc": "源码仓库：Go+SQLite+裸Git，agent通过git bundle推代码，message board协调，API key认证",
+      "url": "https://github.com/karpathy/agenthub"
+    },
+    {
+      "title": "karpathy/autoresearch — GitHub",
+      "desc": "AgentHub 的前置项目：模拟单个 PhD 学生做 LLM 训练研究，AgentHub 把它扩展成研究社区",
+      "url": "https://github.com/karpathy/autoresearch"
+    }
+  ],
+  "https://x.com/yibie/status/2031222960372199523": [
+    {
+      "title": "AINews: Autoresearch — Sparks of Recursive Self Improvement",
+      "desc": "Latent Space 对 autoresearch 的深度分析：从 meme 到可测量收益，agent 驱动的自我改进循环",
+      "url": "https://www.latent.space/p/ainews-autoresearch-sparks-of-recursive"
+    }
+  ],
+  "https://x.com/berryxia/status/2031406673148166584": [
+    {
+      "title": "Always On Memory Agent — GitHub",
+      "desc": "源码仓库：Google ADK + Gemini Flash-Lite + SQLite + Streamlit，支持27种格式摄取",
+      "url": "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent"
+    },
+    {
+      "title": "Production AI Agents with Persistent Memory — Milvus",
+      "desc": "Google ADK 的记忆架构分析：短期与长期记忆的框架级分离",
+      "url": "https://milvus.io/blog/how-to-build-productionready-ai-agents-with-longterm-memory-using-google-adk-and-milvus.md"
+    }
+  ],
+  "https://x.com/dxhuang/status/2030608665464725921": [
+    {
+      "title": "mem9 — Unlimited Memory Infrastructure for OpenClaw",
+      "desc": "官网：Context Engine 支持，自动选择相关记忆注入 prompt，降低 token 消耗",
+      "url": "https://mem9.ai/"
+    }
+  ],
+  "https://x.com/jakevin7/status/2031412457537704358": [
+    {
+      "title": "jackwener/bilibili-cli — GitHub",
+      "desc": "B站 CLI：视频详情/字幕/AI总结/评论/热门/排行榜/音频下载+ASR分段，SKILL.md 完整",
+      "url": "https://github.com/jackwener/bilibili-cli"
+    }
+  ],
+  "https://x.com/fredchuuu/status/2031285360735694917": [
+    {
+      "title": "jundot/omlx — GitHub",
+      "desc": "源码：brew 安装，menubar app + web dashboard，多模型并发 + LRU eviction + block-level KV cache",
+      "url": "https://github.com/jundot/omlx"
+    }
+  ],
+  "https://github.com/MemTensor/MemOS": [
+    {
+      "title": "MemOS: An Operating System for LLMs (arXiv)",
+      "desc": "论文：MemCube 架构，文本记忆/激活缓存/参数记忆三层，系统级记忆调度",
+      "url": "https://arxiv.org/abs/2507.03724"
+    },
+    {
+      "title": "Awesome AI Memory — 资源集合",
+      "desc": "AI 记忆系统相关论文、项目、benchmark 资源汇总",
+      "url": "https://github.com/IAAR-Shanghai/Awesome-AI-Memory"
+    }
+  ],
+  "https://x.com/CloudflareDev/status/2031488099725754821": [
+    {
+      "title": "Crawl web content — Cloudflare Browser Rendering docs",
+      "desc": "官方文档：/crawl endpoint 参数详解，limit/depth/source 配置",
+      "url": "https://developers.cloudflare.com/browser-rendering/rest-api/crawl-endpoint/"
+    }
+  ],
+  "https://x.com/GithubProjects/status/2031518882566128054": [
+    {
+      "title": "Introducing A2UI — Google Developers Blog",
+      "desc": "官方介绍：A2UI 的设计动机、格式规范、渲染器架构、与 A2A 的关系",
+      "url": "https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/"
+    },
+    {
+      "title": "google/A2UI — GitHub",
+      "desc": "源码：UI format spec + 渲染器实现（Lit/Angular/Flutter），v0.8",
+      "url": "https://github.com/google/A2UI/"
+    }
+  ],
+  "https://github.com/anthropics/skills": [
+    {
+      "title": "Agent Skills 开放规范",
+      "desc": "agentskills.io：Anthropic 发起的 Agent Skill 开放标准，已被多个 agent 产品采用",
+      "url": "https://agentskills.io"
+    },
+    {
+      "title": "Agent Skills: Anthropic定义AI标准的新尝试",
+      "desc": "深度分析：Agent Skills 的战略定位，从 MCP 到 skill，Anthropic 的标准化野心",
+      "url": "https://thenewstack.io/agent-skills-anthropics-next-bid-to-define-ai-standards/"
+    }
+  ],
+  "https://x.com/bcherny/status/2031151689219321886": [
+    {
+      "title": "How to Use Claude Code Like the People Who Built It",
+      "desc": "Boris Cherny 访谈完整 transcript：subagent 灵感来源、Mama Claude 架构、context window 策略",
+      "url": "https://every.to/podcast/transcript-how-to-use-claude-code-like-the-people-who-built-it"
+    }
+  ],
+  "https://x.com/xxx111god/status/2030850416133492818": [
+    {
+      "title": "OpenClaw Issue #40272",
+      "desc": "ACP spawn completion notification 缺失问题",
+      "url": "https://github.com/openclaw/openclaw/issues/40272"
+    }
+  ],
+  "https://x.com/xiaohu/status/2031200365333631115": [
+    {
+      "title": "Feature Request: Session Handoff / Continuity Support",
+      "desc": "Claude Code 官方 issue：.claude/handoff.md 标准化文件传递 session 上下文",
+      "url": "https://github.com/anthropics/claude-code/issues/11455"
+    },
+    {
+      "title": "Context Rot in Claude Code: Automatic Context Rotation",
+      "desc": "claude-code-handoff 项目分析：/handoff 命令生成 context 文件，SessionStart hook 注入",
+      "url": "https://vincentvandeth.nl/blog/context-rot-claude-code-automatic-rotation"
+    }
+  ],
+  "https://github.com/mindfold-ai/Trellis": [
+    {
+      "title": "Trellis Documentation",
+      "desc": "官方文档：Quick Start、Multi-Platform、Real-World Use Cases",
+      "url": "https://docs.trytrellis.app/"
+    },
+    {
+      "title": "Chapter 13: Multi-Platform Configuration",
+      "desc": "多平台配置详解：Python 脚本、hooks、路径分隔符、平台特定 entry points",
+      "url": "https://docs.trytrellis.app/guide/ch13-multi-platform"
+    },
+    {
+      "title": "Git worktrees for parallel AI coding agents",
+      "desc": "Git worktrees 用于并行 AI agent：依赖不共享、需独立 npm install、pnpm 可优化",
+      "url": "https://devcenter.upsun.com/posts/git-worktrees-for-parallel-ai-coding-agents/"
+    }
+  ],
+  "https://x.com/YuLin807/status/2031203025390535161": [
+    {
+      "title": "OpenClaw Web Search: How to Make Your Agent Actually Read the Web",
+      "desc": "OpenClaw web 搜索配置：web_fetch/Firecrawl/Readability 的 fallback 链路",
+      "url": "https://www.firecrawl.dev/blog/openclaw-web-search"
+    }
+  ],
+  "https://x.com/Khazix0918/status/2010940910083940382": [
+    {
+      "title": "anthropics/skills — Anthropic 官方 Skills 仓库",
+      "desc": "官方 skill 实现 + 开放规范 agentskills.io",
+      "url": "https://github.com/anthropics/skills"
+    }
+  ],
+  "https://x.com/test/status/123": [
+    {
+      "title": "相关",
+      "desc": "描述",
+      "url": "https://example.com/related"
+    }
+  ],
+  "https://x.com/bigCamel_/status/2031628896240808178": [
+    {
+      "title": "felo-skills — Claude Code / OpenClaw skill",
+      "desc": "Felo 的 Agent Skill 版本，直接装到 Claude Code 或 OpenClaw",
+      "url": "https://github.com/Felo-Inc/felo-skills"
+    }
+  ],
+  "https://satproto.org/": [
+    {
+      "title": "remysucre/satproto — GitHub",
+      "desc": "sAT Protocol 实现：静态站 + WASM 客户端 + 加密 JSON store",
+      "url": "https://github.com/remysucre/satproto"
+    }
+  ],
+  "https://arxiv.org/abs/2603.08938": [
+    {
+      "title": "The Agent Operating System: Orchestrating the Autonomous Future",
+      "desc": "Agent OS 综述：MCP 集成、portable skills、跨平台 agent 能力",
+      "url": "https://www.reddit.com/user/enoumen/comments/1r9283v/the_agent_operating_system_orchestrating_the/"
+    }
+  ],
+  "https://github.com/thesysdev/openui": [
+    {
+      "title": "llm-ui — React LLM 输出美化库",
+      "desc": "用 React 组件美化 LLM 流式输出，支持自定义 block 和 fallback",
+      "url": "https://blog.logrocket.com/react-llm-ui/"
+    }
+  ],
+  "https://x.com/HiTw93/status/2032091246588518683": [
+    {
+      "title": "Claude Skills and Subagents: Escaping the Prompt Engineering Hamster Wheel",
+      "desc": "TDS 文章：Skills 和 Subagents 如何摆脱 prompt 工程的反复调试",
+      "url": "https://towardsdatascience.com/claude-skills-and-subagents-escaping-the-prompt-engineering-hamster-wheel/"
+    },
+    {
+      "title": "claude-code-hooks-mastery — Hooks 实战指南",
+      "desc": "Hooks 进阶用法：agent 编排、任务系统、自动化测试",
+      "url": "https://github.com/disler/claude-code-hooks-mastery"
+    }
+  ],
+  "https://x.com/claudeai/status/2032124273587077133": [
+    {
+      "title": "The Decoder: Claude interactive charts and visualizations",
+      "desc": "详细报道：基于 Imagine with Claude + Artifacts 的聊天内可视化",
+      "url": "https://the-decoder.com/claude-can-now-create-interactive-charts-and-visualizations-directly-in-chat/"
+    }
+  ],
+  "https://x.com/dddanielwang/status/2032054332586381696": [
+    {
+      "title": "learn-claude-code — 从0到1构建nano Claude Code",
+      "desc": "12个递进session：agent loop→tools→planning→subagent→context压缩→多agent协作→worktree隔离",
+      "url": "https://github.com/shareAI-lab/learn-claude-code"
+    }
+  ],
+  "https://cursor.com/zh-Hant/blog/cursorbench": [
+    {
+      "title": "The End of SWE-Bench Verified — Latent Space",
+      "desc": "SWE-bench 污染问题深度讨论：前沿模型可凭记忆重现标准修补",
+      "url": "https://www.latent.space/p/swe-bench-dead"
+    }
+  ],
+  "https://x.com/aigclink/status/2032276960827883788": [
+    {
+      "title": "OpenClaw-RL — Train any agent simply by talking",
+      "desc": "RL 框架：从对话中自动学习，支持 terminal/GUI/SWE/tool-call 四种场景",
+      "url": "https://github.com/Gen-Verse/OpenClaw-RL"
+    },
+    {
+      "title": "OpenClaw-RL: Train Any Agent Simply by Talking",
+      "desc": "论文：每次交互产生 next-state signal，将其作为在线学习信号",
+      "url": "https://arxiv.org/abs/2603.10165"
+    }
+  ],
+  "https://x.com/jakevin7/status/2032330774196981833": [
+    {
+      "title": "jackwener/xiaohongshu-cli — GitHub",
+      "desc": "小红书CLI：search/read/comments/feed/like/favorite/reply",
+      "url": "https://github.com/jackwener/xiaohongshu-cli"
+    }
+  ],
+  "https://x.com/youyuxi/status/2032385324572180575": [
+    {
+      "title": "Announcing Vite+ — VoidZero",
+      "desc": "Vite+ 发布：VoidZero 的统一工具链愿景",
+      "url": "https://voidzero.dev/posts/announcing-vite-plus"
+    }
+  ],
+  "https://x.com/chenchengpro/status/2032411474703053012": [
+    {
+      "title": "pnpm 11.x Git Worktrees 文档",
+      "desc": "pnpm 官方 worktree 支持文档：enableGlobalVirtualStore + worktree:new",
+      "url": "https://pnpm.io/11.x/git-worktrees"
+    }
+  ],
+  "https://x.com/kkawsb/status/2032300913910776099": [
+    {
+      "title": "Beyond Context Windows for Long-Term Agentic Memory — Hydra DB",
+      "desc": "Hydra DB 论文：图结构+向量混合的长期 agent 记忆",
+      "url": "https://research.usecortex.ai/cortex.pdf"
+    },
+    {
+      "title": "Vector Databases vs. Graph RAG for Agent Memory",
+      "desc": "向量数据库 vs Graph RAG 的适用场景对比",
+      "url": "https://machinelearningmastery.com/vector-databases-vs-graph-rag-for-agent-memory-when-to-use-which/"
+    }
+  ],
+  "https://developers.openai.com/codex/learn/best-practices": [
+    {
+      "title": "Using skills to accelerate OSS maintenance — OpenAI",
+      "desc": "OpenAI 用 Skills 加速 Agents SDK 开源维护的实践",
+      "url": "https://developers.openai.com/blog/skills-agents-sdk/"
+    }
+  ],
+  "https://x.com/karminski3/status/2032229691537703320": [
+    {
+      "title": "I was backend lead at Manus — Reddit 原帖",
+      "desc": "Manus后端负责人原帖：2年agent开发经验总结，统一工具调用方案",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rrisqn/i_was_backend_lead_at_manus_after_building_agents/"
+    }
+  ],
+  "https://x.com/_0xkenny/status/2032557322078400527": [
+    {
+      "title": "CLI-Anything — 一行命令让任意软件变AI Agent可控工具",
+      "desc": "港大开源，GIMP/Blender/LibreOffice/OBS等软件秒变AI可控",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "title": "Cognee — 自改进Skill系统",
+      "desc": "Skill能观察执行历史、检查失败、自动修正优化",
+      "url": "https://github.com/topoteretes/cognee"
+    },
+    {
+      "title": "Lightpanda — AI原生无头浏览器",
+      "desc": "非Chromium从零构建，快11倍省9倍内存",
+      "url": "https://github.com/lightpanda-io/lightpanda"
+    }
+  ],
+  "http://xhslink.com/o/6radm6MTPAx": [
+    {
+      "title": "Who is Amanda Askell? — Livemint",
+      "desc": "Amanda Askell 深度专访：如何用哲学教 Claude 做好人",
+      "url": "https://www.livemint.com/technology/who-is-amanda-askell-the-philosopher-anthropic-trusts-to-teach-claude-ai-morals-and-how-to-be-good-11770834572409.html"
+    }
+  ],
+  "https://www.nytimes.com/2026/01/23/podcasts/hardfork-chatgpt-ads-claude-constitution.html": [
+    {
+      "title": "Can You Teach an AI Model to Be Good? — NYT Video",
+      "desc": "NYT视频版，Amanda Askell谈AI道德教育",
+      "url": "https://www.nytimes.com/video/podcasts/100000010670974/can-you-teach-an-ai-model-to-be-good.html"
+    }
+  ],
+  "https://x.com/chenchengpro/status/2032648998851674300": [
+    {
+      "title": "Defuddle — 从网页提取干净 Markdown",
+      "desc": "Obsidian 创始人 kepano 的 Readability 替代品",
+      "url": "https://github.com/kepano/defuddle"
+    }
+  ],
+  "https://michaellivs.com/blog/reverse-engineering-claude-generative-ui/": [
+    {
+      "title": "pi-generative-ui — 终端版 generative UI",
+      "desc": "为 pi coding agent 实现的 generative UI",
+      "url": "https://github.com/Michaelliv/pi-generative-ui"
+    }
+  ],
+  "https://x.com/wey_gu/status/2032528292360946062": [
+    {
+      "title": "OpenGenerativeUI — CopilotKit 开源 generative UI",
+      "desc": "CopilotKit + LangGraph 的 generative UI 开源实现",
+      "url": "https://github.com/CopilotKit/OpenGenerativeUI"
+    }
+  ],
+  "https://x.com/jakevin7/status/2032751167302746369": [
+    {
+      "title": "rdt-cli — Reddit CLI",
+      "desc": "终端 Reddit 客户端，支持 cookie 登录和 AI agent 集成",
+      "url": "https://github.com/jackwener/rdt-cli"
+    }
+  ],
+  "https://x.com/runes_leo/status/2032777762155487718": [
+    {
+      "title": "pi coding agent 设计原文",
+      "desc": "Mario Zechner 的 pi agent 设计哲学详解",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/"
+    }
+  ],
+  "https://x.com/aigclink/status/2033009586282860826": [
+    {
+      "title": "OpenJarvis GitHub",
+      "desc": "斯坦福 Scaling Intelligence Lab 的 local-first 个人 AI 框架",
+      "url": "https://github.com/open-jarvis/OpenJarvis"
+    }
+  ],
+  "https://x.com/minjunesh/status/2032957201036582914": [
+    {
+      "title": "Blitz · Skip Xcode. Ship with AI.",
+      "desc": "AI agent控制iOS开发全流程的macOS app",
+      "url": "https://blitz.dev"
+    }
+  ],
+  "https://x.com/jakevin7/status/2033127300649148850": [
+    {
+      "title": "OpenCLI GitHub",
+      "desc": "把任何网站变成命令行工具",
+      "url": "https://github.com/jackwener/opencli"
+    }
+  ],
+  "https://x.com/jason23818126/status/2033152973988364442": [
+    {
+      "title": "OpenClaw-RL GitHub",
+      "desc": "异步RL框架，从自然对话反馈训练个人化agent",
+      "url": "https://github.com/Gen-Verse/OpenClaw-RL"
+    }
+  ],
+  "https://x.com/shao__meng/status/2033165219762262217": [
+    {
+      "title": "Pi Day AMA with Pi Creator",
+      "desc": "Pi Agent框架作者Daniel+Mario的AMA视频",
+      "url": "https://www.youtube.com/watch?v=WQ-LOL6Iaio"
+    }
+  ],
+  "https://x.com/khcrysalis/status/2033118020839911715": [
+    {
+      "title": "CAARPlayer",
+      "desc": "查看.caar/.ca Core Animation Archive文件的macOS app",
+      "url": "https://github.com/insidegui/CAARPlayer"
+    },
+    {
+      "title": "Animations are assets: using Core Animation archives on iOS",
+      "desc": "Rambo的技术文章：如何创建和使用.caar文件",
+      "url": "https://www.rambo.codes/posts/2018-11-09-animations-are-assets"
+    }
+  ],
+  "https://x.com/khcrysalis/status/2033150024604176388": [
+    {
+      "title": "Shasta - Core Animation Archive Player",
+      "desc": ".caar和.ca文件查看器，支持QuickLook",
+      "url": "https://github.com/claration/Shasta"
+    }
+  ],
+  "https://x.com/runes_leo/status/2033022122017382728": [
+    {
+      "title": "Slate: moving beyond ReAct and RLM",
+      "desc": "Random Labs技术报告：thread-based episodic memory解决长horizon任务",
+      "url": "https://randomlabs.ai/blog/slate"
+    }
+  ],
+  "https://x.com/penny777/status/2032920873431347277": [
+    {
+      "title": "GStack GitHub",
+      "desc": "AI coding工作流系统，角色分离+阶段化",
+      "url": "https://github.com/garrytan/gstack"
+    }
+  ],
+  "https://github.com/obra/superpowers": [
+    {
+      "title": "Simon Willison: How I use coding agents with Superpowers",
+      "desc": "Simon Willison的Superpowers使用体验",
+      "url": "https://simonwillison.net/2025/Oct/10/superpowers/"
+    }
+  ],
+  "https://x.com/loryoncloud/status/2033189755488551096": [
+    {
+      "title": "Memory-Like-A-Tree GitHub",
+      "desc": "AI Agent记忆管理系统，知识像树一样生长凋零循环",
+      "url": "https://github.com/loryoncloud/Memory-Like-A-Tree"
+    }
+  ],
+  "https://learn.shareai.run/zh/": [
+    {
+      "title": "Build a Coding Agent from Scratch: Complete Python Tutorial",
+      "desc": "分阶段 Python 教程：ReAct loop + 文件工具 + 沙箱执行 + CLAUDE.md 上下文",
+      "url": "https://sidbharath.com/blog/build-a-coding-agent-python-tutorial/"
+    }
+  ],
+  "https://exe.dev/": [
+    {
+      "title": "Shelley — exe.dev 的 coding agent 开源仓库",
+      "desc": "web-based, multi-model coding agent",
+      "url": "https://github.com/boldsoftware/shelley"
+    }
+  ],
+  "https://x.com/yan5xu/status/2017988021120082126": [
+    {
+      "title": "24/7 自主 AI agent 如何维持记忆连续性",
+      "desc": "Will Powers 在 OpenClaw 上跑 24/7，分享记忆连续性实践",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1rdkngw/how_i_maintain_memory_continuity_as_a_247/"
+    },
+    {
+      "title": "OpenClaw Memory Masterclass",
+      "desc": "OpenClaw 记忆系统完整指南：四层架构 + 最佳实践",
+      "url": "https://velvetshark.com/openclaw-memory-masterclass"
+    }
+  ],
+  "https://x.com/yan5xu/status/2033721922757005519": [
+    {
+      "title": "AgentOS 论文：从应用孤岛到自然语言驱动的数据操作系统",
+      "desc": "Agent Kernel 解释意图、分解任务、协调多 agent，应用演化为 Skills-as-Modules",
+      "url": "https://arxiv.org/html/2603.08938v2"
+    },
+    {
+      "title": "Agno Agent Skills：从 prompts 到 capabilities",
+      "desc": "模块化的指令、脚本、引用包，agent 按需加载获得领域能力",
+      "url": "https://www.agno.com/blog/from-prompts-to-capabilities-introducing-agnos-agent-skills"
+    }
+  ],
+  "http://xhslink.com/o/3bQr2igIvmv": [
+    {
+      "title": "Structured Distillation for Personalized Agent Memory — 原论文",
+      "desc": "Sydney Lewis, ArXiv 2603.13017v1, 2026-03-13",
+      "url": "https://arxiv.org/abs/2603.13017"
+    }
+  ],
+  "https://x.com/chenchengpro/status/2033692471713280027": [
+    {
+      "title": "chrome-devtools-mcp — npm 包",
+      "desc": "Chrome DevTools MCP Server，通过远程调试协议连接 Chrome",
+      "url": "https://www.npmjs.com/package/chrome-devtools-mcp"
+    }
+  ],
+  "https://x.com/qingq77/status/2033875243413201217": [
+    {
+      "title": "graph-memory GitHub 仓库",
+      "desc": "OpenClaw 知识图谱记忆/上下文引擎插件",
+      "url": "https://github.com/adoresever/graph-memory"
+    }
+  ],
+  "https://x.com/chenchengpro/status/2034085556108595603": [
+    {
+      "title": "论文原文：AI辅助学习的随机对照实验",
+      "desc": "Anthropic 52名开发者 RCT 实验",
+      "url": "https://arxiv.org/abs/2601.20245"
+    }
+  ],
+  "https://x.com/DLKFZWilliam2/status/2034041985510904019": [
+    {
+      "title": "Thariq 原文：Lessons from Building Claude Code — How We Use Skills",
+      "desc": "Claude Code 内部工程师 2366 字长文，9种 Skill 类型 + 最佳实践",
+      "url": "https://x.com/trq212/status/2033949937936085378"
+    }
+  ],
+  "https://x.com/berryxia/status/2034030584671134087": [
+    {
+      "title": "LabClaw Demo 页面",
+      "desc": "LabClaw 演示和文档",
+      "url": "https://labclaw-ai.github.io"
+    }
+  ],
+  "https://x.com/lidangzzz/status/2034133959768981922": [
+    {
+      "title": "Goal-Driven GitHub Repo",
+      "desc": "目标驱动的 master-subagent 开发框架",
+      "url": "https://github.com/lidangzzz/goal-driven"
+    }
+  ],
+  "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/": [
+    {
+      "title": "Agentic Engineering Patterns",
+      "desc": "Simon Willison 的完整 agentic engineering 模式集合",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/"
+    }
+  ],
+  "https://x.com/pirrer/status/2034208585534849052": [
+    {
+      "title": "Using AI to Port a Legacy Laravel CMS",
+      "desc": "另一个 AI 迁移 Laravel CMS 的案例，用了 AGENTS.md 定义约定",
+      "url": "https://www.2am.tech/blog/using-ai-to-port-a-legacy-laravel-cms-to-a-modern-architecture"
+    },
+    {
+      "title": "Claude Code Multi-Agent + Laravel 重建后端",
+      "desc": "用 Claude Code 多 agent 编排一夜重建 Laravel 后端",
+      "url": "https://dev.to/tessak22/how-i-used-claude-codes-multi-agent-orchestration-and-laravel-to-rebuild-a-backend-overnight-174"
+    }
+  ],
+  "https://x.com/Saccc_c/status/2034219625815347204": [
+    {
+      "title": "Claude Code's Hidden Multi-Agent System",
+      "desc": "深挖 Claude Code 内置的 TeammateTool 和 Task 多 agent 系统",
+      "url": "https://paddo.dev/blog/claude-code-hidden-swarm/"
+    },
+    {
+      "title": "Orchestrating the Swarm: Parallel AI Agents",
+      "desc": "用 launch scripts 编排并行 AI agent 的实践指南",
+      "url": "https://stories.lab271.io/orchestrating-the-swarm-parallel-ai-agents-with-launch-scripts-26932f7da7c7"
+    }
+  ],
+  "https://x.com/wey_gu/status/2034492291029897261": [
+    {
+      "title": "EverMind-AI/MSA",
+      "desc": "MSA 论文和代码仓库",
+      "url": "https://github.com/EverMind-AI/MSA"
+    },
+    {
+      "title": "Microsoft KBLaM",
+      "desc": "微软知识库语言模型：将知识编码进 attention 的另一种方案",
+      "url": "https://github.com/microsoft/kblam"
+    }
+  ],
+  "https://x.com/dontbesilent/status/2034180260049363291": [
+    {
+      "title": "gstack by Garry Tan",
+      "desc": "YC CEO 的 Claude Code 工具集，19000 stars",
+      "url": "https://github.com/garrytan/gstack"
+    }
+  ],
+  "https://x.com/MaximeHeckel/status/2034285194736206029": [
+    {
+      "title": "The Study of Shaders with React Three Fiber",
+      "desc": "Maxime Heckel 的 shader 学习系列",
+      "url": "https://blog.maximeheckel.com/posts/the-study-of-shaders-with-react-three-fiber/"
+    }
+  ],
+  "https://x.com/dingyi/status/2034616400552263850": [
+    {
+      "title": "silships/figma-cli",
+      "desc": "第三方 Figma CLI，支持 agent 直接操控 Figma",
+      "url": "https://github.com/silships/figma-cli"
+    }
+  ],
+  "https://x.com/imwsl90/status/2034473948050800695": [
+    {
+      "title": "Rob Pike's Rules of Programming",
+      "desc": "Rob Pike 编程法则原文",
+      "url": "https://www.cs.unc.edu/~stotts/COMP590-059-f24/robsrules.html"
+    }
+  ],
+  "https://x.com/dotey/status/2034675747479064711": [
+    {
+      "title": "Fuli Luo (@_LuoFuli)",
+      "desc": "罗福莉 X 账号——DeepSeek R1 / MiMo 团队负责人",
+      "url": "https://x.com/_LuoFuli"
+    }
+  ],
+  "https://x.com/danveloper/status/2034353876753592372": [
+    {
+      "title": "flash-moe",
+      "desc": "基于 Apple LLM in a Flash 的 MoE 模型本地推理引擎",
+      "url": "https://github.com/danveloper/flash-moe"
+    }
+  ],
+  "https://x.com/guigudao/status/2034542675547062320": [
+    {
+      "title": "Effective Context Engineering for AI Agents - Anthropic",
+      "desc": "Anthropic 官方的 context engineering 指南，涵盖 agent 上下文管理策略",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    }
+  ],
+  "https://x.com/garrytan/status/2034304114574909681": [
+    {
+      "title": "garrytan/gstack - GitHub",
+      "desc": "GStack 源码：Garry Tan 的 Claude Code 配置和 skills 集合",
+      "url": "https://github.com/garrytan/gstack"
+    },
+    {
+      "title": "GStack — Turn Claude Code into a Virtual Software Development Team",
+      "desc": "GStack 官网，详细介绍角色分工和使用方法",
+      "url": "https://gstacks.org/"
+    }
+  ],
+  "https://x.com/Tz_2022/status/2034655562558808160": [
+    {
+      "title": "TASTES.md — The Missing Layer",
+      "desc": "TASTES.md 官网，品味作为 AI agent 审美判断的开放标准",
+      "url": "https://tastes.md/"
+    },
+    {
+      "title": "Taste Is the New Bottleneck",
+      "desc": "品味作为 agent 时代新瓶颈的设计策略讨论",
+      "url": "https://www.designative.info/2026/02/01/taste-is-the-new-bottleneck-design-strategy-and-judgment-in-the-age-of-agents-and-vibe-coding/"
+    }
+  ],
+  "https://x.com/yibie/status/2034623700923003053": [
+    {
+      "title": "How I Built a Local Memory Layer for AI Agents",
+      "desc": "另一个本地 memory layer 实现，基于 vault 文件系统",
+      "url": "https://dev.to/filippo_venturini/how-i-built-a-local-memory-layer-for-ai-agents-and-why-vaults-changed-everything-1apg"
+    }
+  ],
+  "https://www.marksimonson.com/notebook/view/the-day-i-discovered-type-design/": [
+    {
+      "title": "Mark Simonson Studio at 25",
+      "desc": "Mark Simonson 工作室25周年回顾，从副业到全职字体设计",
+      "url": "https://www.marksimonson.com/notebook/view/mark-simonson-studio-at-25/"
+    }
+  ],
+  "https://stitch.withgoogle.com/docs/design-md/overview": [
+    {
+      "title": "Introducing 'vibe design' with Stitch - Google Blog",
+      "desc": "Google 官方博客介绍 Stitch 和 DESIGN.md",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/"
+    },
+    {
+      "title": "design-md skill - Tessl",
+      "desc": "Stitch 的 design-md 作为 agent skill 的注册条目，含完整 DESIGN.md 结构定义",
+      "url": "https://tessl.io/registry/skills/github/google-labs-code/stitch-skills/design-md"
+    }
+  ],
+  "https://x.com/pirrer/status/2034872129108464100": [
+    {
+      "title": "Neethan Wu: Design Without Designing 原推",
+      "desc": "Neethan Wu 原始长推，详细列出每个工具和使用方式",
+      "url": "https://x.com/neethanwu/status/2034786360356204934"
+    },
+    {
+      "title": "Impeccable: The Claude Code Skill for Unique Frontend UI",
+      "desc": "Paul Bakaus（jQuery UI 原作者）做的设计 skill，20+ 命令抓 AI 生成 UI 的反模式",
+      "url": "https://apidog.com/blog/impeccable-claude-code-skill"
+    }
+  ],
+  "https://github.com/hotjp/long-run-agent": [
+    {
+      "title": "The Ralph Loop: Long-Running AI Agents - ZeroSync",
+      "desc": "Ralph Loop 技术深入解析：每次迭代重置 context + 外部记忆 + 结构化背压",
+      "url": "https://www.zerosync.co/blog/ralph-loop-technical-deep-dive"
+    }
+  ],
+  "https://x.com/austinit/status/2035014414102143033": [
+    {
+      "title": "Actionbook - Browser automation for AI agents",
+      "desc": "智能浏览器操作引擎，Rust CLI + 复用系统浏览器，支持 Claude Code/Cursor 等",
+      "url": "https://github.com/actionbook/actionbook"
+    }
+  ],
+  "https://github.com/MoonshotAI/Attention-Residuals": [
+    {
+      "title": "Attention Residuals (arXiv)",
+      "desc": "论文原文",
+      "url": "https://arxiv.org/abs/2603.15031"
+    }
+  ],
+  "https://github.com/nari-labs/dia": [
+    {
+      "title": "Dia2 - Nari Labs 下一代对话 TTS",
+      "desc": "Dia 的升级版本",
+      "url": "https://github.com/nari-labs/dia2"
+    }
+  ]
+}
+>>>>>>> Stashed changes
