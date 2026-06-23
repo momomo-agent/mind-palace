@@ -1,6 +1,6 @@
 {
   "meta": {
-    "syncedAt": "2026-06-23T12:22:39.873Z",
+    "syncedAt": "2026-06-23T12:24:17.529Z",
     "count": 2778
   },
   "themes": [
@@ -18092,8 +18092,8 @@
         "Addy Osmani 的浏览器内部工作原理深度文章，覆盖网络栈、HTML/CSS 解析、V8 JIT 多层编译、渲染流"
       ],
       "themes": [
-        "develop",
-        "article"
+        "article",
+        "develop"
       ]
     },
     {
