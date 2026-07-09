@@ -1,15 +1,17 @@
 {
   "meta": {
-    "syncedAt": "2026-06-23T12:26:53.567Z",
-    "count": 2778
+    "syncedAt": "2026-07-09T06:44:40.309Z",
+    "count": 2781
   },
   "themes": [
     {
       "id": "ai",
       "name": "AI",
       "color": "#6366f1",
-      "count": 1468,
+      "count": 1470,
       "items": [
+        1785760929,
+        1785760861,
         1762409579,
         1761090327,
         1761090070,
@@ -1484,8 +1486,9 @@
       "id": "develop",
       "name": "开发",
       "color": "#10b981",
-      "count": 1219,
+      "count": 1220,
       "items": [
+        1785760929,
         1770802771,
         1770802550,
         1770800053,
@@ -5235,8 +5238,10 @@
       "id": "render",
       "name": "渲染",
       "color": "#f97316",
-      "count": 289,
+      "count": 291,
       "items": [
+        1785760929,
+        1785760861,
         1743220693,
         1735497044,
         1735496931,
@@ -6147,8 +6152,9 @@
       "id": "其他",
       "name": "其他",
       "color": "#14b8a6",
-      "count": 32,
+      "count": 33,
       "items": [
+        1771804391,
         1727244980,
         1707650109,
         1637311687,
@@ -10660,6 +10666,7 @@
       "name": "AI · Develop",
       "color": "#7A6B8B",
       "members": [
+        1785760929,
         1752782326,
         1750373764,
         1737053798,
@@ -11010,7 +11017,7 @@
         469200214,
         184076073
       ],
-      "count": 349
+      "count": 350
     },
     {
       "id": "galaxy-296",
@@ -11999,8 +12006,21 @@
     },
     {
       "id": "galaxy-320",
-      "name": "Develop · OS",
+      "name": "AI · Render",
       "color": "#8B7A6E",
+      "members": [
+        1785760861,
+        1735496931,
+        1693806852,
+        1693573574,
+        1693573573
+      ],
+      "count": 5
+    },
+    {
+      "id": "galaxy-321",
+      "name": "Develop · OS",
+      "color": "#5A7A6B",
       "members": [
         537792560,
         537721658,
@@ -12014,9 +12034,9 @@
       "count": 8
     },
     {
-      "id": "galaxy-321",
+      "id": "galaxy-322",
       "name": "AI · Research",
-      "color": "#5A7A6B",
+      "color": "#8B8B5A",
       "members": [
         1707412542,
         1691607594,
@@ -12032,27 +12052,15 @@
       "count": 10
     },
     {
-      "id": "galaxy-322",
+      "id": "galaxy-323",
       "name": "Apple · Article",
-      "color": "#8B8B5A",
+      "color": "#5A8B7A",
       "members": [
         738037360,
         558770705,
         444889428
       ],
       "count": 3
-    },
-    {
-      "id": "galaxy-323",
-      "name": "AI · Render",
-      "color": "#5A8B7A",
-      "members": [
-        1735496931,
-        1693806852,
-        1693573574,
-        1693573573
-      ],
-      "count": 4
     },
     {
       "id": "galaxy-324",
@@ -12360,6 +12368,7 @@
       "name": "散星",
       "color": "#9C948A",
       "members": [
+        1771804391,
         1754542482,
         1733033775,
         1727244980,
@@ -12604,7 +12613,7 @@
         157288645,
         157288168
       ],
-      "count": 243
+      "count": 244
     }
   ],
   "bridges": [
@@ -17956,6 +17965,162 @@
     }
   ],
   "items": [
+    {
+      "_id": 1785760929,
+      "link": "https://github.com/InternRobotics/AnySplat",
+      "excerpt": "[SIGGRAPH Asia 2025 (ACM TOG)] AnySplat: Feed-forward 3D Gaussian Splatting from Unconstrained Views - InternRobotics/AnySplat",
+      "note": "AnySplat 官方代码库，SIGGRAPH Asia 2025",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://opengraph.githubassets.com/a44a2d97063106b4d5baf129bd288a8ac1d30f53757953b2123568baacc7bc53/InternRobotics/AnySplat",
+      "tags": [
+        "AI",
+        "Develop",
+        "Render"
+      ],
+      "removed": false,
+      "media": [
+        {
+          "type": "image",
+          "link": "https://opengraph.githubassets.com/a44a2d97063106b4d5baf129bd288a8ac1d30f53757953b2123568baacc7bc53/InternRobotics/AnySplat"
+        }
+      ],
+      "created": "2026-07-09T06:41:56.255Z",
+      "lastUpdate": "2026-07-09T06:41:56.255Z",
+      "domain": "github.com",
+      "title": "InternRobotics/AnySplat: [SIGGRAPH Asia 2025 (ACM TOG)] AnySplat: Feed-forward 3D Gaussian Splatting from Unconstrained Views",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1785760929,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "AnySplat 官方代码库，SIGGRAPH Asia 2025"
+      ],
+      "themes": [
+        "ai",
+        "render",
+        "develop"
+      ]
+    },
+    {
+      "_id": 1785760861,
+      "link": "https://city-super.github.io/anysplat/",
+      "excerpt": "",
+      "note": "AnySplat: feed-forward 3DGS，单次前向传播从无标定图像集重建3D高斯，同时预测相机位姿，支持稀疏到密集视图，SIGGRAPH Asia 2025",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://rdl.ink/render/https%3A%2F%2Fcity-super.github.io%2Fanysplat%2F",
+      "tags": [
+        "AI",
+        "Render"
+      ],
+      "removed": false,
+      "media": [],
+      "created": "2026-07-09T06:41:37.887Z",
+      "lastUpdate": "2026-07-09T06:41:37.887Z",
+      "domain": "city-super.github.io",
+      "title": "AnySplat: Feed-forward 3D Gaussian Splatting from Unconstrained Views",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1785760861,
+      "highlights": [],
+      "collectionId": -1,
+      "highlights_text": [
+        "AnySplat: feed-forward 3DGS，单次前向传播从无标定图像集重建3D高斯，同时预测相机位姿，支持稀"
+      ],
+      "themes": [
+        "ai",
+        "render"
+      ],
+      "summary": "单次前向传播从无标定图像重建 3D 高斯 + 相机位姿，稀疏/密集视图通吃，SIGGRAPH Asia 2025"
+    },
+    {
+      "_id": 1771804391,
+      "link": "https://www.olevod.tv/",
+      "title": "欧乐影院",
+      "excerpt": "欧乐影院－面向海外华人的在线视频媒体平台,海量高清视频在线观看",
+      "note": "",
+      "type": "link",
+      "user": {
+        "$ref": "users",
+        "$id": 457938
+      },
+      "cover": "https://static.olelive.com/upload/vod/20260611-1/e47606398637f3e19be749d61a7b4d5d.jpg",
+      "media": [
+        {
+          "link": "https://static.olelive.com/upload/vod/20260611-1/e47606398637f3e19be749d61a7b4d5d.jpg",
+          "type": "image"
+        },
+        {
+          "link": "https://static.olelive.com/uploads/file/0a934b3f6ebeba5bd3d0395dd87c4917_20260617210650.png",
+          "type": "image"
+        },
+        {
+          "link": "https://static.olelive.com/uploads/file/5f0359943c1645c672716cc403311627_20260528211323.JPG",
+          "type": "image"
+        },
+        {
+          "link": "https://static.olelive.com/upload/vod/20260615-1/3cf5eb80c91459d9506bc625b87786d7.jpg",
+          "type": "image"
+        },
+        {
+          "link": "https://static.olelive.com/upload/vod/20260610-1/6e4d2700c8ac7f3c3ef71a386cec9186.jpg",
+          "type": "image"
+        }
+      ],
+      "tags": [],
+      "important": false,
+      "reminder": {
+        "date": null
+      },
+      "removed": false,
+      "created": "2026-06-24T15:11:12.120Z",
+      "collection": {
+        "$ref": "collections",
+        "$id": -1,
+        "oid": -1
+      },
+      "highlights": [],
+      "lastUpdate": "2026-06-24T15:11:12.120Z",
+      "domain": "olevod.tv",
+      "creatorRef": {
+        "_id": 457938,
+        "name": "kenefe",
+        "avatar": "https://up.raindrop.io/user/avatars/457/938/icon.jpg",
+        "email": ""
+      },
+      "sort": 1771804391,
+      "collectionId": -1,
+      "highlights_text": [],
+      "themes": [
+        "其他"
+      ]
+    },
     {
       "_id": 1770802771,
       "link": "https://developer.chrome.com/docs/chromium/renderingng-architecture",
